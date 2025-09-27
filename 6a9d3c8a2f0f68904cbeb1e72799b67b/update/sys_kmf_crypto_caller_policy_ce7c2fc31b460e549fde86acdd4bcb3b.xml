@@ -3,8 +3,8 @@
         <active>true</active>
         <approval_type/>
         <check_script_hash>false</check_script_hash>
-        <crypto_module display_value="global.com_snc_integration_jdbc_glideencrypter">9c0beeb253323010366dddeeff7b12dc</crypto_module>
-        <crypto_spec display_value="com_snc_integration_jdbc_glideencrypter --- Symmetric Key Wrapping/Unwrapping">100beeb253323010366dddeeff7b12df</crypto_spec>
+        <crypto_module display_value="">9c0beeb253323010366dddeeff7b12dc</crypto_module>
+        <crypto_spec display_value="">100beeb253323010366dddeeff7b12df</crypto_spec>
         <granular_operation/>
         <identity_group_alias/>
         <impersonation>false</impersonation>

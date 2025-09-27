@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
     <par_dashboard action="INSERT_OR_UPDATE">
         <active>true</active>
+        <base_dashboard/>
         <certified>false</certified>
         <description>Dashboard for use by the OHSM application to display analytics for the various modules</description>
         <experience/>
@@ -10,6 +11,7 @@
         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-06-04 17:07:05</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>6d1651161bea8e149fde86acdd4bcb14</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Occupational Health and Safety Dashboard</sys_name>

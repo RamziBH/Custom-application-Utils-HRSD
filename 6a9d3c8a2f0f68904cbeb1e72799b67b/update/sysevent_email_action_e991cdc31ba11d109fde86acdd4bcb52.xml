@@ -7,12 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_hccc_hoc_ohs_investigation_case</collection>
-        <condition table="x_hccc_hoc_ohs_investigation_case">parentISEMPTY^hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^variables.aefce145fb3cae5095e5fb3f4eefdc31=no^EQ<item endquery="false" field="parent" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
-            <item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
-            <item endquery="false" field="variables.aefce145fb3cae5095e5fb3f4eefdc31" goto="false" newquery="false" operator="=" or="false" value="no"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_investigation_case">parentISEMPTY^hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^variables.aefce145fb3cae5095e5fb3f4eefdc31=no^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -25,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>antivirus.infected</event_name>
@@ -89,18 +88,18 @@
 </div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HoC - Incident reporting - OHSM advisor group  notification</name>
+        <name>HoC - Incident reporting - OHSM advisor </name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="CEH-HRS-OHS-Advisor">13e4414a2f4f68904cbeb1e72799b6f1</recipient_groups>
+        <recipient_groups>13e4414a2f4f68904cbeb1e72799b6f1</recipient_groups>
         <recipient_users/>
         <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Notification: Employee Workplace Incident Reporting / Avis: Rapport d'incident sur le lieu de travail des employés</subject>
+        <subject>Notification: Employee Workplace Incident Reporting / Avis: Rapport d'incident sur le lieu de travai</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>$mageaa</sys_created_by>

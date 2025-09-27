@@ -9,8 +9,8 @@
             <sys_id>8f358a923b46de14aeb1ebc964e45a40</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="c7edb57b0fa31010036a83fa68767ec5">863506de3b06de14aeb1ebc964e45a17</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="c7edb57b0fa31010036a83fa68767ec5">7235c2923b46de14aeb1ebc964e45a45</sys_ui_section>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="af5d783cc3d03210b0541c65e4013121">863506de3b06de14aeb1ebc964e45a17</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="af5d783cc3d03210b0541c65e4013121">7235c2923b46de14aeb1ebc964e45a45</sys_ui_section>
             <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-11-25 20:12:51</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>b635c2923b46de14aeb1ebc964e45a44</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="c7edb57b0fa31010036a83fa68767ec5">863506de3b06de14aeb1ebc964e45a17</sys_ui_form>
-            <sys_ui_section caption="Comments/Worknotes" display_value="Comments/Worknotes" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="c7edb57b0fa31010036a83fa68767ec5">5a35c2923b46de14aeb1ebc964e45a3e</sys_ui_section>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="af5d783cc3d03210b0541c65e4013121">863506de3b06de14aeb1ebc964e45a17</sys_ui_form>
+            <sys_ui_section caption="Comments/Worknotes" display_value="Comments/Worknotes" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="af5d783cc3d03210b0541c65e4013121">5a35c2923b46de14aeb1ebc964e45a3e</sys_ui_section>
             <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-11-25 20:12:49</sys_updated_on>
         </sys_ui_form_section>
@@ -47,7 +47,7 @@
             <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-11-25 20:12:46</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace UIB" name="workspace_uib">c7edb57b0fa31010036a83fa68767ec5</view>
+            <view display_value="Workspace UIB" name="workspace_uib">af5d783cc3d03210b0541c65e4013121</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

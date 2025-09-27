@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Field State Validation">c07d8ff71b380290813f844fdd4bcb20</copied_from>
         <description>Assert the following:
 The following fields are not visible: Initial review.Describe the imminent danger, Initial review.Explanation details, Initial review.Building, Initial review.Where, Initial review.Are precautionary measures required?, Initial review.Did the occurrence take place during travel?, Initial review.Did the occurrence take place in a location controlled by the employer?, Initial review.Has the complainant been properly identified?, Initial review.Has the process been explained to the complainant?, Initial review.Is there imminent danger?, Initial review.Manager's initial review notes:, Initial review.Precautionary measure implementation date, Initial review.Precautionary measures taken or to be taken, Initial review.Select the principal party and the responding party relationship:, Initial review.Specific location, Initial review.This occurrence has resulted in (select all that apply)

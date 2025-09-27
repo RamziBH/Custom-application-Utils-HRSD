@@ -9,6 +9,8 @@
         <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>true</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
         <is_extendable>false</is_extendable>
         <label>OHS Assessment Additional Information</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -31,7 +33,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-11-11 14:25:41</sys_updated_on>
         <update_access>true</update_access>
-        <user_role display_value="sn_hr_core.case_reader" name="sn_hr_core.case_reader">f65370019f22120047a2d126c42e705d</user_role>
+        <user_role display_value="">f65370019f22120047a2d126c42e705d</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>

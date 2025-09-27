@@ -34,6 +34,7 @@
         <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-07-27 23:06:57</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>5682470087c99d1050d2eca73cbb3506</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>HoC OHSM Create HR Task for HIRA item</sys_name>
@@ -42,10 +43,12 @@
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_hub_flow_5682470087c99d1050d2eca73cbb3506</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-11-09 08:14:55</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 15:39:24</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
+        <version_record/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=5682470087c99d1050d2eca73cbb3506"/>
     <sys_variable_value action="delete_multiple" query="document_key=5682470087c99d1050d2eca73cbb3506"/>
@@ -57,6 +60,7 @@
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
         <on_update>true</on_update>
+        <published_version/>
         <run_flow_in>background</run_flow_in>
         <run_on_extended>false</run_on_extended>
         <run_when_setting>both</run_when_setting>
@@ -66,17 +70,15 @@
         <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-08-02 13:53:22</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>7f5d7ffd8701595050d2eca73cbb355f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
         <table>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</table>
+        <trigger_definition/>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>false</active>
@@ -108,16 +110,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>5682470087c99d1050d2eca73cbb3506</id>
         <name>HoC OHSM Create HR Task for HIRA item</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-07-27 23:06:57</sys_created_on>
         <sys_id>a682470087c99d1050d2eca73cbb3508</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-07-27 23:06:57</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -382,24 +379,21 @@
         <comment/>
         <display_text/>
         <flow display_value="HoC OHSM Create HR Task for HIRA item">5682470087c99d1050d2eca73cbb3506</flow>
+        <generation_source/>
         <name>Created or Updated</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-07-27 23:08:13</sys_created_on>
         <sys_id>05d24b4087c99d1050d2eca73cbb35f3</sys_id>
         <sys_mod_count>12</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-08-02 14:22:10</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=05d24b4087c99d1050d2eca73cbb35f3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -463,14 +457,11 @@
         <sys_created_on>2022-07-27 23:16:45</sys_created_on>
         <sys_id>02c48b0487c99d1050d2eca73cbb35c9</sys_id>
         <sys_mod_count>30</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
         <sys_updated_on>2023-08-16 14:52:51</sys_updated_on>
         <ui_id>cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=02c48b0487c99d1050d2eca73cbb35c9"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -538,14 +529,11 @@ Comment: {{Created or Updated_1.current.comment}}
         <sys_created_on>2022-07-27 23:21:33</sys_created_on>
         <sys_id>9ce58f8487c99d1050d2eca73cbb354e</sys_id>
         <sys_mod_count>28</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
         <sys_updated_on>2023-08-16 14:52:51</sys_updated_on>
         <ui_id>38b42be5-5497-48e8-b800-836806d9eb16</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9ce58f8487c99d1050d2eca73cbb354e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -619,7 +607,6 @@ Comment: {{Created or Updated_1.current.comment}}
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5682470087c99d1050d2eca73cbb3506"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=5682470087c99d1050d2eca73cbb3506"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=5682470087c99d1050d2eca73cbb3506"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506^sys_idNOT IN4cd3bb411b3e06d8813f844fdd4bcbca,5cd3fb411b3e06d8813f844fdd4bcb1d,8cd3bb411b3e06d8813f844fdd4bcb6b"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
         <help/>
@@ -690,7 +677,6 @@ Comment: {{Created or Updated_1.current.comment}}
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5682470087c99d1050d2eca73cbb3506"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5682470087c99d1050d2eca73cbb3506"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -721,6 +707,7 @@ Comment: {{Created or Updated_1.current.comment}}
         <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-08-02 13:36:06</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>7269bf398701595050d2eca73cbb356f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
@@ -741,16 +728,11 @@ Comment: {{Created or Updated_1.current.comment}}
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>7269bf398701595050d2eca73cbb356f</id>
         <name>HoC OHSM Create HR Task for HIRA item</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-08-02 13:36:06</sys_created_on>
         <sys_id>f269bf398701595050d2eca73cbb3570</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-08-02 13:36:06</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -763,24 +745,21 @@ Comment: {{Created or Updated_1.current.comment}}
         <comment/>
         <display_text/>
         <flow display_value="HoC OHSM Create HR Task for HIRA item">7269bf398701595050d2eca73cbb356f</flow>
+        <generation_source/>
         <name>Created or Updated</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-08-02 13:36:07</sys_created_on>
         <sys_id>8369bf398701595050d2eca73cbb35a6</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-08-02 13:53:23</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8369bf398701595050d2eca73cbb35a6"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -830,14 +809,11 @@ Comment: {{Created or Updated_1.current.comment}}
         <sys_created_on>2022-08-02 13:36:07</sys_created_on>
         <sys_id>0f69bf398701595050d2eca73cbb359b</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
         <ui_id>cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0f69bf398701595050d2eca73cbb359b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -905,14 +881,11 @@ Comment: {{Created or Updated_1.current.comment}}
         <sys_created_on>2022-08-02 13:36:07</sys_created_on>
         <sys_id>cf69bf398701595050d2eca73cbb35a3</sys_id>
         <sys_mod_count>6</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
         <ui_id>38b42be5-5497-48e8-b800-836806d9eb16</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=cf69bf398701595050d2eca73cbb35a3"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -972,14 +945,13 @@ Comment: {{Created or Updated_1.current.comment}}
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=7269bf398701595050d2eca73cbb356f"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=7269bf398701595050d2eca73cbb356f"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=7269bf398701595050d2eca73cbb356f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7269bf398701595050d2eca73cbb356f"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7269bf398701595050d2eca73cbb356f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7269bf398701595050d2eca73cbb356f"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7269bf398701595050d2eca73cbb356f"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>5682470087c99d1050d2eca73cbb3506</sys_id>
         <latest_snapshot>7269bf398701595050d2eca73cbb356f</latest_snapshot>
         <compiler_build>glide-utah-12-21-2022__patch5-07-06-2023_07-23-2023_0036.zip</compiler_build>
+        <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5682470087c99d1050d2eca73cbb3506^sys_idNOT IN8769bf398701595050d2eca73cbb35be"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
@@ -987,18 +959,14 @@ Comment: {{Created or Updated_1.current.comment}}
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8769bf398701595050d2eca73cbb35be","name":"plan","plan_signature":null}}</plan>
         <plan_id>5682470087c99d1050d2eca73cbb3506</plan_id>
         <snapshot>1e8d73fb1b28b5109fde86acdd4bcb70</snapshot>
-        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-08-02 13:36:07</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>8769bf398701595050d2eca73cbb35be</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
         <trigger display_value="">7f5d7ffd8701595050d2eca73cbb355f</trigger>

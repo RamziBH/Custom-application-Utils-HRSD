@@ -24,6 +24,7 @@ Deactivated since the business rule isn't active anymore </description>
         <sys_update_name>sys_atf_test_1738a5eafb851e9095e5fb3f4eefdc24</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-10-07 19:54:21</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=1738a5eafb851e9095e5fb3f4eefdc24"/>
 </record_update>

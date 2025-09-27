@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ae65de1d1bbc4ad8813f844fdd4bcbc4" label="HoC OHS Options" max_length="40" name="x_hccc_hoc_ohs_options" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Generic Assessment Request Type" max_length="40" name="generic_assessment_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="javascript:gs.getMessage(&quot;x_hccc_hoc_ohs.please.select&quot;)" sequence="1" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="dommages matériels" language="fq" sequence="30" value="prop_damage"/>
+                <element inactive_on_update="false" label="Fuites d'eau" language="fq" sequence="20" value="water_leaks"/>
+                <element inactive_on_update="false" label="Projects - General" sequence="10" value="proj_general"/>
+                <element inactive_on_update="false" label="javascript:gs.getMessage(&quot;x_hccc_hoc_ohs.please.select&quot;)" language="fq" sequence="5" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Property Damage" sequence="30" value="prop_damage"/>
+                <element inactive_on_update="false" label="Water Leaks" sequence="20" value="water_leaks"/>
+                <element inactive_on_update="false" label="projets – Général" language="fq" sequence="10" value="proj_general"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Type of Request - Assessment Request" max_length="40" name="type_of_request_assessment_request" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Lighting Assessment" sequence="40" value="lighting"/>
+                <element inactive_on_update="false" label="Ergonomic Assessment" sequence="30" value="ergo"/>
+                <element inactive_on_update="false" label="d'analyse des contraintes cognitives ACC" language="fq" sequence="20" value="cda"/>
+                <element inactive_on_update="false" label="de qualité de l'air intérieur (QAI)" language="fq" sequence="60" value="iaq"/>
+                <element inactive_on_update="false" label="d'éclairage" language="fq" sequence="50" value="lighting"/>
+                <element inactive_on_update="false" label="Physical Demands Analysis (PDA)" sequence="10" value="pda"/>
+                <element inactive_on_update="false" label="javascript:gs.getMessage(&quot;x_hccc_hoc_ohs.please.select&quot;)" sequence="1" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="d'ergonomie" language="fq" sequence="30" value="ergo"/>
+                <element inactive_on_update="false" label="Cognitive Demands Analysis (CDA)" sequence="20" value="cda"/>
+                <element inactive_on_update="false" label="Indoor Air Quality Assessment" sequence="60" value="iaq"/>
+                <element inactive_on_update="false" label="Noise Assessment" sequence="50" value="noise"/>
+                <element inactive_on_update="false" label="d'évaluation du bruit" language="fq" sequence="40" value="noise"/>
+                <element inactive_on_update="false" label="demande d'analyse des contraintes physiques ACP" language="fq" sequence="10" value="pda"/>
+                <element inactive_on_update="false" label="javascript:gs.getMessage(&quot;x_hccc_hoc_ohs.please.select&quot;)" language="fq" sequence="5" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Report Type" max_length="40" name="report_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Spécifique au bâtiment" language="fq" sequence="20" value="building_spec"/>
+                <element inactive_on_update="false" label="Rapport d'entreprise" language="fq" sequence="10" value="corp_report"/>
+                <element inactive_on_update="false" label="javascript:gs.getMessage(&quot;x_hccc_hoc_ohs.please.select&quot;)" sequence="1" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Building Specific" sequence="20" value="building_spec"/>
+                <element inactive_on_update="false" label="Corporate Report" sequence="10" value="corp_report"/>
+                <element inactive_on_update="false" label="javascript:gs.getMessage(&quot;x_hccc_hoc_ohs.please.select&quot;)" language="fq" sequence="5" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" label="Yes/No" max_length="40" name="yes_no" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="javascript:gs.getMessage(&quot;x_hccc_hoc_ohs.please.select&quot;)" language="fq" sequence="5" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="javascript:gs.getMessage(&quot;x_hccc_hoc_ohs.please.select&quot;)" sequence="1" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="20" value="no"/>
+            </choice>
+        </element>
+    </element>
+</database>

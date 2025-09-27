@@ -3,17 +3,8 @@
         <active>true</active>
         <application display_value="HoC Occupational Health and Safety Manag">712efc8a2f0f68904cbeb1e72799b660</application>
         <assessment/>
-        <content_page/>
         <device_type/>
-        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^inc_type_occINdisab_injury,cons_lost,minor^ORinc_first_aid_req=yes^ORdoes_the_employee_now_require_modified_duties_as_a_result_of_this_injury=yes^ORdid_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury=yes^ORinc_related_illness=yes^ORinc_related_post_exp=yes^ORdid_this_incident_result_in_an_injury=yes^EQ<item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
-            <item display_value="disab_injury,cons_lost,minor" endquery="false" field="inc_type_occ" goto="false" newquery="false" operator="IN" or="false" value="disab_injury,cons_lost,minor"/>
-            <item display_value="Yes" endquery="false" field="inc_first_aid_req" goto="false" newquery="false" operator="=" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="does_the_employee_now_require_modified_duties_as_a_result_of_this_injury" goto="false" newquery="false" operator="=" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="did_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury" goto="false" newquery="false" operator="=" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="inc_related_illness" goto="false" newquery="false" operator="=" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="inc_related_post_exp" goto="false" newquery="false" operator="=" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="did_this_incident_result_in_an_injury" goto="false" newquery="false" operator="=" or="true" value="yes"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^inc_type_occINdisab_injury,cons_lost,minor^ORinc_first_aid_req=yes^ORdoes_the_employee_now_require_modified_duties_as_a_result_of_this_injury=yes^ORdid_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury=yes^ORinc_related_illness=yes^ORinc_related_post_exp=yes^ORdid_this_incident_result_in_an_injury=yes^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
         <homepage/>

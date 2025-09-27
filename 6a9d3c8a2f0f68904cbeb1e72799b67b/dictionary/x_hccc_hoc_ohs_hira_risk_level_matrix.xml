@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="437b1ff18768191050d2eca73cbb35fd" extends="dl_matcher" label="HIRA Risk Level Matrix" max_length="40" name="x_hccc_hoc_ohs_hira_risk_level_matrix" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Residual Risk Level" max_length="40" name="residual_risk_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="10" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="20" value="yellow"/>
+                <element inactive_on_update="false" label="Red" sequence="30" value="red"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Severity" mandatory="true" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2.Modéré - Blessures qui nécessitent des soins médicaux avec un retour au travail généralement dans" language="fq" value="2"/>
+                <element inactive_on_update="false" label=" " sequence="0" value=" "/>
+                <element inactive_on_update="false" label="3.Serious - Injuries that require medical attention with return to work likely after 3 days" value="3"/>
+                <element inactive_on_update="false" label="5.Fatal - Injuries that result in immediate death or subsequent death" value="5"/>
+                <element inactive_on_update="false" label="3.Sérieux - Blessures nécessitant des soins médicaux avec un retour au travail probable après 3 jour" language="fq" value="3"/>
+                <element inactive_on_update="false" label="5.Mortel - Blessures qui entraînent une mort immédiate ou une mort ultérieure" language="fq" value="5"/>
+                <element inactive_on_update="false" label="4.Major - Injuries that require medical attention with worker suffering long-term reduction in qual" value="4"/>
+                <element inactive_on_update="false" label="1.Mineur - Des blessures qui pourraient nécessiter des soins de premiers secours" language="fq" value="1"/>
+                <element inactive_on_update="false" label="1.Minor - Injuries that could require first aid treatment" value="1"/>
+                <element inactive_on_update="false" label="2.Moderate - Injuries that require medical attention with return to work generally within 3 days" value="2"/>
+                <element inactive_on_update="false" label="4.Majeur - Blessures nécessitant une attention médicale avec une réduction à long terme de la qualit" language="fq" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Likelihood" max_length="40" name="likelihood" type="choice">
+            <choice>
+                <element inactive_on_update="false" label=" " sequence="0" value=" "/>
+                <element inactive_on_update="false" label="4. Probablement - Cela s'est produit de temps en temps" language="fq" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="4. Likely - Has occurred occasionally" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="1.Remote - Occurrence almost impossible" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="5.Inevitable - Has occurred often and is expected" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="2.Hautement improbable - Événement postulé" language="fq" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3.Improbable - S'est produit rarement" language="fq" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="1. À distance - Occurrence presque impossible" language="fq" value="1"/>
+                <element inactive_on_update="false" label="2.Highly Unlikely - Postulated event" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3.Unlikely - Has occurred rarely" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="5.Inévitable - S'est souvent produit et est attendu" language="fq" sequence="5" value="5"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="56fea0f13b319a50aeb1ebc964e45aee" label="OHS Assessment Additional Information" max_length="40" name="x_hccc_hoc_ohs_ohs_assessment_info" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Was there Property Damage?" max_length="40" name="property_damage" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="20" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,no_sort=true,slushbucket_ref_no_expand=true" label="Root cause" max_length="1024" name="root_cause" reference="x_hccc_hoc_ohs_ohs_root_cause" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have designated substances been impacted?" max_length="40" name="designated_substances" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="20" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="10" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has there been environmental release?" max_length="40" name="environmental_release" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="20" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="20" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has 48 hrs lapsed with no corrective actions taken?" max_length="40" name="no_corrective_actions" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="20" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="20" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Specific Area" max_length="100" name="specific_area" type="string"/>
+        <index name="index">
+            <element name="parent_case"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="2" view="RPTdda36ac61b7f05509fde86acdd4bcb8e">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>b075c5b287bf451050d2eca73cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_for</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>3875c5b287bf451050d2eca73cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>department</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>b875c5b287bf451050d2eca73cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hr_service</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>3c75c5b287bf451050d2eca73cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_hazard_cat</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>bc75c5b287bf451050d2eca73cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>hazard_type</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>3075c5b287bf451050d2eca73cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>b075c5b287bf451050d2eca73cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inc_location</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>3475c5b287bf451050d2eca73cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="886d3c3cc3d03210b0541c65e4013132">7075c5b287bf451050d2eca73cbb359c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_id>b475c5b287bf451050d2eca73cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-03 23:45:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7075c5b287bf451050d2eca73cbb359c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_list_x_hccc_hoc_ohs_investigation_case_RPTdda36ac61b7f05509fde86acdd4bcb8e</sys_update_name>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-03 23:45:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptdda36ac61b7f05509fde86acdd4bcb8e" name="RPTdda36ac61b7f05509fde86acdd4bcb8e">886d3c3cc3d03210b0541c65e4013132</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

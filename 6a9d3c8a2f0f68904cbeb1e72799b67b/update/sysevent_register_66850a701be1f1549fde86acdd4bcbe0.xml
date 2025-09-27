@@ -3,7 +3,7 @@
         <caller_access>1</caller_access>
         <derived_priority>100</derived_priority>
         <description>Triggers notification to Manager for HIRA review</description>
-        <event_name>x_hccc_hoc_ohs.hira.due_to_review_manager</event_name>
+        <event_name>x_hccc_hoc_ohs.hira.due_to_review_manage</event_name>
         <fired_by>Scheduled Job</fired_by>
         <priority>100</priority>
         <queue/>

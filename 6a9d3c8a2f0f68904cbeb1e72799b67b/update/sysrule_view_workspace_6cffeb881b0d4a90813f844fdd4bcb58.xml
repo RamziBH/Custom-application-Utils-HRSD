@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view_workspace">
     <sysrule_view_workspace action="INSERT_OR_UPDATE">
         <active>true</active>
+        <advanced>false</advanced>
         <condition/>
         <default_tab_focus>Details</default_tab_focus>
         <default_tab_order>true</default_tab_order>
@@ -10,9 +11,10 @@
         <hide_details>false</hide_details>
         <hide_journal_input_fields>true</hide_journal_input_fields>
         <hide_section_menu>false</hide_section_menu>
-        <name>x_hccc_hoc_ohs_wellness_task - uib_workspace</name>
+        <name>x_hccc_hoc_ohs_wellness_task - uib_works</name>
         <order>100</order>
         <roles/>
+        <script/>
         <sys_class_name>sysrule_view_workspace</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-03-15 14:59:33</sys_created_on>
@@ -30,7 +32,7 @@
         <sys_updated_on>2024-03-15 15:00:30</sys_updated_on>
         <table>x_hccc_hoc_ohs_wellness_hr_task</table>
         <tabs_order>[{"label":"Details","value":"Details"},{"label":"Sibling Tasks","value":"REL:fa5330019f22120047a2d126c42e70f2"},{"label":"HR Document Acknowledgement","value":"REL:b25330019f22120047a2d126c42e70f2"},{"label":"E-signature history","value":"REL:c74fdc24b7672300a251e556ee11a904"},{"label":"Reminder-&gt;Task","value":"sn_hr_core_reminder.task"}]</tabs_order>
-        <view display_value="Workspace UIB" name="workspace_uib">c7edb57b0fa31010036a83fa68767ec5</view>
+        <view display_value="">c7edb57b0fa31010036a83fa68767ec5</view>
         <workspace/>
     </sysrule_view_workspace>
 </record_update>

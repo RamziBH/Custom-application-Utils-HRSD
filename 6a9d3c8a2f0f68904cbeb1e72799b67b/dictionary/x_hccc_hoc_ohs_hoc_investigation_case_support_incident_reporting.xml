@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="57d92c353b4f2e58aeb1ebc964e45a1f" label="HoC Investigation case Support - Incident Reporting" max_length="40" name="x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="hazard_category" dependent_on_field="hazard_category" label="Hazard Subcategory" max_length="40" name="hazard_subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="chemical" inactive_on_update="false" label="Sensibilisants" language="fq" sequence="300" value="sensitizers"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Acute Toxicity" sequence="700" value="acute_toxicity"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Vibration" language="fq" sequence="1900" value="vibration"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Mutagenic" sequence="200" value="mutagenic"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Corrosive" sequence="600" value="corrosive"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Noise" sequence="1800" value="noise"/>
+                <element dependent_value="explosion" inactive_on_update="false" label="Chimique" language="fq" sequence="2200" value="chemical"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Oxidizing" sequence="500" value="oxidizing"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Thermal" sequence="1700" value="thermal"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Laser" sequence="2100" value="laser"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Inflammable" language="fq" sequence="400" value="flammable"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Plante" language="fq" sequence="800" value="plant"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Electromagnetic interference" sequence="1600" value="electromagnetic_interference"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Radiation" sequence="2000" value="radiation"/>
+                <element inactive_on_update="false" label="Unknown" sequence="0" value="Unknown"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Microbiologique" language="fq" sequence="1000" value="microbiological"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Électrique" language="fq" sequence="1400" value="electrical"/>
+                <element dependent_value="explosion" inactive_on_update="false" label="Mécanique" language="fq" sequence="2300" value="mechanical"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Fiabilité humaine" language="fq" sequence="2700" value="human_reliability"/>
+                <element inactive_on_update="false" label="Mechanical or Chemical" sequence="0" value="Mechanical or Chemical"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Animal" language="fq" sequence="900" value="animal"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Mécanique" language="fq" sequence="1300" value="mechanical"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Cognitive" sequence="2600" value="cognitive"/>
+                <element inactive_on_update="false" label="Human Reliability" sequence="0" value="Human Reliability"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Cancérigène" language="fq" sequence="100" value="carcinogenic"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Plant" sequence="800" value="plant"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Environnement" language="fq" sequence="1200" value="environmental"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Social" language="fq" sequence="2500" value="social"/>
+                <element inactive_on_update="false" label="Varying" sequence="0" value="Varying"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Musculo-squelettique" language="fq" sequence="1100" value="musculoskeletal"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Organisation du travail" language="fq" sequence="2400" value="work_organization"/>
+                <element inactive_on_update="false" label="Carcinogenic, various" sequence="0" value="Carcinogenic, various"/>
+                <element inactive_on_update="false" label="Acute toxicity" sequence="0" value="Acute toxicity"/>
+                <element inactive_on_update="false" label="(various)" sequence="0" value="(various)"/>
+                <element inactive_on_update="false" label="Combustible dust" sequence="0" value="Combustible dust"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Mutagène" language="fq" sequence="200" value="mutagenic"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Corrosif" language="fq" sequence="600" value="corrosive"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Bruit" language="fq" sequence="1800" value="noise"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Carcinogenic" sequence="100" value="carcinogenic"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Oxydant" language="fq" sequence="500" value="oxidizing"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Thermique" language="fq" sequence="1700" value="thermal"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Laser" language="fq" sequence="2100" value="laser"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Flammable" sequence="400" value="flammable"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Interférence électromagnétique" language="fq" sequence="1600" value="electromagnetic_interference"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Radiation" language="fq" sequence="2000" value="radiation"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Sensitizers" sequence="300" value="sensitizers"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Toxicité aiguë" language="fq" sequence="700" value="acute_toxicity"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Magnetic" sequence="1500" value="magnetic"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Vibration" sequence="1900" value="vibration"/>
+                <element inactive_on_update="false" label="Other" sequence="0" value="Other"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Microbiological" sequence="1000" value="microbiological"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Electrical" sequence="1400" value="electrical"/>
+                <element dependent_value="explosion" inactive_on_update="false" label="Chemical" sequence="2200" value="chemical"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Cognitif" language="fq" sequence="2600" value="cognitive"/>
+                <element inactive_on_update="false" label="Irritant" sequence="0" value="Irritant"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Animal" sequence="900" value="animal"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Mechanical" sequence="1300" value="mechanical"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Social" sequence="2500" value="social"/>
+                <element inactive_on_update="false" label="Corrosive / Irritant" sequence="0" value="Corrosive / Irritant"/>
+                <element inactive_on_update="false" label="Work Organization" sequence="0" value="Work Organization"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Environmental" sequence="1200" value="environmental"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Work organization" sequence="2400" value="work_organization"/>
+                <element inactive_on_update="false" label="Various" sequence="0" value="Various"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Musculoskeletal" sequence="1100" value="musculoskeletal"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Magnétique" language="fq" sequence="1500" value="magnetic"/>
+                <element dependent_value="explosion" inactive_on_update="false" label="Mechanical" sequence="2300" value="mechanical"/>
+                <element inactive_on_update="false" label="Bodily Injury" sequence="0" value="Bodily Injury"/>
+                <element inactive_on_update="false" label="Acute or chronic illness" sequence="0" value="Acute or chronic illness"/>
+                <element inactive_on_update="false" label="Chronic illness" sequence="0" value="Chronic illness"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Hazard Category" max_length="40" name="hazard_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Biological" sequence="200" value="biological"/>
+                <element inactive_on_update="false" label="Chimique" language="fq" sequence="100" value="chemical"/>
+                <element inactive_on_update="false" label="Physique" language="fq" sequence="500" value="physical"/>
+                <element inactive_on_update="false" label="Explosion" language="fq" sequence="400" value="explosion"/>
+                <element inactive_on_update="false" label="Energy" sequence="300" value="energy"/>
+                <element inactive_on_update="false" label="Psychosocial" sequence="600" value="psychosocial"/>
+                <element inactive_on_update="false" label="Chemical" sequence="100" value="chemical"/>
+                <element inactive_on_update="false" label="Physical" sequence="500" value="physical"/>
+                <element inactive_on_update="false" label="Varying" sequence="0" value="Varying"/>
+                <element inactive_on_update="false" label="Explosion" sequence="400" value="explosion"/>
+                <element inactive_on_update="false" label="Énergie" language="fq" sequence="300" value="energy"/>
+                <element inactive_on_update="false" label="Biologique" language="fq" sequence="200" value="biological"/>
+                <element inactive_on_update="false" label="Psychosocial" language="fq" sequence="600" value="psychosocial"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent Case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_investigation_case" type="reference"/>
+        <element default="please select..." label="First aid was provided?" max_length="20" name="first_aid_provided" type="string"/>
+        <element label="Veuillez préciser la cause" max_length="40" name="please_specify_cause" type="string"/>
+        <index name="index">
+            <element name="parent_case"/>
+        </index>
+    </element>
+</database>

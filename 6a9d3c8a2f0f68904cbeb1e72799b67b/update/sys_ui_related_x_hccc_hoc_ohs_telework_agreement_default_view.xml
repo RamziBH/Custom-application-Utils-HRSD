@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_hccc_hoc_ohs_telework_agreement" version="2" view="default_view">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Telework Agreement - Default_view" name="x_hccc_hoc_ohs_telework_agreement" related_list="NULL" sys_domain="global" view="a1c40fe91be3e5d09fde86acdd4bcbd2">4613b2381bba4e109fde86acdd4bcb63</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_telework_agreement - Default_view" name="x_hccc_hoc_ohs_telework_agreement" related_list="NULL" sys_domain="global" view="a1c40fe91be3e5d09fde86acdd4bcbd2">4613b2381bba4e109fde86acdd4bcb63</list_id>
             <order_by/>
             <position>0</position>
             <related_list>sysapproval_approver.sysapproval</related_list>
@@ -16,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Telework Agreement - Default_view" name="x_hccc_hoc_ohs_telework_agreement" related_list="NULL" sys_domain="global" view="a1c40fe91be3e5d09fde86acdd4bcbd2">4613b2381bba4e109fde86acdd4bcb63</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_telework_agreement - Default_view" name="x_hccc_hoc_ohs_telework_agreement" related_list="NULL" sys_domain="global" view="a1c40fe91be3e5d09fde86acdd4bcbd2">4613b2381bba4e109fde86acdd4bcb63</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_hccc_hoc_ohs_telework_agreement_asset.telework_agreement</related_list>
@@ -29,7 +29,7 @@
             <sys_updated_on>2024-06-12 18:18:16</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Telework Agreement - Default_view</calculated_name>
+            <calculated_name>x_hccc_hoc_ohs_telework_agreement - Default_view</calculated_name>
             <filter/>
             <name>x_hccc_hoc_ohs_telework_agreement</name>
             <order_by/>

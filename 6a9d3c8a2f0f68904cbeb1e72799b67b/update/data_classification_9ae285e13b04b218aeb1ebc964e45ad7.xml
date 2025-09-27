@@ -2,11 +2,12 @@
     <data_classification action="INSERT_OR_UPDATE">
         <description>Insurance information.</description>
         <name>Insurance</name>
-        <parent display_value="Financial Information">b9b977461ba10218813f844fdd4bcb00</parent>
+        <parent display_value="">b9b977461ba10218813f844fdd4bcb00</parent>
         <sys_class_name>data_classification</sys_class_name>
         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-09-17 13:44:22</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>9ae285e13b04b218aeb1ebc964e45ad7</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Insurance</sys_name>

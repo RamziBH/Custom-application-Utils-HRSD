@@ -3,7 +3,7 @@
         <caller_access/>
         <derived_priority>200</derived_priority>
         <description>Triggers the H&amp;V notification to send email confirmation to the complainant</description>
-        <event_name>x_hccc_hoc_ohs.hv_complainant_notification</event_name>
+        <event_name>x_hccc_hoc_ohs.hv_complainant_notificati</event_name>
         <fired_by>HoC - H&amp;V - Trigger Notifications Business rule</fired_by>
         <priority>200</priority>
         <queue/>

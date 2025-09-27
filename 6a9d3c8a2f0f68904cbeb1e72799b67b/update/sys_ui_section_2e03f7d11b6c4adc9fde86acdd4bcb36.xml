@@ -2,6 +2,7 @@
     <sys_ui_section caption="" section_id="2e03f7d11b6c4adc9fde86acdd4bcb36" sys_domain="global" table="x_hccc_hoc_ohs_case" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-09-22 17:08:32</sys_created_on>
             <sys_id>b591674f3bc0f650aeb1ebc964e45a53</sys_id>
@@ -28,7 +29,7 @@ display:none !important;&#13;
             <sys_created_on>2025-09-22 17:08:32</sys_created_on>
             <sys_id>b991ef8f3bc0f650aeb1ebc964e45ad4</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="sn_hr_le_activity_set_progress_bar">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
+            <sys_ui_formatter display_value="">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="Default view">2e03f7d11b6c4adc9fde86acdd4bcb36</sys_ui_section>
             <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2025-09-22 17:08:32</sys_updated_on>

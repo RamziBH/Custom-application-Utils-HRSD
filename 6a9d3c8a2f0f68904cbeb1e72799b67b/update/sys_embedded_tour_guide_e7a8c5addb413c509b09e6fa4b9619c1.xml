@@ -11,8 +11,9 @@
         <options/>
         <roles/>
         <route_parameters/>
+        <sn_created>false</sn_created>
         <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
-        <sp_portal display_value="Service Portal (OLD)">419a6cd21b733340028598aebd4bcb7a</sp_portal>
+        <sp_portal display_value="">419a6cd21b733340028598aebd4bcb7a</sp_portal>
         <status>published</status>
         <sys_class_name>sys_embedded_tour_guide</sys_class_name>
         <sys_created_by>$mageaa</sys_created_by>
@@ -32,5 +33,4 @@
         <tour_id>TOUR Incident Report</tour_id>
         <type>service_portal</type>
     </sys_embedded_tour_guide>
-    <sys_translated_text action="delete_multiple" query="documentkey=e7a8c5addb413c509b09e6fa4b9619c1"/>
 </record_update>

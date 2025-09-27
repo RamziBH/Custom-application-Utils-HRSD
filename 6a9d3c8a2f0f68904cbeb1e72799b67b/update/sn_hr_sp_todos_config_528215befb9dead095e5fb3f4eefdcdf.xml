@@ -2,11 +2,7 @@
     <sn_hr_sp_todos_config action="INSERT_OR_UPDATE">
         <active>false</active>
         <applies_to>0</applies_to>
-        <condition table="x_hccc_hoc_ohs_hira_case">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateNOT IN3,300,7^NQmanager_nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateNOT IN3,300,7^EQ<item endquery="false" field="assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item display_value="3,300,7" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3,300,7"/>
-            <item endquery="false" field="manager_name" goto="false" newquery="true" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item display_value="3,300,7" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="3,300,7"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_hira_case">assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateNOT IN3,300,7^NQmanager_nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateNOT IN3,300,7^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <custom_detail/>
         <custom_title/>
@@ -22,6 +18,7 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-05-07 19:14:37</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>528215befb9dead095e5fb3f4eefdcdf</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>My HIRA Case (POC, reactivate if/when )</sys_name>
@@ -36,4 +33,5 @@
         <title_field>number</title_field>
         <title_type>fields</title_type>
     </sn_hr_sp_todos_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=528215befb9dead095e5fb3f4eefdcdf"/>
 </record_update>

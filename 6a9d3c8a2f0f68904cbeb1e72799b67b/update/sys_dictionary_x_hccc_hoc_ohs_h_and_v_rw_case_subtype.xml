@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="case_subtype" table="x_hccc_hoc_ohs_h_and_v_rw">
         <active>true</active>
         <array>false</array>
-        <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
+        <attributes>edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -51,7 +51,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-10-04 19:45:20</sys_created_on>
-        <sys_id>c7bb3fad1b115e502e79ba2d1e4bcba7</sys_id>
         <sys_name>Case subtype</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>

@@ -11,8 +11,9 @@
         <options/>
         <roles/>
         <route_parameters/>
+        <sn_created>false</sn_created>
         <sp_page display_value="sc_cat_item">9f12251147132100ba13a5554ee490f4</sp_page>
-        <sp_portal display_value="Service Portal (OLD)">419a6cd21b733340028598aebd4bcb7a</sp_portal>
+        <sp_portal display_value="">419a6cd21b733340028598aebd4bcb7a</sp_portal>
         <status>published</status>
         <sys_class_name>sys_embedded_tour_guide</sys_class_name>
         <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
@@ -32,5 +33,4 @@
         <tour_id>TOUR0000007</tour_id>
         <type>service_portal</type>
     </sys_embedded_tour_guide>
-    <sys_translated_text action="delete_multiple" query="documentkey=c9c4ed57db544910e3dd80c74b96190d"/>
 </record_update>

@@ -2,7 +2,6 @@
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
-        <additional_review>false</additional_review>
         <allow_edit>false</allow_edit>
         <availability>on_desktop</availability>
         <billable>false</billable>
@@ -10,7 +9,6 @@
         <category/>
         <checked_out/>
         <cost>0</cost>
-        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
@@ -52,7 +50,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Fouad Chehime">50bd629c1b1c42549fde86acdd4bcb34</owner>
+        <owner display_value="">50bd629c1b1c42549fde86acdd4bcb34</owner>
         <picture/>
         <post_insert_script/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=afde52021be00e109fde86acdd4bcb95&amp;sysparm_preview=true", "summary");</preview>
@@ -93,9 +91,6 @@
         <template/>
         <template_manager_roles/>
         <type>item</type>
-        <u_hoc_sc_service/>
-        <u_includes_additional_services/>
-        <u_other_additional_services/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <version>158</version>

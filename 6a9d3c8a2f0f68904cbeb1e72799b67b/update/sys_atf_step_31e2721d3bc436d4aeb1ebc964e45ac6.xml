@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from/>
         <description>Submit the Record Producer and confirm submission to server</description>
         <display_name>Submit Record Producer</display_name>
@@ -22,7 +23,7 @@
         <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
         <sys_updated_on>2025-09-17 03:15:11</sys_updated_on>
         <table/>
-        <test display_value="ATF Generated Test - Record Producer, Restart Service, Gad Dayan">b9e2321d3bc436d4aeb1ebc964e45a61</test>
+        <test display_value="">b9e2321d3bc436d4aeb1ebc964e45a61</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

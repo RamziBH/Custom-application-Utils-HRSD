@@ -2,6 +2,7 @@
     <sys_ui_section caption="Accident/Illness details" section_id="20d2589e1b399d509fde86acdd4bcb1d" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="Work_Related_Injury_or_Illness">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2022-09-09 21:24:40</sys_created_on>
             <sys_id>0111d5961bfd9d509fde86acdd4bcb71</sys_id>
@@ -13,6 +14,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2022-09-09 21:24:40</sys_created_on>
             <sys_id>4d11d5961bfd9d509fde86acdd4bcb70</sys_id>
@@ -24,6 +26,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2022-09-09 21:24:40</sys_created_on>
             <sys_id>8911d5961bfd9d509fde86acdd4bcb70</sys_id>
@@ -35,6 +38,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2022-09-09 21:24:39</sys_created_on>
             <sys_id>c511d5961bfd9d509fde86acdd4bcb70</sys_id>

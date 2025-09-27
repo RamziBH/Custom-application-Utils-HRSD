@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Record Insert">46c97fbc1ba5c254813f844fdd4bcb49</copied_from>
         <description>Insert a record into 'x_hccc_hoc_ohs_h_and_v_preventative_measures' with the following values:
 Senior director of labour relations agree with recommendations = No

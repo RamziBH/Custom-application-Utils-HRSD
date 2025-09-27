@@ -2,6 +2,7 @@
     <sys_ui_section caption="" section_id="3db2fd782f6764504cbeb1e72799b640" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="harassment_violence_complaint">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-04-15 20:12:43</sys_created_on>
             <sys_id>7f5d04bffb34661895e5fb3f4eefdcad</sys_id>
@@ -26,6 +27,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-04-15 20:12:43</sys_created_on>
             <sys_id>b75d04bffb34661895e5fb3f4eefdce0</sys_id>
@@ -52,7 +54,7 @@ display:none !important;&#13;
             <sys_created_on>2025-04-15 20:12:43</sys_created_on>
             <sys_id>775d44bffb34661895e5fb3f4eefdc3d</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="sn_hr_le_activity_set_progress_bar">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
+            <sys_ui_formatter display_value="">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">3db2fd782f6764504cbeb1e72799b640</sys_ui_section>
             <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2025-04-15 20:12:43</sys_updated_on>

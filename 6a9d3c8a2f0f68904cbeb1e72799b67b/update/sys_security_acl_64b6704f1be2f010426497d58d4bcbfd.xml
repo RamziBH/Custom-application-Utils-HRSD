@@ -5,6 +5,7 @@
         <advanced>false</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Field: Reportable to ESDC&#13;
 Allow write for reportable_to_esdc in x_hccc_hoc_ohs_investigation_case, for users with role x_hccc_hoc_ohs.advisor.</description>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="who_notified_the_respondent" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>who_notified_the_respondent</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-22 13:58:53</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>who_notified_the_respondent</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_who_notified_the_respondent</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>who_notified_the_respondent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Veuillez selectionner...</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-19 12:55:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>who_notified_the_respondent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select...</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-19 12:55:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>who_notified_the_respondent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manager</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-22 13:58:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>who_notified_the_respondent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gestionnaire</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-28 13:33:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>who_notified_the_respondent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Designated Recipient (RW)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-22 13:59:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2023-02-01 20:18:09</sys_updated_on>
+            <value>rw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>who_notified_the_respondent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Destinataire désigné (RMT)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-28 13:33:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2023-02-01 20:17:56</sys_updated_on>
+            <value>rw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>who_notified_the_respondent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manager and RW</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-22 13:59:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>manager_rw</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>who_notified_the_respondent</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gestionnaire et RMT</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-28 13:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>manager_rw</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

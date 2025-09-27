@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="parent_case" table="x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-07-30 13:54:21</sys_created_on>
-        <sys_id>b70fe4753b876e58aeb1ebc964e45a62</sys_id>
         <sys_name>Parent Case</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>

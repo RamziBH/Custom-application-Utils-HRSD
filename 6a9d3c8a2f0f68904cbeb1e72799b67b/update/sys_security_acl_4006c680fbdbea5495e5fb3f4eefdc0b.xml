@@ -5,6 +5,7 @@
         <advanced>false</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Allow query_range for hazard_category in x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting, for users with role public, and if users satisfy the conditions of the Security Attribute "UserIsAuthenticatedAndHasRightsToRead".</description>
         <local_or_existing>Existing</local_or_existing>

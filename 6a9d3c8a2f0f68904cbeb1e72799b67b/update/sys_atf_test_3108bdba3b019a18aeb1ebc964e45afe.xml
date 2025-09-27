@@ -25,6 +25,7 @@ References:&#13;
         <sys_update_name>sys_atf_test_3108bdba3b019a18aeb1ebc964e45afe</sys_update_name>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-11-08 15:30:57</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=3108bdba3b019a18aeb1ebc964e45afe"/>
 </record_update>

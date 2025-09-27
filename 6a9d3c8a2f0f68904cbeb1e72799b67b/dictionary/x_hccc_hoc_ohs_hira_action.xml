@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="56f327521b40ca90813f844fdd4bcbc4" label="HIRA Action" max_length="40" name="x_hccc_hoc_ohs_hira_action" type="collection">
+        <element label="Work notes" max_length="4000" name="work_notes" type="journal_input"/>
+        <element label="Implementation due date" max_length="40" name="implementation_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" dependent="comments,work_notes" dependent_on_field="comments,work_notes" label="Comments and Work notes" max_length="4000" name="comments_and_work_notes" type="journal_list" use_dependent_field="true"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal_input"/>
+        <element attributes="close_states=3;4,edge_encryption_enabled=true,​default_close_state=3,​default_work_state=2" choice="3" default="1" label="State" max_length="40" name="state" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Implementé" language="fq" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Implementation en cours" language="fq" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="En attende d'action" language="fq" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Annulé" language="fq" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Implementation in progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Waiting for action" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Implemented" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Is this currently implemented?" max_length="40" name="is_this_currently_implemented" type="boolean"/>
+        <element display="true" label="Short description" mandatory="true" max_length="300" name="short_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Implemented on" max_length="40" name="implemented_on" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent Hazard" mandatory="true" max_length="32" name="parent_hazard" reference="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" reference_qual="stateIN10,20^EQ" reference_qual_condition="stateIN10,20^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,ignore_filter_on_new=true,ts_weight=50" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" unique="true" use_dynamic_default="true"/>
+        <index name="index" unique="true">
+            <element name="number"/>
+        </index>
+        <index name="index2">
+            <element name="parent_hazard"/>
+        </index>
+    </element>
+</database>

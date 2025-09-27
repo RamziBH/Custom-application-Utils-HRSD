@@ -48,14 +48,12 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_hccc_base_option">x_hccc_base_option</reference>
+        <reference display_value="">x_hccc_base_option</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>yes_no=yes^ORyes_no=no^EQ</reference_qual>
-        <reference_qual_condition table="x_hccc_base_option">yes_no=yes^ORyes_no=no^EQ<item display_value="Yes" endquery="false" field="yes_no" goto="false" newquery="false" operator="=" or="false" value="yes"/>
-            <item display_value="No" endquery="false" field="yes_no" goto="false" newquery="false" operator="=" or="true" value="no"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <reference_qual_condition table="x_hccc_base_option">yes_no=yes^ORyes_no=no^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
         <spell_check>false</spell_check>

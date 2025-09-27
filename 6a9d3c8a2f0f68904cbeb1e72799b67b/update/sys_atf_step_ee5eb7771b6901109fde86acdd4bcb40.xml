@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Impersonate">e6ad7bf31b6901109fde86acdd4bcb6d</copied_from>
         <description>Impersonate the user: Vax, HoCOHSPersona with user Id: HoCOHSPersona.Vax@parlissi.gc.ca</description>
         <display_name>Impersonate</display_name>

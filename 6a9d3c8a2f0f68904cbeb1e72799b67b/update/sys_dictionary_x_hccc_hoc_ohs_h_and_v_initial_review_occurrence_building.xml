@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="occurrence_building" table="x_hccc_hoc_ohs_h_and_v_initial_review">
         <active>true</active>
         <array>false</array>
-        <attributes>encode_utf8=false</attributes>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -35,7 +35,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_wsd_core_building">sn_wsd_core_building</reference>
+        <reference display_value="">sn_wsd_core_building</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-03-05 21:21:25</sys_created_on>
-        <sys_id>f6791f101b51869478230d47dc4bcb52</sys_id>
         <sys_name>Building</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>

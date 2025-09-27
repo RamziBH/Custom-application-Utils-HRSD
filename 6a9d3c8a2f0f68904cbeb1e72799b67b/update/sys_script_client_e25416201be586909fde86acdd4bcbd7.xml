@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>For new record, define the default values for HIRA</name>
+        <name>For new record, define the default value</name>
         <order/>
         <script><![CDATA[/* global g_user */
 function onLoad() {

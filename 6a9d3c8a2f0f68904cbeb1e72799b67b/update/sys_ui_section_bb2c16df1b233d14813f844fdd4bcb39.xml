@@ -2,6 +2,7 @@
     <sys_ui_section caption="Case information" section_id="bb2c16df1b233d14813f844fdd4bcb39" sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="3" view="harassment_violence_complaint">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2024-01-05 21:49:13</sys_created_on>
             <sys_id>319ea0f91baf71d49fde86acdd4bcbc4</sys_id>
@@ -9,10 +10,11 @@
             <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-01-05 21:49:13</sys_updated_on>
             <text>Occurence details</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2024-01-05 21:49:13</sys_created_on>
             <sys_id>359ea0f91baf71d49fde86acdd4bcbc3</sys_id>
@@ -24,6 +26,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2024-01-05 21:49:13</sys_created_on>
             <sys_id>719ea0f91baf71d49fde86acdd4bcbc3</sys_id>
@@ -31,10 +34,11 @@
             <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-01-05 21:49:13</sys_updated_on>
             <text>Submitter information</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2024-01-05 21:49:13</sys_created_on>
             <sys_id>7d9ea0f91baf71d49fde86acdd4bcbc3</sys_id>
@@ -42,10 +46,11 @@
             <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-01-05 21:49:13</sys_updated_on>
             <text>General details</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2024-01-05 21:49:13</sys_created_on>
             <sys_id>b99ea0f91baf71d49fde86acdd4bcbc3</sys_id>
@@ -53,10 +58,11 @@
             <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-01-05 21:49:13</sys_updated_on>
             <text>Respondent information</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2024-01-05 21:49:13</sys_created_on>
             <sys_id>f59ea0f91baf71d49fde86acdd4bcbc3</sys_id>
@@ -64,7 +70,7 @@
             <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-01-05 21:49:13</sys_updated_on>
             <text>Complainant information</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>719ea0f91baf71d49fde86acdd4bcbc3</element>

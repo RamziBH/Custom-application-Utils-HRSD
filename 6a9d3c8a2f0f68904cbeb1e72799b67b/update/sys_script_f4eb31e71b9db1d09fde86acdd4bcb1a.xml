@@ -15,13 +15,11 @@
         <condition/>
         <description>When a manager is assigned a HIRA workflow, we must make sure that manager's department gets assigned to the HIRA as well</description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_hccc_hoc_ohs_investigation_case">manager_nameVALCHANGES^hr_service=3fb664a08754515050d2eca73cbb35f1^EQ<item endquery="false" field="manager_name" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item display_table="sn_hr_core_service" display_value="Hazard Investigation and Risk Assessment" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="3fb664a08754515050d2eca73cbb35f1"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">manager_nameVALCHANGES^hr_service=3fb664a08754515050d2eca73cbb35f1^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>HoC - HIRA - Assign department to case when manager is assigned (Obsolete)</name>
+        <name>HoC - HIRA - Assign department to case w</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>

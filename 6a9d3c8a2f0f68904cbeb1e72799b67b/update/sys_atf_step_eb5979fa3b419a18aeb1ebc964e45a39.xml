@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="UI Action Visibility">b1a6d3011bc5c214813f844fdd4bcbc8</copied_from>
         <description>Confirm that the following UI actions are visible: Close Case, Initial Review Completed
 With a failure timeout of 5 Seconds</description>

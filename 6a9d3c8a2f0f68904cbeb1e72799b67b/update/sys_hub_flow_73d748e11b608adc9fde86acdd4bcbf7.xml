@@ -34,6 +34,7 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-23 17:24:20</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>73d748e11b608adc9fde86acdd4bcbf7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>HoC OHS Wellness</sys_name>
@@ -42,22 +43,23 @@
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_hub_flow_73d748e11b608adc9fde86acdd4bcbf7</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-11-09 08:14:56</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 15:39:25</sys_updated_on>
         <type>flow</type>
+        <updation_source/>
         <version>1</version>
+        <version_record/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=73d748e11b608adc9fde86acdd4bcbf7"/>
     <sys_variable_value action="delete_multiple" query="document_key=73d748e11b608adc9fde86acdd4bcbf7"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_hccc_hoc_ohs_case">state=18^hr_service=72f913ea1b8846909fde86acdd4bcbd3<item display_value="Work in progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="18"/>
-            <item display_table="sn_hr_core_service" display_value="Wellness" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="72f913ea1b8846909fde86acdd4bcbd3"/>
-        </condition>
+        <condition table="x_hccc_hoc_ohs_case">state=18^hr_service=72f913ea1b8846909fde86acdd4bcbd3</condition>
         <name/>
         <on_delete>false</on_delete>
         <on_insert>true</on_insert>
         <on_update>true</on_update>
+        <published_version/>
         <run_flow_in>background</run_flow_in>
         <run_on_extended>false</run_on_extended>
         <run_when_setting>both</run_when_setting>
@@ -67,17 +69,15 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-23 18:53:12</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>1d3c542d1b248adc9fde86acdd4bcb31</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-02-23 18:53:12</sys_updated_on>
         <table>x_hccc_hoc_ohs_case</table>
+        <trigger_definition/>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -98,16 +98,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>73d748e11b608adc9fde86acdd4bcbf7</id>
         <name>HoC OHS Wellness</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-23 17:24:20</sys_created_on>
         <sys_id>ffd748e11b608adc9fde86acdd4bcbf7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-02-23 17:24:20</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -372,24 +367,21 @@
         <comment/>
         <display_text/>
         <flow display_value="HoC OHS Wellness">73d748e11b608adc9fde86acdd4bcbf7</flow>
+        <generation_source/>
         <name>Created or Updated</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-23 18:53:02</sys_created_on>
         <sys_id>872c502d1b248adc9fde86acdd4bcb62</sys_id>
         <sys_mod_count>24</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-03-15 15:15:06</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=872c502d1b248adc9fde86acdd4bcb62"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -439,14 +431,11 @@
         <sys_created_on>2024-02-28 15:14:13</sys_created_on>
         <sys_id>560ad9831be00a909fde86acdd4bcb7b</sys_id>
         <sys_mod_count>36</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2025-07-15 10:17:01</sys_updated_on>
         <ui_id>4328893b-d2dc-46ff-9d6a-7715ae255a0a</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=560ad9831be00a909fde86acdd4bcb7b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -533,14 +522,11 @@
         <sys_created_on>2024-02-23 18:27:04</sys_created_on>
         <sys_id>a63694e91be08adc9fde86acdd4bcb27</sys_id>
         <sys_mod_count>78</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2025-07-15 10:17:01</sys_updated_on>
         <ui_id>c62f3532-2474-4a59-88ab-7d46c8855d51</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a63694e91be08adc9fde86acdd4bcb27"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -605,14 +591,11 @@
         <sys_created_on>2024-02-23 18:27:04</sys_created_on>
         <sys_id>ea3694e91be08adc9fde86acdd4bcb2e</sys_id>
         <sys_mod_count>78</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2025-07-15 10:17:01</sys_updated_on>
         <ui_id>45080c58-1edf-4d34-aa74-736c70cfa890</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ea3694e91be08adc9fde86acdd4bcb2e"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -690,7 +673,6 @@
         <ui_id>da2db257-a5a4-4903-b0ec-f33664ad2a76</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=73d748e11b608adc9fde86acdd4bcbf7"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_73d748e11b608adc9fde86acdd4bcbf7^sys_idNOT IN872c502d1b248adc9fde86acdd4bcb4f,a23694e91be08adc9fde86acdd4bcb1d,ee3694e91be08adc9fde86acdd4bcb19"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>changed_fields</element>
         <help/>
@@ -761,7 +743,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_73d748e11b608adc9fde86acdd4bcbf7"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_73d748e11b608adc9fde86acdd4bcbf7"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_73d748e11b608adc9fde86acdd4bcbf7"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -792,6 +773,7 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-23 18:48:01</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>6d0b98291b248adc9fde86acdd4bcb01</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name/>
@@ -812,16 +794,11 @@
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
         <id>6d0b98291b248adc9fde86acdd4bcb01</id>
         <name>HoC OHS Wellness</name>
-        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-23 18:48:01</sys_created_on>
         <sys_id>2d0b98291b248adc9fde86acdd4bcb02</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-02-23 18:48:01</sys_updated_on>
     </sys_flow_cat_variable_model>
@@ -1086,24 +1063,21 @@
         <comment/>
         <display_text/>
         <flow display_value="HoC OHS Wellness">6d0b98291b248adc9fde86acdd4bcb01</flow>
+        <generation_source/>
         <name>Created or Updated</name>
         <remote_sys_id/>
-        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-23 18:48:02</sys_created_on>
         <sys_id>790bd8291b248adc9fde86acdd4bcb7b</sys_id>
         <sys_mod_count>21</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-03-15 15:15:06</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
+        <updation_source/>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=790bd8291b248adc9fde86acdd4bcb7b"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1181,14 +1155,11 @@
         <sys_created_on>2024-02-28 15:17:33</sys_created_on>
         <sys_id>4bcadd871be00a909fde86acdd4bcb93</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-03-15 15:15:05</sys_updated_on>
         <ui_id>4328893b-d2dc-46ff-9d6a-7715ae255a0a</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=4bcadd871be00a909fde86acdd4bcb93"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1261,14 +1232,11 @@
         <sys_created_on>2024-02-23 18:48:02</sys_created_on>
         <sys_id>710bd8291b248adc9fde86acdd4bcb7a</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-03-15 15:15:04</sys_updated_on>
         <ui_id>45080c58-1edf-4d34-aa74-736c70cfa890</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=710bd8291b248adc9fde86acdd4bcb7a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1342,14 +1310,11 @@
         <sys_created_on>2024-02-23 18:48:02</sys_created_on>
         <sys_id>750bd8291b248adc9fde86acdd4bcb66</sys_id>
         <sys_mod_count>26</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-03-15 15:15:04</sys_updated_on>
         <ui_id>c62f3532-2474-4a59-88ab-7d46c8855d51</ui_id>
+        <updation_source/>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=750bd8291b248adc9fde86acdd4bcb66"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1418,7 +1383,6 @@
         <ui_id>da2db257-a5a4-4903-b0ec-f33664ad2a76</ui_id>
     </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=6d0b98291b248adc9fde86acdd4bcb01"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_6d0b98291b248adc9fde86acdd4bcb01^sys_idNOT IN0d3c142d1b248adc9fde86acdd4bcb76,6d0bd8291b248adc9fde86acdd4bcb50,bd0bd8291b248adc9fde86acdd4bcb58"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>changed_fields</element>
         <help/>
@@ -1489,12 +1453,12 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_6d0b98291b248adc9fde86acdd4bcb01"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_6d0b98291b248adc9fde86acdd4bcb01"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_6d0b98291b248adc9fde86acdd4bcb01"/>
     <sys_hub_flow action="UPDATE">
         <sys_id>73d748e11b608adc9fde86acdd4bcbf7</sys_id>
         <latest_snapshot>6d0b98291b248adc9fde86acdd4bcb01</latest_snapshot>
         <compiler_build>glide-xanadu-07-02-2024__patch10-08-08-2025_08-21-2025_1913.zip</compiler_build>
+        <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=73d748e11b608adc9fde86acdd4bcbf7^sys_idNOT IN390bd8291b248adc9fde86acdd4bcbcd"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
@@ -1502,18 +1466,14 @@
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"390bd8291b248adc9fde86acdd4bcbcd","name":"plan","plan_signature":null}}</plan>
         <plan_id>73d748e11b608adc9fde86acdd4bcbf7</plan_id>
         <snapshot>c5bde2fcfbbaae1c95e5fb3f4eefdc38</snapshot>
-        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-23 18:48:03</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>390bd8291b248adc9fde86acdd4bcbcd</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-03-15 15:15:05</sys_updated_on>
         <trigger display_value="">1d3c542d1b248adc9fde86acdd4bcb31</trigger>

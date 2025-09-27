@@ -33,7 +33,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Gendron, Luc (AZ)">874439a71bfbf410c6c7a8ecbc4bcbcd</created_by_user>
+        <created_by_user display_value="">874439a71bfbf410c6c7a8ecbc4bcbcd</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -48,8 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>covid19_vaccine_completed,user,user.x_hccc_base_user_type,last_dose_received,vaccine_review_outcome,sys_created_on,sys_updated_on,sys_created_by,u_manager</field_list>
-        <filter table="sn_imt_vaccine_vaccine_profile">vaccine_review_outcome=not_yet_reviewed<item display_value="Not yet reviewed" endquery="false" field="vaccine_review_outcome" goto="false" newquery="false" operator="=" or="false" value="not_yet_reviewed"/>
-        </filter>
+        <filter table="sn_imt_vaccine_vaccine_profile">vaccine_review_outcome=not_yet_reviewed</filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -159,5 +158,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=648bd4ba1b8a411078230d47dc4bcbc9"/>
 </record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
-        <group_id display_value="CEH-HRS-OHS-Admin" name="CEH-HRS-OHS-Admin">f825414a2f4f68904cbeb1e72799b6bb</group_id>
+        <group_id display_value="">f825414a2f4f68904cbeb1e72799b6bb</group_id>
         <report_id display_value="2024 Vaccination Clinic - Vaccinations by Employee Group by Date">d1126d393bda1a5caeb1ebc964e45ad7</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>

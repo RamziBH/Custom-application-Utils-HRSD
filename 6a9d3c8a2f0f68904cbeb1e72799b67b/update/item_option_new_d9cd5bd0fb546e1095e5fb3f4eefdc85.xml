@@ -32,8 +32,10 @@
 <p>Attach the documents from your health care professional(s) to your request. In the documents, make sure to hide any mention of a medical diagnosis or treatment as this information is not needed to receive an accommodation. Your manager may need more information depending on your request, but everything you share is kept private and safe, following privacy laws. </p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
+        <lookup_dependent_question/>
         <lookup_label/>
         <lookup_price/>
+        <lookup_source/>
         <lookup_table/>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
@@ -106,8 +108,6 @@
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
         <write_roles/>
-        <x_hccc_dfsa_erp_u_simple_name_values_1/>
-        <x_hccc_dfsa_erp_u_translated_text_2/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=d9cd5bd0fb546e1095e5fb3f4eefdc85"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

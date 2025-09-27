@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=b745a0501b53ac10ea0eda02dd4bcb4b^EQ<item display_table="sn_hr_core_service" display_value="Refusal of dangerous work" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="b745a0501b53ac10ea0eda02dd4bcb4b"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=b745a0501b53ac10ea0eda02dd4bcb4b^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <group/>
         <last_used/>

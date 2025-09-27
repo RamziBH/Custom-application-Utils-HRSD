@@ -2,6 +2,7 @@
     <sys_ui_section caption="Accident/Illness dates and details" section_id="373c56131b633d14813f844fdd4bcbee" sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="3" view="Work_Related_Injury_or_Illness">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2023-10-10 19:00:09</sys_created_on>
             <sys_id>059504751b79b9509fde86acdd4bcb7b</sys_id>
@@ -13,6 +14,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2023-10-10 19:00:09</sys_created_on>
             <sys_id>419504751b79b9509fde86acdd4bcb7b</sys_id>
@@ -26,6 +28,7 @@ If you had a gradual onset type of injury, describe your injury, the work that y
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2023-10-10 19:00:09</sys_created_on>
             <sys_id>859504751b79b9509fde86acdd4bcbad</sys_id>
@@ -37,6 +40,7 @@ If you had a gradual onset type of injury, describe your injury, the work that y
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2023-10-10 19:00:09</sys_created_on>
             <sys_id>c59504751b79b9509fde86acdd4bcb7b</sys_id>

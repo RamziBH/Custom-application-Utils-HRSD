@@ -2,11 +2,12 @@
     <data_classification action="INSERT_OR_UPDATE">
         <description>Information pertaining to a work-related event during which an injury, ill  health (regardless of severity) or a fatality occurred or could have occurred. An accident is a particular type of incident during which an injury or illness actually occurs.</description>
         <name>Occupational Health and Safety Incident</name>
-        <parent display_value="HoC Protected">38e8bb421ba10218813f844fdd4bcb42</parent>
+        <parent display_value="">38e8bb421ba10218813f844fdd4bcb42</parent>
         <sys_class_name>data_classification</sys_class_name>
         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-09-17 13:08:30</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>c1ba70e13bc47218aeb1ebc964e45a9d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Occupational Health and Safety Incident</sys_name>

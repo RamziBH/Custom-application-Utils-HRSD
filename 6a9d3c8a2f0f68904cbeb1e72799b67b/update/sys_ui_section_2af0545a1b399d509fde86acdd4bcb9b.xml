@@ -2,6 +2,7 @@
     <sys_ui_section caption="" section_id="2af0545a1b399d509fde86acdd4bcb9b" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="Work_Related_Injury_or_Illness">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2023-10-10 19:00:05</sys_created_on>
             <sys_id>338580751b79b9509fde86acdd4bcbf8</sys_id>
@@ -28,6 +29,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2023-10-10 19:00:05</sys_created_on>
             <sys_id>bb8580751b79b9509fde86acdd4bcbf8</sys_id>
@@ -54,7 +56,7 @@ display:none !important;&#13;
             <sys_created_on>2023-10-10 19:00:05</sys_created_on>
             <sys_id>c895c0751b79b9509fde86acdd4bcb36</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="sn_hr_le_activity_set_progress_bar">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
+            <sys_ui_formatter display_value="">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">2af0545a1b399d509fde86acdd4bcb9b</sys_ui_section>
             <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2023-10-10 19:00:05</sys_updated_on>

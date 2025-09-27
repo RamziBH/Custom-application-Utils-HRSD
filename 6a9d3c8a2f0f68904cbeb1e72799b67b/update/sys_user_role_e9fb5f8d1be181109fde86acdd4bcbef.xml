@@ -4,10 +4,8 @@
         <can_delegate>true</can_delegate>
         <description>Users with this Role can view any of the HoC OHS Management Application's records</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
-        <limit_concurrent_sessions>false</limit_concurrent_sessions>
         <name>x_hccc_hoc_ohs.view</name>
         <scoped_admin>false</scoped_admin>
         <suffix>view</suffix>

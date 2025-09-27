@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Open a Record in List">18859ad38721111850d2eca73cbb3588</copied_from>
         <description>Open the record '{{Step 23: Click a UI Action.Record}}' in the 'x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment.hira_case' related list on the 'HoC Investigation case ' form</description>
         <display_name>Open a Record in List</display_name>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="likelihood" table="x_hccc_hoc_ohs_hira_risk_level_matrix" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>likelihood</element>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 15:00:00</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>likelihood</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_hira_risk_level_matrix_likelihood</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1. À distance - Occurrence presque impossible</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-03 03:25:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 13:43:15</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label> </label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-08-30 17:35:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-08-30 17:35:36</sys_updated_on>
+            <value> </value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1.Remote - Occurrence almost impossible</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 15:00:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 03:22:42</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2.Hautement improbable - Événement postulé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-03 13:46:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 13:46:40</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2.Highly Unlikely - Postulated event</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 15:00:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 03:15:53</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3.Improbable - S'est produit rarement</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-03 13:47:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 13:47:29</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3.Unlikely - Has occurred rarely</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 15:00:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 03:15:57</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4. Probablement - Cela s'est produit de temps en temps</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-03 13:48:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 13:48:02</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4. Likely - Has occurred occasionally</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 15:00:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 03:16:02</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5.Inevitable - Has occurred often and is expected</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 15:00:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 03:16:07</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>likelihood</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5.Inévitable - S'est souvent produit et est attendu</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_risk_level_matrix</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-03 13:48:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-03 13:48:29</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

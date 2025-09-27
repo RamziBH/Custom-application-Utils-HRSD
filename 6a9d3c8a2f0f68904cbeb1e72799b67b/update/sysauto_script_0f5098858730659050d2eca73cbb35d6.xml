@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>false</active>
+        <advanced>false</advanced>
         <business_calendar/>
         <condition><![CDATA[//only run Jan 1
 
 //var gdt = new GlideDateTime();
 //gdt.getMonthLocalTime() == 1;]]></condition>
         <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
         <entered_time/>
         <max_drift/>
         <name>HoC - OHSM LAB1058 Data Collector</name>
         <offset/>
         <offset_type>0</offset_type>
+        <repeat_every/>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
         <run_period/>
         <run_start>2023-02-01 22:37:52</run_start>
         <run_time>1970-01-01 09:00:00</run_time>
         <run_type>on_demand</run_type>
+        <run_weekinmonth/>
         <script><![CDATA[//Inactive as was replaced by the annual report run request workflow and flow actions
 var strComplaintType = '5227b08f2f4b60d04cbeb1e72799b659'; //HR Service for Internal Complaints
 var strRefusalType = 'b745a0501b53ac10ea0eda02dd4bcb4b'; //HR Service for Refusal To WOrk

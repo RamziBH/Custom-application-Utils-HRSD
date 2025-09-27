@@ -4,10 +4,8 @@
         <can_delegate>true</can_delegate>
         <description>HR Service: Workplace Assessment Request (WAR)</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
-        <limit_concurrent_sessions>false</limit_concurrent_sessions>
         <name>x_hccc_hoc_ohs.WAR_Support</name>
         <scoped_admin>false</scoped_admin>
         <suffix>WAR_Support</suffix>

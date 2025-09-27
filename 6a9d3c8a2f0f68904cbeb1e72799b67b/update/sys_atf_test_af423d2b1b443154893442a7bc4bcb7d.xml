@@ -27,6 +27,7 @@ Validates the following:&#13;
         <sys_update_name>sys_atf_test_af423d2b1b443154893442a7bc4bcb7d</sys_update_name>
         <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-01-22 14:06:00</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=af423d2b1b443154893442a7bc4bcb7d"/>
 </record_update>

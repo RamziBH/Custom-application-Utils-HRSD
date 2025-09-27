@@ -23,4 +23,18 @@
         <widget/>
         <widget_param/>
     </ticket_tab_configuration>
+    <sys_translated_text action="delete_multiple" query="documentkey=7be050741b6f0a109fde86acdd4bcbc3"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>7be050741b6f0a109fde86acdd4bcbc3</documentkey>
+        <fieldname>tab_name</fieldname>
+        <language>fq</language>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-23 17:54:18</sys_created_on>
+        <sys_id>a70927af3b5d5214aeb1ebc964e45a13</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-23 19:41:07</sys_updated_on>
+        <tablename>ticket_tab_configuration</tablename>
+        <value>Pièces jointes</value>
+    </sys_translated_text>
 </record_update>

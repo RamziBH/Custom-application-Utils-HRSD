@@ -5,6 +5,7 @@
         <advanced>false</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Allow write for all fields in x_hccc_hoc_ohs_telework_agreement, for users with role x_hccc_hoc_ohs.telework_agreement_user.</description>
         <local_or_existing>Local</local_or_existing>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="366154411b3c82d49fde86acdd4bcb4a" label="H and V Mediation" max_length="40" name="x_hccc_hoc_ohs_h_and_v_mediation" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the complainant agree with the chosen mediator?" max_length="40" name="agreed_on_the_mediator" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Mediation agreement shared with?" max_length="1000" name="mediation_agreement_shared_with" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Date de fin de la médiation" max_length="40" name="mediation_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Mediation outcome" max_length="4000" name="mediation_outcome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Proposed mediator" max_length="4000" name="proposed_mediator" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Does the principal party agree with the chosen mediator" max_length="40" name="does_the_complainant_agree_with_the_chosen_mediator" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Mediation start date" max_length="40" name="mediation_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Manager's mediation notes" max_length="4000" name="mediation_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_investigation_case" type="reference"/>
+        <index name="index">
+            <element name="parent_case"/>
+        </index>
+    </element>
+</database>

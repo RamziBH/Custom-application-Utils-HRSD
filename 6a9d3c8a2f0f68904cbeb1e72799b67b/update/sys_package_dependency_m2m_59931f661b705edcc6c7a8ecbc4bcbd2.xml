@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Walk-up Experience" source="sn_walkup">1da803b9b3b10300f686a72256a8dcbc</dependency>
+        <dependency display_value="">1da803b9b3b10300f686a72256a8dcbc</dependency>
         <min_version>1.12.2</min_version>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-18 18:17:53</sys_created_on>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_hccc_hoc_ohs_investigation_case">hr_service=b745a0501b53ac10ea0eda02dd4bcb4b^ORhr_service=5227b08f2f4b60d04cbeb1e72799b659^ORhr_service=66f3752a2f5f24104cbeb1e72799b6e7^EQ<item display_table="sn_hr_core_service" display_value="Refusal of dangerous work" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="b745a0501b53ac10ea0eda02dd4bcb4b"/>
-            <item display_table="sn_hr_core_service" display_value="Internal Safety Complaint" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="5227b08f2f4b60d04cbeb1e72799b659"/>
-            <item display_table="sn_hr_core_service" display_value="Workplace Investigation Report on Refusal to Work " endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="66f3752a2f5f24104cbeb1e72799b6e7"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <conditions table="x_hccc_hoc_ohs_investigation_case">hr_service=b745a0501b53ac10ea0eda02dd4bcb4b^ORhr_service=5227b08f2f4b60d04cbeb1e72799b659^ORhr_service=66f3752a2f5f24104cbeb1e72799b6e7^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
         <global>true</global>

@@ -31,8 +31,10 @@
         <instructions/>
         <layout>normal</layout>
         <list_table>x_hccc_base_option</list_table>
+        <lookup_dependent_question/>
         <lookup_label>name</lookup_label>
         <lookup_price/>
+        <lookup_source/>
         <lookup_table>x_hccc_base_option</lookup_table>
         <lookup_unique>false</lookup_unique>
         <lookup_value>u_area_of_injury</lookup_value>
@@ -99,8 +101,6 @@
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
         <write_roles/>
-        <x_hccc_dfsa_erp_u_simple_name_values_1/>
-        <x_hccc_dfsa_erp_u_translated_text_2/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=6097e1462f83a8904cbeb1e72799b61d"/>
     <fx_price action="delete_multiple" query="id=6097e1462f83a8904cbeb1e72799b61d"/>

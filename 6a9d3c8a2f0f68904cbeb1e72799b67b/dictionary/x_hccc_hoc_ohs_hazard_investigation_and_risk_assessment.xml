@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9d0857fd8728191050d2eca73cbb354e" label="HIRA Hazard" max_length="40" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="hazard_category" dependent_on_field="hazard_category" label="Hazard Subcategory" max_length="40" name="hazard_subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Corrosive / Irritant" sequence="0" value="Corrosive / Irritant"/>
+                <element inactive="true" inactive_on_update="true" label="Work Organization" sequence="0" value="Work Organization"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Thermique" language="fq" sequence="1700" value="thermal"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Laser" language="fq" sequence="2100" value="laser"/>
+                <element inactive="true" inactive_on_update="true" label="Chronic illness" sequence="0" value="Chronic illness"/>
+                <element inactive="true" inactive_on_update="true" label="Various" sequence="0" value="Various"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Interférence électromagnétique" language="fq" sequence="1600" value="electromagnetic_interference"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Radiation" language="fq" sequence="2000" value="radiation"/>
+                <element inactive="true" inactive_on_update="true" label="Bodily Injury" sequence="0" value="Bodily Injury"/>
+                <element inactive="true" inactive_on_update="true" label="Other" sequence="0" value="Other"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Vibration" language="fq" sequence="1900" value="vibration"/>
+                <element inactive="true" inactive_on_update="true" label="Irritant" sequence="0" value="Irritant"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Noise" sequence="1800" value="noise"/>
+                <element dependent_value="explosion" inactive_on_update="false" label="Chimique" language="fq" sequence="2200" value="chemical"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Oxidizing" sequence="500" value="oxidizing"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Environmental" sequence="1200" value="environmental"/>
+                <element inactive="true" inactive_on_update="true" label="Acute or chronic illness" sequence="0" value="Acute or chronic illness"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Flammable" sequence="400" value="flammable"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Plant" sequence="800" value="plant"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Musculo-squelettique" language="fq" sequence="1100" value="musculoskeletal"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Magnétique" language="fq" sequence="1500" value="magnetic"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Sensibilisants" language="fq" sequence="300" value="sensitizers"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Acute Toxicity" sequence="700" value="acute_toxicity"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Microbiological" sequence="1000" value="microbiological"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Électrique" language="fq" sequence="1400" value="electrical"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Mutagène" language="fq" sequence="200" value="mutagenic"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Corrosif" language="fq" sequence="600" value="corrosive"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Animal" language="fq" sequence="900" value="animal"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Mécanique" language="fq" sequence="1300" value="mechanical"/>
+                <element dependent_value="explosion" inactive_on_update="false" label="Mechanical" sequence="2300" value="mechanical"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Cognitive" sequence="2600" value="cognitive"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Social" language="fq" sequence="2500" value="social"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Work organization" sequence="2400" value="work_organization"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Fiabilité humaine" language="fq" sequence="2700" value="human_reliability"/>
+                <element inactive="true" inactive_on_update="true" label="Combustible dust" sequence="0" value="Combustible dust"/>
+                <element inactive="true" inactive_on_update="true" label="Varying" sequence="0" value="Varying"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Electromagnetic interference" sequence="1600" value="electromagnetic_interference"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Radiation" sequence="2000" value="radiation"/>
+                <element inactive="true" inactive_on_update="true" label="Carcinogenic, various" sequence="0" value="Carcinogenic, various"/>
+                <element inactive="true" inactive_on_update="true" label="Unknown" sequence="0" value="Unknown"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Vibration" sequence="1900" value="vibration"/>
+                <element inactive="true" inactive_on_update="true" label="Mechanical or Chemical" sequence="0" value="Mechanical or Chemical"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Bruit" language="fq" sequence="1800" value="noise"/>
+                <element dependent_value="explosion" inactive_on_update="false" label="Chemical" sequence="2200" value="chemical"/>
+                <element inactive="true" inactive_on_update="true" label="Human Reliability" sequence="0" value="Human Reliability"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Cancérigène" language="fq" sequence="100" value="carcinogenic"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Thermal" sequence="1700" value="thermal"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Laser" sequence="2100" value="laser"/>
+                <element inactive="true" inactive_on_update="true" label="Acute toxicity" sequence="0" value="Acute toxicity"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Inflammable" language="fq" sequence="400" value="flammable"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Musculoskeletal" sequence="1100" value="musculoskeletal"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Magnetic" sequence="1500" value="magnetic"/>
+                <element inactive="true" inactive_on_update="true" label="(various)" sequence="0" value="(various)"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Sensitizers" sequence="300" value="sensitizers"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Toxicité aiguë" language="fq" sequence="700" value="acute_toxicity"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Microbiologique" language="fq" sequence="1000" value="microbiological"/>
+                <element dependent_value="energy" inactive_on_update="false" label="Electrical" sequence="1400" value="electrical"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Mutagenic" sequence="200" value="mutagenic"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Corrosive" sequence="600" value="corrosive"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Animal" sequence="900" value="animal"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Mechanical" sequence="1300" value="mechanical"/>
+                <element dependent_value="explosion" inactive_on_update="false" label="Mécanique" language="fq" sequence="2300" value="mechanical"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Carcinogenic" sequence="100" value="carcinogenic"/>
+                <element dependent_value="chemical" inactive_on_update="false" label="Oxydant" language="fq" sequence="500" value="oxidizing"/>
+                <element dependent_value="biological" inactive_on_update="false" label="Plante" language="fq" sequence="800" value="plant"/>
+                <element dependent_value="physical" inactive_on_update="false" label="Environnement" language="fq" sequence="1200" value="environmental"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Social" sequence="2500" value="social"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Organisation du travail" language="fq" sequence="2400" value="work_organization"/>
+                <element dependent_value="psychosocial" inactive_on_update="false" label="Cognitif" language="fq" sequence="2600" value="cognitive"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="likelihood" choice_table="x_hccc_hoc_ohs_hira_risk_level_matrix" label="Likelihood" max_length="40" name="likelihood" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label=" " sequence="5" value=" "/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Consequence(s)" max_length="2000" name="consequence" type="string"/>
+        <element label="Recommended Action by OHS" max_length="2000" name="recommended_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="HIRA Case" mandatory="true" max_length="32" name="hira_case" reference="x_hccc_hoc_ohs_hira_case" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="severity" choice_table="x_hccc_hoc_ohs_hira_risk_level_matrix" label="Mitigated Severity" max_length="40" name="mitigated_severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label=" " sequence="5" value=" "/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+            </choice>
+        </element>
+        <element label="Référence réglementaire" max_length="2000" name="regulatory_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Hazard Category" max_length="40" name="hazard_category" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Chemicals" sequence="0" value="Chemicals"/>
+                <element inactive_on_update="false" label="Biologique" language="fq" sequence="200" value="biological"/>
+                <element inactive_on_update="false" label="Psychosocial" language="fq" sequence="600" value="psychosocial"/>
+                <element inactive_on_update="false" label="Chimique" language="fq" sequence="100" value="chemical"/>
+                <element inactive_on_update="false" label="Explosion" language="fq" sequence="500" value="explosion"/>
+                <element inactive_on_update="false" label="Energy" sequence="400" value="energy"/>
+                <element inactive="true" inactive_on_update="true" label="Physical/Biological" sequence="0" value="Physical/Biological"/>
+                <element inactive_on_update="false" label="Physique" language="fq" sequence="300" value="physical"/>
+                <element inactive="true" inactive_on_update="true" label="Chemical/Biological" sequence="0" value="Chemical/Biological"/>
+                <element inactive_on_update="false" label="Chemical" sequence="100" value="chemical"/>
+                <element inactive_on_update="false" label="Explosion" sequence="500" value="explosion"/>
+                <element inactive="true" inactive_on_update="true" label="Varying" sequence="0" value="Varying"/>
+                <element inactive_on_update="false" label="Énergie" language="fq" sequence="400" value="energy"/>
+                <element inactive_on_update="false" label="Physical" sequence="300" value="physical"/>
+                <element inactive="true" inactive_on_update="true" label="Hazard Combination" sequence="0" value="Hazard Combination"/>
+                <element inactive_on_update="false" label="Biological" sequence="200" value="biological"/>
+                <element inactive_on_update="false" label="Psychosocial" sequence="600" value="psychosocial"/>
+            </choice>
+        </element>
+        <element label="Work Task &amp; Description" mandatory="true" max_length="2000" name="work_task_description" type="string"/>
+        <element label="Hazard Description" max_length="2000" name="hazard_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Frequency" max_length="40" name="frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Occasional" sequence="2" value="occasional"/>
+                <element inactive_on_update="false" label="Rare" language="fq" sequence="300" value="infrequent"/>
+                <element inactive_on_update="false" label="Continuous" sequence="0" value="continuous"/>
+                <element inactive_on_update="false" label="Continuous" language="fq" sequence="100" value="continuous"/>
+                <element inactive_on_update="false" label="Occasionnel" language="fq" sequence="400" value="occasional"/>
+                <element inactive_on_update="false" label="Frequent" sequence="1" value="frequent"/>
+                <element inactive_on_update="false" label="Fréquent" language="fq" sequence="200" value="frequent"/>
+                <element inactive_on_update="false" label="Infrequent" sequence="3" value="infrequent"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="likelihood" choice_table="x_hccc_hoc_ohs_hira_risk_level_matrix" label="Mitigated Likelihood" max_length="40" name="mitigated_likelihood" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label=" " sequence="0" value=" "/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="severity" choice_table="x_hccc_hoc_ohs_hira_risk_level_matrix" label="Severity" max_length="40" name="severity" type="choice">
+            <choice>
+                <element inactive_on_update="false" label=" " sequence="5" value=" "/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Contrôles présentes" max_length="2000" name="controls_present" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="residual_risk_level" choice_table="x_hccc_hoc_ohs_hira_risk_level_matrix" dependent="mitigated_severity" dependent_on_field="mitigated_severity" label="Intrinsic Risk Level" max_length="40" name="risk_level" read_only="true" type="choice" use_dependent_field="true">
+            <choice>
+                <element inactive_on_update="false" label="Red" sequence="2" value="red"/>
+                <element inactive_on_update="false" label="Green" sequence="0" value="green"/>
+                <element inactive_on_update="false" label="Yellow" sequence="1" value="yellow"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="residual_risk_level" choice_table="x_hccc_hoc_ohs_hira_risk_level_matrix" label="Niveau de risque résiduel" max_length="40" name="residual_risk_assessment" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Green" sequence="0" value="green"/>
+                <element inactive_on_update="false" label="Red" sequence="2" value="red"/>
+                <element inactive_on_update="false" label="Yellow" sequence="1" value="yellow"/>
+            </choice>
+        </element>
+        <element label="Historical Information" max_length="4000" name="action_history" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="10" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Archived" sequence="300" value="300"/>
+                <element inactive="true" inactive_on_update="true" label="Under Review" sequence="100" value="100"/>
+                <element inactive_on_update="false" label="Documentation completed" sequence="2" value="20"/>
+                <element inactive="true" inactive_on_update="true" label="Accepted" sequence="200" value="200"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="30"/>
+                <element inactive_on_update="false" label="Documenting" sequence="1" value="10"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="hira_case"/>
+        </index>
+    </element>
+</database>

@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Change WHSC decision list for Safety complaint</name>
+        <name>Change WHSC decision list for Safety com</name>
         <order/>
         <script><![CDATA[function onLoad() {
 

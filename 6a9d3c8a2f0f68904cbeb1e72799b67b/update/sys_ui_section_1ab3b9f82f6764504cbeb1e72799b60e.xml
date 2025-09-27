@@ -2,6 +2,7 @@
     <sys_ui_section caption="Case Information" section_id="1ab3b9f82f6764504cbeb1e72799b60e" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="harassment_violence_complaint">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-04-15 20:13:16</sys_created_on>
             <sys_id>3f7d8073fb74661895e5fb3f4eefdc26</sys_id>
@@ -9,10 +10,11 @@
             <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
             <text>${gs.getMessage("x_hccc_hoc_ohs.general_details")}</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-04-15 20:13:16</sys_created_on>
             <sys_id>7b7d8073fb74661895e5fb3f4eefdc26</sys_id>
@@ -20,10 +22,11 @@
             <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
             <text>${gs.getMessage("x_hccc_hoc_ohs.respondent_information")}</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-04-15 20:13:16</sys_created_on>
             <sys_id>b77d8073fb74661895e5fb3f4eefdc26</sys_id>
@@ -31,10 +34,11 @@
             <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
             <text>${gs.getMessage("x_hccc_hoc_ohs.complainant_information")}</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-04-15 20:13:16</sys_created_on>
             <sys_id>bb7d8073fb74661895e5fb3f4eefdc25</sys_id>
@@ -42,10 +46,11 @@
             <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
             <text>${gs.getMessage("x_hccc_hoc_ohs.submitter_information")}</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-04-15 20:13:16</sys_created_on>
             <sys_id>f37d8073fb74661895e5fb3f4eefdc26</sys_id>
@@ -57,6 +62,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-04-15 20:13:16</sys_created_on>
             <sys_id>ff7d8073fb74661895e5fb3f4eefdc26</sys_id>
@@ -64,7 +70,7 @@
             <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
             <text>${gs.getMessage("x_hccc_hoc_ohs.occurrence_details")}</text>
-            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+            <type display_value="">0d030c92233b1010fb0c949e27bf65e1</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>bb7d8073fb74661895e5fb3f4eefdc25</element>

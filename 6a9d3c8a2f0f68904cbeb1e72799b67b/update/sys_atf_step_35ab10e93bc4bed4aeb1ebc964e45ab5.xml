@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from/>
         <description>Answer the questions on the form as follows:
 Request type = New DRM User</description>
@@ -23,7 +24,7 @@ Request type = New DRM User</description>
         <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
         <sys_updated_on>2025-09-17 10:52:51</sys_updated_on>
         <table/>
-        <test display_value="ATF Generated Test - Service Catalog, Documentum (DRM), Gad Dayan">a9ab5c693bc4bed4aeb1ebc964e45a5e</test>
+        <test display_value="">a9ab5c693bc4bed4aeb1ebc964e45a5e</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

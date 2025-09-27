@@ -5,6 +5,7 @@
         <advanced>false</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Allow read for manager_name in x_hccc_hoc_ohs_telework_agreement, for users with roles (x_hccc_hoc_ohs.telework_agreement_servicearea_readonly, x_hccc_hoc_ohs.telework_agreement_asset_user, x_hccc_hoc_ohs.telework_agreement_user, x_hccc_hoc_ohs.telework_agreement_readonly).</description>
         <local_or_existing>Local</local_or_existing>

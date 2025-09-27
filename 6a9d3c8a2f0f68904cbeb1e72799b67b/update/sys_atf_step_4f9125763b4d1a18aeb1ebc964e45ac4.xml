@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
+        <callable_outputs/>
         <copied_from display_value="Record Validation">6123b448dbe00110e3dd80c74b9619a2</copied_from>
         <description>Validate record from table 'x_hccc_hoc_ohs_investigation_case' matches the following condition:
 HR Service = Employee Workplace Incident Reporting

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Field State Validation">4006eb661be78ad89fde86acdd4bcb8f</copied_from>
         <description>Assert the following:
 The following fields are not visible: Negotiated Resolution.Principal party agrees it meets the definition, Negotiated Resolution.Principal party agrees the occurrence was resolved through negotiated resolution, Negotiated Resolution.Has the email notification been sent to the responding party?, Negotiated Resolution.Has the responding party been notified?, Negotiated Resolution.Manager's negotiated resolution notes:, Negotiated Resolution.Negotiated resolution outcome:, Negotiated Resolution.Supporting details by principal party, Negotiated Resolution.Was the negotiated resolution successful?, Negotiated Resolution.When was the responding party notified (date/time)?, Negotiated Resolution.Who is the employer representative, Negotiated Resolution.Who notified the responding party?

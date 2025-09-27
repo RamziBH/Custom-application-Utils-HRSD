@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="party_relationship" table="x_hccc_hoc_ohs_h_and_v_initial_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>party_relationship</element>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:30</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>party_relationship</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_h_and_v_initial_review_party_relationship</sys_update_name>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-05 21:21:30</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select...</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:53:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:53:26</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Veuillez sélectionner...</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:53:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:54:33</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Employé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:54:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:54:39</sys_updated_on>
+            <value>Employee / Employee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Employee</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:53:29</sys_updated_on>
+            <value>Employee / Employee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Superviseur, Gestionnaire, Propriétaire d'entreprise</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:56:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:56:19</sys_updated_on>
+            <value>Employee / Supervisor, Manager, Business Owner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Supervisor, Manager, Business Owner</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:55:52</sys_updated_on>
+            <value>Employee / Supervisor, Manager, Business Owner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Superviseur, Gestionnaire, Propriétaire d'entreprise / Employé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:59:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:59:30</sys_updated_on>
+            <value>Supervisor, Manager, Business Owner / Employee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supervisor, Manager, Business Owner / Employee</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:59:13</sys_updated_on>
+            <value>Supervisor, Manager, Business Owner / Employee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Third Party, Client, Contractor, Public</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 15:00:41</sys_updated_on>
+            <value>Employee / Third Party, Client, Contractor, Public</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Tiers, Client, Prestataire, Public</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 15:00:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 15:01:20</sys_updated_on>
+            <value>Employee / Third Party, Client, Contractor, Public</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Domestic Partner</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:53:37</sys_updated_on>
+            <value>Employee / Domestic Partner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Partenaire domestique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 15:01:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 15:01:57</sys_updated_on>
+            <value>Employee / Domestic Partner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Other</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:53:39</sys_updated_on>
+            <value>Employee / Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Autre</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 15:02:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 15:02:29</sys_updated_on>
+            <value>Employee / Other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

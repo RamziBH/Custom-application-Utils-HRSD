@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
+        <callable_outputs/>
         <copied_from display_value="Submit a Form">650b54931bae4e90813f844fdd4bcb69</copied_from>
         <description>Submit the current form and confirm form submitted to server</description>
         <display_name>Submit a Form</display_name>

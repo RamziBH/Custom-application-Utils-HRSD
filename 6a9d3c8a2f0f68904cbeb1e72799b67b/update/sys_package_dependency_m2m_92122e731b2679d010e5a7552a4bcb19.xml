@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="HoC Global - CMDB" source="3f7198921b1511d09fde86acdd4bcb55">3f7198921b1511d09fde86acdd4bcb55</dependency>
+        <dependency display_value="">3f7198921b1511d09fde86acdd4bcb55</dependency>
         <min_version>1.20231121.1</min_version>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2023-11-23 18:18:56</sys_created_on>

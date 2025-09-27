@@ -7,13 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_hccc_hoc_ohs_investigation_case</collection>
-        <condition table="x_hccc_hoc_ohs_investigation_case">stateCHANGESTO105^emp_agreeLIKENo^emp_agree_2LIKEYes^hr_serviceLIKEInternal Safety Complaint^EQ<item display_value="Investigation Complete - Sent to ESDC" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="105"/>
-            <item display_value="No" endquery="false" field="emp_agree" goto="false" newquery="false" operator="LIKE" or="false" value="No"/>
-            <item display_value="Yes" endquery="false" field="emp_agree_2" goto="false" newquery="false" operator="LIKE" or="false" value="Yes"/>
-            <item endquery="false" field="hr_service" goto="false" newquery="false" operator="LIKE" or="false" value="Internal Safety Complaint"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_investigation_case">stateCHANGESTO105^emp_agreeLIKENo^emp_agree_2LIKEYes^hr_serviceLIKEInternal Safety Complaint^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -26,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>antivirus.infected</event_name>
@@ -45,7 +43,7 @@
 <p>Employee agrees with the recommendations WHSC Committee decision on the Internal Safety complaint ${number} submitted by ${subject_person}</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HOC - OHSM SafetyComplaint S2 Employee Agrees - yes </name>
+        <name>HOC - OHSM SafetyComplaint S2 Employee A</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>

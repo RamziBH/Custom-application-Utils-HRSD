@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from/>
         <description>Confirm that the following variables are visible: Requested for, Department, Phone, Location, Request type, Please indicate the parliamentary institution and service area (if applicable) where the employee works, The departure date has been confirmed, label01, Last day present in the workplace, Last paid date, Type of Departure, As part of a workplace recognition initiative, a personalized letter from the Clerk of the House Administration is sent to all retiring employees. By checking this box, you confirm that a letter of recognition should be sent to this employee., Please confirm your employee's preferred language English, Does this position currently have employees reporting to it?, For any additional comments, please use the comment box below.
 Confirm that the following variables are mandatory: Requested for, Request type
@@ -25,7 +26,7 @@ With a failure timeout of 30 Seconds</description>
         <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
         <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
         <table/>
-        <test display_value="ATF Generated Test - Service Catalog, HoC- Employee Departure, Gad Dayan">1554fda53b08b618aeb1ebc964e45a48</test>
+        <test display_value="">1554fda53b08b618aeb1ebc964e45a48</test>
         <timeout>1970-01-01 00:00:30</timeout>
         <warning_message/>
     </sys_atf_step>

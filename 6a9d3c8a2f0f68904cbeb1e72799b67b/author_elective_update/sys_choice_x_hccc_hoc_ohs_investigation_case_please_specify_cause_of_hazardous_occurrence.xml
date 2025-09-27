@@ -1,0 +1,2926 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="please_specify_cause_of_hazardous_occurrence" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:31:37</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>please_specify_cause_of_hazardous_occurrence</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_please_specify_cause_of_hazardous_occurrence</sys_update_name>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 15:31:37</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please Select...</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>-1</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:29:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>16</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-28 14:32:01</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nettoyer, huiler, régler, déménager l'équipement</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:40</sys_updated_on>
+            <value>cleaning_oiling,_adjusting_moving_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cleaning, oiling, adjusting, moving equipment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:13:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:17</sys_updated_on>
+            <value>cleaning_oiling,_adjusting_moving_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>environmental_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bruit excessif</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:20:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:21:07</sys_updated_on>
+            <value>excessive_noise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>environmental_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Excessive noise</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:46:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:58:42</sys_updated_on>
+            <value>excessive_noise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other_hazardous_conditions</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hazardous conditions (specify)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:00:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:01:41</sys_updated_on>
+            <value>hazardous_conditions_(specify)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other_hazardous_conditions</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conditions dangereuses (préciser)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:39:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:39:25</sys_updated_on>
+            <value>hazardous_conditions_(specify)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazards_of_outside_work_environment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hazards of property or operations of other employers</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:43:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:58:19</sys_updated_on>
+            <value>hazards_of_property_or_operations_of_other_employers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazards_of_outside_work_environment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Risques inhérents aux biens ou activités d'autres employeurs</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:18:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:19:21</sys_updated_on>
+            <value>hazards_of_property_or_operations_of_other_employers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque de connaissance de la tâche à accomplir</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:40:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:40:49</sys_updated_on>
+            <value>lack_of_job_knowledge</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of job knowledge</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:01:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:04:57</sys_updated_on>
+            <value>lack_of_job_knowledge</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dress_or_apparel_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of necessary personal protective equipment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 16:59:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:58:11</sys_updated_on>
+            <value>lack_of_necessary_personal_protective_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dress_or_apparel_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque d'équipement de protection personnelle</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 17:32:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-28 13:14:15</sys_updated_on>
+            <value>lack_of_necessary_personal_protective_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>public_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Risques inhérents au transport public</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:24:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:27:56</sys_updated_on>
+            <value>public_transportation_hazards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>public_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Public transportation hazards</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:48:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:58:58</sys_updated_on>
+            <value>public_transportation_hazards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Programme de sécurité au travail inadéquat</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:44:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:45:18</sys_updated_on>
+            <value>safe_job_procedures_not_established</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safe job procedures not established</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:05:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:15</sys_updated_on>
+            <value>safe_job_procedures_not_established</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protection inexistante (dangers mécaniques ou physiques)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:35:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:35:42</sys_updated_on>
+            <value>unguarded_(mechanical_or_physical hazards)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unguarded (mechanical or physical hazards)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:53:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:22</sys_updated_on>
+            <value>unguarded_(mechanical_or_physical hazards)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utilisation de matériaux ou d'outillage dangereux</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:29:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:29:50</sys_updated_on>
+            <value>use_of_inherently_hazardous_material_or_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Use of inherently hazardous material or equipment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:50:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:06</sys_updated_on>
+            <value>use_of_inherently_hazardous_material_or_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>defects_of_equipment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Usé, fondu, brisé, etc.</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-23 19:17:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 17:28:49</sys_updated_on>
+            <value>worn_cracked_broken_etc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>defects_of_equipment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Worn, cracked, broken, etc.</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:31:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 15:34:22</sys_updated_on>
+            <value>worn_cracked_broken_etc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alimenter ou approvisionner trop rapidement</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:42</sys_updated_on>
+            <value>feeding_or_supplying_too_rapidly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feeding or supplying too rapidly</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:14:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:18</sys_updated_on>
+            <value>feeding_or_supplying_too_rapidly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dress_or_apparel_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tenue vestimentaire non convenable ou insuffisante</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 17:33:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-28 13:14:18</sys_updated_on>
+            <value>improper_or_inadequate_clothing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dress_or_apparel_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Improper or inadequate clothing</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-23 19:23:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-23 19:23:58</sys_updated_on>
+            <value>improper_or_inadequate_clothing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Protection insuffisante</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:35:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:36:12</sys_updated_on>
+            <value>inadequately_guarded</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadequately guarded</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:54:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:25</sys_updated_on>
+            <value>inadequately_guarded</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>environmental_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadequate aisles or work space</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:47:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:58:44</sys_updated_on>
+            <value>inadequate_aisles_or_work space</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>environmental_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aires de travail ou corridors inadéquats</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:21:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:22:06</sys_updated_on>
+            <value>inadequate_aisles_or_work space</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque de compétence pour la tâche</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:41:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:41:22</sys_updated_on>
+            <value>lack_of_job _skill</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of job skill</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:02:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:04:58</sys_updated_on>
+            <value>lack_of_job _skill</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazards_of_outside_work_environment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Risques naturels</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:19:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:19:56</sys_updated_on>
+            <value>natural_hazards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazards_of_outside_work_environment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Natural hazards</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:44:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:58:24</sys_updated_on>
+            <value>natural_hazards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incompréhension des méthodes de sécurité</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:45:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:45:45</sys_updated_on>
+            <value>safe_procedures_not_understood</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Safe procedures not understood</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:05:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:17</sys_updated_on>
+            <value>safe_procedures_not_understood</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>defects_of_equipment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Slippery</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:32:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 15:34:21</sys_updated_on>
+            <value>slippery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>defects_of_equipment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Glissant</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-23 19:16:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-23 19:17:08</sys_updated_on>
+            <value>slippery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>public_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Risques inhérents à la circulation</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:28:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:28:24</sys_updated_on>
+            <value>traffic_hazards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>public_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Traffic hazards</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:49:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:02</sys_updated_on>
+            <value>traffic_hazards</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other_hazardous_conditions</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indéterminé, manque d'information</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:39:52</sys_updated_on>
+            <value>undetermined-insufficient_information</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>other_hazardous_conditions</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Undetermined-insufficient information</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:01:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:01:42</sys_updated_on>
+            <value>undetermined-insufficient_information</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utilisation de procédés dangereux</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:29:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:32:22</sys_updated_on>
+            <value>use_of_inherently_hazardous_procedures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Use of inherently hazardous procedures</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:51:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:08</sys_updated_on>
+            <value>use_of_inherently_hazardous_procedures</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure to follow instructions</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:05:00</sys_updated_on>
+            <value>failure_to_follow_instructions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inobservance des instructions</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:41:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:41:55</sys_updated_on>
+            <value>failure_to_follow_instructions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>defects_of_equipment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mal conçu</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-23 19:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-23 19:19:24</sys_updated_on>
+            <value>improperly_designed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>defects_of_equipment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Improperly designed</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:32:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 15:34:17</sys_updated_on>
+            <value>improperly_designed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>environmental_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mauvaise ventilation</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-28 12:19:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-28 12:20:19</sys_updated_on>
+            <value>inadequate_ventilation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>environmental_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadequate ventilation</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:47:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:58:47</sys_updated_on>
+            <value>inadequate_ventilation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque de surveillance</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:45:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:46:37</sys_updated_on>
+            <value>lack_of_supervision</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of supervision</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:06:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:19</sys_updated_on>
+            <value>lack_of_supervision</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ungrounded (electrical)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:54:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:28</sys_updated_on>
+            <value>ungrounded_(electrical)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Absence de mise à la masse (appareils électriques)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:36:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:36:52</sys_updated_on>
+            <value>ungrounded_(electrical)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Use of improper tools or equipment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:51:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:12</sys_updated_on>
+            <value>use_of_improper_tools_or_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utilisation d'outils ou d'outillage inadéquats</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:32:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:33:00</sys_updated_on>
+            <value>use_of_improper_tools_or_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Souder, réparer des réservoirs, contenants, etc., sans l'autorisation explicite du surveillant</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:43</sys_updated_on>
+            <value>welding,_repairing_of_tanks_containers_etc._without supervisory_clearance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Welding, repairing of tanks, containers, etc., without supervisory clearance</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:15:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:21</sys_updated_on>
+            <value>welding,_repairing_of_tanks_containers_etc._without supervisory_clearance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>defects_of_equipment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Improperly constructed</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-23 19:20:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-23 19:20:28</sys_updated_on>
+            <value>improperly_constructed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>defects_of_equipment</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mal fabriqué</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:32:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 17:30:29</sys_updated_on>
+            <value>improperly_constructed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadequate help for heavy lifting</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:52:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:14</sys_updated_on>
+            <value>inadequate_help_for_heavy_lifting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque d'aide pour soulever des charges lourdes</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:33:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:33:27</sys_updated_on>
+            <value>inadequate_help_for_heavy_lifting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>environmental_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadequate Illumination</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:47:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:58:51</sys_updated_on>
+            <value>inadequate_illumination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>environmental_hazards</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mauvais éclairage</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:22:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-28 12:16:01</sys_updated_on>
+            <value>inadequate_illumination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Instructions misunderstood</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:02:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:05:01</sys_updated_on>
+            <value>instructions_misunderstood</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Instructions mal comprises</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:42:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:42:24</sys_updated_on>
+            <value>instructions_misunderstood</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jumping from elevations</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:15:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:22</sys_updated_on>
+            <value>jumping_from_elevations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sauter en bas d'un endroit élevé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:45</sys_updated_on>
+            <value>jumping_from_elevations</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque de formation au travail</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:46:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:47:16</sys_updated_on>
+            <value>lack_of_job_training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of job training</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:06:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:20</sys_updated_on>
+            <value>lack_of_job_training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Raccordements à jour, etc. (électricité)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:37:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:37:44</sys_updated_on>
+            <value>uncovered _connections_etc. (electrical)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Uncovered connections, etc. (electrical)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:54:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:32</sys_updated_on>
+            <value>uncovered _connections_etc. (electrical)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disregard of instructions</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:03:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:05:02</sys_updated_on>
+            <value>disregard_of_instructions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Instructions ignorées</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:42:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:43:06</sys_updated_on>
+            <value>disregard_of_instructions</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Improper assignment of personnel</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:52:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:18</sys_updated_on>
+            <value>improper_assignment_of_personnel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hazardous_methods_or_procedure</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Affectation non appropriée du personnel</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:33:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:34:02</sys_updated_on>
+            <value>improper_assignment_of_personnel</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque d'instructions de sécurité au moment de l'affectation du travail</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:47:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:47:43</sys_updated_on>
+            <value>lack_of_safety_instruction_on_job_assignment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of safety instruction on job assignment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:06:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:21</sys_updated_on>
+            <value>lack_of_safety_instruction_on_job_assignment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operating vehicle at unsafe speed</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:15:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:24</sys_updated_on>
+            <value>operating_vehicle_at_unsafe_speed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utiliser un véhicule à une trop grande vitesse</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:46</sys_updated_on>
+            <value>operating_vehicle_at_unsafe_speed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unlabelled or inadequately labelled materials (WHMIS)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 17:57:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 17:59:35</sys_updated_on>
+            <value>unlabelled_or_inadequately_labelled_materials_(WHMIS)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inadequately_guarded_equipment_or_materials</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Absence ou insuffisance d'étiquetage des matériaux (SIMDUT)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:37:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-28 12:23:31</sys_updated_on>
+            <value>unlabelled_or_inadequately_labelled_materials_(WHMIS)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Programme d'inspection sécurité inadéquat</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:47:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:48:15</sys_updated_on>
+            <value>inadequate_safety_inspection_program</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inadequate safety inspection program</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:07:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:22</sys_updated_on>
+            <value>inadequate_safety_inspection_program</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical disability</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:03:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:05:04</sys_updated_on>
+            <value>physical _disability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incapacité physique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:43:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:43:39</sys_updated_on>
+            <value>physical _disability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Travailler sur des appareils branchés</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:48</sys_updated_on>
+            <value>working_on_live_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Working on live equipment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:16:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:26</sys_updated_on>
+            <value>working_on_live_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of follow-up for hazard correction</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:24</sys_updated_on>
+            <value>lack_of_follow-up_for_hazard_correction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque de suivi dans l'élimination des risques</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:48:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:48:54</sys_updated_on>
+            <value>lack_of_follow-up_for_hazard_correction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aucun facteur personnel en cause</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:44:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 02:43:45</sys_updated_on>
+            <value>no_personal_factor_involved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No personal factor involved</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:04:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 02:43:49</sys_updated_on>
+            <value>no_personal_factor_involved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Autre - Préciser</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-06 02:45:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 02:46:34</sys_updated_on>
+            <value>other_specify</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>personal_factors</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other - Specify</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-06 02:47:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 02:47:16</sys_updated_on>
+            <value>other_specify</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Courir</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:50</sys_updated_on>
+            <value>running</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Running</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:16:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:33</sys_updated_on>
+            <value>running</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure to use personal protective equipment provided</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:16:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:35</sys_updated_on>
+            <value>failure_to_use_personal_protective_equipment_provided</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Omettre d'utiliser l'équipement de protection personnelle fourni</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:51</sys_updated_on>
+            <value>failure_to_use_personal_protective_equipment_provided</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque d'entretien</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:49:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:49:53</sys_updated_on>
+            <value>lack_of_maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of maintenance</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:07:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:27</sys_updated_on>
+            <value>lack_of_maintenance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of maintenance staff</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:08:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:29</sys_updated_on>
+            <value>lack_of_maintenance_staff</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque de personnel d'entretien</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:49:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:49:50</sys_updated_on>
+            <value>lack_of_maintenance_staff</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lancer un objet au lieu de le déposer ou de le remettre main à main</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:30:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:45:59</sys_updated_on>
+            <value>throwing_material_instead_of_passing_it</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Throwing material instead of passing it</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:17:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:38</sys_updated_on>
+            <value>throwing_material_instead_of_passing_it</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting delivery of material or supplies for correction</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:08:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:30</sys_updated_on>
+            <value>awaiting_delivery_of_material_or_supplies_for_correction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retard dans la livraison des matériaux ou fournitures pour écarter les risques</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:50:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:51:54</sys_updated_on>
+            <value>awaiting_delivery_of_material_or_supplies_for_correction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wearing unsafe personal attire</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:18:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:39</sys_updated_on>
+            <value>wearing_unsafe_personal_attire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Porter des vêtements trop amples ou inadaptés</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>90</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:01</sys_updated_on>
+            <value>wearing_unsafe_personal_attire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Entering hazardous confined space without supervisory clearance</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:18:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:41</sys_updated_on>
+            <value>entering_hazardous_confined_space_without_supervisory_clearance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pénétrer dans un lieu clos dangereux sans autorisation du superviseur</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:03</sys_updated_on>
+            <value>entering_hazardous_confined_space_without_supervisory_clearance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of safety standards in design and construction</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:09:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:38</sys_updated_on>
+            <value>lack_of_safety_standards_in_design_and_construction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manque de normes de sécurité dans la conception et la construction</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:52:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:52:27</sys_updated_on>
+            <value>lack_of_safety_standards_in_design_and_construction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure to lock, block, or secure against unexpected motion, flow of electrical current, etc.</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:19:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:42</sys_updated_on>
+            <value>failure_to_lock_block,_or_secure_against_unexpected_motion,_flow of_electrical_current,_etc.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint>Omettre de verrouiller ou de bloquer un appareil ou de l'assujettir contre tout mouvement imprévu, une décharge électrique, etc.</hint>
+            <inactive>false</inactive>
+            <label>Omettre de verrouiller ou de bloquer un appareil ou de l'assujettir contre tout mouvement imprévu, u</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-28 12:52:48</sys_updated_on>
+            <value>failure_to_lock_block,_or_secure_against_unexpected_motion,_flow of_electrical_current,_etc.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Absence d'exigences de sécurité au moment des achats.</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 18:52:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 18:53:09</sys_updated_on>
+            <value>lack_of_safety_specifications_for_purchases</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>organizational_causes</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lack of safety specifications for purchases</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:09:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:11:40</sys_updated_on>
+            <value>lack_of_safety_specifications_for_purchases</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Riding in unsafe position</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:19:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:44</sys_updated_on>
+            <value>riding_in_unsafe_position</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rouler à bord d'un véhicule dans une position dangereuse</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:06</sys_updated_on>
+            <value>riding_in_unsafe_position</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Omettre d'arrêter une machine non utilisée</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:56:02</sys_updated_on>
+            <value>failure_to_shut_off_equipment_not_in_use</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure to shut off equipment not in use</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:20:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:46</sys_updated_on>
+            <value>failure_to_shut_off_equipment_not_in_use</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>S'exposer à un chargement suspendu ou en mouvement</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>140</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:55:52</sys_updated_on>
+            <value>exposure_to_suspended_or_swinging_load</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Exposure to suspended or swinging load</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>140</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:20:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:47</sys_updated_on>
+            <value>exposure_to_suspended_or_swinging_load</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Failure to place warning signs, tags, etc.</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>150</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:21:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:49</sys_updated_on>
+            <value>failure_to_place_warning_signs_tags,_etc.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Omettre de poser des panneaux, des étiquettes, etc., signalant le danger</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>150</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:11</sys_updated_on>
+            <value>failure_to_place_warning_signs_tags,_etc.</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>S'exposer inutilement à des matériaux ou à de l'outillage en mouvement</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>160</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:12</sys_updated_on>
+            <value>unnecessary_exposure_to moving_materials_or_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unnecessary exposure to moving materials or equipment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>160</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:22:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:50</sys_updated_on>
+            <value>unnecessary_exposure_to moving_materials_or_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mettre en marche, arrêter, déplacer sans avertir</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>170</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:31:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:14</sys_updated_on>
+            <value>starting,_stopping,_moving,_without_warning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Starting, stopping, moving, without warning</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>170</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:22:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:53</sys_updated_on>
+            <value>starting,_stopping,_moving,_without_warning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Driving error</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>180</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:23:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:54</sys_updated_on>
+            <value>driving_error</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commettre des erreurs de conduite</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>180</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:16</sys_updated_on>
+            <value>driving_error</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Horseplay</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>190</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:23:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:56</sys_updated_on>
+            <value>horseplay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Se bousculer</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>190</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:19</sys_updated_on>
+            <value>horseplay</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unsafe mixing of materials</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:23:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:57</sys_updated_on>
+            <value>unsafe_mixing_of_materials</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Faire des mélanges dangereux</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:20</sys_updated_on>
+            <value>unsafe_mixing_of_materials</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Manier incorrectement des matériaux ou de l'outillage</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>210</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:56:44</sys_updated_on>
+            <value>manier_incorrectement_des_matériaux_ou_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Overloading (vehicles, scaffolds, etc.)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>210</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:23:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:28:58</sys_updated_on>
+            <value>overloading_(vehicles,_scaffolds,_etc.)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Placer des véhicules ou de l'outillage de manière dangereuse</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>220</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:23</sys_updated_on>
+            <value>placer_des_véhicules_ou_de_l'outillage_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unsafe placement of materials</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>220</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:24:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:29:00</sys_updated_on>
+            <value>unsafe_placement_of_materials</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gripping objects insecurely</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>230</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:24:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:29:02</sys_updated_on>
+            <value>gripping_objects_insecurely</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Surcharger des véhicules, échafaudages, etc.</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>230</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:25</sys_updated_on>
+            <value>overloading_(vehicles,_scaffolds,_etc.)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disposer dangereusement des matériaux</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>240</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:26</sys_updated_on>
+            <value>unsafe_placement_of_materials</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Using unsafe equipment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>240</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:24:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:29:03</sys_updated_on>
+            <value>using_unsafe_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tenir des objets d'une façon imprudente</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>250</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:28</sys_updated_on>
+            <value>gripping_objects_insecurely</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Using hands instead of hand tools</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>250</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:25:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:29:04</sys_updated_on>
+            <value>using_hands_instead_of_hand_tools</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inattention to surroundings</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>260</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:25:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:29:06</sys_updated_on>
+            <value>inattention_to_surroundings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utiliser de l'outillage dangereux</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>260</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:32:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:31</sys_updated_on>
+            <value>using_unsafe_equipment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unclassified inadequate data</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>270</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 18:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-22 18:29:08</sys_updated_on>
+            <value>unclassified_inadequate_data</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Utiliser ses mains au lieu d'un outil</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>270</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:33:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:33</sys_updated_on>
+            <value>using_hands_instead_of_hand_tools</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ne pas faire attention à son entourage</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>280</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:33:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:34</sys_updated_on>
+            <value>inattention_to_surroundings</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Autre</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>280</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-06 02:35:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 02:35:52</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>280</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-06 02:35:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 02:35:00</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>unsafe_acts</dependent_value>
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Données insuffisantes non classées</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>290</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-27 19:33:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-27 19:46:37</sys_updated_on>
+            <value>unclassified_inadequate_data</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

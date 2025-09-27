@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
     <sp_instance_table action="INSERT_OR_UPDATE">
         <active>true</active>
+        <advanced_placeholder_dimensions>false</advanced_placeholder_dimensions>
+        <async_load>false</async_load>
+        <async_load_device_type/>
+        <async_load_trigger/>
         <class_name/>
         <color>default</color>
         <css/>
@@ -13,12 +17,16 @@
         <order>1</order>
         <order_by/>
         <order_direction>asc</order_direction>
+        <placeholder_dimensions/>
+        <placeholder_dimensions_script/>
+        <placeholder_template/>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
         <roles/>
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">a26f04c4fb6d1e1095e5fb3f4eefdc0d</sp_column>
         <sp_page/>
-        <sp_widget display_value="HoC Data Table Filter">9ee65f291bb4c6189fde86acdd4bcbee</sp_widget>
+        <sp_widget display_value="">9ee65f291bb4c6189fde86acdd4bcbee</sp_widget>
         <sys_class_name>sp_instance_table</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-10-24 15:20:58</sys_created_on>

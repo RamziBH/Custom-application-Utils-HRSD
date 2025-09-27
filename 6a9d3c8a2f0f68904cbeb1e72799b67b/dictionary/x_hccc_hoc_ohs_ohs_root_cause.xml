@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true" db_object_id="04023cb93b319a50aeb1ebc964e45a59" label="OHS Root Cause" max_length="40" name="x_hccc_hoc_ohs_ohs_root_cause" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,serializer=com.glide.script.TranslatedTextXMLSerializer" label="Name" max_length="100" name="name" type="translated_text"/>
+    </element>
+</database>

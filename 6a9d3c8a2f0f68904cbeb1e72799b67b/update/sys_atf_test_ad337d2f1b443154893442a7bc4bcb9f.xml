@@ -24,6 +24,7 @@ The following test https://hoccdcdv.service-now.com/nav_to.do?uri=sys_atf_test.d
         <sys_update_name>sys_atf_test_ad337d2f1b443154893442a7bc4bcb9f</sys_update_name>
         <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-08-22 21:04:47</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=ad337d2f1b443154893442a7bc4bcb9f"/>
 </record_update>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0880654d1bb406d49fde86acdd4bcbe9" label="H and V  Initial Review" max_length="40" name="x_hccc_hoc_ohs_h_and_v_initial_review" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="What does resolution look like to the complainant" max_length="1000" name="what_does_resolution_look_like_to_the_complainant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Where" max_length="100" name="specific_travel_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Description observable de ce que la partie intimé (répondant) a fait ou dit à la partie principale (plaignant) dans les incidents." label="Additional details about actions, conduct or comment" max_length="1000" name="additional_details_about_actions_conduct_or_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specific location" max_length="100" name="specific_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" hint="Is it aligned with the resolution process' objective (preventing further occurrences)" label="Is it aligned with the resolution process' objective" max_length="40" name="aligned_resolution_process" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="20" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="200" value="no"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="10" value="yes"/>
+                <element inactive_on_update="false" label="Veuillez sélectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Principal party" max_length="32" name="principal_party" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Describe the imminent danger" max_length="1000" name="describe_imminent_danger" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Precautionary measure implementation date" max_length="40" name="implementation_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Did the occurrence take place in a location controlled by the employer?" max_length="40" name="location_controlled_by_employer" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Veuillez sélectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Building" max_length="32" name="occurrence_building" reference="sn_wsd_core_building" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_investigation_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Precautionary measures taken or to be taken" max_length="4000" name="precautionary_measures" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the process been explained to the complainant?" max_length="40" name="process_explained_to_complainant" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Veuillez sélectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the principal party been properly identified?" max_length="40" name="complainant_was_identified" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Veuillez sélectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Explanation details" max_length="4000" name="explanation_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is there imminent danger?" max_length="40" name="is_there_imminent_danger" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Veuillez sélectionner..." language="fq" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Manager's initial review notes:" max_length="4000" name="manager_initial_review_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Did the occurrence take place during travel?" max_length="40" name="occurrence_during_travel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Veuillez sélectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Select the principal party and the responding party relationship:" max_length="40" name="party_relationship" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Employee / Other" sequence="6" value="Employee / Other"/>
+                <element inactive_on_update="false" label="Employee / Domestic Partner" sequence="5" value="Employee / Domestic Partner"/>
+                <element inactive_on_update="false" label="Employee / Third Party, Client, Contractor, Public" sequence="4" value="Employee / Third Party, Client, Contractor, Public"/>
+                <element inactive_on_update="false" label="Employé / Employé" language="fq" sequence="1" value="Employee / Employee"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Superviseur, Gestionnaire, Propriétaire d'entreprise / Employé" language="fq" sequence="3" value="Supervisor, Manager, Business Owner / Employee"/>
+                <element inactive_on_update="false" label="Employé / Superviseur, Gestionnaire, Propriétaire d'entreprise" language="fq" sequence="2" value="Employee / Supervisor, Manager, Business Owner"/>
+                <element inactive_on_update="false" label="Employé / Autre" language="fq" sequence="6" value="Employee / Other"/>
+                <element inactive_on_update="false" label="Employé / Partenaire domestique" language="fq" sequence="5" value="Employee / Domestic Partner"/>
+                <element inactive_on_update="false" label="Employé / Tiers, Client, Prestataire, Public" language="fq" sequence="4" value="Employee / Third Party, Client, Contractor, Public"/>
+                <element inactive_on_update="false" label="Veuillez sélectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Supervisor, Manager, Business Owner / Employee" sequence="3" value="Supervisor, Manager, Business Owner / Employee"/>
+                <element inactive_on_update="false" label="Employee / Supervisor, Manager, Business Owner" sequence="2" value="Employee / Supervisor, Manager, Business Owner"/>
+                <element inactive_on_update="false" label="Employee / Employee" sequence="1" value="Employee / Employee"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are precautionary measures required?" max_length="40" name="precautionary_measures_required" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Veuillez sélectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" choice="1" label="This occurrence has resulted in (select all that apply)" max_length="1024" name="results_of_occurrence" reference="x_hccc_hoc_ohs_choice" reference_qual="active=true^element=results_of_occurrence^table=x_hccc_hoc_ohs_h_and_v_initial_review^EQ" reference_qual_condition="active=true^element=results_of_occurrence^table=x_hccc_hoc_ohs_h_and_v_initial_review^EQ" type="glide_list">
+            <choice>
+                <element inactive_on_update="false" label="Lost time" sequence="30" value="Lost time"/>
+                <element inactive_on_update="false" label="Blessure psychologique" language="fq" sequence="20" value="Psychological injury"/>
+                <element inactive_on_update="false" label="Blessure physique" language="fq" sequence="10" value="Physical injury"/>
+                <element inactive_on_update="false" label="Accommodation" sequence="50" value="Accommodation"/>
+                <element inactive="true" inactive_on_update="true" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Fonctions modifiées" language="fq" sequence="40" value="Modified duties"/>
+                <element inactive_on_update="false" label="Fatalité" language="fq" sequence="60" value="Fatality"/>
+                <element inactive_on_update="false" label="Temps perdu" language="fq" sequence="30" value="Lost time"/>
+                <element inactive_on_update="false" label="Psychological injury" sequence="20" value="Psychological injury"/>
+                <element inactive_on_update="false" label="Physical injury" sequence="10" value="Physical injury"/>
+                <element inactive_on_update="false" label="Accommodation" language="fq" sequence="50" value="Accommodation"/>
+                <element inactive="true" inactive_on_update="true" label="Veuillez sélectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Modified duties" sequence="40" value="Modified duties"/>
+                <element inactive_on_update="false" label="Fatality" sequence="60" value="Fatality"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="occurrence_building"/>
+        </index>
+        <index name="index2">
+            <element name="parent_case"/>
+        </index>
+        <index name="index3">
+            <element name="principal_party"/>
+        </index>
+    </element>
+</database>

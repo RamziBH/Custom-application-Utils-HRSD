@@ -4,11 +4,9 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <applies_to/>
-        <condition table="x_hccc_hoc_ohs_investigation_case">wi_building=046d5f461b5afc1078230d47dc4bcbce^hr_service=a284e0261b7a30109fde86acdd4bcbfc^ORhr_service=a94b0c891b7e7c109fde86acdd4bcbc1^EQ<item display_table="cmn_location" display_value="181 Queen" endquery="false" field="wi_building" goto="false" newquery="false" operator="=" or="false" value="046d5f461b5afc1078230d47dc4bcbce"/>
-            <item display_table="sn_hr_core_service" display_value="Corrective action" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="a284e0261b7a30109fde86acdd4bcbfc"/>
-            <item display_table="sn_hr_core_service" display_value="Workplace inspection" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="a94b0c891b7e7c109fde86acdd4bcbc1"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_investigation_case">wi_building=046d5f461b5afc1078230d47dc4bcbce^hr_service=a284e0261b7a30109fde86acdd4bcbfc^ORhr_service=a94b0c891b7e7c109fde86acdd4bcbc1^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Temp access to read workplace inspection and corrective action cases for 181 queen as per PBI 193851</description>
         <local_or_existing>Local</local_or_existing>

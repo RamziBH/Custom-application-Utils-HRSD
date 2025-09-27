@@ -4,9 +4,9 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <applies_to/>
-        <condition table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment">hira_case.stateNOT IN3,300^EQ<item display_value="3,300" endquery="false" field="hira_case.state" goto="false" newquery="false" operator="NOT IN" or="false" value="3,300"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment">hira_case.stateNOT IN3,300^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Default access control on x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</description>
         <local_or_existing>Local</local_or_existing>

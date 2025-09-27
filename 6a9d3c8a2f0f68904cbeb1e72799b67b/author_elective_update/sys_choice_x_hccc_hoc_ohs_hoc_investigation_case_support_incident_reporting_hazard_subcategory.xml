@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hazard_subcategory" table="x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hazard_subcategory</element>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hazard_subcategory</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting_hazard_subcategory</sys_update_name>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:33</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>(various)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>(various)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Acute or chronic illness</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>Acute or chronic illness</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Acute toxicity</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>Acute toxicity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bodily Injury</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>Bodily Injury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Carcinogenic, various</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>Carcinogenic, various</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chronic illness</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>Chronic illness</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Combustible dust</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>Combustible dust</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corrosive / Irritant</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>Corrosive / Irritant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Human Reliability</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>Human Reliability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Irritant</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>Irritant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mechanical or Chemical</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>Mechanical or Chemical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unknown</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>Unknown</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Various</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>Various</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Varying</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:39</sys_updated_on>
+            <value>Varying</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work Organization</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>Work Organization</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancérigène</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>carcinogenic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Carcinogenic</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>carcinogenic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mutagenic</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:33</sys_updated_on>
+            <value>mutagenic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mutagène</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>mutagenic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sensibilisants</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>sensitizers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sensitizers</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>sensitizers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inflammable</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:39</sys_updated_on>
+            <value>flammable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flammable</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>flammable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oxidizing</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>oxidizing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oxydant</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>oxidizing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corrosive</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>corrosive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Corrosif</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:33</sys_updated_on>
+            <value>corrosive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Acute Toxicity</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>acute_toxicity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>chemical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Toxicité aiguë</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>700</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:33</sys_updated_on>
+            <value>acute_toxicity</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>biological</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plante</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>plant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>biological</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plant</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>800</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>plant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>biological</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Animal</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>900</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>animal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>biological</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Animal</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>900</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:33</sys_updated_on>
+            <value>animal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>biological</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microbiologique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>microbiological</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>biological</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microbiological</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:33</sys_updated_on>
+            <value>microbiological</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>physical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Musculo-squelettique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1100</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>musculoskeletal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>physical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Musculoskeletal</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1100</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>musculoskeletal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>physical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environnement</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1200</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>environmental</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>physical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environmental</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1200</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>environmental</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>physical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mécanique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1300</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>mechanical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>physical</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mechanical</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1300</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>mechanical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Électrique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1400</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>electrical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electrical</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1400</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>electrical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magnetic</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1500</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>magnetic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Magnétique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1500</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:33</sys_updated_on>
+            <value>magnetic</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Electromagnetic interference</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1600</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>electromagnetic_interference</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Interférence électromagnétique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1600</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:39</sys_updated_on>
+            <value>electromagnetic_interference</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thermal</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1700</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>thermal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thermique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1700</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>thermal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Noise</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1800</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>noise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bruit</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1800</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>noise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vibration</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1900</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>vibration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vibration</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>1900</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>vibration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Radiation</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2000</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>radiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Radiation</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2000</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>radiation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laser</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2100</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>laser</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>energy</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laser</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2100</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>laser</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>explosion</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chimique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2200</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>chemical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>explosion</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chemical</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2200</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:37</sys_updated_on>
+            <value>chemical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>explosion</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mécanique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2300</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>mechanical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>explosion</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mechanical</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2300</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:33</sys_updated_on>
+            <value>mechanical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>psychosocial</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Organisation du travail</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2400</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>work_organization</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>psychosocial</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work organization</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2400</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:35</sys_updated_on>
+            <value>work_organization</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>psychosocial</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2500</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>social</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>psychosocial</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2500</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>social</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>psychosocial</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cognitive</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2600</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:34</sys_updated_on>
+            <value>cognitive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>psychosocial</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cognitif</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2600</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:38</sys_updated_on>
+            <value>cognitive</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>psychosocial</dependent_value>
+            <element>hazard_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fiabilité humaine</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hoc_investigation_case_support_incident_reporting</name>
+            <sequence>2700</sequence>
+            <synonyms/>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-08 15:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-08 15:55:36</sys_updated_on>
+            <value>human_reliability</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

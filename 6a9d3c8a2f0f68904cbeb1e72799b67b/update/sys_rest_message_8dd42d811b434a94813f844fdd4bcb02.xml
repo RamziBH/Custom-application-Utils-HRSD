@@ -7,7 +7,7 @@
         <basic_auth_user/>
         <description>PBI #156429  task #159285</description>
         <name>HoC-RMIS-EmployeeServices (for OHS)</name>
-        <oauth2_profile display_value="Hoc-RMIS-EmployeeServices-OAuth-Profile">08ed05412f6260904cbeb1e72799b6a2</oauth2_profile>
+        <oauth2_profile display_value="">08ed05412f6260904cbeb1e72799b6a2</oauth2_profile>
         <protocol_name/>
         <rest_endpoint>${endpoint}/EmployeeServices</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>

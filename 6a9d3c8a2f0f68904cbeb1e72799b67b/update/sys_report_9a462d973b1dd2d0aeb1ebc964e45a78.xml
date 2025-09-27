@@ -33,7 +33,7 @@
         <column>x_hccc_hoc_ohs_rpt_appointment_duration</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Taylor Pullen">497c4f1e1bc40e109fde86acdd4bcbd3</created_by_user>
+        <created_by_user display_value="">497c4f1e1bc40e109fde86acdd4bcbd3</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -48,9 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>number,contact,window_start,state,assigned_to,short_description,interaction.location,reason,x_hccc_base_core_expected_end,expected_start</field_list>
-        <filter table="x_hccc_hoc_ohs_vaccination_appointment">window_startON2024-11-21@javascript:gs.dateGenerate('2024-11-21','start')@javascript:gs.dateGenerate('2024-11-21','end')^stateNOT IN1,3,4,7<item endquery="false" field="window_start" goto="false" newquery="false" operator="ON" or="false" value="2024-11-21@javascript:gs.dateGenerate('2024-11-21','start')@javascript:gs.dateGenerate('2024-11-21','end')"/>
-            <item display_value="1,3,4,7" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="1,3,4,7"/>
-        </filter>
+        <filter table="x_hccc_hoc_ohs_vaccination_appointment">window_startON2024-11-21@javascript:gs.dateGenerate('2024-11-21','start')@javascript:gs.dateGenerate('2024-11-21','end')^stateNOT IN1,3,4,7</filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -160,5 +158,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=9a462d973b1dd2d0aeb1ebc964e45a78"/>
 </record_update>

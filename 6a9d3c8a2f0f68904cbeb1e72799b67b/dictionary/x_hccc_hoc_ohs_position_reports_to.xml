@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e7ec54281bdffdd89fde86acdd4bcb48" label="Position reports to" max_length="40" name="x_hccc_hoc_ohs_position_reports_to" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" display="true" label="Position code" max_length="32" name="position_code" reference="x_hccc_base_org_position_code" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,ref_Ac_columns=position;department;x_hccc_base_org_position_code" label="Reports to" max_length="32" name="reports_to" reference="sn_hr_core_position" type="reference"/>
+        <index name="index">
+            <element name="position_code"/>
+        </index>
+        <index name="index2">
+            <element name="reports_to"/>
+        </index>
+    </element>
+</database>

@@ -31,8 +31,10 @@
         <instructions><![CDATA[<p>Sélectionnez si vous avez reçu les premiers soins. Les premiers soins sont les premiers secours apportés à toute personne souffrant d&#39;une maladie ou d&#39;une blessure mineure ou grave, avec des soins prodigués pour préserver la vie, empêcher l&#39;aggravation de l&#39;état ou favoriser le rétablissement. Cela peut inclure le nettoyage/la désinfection de la plaie ou l&#39;application d&#39;un pansement.</p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
+        <lookup_dependent_question/>
         <lookup_label/>
         <lookup_price/>
+        <lookup_source/>
         <lookup_table/>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
@@ -99,8 +101,6 @@
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
         <write_roles/>
-        <x_hccc_dfsa_erp_u_simple_name_values_1/>
-        <x_hccc_dfsa_erp_u_translated_text_2/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=565a60dd2faf28504cbeb1e72799b6d9"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

@@ -45,9 +45,7 @@
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>reports_to.department.business_unit.u_hoc_bu_type=admin^reports_to.active=true^EQ</reference_qual>
-        <reference_qual_condition table="x_hccc_hoc_ohs_position_reports_to">reports_to.department.business_unit.u_hoc_bu_type=admin^reports_to.active=true^EQ<item display_value="HoC Administration" endquery="false" field="reports_to.department.business_unit.u_hoc_bu_type" goto="false" newquery="false" operator="=" or="false" value="admin"/>
-            <item endquery="false" field="reports_to.active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <reference_qual_condition table="x_hccc_hoc_ohs_position_reports_to">reports_to.department.business_unit.u_hoc_bu_type=admin^reports_to.active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
         <spell_check>false</spell_check>
@@ -55,7 +53,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-01-10 20:48:04</sys_created_on>
-        <sys_id>b1eb2b751b733950c6c7a8ecbc4bcb68</sys_id>
         <sys_name>Position</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>

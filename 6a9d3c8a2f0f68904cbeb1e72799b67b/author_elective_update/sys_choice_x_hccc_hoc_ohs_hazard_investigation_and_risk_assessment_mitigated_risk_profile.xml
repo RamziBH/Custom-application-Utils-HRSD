@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mitigated_risk_profile" table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mitigated_risk_profile</element>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+            <sys_created_on>2023-08-30 17:50:47</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mitigated_risk_profile</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment_mitigated_risk_profile</sys_update_name>
+            <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+            <sys_updated_on>2023-08-30 17:50:47</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mitigated_risk_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+            <sys_created_on>2023-08-30 17:51:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+            <sys_updated_on>2023-08-30 17:51:31</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mitigated_risk_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+            <sys_created_on>2023-08-30 17:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+            <sys_updated_on>2023-08-30 17:51:34</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mitigated_risk_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+            <sys_created_on>2023-08-30 17:51:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+            <sys_updated_on>2023-08-30 17:51:36</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mitigated_risk_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+            <sys_created_on>2023-08-30 17:51:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+            <sys_updated_on>2023-08-30 17:51:13</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mitigated_risk_profile</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+            <sys_created_on>2023-08-30 17:50:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+            <sys_updated_on>2023-08-30 17:51:01</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

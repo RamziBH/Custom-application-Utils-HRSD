@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="461792bc3b8c9e90aeb1ebc964e45aa1" extends="sys_import_set_row" label="initial HIRA import" max_length="40" name="x_hccc_hoc_ohs_initial_hira_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Is There a Training Component Involved?" label="Is There a Training Component Involved?" max_length="57" name="u_is_there_a_t_nent_involved_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Position" label="Position" max_length="70" name="u_position" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Recommended Action                                                      (Buller Crichton)" label="Recommended Action                                                      (Buller" max_length="756" name="u_recommended__ller_crichton_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Comments" label="Comments" max_length="557" name="u_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Likelihood (R)" label="Likelihood (R)" max_length="40" name="u_likelihood__r_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Controls Present" label="Controls Present" max_length="523" name="u_controls_present" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Phase" label="Phase" max_length="40" name="u_phase" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Residual Risk Level" label="Residual Risk Level" max_length="40" name="u_residual_risk_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hazard Subcategory" label="Hazard Subcategory" max_length="40" name="u_hazard_subcategory" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Severity" label="Severity" max_length="40" name="u_severity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Action(s) taken by Manager" label="Action(s) taken by Manager" max_length="775" name="u_action_s__taken_by_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Timelines                    Date When Control Measures Are Fully  Implemented" label="Timelines                    Date When Control Measures Are Fully  Implemented" max_length="165" name="u_timelines____y__implemented" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hazard Category" label="Hazard Category" max_length="40" name="u_hazard_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Work Task &amp; Description" label="Work Task &amp; Description" max_length="450" name="u_work_task___description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Timelines           Start Date of Implementing Control Measures" label="Timelines           Start Date of Implementing Control Measures" max_length="125" name="u_timelines____ntrol_measures" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Service Area" label="Service Area" max_length="49" name="u_service_area" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Position Code" label="Position Code" max_length="5" name="u_position_code" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Likelihood (Q)" label="Likelihood (Q)" max_length="40" name="u_likelihood__q_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Consequence" label="Consequence" max_length="191" name="u_consequence" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Likelihood" label="Likelihood" max_length="40" name="u_likelihood" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Intrinsic Risk Level" label="Intrinsic Risk Level" max_length="40" name="u_intrinsic_risk_level" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Hazard Description" label="Hazard Description" max_length="332" name="u_hazard_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Regulatory Reference" label="Regulatory Reference" max_length="223" name="u_regulatory_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Frequency" label="Frequency" max_length="40" name="u_frequency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Upcoming Review Date" label="Upcoming Review Date" max_length="40" name="u_upcoming_review_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Severity (P)" label="Severity (P)" max_length="40" name="u_severity__p_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Severity (Q)" label="Severity (Q)" max_length="40" name="u_severity__q_" type="string"/>
+    </element>
+</database>

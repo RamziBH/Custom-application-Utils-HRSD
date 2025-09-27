@@ -2,11 +2,12 @@
     <data_classification action="INSERT_OR_UPDATE">
         <description/>
         <name>Age</name>
-        <parent display_value="Personal Identification Information (PII)">730977821ba10218813f844fdd4bcb0b</parent>
+        <parent display_value="">730977821ba10218813f844fdd4bcb0b</parent>
         <sys_class_name>data_classification</sys_class_name>
         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-09-17 13:50:13</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>4844c1a53b84b218aeb1ebc964e45a6b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Age</sys_name>

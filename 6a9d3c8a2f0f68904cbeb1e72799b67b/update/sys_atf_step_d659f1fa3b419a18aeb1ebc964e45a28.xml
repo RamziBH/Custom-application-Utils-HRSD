@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Save current row of multi-row variable set (SP)">4a17f81c1bc58a90813f844fdd4bcb74</copied_from>
         <description>Save &amp; confirm that current row is successfully saved to multi-row variable set.</description>
         <display_name>Save current row of multi-row variable set (SP)</display_name>

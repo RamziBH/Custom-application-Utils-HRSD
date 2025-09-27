@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Click a UI Action">8a6456231b8c3154893442a7bc4bcb27</copied_from>
         <description>Click UI action 'Minister of Labour Review Completed' on 'HoC Investigation case ' form</description>
         <display_name>Click a UI Action</display_name>

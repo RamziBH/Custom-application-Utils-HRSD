@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_hccc_hoc_ohs_investigation_case">direct_causes_of_hazardous_occurrence=unsafe_acts^please_specify_cause_of_hazardous_occurrence=other^NQdirect_causes_of_hazardous_occurrence=other_hazardous_conditions^please_specify_cause_of_hazardous_occurrence=hazardous_conditions_(specify)^NQdirect_causes_of_hazardous_occurrence=personal_factors^please_specify_cause_of_hazardous_occurrence=other_specify^EQ<item display_value="Unsafe acts" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="false" value="unsafe_acts"/>
-            <item display_value="Other" endquery="false" field="please_specify_cause_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="false" value="other"/>
-            <item display_value="Other hazardous conditions" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="true" operator="=" or="false" value="other_hazardous_conditions"/>
-            <item display_value="Hazardous conditions (specify)" endquery="false" field="please_specify_cause_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="false" value="hazardous_conditions_(specify)"/>
-            <item display_value="Personal factors" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="true" operator="=" or="false" value="personal_factors"/>
-            <item display_value="Other - Specify" endquery="false" field="please_specify_cause_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="false" value="other_specify"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <conditions table="x_hccc_hoc_ohs_investigation_case">direct_causes_of_hazardous_occurrence=unsafe_acts^please_specify_cause_of_hazardous_occurrence=other^NQdirect_causes_of_hazardous_occurrence=other_hazardous_conditions^please_specify_cause_of_hazardous_occurrence=hazardous_conditions_(specify)^NQdirect_causes_of_hazardous_occurrence=personal_factors^please_specify_cause_of_hazardous_occurrence=other_specify^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
         <global>true</global>

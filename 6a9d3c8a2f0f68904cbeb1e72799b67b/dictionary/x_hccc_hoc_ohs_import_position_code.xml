@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9d5b7f971bedb554813f844fdd4bcbda" extends="sys_import_set_row" label="Hoc Ohs Import Position Code" max_length="40" name="x_hccc_hoc_ohs_import_position_code" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Organization code / Code structure organisationnelle (T)" label="Organization code / Code structure organisationnelle (T)" max_length="40" name="u_organization_ationnelle__t_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Position code / Code de poste" label="Position code / Code de poste" max_length="40" name="u_position_cod__code_de_poste" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Position / Poste" label="Position / Poste" max_length="40" name="u_position___poste" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Position code / Code de poste (T)" label="Position code / Code de poste (T)" max_length="40" name="u_position_cod_e_de_poste__t_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Position description / Description du poste" label="Position description / Description du poste" max_length="40" name="u_position_des_ption_du_poste" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Status / Statut" label="Status / Statut" max_length="40" name="u_status___statut" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reports to - Position / Poste du supérieur hiérarchique" label="Reports to - Position / Poste du supérieur hiérarchique" max_length="40" name="u_reports_to___r_hiérarchique" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date to / à" label="Date to / à" max_length="40" name="u_date_to___à" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Reports to - Position / Poste du supérieur hiérarchique (T)" label="Reports to - Position / Poste du supérieur hiérarchique (T)" max_length="40" name="u_reports_to___érarchique__t_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Date from / de" label="Date from / de" max_length="40" name="u_date_from___de" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Organization code / Code structure organisationnelle" label="Organization code / Code structure organisationnelle" max_length="40" name="u_organization_anisationnelle" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=client" label="client" max_length="40" name="u_client" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=HC" label="HC" max_length="40" name="u_hc" type="string"/>
+    </element>
+</database>

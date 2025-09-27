@@ -7,12 +7,10 @@
         <affected_field_on_event/>
         <category display_value="ohs - hira" name="ohs - hira">c806f9fb1bb375509fde86acdd4bcbe4</category>
         <collection>x_hccc_hoc_ohs_hira_case</collection>
-        <condition table="x_hccc_hoc_ohs_hira_case">manager_nameCHANGESFROM^manager_nameISNOTEMPTY^hr_service=3fb664a08754515050d2eca73cbb35f1^EQ<item endquery="false" field="manager_name" goto="false" newquery="false" operator="CHANGESFROM" or="false" value=""/>
-            <item endquery="false" field="manager_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item display_table="sn_hr_core_service" display_value="Hazard Investigation and Risk Assessment" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="3fb664a08754515050d2eca73cbb35f1"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_hira_case">manager_nameCHANGESFROM^manager_nameISNOTEMPTY^hr_service=3fb664a08754515050d2eca73cbb35f1^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description>PBI#130192, T#132193 Notify the manager that he/she can process the HIRA - after OHS assigns Manager&#13;
 &#13;
@@ -27,6 +25,7 @@ EDIT 2023-09-26: disabled this one because "HoC - OHSM - HIRA - New Position Cre
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>x_hccc_hoc_ohs.hira_assigned_to_manager</event_name>
@@ -87,7 +86,7 @@ EDIT 2023-09-26: disabled this one because "HoC - OHSM - HIRA - New Position Cre
 </div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HoC - OHSM - HIRA - New Position Created (HIRA assigned)</name>
+        <name>HoC - OHSM - HIRA - New Position Created</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>

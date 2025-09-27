@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="2" view="ohsm_report_run_request">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="HoC Investigation case  - OHSM Report Run Request" name="x_hccc_hoc_ohs_investigation_case" related_list="NULL" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">03c94e5d875dad5050d2eca73cbb3585</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case - OHSM Report Run Request" name="x_hccc_hoc_ohs_investigation_case" related_list="NULL" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">03c94e5d875dad5050d2eca73cbb3585</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_hccc_hoc_ohs_investigation_case.parent</related_list>
@@ -15,7 +15,7 @@
             <sys_updated_on>2023-02-27 22:38:19</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>HoC Investigation case  - OHSM Report Run Request</calculated_name>
+            <calculated_name>x_hccc_hoc_ohs_investigation_case - OHSM Report Run Request</calculated_name>
             <filter/>
             <name>x_hccc_hoc_ohs_investigation_case</name>
             <order_by/>

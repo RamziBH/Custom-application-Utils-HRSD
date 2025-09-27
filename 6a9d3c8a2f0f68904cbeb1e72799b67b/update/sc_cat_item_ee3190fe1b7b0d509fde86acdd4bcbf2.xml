@@ -2,13 +2,11 @@
     <sc_cat_item action="INSERT_OR_UPDATE">
         <access_type>restricted</access_type>
         <active>true</active>
-        <additional_review>false</additional_review>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Departmental Services">95fc11615f1211001c9b2572f2b477c6</category>
+        <category display_value="">95fc11615f1211001c9b2572f2b477c6</category>
         <checked_out/>
         <cost>0</cost>
-        <create_universal_request>false</create_universal_request>
         <custom_cart/>
         <delivery_plan/>
         <delivery_plan_script/>
@@ -48,7 +46,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Nataliya Bun (AZ)">056fd5c22f43a8904cbeb1e72799b6f7</owner>
+        <owner display_value="">056fd5c22f43a8904cbeb1e72799b6f7</owner>
         <picture/>
         <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=ee3190fe1b7b0d509fde86acdd4bcbf2&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
@@ -81,9 +79,6 @@
         <template/>
         <template_manager_roles/>
         <type>item</type>
-        <u_hoc_sc_service/>
-        <u_includes_additional_services/>
-        <u_other_additional_services/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <version/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
     <par_dashboard action="INSERT_OR_UPDATE">
         <active>true</active>
+        <base_dashboard/>
         <certified>false</certified>
         <description>Dashboard for current harassment and violence records that are handled by the current user.</description>
         <experience/>
@@ -10,6 +11,7 @@
         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-06-05 18:32:17</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>4f23fe2e1b624e949fde86acdd4bcbd8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>OHSM H&amp;V Dashboard</sys_name>

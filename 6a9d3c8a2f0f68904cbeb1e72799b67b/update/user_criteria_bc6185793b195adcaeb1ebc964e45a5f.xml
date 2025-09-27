@@ -4,7 +4,7 @@
         <advanced>false</advanced>
         <company/>
         <department/>
-        <group name="FS - Asset Management">841826511b5d16502e79ba2d1e4bcbc9</group>
+        <group>841826511b5d16502e79ba2d1e4bcbc9</group>
         <location/>
         <match_all>false</match_all>
         <name>HoC OHSM - Telework - Asset Management</name>
@@ -27,4 +27,5 @@
         <sys_updated_on>2024-10-17 19:13:58</sys_updated_on>
         <user/>
     </user_criteria>
+    <sys_translated_text action="delete_multiple" query="documentkey=bc6185793b195adcaeb1ebc964e45a5f"/>
 </record_update>

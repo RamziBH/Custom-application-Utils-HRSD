@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Variable State Validation (SP)">40811f0d1b5b25509fde86acdd4bcbab</copied_from>
         <description>Confirm that the following variables are visible: Date of initial injury/illness, Work-related injury/illness, Insurance claim number, Insurance claim provider
 Confirm that the following variables are mandatory: Date of initial injury/illness, Work-related injury/illness

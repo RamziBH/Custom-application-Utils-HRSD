@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3a2173e71ba0c258813f844fdd4bcb46" label="H and V Negotiated Resolution" max_length="40" name="x_hccc_hoc_ohs_h_and_v_negotiated_resolution" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Who notified the responding party?" max_length="40" name="who_notified_respondent" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Designated Recipient (RW)" sequence="2" value="Designated Recipient (RW)"/>
+                <element inactive_on_update="false" label="Gestionnaire" language="fq" sequence="1" value="Manager"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Gestionnaire et RMT" language="fq" sequence="3" value="Manager and RW"/>
+                <element inactive_on_update="false" label="Destinataire désigné (RMT)" language="fq" sequence="2" value="Designated Recipient (RW)"/>
+                <element inactive_on_update="false" label="Manager" sequence="1" value="Manager"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Manager and RW" sequence="3" value="Manager and RW"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_investigation_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Principal party agrees it meets the definition" max_length="40" name="complainant_agrees_it_meets_the_definition" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Who is the employer representative" max_length="32" name="employer_representative" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="When was the responding party notified (date/time)?" max_length="40" name="when_was_respondent_notified" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Was the negotiated resolution successful?" max_length="40" name="negotiated_resolution_successful" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Supporting details by principal party" max_length="400" name="supporting_details_by_complainant" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Résultats, prochaines étapes, ce qui doit être fait pour mitiger les risques de répétition?" label="Negotiated resolution outcome:" max_length="4000" name="negotiated_resolution_outcome" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the email notification been sent to the responding party?" max_length="40" name="email_notification_was_sent_to_respondent" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Principal party agrees the occurrence was resolved through negotiated resolution" max_length="40" name="complainant_agrees_resolved_with_negotiated_resolution" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the responding party been notified?" max_length="40" name="respondent_was_notified" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="2" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="1" value="Yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Manager's negotiated resolution notes:" max_length="8000" name="manager_negotiation_notes" type="string"/>
+        <index name="index">
+            <element name="employer_representative"/>
+        </index>
+        <index name="index2">
+            <element name="parent_case"/>
+        </index>
+    </element>
+</database>

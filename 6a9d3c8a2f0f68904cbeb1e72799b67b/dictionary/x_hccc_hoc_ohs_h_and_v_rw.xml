@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="938d59d11b744ad8813f844fdd4bcb96" label="H and V RW" max_length="40" name="x_hccc_hoc_ohs_h_and_v_rw" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="According to the designated recipient is it a harassement and violence case" max_length="40" name="according_to_the_designated_recipient_is_it_a_harassement_and_violence_case" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="30" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Supporting details by Manager/RW" max_length="4000" name="details_preliminary_discussion" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_investigation_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,labelCacheCleanUpExecuted=true" label="RW's initial review charting notes" max_length="65536" name="rw_initial_review_charting" type="html"/>
+        <element attributes="edge_encryption_enabled=true,labelCacheCleanUpExecuted=true" label="RW's mediation charting notes" max_length="65536" name="rw_mediation_charting" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Case type" max_length="40" name="case_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Harcèlement et Violence Sexuels" language="fq" sequence="20" value="2"/>
+                <element inactive_on_update="false" label="Harassement and Violence" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Please select..." sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Harcèlement et Violence" language="fq" sequence="10" value="1"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="0" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Sexual Harassment and Violence" sequence="20" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=false" choice="1" label="Discrimination grounds list" max_length="1024" name="discrimination_grounds_list" reference="x_hccc_hoc_ohs_choice" reference_qual="active=true^element=discrimination_grounds_list^table=x_hccc_hoc_ohs_h_and_v_rw^EQ" reference_qual_condition="active=true^element=discrimination_grounds_list^table=x_hccc_hoc_ohs_h_and_v_rw^EQ" type="glide_list">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Race" language="fq" sequence="20" value="Race"/>
+                <element inactive="true" inactive_on_update="true" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Race" sequence="20" value="Race"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,labelCacheCleanUpExecuted=true" label="RW's charting notes" max_length="65536" name="rw_charting_notes" type="html"/>
+        <element attributes="edge_encryption_enabled=true,labelCacheCleanUpExecuted=true" label="RW's investigation charting notes" max_length="65536" name="rw_investigation_charting" type="html"/>
+        <element attributes="edge_encryption_enabled=true,labelCacheCleanUpExecuted=true" label="RW's negotiated resolution charting notes" max_length="65536" name="rw_negotiated_resolution_charting" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Resolved by" max_length="40" name="resolved_by" type="string">
+            <choice>
+                <element inactive_on_update="false" label="La partie principale n'a pas pu être identifiée" language="fq" sequence="50" value="Principal party could not be identified"/>
+                <element inactive_on_update="false" label="Work place assessment" sequence="40" value="Work place assessment"/>
+                <element inactive_on_update="false" label="Investigation" sequence="30" value="Investigation"/>
+                <element inactive_on_update="false" label="Conciliation" sequence="20" value="Conciliation"/>
+                <element inactive_on_update="false" label="Un règlement négocié" language="fq" sequence="10" value="Negotiated resolution"/>
+                <element inactive_on_update="false" label="Une évaluation du lieu de travail" language="fq" sequence="40" value="Work place assessment"/>
+                <element inactive_on_update="false" label="Une enquête" language="fq" sequence="30" value="Investigation"/>
+                <element inactive_on_update="false" label="Une conciliation" language="fq" sequence="20" value="Conciliation"/>
+                <element inactive_on_update="false" label="Principal party could not be identified" sequence="50" value="Principal party could not be identified"/>
+                <element inactive_on_update="false" label="Negotiated resolution" sequence="10" value="Negotiated resolution"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Case subtype" max_length="1024" name="case_subtype" reference="x_hccc_hoc_ohs_choice" reference_qual="element=case_subtype^table=x_hccc_hoc_ohs_h_and_v_rw^active=true^EQ" reference_qual_condition="element=case_subtype^table=x_hccc_hoc_ohs_h_and_v_rw^active=true^EQ" type="glide_list"/>
+        <index name="index">
+            <element name="parent_case"/>
+        </index>
+    </element>
+</database>

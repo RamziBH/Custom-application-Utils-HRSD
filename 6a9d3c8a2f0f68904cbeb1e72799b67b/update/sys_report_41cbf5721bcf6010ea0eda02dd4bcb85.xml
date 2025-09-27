@@ -33,7 +33,7 @@
         <column>hr_service</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Pai (admin), Neetha">b02947801b3bb300dab2db1dcd4bcb98</created_by_user>
+        <created_by_user display_value="">b02947801b3bb300dab2db1dcd4bcb98</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -48,13 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>u_accreditation_state</field>
         <field_list>number,opened_for,hr_service,state,assigned_to,sys_updated_on</field_list>
-        <filter table="x_hccc_hoc_ohs_investigation_case">sys_created_onONLast month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()^ORsys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^inc_location.parent.nameISNOTEMPTY^hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^ORhr_service=b745a0501b53ac10ea0eda02dd4bcb4b^ORhr_service=5227b08f2f4b60d04cbeb1e72799b659<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="false" value="Last month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()"/>
-            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="ON" or="true" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/>
-            <item endquery="false" field="inc_location.parent.name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
-            <item display_table="sn_hr_core_service" display_value="Refusal of dangerous work" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="b745a0501b53ac10ea0eda02dd4bcb4b"/>
-            <item display_table="sn_hr_core_service" display_value="Internal Safety Complaint" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="5227b08f2f4b60d04cbeb1e72799b659"/>
-        </filter>
+        <filter table="x_hccc_hoc_ohs_investigation_case">sys_created_onONLast month@javascript:gs.beginningOfLastMonth()@javascript:gs.endOfLastMonth()^ORsys_created_onONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^inc_location.parent.nameISNOTEMPTY^hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^ORhr_service=b745a0501b53ac10ea0eda02dd4bcb4b^ORhr_service=5227b08f2f4b60d04cbeb1e72799b659</filter>
         <formatting_configuration/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -164,5 +158,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=41cbf5721bcf6010ea0eda02dd4bcb85"/>
 </record_update>

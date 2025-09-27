@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from/>
         <description>Confirm that the following variables are mandatory: Date and time of the incident , Date and time the incident was reported to the manager or supervisor , Description of the incident., Employee's name, Frequency of the task performed at the time of the incident , I hereby certify that, to the best of my knowledge, the provided  information is true and accurate., Location type, Manager/Supervisor, The task performed at the time of incident, Witnesses to the incident
 </description>

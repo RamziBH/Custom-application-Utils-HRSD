@@ -7,19 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_hccc_hoc_ohs_investigation_case</collection>
-        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^inc_type_occCHANGESTOminor^ORdoes_the_employee_now_require_modified_duties_as_a_result_of_this_injuryCHANGESTOyes^ORdid_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injuryCHANGESTOyes^ORinc_related_illnessCHANGESTOyes^ORinc_related_post_expCHANGESTOyes^ORdid_this_incident_result_in_an_injuryCHANGESTOyes^ORinc_type_occCHANGESTOcons_lost^ORinc_type_occCHANGESTOdisab_injury^dir_cause_injuryNOT INViolence,Harrasment^EQ<item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
-            <item display_value="Minor injury" endquery="false" field="inc_type_occ" goto="false" newquery="false" operator="CHANGESTO" or="false" value="minor"/>
-            <item display_value="Yes" endquery="false" field="does_the_employee_now_require_modified_duties_as_a_result_of_this_injury" goto="false" newquery="false" operator="CHANGESTO" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="did_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury" goto="false" newquery="false" operator="CHANGESTO" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="inc_related_illness" goto="false" newquery="false" operator="CHANGESTO" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="inc_related_post_exp" goto="false" newquery="false" operator="CHANGESTO" or="true" value="yes"/>
-            <item display_value="Yes" endquery="false" field="did_this_incident_result_in_an_injury" goto="false" newquery="false" operator="CHANGESTO" or="true" value="yes"/>
-            <item display_value="Loss of consciousness" endquery="false" field="inc_type_occ" goto="false" newquery="false" operator="CHANGESTO" or="true" value="cons_lost"/>
-            <item display_value="Disabling injury" endquery="false" field="inc_type_occ" goto="false" newquery="false" operator="CHANGESTO" or="true" value="disab_injury"/>
-            <item display_value="Violence,Harrasment" endquery="false" field="dir_cause_injury" goto="false" newquery="false" operator="NOT IN" or="false" value="Violence,Harrasment"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^inc_type_occCHANGESTOminor^ORdoes_the_employee_now_require_modified_duties_as_a_result_of_this_injuryCHANGESTOyes^ORdid_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injuryCHANGESTOyes^ORinc_related_illnessCHANGESTOyes^ORinc_related_post_expCHANGESTOyes^ORdid_this_incident_result_in_an_injuryCHANGESTOyes^ORinc_type_occCHANGESTOcons_lost^ORinc_type_occCHANGESTOdisab_injury^dir_cause_injuryNOT INViolence,Harrasment^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -32,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>antivirus.infected</event_name>
@@ -105,13 +97,13 @@
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="CEH-HRS-OHS-Wellness">ece6028f87b1f410b7cac956cebb359b</recipient_groups>
+        <recipient_groups>ece6028f87b1f410b7cac956cebb359b</recipient_groups>
         <recipient_users/>
         <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Action required: Employee Workplace Incident Reporting for ${subject_person_hr_profile.user.name} / Action requise : Rapport d'incident sur le lieu de travail des employés pour ${subject_person_hr_profile.user.name}</subject>
+        <subject>Action required: Employee Workplace Incident Reporting for ${subject_person_hr_profile.user.name} / </subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>

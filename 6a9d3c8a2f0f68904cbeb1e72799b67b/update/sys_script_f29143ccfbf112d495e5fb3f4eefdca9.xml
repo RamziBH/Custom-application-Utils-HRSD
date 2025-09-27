@@ -15,15 +15,11 @@
         <condition/>
         <description>Extract the emails for the submitter and the complainant for a Harassment and Violence complaint then trigger the email notifications.</description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^initial_review.principal_partyVALCHANGES^complainant_contact_detailsNOT LIKEcourriel^complainant_contact_detailsNOT LIKEemail^EQ<item display_table="sn_hr_core_service" display_value="Harassment and Violence Notice of Occurence" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="11d78aa31bb201509fde86acdd4bcb0b"/>
-            <item endquery="false" field="initial_review.principal_party" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="false" field="complainant_contact_details" goto="false" newquery="false" operator="NOT LIKE" or="false" value="courriel"/>
-            <item endquery="false" field="complainant_contact_details" goto="false" newquery="false" operator="NOT LIKE" or="false" value="email"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^initial_review.principal_partyVALCHANGES^complainant_contact_detailsNOT LIKEcourriel^complainant_contact_detailsNOT LIKEemail^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>HoC - H&amp;V - Trigger Notifications - Principal Party</name>
+        <name>HoC - H&amp;V - Trigger Notifications - Prin</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>

@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>false</isolate_script>
         <messages/>
-        <name>Aggravated Injury should be Before Inc Date</name>
+        <name>Aggravated Injury should be Before Inc D</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {

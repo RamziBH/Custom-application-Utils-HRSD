@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="18684fac1bb44a949fde86acdd4bcb75" label="H and V Investigation" max_length="40" name="x_hccc_hoc_ohs_h_and_v_investigation" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Contract and financial information" max_length="4000" name="contract_and_financial_information" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Investigator's determination" max_length="40" name="investigator_conclusion" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non justifié" language="fq" sequence="40" value="not substantiated"/>
+                <element inactive_on_update="false" label="Partiellement justifié" language="fq" sequence="30" value="partially substantiated"/>
+                <element inactive_on_update="false" label="Substantiated" sequence="20" value="substantiated"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Not Substantiated" sequence="40" value="not substantiated"/>
+                <element inactive_on_update="false" label="Partially Substantiated" sequence="30" value="partially substantiated"/>
+                <element inactive_on_update="false" label="Frivole, vexatoire ou fait de mauvaise foi" language="fq" sequence="50" value="frivolous"/>
+                <element inactive_on_update="false" label="Justifié" language="fq" sequence="20" value="substantiated"/>
+                <element inactive_on_update="false" label="Frivolous, vexatious or made in bad faith" sequence="50" value="frivolous"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the investigation report been attached to the case" max_length="40" name="has_the_investigation_report_been_attached_to_the_case" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="30" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When was the notice provided (date time)?" max_length="40" name="when_was_the_notice_provided_date_time" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_investigation_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has notice to both parties been provided" max_length="40" name="has_notice_to_both_parties_been_provided" type="string">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Manager's investigation notes" max_length="4000" name="manager_investigation_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Investigation start date" max_length="40" name="investigation_start_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Has final report been received?" max_length="40" name="has_final_report_been_received" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="10" value="no"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="10" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Investigation end date" max_length="40" name="investigation_end_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Notes de l'enquêteur" max_length="4000" name="investigator_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Coordination conducted with investigator" max_length="4000" name="coordination_conducted_with_investigator" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Investigator name" max_length="40" name="investigator_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Interim measures and investigation notes" max_length="4000" name="hv_interim_measures_and_investigation_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="When was the report received by the employer (date/time)?" max_length="40" name="when_was_the_report_received_by_the_employer_date_time" type="glide_date_time"/>
+        <index name="index">
+            <element name="parent_case"/>
+        </index>
+    </element>
+</database>

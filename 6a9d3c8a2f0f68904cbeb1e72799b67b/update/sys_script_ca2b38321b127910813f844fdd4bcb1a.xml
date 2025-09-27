@@ -15,12 +15,11 @@
         <condition/>
         <description>Copy of "e8b28c972f1ba8104cbeb1e72799b630" but changed the application from Global to OHSM</description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_hccc_hoc_ohs_investigation_case">stateCHANGESTO3^EQ<item display_value="Closed complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">stateCHANGESTO3^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message><![CDATA[<p>Document is copied</p>]]></message>
-        <name>HoC - Copy pdf_draft to HoC Investigation case2</name>
+        <name>HoC - Copy pdf_draft to HoC Investigatio</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>

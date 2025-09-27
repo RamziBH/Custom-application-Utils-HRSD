@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
+        <callable_outputs/>
         <copied_from display_value="Record Delete">8a3d32ca1bad8ed4813f844fdd4bcb75</copied_from>
         <description>Delete record '{{Step 4: Record Insert.Record}}' and confirm record was not deleted</description>
         <display_name>Record Delete</display_name>

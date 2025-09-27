@@ -7,12 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_hccc_hoc_ohs_investigation_case</collection>
-        <condition table="x_hccc_hoc_ohs_investigation_case">inc_type_occCHANGESTOdisab_injury^hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^dir_cause_injuryNOT INViolence,Harrasment^EQ<item display_value="Disabling injury" endquery="false" field="inc_type_occ" goto="false" newquery="false" operator="CHANGESTO" or="false" value="disab_injury"/>
-            <item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
-            <item display_value="Violence,Harrasment" endquery="false" field="dir_cause_injury" goto="false" newquery="false" operator="NOT IN" or="false" value="Violence,Harrasment"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_investigation_case">inc_type_occCHANGESTOdisab_injury^hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^dir_cause_injuryNOT INViolence,Harrasment^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -25,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>antivirus.infected</event_name>
@@ -151,12 +150,12 @@ ${URI_REF}</div>
 </div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HoC - OHSM Notify disability of disabling injury</name>
+        <name>HoC - OHSM Notify disability of disablin</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="CEH-HRS-OHS-Disability">fe6ffa86db167c109b09e6fa4b9619ea</recipient_groups>
+        <recipient_groups>fe6ffa86db167c109b09e6fa4b9619ea</recipient_groups>
         <recipient_users/>
         <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
         <send_self>true</send_self>

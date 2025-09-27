@@ -21,6 +21,7 @@
         <sys_update_name>sys_atf_test_e3051919db524110e3dd80c74b961982</sys_update_name>
         <sys_updated_by>$mageaa</sys_updated_by>
         <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=e3051919db524110e3dd80c74b961982"/>
 </record_update>

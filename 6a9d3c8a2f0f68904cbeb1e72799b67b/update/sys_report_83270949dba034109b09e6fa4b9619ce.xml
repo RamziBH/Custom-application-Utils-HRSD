@@ -33,7 +33,7 @@
         <column>state</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Pai (admin), Neetha">b02947801b3bb300dab2db1dcd4bcb98</created_by_user>
+        <created_by_user display_value="">b02947801b3bb300dab2db1dcd4bcb98</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -48,10 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
         <field_list>number,opened_for,hr_service,state,assigned_to,sys_updated_on</field_list>
-        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^inc_date_timeONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^reportable_to_esdc=true<item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
-            <item endquery="false" field="inc_date_time" goto="false" newquery="false" operator="ON" or="false" value="This month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()"/>
-            <item display_value="true" endquery="false" field="reportable_to_esdc" goto="false" newquery="false" operator="=" or="false" value="true"/>
-        </filter>
+        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^inc_date_timeONThis month@javascript:gs.beginningOfThisMonth()@javascript:gs.endOfThisMonth()^reportable_to_esdc=true</filter>
         <formatting_configuration/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -161,5 +158,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=83270949dba034109b09e6fa4b9619ce"/>
 </record_update>

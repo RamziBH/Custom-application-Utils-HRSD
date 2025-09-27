@@ -33,7 +33,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Abigael Schonewille">dd6330201b89b1d49fde86acdd4bcb67</created_by_user>
+        <created_by_user display_value="">dd6330201b89b1d49fde86acdd4bcb67</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -48,10 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>sys_created_on</field>
         <field_list>number,sys_created_on,opened_for,parent,complainant_name,hr_service,pdf_template,state,assigned_to,assignment_group,department.business_unit,opened_for.department.business_unit,inc_date_time,sys_updated_on,sys_updated_by</field_list>
-        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^stateIN109,900^sys_idINjavascript:new x_hccc_hoc_ohs.HoCOHSMUtils().hvReportRecords();<item display_table="sn_hr_core_service" display_value="Harassment and Violence Notice of Occurence" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="11d78aa31bb201509fde86acdd4bcb0b"/>
-            <item display_value="109,900" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="109,900"/>
-            <item endquery="false" field="sys_id" goto="false" newquery="false" operator="IN" or="false" value="javascript:new x_hccc_hoc_ohs.HoCOHSMUtils().hvReportRecords();"/>
-        </filter>
+        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^stateIN109,900^sys_idINjavascript:new x_hccc_hoc_ohs.HoCOHSMUtils().hvReportRecords();</filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -161,18 +158,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=cc3468971b6e86d09fde86acdd4bcb5f"/>
-    <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>cc3468971b6e86d09fde86acdd4bcb5f</documentkey>
-        <fieldname>title</fieldname>
-        <language>fq</language>
-        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2024-06-14 20:36:52</sys_created_on>
-        <sys_id>bbf52da51bbe0e109fde86acdd4bcb18</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2024-06-14 20:36:52</sys_updated_on>
-        <tablename>sys_report</tablename>
-        <value>Durée d'ouverture de H&amp;V</value>
-    </sys_translated_text>
 </record_update>

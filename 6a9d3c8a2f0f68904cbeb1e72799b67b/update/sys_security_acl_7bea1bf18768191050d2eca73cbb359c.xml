@@ -4,12 +4,10 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <applies_to/>
-        <condition table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment">hira_case.assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORhira_case.manager_nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateIN10,20^hira_case.stateNOT IN3,300^EQ<item endquery="false" field="hira_case.assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="false" field="hira_case.manager_name" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item display_value="10,20" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="10,20"/>
-            <item display_value="3,300" endquery="false" field="hira_case.state" goto="false" newquery="false" operator="NOT IN" or="false" value="3,300"/>
+        <condition table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment">hira_case.assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORhira_case.manager_nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^stateIN10,20^hira_case.stateNOT IN3,300^EQ<item display_value="10,20" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="10,20"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Write access for Assigned To</description>
         <local_or_existing>Local</local_or_existing>

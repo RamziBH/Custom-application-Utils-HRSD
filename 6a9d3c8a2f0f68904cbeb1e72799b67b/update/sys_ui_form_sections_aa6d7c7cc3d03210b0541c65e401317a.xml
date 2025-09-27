@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="aa6d7c7cc3d03210b0541c65e401317a" sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e66d7c7cc3d03210b0541c65e401317b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">004cd6131b633d14813f844fdd4bcb19</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>626d7c7cc3d03210b0541c65e401317c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">373c56131b633d14813f844fdd4bcbee</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>626d7c7cc3d03210b0541c65e40131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Lost Time and Return to Work" display_value="Lost Time and Return to Work" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">3e3c52131b633d14813f844fdd4bcb29</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a6d30bcc3d03210b0541c65e4013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Earnings" display_value="Earnings" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">573cd2131b633d14813f844fdd4bcbcb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf6d30bcc3d03210b0541c65e40131f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Sub-Cases and -Tasks" display_value="Sub-Cases and -Tasks" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">663c12131b633d14813f844fdd4bcb37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5b6df0bcc3d03210b0541c65e4013160</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Area of Injury" display_value="Area of Injury" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">8a3c9edf1b233d14813f844fdd4bcba8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f6df0bcc3d03210b0541c65e40131f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Health Care Information" display_value="Health Care Information" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">944c1a131b633d14813f844fdd4bcb9a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>536d34bcc3d03210b0541c65e4013148</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Additional Information" display_value="Additional Information" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">a73cd2131b633d14813f844fdd4bcbd1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a76d74bcc3d03210b0541c65e40131af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">ba3c52131b633d14813f844fdd4bcb2f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>776db4bcc3d03210b0541c65e40131cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Fulfillment Instructions" display_value="Fulfillment Instructions" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">c33c92131b633d14813f844fdd4bcb1e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>007d38bcc3d03210b0541c65e4013158</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_hira_case" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">aa6d7c7cc3d03210b0541c65e401317a</sys_ui_form>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">de3c12131b633d14813f844fdd4bcb30</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_hccc_hoc_ohs_hira_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aa6d7c7cc3d03210b0541c65e401317a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_hira_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_aa6d7c7cc3d03210b0541c65e401317a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Work Related Injury or Illness" name="Work_Related_Injury_or_Illness">d2f0545a1b399d509fde86acdd4bcb96</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

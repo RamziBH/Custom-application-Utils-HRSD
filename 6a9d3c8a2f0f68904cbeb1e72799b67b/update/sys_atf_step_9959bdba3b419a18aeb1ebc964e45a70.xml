@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Field State Validation">4806eb661be78ad89fde86acdd4bcb52</copied_from>
         <description>Assert the following:
 The following fields are not visible: Submitter details, Principal party's name, Principal party's details, Principal party's manager, Respondent list, Principal party feels in imminent danger, Has this request been submitted by the subject of harassment, Submitter is anonymous, Recipient of this notice of occurrence, Manager is involved in the harassment case, Occurrence resulted in an injury, Occurrence resulted in modified duties/accommodation, Occurrence resulted in time loss

@@ -36,6 +36,7 @@ ii.	All HIRA line items updated&#13;
         <sys_update_name>sys_atf_test_cdcbd2578761111850d2eca73cbb35cf</sys_update_name>
         <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-08-22 21:04:49</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=cdcbd2578761111850d2eca73cbb35cf"/>
 </record_update>

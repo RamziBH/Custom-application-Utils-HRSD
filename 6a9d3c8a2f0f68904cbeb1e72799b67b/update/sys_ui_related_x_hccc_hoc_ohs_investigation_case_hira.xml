@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="2" view="hira">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="HoC Investigation case  - HIRA" name="x_hccc_hoc_ohs_investigation_case" related_list="NULL" sys_domain="global" view="f99b684e8720591050d2eca73cbb35e5">29716ae11bf0f9909fde86acdd4bcb63</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case - HIRA" name="x_hccc_hoc_ohs_investigation_case" related_list="NULL" sys_domain="global" view="f99b684e8720591050d2eca73cbb35e5">29716ae11bf0f9909fde86acdd4bcb63</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment.hira_case</related_list>
@@ -15,7 +15,7 @@
             <sys_updated_on>2023-08-21 18:39:56</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>HoC Investigation case  - HIRA</calculated_name>
+            <calculated_name>x_hccc_hoc_ohs_investigation_case - HIRA</calculated_name>
             <filter/>
             <name>x_hccc_hoc_ohs_investigation_case</name>
             <order_by/>

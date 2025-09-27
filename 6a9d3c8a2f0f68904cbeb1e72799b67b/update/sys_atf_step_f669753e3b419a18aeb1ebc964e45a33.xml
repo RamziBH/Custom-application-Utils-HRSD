@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Set Component Values (Custom UI)">3017f6581b5142d49fde86acdd4bcb8d</copied_from>
         <description>Set the components on the page as follows:
 'Text &lt;input&gt;: Bookmark title' = 'Test closing notes 1', Page area = 'Bookmark title'

@@ -16,13 +16,11 @@
         <description>Close Workplace Inspection when Corrective actions are completed.&#13;
 Triggered if all sub-cases are marked as "Completed" (State 902)</description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=a284e0261b7a30109fde86acdd4bcbfc^state=902^EQ<item display_table="sn_hr_core_service" display_value="Corrective action" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="a284e0261b7a30109fde86acdd4bcbfc"/>
-            <item display_value="Completed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="902"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=a284e0261b7a30109fde86acdd4bcbfc^state=902^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>HoC - Workplace inspection - Close  Reports when Corrective actions completed</name>
+        <name>HoC - Workplace inspection - Close  Repo</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>

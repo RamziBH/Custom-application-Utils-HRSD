@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Record Query">c50e6d321b77e9589fde86acdd4bcbaa</copied_from>
         <description>Validate there is at least one record in 'sn_hr_core_task' matching query:
 Assigned to = {{Step 4: Create a User.User}}

@@ -5,6 +5,7 @@
         <advanced>false</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Only allow Users with the "x_hccc_hoc_ohs.admin" Role to update the records</description>
         <local_or_existing>Local</local_or_existing>

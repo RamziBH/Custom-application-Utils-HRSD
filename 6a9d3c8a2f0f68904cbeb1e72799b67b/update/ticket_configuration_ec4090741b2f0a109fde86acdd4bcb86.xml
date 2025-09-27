@@ -6,7 +6,7 @@
         <advanced>true</advanced>
         <description_field>description</description_field>
         <info_fields/>
-        <info_widget display_value="Appointment Booking - Reselect ">90b5ba4a8750030064048467a7cb0b9d</info_widget>
+        <info_widget display_value="">90b5ba4a8750030064048467a7cb0b9d</info_widget>
         <info_widget_param>{"catalog_item":"a57877a91bfed1509fde86acdd4bcb43"}</info_widget_param>
         <show_description>always</show_description>
         <state_field>state</state_field>
@@ -14,6 +14,7 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-19 13:16:52</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>ec4090741b2f0a109fde86acdd4bcb86</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>x_hccc_hoc_ohs_vaccination_appointment</sys_name>

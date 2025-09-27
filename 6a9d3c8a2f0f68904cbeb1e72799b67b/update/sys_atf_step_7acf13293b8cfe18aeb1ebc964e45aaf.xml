@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from/>
         <description>Answer the questions on the form as follows:
 Short description = qwerty</description>
@@ -23,7 +24,7 @@ Short description = qwerty</description>
         <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
         <sys_updated_on>2025-09-18 01:09:48</sys_updated_on>
         <table/>
-        <test display_value="ATF Generated Test - Service Catalog, WF - Product Evaluation - Cloud Software, Gad Dayan">facf97e53b8cfe18aeb1ebc964e45a31</test>
+        <test display_value="">facf97e53b8cfe18aeb1ebc964e45a31</test>
         <timeout/>
         <warning_message/>
     </sys_atf_step>

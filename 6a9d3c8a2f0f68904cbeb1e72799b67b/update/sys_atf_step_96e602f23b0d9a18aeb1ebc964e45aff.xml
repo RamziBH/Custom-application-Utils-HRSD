@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Click a UI Action">2406abdb1b9501109fde86acdd4bcb72</copied_from>
         <description>Click UI action 'Save' on 'HoC Investigation case ' form</description>
         <display_name>Click a UI Action</display_name>

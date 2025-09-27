@@ -15,15 +15,11 @@
         <condition/>
         <description>Workplace Investigation Report on Refusal to Work </description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_hccc_hoc_ohs_investigation_case">state=101^hr_service=66f3752a2f5f24104cbeb1e72799b6e7^NQstate=106^hr_service=1c6a0c72db5974109b09e6fa4b96192b^EQ<item display_value="Investigation in progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="101"/>
-            <item display_table="sn_hr_core_service" display_value="Workplace Investigation Report on Refusal to Work " endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="66f3752a2f5f24104cbeb1e72799b6e7"/>
-            <item display_value="Investigation Complete - Internal" endquery="false" field="state" goto="false" newquery="true" operator="=" or="false" value="106"/>
-            <item display_table="sn_hr_core_service" display_value="Investigation Complete - Refusal to Work" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="1c6a0c72db5974109b09e6fa4b96192b"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">state=101^hr_service=66f3752a2f5f24104cbeb1e72799b6e7^NQstate=106^hr_service=1c6a0c72db5974109b09e6fa4b96192b^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message><![CDATA[<p>Workplace Investigation Report on Refusal to Work Document is now created</p>]]></message>
-        <name>HoC - Refusal to work - PDF draft docu for Workplace Investigation Report</name>
+        <name>HoC - Refusal to work - PDF draft docu f</name>
         <order>1100</order>
         <priority>100</priority>
         <rest_method/>

@@ -7,12 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_hccc_hoc_ohs_vaccination_appointment</collection>
-        <condition table="x_hccc_hoc_ohs_vaccination_appointment">wu_location_queue=9437ae841b3135989fde86acdd4bcb9b^window_startISNOTEMPTY^window_startVALCHANGES^EQ<item display_table="wu_location_queue" display_value="Vaccination Clinic" endquery="false" field="wu_location_queue" goto="false" newquery="false" operator="=" or="false" value="9437ae841b3135989fde86acdd4bcb9b"/>
-            <item endquery="false" field="window_start" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="false" field="window_start" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_vaccination_appointment">wu_location_queue=9437ae841b3135989fde86acdd4bcb9b^window_startISNOTEMPTY^window_startVALCHANGES^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -25,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>antivirus.infected</event_name>
@@ -124,7 +123,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Vaccination Clinic - Appointment confirmation / Clinique de vaccination - Confirmation de rendez-vous</subject>
+        <subject>Vaccination Clinic - Appointment confirmation / Clinique de vaccination - Confirmation de rendez-vou</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>$mageaa</sys_created_by>

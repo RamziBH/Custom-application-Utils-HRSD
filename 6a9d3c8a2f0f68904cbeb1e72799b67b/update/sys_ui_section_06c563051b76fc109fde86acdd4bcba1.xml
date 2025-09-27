@@ -2,6 +2,7 @@
     <sys_ui_section caption="" section_id="06c563051b76fc109fde86acdd4bcba1" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="workplace_inspection">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
             <sys_created_on>2023-05-31 19:25:50</sys_created_on>
             <sys_id>5299d4db1bc36994893442a7bc4bcb3d</sys_id>
@@ -20,6 +21,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
             <sys_created_on>2023-05-31 19:25:50</sys_created_on>
             <sys_id>da99d4db1bc36994893442a7bc4bcb3d</sys_id>
@@ -46,7 +48,7 @@ display:none !important;&#13;
             <sys_created_on>2023-05-31 19:25:50</sys_created_on>
             <sys_id>5699d4db1bc36994893442a7bc4bcb47</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="sn_hr_le_activity_set_progress_bar">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
+            <sys_ui_formatter display_value="">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="efeb000d1b7e7c109fde86acdd4bcbbc">06c563051b76fc109fde86acdd4bcba1</sys_ui_section>
             <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
             <sys_updated_on>2023-05-31 19:25:50</sys_updated_on>

@@ -3,7 +3,7 @@
         <active>true</active>
         <batch_order_constraint/>
         <can_mutate_page>false</can_mutate_page>
-        <category display_value="HoC">be3690472f7d18104cbeb1e72799b612</category>
+        <category display_value="">be3690472f7d18104cbeb1e72799b612</category>
         <class_name/>
         <class_type>script</class_type>
         <deprecated>false</deprecated>
@@ -124,7 +124,7 @@ generateDescription();]]></description_generator>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-07-16 19:48:38</sys_updated_on>
         <template_reminder>Get a User</template_reminder>
-        <type display_value="Test Step" name="sys_atf_step">c8ac35621b173300af300d47dc4bcb33</type>
+        <type display_value="Test Step" name="sys_atf_step">1e0b4cf3e13622108bb2327e62588647</type>
         <wizard_redirect/>
     </sys_atf_step_config>
     <sys_translated_text action="delete_multiple" query="documentkey=4f6179371b574ad89fde86acdd4bcbd6"/>

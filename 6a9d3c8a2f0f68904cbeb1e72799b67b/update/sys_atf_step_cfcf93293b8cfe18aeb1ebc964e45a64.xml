@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from/>
         <description>Confirm that the following variables are visible: label_user_info, Requestor (primary contact), Disable Requestor Notification, Search all users, , Phone, Watchlist, Requested for, Location, Department, Contact type, label_request_info, Short description, What is the name of the Cloud Product being requested?, What is the Cloud Product website link, for contact information?, Was this request pre-approved by your manager?, What is the business justification (*Only needed for HoC Administration purchase request)?, Additional information, fcr_details, Resolved on first contact?
 Confirm that the following variables are mandatory: Was this request pre-approved by your manager?, Short description, Requestor (primary contact), Contact type, What is the Cloud Product website link, for contact information?, Requested for, Phone, What is the name of the Cloud Product being requested?
@@ -25,7 +26,7 @@ With a failure timeout of 30 Seconds</description>
         <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
         <sys_updated_on>2025-09-18 01:09:49</sys_updated_on>
         <table/>
-        <test display_value="ATF Generated Test - Service Catalog, WF - Product Evaluation - Cloud Software, Gad Dayan">facf97e53b8cfe18aeb1ebc964e45a31</test>
+        <test display_value="">facf97e53b8cfe18aeb1ebc964e45a31</test>
         <timeout>1970-01-01 00:00:30</timeout>
         <warning_message/>
     </sys_atf_step>

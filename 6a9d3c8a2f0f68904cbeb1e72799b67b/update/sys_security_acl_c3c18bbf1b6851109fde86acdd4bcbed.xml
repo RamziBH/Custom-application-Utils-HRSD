@@ -5,6 +5,7 @@
         <advanced>false</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Override the parent table default behavior in order to allow Write access on all field unless explicitly changed in a Field-Specific ACL</description>
         <local_or_existing>Local</local_or_existing>

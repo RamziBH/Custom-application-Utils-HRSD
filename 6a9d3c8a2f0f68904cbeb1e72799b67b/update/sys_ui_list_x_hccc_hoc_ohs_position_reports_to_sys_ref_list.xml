@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>position_code.code</element>
-            <list_id display_value="x_hccc_hoc_ohs_position_reports_to" element="NULL" name="x_hccc_hoc_ohs_position_reports_to" parent="NULL" relationship="NULL" sys_domain="global" view="97a831621b133300af300d47dc4bcb9d">22c3a1d91bc282509fde86acdd4bcb8f</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_position_reports_to" element="NULL" name="x_hccc_hoc_ohs_position_reports_to" parent="NULL" relationship="NULL" sys_domain="global" view="65938073e13222108bb2327e625886d3">22c3a1d91bc282509fde86acdd4bcb8f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -18,7 +18,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>position_code</element>
-            <list_id display_value="x_hccc_hoc_ohs_position_reports_to" element="NULL" name="x_hccc_hoc_ohs_position_reports_to" parent="NULL" relationship="NULL" sys_domain="global" view="97a831621b133300af300d47dc4bcb9d">22c3a1d91bc282509fde86acdd4bcb8f</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_position_reports_to" element="NULL" name="x_hccc_hoc_ohs_position_reports_to" parent="NULL" relationship="NULL" sys_domain="global" view="65938073e13222108bb2327e625886d3">22c3a1d91bc282509fde86acdd4bcb8f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -33,7 +33,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>reports_to</element>
-            <list_id display_value="x_hccc_hoc_ohs_position_reports_to" element="NULL" name="x_hccc_hoc_ohs_position_reports_to" parent="NULL" relationship="NULL" sys_domain="global" view="97a831621b133300af300d47dc4bcb9d">22c3a1d91bc282509fde86acdd4bcb8f</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_position_reports_to" element="NULL" name="x_hccc_hoc_ohs_position_reports_to" parent="NULL" relationship="NULL" sys_domain="global" view="65938073e13222108bb2327e625886d3">22c3a1d91bc282509fde86acdd4bcb8f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -48,7 +48,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>reports_to.x_hccc_base_org_position_code.code</element>
-            <list_id display_value="x_hccc_hoc_ohs_position_reports_to" element="NULL" name="x_hccc_hoc_ohs_position_reports_to" parent="NULL" relationship="NULL" sys_domain="global" view="97a831621b133300af300d47dc4bcb9d">22c3a1d91bc282509fde86acdd4bcb8f</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_position_reports_to" element="NULL" name="x_hccc_hoc_ohs_position_reports_to" parent="NULL" relationship="NULL" sys_domain="global" view="65938073e13222108bb2327e625886d3">22c3a1d91bc282509fde86acdd4bcb8f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -85,7 +85,7 @@
             <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2024-05-07 19:01:38</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">97a831621b133300af300d47dc4bcb9d</view>
+            <view display_value="Reference List" name="sys_ref_list">65938073e13222108bb2327e625886d3</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>TelWrk onLoad prefill other Telework info</name>
+        <name>TelWrk onLoad prefill other Telework inf</name>
         <order>200</order>
         <published_ref/>
         <script><![CDATA[function onLoad() {

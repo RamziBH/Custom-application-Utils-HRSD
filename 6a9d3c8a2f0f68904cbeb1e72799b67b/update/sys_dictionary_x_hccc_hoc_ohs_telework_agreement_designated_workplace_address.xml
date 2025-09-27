@@ -45,8 +45,7 @@
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>sys_class_name=sn_wsd_core_building^EQ</reference_qual>
-        <reference_qual_condition table="cmn_location">sys_class_name=sn_wsd_core_building^EQ<item display_value="Building" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="sn_wsd_core_building"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <reference_qual_condition table="cmn_location">sys_class_name=sn_wsd_core_building^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
         <spell_check>false</spell_check>
@@ -54,7 +53,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2023-03-31 19:34:29</sys_created_on>
-        <sys_id>945cb3191b4ee95034ea4267cc4bcb82</sys_id>
         <sys_name>Designated workplace address</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>

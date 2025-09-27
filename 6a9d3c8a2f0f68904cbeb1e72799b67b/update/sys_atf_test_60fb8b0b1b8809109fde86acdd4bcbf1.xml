@@ -21,6 +21,7 @@
         <sys_update_name>sys_atf_test_60fb8b0b1b8809109fde86acdd4bcbf1</sys_update_name>
         <sys_updated_by>$mageaa</sys_updated_by>
         <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=60fb8b0b1b8809109fde86acdd4bcbf1"/>
 </record_update>

@@ -7,11 +7,10 @@
         <affected_field_on_event/>
         <category display_value="ohs - hira" name="ohs - hira">c806f9fb1bb375509fde86acdd4bcbe4</category>
         <collection>x_hccc_hoc_ohs_hira_case</collection>
-        <condition table="x_hccc_hoc_ohs_hira_case">hr_service=3fb664a08754515050d2eca73cbb35f1^stateCHANGESTO102^EQ<item display_table="sn_hr_core_service" display_value="Hazard Investigation and Risk Assessment" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="3fb664a08754515050d2eca73cbb35f1"/>
-            <item display_value="Needs OHS Advisor review" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="102"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_hira_case">hr_service=3fb664a08754515050d2eca73cbb35f1^stateCHANGESTO102^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -24,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>antivirus.infected</event_name>
@@ -86,12 +86,12 @@
 </div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HoC - OHSM - HIRA - Manager completed HIRA</name>
+        <name>HoC - OHSM - HIRA - Manager completed HI</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="CEH-HRS-OHS-Advisor">13e4414a2f4f68904cbeb1e72799b6f1</recipient_groups>
+        <recipient_groups>13e4414a2f4f68904cbeb1e72799b6f1</recipient_groups>
         <recipient_users/>
         <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
         <send_self>true</send_self>

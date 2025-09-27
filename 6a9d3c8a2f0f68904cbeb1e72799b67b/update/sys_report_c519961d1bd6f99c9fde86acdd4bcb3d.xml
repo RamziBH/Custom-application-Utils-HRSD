@@ -33,7 +33,7 @@
         <column>x_hccc_hoc_ohs_rpt_appointment_duration</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Abigael Schonewille">dd6330201b89b1d49fde86acdd4bcb67</created_by_user>
+        <created_by_user display_value="">dd6330201b89b1d49fde86acdd4bcb67</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -48,12 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>window_start</field>
         <field_list>number,contact,window_start,state,assigned_to,short_description,wu_location_queue,interaction.location,sys_created_on,sys_created_by</field_list>
-        <filter table="wu_appointment">active=true^stateNOT IN1,3,4,7^wu_location_queue=9437ae841b3135989fde86acdd4bcb9b^window_start&gt;=javascript:gs.dateGenerate('2023-11-21','08:00:00')^window_end&lt;=javascript:gs.dateGenerate('2023-11-21','16:00:00')<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item display_value="1,3,4,7" endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="1,3,4,7"/>
-            <item display_table="wu_location_queue" display_value="Vaccination Clinic" endquery="false" field="wu_location_queue" goto="false" newquery="false" operator="=" or="false" value="9437ae841b3135989fde86acdd4bcb9b"/>
-            <item endquery="false" field="window_start" goto="false" newquery="false" operator="&gt;=" or="false" value="javascript:gs.dateGenerate('2023-11-21','08:00:00')"/>
-            <item endquery="false" field="window_end" goto="false" newquery="false" operator="&lt;=" or="false" value="javascript:gs.dateGenerate('2023-11-21','16:00:00')"/>
-        </filter>
+        <filter table="wu_appointment">active=true^stateNOT IN1,3,4,7^wu_location_queue=9437ae841b3135989fde86acdd4bcb9b^window_start&gt;=javascript:gs.dateGenerate('2023-11-21','08:00:00')^window_end&lt;=javascript:gs.dateGenerate('2023-11-21','16:00:00')</filter>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -163,5 +158,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=c519961d1bd6f99c9fde86acdd4bcb3d"/>
 </record_update>

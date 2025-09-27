@@ -3,10 +3,8 @@
         <active>true</active>
         <application display_value="HoC Occupational Health and Safety Manag">712efc8a2f0f68904cbeb1e72799b660</application>
         <assessment/>
-        <content_page/>
         <device_type/>
-        <filter table="sn_wsd_core_building">x_hccc_sm_active=true^EQ<item endquery="false" field="x_hccc_sm_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter table="sn_wsd_core_building">x_hccc_sm_active=true^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
         <homepage/>

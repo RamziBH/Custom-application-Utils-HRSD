@@ -5,10 +5,8 @@
         <description>HR Service: Wellness
 DEPRECATED, left alone to not break anything</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
-        <limit_concurrent_sessions>false</limit_concurrent_sessions>
         <name>x_hccc_hoc_ohs.ohs_hr_wellness_task_user</name>
         <scoped_admin>false</scoped_admin>
         <suffix>ohs_hr_wellness_task_user</suffix>

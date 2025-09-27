@@ -9,6 +9,8 @@
         <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
         <delete_access>true</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
         <is_extendable>false</is_extendable>
         <label>OHS HR Wellness Task</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -17,7 +19,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="OHS HR Task" name="x_hccc_hoc_ohs_hr_task">c0261d031ba00a909fde86acdd4bcb46</super_class>
+        <super_class display_value="label" name="x_hccc_hoc_ohs_hr_task">c0261d031ba00a909fde86acdd4bcb46</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-02-28 15:02:41</sys_created_on>

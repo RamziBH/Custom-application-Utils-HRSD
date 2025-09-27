@@ -28,6 +28,7 @@
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-29 22:37:57</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>646f2a4b1b5091109fde86acdd4bcb1d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>HoC Trigger email event</sys_name>
@@ -36,8 +37,8 @@
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_646f2a4b1b5091109fde86acdd4bcb1d</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-11-09 08:14:42</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 15:39:16</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -87,16 +88,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-29 22:37:58</sys_created_on>
         <sys_id>f46f2a4b1b5091109fde86acdd4bcb3c</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-07-13 16:08:40</sys_updated_on>
     </sys_hub_step_instance>
@@ -197,6 +193,7 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <value>{{action.event_record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f46f2a4b1b5091109fde86acdd4bcb3c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=f46f2a4b1b5091109fde86acdd4bcb3c"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=f46f2a4b1b5091109fde86acdd4bcb3c^sys_idNOT IN706f2a4b1b5091109fde86acdd4bcb59,706f2a4b1b5091109fde86acdd4bcb66,b06f2a4b1b5091109fde86acdd4bcb62,f06f2a4b1b5091109fde86acdd4bcb5e"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -496,7 +493,7 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_hr_core_case">sn_hr_core_case</reference>
+        <reference display_value="">sn_hr_core_case</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -532,7 +529,6 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
     </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=f46f2a4b1b5091109fde86acdd4bcb3c"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f46f2a4b1b5091109fde86acdd4bcb3c"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f46f2a4b1b5091109fde86acdd4bcb3c"/>
     <sys_hub_action_input action="delete_multiple" query="model=646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT IN346f2a4b1b5091109fde86acdd4bcb36,3c6f2a4b1b5091109fde86acdd4bcb31,a86f2a4b1b5091109fde86acdd4bcb2a,ac6f2a4b1b5091109fde86acdd4bcb24"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -751,7 +747,7 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_hr_le_case">sn_hr_le_case</reference>
+        <reference display_value="">sn_hr_le_case</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -881,14 +877,15 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-29 22:37:59</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>fc6f2a4b1b5091109fde86acdd4bcb73</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDf86f2a4bc45091101c4651c5facba573</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name>sys_complex_object_fc6f2a4b1b5091109fde86acdd4bcb73</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>$mageaa</sys_updated_by>
         <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
         <type>complex_object_schema</type>
@@ -1079,7 +1076,6 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <sys_updated_on>2022-06-29 22:37:59</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4d6f2a4b1b5091109fde86acdd4bcb93"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT IN746f2a4b1b5091109fde86acdd4bcb35,7c6f2a4b1b5091109fde86acdd4bcb30,7c6f2a4b1b5091109fde86acdd4bcb39,e86f2a4b1b5091109fde86acdd4bcb29"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>event_parm_1</element>
         <help/>
@@ -1173,7 +1169,6 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT IN056f2a4b1b5091109fde86acdd4bcb88,c56f2a4b1b5091109fde86acdd4bcb8f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -1226,18 +1221,14 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <action_id display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b87faa4b1b5091109fde86acdd4bcbbc","name":"plan","plan_signature":null}}</plan>
         <snapshot>a87faa4b1b5091109fde86acdd4bcb5e</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-29 22:38:15</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>b87faa4b1b5091109fde86acdd4bcbbc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-06-29 22:38:15</sys_updated_on>
     </sys_hub_action_plan>
@@ -1266,6 +1257,7 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-29 22:38:12</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>987faa4b1b5091109fde86acdd4bcb0a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name/>
@@ -1325,16 +1317,11 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-29 22:38:13</sys_created_on>
         <sys_id>187faa4b1b5091109fde86acdd4bcb24</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-07-13 16:08:48</sys_updated_on>
     </sys_hub_step_instance>
@@ -1435,6 +1422,7 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <value>{{action.event_record}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=187faa4b1b5091109fde86acdd4bcb24"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=187faa4b1b5091109fde86acdd4bcb24"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=187faa4b1b5091109fde86acdd4bcb24^sys_idNOT IN287faa4b1b5091109fde86acdd4bcb40,2c7faa4b1b5091109fde86acdd4bcb27,687faa4b1b5091109fde86acdd4bcb3c,e07faa4b1b5091109fde86acdd4bcb2c"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1734,7 +1722,7 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_hr_core_case">sn_hr_core_case</reference>
+        <reference display_value="">sn_hr_core_case</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -1770,7 +1758,6 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
     </sys_hub_step_ext_input>
     <sys_hub_step_ext_output action="delete_multiple" query="model=187faa4b1b5091109fde86acdd4bcb24"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=187faa4b1b5091109fde86acdd4bcb24"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_187faa4b1b5091109fde86acdd4bcb24"/>
     <sys_hub_action_input action="delete_multiple" query="model=987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT IN547faa4b1b5091109fde86acdd4bcb0e,947faa4b1b5091109fde86acdd4bcb13,d47faa4b1b5091109fde86acdd4bcb1e,dc7faa4b1b5091109fde86acdd4bcb19"/>
     <sys_hub_action_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1905,7 +1892,7 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sn_hr_le_case">sn_hr_le_case</reference>
+        <reference display_value="">sn_hr_le_case</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -2119,14 +2106,15 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-29 22:38:13</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>687faa4b1b5091109fde86acdd4bcb4c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FDa47faa4b54509110f7c9e1a4b85c2f4c</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name>sys_complex_object_687faa4b1b5091109fde86acdd4bcb4c</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>$mageaa</sys_updated_by>
         <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
         <type>complex_object_schema</type>
@@ -2317,7 +2305,6 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <sys_updated_on>2022-06-29 22:38:14</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a47faa4b1b5091109fde86acdd4bcb5e"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT IN107faa4b1b5091109fde86acdd4bcb19,107faa4b1b5091109fde86acdd4bcb22,187faa4b1b5091109fde86acdd4bcb1d,d47faa4b1b5091109fde86acdd4bcb12"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>event_record</element>
         <help/>
@@ -2411,7 +2398,6 @@ gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.ev
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT INa87faa4b1b5091109fde86acdd4bcb59,ec7faa4b1b5091109fde86acdd4bcb52"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>

@@ -29,6 +29,7 @@
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-03 22:02:42</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>22fda4be1bff0d509fde86acdd4bcb47</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>HoCCreatePDF</sys_name>
@@ -37,8 +38,8 @@
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_22fda4be1bff0d509fde86acdd4bcb47</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-11-09 08:14:33</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 15:39:07</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -124,16 +125,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-03 22:16:40</sys_created_on>
         <sys_id>cb21b8761b334d509fde86acdd4bcb68</sys_id>
         <sys_mod_count>9</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-06-20 22:52:36</sys_updated_on>
     </sys_hub_step_instance>
@@ -255,6 +251,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_cb21b8761b334d509fde86acdd4bcb68^id=cb21b8761b334d509fde86acdd4bcb68"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=cb21b8761b334d509fde86acdd4bcb68"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=cb21b8761b334d509fde86acdd4bcb68"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=cb21b8761b334d509fde86acdd4bcb68^sys_idNOT IN14f90c481bdc1d109fde86acdd4bcbed,58f90c481bdc1d109fde86acdd4bcbfc,94f90c481bdc1d109fde86acdd4bcbea,d0f90c481bdc1d109fde86acdd4bcbe6"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -673,7 +670,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cb21b8761b334d509fde86acdd4bcb68"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_cb21b8761b334d509fde86acdd4bcb68^sys_idNOT IN574954dc1bd09d109fde86acdd4bcb91"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>pdfattachmentid</element>
         <help/>
@@ -1132,14 +1128,15 @@
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-17 03:41:36</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>3938f40b1b4c19109fde86acdd4bcb4a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD7538f40b3f4c1910a0833fc6e288994a</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name>sys_complex_object_3938f40b1b4c19109fde86acdd4bcb4a</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>$mageaa</sys_updated_by>
         <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
         <type>complex_object_schema</type>
@@ -1330,7 +1327,6 @@
         <sys_updated_on>2022-06-03 22:16:41</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=db21fcb61b334d509fde86acdd4bcb2b"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_22fda4be1bff0d509fde86acdd4bcb47^sys_idNOT INd0978c841bdc1d109fde86acdd4bcb96,d0978c841bdc1d109fde86acdd4bcb9f,d8978c841bdc1d109fde86acdd4bcb91,d8978c841bdc1d109fde86acdd4bcb9a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>record_id</element>
         <help/>
@@ -1424,7 +1420,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_22fda4be1bff0d509fde86acdd4bcb47"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_22fda4be1bff0d509fde86acdd4bcb47^sys_idNOT IN0b7b18901b149d109fde86acdd4bcbac,3d38f40b1b4c19109fde86acdd4bcbb0,f538f40b1b4c19109fde86acdd4bcba9"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>variable</element>
         <help/>
@@ -1500,18 +1495,14 @@
         <action_id display_value="HoCCreatePDF">22fda4be1bff0d509fde86acdd4bcb47</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"bf887c0b1b4c19109fde86acdd4bcba8","name":"plan","plan_signature":null}}</plan>
         <snapshot>ac9bd8901b149d109fde86acdd4bcb15</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-17 03:43:06</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>bf887c0b1b4c19109fde86acdd4bcba8</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-06-20 22:48:53</sys_updated_on>
     </sys_hub_action_plan>
@@ -1541,6 +1532,7 @@
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-17 03:43:05</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>93887c0b1b4c19109fde86acdd4bcb4c</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name/>
@@ -1636,16 +1628,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-17 03:43:05</sys_created_on>
         <sys_id>e7887c0b1b4c19109fde86acdd4bcb50</sys_id>
         <sys_mod_count>5</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2022-06-20 22:52:43</sys_updated_on>
     </sys_hub_step_instance>
@@ -1743,6 +1730,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_e7887c0b1b4c19109fde86acdd4bcb50^id=e7887c0b1b4c19109fde86acdd4bcb50"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=e7887c0b1b4c19109fde86acdd4bcb50"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e7887c0b1b4c19109fde86acdd4bcb50"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=e7887c0b1b4c19109fde86acdd4bcb50^sys_idNOT IN2ff98c481bdc1d109fde86acdd4bcb4b,63f98c481bdc1d109fde86acdd4bcb58,a3f98c481bdc1d109fde86acdd4bcb54,e3f98c481bdc1d109fde86acdd4bcb50"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -2161,7 +2149,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=e7887c0b1b4c19109fde86acdd4bcb50"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_e7887c0b1b4c19109fde86acdd4bcb50^sys_idNOT IN7adad8501b149d109fde86acdd4bcb19"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>pdfattachmentid</element>
         <help/>
@@ -2620,14 +2607,15 @@
         <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2022-06-17 03:43:05</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>27887c0b1b4c19109fde86acdd4bcb59</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD63887c0bff4c1910040e2a2c0c0fa459</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name>sys_complex_object_27887c0b1b4c19109fde86acdd4bcb59</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>$mageaa</sys_updated_by>
         <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
         <type>complex_object_schema</type>
@@ -2818,7 +2806,6 @@
         <sys_updated_on>2022-06-17 03:43:05</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a7887c0b1b4c19109fde86acdd4bcb77"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c^sys_idNOT INa3f98c481bdc1d109fde86acdd4bcb31,a3f98c481bdc1d109fde86acdd4bcb3a,abf98c481bdc1d109fde86acdd4bcb2c,abf98c481bdc1d109fde86acdd4bcb35"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>record_id</element>
         <help/>
@@ -2912,7 +2899,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_93887c0b1b4c19109fde86acdd4bcb4c^sys_idNOT IN2b887c0b1b4c19109fde86acdd4bcb5f,a89bd8901b149d109fde86acdd4bcb11,eb887c0b1b4c19109fde86acdd4bcb72"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>

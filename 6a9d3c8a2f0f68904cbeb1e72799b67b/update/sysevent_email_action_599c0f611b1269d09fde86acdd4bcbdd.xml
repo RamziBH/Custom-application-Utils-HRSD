@@ -7,12 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
         <collection>x_hccc_hoc_ohs_telework_agreement</collection>
-        <condition table="x_hccc_hoc_ohs_telework_agreement">state=11^approval=requested^manager_nameISNOTEMPTY^EQ<item display_value="Awaiting approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="11"/>
-            <item display_value="Requested" endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="requested"/>
-            <item endquery="false" field="manager_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_telework_agreement">state=11^approval=requested^manager_nameISNOTEMPTY^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -25,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>activate.life.cycle.migration</event_name>
@@ -55,7 +54,7 @@
 <p style="margin-right: 0cm; margin-left: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 10.0pt; font-family: Arial, sans-serif;">CdC</span></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HoC - OHSM Telework Agreement - Manager Action Required</name>
+        <name>HoC - OHSM Telework Agreement - Manager </name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>

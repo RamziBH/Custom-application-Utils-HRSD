@@ -4,9 +4,9 @@
         <admin_overrides>true</admin_overrides>
         <advanced>true</advanced>
         <applies_to/>
-        <condition table="x_hccc_hoc_ohs_case">hr_service=c3613fae1b14ced8813f844fdd4bcbc4^EQ<item display_table="sn_hr_core_service" display_value="Workplace Assessment Request" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="c3613fae1b14ced8813f844fdd4bcbc4"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_case">hr_service=c3613fae1b14ced8813f844fdd4bcbc4^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>HR Service - Workplace Assessment Request&#13;
 To allow users to delete the records  </description>

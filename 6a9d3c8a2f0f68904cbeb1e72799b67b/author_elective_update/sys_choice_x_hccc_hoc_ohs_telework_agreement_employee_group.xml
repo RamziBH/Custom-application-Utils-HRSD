@@ -1,0 +1,2793 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="employee_group" table="x_hccc_hoc_ohs_telework_agreement" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>employee_group</element>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:55:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>employee_group</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_telework_agreement_employee_group</sys_update_name>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:55:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select...</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:55:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:55:56</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Veuillez sélectionner...</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:43:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:43:50</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-A</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:57:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:57:01</sys_updated_on>
+            <value>group_adg_a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-A</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:44:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:44:16</sys_updated_on>
+            <value>group_adg_a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-B</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:57:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:57:23</sys_updated_on>
+            <value>group_adg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-B</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:44:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:44:32</sys_updated_on>
+            <value>group_adg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-C</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:57:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:57:34</sys_updated_on>
+            <value>group_adg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-C</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:44:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:44:40</sys_updated_on>
+            <value>group_adg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-D</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:44:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:44:49</sys_updated_on>
+            <value>group_adg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-D</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:57:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:57:45</sys_updated_on>
+            <value>group_adg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-E</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:44:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:44:56</sys_updated_on>
+            <value>group_adg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-E</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:57:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:57:55</sys_updated_on>
+            <value>group_adg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-F</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:45:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:45:05</sys_updated_on>
+            <value>group_adg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-F</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:58:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:58:04</sys_updated_on>
+            <value>group_adg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-G</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:58:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:58:14</sys_updated_on>
+            <value>group_adg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-G</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:45:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:45:12</sys_updated_on>
+            <value>group_adg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-H</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:58:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:58:24</sys_updated_on>
+            <value>group_adg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-H</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:45:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:45:19</sys_updated_on>
+            <value>group_adg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-I</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:58:35</sys_updated_on>
+            <value>group_adg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-I</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:45:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:45:27</sys_updated_on>
+            <value>group_adg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-J</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:45:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:45:38</sys_updated_on>
+            <value>group_adg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-J</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:58:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:58:46</sys_updated_on>
+            <value>group_adg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-K</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:59:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:59:01</sys_updated_on>
+            <value>group_adg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ADG-K</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:45:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:45:46</sys_updated_on>
+            <value>group_adg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSG-K</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 12:59:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 12:59:41</sys_updated_on>
+            <value>group_csg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSG-K</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:45:54</sys_updated_on>
+            <value>group_csg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GC-05</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:00:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:00:30</sys_updated_on>
+            <value>group_gc_05</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GC-05</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:46:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:46:07</sys_updated_on>
+            <value>group_gc_05</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GC-06</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:46:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:46:16</sys_updated_on>
+            <value>group_gc_06</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GC-06</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:00:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:00:41</sys_updated_on>
+            <value>group_gc_06</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GC-08</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:00:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:00:54</sys_updated_on>
+            <value>group_gc_08</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GC-08</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:46:22</sys_updated_on>
+            <value>group_gc_08</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-01</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:46:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:46:30</sys_updated_on>
+            <value>group_hcx_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-01</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:02:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:02:01</sys_updated_on>
+            <value>group_hcx_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-02</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:46:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:46:37</sys_updated_on>
+            <value>group_hcx_02</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-02</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:02:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:02:16</sys_updated_on>
+            <value>group_hcx_02</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-03</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:46:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:46:44</sys_updated_on>
+            <value>group_hcx_03</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-03</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:02:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:02:30</sys_updated_on>
+            <value>group_hcx_03</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-04</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:02:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:02:46</sys_updated_on>
+            <value>group_hcx_04</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-04</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:46:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:46:52</sys_updated_on>
+            <value>group_hcx_04</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-05</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:02:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:02:59</sys_updated_on>
+            <value>group_hcx_05</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HCX-05</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:46:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:46:59</sys_updated_on>
+            <value>group_hcx_05</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLC-01</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:47:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:47:06</sys_updated_on>
+            <value>group_hlc_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLC-01</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:03:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:03:25</sys_updated_on>
+            <value>group_hlc_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLC-02</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:47:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:47:14</sys_updated_on>
+            <value>group_hlc_02</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLC-02</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:03:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:03:37</sys_updated_on>
+            <value>group_hlc_02</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLP-01</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:03:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:03:59</sys_updated_on>
+            <value>group_hlp_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLP-01</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:47:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:47:21</sys_updated_on>
+            <value>group_hlp_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLP-02</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:04:13</sys_updated_on>
+            <value>group_hlp_02</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLP-02</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:47:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:47:30</sys_updated_on>
+            <value>group_hlp_02</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLP-03</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:04:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:04:26</sys_updated_on>
+            <value>group_hlp_03</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HLP-03</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:47:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:47:37</sys_updated_on>
+            <value>group_hlp_03</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-B</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:47:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:47:45</sys_updated_on>
+            <value>group_ipg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-B</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:26:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:26:29</sys_updated_on>
+            <value>group_ipg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-C</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>27</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:47:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:47:55</sys_updated_on>
+            <value>group_ipg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-C</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>27</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:26:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:26:55</sys_updated_on>
+            <value>group_ipg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-D</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>28</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:27:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:27:11</sys_updated_on>
+            <value>group_ipg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-D</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>28</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:48:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:48:03</sys_updated_on>
+            <value>group_ipg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-E</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>29</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:48:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:48:11</sys_updated_on>
+            <value>group_ipg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-E</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>29</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:27:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:27:26</sys_updated_on>
+            <value>group_ipg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-F</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:27:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:27:39</sys_updated_on>
+            <value>group_ipg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-F</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:48:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:48:18</sys_updated_on>
+            <value>group_ipg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-G</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>31</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:48:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:48:26</sys_updated_on>
+            <value>group_ipg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-G</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>31</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:27:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:27:51</sys_updated_on>
+            <value>group_ipg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-H</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>32</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:48:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:48:33</sys_updated_on>
+            <value>group_ipg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-H</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>32</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:28:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:28:20</sys_updated_on>
+            <value>group_ipg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-I</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>33</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:48:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:48:41</sys_updated_on>
+            <value>group_ipg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-I</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>33</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:28:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:28:35</sys_updated_on>
+            <value>group_ipg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-J</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>34</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:28:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:28:58</sys_updated_on>
+            <value>group_ipg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-J</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>34</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:48:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:48:49</sys_updated_on>
+            <value>group_ipg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-K</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>35</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:29:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:29:17</sys_updated_on>
+            <value>group_ipg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPG-K</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>35</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:48:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:48:56</sys_updated_on>
+            <value>group_ipg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-B</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>36</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:49:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:49:03</sys_updated_on>
+            <value>group_osg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-B</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>36</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:30:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:30:02</sys_updated_on>
+            <value>group_osg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-C</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>37</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:49:11</sys_updated_on>
+            <value>group_osg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-C</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>37</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:30:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:30:16</sys_updated_on>
+            <value>group_osg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-D</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>38</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:49:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:49:19</sys_updated_on>
+            <value>group_osg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-D</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>38</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:30:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:30:29</sys_updated_on>
+            <value>group_osg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-E</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>39</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:49:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:49:27</sys_updated_on>
+            <value>group_osg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-E</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>39</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:30:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:30:51</sys_updated_on>
+            <value>group_osg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-F</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:31:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:31:12</sys_updated_on>
+            <value>group_osg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-F</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:49:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:49:34</sys_updated_on>
+            <value>group_osg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-G</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>41</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:31:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:31:23</sys_updated_on>
+            <value>group_osg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-G</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>41</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:49:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:49:42</sys_updated_on>
+            <value>group_osg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-H</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>42</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:49:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:49:49</sys_updated_on>
+            <value>group_osg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-H</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>42</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:31:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:31:36</sys_updated_on>
+            <value>group_osg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-I</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>43</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:31:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:31:51</sys_updated_on>
+            <value>group_osg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-I</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>43</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:49:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:49:56</sys_updated_on>
+            <value>group_osg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-J</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>44</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:50:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:50:04</sys_updated_on>
+            <value>group_osg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-J</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>44</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:32:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:32:19</sys_updated_on>
+            <value>group_osg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-K</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>45</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:32:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:32:34</sys_updated_on>
+            <value>group_osg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OSG-K</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>45</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:50:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:50:12</sys_updated_on>
+            <value>group_osg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OTH-01</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>46</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:50:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:50:19</sys_updated_on>
+            <value>group_oth_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OTH-01</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>46</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:33:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:33:23</sys_updated_on>
+            <value>group_oth_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PAG-01</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>47</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:33:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:33:41</sys_updated_on>
+            <value>group_pag_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PAG-01</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>47</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:50:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:50:27</sys_updated_on>
+            <value>group_pag_01</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSG-H</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>48</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:34:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:34:05</sys_updated_on>
+            <value>group_psg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSG-H</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>48</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:50:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:50:35</sys_updated_on>
+            <value>group_psg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSG-J</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>49</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:34:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:34:21</sys_updated_on>
+            <value>group_psg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PSG-J</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>49</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:50:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:50:42</sys_updated_on>
+            <value>group_psg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-B</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:34:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:34:52</sys_updated_on>
+            <value>group_rpg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-B</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:50:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:50:50</sys_updated_on>
+            <value>group_rpg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-C</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>51</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:50:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:50:57</sys_updated_on>
+            <value>group_rpg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-C</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>51</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:35:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:35:03</sys_updated_on>
+            <value>group_rpg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-D</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>52</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:51:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:51:06</sys_updated_on>
+            <value>group_rpg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-D</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>52</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:35:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:35:16</sys_updated_on>
+            <value>group_rpg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-E</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>53</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:51:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:51:15</sys_updated_on>
+            <value>group_rpg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-E</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>53</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:35:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:35:35</sys_updated_on>
+            <value>group_rpg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-F</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>54</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:51:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:51:22</sys_updated_on>
+            <value>group_rpg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-F</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>54</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:35:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:35:51</sys_updated_on>
+            <value>group_rpg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-G</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>55</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:36:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:36:02</sys_updated_on>
+            <value>group_rpg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-G</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>55</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:51:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:51:30</sys_updated_on>
+            <value>group_rpg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-H</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>56</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:51:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:51:38</sys_updated_on>
+            <value>group_rpg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-H</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>56</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:36:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:36:15</sys_updated_on>
+            <value>group_rpg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-I</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>57</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:51:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:51:45</sys_updated_on>
+            <value>group_rpg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-I</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>57</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:36:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:36:30</sys_updated_on>
+            <value>group_rpg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-J</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>58</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:51:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:51:53</sys_updated_on>
+            <value>group_rpg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-J</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>58</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:36:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:36:45</sys_updated_on>
+            <value>group_rpg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-K</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>59</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:37:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:37:03</sys_updated_on>
+            <value>group_rpg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RPG-K</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>59</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:52:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:52:01</sys_updated_on>
+            <value>group_rpg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RSH-1</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:52:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:52:10</sys_updated_on>
+            <value>group_rsh_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RSH-1</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:38:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:38:24</sys_updated_on>
+            <value>group_rsh_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STU-1</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>61</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:38:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:38:42</sys_updated_on>
+            <value>group_stu_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STU-1</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>61</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:52:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:52:17</sys_updated_on>
+            <value>group_stu_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STU-2</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>62</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:52:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:52:26</sys_updated_on>
+            <value>group_stu_2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>STU-2</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>62</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:38:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:38:53</sys_updated_on>
+            <value>group_stu_2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-B</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>63</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:39:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:39:31</sys_updated_on>
+            <value>group_tkg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-B</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>63</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:52:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:52:33</sys_updated_on>
+            <value>group_tkg_b</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-C</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>64</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:39:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:39:42</sys_updated_on>
+            <value>group_tkg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-C</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>64</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:52:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:52:41</sys_updated_on>
+            <value>group_tkg_c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-D</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>65</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:52:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:52:49</sys_updated_on>
+            <value>group_tkg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-D</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>65</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:40:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:40:04</sys_updated_on>
+            <value>group_tkg_d</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-E</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>66</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:40:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:40:23</sys_updated_on>
+            <value>group_tkg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-E</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>66</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:52:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:52:57</sys_updated_on>
+            <value>group_tkg_e</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-F</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>67</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:53:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:53:06</sys_updated_on>
+            <value>group_tkg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-F</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>67</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:40:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:40:42</sys_updated_on>
+            <value>group_tkg_f</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-G</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>68</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:53:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:53:13</sys_updated_on>
+            <value>group_tkg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-G</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>68</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:40:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:40:55</sys_updated_on>
+            <value>group_tkg_g</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-H</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>69</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:53:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:53:21</sys_updated_on>
+            <value>group_tkg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-H</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>69</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:41:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:41:14</sys_updated_on>
+            <value>group_tkg_h</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-I</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:53:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:53:30</sys_updated_on>
+            <value>group_tkg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-I</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:42:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:42:26</sys_updated_on>
+            <value>group_tkg_i</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-J</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>71</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:53:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:53:38</sys_updated_on>
+            <value>group_tkg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-J</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>71</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:42:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:42:39</sys_updated_on>
+            <value>group_tkg_j</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-K</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>72</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:42:53</sys_updated_on>
+            <value>group_tkg_k</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>employee_group</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TKG-K</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>72</sequence>
+            <synonyms/>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-04-17 13:53:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-04-17 13:53:48</sys_updated_on>
+            <value>group_tkg_k</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

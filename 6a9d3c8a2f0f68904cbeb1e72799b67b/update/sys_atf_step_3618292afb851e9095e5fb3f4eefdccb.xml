@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
+        <callable_outputs/>
         <copied_from display_value="Validate Record Present in List">dc859ad38721111850d2eca73cbb357b</copied_from>
         <description>Validate that the record '{{Step 31: Click a UI Action.Record}}' is present in the 'HIRA Hazard-&gt;HIRA Case' related list on the 'HIRA case' form</description>
         <display_name>Validate Record Present in List</display_name>

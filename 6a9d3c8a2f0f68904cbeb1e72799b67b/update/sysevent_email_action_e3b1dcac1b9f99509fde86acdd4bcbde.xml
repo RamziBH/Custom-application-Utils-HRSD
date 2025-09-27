@@ -7,11 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>wu_appointment</collection>
-        <condition table="wu_appointment">wu_location_queue=9437ae841b3135989fde86acdd4bcb9b^contactVALCHANGES^EQ<item display_table="wu_location_queue" display_value="Vaccination Clinic" endquery="false" field="wu_location_queue" goto="false" newquery="false" operator="=" or="false" value="9437ae841b3135989fde86acdd4bcb9b"/>
-            <item endquery="false" field="contact" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="wu_appointment">wu_location_queue=9437ae841b3135989fde86acdd4bcb9b^contactVALCHANGES^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -24,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>antivirus.infected</event_name>

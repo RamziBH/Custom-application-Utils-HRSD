@@ -39,6 +39,7 @@ c.	Notification sent to Manager: HOC – OHSM Manager – HIRA Assigned&#13;
         <sys_update_name>sys_atf_test_359b1bbe1b30bd149fde86acdd4bcbc6</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-10-07 19:49:27</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=359b1bbe1b30bd149fde86acdd4bcbc6"/>
 </record_update>

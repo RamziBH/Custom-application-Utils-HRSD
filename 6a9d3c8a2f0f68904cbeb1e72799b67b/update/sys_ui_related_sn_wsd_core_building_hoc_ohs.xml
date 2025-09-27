@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="sn_wsd_core_building" version="2" view="hoc_ohs">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Building - Occupational Health and Safety" name="sn_wsd_core_building" related_list="NULL" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">db86e2311b6141109fde86acdd4bcbf7</list_id>
+            <list_id display_value="sn_wsd_core_building - Occupational Health and Safety" name="sn_wsd_core_building" related_list="NULL" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">db86e2311b6141109fde86acdd4bcbf7</list_id>
             <order_by/>
             <position>0</position>
             <related_list/>
@@ -15,7 +15,7 @@
             <sys_updated_on>2022-02-09 07:54:17</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>Building - Occupational Health and Safety</calculated_name>
+            <calculated_name>sn_wsd_core_building - Occupational Health and Safety</calculated_name>
             <filter/>
             <name>sn_wsd_core_building</name>
             <order_by/>

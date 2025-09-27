@@ -17,16 +17,13 @@
         <resume_condition/>
         <retroactive>false</retroactive>
         <retroactive_pause>true</retroactive_pause>
-        <schedule display_value="HoC - Monday to Friday 8-5 Excluding Holidays">6b140d611b602410ce8c744ead4bcbaf</schedule>
+        <schedule display_value="">6b140d611b602410ce8c744ead4bcbaf</schedule>
         <schedule_source>sla_definition</schedule_source>
         <schedule_source_field/>
-        <service_commitment>false</service_commitment>
         <set_start_to>work_end</set_start_to>
-        <start_condition table="x_hccc_hoc_ohs_investigation_case">stateIN102,104^EQ<item display_value="102,104" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="102,104"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <start_condition table="x_hccc_hoc_ohs_investigation_case">stateIN102,104^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </start_condition>
-        <stop_condition table="x_hccc_hoc_ohs_investigation_case">stateIN105,106^EQ<item display_value="105,106" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="105,106"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <stop_condition table="x_hccc_hoc_ohs_investigation_case">stateIN105,106^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </stop_condition>
         <sys_class_name>contract_sla</sys_class_name>
         <sys_created_by>umair.ahmed</sys_created_by>

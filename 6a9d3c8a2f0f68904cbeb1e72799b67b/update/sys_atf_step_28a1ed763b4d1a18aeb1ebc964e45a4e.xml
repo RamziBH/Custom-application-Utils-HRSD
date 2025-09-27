@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Field State Validation">fb3821831b8bc1509fde86acdd4bcbf8</copied_from>
         <description>Assert the following:
 The following fields are not read only: Years of Occupation (calculated in years), Type of Occurrence, Description of the event, Description of the injury, Corrective measures,  Implementation date, Direct cause of injury, Protection equipment required, Brief description and estimated cost of property damage, if any., Date and time of occurrence, Employee gender, Direct cause of hazardous occurrence, Supplementary preventative measures, Additional investigation notes, Employee Age, Work hour start, Work hour end, Did the employee receive training?, Training specifications, Weather, Reasons for not taking corrective measures, Witnesses, Was the employee on modified duties at the time of the incident?, Does the employee require modified duties as a result of this injury/illness?, Did the employee consult a healthcare professional as a result of this injury?, Did this incident result in an injury? , Incident related illness, Post-exposure incident (biological, chemical), Please specify cause of hazardous occurrence

@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>true</active>
+        <advanced>false</advanced>
         <business_calendar/>
         <condition/>
         <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
         <entered_time/>
         <max_drift/>
         <name>HoC - OHSM - Outstanding corrective actions event</name>
         <offset/>
         <offset_type>0</offset_type>
-        <run_as display_value="Guillaume Houde (AZ)">bd3c6d411b9bd810ea0eda02dd4bcb52</run_as>
+        <repeat_every/>
+        <run_as display_value="">bd3c6d411b9bd810ea0eda02dd4bcb52</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
         <run_period/>
         <run_start>2021-10-06 15:18:01</run_start>
         <run_time>1970-01-01 15:00:00</run_time>
         <run_type>daily</run_type>
+        <run_weekinmonth/>
         <script><![CDATA[//Send emails
 var gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
 gr.addEncodedQuery('stateNOT IN3,4,7,902,907');

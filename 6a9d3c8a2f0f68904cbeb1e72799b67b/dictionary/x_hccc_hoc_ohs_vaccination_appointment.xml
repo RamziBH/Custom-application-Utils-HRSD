@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="254a846c1b6b42dc9fde86acdd4bcb4f" extends="wu_appointment" label="Vaccination Appointments" max_length="40" name="x_hccc_hoc_ohs_vaccination_appointment" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Reason" max_length="32" name="reason" reference="wu_reason" type="reference"/>
+        <index name="index">
+            <element name="reason"/>
+        </index>
+    </element>
+</database>

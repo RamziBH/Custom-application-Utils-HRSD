@@ -33,7 +33,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Pai (admin), Neetha">b02947801b3bb300dab2db1dcd4bcb98</created_by_user>
+        <created_by_user display_value="">b02947801b3bb300dab2db1dcd4bcb98</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -158,5 +158,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=549a1e5a2f4f2c904cbeb1e72799b62a"/>
 </record_update>

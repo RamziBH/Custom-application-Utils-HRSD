@@ -15,12 +15,11 @@
         <condition/>
         <description>Add NA as a default value under the Witnesses   field in the  Lab 1070 report  report when no Witnesses  are available </description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^EQ<item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>HoC - Add Witnesses value NA in the  Lab 1070 report</name>
+        <name>HoC - Add Witnesses value NA in the  Lab</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>

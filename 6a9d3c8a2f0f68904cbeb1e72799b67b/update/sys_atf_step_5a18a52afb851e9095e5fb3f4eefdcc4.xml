@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
+        <callable_outputs/>
         <copied_from display_value="Validate Related List Visibility">4c859ad38721111850d2eca73cbb353d</copied_from>
         <description>Confirm that the following related lists are visible on the 'HIRA case' form: HIRA Hazard-&gt;HIRA Case</description>
         <display_name>Validate Related List Visibility</display_name>

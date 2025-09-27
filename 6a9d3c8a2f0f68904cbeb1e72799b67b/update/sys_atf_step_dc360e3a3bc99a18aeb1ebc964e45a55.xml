@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Record Insert">63fd553a1b73e9589fde86acdd4bcbc1</copied_from>
         <description>Insert a record into 'x_hccc_hoc_ohs_investigation_case' with the following values:
 Manager = {{Step 5: Create a User.User}}

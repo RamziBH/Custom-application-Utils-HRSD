@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Manager or Respectful workplace is checked</name>
+        <name>Manager or Respectful workplace is check</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onSubmit() {

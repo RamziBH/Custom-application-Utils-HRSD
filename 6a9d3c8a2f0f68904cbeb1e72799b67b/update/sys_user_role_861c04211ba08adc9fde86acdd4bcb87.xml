@@ -7,10 +7,8 @@
 DEPRECATED: to be replaced by x_hccc_hoc_ohs.wellness_nurse, use the new one.&#13;
 This one left active to not break anything.</description>
         <elevated_privilege>false</elevated_privilege>
-        <encryption_context/>
         <grantable>true</grantable>
         <includes_roles/>
-        <limit_concurrent_sessions>false</limit_concurrent_sessions>
         <name>x_hccc_hoc_ohs.ohs_wellness_nurse_user</name>
         <scoped_admin>false</scoped_admin>
         <suffix>ohs_wellness_nurse_user</suffix>

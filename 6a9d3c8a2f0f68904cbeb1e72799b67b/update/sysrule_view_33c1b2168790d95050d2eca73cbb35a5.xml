@@ -2,8 +2,7 @@
     <sysrule_view action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>false</advanced>
-        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=3fb664a08754515050d2eca73cbb35f1^EQ<item display_table="sn_hr_core_service" display_value="Hazard Investigation and Risk Assessment" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="3fb664a08754515050d2eca73cbb35f1"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=3fb664a08754515050d2eca73cbb35f1^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
         <device_type>browser</device_type>

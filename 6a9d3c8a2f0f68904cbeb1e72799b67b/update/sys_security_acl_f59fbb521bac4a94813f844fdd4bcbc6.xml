@@ -4,11 +4,10 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <applies_to/>
-        <condition table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment">hira_case.assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORhira_case.manager_nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^NQhira_caseISEMPTY^EQ<item endquery="false" field="hira_case.assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="false" field="hira_case.manager_name" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
-            <item endquery="false" field="hira_case" goto="false" newquery="true" operator="ISEMPTY" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment">hira_case.assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^ORhira_case.manager_nameDYNAMIC90d1921e5f510100a9ad2572f2b477fe^NQhira_caseISEMPTY^EQ<item endquery="false" field="hira_case" goto="false" newquery="true" operator="ISEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Manager / assigned_to access</description>
         <local_or_existing>Local</local_or_existing>

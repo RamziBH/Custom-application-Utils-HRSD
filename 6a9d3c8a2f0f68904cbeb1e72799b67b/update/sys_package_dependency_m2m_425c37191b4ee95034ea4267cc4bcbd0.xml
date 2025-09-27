@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
     <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
-        <dependency display_value="Human Resources: Core" source="sn_hr_core">d4ac3fff5b311200a4656ede91f91af2</dependency>
+        <dependency display_value="">d4ac3fff5b311200a4656ede91f91af2</dependency>
         <min_version>19.0.0</min_version>
         <sys_created_by>azure.Reichel.Perada@parl.gc.ca</sys_created_by>
         <sys_created_on>2023-04-06 13:45:52</sys_created_on>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Create a User">ad88e3ad1b2501109fde86acdd4bcb4b</copied_from>
         <description>Create and impersonate user with the following values:
 First name = ATFOHSEmployeeFirst

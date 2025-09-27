@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0dae7ab487f0259050d2eca73cbb35c3" label="LAB1058 Staging Table" max_length="40" name="x_hccc_hoc_ohs_lab1058_staging_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Hazards Unresolved" max_length="150" name="hazards_unresolved" type="string"/>
+        <element label="Refusals Resolved" max_length="150" name="refusals_resolved" type="string"/>
+        <element label="Hazards Identified" max_length="150" name="hazards_identified" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Complaints - Unresolved" max_length="200" name="complaints_unresolved" type="string"/>
+        <element label="Meetings - Special" max_length="200" name="meetings_special" type="string"/>
+        <element label="Complaints - Received" max_length="200" name="complaints_received" type="string"/>
+        <element label="Investigations" max_length="150" name="investigations" type="string"/>
+        <element label="Time Lost" max_length="150" name="time_lost" type="string"/>
+        <element label="Complaints - Resolved" max_length="200" name="complaints_resolved" type="string"/>
+        <element label="Meetings - Regular" max_length="200" name="meetings_regular" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Building" max_length="32" name="building" reference="sn_wsd_core_building" type="reference"/>
+        <element label="Inspections" max_length="150" name="inspections" type="string"/>
+        <element label="Refusals Unresolved" max_length="150" name="refusals_unresolved" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hazards Resolved" max_length="150" name="hazards_resolved" type="string"/>
+        <element label="Refusals - Received" max_length="150" name="refusals_received" type="string"/>
+        <element label="Disabling Injury" max_length="150" name="disabling_injury" type="string"/>
+        <element label="Minor Injury" max_length="150" name="minor_injury" type="string"/>
+        <element label="Report Year" max_length="4" name="report_year" type="string"/>
+        <index name="index">
+            <element name="building"/>
+        </index>
+    </element>
+</database>

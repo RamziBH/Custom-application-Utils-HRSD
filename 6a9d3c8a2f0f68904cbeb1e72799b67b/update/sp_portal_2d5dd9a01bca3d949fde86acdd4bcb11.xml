@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
     <sp_portal action="INSERT_OR_UPDATE">
         <alternate_portal/>
+        <communication_channels/>
         <css_variables>$brand-primary:#427a26;
 $body-bg:#ffffff;
 $state-success-text:#1e4335;
@@ -23,8 +24,10 @@ $btn-default-bg:#fff;
 $text-muted:#666666;</css_variables>
         <dark_theme/>
         <default>false</default>
+        <embeddable_macroponents/>
         <enable_ais>false</enable_ais>
         <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_embeddables>false</enable_embeddables>
         <enable_favorites>false</enable_favorites>
         <hide_portal_name>false</hide_portal_name>
         <homepage display_value="vaccination_clinic">add9a1e41b8e3d949fde86acdd4bcbbd</homepage>
@@ -34,7 +37,8 @@ $text-muted:#666666;</css_variables>
         <kb_knowledge_page/>
         <login_page/>
         <logo/>
-        <notfound_page display_value="hoc_404">843eec561b733340028598aebd4bcb58</notfound_page>
+        <logo_alt_text/>
+        <notfound_page display_value="">843eec561b733340028598aebd4bcb58</notfound_page>
         <quick_start_config/>
         <rtl_enabled>false</rtl_enabled>
         <sc_catalog/>
@@ -44,7 +48,6 @@ $text-muted:#666666;</css_variables>
         <search_results_configuration/>
         <sp_chat_queue/>
         <sp_rectangle_menu/>
-        <sqanda_knowledge_base/>
         <sys_class_name>sp_portal</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2023-10-19 14:34:01</sys_created_on>
@@ -57,11 +60,10 @@ $text-muted:#666666;</css_variables>
         <sys_update_name>sp_portal_2d5dd9a01bca3d949fde86acdd4bcb11</sys_update_name>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2023-10-19 15:31:45</sys_updated_on>
-        <theme display_value="HoC Internal - No Header">4984d79f1b2320d0c261ed3cbc4bcbe1</theme>
+        <theme display_value="">4984d79f1b2320d0c261ed3cbc4bcbe1</theme>
         <title>Vaccination Clinic</title>
         <ts_index_group/>
         <url_suffix>vaccination</url_suffix>
-        <user_registration_config/>
     </sp_portal>
     <sys_translated_text action="delete_multiple" query="documentkey=2d5dd9a01bca3d949fde86acdd4bcb11"/>
 </record_update>

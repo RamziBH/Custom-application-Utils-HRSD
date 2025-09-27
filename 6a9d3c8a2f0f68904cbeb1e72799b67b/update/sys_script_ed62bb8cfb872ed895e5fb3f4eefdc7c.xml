@@ -15,13 +15,11 @@
         <condition>current.collaborators.changes()</condition>
         <description>OHS advisors group should be able to add/remove the collaborator</description>
         <execute_function>false</execute_function>
-        <filter_condition table="sn_hr_core_case">hr_serviceNOT LIKEWorkplace Assessment Request^hr_serviceNOT LIKEOHS Assessment^EQ<item endquery="false" field="hr_service" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Workplace Assessment Request"/>
-            <item endquery="false" field="hr_service" goto="false" newquery="false" operator="NOT LIKE" or="false" value="OHS Assessment"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="sn_hr_core_case">hr_serviceNOT LIKEWorkplace Assessment Request^hr_serviceNOT LIKEOHS Assessment^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>OHS advisors should be able to add/remove the collaborator</name>
+        <name>OHS advisors should be able to add/remov</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>

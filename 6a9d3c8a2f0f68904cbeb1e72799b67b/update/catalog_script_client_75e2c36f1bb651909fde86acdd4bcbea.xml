@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>For regular user, select "myself" automatically</name>
+        <name>For regular user, select "myself" automa</name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onLoad() {

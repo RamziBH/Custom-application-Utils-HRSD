@@ -2,7 +2,7 @@
     <sys_ui_related sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="HIRA case - Default view" name="x_hccc_hoc_ohs_hira_case" related_list="NULL" sys_domain="global" view="Default view">b0281a7c1be80a9c9fde86acdd4bcbd7</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_hira_case - Default view" name="x_hccc_hoc_ohs_hira_case" related_list="NULL" sys_domain="global" view="Default view">b0281a7c1be80a9c9fde86acdd4bcbd7</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment.hira_case</related_list>
@@ -16,7 +16,7 @@
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="HIRA case - Default view" name="x_hccc_hoc_ohs_hira_case" related_list="NULL" sys_domain="global" view="Default view">b0281a7c1be80a9c9fde86acdd4bcbd7</list_id>
+            <list_id display_value="x_hccc_hoc_ohs_hira_case - Default view" name="x_hccc_hoc_ohs_hira_case" related_list="NULL" sys_domain="global" view="Default view">b0281a7c1be80a9c9fde86acdd4bcbd7</list_id>
             <order_by/>
             <position>1</position>
             <related_list>x_hccc_hoc_ohs_hira_case.initiated_from</related_list>
@@ -29,7 +29,7 @@
             <sys_updated_on>2024-02-21 19:59:12</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
-            <calculated_name>HIRA case - Default view</calculated_name>
+            <calculated_name>x_hccc_hoc_ohs_hira_case - Default view</calculated_name>
             <filter/>
             <name>x_hccc_hoc_ohs_hira_case</name>
             <order_by/>

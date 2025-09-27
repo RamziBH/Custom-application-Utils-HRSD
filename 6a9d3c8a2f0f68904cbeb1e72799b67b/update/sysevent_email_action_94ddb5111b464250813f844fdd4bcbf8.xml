@@ -7,10 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_hccc_hoc_ohs_investigation_case</collection>
-        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^EQ<item display_table="sn_hr_core_service" display_value="Harassment and Violence Notice of Occurence" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="11d78aa31bb201509fde86acdd4bcb0b"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -23,9 +23,10 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
-        <event_name>x_hccc_hoc_ohs.hv_complainant_notification</event_name>
+        <event_name>x_hccc_hoc_ohs.hv_complainant_notificati</event_name>
         <event_parm_1>true</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
@@ -93,7 +94,7 @@
 </div>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HoC - Harassment and Violence Complaint - Complainant</name>
+        <name>HoC - Harassment and Violence Complaint </name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -104,7 +105,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>CONFIDENTIAL - Acknowledgement - Complaint Form for Harassment Incident / CONFIDENTIEL - Accusé de réception - Formulaire d'avis de plainte pour un incident de harcèlement</subject>
+        <subject>CONFIDENTIAL - Acknowledgement - Complaint Form for Harassment Incident / CONFIDENTIEL - Accusé de r</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>

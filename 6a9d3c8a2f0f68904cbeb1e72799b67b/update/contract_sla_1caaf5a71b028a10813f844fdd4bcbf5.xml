@@ -20,19 +20,10 @@
         <schedule display_value="HoC HR OHS">270bb9af1b028a10813f844fdd4bcb21</schedule>
         <schedule_source>sla_definition</schedule_source>
         <schedule_source_field/>
-        <service_commitment>false</service_commitment>
         <set_start_to>sys_created_on</set_start_to>
-        <start_condition table="x_hccc_hoc_ohs_hr_task">short_descriptionSTARTSWITHConnect with employee and manager^ORshort_descriptionSTARTSWITHEmail to employee with leave information^ORshort_descriptionSTARTSWITHFollow up with employee and/or manager^ORshort_descriptionSTARTSWITHFollow up with WSIB for decision^parent.ref_sn_hr_core_case.hr_service=10b2f3cb1b544e949fde86acdd4bcb92^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Connect with employee and manager"/>
-            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="true" value="Email to employee with leave information"/>
-            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="true" value="Follow up with employee and/or manager"/>
-            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="true" value="Follow up with WSIB for decision"/>
-            <item display_table="sn_hr_core_service" display_value="Disability Management" endquery="false" field="parent.ref_sn_hr_core_case.hr_service" goto="false" newquery="false" operator="=" or="false" value="10b2f3cb1b544e949fde86acdd4bcb92"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <start_condition table="x_hccc_hoc_ohs_hr_task">short_descriptionSTARTSWITHConnect with employee and manager^ORshort_descriptionSTARTSWITHEmail to employee with leave information^ORshort_descriptionSTARTSWITHFollow up with employee and/or manager^ORshort_descriptionSTARTSWITHFollow up with WSIB for decision^parent.ref_sn_hr_core_case.hr_service=10b2f3cb1b544e949fde86acdd4bcb92^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </start_condition>
-        <stop_condition table="x_hccc_hoc_ohs_hr_task">state=3^ORstate=4^ORstate=7^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
-            <item display_value="Closed Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="4"/>
-            <item display_value="Cancelled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="7"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <stop_condition table="x_hccc_hoc_ohs_hr_task">state=3^ORstate=4^ORstate=7^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </stop_condition>
         <sys_class_name>contract_sla</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
@@ -56,6 +47,6 @@
         <vendor/>
         <when_to_cancel>no_match</when_to_cancel>
         <when_to_resume>on_condition</when_to_resume>
-        <workflow display_value="Default SLA workflow">4b6570360a0a0b3000bbacab877713f2</workflow>
+        <workflow display_value="">4b6570360a0a0b3000bbacab877713f2</workflow>
     </contract_sla>
 </record_update>

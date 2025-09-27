@@ -2,6 +2,7 @@
     <sys_ui_section caption="WHSC" section_id="705c9e531b633d14813f844fdd4bcb67" sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="3" view="Workplace_Incident_Reporting">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
             <sys_created_on>2023-08-01 14:26:46</sys_created_on>
             <sys_id>cab722431bd8bd58893442a7bc4bcb6c</sys_id>

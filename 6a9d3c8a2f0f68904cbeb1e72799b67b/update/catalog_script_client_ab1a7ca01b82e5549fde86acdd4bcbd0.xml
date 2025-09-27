@@ -15,7 +15,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages>x_hccc_hoc_ohs.invalid_phone_format</messages>
-        <name>TelWrk onChange Emergency Contact Phone Format</name>
+        <name>TelWrk onChange Emergency Contact Phone </name>
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {

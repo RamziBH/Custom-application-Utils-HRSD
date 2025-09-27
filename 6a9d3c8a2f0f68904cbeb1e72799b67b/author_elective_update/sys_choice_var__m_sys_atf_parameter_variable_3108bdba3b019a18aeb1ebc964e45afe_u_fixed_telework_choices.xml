@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_fixed_telework_choices" table="var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_fixed_telework_choices</element>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 16:13:57</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_fixed_telework_choices</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe_u_fixed_telework_choices</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 16:13:57</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fixed_telework_choices</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 day</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 16:13:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 16:13:57</sys_updated_on>
+            <value>days_1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fixed_telework_choices</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 days</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 16:14:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 16:14:07</sys_updated_on>
+            <value>days_2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fixed_telework_choices</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 days</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 16:14:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 16:14:12</sys_updated_on>
+            <value>days_3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_fixed_telework_choices</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 days</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 16:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 16:14:16</sys_updated_on>
+            <value>days_4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
     <par_dashboard action="INSERT_OR_UPDATE">
         <active>true</active>
+        <base_dashboard/>
         <certified>false</certified>
         <description>test test</description>
         <experience/>
@@ -10,6 +11,7 @@
         <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-06-18 14:29:10</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>937464183bd2aa58aeb1ebc964e45a52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Test - Dashboarad</sys_name>

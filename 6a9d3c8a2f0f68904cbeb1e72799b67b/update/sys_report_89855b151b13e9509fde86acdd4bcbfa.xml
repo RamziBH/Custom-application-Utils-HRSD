@@ -33,7 +33,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Zachary Adams">3aca98c11bc3e1149fde86acdd4bcbdf</created_by_user>
+        <created_by_user display_value="">3aca98c11bc3e1149fde86acdd4bcbdf</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config/>
@@ -160,5 +160,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=89855b151b13e9509fde86acdd4bcbfa"/>
 </record_update>

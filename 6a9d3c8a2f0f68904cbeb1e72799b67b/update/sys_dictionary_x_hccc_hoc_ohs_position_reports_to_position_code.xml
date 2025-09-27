@@ -40,7 +40,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="x_hccc_base_org_position_code">x_hccc_base_org_position_code</reference>
+        <reference display_value="">x_hccc_base_org_position_code</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2023-12-20 13:05:55</sys_created_on>
-        <sys_id>2deb2b751b733950c6c7a8ecbc4bcb4d</sys_id>
         <sys_name>Position code</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_list">
     <sys_ux_applicability_m2m_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <applicability display_value="HR - Case Writer">b8bb15420fa220102208555db4767ed7</applicability>
-        <list display_value="Assigned to my Group">8aede9741b200a9c9fde86acdd4bcb28</list>
+        <applicability display_value="">b8bb15420fa220102208555db4767ed7</applicability>
+        <list display_value="">8aede9741b200a9c9fde86acdd4bcb28</list>
         <order>0</order>
         <sys_class_name>sys_ux_applicability_m2m_list</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>

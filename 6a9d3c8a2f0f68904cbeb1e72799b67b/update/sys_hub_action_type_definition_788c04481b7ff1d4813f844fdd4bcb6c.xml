@@ -29,6 +29,7 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-01-12 19:06:39</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>788c04481b7ff1d4813f844fdd4bcb6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>HoC OHSM - HIRA - Copy</sys_name>
@@ -37,8 +38,8 @@
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_788c04481b7ff1d4813f844fdd4bcb6c</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-11-09 08:14:43</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 15:39:17</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -124,16 +125,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-01-12 19:08:45</sys_created_on>
         <sys_id>ebfcc8cc1b7ff1d4813f844fdd4bcbd0</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-01-18 19:09:28</sys_updated_on>
     </sys_hub_step_instance>
@@ -186,6 +182,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_ebfcc8cc1b7ff1d4813f844fdd4bcbd0^id=ebfcc8cc1b7ff1d4813f844fdd4bcbd0"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=ebfcc8cc1b7ff1d4813f844fdd4bcbd0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ebfcc8cc1b7ff1d4813f844fdd4bcbd0"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=ebfcc8cc1b7ff1d4813f844fdd4bcbd0^sys_idNOT IN34dd48c81bbff1d4813f844fdd4bcb6b"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -355,7 +352,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=ebfcc8cc1b7ff1d4813f844fdd4bcbd0"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_ebfcc8cc1b7ff1d4813f844fdd4bcbd0^sys_idNOT INa3fc0ccc1b7ff1d4813f844fdd4bcb1f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>hira_record</element>
         <help/>
@@ -475,14 +471,15 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-01-12 19:09:20</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>f71d88401bbff1d4813f844fdd4bcb40</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>FD371d88403ebff1d46369e143a8fa2d40</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name>sys_complex_object_f71d88401bbff1d4813f844fdd4bcb40</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-01-12 19:10:59</sys_updated_on>
         <type>complex_object_schema</type>
@@ -760,7 +757,6 @@
         <sys_updated_on>2024-01-12 19:08:46</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=e3fc0ccc1b7ff1d4813f844fdd4bcb4f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_788c04481b7ff1d4813f844fdd4bcb6c^sys_idNOT IN731d88401bbff1d4813f844fdd4bcb16"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>previous_hira</element>
         <help/>
@@ -785,7 +781,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_788c04481b7ff1d4813f844fdd4bcb6c"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_788c04481b7ff1d4813f844fdd4bcb6c^sys_idNOT IN482d88401bbff1d4813f844fdd4bcb68,c02d88401bbff1d4813f844fdd4bcb62,d08d80c41bbff1d4813f844fdd4bcb38"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -861,18 +856,14 @@
         <action_id display_value="HoC OHSM - HIRA - Copy">788c04481b7ff1d4813f844fdd4bcb6c</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"fedd400c1bbff1d4813f844fdd4bcbc6","name":"plan","plan_signature":null}}</plan>
         <snapshot>feb6477d1bfb795c813f844fdd4bcbdf</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-01-12 19:12:32</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>fedd400c1bbff1d4813f844fdd4bcbc6</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-01-18 19:09:38</sys_updated_on>
     </sys_hub_action_plan>
@@ -902,6 +893,7 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-01-12 19:12:29</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>cadd000c1bbff1d4813f844fdd4bcb04</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
@@ -997,16 +989,11 @@
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-01-12 19:12:29</sys_created_on>
         <sys_id>d2dd000c1bbff1d4813f844fdd4bcb42</sys_id>
         <sys_mod_count>3</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-01-18 19:09:37</sys_updated_on>
     </sys_hub_step_instance>
@@ -1059,6 +1046,7 @@
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_d2dd000c1bbff1d4813f844fdd4bcb42^id=d2dd000c1bbff1d4813f844fdd4bcb42"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=d2dd000c1bbff1d4813f844fdd4bcb42"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=d2dd000c1bbff1d4813f844fdd4bcb42"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=d2dd000c1bbff1d4813f844fdd4bcb42^sys_idNOT IN9edd000c1bbff1d4813f844fdd4bcb45"/>
     <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
         <active>true</active>
@@ -1228,7 +1216,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=d2dd000c1bbff1d4813f844fdd4bcb42"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d2dd000c1bbff1d4813f844fdd4bcb42^sys_idNOT INd6dd000c1bbff1d4813f844fdd4bcb73"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>hira_record</element>
         <help/>
@@ -1522,14 +1509,15 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-01-12 19:12:29</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>dadd000c1bbff1d4813f844fdd4bcb88</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>FD1add000cbdbff1d49a596f658a923d88</sys_name>
+        <sys_name/>
         <sys_overrides/>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name>sys_complex_object_dadd000c1bbff1d4813f844fdd4bcb88</sys_update_name>
+        <sys_update_name/>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-01-12 19:12:29</sys_updated_on>
         <type>complex_object_schema</type>
@@ -1633,7 +1621,6 @@
         <sys_updated_on>2024-01-12 19:12:30</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=d2dd000c1bbff1d4813f844fdd4bcbd3"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_cadd000c1bbff1d4813f844fdd4bcb04^sys_idNOT IN0edd000c1bbff1d4813f844fdd4bcb3f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>previous_hira</element>
         <help/>
@@ -1658,7 +1645,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_cadd000c1bbff1d4813f844fdd4bcb04"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_cadd000c1bbff1d4813f844fdd4bcb04^sys_idNOT IN16dd000c1bbff1d4813f844fdd4bcb91,1edd000c1bbff1d4813f844fdd4bcbb3,52dd000c1bbff1d4813f844fdd4bcbae"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>hira_case</element>
         <help/>

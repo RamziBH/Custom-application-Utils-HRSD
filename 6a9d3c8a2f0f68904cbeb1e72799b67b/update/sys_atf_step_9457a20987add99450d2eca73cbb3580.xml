@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Set Component Values (Custom UI)">e99cd6c5872dd99450d2eca73cbb35ff</copied_from>
         <description>Set the components on the page as follows:
 'Text &lt;input&gt;: Closing Notes' = 'ATF close note', Page area = 'Closing Notes'

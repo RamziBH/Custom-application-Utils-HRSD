@@ -6,6 +6,7 @@
         <applies_to/>
         <condition table="x_hccc_hoc_ohs_investigation_case.submitter_contact_details">hr_service!=11d78aa31bb201509fde86acdd4bcb0b^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Remove write access for H&amp;V</description>
         <local_or_existing>Local</local_or_existing>

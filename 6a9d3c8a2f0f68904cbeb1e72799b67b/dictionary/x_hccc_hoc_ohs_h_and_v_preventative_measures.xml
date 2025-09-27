@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4b20414d1bfcce98813f844fdd4bcb19" label="H and V Preventative Measures" max_length="40" name="x_hccc_hoc_ohs_h_and_v_preventative_measures" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Implementation s date of the recommendations" max_length="40" name="implementation_s_date_of_the_recommendations" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Preventative measures notes" max_length="4000" name="preventative_measures_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Investigator's recommendations" max_length="4000" name="rw_reco_deta" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="WHSC agree with recommendations" max_length="40" name="whsc_agree_with_recommendations" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="30" value="non"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="No" sequence="30" value="non"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_investigation_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Recommendations to be implemented" max_length="4000" name="recommendations_to_be_implemented" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Senior director of labour relations agree with recommendations" max_length="40" name="senior_director_of_labour_relations_agree_with_recommendations" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Non" language="fq" sequence="30" value="no"/>
+                <element inactive_on_update="false" label="Yes" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Veuillez selectionner..." language="fq" sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Not applicable" sequence="40" value="not_applicable"/>
+                <element inactive_on_update="false" label="Oui" language="fq" sequence="20" value="yes"/>
+                <element inactive_on_update="false" label="Please select..." sequence="10" value="NULL_OVERRIDE"/>
+                <element inactive_on_update="false" label="Ne s'applique pas" language="fq" sequence="40" value="not_applicable"/>
+                <element inactive_on_update="false" label="No" sequence="30" value="no"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="parent_case"/>
+        </index>
+    </element>
+</database>

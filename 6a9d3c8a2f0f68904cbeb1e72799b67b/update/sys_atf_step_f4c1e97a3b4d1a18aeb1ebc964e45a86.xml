@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Impersonate">607c8aa2dbed4110e3dd80c74b961924</copied_from>
         <description>Impersonate the user: {{Step 9: Create a User.User}}</description>
         <display_name>Impersonate</display_name>

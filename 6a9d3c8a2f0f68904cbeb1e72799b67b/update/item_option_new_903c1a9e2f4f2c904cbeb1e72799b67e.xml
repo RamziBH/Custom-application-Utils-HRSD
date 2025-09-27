@@ -31,8 +31,10 @@
         <instructions/>
         <layout>normal</layout>
         <list_table/>
+        <lookup_dependent_question/>
         <lookup_label/>
         <lookup_price/>
+        <lookup_source/>
         <lookup_table/>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
@@ -59,8 +61,7 @@
         <record_producer_table>x_hccc_hoc_ohs_investigation_case</record_producer_table>
         <reference>cmn_location</reference>
         <reference_qual>sys_class_name=sn_wsd_core_building^name!=1 Fleet^name!=Chambers^name!=66 Slater^name!=Vanguard Building^name!=Hydro Electric^name!=Blackburn^name!=Darcy McGee Building^name!=125 Sparks^name!=Howard Building^name!=National Arts Centre^name!=Peace Tower^name!=Supreme Court^name!=440 Coventry^name!=Stationnement Place de Ville Parking^name!=Rideau Committee Rooms^EQ</reference_qual>
-        <reference_qual_condition table="cmn_location">sys_class_name=sn_wsd_core_building^name!=1 Fleet^name!=Chambers^name!=66 Slater^name!=Vanguard Building^name!=Hydro Electric^name!=Blackburn^name!=Darcy McGee Building^name!=125 Sparks^name!=Howard Building^name!=National Arts Centre^name!=Peace Tower^name!=Supreme Court^name!=440 Coventry^name!=Stationnement Place de Ville Parking^name!=Rideau Committee Rooms^EQ<item display_value="Building" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="sn_wsd_core_building"/>
-            <item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="1 Fleet"/>
+        <reference_qual_condition table="cmn_location">sys_class_name=sn_wsd_core_building^name!=1 Fleet^name!=Chambers^name!=66 Slater^name!=Vanguard Building^name!=Hydro Electric^name!=Blackburn^name!=Darcy McGee Building^name!=125 Sparks^name!=Howard Building^name!=National Arts Centre^name!=Peace Tower^name!=Supreme Court^name!=440 Coventry^name!=Stationnement Place de Ville Parking^name!=Rideau Committee Rooms^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="1 Fleet"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="Chambers"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="66 Slater"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="!=" or="false" value="Vanguard Building"/>
@@ -116,8 +117,6 @@
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
         <write_roles/>
-        <x_hccc_dfsa_erp_u_simple_name_values_1/>
-        <x_hccc_dfsa_erp_u_translated_text_2/>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=903c1a9e2f4f2c904cbeb1e72799b67e"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

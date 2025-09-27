@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Open a Record Producer (SP)">90e5e3e21be78ad89fde86acdd4bcb0a</copied_from>
         <description>Open "{{Step 6: Record Query.First record}}" in the "House of Commons Portal EN" portal</description>
         <display_name>Open a Record Producer (SP)</display_name>

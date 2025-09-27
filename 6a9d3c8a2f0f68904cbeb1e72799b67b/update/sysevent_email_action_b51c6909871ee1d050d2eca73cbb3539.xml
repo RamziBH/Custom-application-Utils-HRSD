@@ -7,11 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
         <collection>x_hccc_hoc_ohs_telework_agreement</collection>
-        <condition table="x_hccc_hoc_ohs_telework_agreement">stateCHANGESTO2^approvalCHANGESTOapproved^EQ<item display_value="Closed - Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="2"/>
-            <item display_value="Approved" endquery="false" field="approval" goto="false" newquery="false" operator="CHANGESTO" or="false" value="approved"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_telework_agreement">stateCHANGESTO2^approvalCHANGESTOapproved^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -24,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>activate.life.cycle.migration</event_name>
@@ -49,7 +49,7 @@
 <p style="margin: 0cm; font-size: 11pt; font-family: Calibri, sans-serif;"><strong><span style="font-family: Calibri, sans-serif; color: black;">Date de fin </span></strong><strong><span style="font-family: Calibri, sans-serif; color: black; font-weight: normal;">:&nbsp; &nbsp; &nbsp; &nbsp;${telework_end_date}&nbsp;</span></strong></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>HoC - OHSM Telework Agreement - Approval Email </name>
+        <name>HoC - OHSM Telework Agreement - Approval</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>

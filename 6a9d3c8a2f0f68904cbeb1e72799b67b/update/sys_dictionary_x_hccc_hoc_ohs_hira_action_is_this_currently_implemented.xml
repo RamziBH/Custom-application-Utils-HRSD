@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="is_this_currently_implemented" table="x_hccc_hoc_ohs_hira_action">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-09-10 14:25:18</sys_created_on>
-        <sys_id>a41985df3b77e618aeb1ebc964e45a02</sys_id>
         <sys_name>Is this currently implemented?</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>

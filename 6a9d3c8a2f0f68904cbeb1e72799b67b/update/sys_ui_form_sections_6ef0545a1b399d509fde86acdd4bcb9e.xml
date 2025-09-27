@@ -154,6 +154,20 @@
             <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2022-09-09 21:01:36</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-27 15:40:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>126df87cc3d03210b0541c65e40131b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">6ef0545a1b399d509fde86acdd4bcb9e</sys_ui_form>
+            <sys_ui_section caption="Accident/Illness details" display_value="Accident/Illness details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">20d2589e1b399d509fde86acdd4bcb1d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-27 15:40:35</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_hccc_hoc_ohs_investigation_case</name>
             <roles/>

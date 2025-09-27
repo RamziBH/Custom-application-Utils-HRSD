@@ -7,12 +7,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>sn_hr_core_task</collection>
-        <condition table="sn_hr_core_task">hr_task_type=submit_catalog_item^sc_cat_item=c4d4d48d2f1fe4104cbeb1e72799b6d8^assigned_toISNOTEMPTY^EQ<item display_value="Submit Catalog Item" endquery="false" field="hr_task_type" goto="false" newquery="false" operator="=" or="false" value="submit_catalog_item"/>
-            <item display_table="sc_cat_item" display_value="Safety complaint employee validation" endquery="false" field="sc_cat_item" goto="false" newquery="false" operator="=" or="false" value="c4d4d48d2f1fe4104cbeb1e72799b6d8"/>
-            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="sn_hr_core_task">hr_task_type=submit_catalog_item^sc_cat_item=c4d4d48d2f1fe4104cbeb1e72799b6d8^assigned_toISNOTEMPTY^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -25,6 +23,7 @@
         <digest_subject/>
         <digest_template/>
         <digest_text/>
+        <digest_type/>
         <digestable>false</digestable>
         <enable_dynamic_translation>false</enable_dynamic_translation>
         <event_name>antivirus.infected</event_name>
@@ -84,7 +83,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Decision required: Internal Safety Complaint investigation findings (Manager) / Décision requise : résultats de l'enquête sur la plainte interne relative à la santé et la sécurité (gestionnaire)</subject>
+        <subject>Decision required: Internal Safety Complaint investigation findings (Manager) / Décision requise : r</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>$fgaies</sys_created_by>

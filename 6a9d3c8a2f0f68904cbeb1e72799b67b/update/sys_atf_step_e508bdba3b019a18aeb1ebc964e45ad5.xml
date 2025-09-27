@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Assert Text on Page (Custom UI)">f6b329491b3186d0813f844fdd4bcbcc</copied_from>
         <description>Assert that the text 'Rows 1 - 3 to 3' is on the page.
 With a failure timeout of 5 Seconds</description>

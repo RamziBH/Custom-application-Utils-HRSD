@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5ca3499f1beace90813f844fdd4bcbb5" label="Telework Agreement Asset" max_length="40" name="x_hccc_hoc_ohs_telework_agreement_asset" type="collection">
+        <element label="Asset type mapped" max_length="40" name="asset_type_mapped" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Asset type selected" max_length="40" name="asset_type_selected" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Shredder" sequence="700" value="cmdb_ci_hardware_office_shredder"/>
+                <element inactive_on_update="false" label="Bureau" language="fq" sequence="600" value="cmdb_ci_hardware_office_desk"/>
+                <element inactive_on_update="false" label="Autre" language="fq" sequence="9999" value="other"/>
+                <element inactive_on_update="false" label="Computer" sequence="100" value="cmdb_ci_pc_hardware"/>
+                <element inactive_on_update="false" label="Printer" sequence="400" value="cmdb_ci_personal_printer"/>
+                <element inactive_on_update="false" label="Écran" language="fq" sequence="300" value="cmdb_ci_pc_hardware_monitor"/>
+                <element inactive_on_update="false" label="Surface" language="fq" sequence="250" value="cmdb_ci_pc_hardware_laptop_surface"/>
+                <element inactive_on_update="false" label="Chair" sequence="500" value="cmdb_ci_hardware_office_chair"/>
+                <element inactive_on_update="false" label="Ordinateur portable" language="fq" sequence="200" value="cmdb_ci_pc_hardware_laptop"/>
+                <element inactive_on_update="false" label="Desk" sequence="600" value="cmdb_ci_hardware_office_desk"/>
+                <element inactive_on_update="false" label="Chaise" language="fq" sequence="500" value="cmdb_ci_hardware_office_chair"/>
+                <element inactive_on_update="false" label="Other" sequence="9999" value="other"/>
+                <element inactive_on_update="false" label="Déchiqueteuse" language="fq" sequence="700" value="cmdb_ci_hardware_office_shredder"/>
+                <element inactive_on_update="false" label="Ordinateur" language="fq" sequence="100" value="cmdb_ci_pc_hardware"/>
+                <element inactive_on_update="false" label="Imprimante" language="fq" sequence="400" value="cmdb_ci_personal_printer"/>
+                <element inactive_on_update="false" label="Monitor" sequence="300" value="cmdb_ci_pc_hardware_monitor"/>
+                <element inactive_on_update="false" label="Surface" sequence="250" value="cmdb_ci_pc_hardware_laptop_surface"/>
+                <element inactive_on_update="false" label="Laptop" sequence="200" value="cmdb_ci_pc_hardware_laptop"/>
+            </choice>
+        </element>
+        <element label="Barcode" max_length="40" name="barcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="is hybrid" max_length="40" name="is_hybrid" type="boolean"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Telework Agreement" mandatory="true" max_length="40" name="telework_agreement" reference="x_hccc_hoc_ohs_telework_agreement" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <index name="index">
+            <element name="telework_agreement"/>
+        </index>
+    </element>
+</database>

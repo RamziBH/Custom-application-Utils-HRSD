@@ -15,10 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="sn_hr_core_task">stateCHANGESTO3^short_descriptionSTARTSWITHESDC Form LAB1060^parent.ref_sn_hr_core_case.hr_service=5227b08f2f4b60d04cbeb1e72799b659^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
-            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="ESDC Form LAB1060"/>
-            <item display_table="sn_hr_core_service" display_value="Internal Safety Complaint" endquery="false" field="parent.ref_sn_hr_core_case.hr_service" goto="false" newquery="false" operator="=" or="false" value="5227b08f2f4b60d04cbeb1e72799b659"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="sn_hr_core_task">stateCHANGESTO3^short_descriptionSTARTSWITHESDC Form LAB1060^parent.ref_sn_hr_core_case.hr_service=5227b08f2f4b60d04cbeb1e72799b659^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>

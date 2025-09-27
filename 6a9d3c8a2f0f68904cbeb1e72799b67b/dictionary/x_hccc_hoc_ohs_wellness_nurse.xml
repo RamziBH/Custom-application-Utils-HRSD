@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d1cb44ed1b608adc9fde86acdd4bcb3b" label="OHS Wellness Nurse" max_length="40" name="x_hccc_hoc_ohs_wellness_nurse" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Charting" max_length="4000" name="charting" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Incident" max_length="40" name="incident" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent case" max_length="32" name="parent_case" reference="x_hccc_hoc_ohs_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Harrassment or Violence" max_length="40" name="harrassment_or_violence" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" max_length="100" name="name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent hr task" max_length="32" name="parent_hr_task" reference="sn_hr_core_task" type="reference"/>
+        <index name="index">
+            <element name="parent_case"/>
+        </index>
+        <index name="index2">
+            <element name="parent_hr_task"/>
+        </index>
+    </element>
+</database>

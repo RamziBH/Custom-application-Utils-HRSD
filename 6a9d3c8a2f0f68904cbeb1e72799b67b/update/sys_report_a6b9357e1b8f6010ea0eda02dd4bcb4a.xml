@@ -33,7 +33,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Pai (admin), Neetha">b02947801b3bb300dab2db1dcd4bcb98</created_by_user>
+        <created_by_user display_value="">b02947801b3bb300dab2db1dcd4bcb98</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -48,8 +48,7 @@
         <exp_report_attrs>true</exp_report_attrs>
         <field>state</field>
         <field_list>number,opened_for,hr_service,state,assigned_to,sys_updated_on</field_list>
-        <filter table="x_hccc_hoc_ohs_investigation_case">stateIN10,101,30,102,105,3,4,106<item display_value="10,101,30,102,105,3,4,106" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="10,101,30,102,105,3,4,106"/>
-        </filter>
+        <filter table="x_hccc_hoc_ohs_investigation_case">stateIN10,101,30,102,105,3,4,106</filter>
         <formatting_configuration/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -159,5 +158,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=a6b9357e1b8f6010ea0eda02dd4bcb4a"/>
 </record_update>

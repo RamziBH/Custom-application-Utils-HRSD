@@ -29,16 +29,17 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-01-30 15:08:03</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>356878633bd79a94aeb1ebc964e45a83</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>HOC JDBC DisabilityAdvisorInfo</sys_name>
         <sys_overrides/>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_356878633bd79a94aeb1ebc964e45a83</sys_update_name>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-17 15:30:26</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 15:39:09</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -156,22 +157,16 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JDBC step</label>
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="JDBC">8e4730d2b7212300cbfe8c78ee11a99e</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <step_type display_value="">8e4730d2b7212300cbfe8c78ee11a99e</step_type>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-01-30 15:09:55</sys_created_on>
         <sys_id>cdd83ce33bd79a94aeb1ebc964e45ac1</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:30:23</sys_updated_on>
     </sys_hub_step_instance>
@@ -188,7 +183,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
         <value>e8ddcb7573331010cbfec9d234f6a7fd</value>
-        <variable display_value="Retry Policy">898ef046731033003c96033ee2f6a7a3</variable>
+        <variable display_value="">898ef046731033003c96033ee2f6a7a3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -202,7 +197,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:30:23</sys_updated_on>
         <value>1</value>
-        <variable display_value="Execution Status">c6bb4febb7103300100a9b56ee11a9d8</variable>
+        <variable display_value="">c6bb4febb7103300100a9b56ee11a9d8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -216,7 +211,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:24:30</sys_updated_on>
         <value/>
-        <variable display_value="SQL Statement">9d664d1ab7212300cbfe8c78ee11a960</variable>
+        <variable display_value="">9d664d1ab7212300cbfe8c78ee11a960</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -230,7 +225,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">55aae8e2735223000a4394596bf6a7b9</variable>
+        <variable display_value="">55aae8e2735223000a4394596bf6a7b9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -244,7 +239,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
         <value>1eaec4a0d7012200171f42285e610340</value>
-        <variable display_value="Capabilities">1e03b426731223000a4394596bf6a793</variable>
+        <variable display_value="">1e03b426731223000a4394596bf6a793</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -258,82 +253,10 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
         <value>5dc94a1a1be70218813f844fdd4bcbb9</value>
-        <variable display_value="Connection Alias">6ef7b4d2b7212300cbfe8c78ee11a9cb</variable>
+        <variable display_value="">6ef7b4d2b7212300cbfe8c78ee11a9cb</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_cdd83ce33bd79a94aeb1ebc964e45ac1^id=cdd83ce33bd79a94aeb1ebc964e45ac1"/>
-    <sys_element_mapping action="delete_multiple" query="id=cdd83ce33bd79a94aeb1ebc964e45ac1"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>cdd83ce33bd79a94aeb1ebc964e45ac1</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-01-30 15:09:55</sys_created_on>
-        <sys_id>ddd87ce33bd79a94aeb1ebc964e45a41</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>cdd83ce33bd79a94aeb1ebc964e45ac1</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-01-30 15:09:55</sys_created_on>
-        <sys_id>1dd87ce33bd79a94aeb1ebc964e45a41</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_alias</field>
-        <id>cdd83ce33bd79a94aeb1ebc964e45ac1</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-01-30 15:09:55</sys_created_on>
-        <sys_id>59d87ce33bd79a94aeb1ebc964e45a41</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>execution_status</field>
-        <id>cdd83ce33bd79a94aeb1ebc964e45ac1</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-02-14 18:36:13</sys_created_on>
-        <sys_id>91e7be54fb3fde1495e5fb3f4eefdc06</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-14 18:36:13</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>retry_policy</field>
-        <id>cdd83ce33bd79a94aeb1ebc964e45ac1</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-01-30 15:09:55</sys_created_on>
-        <sys_id>95d87ce33bd79a94aeb1ebc964e45a41</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sql_statement</field>
-        <id>cdd83ce33bd79a94aeb1ebc964e45ac1</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-01-30 15:09:55</sys_created_on>
-        <sys_id>d1d87ce33bd79a94aeb1ebc964e45a41</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-17 15:24:30</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value>EXEC spExportEmployee_OHS {{fd_transform:8656cc55-ba0b-46c9-9715-a5303784332e}}</value>
-    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=cdd83ce33bd79a94aeb1ebc964e45ac1"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=cdd83ce33bd79a94aeb1ebc964e45ac1"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=cdd83ce33bd79a94aeb1ebc964e45ac1^sys_idNOT IN49d83ce33bd79a94aeb1ebc964e45ae5,cde77e54fb3fde1495e5fb3f4eefdcd2"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -429,6 +352,7 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-02-14 18:36:13</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>81e77e54fb3fde1495e5fb3f4eefdcd0</sys_id>
         <sys_mod_count>12</sys_mod_count>
         <sys_name/>
@@ -525,7 +449,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=cdd83ce33bd79a94aeb1ebc964e45ac1"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_cdd83ce33bd79a94aeb1ebc964e45ac1^sys_idNOT IN4dd87ce33bd79a94aeb1ebc964e45a36,d1e77e54fb3fde1495e5fb3f4eefdcd6"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sn_auth_token</element>
         <help/>
@@ -539,11 +462,11 @@
         <sys_created_on>2025-01-30 15:09:55</sys_created_on>
         <sys_id>4dd87ce33bd79a94aeb1ebc964e45a36</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cdd83ce33bd79a94aeb1ebc964e45ac1_sn_auth_token_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
         <url/>
@@ -562,11 +485,11 @@
         <sys_created_on>2025-02-14 18:36:13</sys_created_on>
         <sys_id>d1e77e54fb3fde1495e5fb3f4eefdcd6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ResultSet</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_cdd83ce33bd79a94aeb1ebc964e45ac1_ResultSet_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:13</sys_updated_on>
         <url/>
@@ -668,6 +591,7 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-02-14 19:50:01</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>02c8c31cfbb3125495e5fb3f4eefdc57</sys_id>
         <sys_mod_count>6</sys_mod_count>
         <sys_name/>
@@ -796,7 +720,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>totalrows</element>
-        <element_prototype display_value="Total Rows" element="total_rows" name="var__m_sys_flow_step_definition_output_8e4730d2b7212300cbfe8c78ee11a99e">5967855ab7212300cbfe8c78ee11a9b7</element_prototype>
+        <element_prototype display_value="">5967855ab7212300cbfe8c78ee11a9b7</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -1057,7 +981,6 @@
         <sys_updated_on>2025-01-30 15:09:56</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=11d87ce33bd79a94aeb1ebc964e45a99"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_356878633bd79a94aeb1ebc964e45a83^sys_idNOT IN87a82dd93b33d694aeb1ebc964e45a43"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>employeeid</element>
         <help/>
@@ -1071,18 +994,17 @@
         <sys_created_on>2025-02-17 15:24:01</sys_created_on>
         <sys_id>87a82dd93b33d694aeb1ebc964e45a43</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>EmployeeID</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_356878633bd79a94aeb1ebc964e45a83_employeeid_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:24:01</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_356878633bd79a94aeb1ebc964e45a83"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_356878633bd79a94aeb1ebc964e45a83^sys_idNOT IN15d87ce33bd79a94aeb1ebc964e45a91,56c8c31cfbb3125495e5fb3f4eefdc69,9dd87ce33bd79a94aeb1ebc964e45a7d,eef6ad153b33d694aeb1ebc964e45a40"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>
@@ -1096,11 +1018,11 @@
         <sys_created_on>2025-01-30 15:09:56</sys_created_on>
         <sys_id>15d87ce33bd79a94aeb1ebc964e45a91</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_356878633bd79a94aeb1ebc964e45a83___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-01-30 15:09:56</sys_updated_on>
         <url/>
@@ -1119,11 +1041,11 @@
         <sys_created_on>2025-02-14 19:50:01</sys_created_on>
         <sys_id>56c8c31cfbb3125495e5fb3f4eefdc69</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ResultSet</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_356878633bd79a94aeb1ebc964e45a83_ResultSet_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 19:50:01</sys_updated_on>
         <url/>
@@ -1142,11 +1064,11 @@
         <sys_created_on>2025-01-30 15:09:55</sys_created_on>
         <sys_id>9dd87ce33bd79a94aeb1ebc964e45a7d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_356878633bd79a94aeb1ebc964e45a83___action_status___en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-01-30 15:09:55</sys_updated_on>
         <url/>
@@ -1165,11 +1087,11 @@
         <sys_created_on>2025-02-17 15:16:37</sys_created_on>
         <sys_id>eef6ad153b33d694aeb1ebc964e45a40</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>TotalRows</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_356878633bd79a94aeb1ebc964e45a83_totalrows_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:16:37</sys_updated_on>
         <url/>
@@ -1181,18 +1103,14 @@
         <action_id display_value="HOC JDBC DisabilityAdvisorInfo">356878633bd79a94aeb1ebc964e45a83</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"33e7f294fb3fde1495e5fb3f4eefdcbd","name":"plan","plan_signature":null}}</plan>
         <snapshot>0d2aadd13b73d694aeb1ebc964e45a59</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-02-14 18:36:24</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>33e7f294fb3fde1495e5fb3f4eefdcbd</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:30:27</sys_updated_on>
     </sys_hub_action_plan>
@@ -1222,6 +1140,7 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-02-14 18:36:22</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>9be7b294fb3fde1495e5fb3f4eefdc85</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name/>
@@ -1349,22 +1268,16 @@
         <extended_outputs/>
         <icon/>
         <inputs/>
-        <inputs/>
         <label>JDBC step</label>
         <order>1</order>
         <outputs/>
         <section/>
-        <step_type display_value="JDBC">8e4730d2b7212300cbfe8c78ee11a99e</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <step_type display_value="">8e4730d2b7212300cbfe8c78ee11a99e</step_type>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-02-14 18:36:22</sys_created_on>
         <sys_id>9fe7b294fb3fde1495e5fb3f4eefdca5</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:30:25</sys_updated_on>
     </sys_hub_step_instance>
@@ -1381,7 +1294,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:23</sys_updated_on>
         <value>35aa573fd7802200bdbaee5b5e610375</value>
-        <variable display_value="MID Application">55aae8e2735223000a4394596bf6a7b9</variable>
+        <variable display_value="">55aae8e2735223000a4394596bf6a7b9</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1395,7 +1308,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:23</sys_updated_on>
         <value>e8ddcb7573331010cbfec9d234f6a7fd</value>
-        <variable display_value="Retry Policy">898ef046731033003c96033ee2f6a7a3</variable>
+        <variable display_value="">898ef046731033003c96033ee2f6a7a3</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1409,7 +1322,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:30:25</sys_updated_on>
         <value/>
-        <variable display_value="SQL Statement">9d664d1ab7212300cbfe8c78ee11a960</variable>
+        <variable display_value="">9d664d1ab7212300cbfe8c78ee11a960</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1423,7 +1336,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:23</sys_updated_on>
         <value>1eaec4a0d7012200171f42285e610340</value>
-        <variable display_value="Capabilities">1e03b426731223000a4394596bf6a793</variable>
+        <variable display_value="">1e03b426731223000a4394596bf6a793</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1437,7 +1350,7 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:23</sys_updated_on>
         <value>1</value>
-        <variable display_value="Execution Status">c6bb4febb7103300100a9b56ee11a9d8</variable>
+        <variable display_value="">c6bb4febb7103300100a9b56ee11a9d8</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_step_instance</document>
@@ -1451,82 +1364,10 @@
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:23</sys_updated_on>
         <value>5dc94a1a1be70218813f844fdd4bcbb9</value>
-        <variable display_value="Connection Alias">6ef7b4d2b7212300cbfe8c78ee11a9cb</variable>
+        <variable display_value="">6ef7b4d2b7212300cbfe8c78ee11a9cb</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_9fe7b294fb3fde1495e5fb3f4eefdca5^id=9fe7b294fb3fde1495e5fb3f4eefdca5"/>
-    <sys_element_mapping action="delete_multiple" query="id=9fe7b294fb3fde1495e5fb3f4eefdca5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>9fe7b294fb3fde1495e5fb3f4eefdca5</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-02-14 18:36:22</sys_created_on>
-        <sys_id>efe7b294fb3fde1495e5fb3f4eefdcf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-14 18:36:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>capabilities</field>
-        <id>9fe7b294fb3fde1495e5fb3f4eefdca5</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-02-14 18:36:22</sys_created_on>
-        <sys_id>2fe7b294fb3fde1495e5fb3f4eefdcf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-14 18:36:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>connection_alias</field>
-        <id>9fe7b294fb3fde1495e5fb3f4eefdca5</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-02-14 18:36:22</sys_created_on>
-        <sys_id>a7e7b294fb3fde1495e5fb3f4eefdcf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-14 18:36:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>execution_status</field>
-        <id>9fe7b294fb3fde1495e5fb3f4eefdca5</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-02-14 18:36:22</sys_created_on>
-        <sys_id>6be7b294fb3fde1495e5fb3f4eefdcf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-14 18:36:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>retry_policy</field>
-        <id>9fe7b294fb3fde1495e5fb3f4eefdca5</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-02-14 18:36:22</sys_created_on>
-        <sys_id>e3e7b294fb3fde1495e5fb3f4eefdcf1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-14 18:36:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>sql_statement</field>
-        <id>9fe7b294fb3fde1495e5fb3f4eefdca5</id>
-        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
-        <sys_created_on>2025-02-14 18:36:22</sys_created_on>
-        <sys_id>23e7b294fb3fde1495e5fb3f4eefdcf1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
-        <sys_updated_on>2025-02-17 15:30:25</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_8e4730d2b7212300cbfe8c78ee11a99e</table>
-        <value>EXEC spExportEmployee_OHS {{fd_transform:8656cc55-ba0b-46c9-9715-a5303784332e}}</value>
-    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=9fe7b294fb3fde1495e5fb3f4eefdca5"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=9fe7b294fb3fde1495e5fb3f4eefdca5"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=9fe7b294fb3fde1495e5fb3f4eefdca5^sys_idNOT IN9be7b294fb3fde1495e5fb3f4eefdcbf,d3e7b294fb3fde1495e5fb3f4eefdcaf"/>
     <sys_complex_object action="INSERT_OR_UPDATE">
@@ -1539,6 +1380,7 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-02-14 18:36:22</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>1be7b294fb3fde1495e5fb3f4eefdcae</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name/>
@@ -1718,7 +1560,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9fe7b294fb3fde1495e5fb3f4eefdca5"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_9fe7b294fb3fde1495e5fb3f4eefdca5^sys_idNOT IN5fe7b294fb3fde1495e5fb3f4eefdcbe,a3e7b294fb3fde1495e5fb3f4eefdcc2"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sn_auth_token</element>
         <help/>
@@ -1732,11 +1573,11 @@
         <sys_created_on>2025-02-14 18:36:22</sys_created_on>
         <sys_id>5fe7b294fb3fde1495e5fb3f4eefdcbe</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_9fe7b294fb3fde1495e5fb3f4eefdca5_sn_auth_token_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:22</sys_updated_on>
         <url/>
@@ -1755,11 +1596,11 @@
         <sys_created_on>2025-02-14 18:36:22</sys_created_on>
         <sys_id>a3e7b294fb3fde1495e5fb3f4eefdcc2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ResultSet</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_9fe7b294fb3fde1495e5fb3f4eefdca5_ResultSet_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:22</sys_updated_on>
         <url/>
@@ -1948,6 +1789,7 @@
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2025-02-14 19:50:13</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>d9d8471cfbb3125495e5fb3f4eefdcb8</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name/>
@@ -2163,7 +2005,7 @@
         <dynamic_default_value/>
         <dynamic_ref_qual/>
         <element>totalrows</element>
-        <element_prototype display_value="Total Rows" element="total_rows" name="var__m_sys_flow_step_definition_output_8e4730d2b7212300cbfe8c78ee11a99e">5967855ab7212300cbfe8c78ee11a9b7</element_prototype>
+        <element_prototype display_value="">5967855ab7212300cbfe8c78ee11a9b7</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -2250,7 +2092,6 @@
         <sys_updated_on>2025-02-14 18:36:23</sys_updated_on>
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=23e7f294fb3fde1495e5fb3f4eefdc3a"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_9be7b294fb3fde1495e5fb3f4eefdc85^sys_idNOT IN382a6dd13b73d694aeb1ebc964e45acb"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>employeeid</element>
         <help/>
@@ -2264,18 +2105,17 @@
         <sys_created_on>2025-02-17 15:30:25</sys_created_on>
         <sys_id>382a6dd13b73d694aeb1ebc964e45acb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>EmployeeID</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_9be7b294fb3fde1495e5fb3f4eefdc85_employeeid_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:30:25</sys_updated_on>
         <url/>
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_9be7b294fb3fde1495e5fb3f4eefdc85"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_9be7b294fb3fde1495e5fb3f4eefdc85^sys_idNOT IN63e7b294fb3fde1495e5fb3f4eefdcfc,6be7f294fb3fde1495e5fb3f4eefdc33,97f6ed153b33d694aeb1ebc964e45a4f,d5d8471cfbb3125495e5fb3f4eefdcbd"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -2289,11 +2129,11 @@
         <sys_created_on>2025-02-14 18:36:23</sys_created_on>
         <sys_id>63e7b294fb3fde1495e5fb3f4eefdcfc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9be7b294fb3fde1495e5fb3f4eefdc85___action_status___en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:23</sys_updated_on>
         <url/>
@@ -2312,11 +2152,11 @@
         <sys_created_on>2025-02-14 18:36:23</sys_created_on>
         <sys_id>6be7f294fb3fde1495e5fb3f4eefdc33</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9be7b294fb3fde1495e5fb3f4eefdc85___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 18:36:23</sys_updated_on>
         <url/>
@@ -2335,11 +2175,11 @@
         <sys_created_on>2025-02-17 15:16:39</sys_created_on>
         <sys_id>97f6ed153b33d694aeb1ebc964e45a4f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>TotalRows</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9be7b294fb3fde1495e5fb3f4eefdc85_totalrows_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-17 15:16:39</sys_updated_on>
         <url/>
@@ -2358,11 +2198,11 @@
         <sys_created_on>2025-02-14 19:50:14</sys_created_on>
         <sys_id>d5d8471cfbb3125495e5fb3f4eefdcbd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>ResultSet</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_9be7b294fb3fde1495e5fb3f4eefdc85_ResultSet_en</sys_update_name>
         <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-02-14 19:50:14</sys_updated_on>
         <url/>

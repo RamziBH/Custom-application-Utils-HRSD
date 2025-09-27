@@ -29,6 +29,7 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-12 18:25:23</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>3a64d92e1b5f8214813f844fdd4bcb74</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>HoC OHSM - Telework - Send Agreement to Unit4</sys_name>
@@ -37,8 +38,8 @@
         <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3a64d92e1b5f8214813f844fdd4bcb74</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-11-09 08:14:35</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-27 15:39:10</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -136,16 +137,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-12 18:31:10</sys_created_on>
         <sys_id>efb5d92e1bdf8214813f844fdd4bcba3</sys_id>
         <sys_mod_count>7</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.DavidChristian.Smith@parlissi.gc.c</sys_updated_by>
         <sys_updated_on>2024-10-09 15:39:07</sys_updated_on>
     </sys_hub_step_instance>
@@ -644,6 +640,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=efb5d92e1bdf8214813f844fdd4bcba3"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=efb5d92e1bdf8214813f844fdd4bcba3"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=efb5d92e1bdf8214813f844fdd4bcba3^sys_idNOT IN6fb5d92e1bdf8214813f844fdd4bcbc8"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -730,7 +727,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=efb5d92e1bdf8214813f844fdd4bcba3"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_efb5d92e1bdf8214813f844fdd4bcba3^sys_idNOT IN6bb5d92e1bdf8214813f844fdd4bcbcc"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sn_auth_token</element>
         <help/>
@@ -1108,6 +1104,7 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-12 18:31:10</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>2bb51d2e1bdf8214813f844fdd4bcb1b</sys_id>
         <sys_mod_count>49</sys_mod_count>
         <sys_name/>
@@ -1307,7 +1304,7 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=b3b51d2e1bdf8214813f844fdd4bcb60^sys_idNOT IN2fb3f8a2fb0d9a9095e5fb3f4eefdcfe,b8c4b82afb0d9a9095e5fb3f4eefdc43,f0c4b82afb0d9a9095e5fb3f4eefdc43"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-07-12 14:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-07-12 11:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
         <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.code}}!=0</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Step error</label>
@@ -1321,7 +1318,7 @@
         <sys_updated_on>2024-10-09 15:35:45</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-07-12 14:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-07-12 11:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
         <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}!=200</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Error in response</label>
@@ -1335,7 +1332,7 @@
         <sys_updated_on>2024-10-10 14:56:37</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-07-12 14:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-07-12 11:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
         <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_code}}!=0</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Error Code exist</label>
@@ -1348,7 +1345,6 @@
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-10-10 14:56:37</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT IN24f89da61bd3c214813f844fdd4bcb65,acf89da61bd3c214813f844fdd4bcb60"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>teleworkagreement</element>
         <help/>
@@ -1396,7 +1392,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT IN37b51d2e1bdf8214813f844fdd4bcb21,7f1ba4a31b17ca589fde86acdd4bcb23,f31ba4a31b17ca589fde86acdd4bcba8,f3b51d2e1bdf8214813f844fdd4bcb5a"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__action_status__</element>
         <help/>
@@ -1495,18 +1490,14 @@
         <action_id display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</action_id>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6aa7eca31bdf8a589fde86acdd4bcb2b","name":"plan","plan_signature":null}}</plan>
         <snapshot>ff741ce33b4d1698aeb1ebc964e45a71</snapshot>
-        <sys_class_name>sys_hub_action_plan</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-15 17:43:46</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>6aa7eca31bdf8a589fde86acdd4bcb2b</sys_id>
         <sys_mod_count>4</sys_mod_count>
-        <sys_name/>
         <sys_overrides/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-10-10 16:09:56</sys_updated_on>
     </sys_hub_action_plan>
@@ -1536,6 +1527,7 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-15 17:43:44</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>0ea76ca31bdf8a589fde86acdd4bcb3f</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name/>
@@ -1643,16 +1635,11 @@
         <outputs/>
         <section/>
         <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
-        <sys_class_name>sys_hub_step_instance</sys_class_name>
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-15 17:43:45</sys_created_on>
         <sys_id>dea76ca31bdf8a589fde86acdd4bcba6</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
         <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
-        <sys_update_name/>
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
     </sys_hub_step_instance>
@@ -2125,6 +2112,7 @@
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
         <value/>
     </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=dea76ca31bdf8a589fde86acdd4bcba6"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=dea76ca31bdf8a589fde86acdd4bcba6"/>
     <sys_hub_step_ext_output action="delete_multiple" query="model=dea76ca31bdf8a589fde86acdd4bcba6^sys_idNOT IN5ea76ca31bdf8a589fde86acdd4bcbae"/>
     <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
@@ -2211,7 +2199,6 @@
         <xml_view>false</xml_view>
     </sys_hub_step_ext_output>
     <sys_hub_input_scripts action="delete_multiple" query="instance=dea76ca31bdf8a589fde86acdd4bcba6"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_dea76ca31bdf8a589fde86acdd4bcba6^sys_idNOT IN1ea76ca31bdf8a589fde86acdd4bcbf0"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>sn_auth_token</element>
         <help/>
@@ -2415,6 +2402,7 @@
         <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-07-15 17:43:45</sys_created_on>
         <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>dea7aca31bdf8a589fde86acdd4bcb1d</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name/>
@@ -2788,7 +2776,7 @@
     </sys_hub_action_status_metadata>
     <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=52a7aca31bdf8a589fde86acdd4bcb55^sys_idNOT IN37741ce33b4d1698aeb1ebc964e45a70,7f741ce33b4d1698aeb1ebc964e45a70,fb741ce33b4d1698aeb1ebc964e45a70"/>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-07-15 13:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-07-15 10:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
         <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.code}}!=0</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Step error</label>
@@ -2802,7 +2790,7 @@
         <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-07-15 13:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-07-15 10:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
         <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_code}}!=0</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Error Code exist</label>
@@ -2816,7 +2804,7 @@
         <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
     </sys_hub_status_condition>
     <sys_hub_status_condition action="INSERT_OR_UPDATE">
-        <action_status_metadata_id display_value="Created 2024-07-15 13:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
+        <action_status_metadata_id display_value="Created 2024-07-15 10:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
         <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}!=200</condition>
         <dont_treat_as_error>false</dont_treat_as_error>
         <label>Error in response</label>
@@ -2829,7 +2817,6 @@
         <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
     </sys_hub_status_condition>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f^sys_idNOT IN56a76ca31bdf8a589fde86acdd4bcba4,d6a76ca31bdf8a589fde86acdd4bcb6e"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>teleworkagreement</element>
         <help/>
@@ -2877,7 +2864,6 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f"/>
-    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f^sys_idNOT IN16a7aca31bdf8a589fde86acdd4bcb36,352b28e31b17ca589fde86acdd4bcb09,7d2be4e31b17ca589fde86acdd4bcb53,9ea7aca31bdf8a589fde86acdd4bcb2f"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>__dont_treat_as_error__</element>
         <help/>

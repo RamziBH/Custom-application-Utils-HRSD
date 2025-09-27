@@ -5,6 +5,7 @@
         <advanced>true</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Field: Supplemental Corrective Action(s)&#13;
 Allow write for supplemental_corrective_action_s in x_hccc_hoc_ohs_investigation_case, for users with role snc_internal, and if the ACL script returns true.</description>

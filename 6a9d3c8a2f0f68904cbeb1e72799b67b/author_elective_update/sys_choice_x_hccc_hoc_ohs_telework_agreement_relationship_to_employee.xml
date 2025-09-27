@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="relationship_to_employee" table="x_hccc_hoc_ohs_telework_agreement" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>relationship_to_employee</element>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:56:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>relationship_to_employee</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_telework_agreement_relationship_to_employee</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:56:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enfant</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:12:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:12:35</sys_updated_on>
+            <value>Child</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Child</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:56:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:56:14</sys_updated_on>
+            <value>Child</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Beau-père</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:12:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:12:52</sys_updated_on>
+            <value>Father-in-law</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Father-in-law</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:56:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:56:54</sys_updated_on>
+            <value>Father-in-law</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Friend</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:56:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:57:01</sys_updated_on>
+            <value>Friend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ami(e)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:13:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:13:17</sys_updated_on>
+            <value>Friend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grand-parent</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:13:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:13:39</sys_updated_on>
+            <value>Grandparent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grandparent</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:57:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:57:09</sys_updated_on>
+            <value>Grandparent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mother-in-law</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:57:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:57:23</sys_updated_on>
+            <value>Mother-in-law</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Belle-mère</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:13:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:13:52</sys_updated_on>
+            <value>Mother-in-law</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parent</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:58:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:58:21</sys_updated_on>
+            <value>Parent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parent</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:14:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:14:04</sys_updated_on>
+            <value>Parent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partenaire</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:14:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:15:32</sys_updated_on>
+            <value>Partner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partner</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:58:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:58:30</sys_updated_on>
+            <value>Partner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Frère ou Sœur</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:14:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:14:58</sys_updated_on>
+            <value>Sibling</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sibling</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:58:50</sys_updated_on>
+            <value>Sibling</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conjoint</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:15:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:15:45</sys_updated_on>
+            <value>Spouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spouse</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:58:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:58:59</sys_updated_on>
+            <value>Spouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other relative</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>9998</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:58:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:58:10</sys_updated_on>
+            <value>Other relative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Autre membre de la famille</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>9998</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:16:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:16:03</sys_updated_on>
+            <value>Other relative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>9999</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 12:57:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 12:57:52</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Autre</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <sequence>9999</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-21 17:16:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-21 17:16:12</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

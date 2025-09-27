@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="discrimination_grounds_list" table="x_hccc_hoc_ohs_h_and_v_rw">
         <active>true</active>
         <array>false</array>
-        <attributes>no_sort=true,slushbucket_ref_no_expand=false</attributes>
+        <attributes>edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>1</choice>
@@ -51,7 +51,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-03-06 15:23:51</sys_created_on>
-        <sys_id>5b791f101b51869478230d47dc4bcbba</sys_id>
         <sys_name>Discrimination grounds list</sys_name>
         <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>

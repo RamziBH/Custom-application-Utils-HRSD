@@ -28,12 +28,12 @@
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
-        <color_palette display_value="HoC">71a3ce4b1b9c0410dab2db1dcd4bcb72</color_palette>
+        <color_palette display_value="">71a3ce4b1b9c0410dab2db1dcd4bcb72</color_palette>
         <colors>#008000, #FF0000, #FFFF00, #ffcccb</colors>
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Zachary Adams">3aca98c11bc3e1149fde86acdd4bcbdf</created_by_user>
+        <created_by_user display_value="">3aca98c11bc3e1149fde86acdd4bcbdf</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -161,5 +161,4 @@
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
-    <sys_translated_text action="delete_multiple" query="documentkey=94b59be31b536d109fde86acdd4bcb66"/>
 </record_update>

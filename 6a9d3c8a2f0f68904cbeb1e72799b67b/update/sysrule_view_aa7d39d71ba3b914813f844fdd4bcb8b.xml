@@ -2,8 +2,7 @@
     <sysrule_view action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>false</advanced>
-        <condition table="x_hccc_hoc_ohs_telework_agreement">sys_class_name=x_hccc_hoc_ohs_telework_agreement^EQ<item display_value="Telework Agreement" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_hccc_hoc_ohs_telework_agreement"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_telework_agreement">sys_class_name=x_hccc_hoc_ohs_telework_agreement^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
         <device_type>tablet</device_type>

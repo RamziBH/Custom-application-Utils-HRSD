@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9a0a33131bedb554813f844fdd4bcb4d" label="Position code staging" max_length="40" name="x_hccc_hoc_ohs_position_code_staging" type="collection">
+        <element label="position ID" max_length="40" name="position_id" type="string"/>
+        <element label="Position Code" max_length="40" name="position_code" type="string"/>
+    </element>
+</database>

@@ -21,6 +21,7 @@
         <sys_update_name>sys_atf_test_b7fb7230fb0d1e1495e5fb3f4eefdcc4</sys_update_name>
         <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-10-02 15:18:39</sys_updated_on>
+        <test_origin/>
     </sys_atf_test>
     <sys_variable_value action="delete_multiple" query="document_key=b7fb7230fb0d1e1495e5fb3f4eefdcc4"/>
 </record_update>

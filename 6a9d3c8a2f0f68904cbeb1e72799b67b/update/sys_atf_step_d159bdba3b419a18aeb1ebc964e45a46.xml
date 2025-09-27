@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>false</active>
+        <callable_outputs/>
         <copied_from display_value="Field State Validation">c006eb661be78ad89fde86acdd4bcb4d</copied_from>
         <description>Assert the following:
 With a failure timeout of 5 Seconds</description>

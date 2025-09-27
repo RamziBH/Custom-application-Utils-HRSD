@@ -4,11 +4,9 @@
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
         <applies_to/>
-        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service!=5227b08f2f4b60d04cbeb1e72799b659^hr_service!=11d78aa31bb201509fde86acdd4bcb0b^dir_cause_injuryNOT INViolence,Harrasment^EQ<item display_table="sn_hr_core_service" display_value="Internal Safety Complaint" endquery="false" field="hr_service" goto="false" newquery="false" operator="!=" or="false" value="5227b08f2f4b60d04cbeb1e72799b659"/>
-            <item display_table="sn_hr_core_service" display_value="Harassment and Violence Notice of Occurence" endquery="false" field="hr_service" goto="false" newquery="false" operator="!=" or="false" value="11d78aa31bb201509fde86acdd4bcb0b"/>
-            <item display_value="Violence,Harrasment" endquery="false" field="dir_cause_injury" goto="false" newquery="false" operator="NOT IN" or="false" value="Violence,Harrasment"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service!=5227b08f2f4b60d04cbeb1e72799b659^hr_service!=11d78aa31bb201509fde86acdd4bcb0b^dir_cause_injuryNOT INViolence,Harrasment^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Default access control on x_hccc_hoc_ohs_investigation_case</description>
         <local_or_existing>Local</local_or_existing>

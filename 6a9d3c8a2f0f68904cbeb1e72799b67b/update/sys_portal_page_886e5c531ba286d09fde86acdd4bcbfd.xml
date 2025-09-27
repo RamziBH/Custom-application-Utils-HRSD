@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-09-26 21:27:40">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-09-27 15:50:13">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -38,7 +38,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2024-06-07 11:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:39:00</sys_created_on>
                         <sys_id>18be54171b6286d09fde86acdd4bcb3f</sys_id>
@@ -49,7 +49,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2024-06-07 11:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:39:00</sys_created_on>
                         <sys_id>54be54171b6286d09fde86acdd4bcb3f</sys_id>
@@ -60,7 +60,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2024-06-07 11:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:39:00</sys_created_on>
                         <sys_id>58be54171b6286d09fde86acdd4bcb3e</sys_id>
@@ -71,7 +71,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2024-06-07 11:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:39:00</sys_created_on>
                         <sys_id>90be54171b6286d09fde86acdd4bcb3f</sys_id>
@@ -82,7 +82,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2024-06-07 11:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:39:00">54be54171b6286d09fde86acdd4bcb3e</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:39:00</sys_created_on>
                         <sys_id>dcbe54171b6286d09fde86acdd4bcb3e</sys_id>
@@ -107,7 +107,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2024-06-13 10:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
+                        <portal_section display_value="Created 2024-06-13 07:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-13 14:38:25</sys_created_on>
                         <sys_id>135acbcd1bb242d09fde86acdd4bcb9b</sys_id>
@@ -118,7 +118,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_publish</name>
-                        <portal_section display_value="Created 2024-06-13 10:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
+                        <portal_section display_value="Created 2024-06-13 07:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-13 14:38:25</sys_created_on>
                         <sys_id>135acbcd1bb242d09fde86acdd4bcb9c</sys_id>
@@ -129,7 +129,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2024-06-13 10:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
+                        <portal_section display_value="Created 2024-06-13 07:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-13 14:38:25</sys_created_on>
                         <sys_id>1b5acbcd1bb242d09fde86acdd4bcb9d</sys_id>
@@ -140,7 +140,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2024-06-13 10:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
+                        <portal_section display_value="Created 2024-06-13 07:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-13 14:38:25</sys_created_on>
                         <sys_id>5b5acbcd1bb242d09fde86acdd4bcb9c</sys_id>
@@ -151,7 +151,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2024-06-13 10:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
+                        <portal_section display_value="Created 2024-06-13 07:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-13 14:38:25</sys_created_on>
                         <sys_id>5f5acbcd1bb242d09fde86acdd4bcb9b</sys_id>
@@ -162,7 +162,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 2024-06-13 10:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
+                        <portal_section display_value="Created 2024-06-13 07:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-13 14:38:25</sys_created_on>
                         <sys_id>975acbcd1bb242d09fde86acdd4bcb9c</sys_id>
@@ -173,7 +173,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2024-06-13 10:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
+                        <portal_section display_value="Created 2024-06-13 07:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-13 14:38:25</sys_created_on>
                         <sys_id>9b5acbcd1bb242d09fde86acdd4bcb9b</sys_id>
@@ -184,7 +184,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2024-06-13 10:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
+                        <portal_section display_value="Created 2024-06-13 07:38:25">975acbcd1bb242d09fde86acdd4bcb9a</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-13 14:38:25</sys_created_on>
                         <sys_id>d35acbcd1bb242d09fde86acdd4bcb9c</sys_id>
@@ -209,7 +209,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2024-06-07 11:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:38:34</sys_created_on>
                         <sys_id>029e1c171ba286d09fde86acdd4bcb8e</sys_id>
@@ -220,7 +220,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2024-06-07 11:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:38:34</sys_created_on>
                         <sys_id>4e9e1c171ba286d09fde86acdd4bcb8d</sys_id>
@@ -231,7 +231,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2024-06-07 11:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:38:34</sys_created_on>
                         <sys_id>869e1c171ba286d09fde86acdd4bcb8e</sys_id>
@@ -242,7 +242,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 2024-06-07 11:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:38:34</sys_created_on>
                         <sys_id>c29e1c171ba286d09fde86acdd4bcb8e</sys_id>
@@ -253,7 +253,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2024-06-07 11:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
+                        <portal_section display_value="Created 2024-06-07 08:38:34">c29e1c171ba286d09fde86acdd4bcb8d</portal_section>
                         <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
                         <sys_created_on>2024-06-07 15:38:34</sys_created_on>
                         <sys_id>c69e1c171ba286d09fde86acdd4bcb8d</sys_id>

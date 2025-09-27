@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
+        <callable_outputs/>
         <copied_from display_value="Generate Random String">00092f578727c91050d2eca73cbb351f</copied_from>
         <description>Generate string of length: 10</description>
         <display_name>Generate Random String</display_name>

@@ -5,6 +5,7 @@
         <advanced>false</advanced>
         <applies_to/>
         <condition/>
+        <controlled_by_refs/>
         <decision_type>allow</decision_type>
         <description>Field: Description (rich_description)&#13;
 rich_description field cannot be edited by anyone (admin the exception)</description>

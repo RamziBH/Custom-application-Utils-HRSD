@@ -15,15 +15,11 @@
         <condition/>
         <description>Workplace investigation report on refusal to work</description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_hccc_hoc_ohs_investigation_case">emp_agree_2=no^stateCHANGESTO204^hr_service=5227b08f2f4b60d04cbeb1e72799b659^stateCHANGESFROM301^EQ<item display_value="No" endquery="false" field="emp_agree_2" goto="false" newquery="false" operator="=" or="false" value="no"/>
-            <item display_value="Needs Minister of Labour Review" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="204"/>
-            <item display_table="sn_hr_core_service" display_value="Internal Safety Complaint" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="5227b08f2f4b60d04cbeb1e72799b659"/>
-            <item display_value="Awaiting employee signature" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="301"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">emp_agree_2=no^stateCHANGESTO204^hr_service=5227b08f2f4b60d04cbeb1e72799b659^stateCHANGESFROM301^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message><![CDATA[<p>triggering child hr service</p>]]></message>
-        <name>HoC - Safety complaint - OHSM Trigger Child HR service</name>
+        <name>HoC - Safety complaint - OHSM Trigger Ch</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>

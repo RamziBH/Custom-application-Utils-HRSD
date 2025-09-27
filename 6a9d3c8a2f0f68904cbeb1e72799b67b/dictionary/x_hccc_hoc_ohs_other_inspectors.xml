@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="512c342e1b3e30109fde86acdd4bcbd1" label="Inspecteur" max_length="40" name="x_hccc_hoc_ohs_other_inspectors" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Cas parent" max_length="40" name="parent_case" reference="x_hccc_hoc_ohs_investigation_case" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Inspecteur" max_length="40" name="inspector" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="inspector"/>
+        </index>
+        <index name="index2">
+            <element name="parent_case"/>
+        </index>
+    </element>
+</database>

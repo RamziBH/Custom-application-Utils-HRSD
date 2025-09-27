@@ -3,7 +3,6 @@
         <active>true</active>
         <application display_value="HoC Occupational Health and Safety Manag">712efc8a2f0f68904cbeb1e72799b660</application>
         <assessment/>
-        <content_page/>
         <device_type/>
         <filter table="sys_user_role">sys_scope=6a9d3c8a2f0f68904cbeb1e72799b67b^EQ<item display_table="sys_scope" display_value="HoC Occupational Health and Safety Management" endquery="false" field="sys_scope" goto="false" newquery="false" operator="=" or="false" value="6a9d3c8a2f0f68904cbeb1e72799b67b"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>

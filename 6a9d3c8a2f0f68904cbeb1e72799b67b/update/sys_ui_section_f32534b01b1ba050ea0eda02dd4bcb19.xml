@@ -2,6 +2,7 @@
     <sys_ui_section caption="" section_id="f32534b01b1ba050ea0eda02dd4bcb19" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="Workplace_Incident_Reporting">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-08-05 20:35:34</sys_created_on>
             <sys_id>a2a4097bfb0b6e1495e5fb3f4eefdcfd</sys_id>
@@ -32,6 +33,7 @@
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
+            <name/>
             <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
             <sys_created_on>2025-08-05 20:35:34</sys_created_on>
             <sys_id>eea4097bfb0b6e1495e5fb3f4eefdcfd</sys_id>
@@ -58,7 +60,7 @@ display:none !important;&#13;
             <sys_created_on>2025-08-05 20:35:34</sys_created_on>
             <sys_id>fea4497bfb0b6e1495e5fb3f4eefdc69</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter display_value="sn_hr_le_activity_set_progress_bar">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
+            <sys_ui_formatter display_value="">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="fb2534b01b1ba050ea0eda02dd4bcb14">f32534b01b1ba050ea0eda02dd4bcb19</sys_ui_section>
             <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
             <sys_updated_on>2025-08-05 20:35:34</sys_updated_on>

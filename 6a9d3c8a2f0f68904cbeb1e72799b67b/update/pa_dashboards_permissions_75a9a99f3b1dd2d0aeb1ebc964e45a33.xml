@@ -2,7 +2,7 @@
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
         <dashboard display_value="Vaccination Clinic 2024">1ec421933b1dd2d0aeb1ebc964e45a23</dashboard>
         <delete>false</delete>
-        <group display_value="CEH-HRS-OHS-Admin" name="CEH-HRS-OHS-Admin">f825414a2f4f68904cbeb1e72799b6bb</group>
+        <group display_value="">f825414a2f4f68904cbeb1e72799b6bb</group>
         <identity>f825414a2f4f68904cbeb1e72799b6bb</identity>
         <read>true</read>
         <role/>

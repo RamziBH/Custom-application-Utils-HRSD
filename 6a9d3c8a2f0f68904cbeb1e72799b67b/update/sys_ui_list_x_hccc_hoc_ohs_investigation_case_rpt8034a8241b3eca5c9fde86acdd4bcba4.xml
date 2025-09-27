@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="2" view="RPT8034a8241b3eca5c9fde86acdd4bcba4">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="8c6df83cc3d03210b0541c65e40131f7">325cc3f11b970e10813f844fdd4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-10 19:13:57</sys_created_on>
+            <sys_id>365cc3f11b970e10813f844fdd4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-10 19:13:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="8c6df83cc3d03210b0541c65e40131f7">325cc3f11b970e10813f844fdd4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-10 19:13:57</sys_created_on>
+            <sys_id>3e5cc3f11b970e10813f844fdd4bcb61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-10 19:13:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="8c6df83cc3d03210b0541c65e40131f7">325cc3f11b970e10813f844fdd4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-10 19:13:57</sys_created_on>
+            <sys_id>325cc3f11b970e10813f844fdd4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-10 19:13:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="8c6df83cc3d03210b0541c65e40131f7">325cc3f11b970e10813f844fdd4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-10 19:13:57</sys_created_on>
+            <sys_id>365cc3f11b970e10813f844fdd4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-10 19:13:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="8c6df83cc3d03210b0541c65e40131f7">325cc3f11b970e10813f844fdd4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-10 19:13:57</sys_created_on>
+            <sys_id>3a5cc3f11b970e10813f844fdd4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-10 19:13:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>complainant_name</element>
+            <list_id display_value="x_hccc_hoc_ohs_investigation_case" element="NULL" name="x_hccc_hoc_ohs_investigation_case" parent="NULL" relationship="NULL" sys_domain="global" view="8c6df83cc3d03210b0541c65e40131f7">325cc3f11b970e10813f844fdd4bcb60</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-10 19:13:57</sys_created_on>
+            <sys_id>3e5cc3f11b970e10813f844fdd4bcb62</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-10 19:13:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-10 19:13:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>325cc3f11b970e10813f844fdd4bcb60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_list_x_hccc_hoc_ohs_investigation_case_RPT8034a8241b3eca5c9fde86acdd4bcba4</sys_update_name>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-10 19:13:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt8034a8241b3eca5c9fde86acdd4bcba4" name="RPT8034a8241b3eca5c9fde86acdd4bcba4">8c6df83cc3d03210b0541c65e40131f7</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

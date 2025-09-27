@@ -15,14 +15,11 @@
         <condition/>
         <description>Checks to make sure that an annual report run request for LAB 1058 is submitted with the WHSC role and the building the report request is for is under the responsibility of a WHSC they are a part of</description>
         <execute_function>false</execute_function>
-        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=31ecd2f31b081d109fde86acdd4bcb9b^pdf_template=2306fd9c8774ad5050d2eca73cbb3500^ORpdf_template=55703d708701a99450d2eca73cbb3566^EQ<item display_table="sn_hr_core_service" display_value="OHSM Report Request" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="31ecd2f31b081d109fde86acdd4bcb9b"/>
-            <item display_table="sn_hr_core_document_template" display_value="ESDC-LAB1058 EN" endquery="false" field="pdf_template" goto="false" newquery="false" operator="=" or="false" value="2306fd9c8774ad5050d2eca73cbb3500"/>
-            <item display_table="sn_hr_core_document_template" display_value="ESDC-LAB1058 FQ" endquery="false" field="pdf_template" goto="false" newquery="false" operator="=" or="true" value="55703d708701a99450d2eca73cbb3566"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=31ecd2f31b081d109fde86acdd4bcb9b^pdf_template=2306fd9c8774ad5050d2eca73cbb3500^ORpdf_template=55703d708701a99450d2eca73cbb3566^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>HoC - Annual Reporting LAB 1058 Committee Access Validation</name>
+        <name>HoC - Annual Reporting LAB 1058 Committe</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
