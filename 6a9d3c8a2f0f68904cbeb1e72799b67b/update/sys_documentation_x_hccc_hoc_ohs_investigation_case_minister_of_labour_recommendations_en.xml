@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="minister_of_labour_recommendations" label="Minister of Labour recommendations" language="en" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>minister_of_labour_recommendations</element>
+            <help/>
+            <hint>Document the Minister of Labour's recommendations. This can be found on the Minister of Labour's investigation report or letter.</hint>
+            <label>Minister of Labour recommendations</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Minister of Labour recommendations</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-07-13 15:09:53</sys_created_on>
+            <sys_id>3ec2a146dbd1f4509b09e6fa4b9619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Minister of Labour recommendations</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_minister_of_labour_recommendations_en</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

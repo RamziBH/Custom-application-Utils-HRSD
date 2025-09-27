@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Safety complaint manager validation stage 2">6be588691b1901109fde86acdd4bcbed</catalog_item>
+        <catalog_variable>IO:b7e5cc691b1901109fde86acdd4bcb3f</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-26 15:18:24</sys_created_on>
+        <sys_id>d4f5cc691b1901109fde86acdd4bcbe6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cont_start_safety_comp_info</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d4f5cc691b1901109fde86acdd4bcbe6</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Fields initial states">9cf5cc691b1901109fde86acdd4bcbe3</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>cont_start_safety_comp_info</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

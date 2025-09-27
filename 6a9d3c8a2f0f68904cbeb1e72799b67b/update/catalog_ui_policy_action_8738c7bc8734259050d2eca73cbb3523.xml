@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:ec86cfb88734259050d2eca73cbb35b7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-02-01 17:22:55</sys_created_on>
+        <sys_id>8738c7bc8734259050d2eca73cbb3523</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ohsm_repo_number_of_non_trade_union_employee_comittee_members</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_8738c7bc8734259050d2eca73cbb3523</sys_update_name>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-02-01 17:22:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show fields for LAB1058">deb7877c8734259050d2eca73cbb3514</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>ohsm_repo_number_of_non_trade_union_employee_comittee_members</variable>
+        <variable_set display_value="HoC OHSM Report">789d88721b7b0d509fde86acdd4bcb63</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

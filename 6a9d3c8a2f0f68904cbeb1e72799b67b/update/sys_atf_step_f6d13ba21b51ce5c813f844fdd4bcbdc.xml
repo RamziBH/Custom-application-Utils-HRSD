@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">006aa1d61b5982109fde86acdd4bcb92</copied_from>
+        <description>Answer the questions on the form as follows:
+Do you feel you are in imminent danger? = No
+and Are you the subject of an occurrence of harassment and violence? = Yes
+and Medical attention = true
+and Modified duties = false
+and Lost time = true
+and Complainant's Manager = true
+and Designated Recipient (Respectful workplace) = false
+and This complaint is being submitted in good faith and is accurate and truthful, to the best of my knowledge = true</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-04 19:47:39</sys_created_on>
+        <sys_id>f6d13ba21b51ce5c813f844fdd4bcbdc</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_f6d13ba21b51ce5c813f844fdd4bcbdc</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:06:55</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - H&amp;V - Record Create/Delete access for Manager">9ad177a21b51ce5c813f844fdd4bcbe8</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f6d13ba21b51ce5c813f844fdd4bcbdc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f6d13ba21b51ce5c813f844fdd4bcbdc</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-04 19:47:39</sys_created_on>
+        <sys_id>3ed13ba21b51ce5c813f844fdd4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-04 19:47:39</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f6d13ba21b51ce5c813f844fdd4bcbdc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-04 19:47:39</sys_created_on>
+        <sys_id>b2d13ba21b51ce5c813f844fdd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-04 19:47:39</sys_updated_on>
+        <value>24eb8b7d1bbe81109fde86acdd4bcb8d</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f6d13ba21b51ce5c813f844fdd4bcbdc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-04 19:47:39</sys_created_on>
+        <sys_id>fed13ba21b51ce5c813f844fdd4bcbe2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-11 15:08:32</sys_updated_on>
+        <value>IO:eb4e819e1b0115509fde86acdd4bcb42=no^IO:09ebc3bd1bbe81109fde86acdd4bcb9a=yes^IO:9f25b46587e7c15050d2eca73cbb3536=true^IO:c575fc6587e7c15050d2eca73cbb3543=false^IO:dd55786587e7c15050d2eca73cbb35ee=true^IO:481e4b351bfe81109fde86acdd4bcbf7=true^IO:114ecf351bfe81109fde86acdd4bcb2d=false^IO:a1eb07bd1bbe81109fde86acdd4bcb4d=true^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=f6d13ba21b51ce5c813f844fdd4bcbdc"/>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard">
+    <par_dashboard action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description>Dashboard for current harassment and violence records that are handled by the current user.</description>
+        <experience/>
+        <grid>48</grid>
+        <name>OHSM H&amp;V Dashboard</name>
+        <sys_class_name>par_dashboard</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-05 18:32:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4f23fe2e1b624e949fde86acdd4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OHSM H&amp;V Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>par_dashboard_4f23fe2e1b624e949fde86acdd4bcbd8</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-05 18:32:17</sys_updated_on>
+        <sys_ux_app_config/>
+        <sys_ux_app_route/>
+        <sys_ux_macroponent/>
+        <sys_ux_screen/>
+        <sys_ux_screen_type/>
+    </par_dashboard>
+</record_update>

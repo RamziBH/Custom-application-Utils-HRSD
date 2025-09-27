@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Impersonate the user: {{Step 2: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Impersonate manager 1</notes>
+        <order>20</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:50:51</sys_created_on>
+        <sys_id>97ffd50d1bfd46d0813f844fdd4bcb99</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_97ffd50d1bfd46d0813f844fdd4bcb99</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:22</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - Telework Agreement - Service Portal access">6d3369b41b798a5c9fde86acdd4bcb79</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=97ffd50d1bfd46d0813f844fdd4bcb99"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>97ffd50d1bfd46d0813f844fdd4bcb99</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:50:53</sys_created_on>
+        <sys_id>3bff154d1bfd46d0813f844fdd4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 13:50:53</sys_updated_on>
+        <value/>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=97ffd50d1bfd46d0813f844fdd4bcb99"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>97ffd50d1bfd46d0813f844fdd4bcb99</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:50:53</sys_created_on>
+        <sys_id>f3ff154d1bfd46d0813f844fdd4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 13:50:53</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['ecc5a9fc1b798a5c9fde86acdd4bcbe9'].user}}</value>
+    </sys_element_mapping>
+</record_update>

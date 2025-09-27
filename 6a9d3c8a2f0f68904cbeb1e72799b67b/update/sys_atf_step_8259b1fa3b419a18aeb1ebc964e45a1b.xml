@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Field State Validation">34dcd09d1bc10614813f844fdd4bcb15</copied_from>
+        <description>Assert the following:
+The following fields are not visible: Investigation.Contract and financial information, Investigation.Coordination conducted with investigator, Investigation.Has final report been received?, Investigation.Has notice to both parties been provided, Investigation.Has the investigation report been attached to the case, Investigation.Interim measures and investigation notes, Investigation.Investigation end date, Investigation.Investigation start date, Investigation.Investigator name, Investigation.Investigator's determination, Investigation.Investigator's notes, Investigation.Manager's investigation notes, Investigation.When was the notice provided (date time)?, Investigation.When was the report received by the employer (date/time)?
+The following fields are read only: Investigation.Contract and financial information, Investigation.Coordination conducted with investigator, Investigation.Has final report been received?, Investigation.Has notice to both parties been provided, Investigation.Has the investigation report been attached to the case, Investigation.Interim measures and investigation notes, Investigation.Investigation end date, Investigation.Investigation start date, Investigation.Investigator name, Investigation.Investigator's determination, Investigation.Investigator's notes, Investigation.Manager's investigation notes, Investigation.When was the notice provided (date time)?, Investigation.When was the report received by the employer (date/time)?
+The following fields are not mandatory: Investigation.Contract and financial information, Investigation.Coordination conducted with investigator, Investigation.Has final report been received?, Investigation.Has notice to both parties been provided, Investigation.Has the investigation report been attached to the case, Investigation.Interim measures and investigation notes, Investigation.Investigation end date, Investigation.Investigation start date, Investigation.Investigator name, Investigation.Investigator's determination, Investigation.Investigator's notes, Investigation.Manager's investigation notes, Investigation.When was the notice provided (date time)?, Investigation.When was the report received by the employer (date/time)?
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field State Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Check permissions for the H&amp;V investigation tab</notes>
+        <order>33</order>
+        <step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>8259b1fa3b419a18aeb1ebc964e45a1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field State Validation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_8259b1fa3b419a18aeb1ebc964e45a1b</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <test display_value="OHS - H&amp;V - Field and Tab access for OHS Admin">5959bdba3b419a18aeb1ebc964e45af4</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=8259b1fa3b419a18aeb1ebc964e45a1b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8259b1fa3b419a18aeb1ebc964e45a1b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>0259b1fa3b419a18aeb1ebc964e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <value>investigation.contract_and_financial_information,investigation.coordination_conducted_with_investigator,investigation.has_final_report_been_received,investigation.has_notice_to_both_parties_been_provided,investigation.has_the_investigation_report_been_attached_to_the_case,investigation.hv_interim_measures_and_investigation_notes,investigation.investigation_end_date,investigation.investigation_start_date,investigation.investigator_name,investigation.investigator_conclusion,investigation.investigator_notes,investigation.manager_investigation_notes,investigation.when_was_the_notice_provided_date_time,investigation.when_was_the_report_received_by_the_employer_date_time</value>
+        <variable display_value="Read only">592a17535320220002c6435723dc34d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8259b1fa3b419a18aeb1ebc964e45a1b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>0e59b1fa3b419a18aeb1ebc964e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <value/>
+        <variable display_value="Mandatory">6e5a1b535320220002c6435723dc3498</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8259b1fa3b419a18aeb1ebc964e45a1b</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>4a59b1fa3b419a18aeb1ebc964e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <value/>
+        <variable display_value="Not read only">e63a97535320220002c6435723dc34b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8259b1fa3b419a18aeb1ebc964e45a1b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>4e59b1fa3b419a18aeb1ebc964e45a1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <value/>
+        <variable display_value="Visible">0cd9df135320220002c6435723dc3426</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8259b1fa3b419a18aeb1ebc964e45a1b</document_key>
+        <order>410</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>8659b1fa3b419a18aeb1ebc964e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <value>investigation.contract_and_financial_information,investigation.coordination_conducted_with_investigator,investigation.has_final_report_been_received,investigation.has_notice_to_both_parties_been_provided,investigation.has_the_investigation_report_been_attached_to_the_case,investigation.hv_interim_measures_and_investigation_notes,investigation.investigation_end_date,investigation.investigation_start_date,investigation.investigator_name,investigation.investigator_conclusion,investigation.investigator_notes,investigation.manager_investigation_notes,investigation.when_was_the_notice_provided_date_time,investigation.when_was_the_report_received_by_the_employer_date_time</value>
+        <variable display_value="Not mandatory">787a9b535320220002c6435723dc3455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8259b1fa3b419a18aeb1ebc964e45a1b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>8a59b1fa3b419a18aeb1ebc964e45a1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">b1fefcde73633300b19898b8caf6a7af</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8259b1fa3b419a18aeb1ebc964e45a1b</document_key>
+        <order>210</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>c259b1fa3b419a18aeb1ebc964e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <value>investigation.contract_and_financial_information,investigation.coordination_conducted_with_investigator,investigation.has_final_report_been_received,investigation.has_notice_to_both_parties_been_provided,investigation.has_the_investigation_report_been_attached_to_the_case,investigation.hv_interim_measures_and_investigation_notes,investigation.investigation_end_date,investigation.investigation_start_date,investigation.investigator_name,investigation.investigator_conclusion,investigation.investigator_notes,investigation.manager_investigation_notes,investigation.when_was_the_notice_provided_date_time,investigation.when_was_the_report_received_by_the_employer_date_time</value>
+        <variable display_value="Not visible">e81ad3535320220002c6435723dc340c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8259b1fa3b419a18aeb1ebc964e45a1b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:05</sys_created_on>
+        <sys_id>ce59b1fa3b419a18aeb1ebc964e45a1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:35:05</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">80f953535320220002c6435723dc340f</variable>
+    </sys_variable_value>
+</record_update>

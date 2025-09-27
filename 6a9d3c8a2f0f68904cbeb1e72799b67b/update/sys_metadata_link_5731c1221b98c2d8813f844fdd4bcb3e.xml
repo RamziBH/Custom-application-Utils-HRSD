@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>cb5fb0aa1b18c2d8813f844fdd4bcb8d</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_update_version">
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>INSERT_OR_UPDATE</action>
+        <application display_value="Global">global</application>
+        <file_path/>
+        <instance_id>047331aedbd7b7c849eac597059619e3</instance_id>
+        <instance_name>hoccdcdv</instance_name>
+        <name>sys_script_include_eb1b16d61b0d15509fde86acdd4bcb9a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.HoCOHSMAnonymousCaseCreation&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;HoCOHSMAnonymousCaseCreation&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var HoCOHSMAnonymousCaseCreation = Class.create();
+HoCOHSMAnonymousCaseCreation.prototype = {
+    initialize: function() {
+    },
+
+	requestAsyncCreation: function(producer_copy){
+		//Request the recordCreation to be performed asynchronously
+		var script = "new global.HoCOHSMAnonymousCaseCreation().recordCreation(" + JSON.stringify(producer_copy) + ");"; 
+        var gdt = new GlideDateTime();
+        gdt.addSeconds(1);
+        //create the sys_trigger record to be executed by the schedule worker thread
+        var sched = new ScheduleOnce();
+        sched.script = script;
+        sched.setTime(gdt);
+        sched.setLabel("RECORD PRODUCER: Complaint - Occurrence of Harassment and Violence");
+        sched.schedule();
+	},
+	
+	recordCreation: function(producer_copy){
+		var json = JSON.parse(producer_copy);
+		//Perform the actual creation of the record (GlideRecord insert)
+		var gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+		gr.initialize();
+		gr.setValue("number",json.number);
+		gr.setValue("hr_service", "11d78aa31bb201509fde86acdd4bcb0b");
+		gr.setValue("state",109);
+		gr.setValue("complainant_feels_in_imminent_danger",json.feel_in_imminent_danger);
+		gr.setValue("hv_remain_anonymous",json.hv_remain_anonymous);
+		gr.setValue("short_description",json.short_description);
+		gr.setValue("rich_description",json.rich_description);
+
+		gr.setValue("complainant_name",json.complainant_name);
+		gr.setValue("hv_complainant_manager",json.complainant_manager);
+		gr.setValue("complainant_contact_details",json.complainant_details);
+		gr.setValue("respondent_list",json.respondent_list);
+		
+		gr.setValue("hv_resulted_in_an_injury",json.hv_resulted_in_an_injury);
+		gr.setValue("hv_resulted_in_time_loss",json.hv_resulted_in_time_loss);
+		gr.setValue("hv_resulted_in_modified_duties",json.hv_resulted_in_modified_duties);
+		gr.setValue("recipient_of_this_complaint", json.recipient_of_this_complaint);
+		gr.setValue("manager_involved",json.manager_involved);
+
+		gr.insert();
+	},
+	
+    type: 'HoCOHSMAnonymousCaseCreation'
+};
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;$mageaa&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-03 20:01:15&lt;/sys_created_on&gt;&lt;sys_id&gt;eb1b16d61b0d15509fde86acdd4bcb9a&lt;/sys_id&gt;&lt;sys_mod_count&gt;43&lt;/sys_mod_count&gt;&lt;sys_name&gt;HoCOHSMAnonymousCaseCreation&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_eb1b16d61b0d15509fde86acdd4bcb9a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-02-14 13:45:01&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>957277103</payload_hash>
+        <record_name>HoCOHSMAnonymousCaseCreation</record_name>
+        <reverted_from/>
+        <source>4b6bb5e21bd33300af300d47dc4bcb20</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-14 13:45:01</sys_created_on>
+        <sys_id>cb5fb0aa1b18c2d8813f844fdd4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da7dd1b080000001</sys_recorded_at>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:45:01</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8f5fb0aa7c18c2d85d26f5b554af8c8c</update_guid>
+        <update_guid_history>8f5fb0aa7c18c2d85d26f5b554af8c8c:957277103,83dfaaf6ab5155549d5ebf5c3d1ab9ed:1068660081,62eca6726b515554148071705b027443:156495271,691ca632ce5155546549455dc44458c0:1068660081,24690a64e2d5d190ac695e54e8b79750:1455074881,00e38ea8d695d190263f8afa2bb2222b:-2087046060,3af086e09995d190507c2d4fcb779ae9:-1925861044,779f35208195d190a656486120b1ae98:1750973088,e41f35ec6d55d190613287744fc53bd5:-1427735872,fe01156c8511d1908b0e74bc5a9bbf41:1842741432,388f4d68b211d1905dd04beaad8abf07:-88266278,d03e41e4c111d190c8452a4d0f474ece:-756439308,00dd09a4f911d190eb71dad62b87293a:-1327616392,d7e5059483d9519007324e3b72181737:-2049555450,5695095420d9519018ceafd6e4668ef3:137870886,ae55451479d951906da9f10656e46b7f:93330960,aec489909bd95190913caca1789ec8f8:264687030,4d648d10ded95190d6abd738935583a8:-465715761,411405104bd951902daf7ae283616af2:-1283241604,ec03015cb399519013135d7a90cec2a3:-1990197678,057285d8d79951906118348a7ce4bd4a:-682098126,c3510518249951909c16b738bec20cdb:-44348369,78f52b7b9e01dd5008d8e3b475c34ec7:-26508743,d145a7f7a201dd5010888ade952d1bbb:-1144006151,dbdc4bee264d9550d83e8bc27ec1540d:-796244277,116ccbaef34d9550306b11734a7b96e6:1841849956,788b036e124d9550bc6e92802d934afe:-1647149428,63ba0bea754d95500259306a4101e527:204083101,af5acbaa704d9550863bd7d3bd249fbe:200176131,cd79876a614d95508a31f86cbefcc13b:-498234479,2b9847e63c4d9550dbfb0eb7bf207388:757814048,734803e6ec4d95509bf7d8b82714d207:705264992,85f78ba6834d9550599da73f45657f6e:1422373961,3496c7a26f4d95505d79fdc57a38c304:1520001853,aee5e2561f8d15500a06bfc307721e5c:-45617358,25c22e5e164d1550a03131966db55bd9:1248098855,c462a21e2f4d15509ed02dbb05c0fb69:1116966431,d1c02ad6b34d1550828bf2842de6de05:-1107523575,2730a6563a4d1550338f71460f34a53a:-1881922694,3ebd5e5ef40d15501730f735974dacb6:469464230,074c529ad50d1550aaf667d92e08cb36:1435239990,761c925afc0d155033c2b6bbbdf685a9:-627862866,ce8b5ad62c0d15504401b5dacbda5433:-1278936122,de2b1ad6d20d15501d73b91640510870:799296595</update_guid_history>
+    </sys_update_version>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-14 13:53:14</sys_created_on>
+        <sys_id>5731c1221b98c2d8813f844fdd4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_script_include_eb1b16d61b0d15509fde86acdd4bcb9a</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_5731c1221b98c2d8813f844fdd4bcb3e</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-02-14 13:53:14</sys_updated_on>
+        <tablename>sys_update_version</tablename>
+    </sys_metadata_link>
+</record_update>

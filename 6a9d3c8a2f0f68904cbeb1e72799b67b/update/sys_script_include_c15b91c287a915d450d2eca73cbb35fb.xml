@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMPdf</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMPdf</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var HoCOHSMPdf = Class.create();
+HoCOHSMPdf.prototype = {
+    initialize: function() {
+    },
+	
+	//This function will generate a PDF and attach it to a record from the Hoc Investigation Table.
+	//Param 1: Current object of the record (Mandatory)
+	//Param 2: Sys_ID of the HR PDF template you want to use. If not provided, if will use the one stored in the field pdf_template of the record (Optional)
+	//Param 3: File name. If provided, will change the name of the PDF being generated. If not provided, it will take the same name as the template being used.
+	//Here's a few examples of how to call the function:
+		//new x_hccc_hoc_ohs.HoCOHSMPdf().generatePDF(current); - Use default behavior (Template defined in pdf_template, and the file will be named like the PDF Template being used)
+		//new x_hccc_hoc_ohs.HoCOHSMPdf().generatePDF(current, null, "myNewPDFName.pdf"); - Change the file name
+		//new x_hccc_hoc_ohs.HoCOHSMPdf().generatePDF(current, "a901c93887153c10b7cac956cebb353f"); //Change de PDF Template
+		//new x_hccc_hoc_ohs.HoCOHSMPdf().generatePDF(current, "a901c93887153c10b7cac956cebb353f", "myNewPDFName.pdf"); - Change both the file name and the PDF template
+	generatePDF: function(current, pdf_template, fileName) {
+		//Delete the old PDF Draft record to allow using a new PDF Template if necessary
+		var case_number = current.number + "";
+		var gr = new GlideRecord('pdf_draft');
+		gr.addQuery('table','x_hccc_hoc_ohs_investigation_case');
+		gr.query();
+		while (gr.next()) {
+			if (gr.document.getDisplayValue() == "HoC Investigation case : "+case_number){
+				gs.info("Record deleted");
+				gr.deleteRecord();
+				break;
+			}
+		}
+		
+		//If no pdf_template is defined in the parameter, use the pdf_template of the case
+		var pdf_template_sys_id = (pdf_template) ? pdf_template : current.pdf_template.sys_id;
+		gs.info('ERIN - pdf_template_sys_id: ' + pdf_template_sys_id);
+		gs.info('ERIN pdf_template: ' + pdf_template);
+		if (new sn_hr_core.hr_PdfUtils().isValidPdfTemplateForPreFill(pdf_template_sys_id)) {
+			gs.info('ERIN - if = true');
+			var pdfDraftSysId = new sn_hr_core.hr_PdfUtils().prefillPdfTemplate(pdf_template_sys_id, false, current.sys_id, current.sys_class_name, current.sys_id);
+			var gr_att = new GlideRecord('sys_attachment');
+			gr_att.get(pdfDraftSysId);
+			gr_att.query();
+			var copyAtt = new GlideSysAttachment();
+			copyAtt.copy("pdf_draft", gr_att.table_sys_id+"", "x_hccc_hoc_ohs_investigation_case", gr_att.u_fpc_record.document+"");
+			if (gs.nil(pdfDraftSysId))
+				gs.addErrorMessage("An error has occured during the PDF creation. Please try again or contact the helpdesk");
+						if (fileName){
+							
+				//Will rename the last element with the new name
+				var attachment = new GlideSysAttachment();
+				var agr = attachment.getAttachments('x_hccc_hoc_ohs_investigation_case', current.sys_id);
+				while(agr.next()){
+					if (agr.hasNext() == false){
+						agr.file_name = fileName;
+						agr.update();
+					  } //End if
+						/*else
+						{
+							if (overwrite){
+								if (agr.file_name == fileName){
+									agr.deleteAttachment();
+									agr.update();
+								}
+							}
+						}*/
+				} //End while
+			}//End if
+		} else {
+			gs.addErrorMessage("The template to create the PDF is defective. Please contact the helpdesk");
+		}
+	},
+    type: 'HoCOHSMPdf'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-08-27 17:16:54</sys_created_on>
+        <sys_id>c15b91c287a915d450d2eca73cbb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoCOHSMPdf</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_c15b91c287a915d450d2eca73cbb35fb</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

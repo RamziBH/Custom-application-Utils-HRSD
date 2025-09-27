@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>904</order>
+        <sc_cat_item display_value="Notice of Occurrence - Occurrence of Harassment and Violence">24eb8b7d1bbe81109fde86acdd4bcb8d</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-01-30 16:54:25</sys_created_on>
+        <sys_id>2359983d1b80c6dc813f844fdd4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List of respondents.Complaint - Occurrence of Harassment and Violence</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>io_set_item_2359983d1b80c6dc813f844fdd4bcba2</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-30 16:54:25</sys_updated_on>
+        <variable_set display_value="List of respondent party(s)">5b4a94f91bc0c6dc813f844fdd4bcb27</variable_set>
+    </io_set_item>
+</record_update>

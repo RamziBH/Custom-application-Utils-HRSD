@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Insert">0d61d5f31b5b86d89fde86acdd4bcb89</copied_from>
+        <description>Insert a record into 'x_hccc_hoc_ohs_telework_agreement' with the following values:
+Employee = {{Step 2: Query non whitelisted user.Employee}}
+and Manager = {{Step 2: Query non whitelisted user.Employee.Manager}}
+and Mon = {{Parameters.In Office Monday}}
+and Tue = {{Parameters.In Office Tuesday}}
+and Wed = {{Parameters.In Office Wednesday}}
+and Thu = {{Parameters.In Office Thursday}}
+and Fri = {{Parameters.In Office Friday}}
+and Telework start date = {{Parameters.Telework Start Date}}
+and Telework end date = {{Parameters.Telework End Date}}
+and Telework location address = {{Parameters.Telework Location Address}}
+and Telework telephone number = {{Parameters.Telework Telephone Number}}
+and Emergency contact name = {{Parameters.Emergency Contact Name}}
+and Emergency contact telephone number = {{Parameters.Emergency Contact Telephone Number}}
+and Relationship to employee = {{Parameters.Emergency Contact Relationship to Employee}}
+and Type of telework arrangement = {{Parameters.Type of telework arrangement}}
+and Flexible telework choices = {{Parameters.Flexible Telework Choices}}
+and Specify number of telework days = {{Parameters.Specify number of telework days}}
+and State = {{Parameters.State}}
+and Approved by = {{Step 2: Query non whitelisted user.Employee.Manager}}
+and Approval set = {{Parameters.Approval Set}}
+and Approval = {{Parameters.Approval}}
+and Fixed telework choices = {{Parameters.Fixed Telework Choices}}
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>3508fdba3b019a18aeb1ebc964e45a2c</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_3508fdba3b019a18aeb1ebc964e45a2c</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 20:40:14</sys_updated_on>
+        <table>x_hccc_hoc_ohs_telework_agreement</table>
+        <test display_value="OHS - Telework Agreement - Send Agreement to Unit 4">3108bdba3b019a18aeb1ebc964e45afe</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3508fdba3b019a18aeb1ebc964e45a2c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3508fdba3b019a18aeb1ebc964e45a2c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>3108fdba3b019a18aeb1ebc964e45a48</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:45:16</sys_updated_on>
+        <value>subject_person={{step['7108fdba3b019a18aeb1ebc964e45a27'].u_employee}}^manager_name={{step['7108fdba3b019a18aeb1ebc964e45a27'].u_employee.manager}}^telework_monday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_monday}}^telework_tuesday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_tuesday}}^telework_wednesday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_wednesday}}^telework_thursday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_thursday}}^telework_friday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_friday}}^telework_start_date={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_telework_start_date}}^telework_end_date={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_telework_end_date}}^telework_location_address={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_telework_location_address}}^telework_telephone_number={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_telework_telephone_number}}^emergency_contact_name={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_emergency_contact_name}}^emergency_contact_telephone={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_emergency_contact_telephone_number}}^relationship_to_employee={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_emergency_contact_relationship_to_employee}}^type_telework_arrangement={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_type_of_telework_arrangement}}^flexible_telework_choices={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_flexible_telework_choices}}^specify_number_telework_days={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_specify_number_of_telework_days}}^state={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_state}}^closed_by={{step['7108fdba3b019a18aeb1ebc964e45a27'].u_employee.manager}}^approval_set={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_approval_set}}^approval={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_approval}}^fixed_telework_choices={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_fixed_telework_choices}}^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3508fdba3b019a18aeb1ebc964e45a2c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>7d08fdba3b019a18aeb1ebc964e45a47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:20</sys_updated_on>
+        <value>x_hccc_hoc_ohs_telework_agreement</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3508fdba3b019a18aeb1ebc964e45a2c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>b908fdba3b019a18aeb1ebc964e45a47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3508fdba3b019a18aeb1ebc964e45a2c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>f508fdba3b019a18aeb1ebc964e45a47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:20</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3508fdba3b019a18aeb1ebc964e45a2c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>3508fdba3b019a18aeb1ebc964e45a2c</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>3508fdba3b019a18aeb1ebc964e45a48</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:45:16</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>subject_person={{step['7108fdba3b019a18aeb1ebc964e45a27'].u_employee}}^manager_name={{step['7108fdba3b019a18aeb1ebc964e45a27'].u_employee.manager}}^telework_monday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_monday}}^telework_tuesday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_tuesday}}^telework_wednesday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_wednesday}}^telework_thursday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_thursday}}^telework_friday={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_in_office_friday}}^telework_start_date={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_telework_start_date}}^telework_end_date={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_telework_end_date}}^telework_location_address={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_telework_location_address}}^telework_telephone_number={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_telework_telephone_number}}^emergency_contact_name={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_emergency_contact_name}}^emergency_contact_telephone={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_emergency_contact_telephone_number}}^relationship_to_employee={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_emergency_contact_relationship_to_employee}}^type_telework_arrangement={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_type_of_telework_arrangement}}^flexible_telework_choices={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_flexible_telework_choices}}^specify_number_telework_days={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_specify_number_of_telework_days}}^state={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_state}}^closed_by={{step['7108fdba3b019a18aeb1ebc964e45a27'].u_employee.manager}}^approval_set={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_approval_set}}^approval={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_approval}}^fixed_telework_choices={{parameter['3108bdba3b019a18aeb1ebc964e45afe'].u_fixed_telework_choices}}^EQ</value>
+    </sys_element_mapping>
+</record_update>

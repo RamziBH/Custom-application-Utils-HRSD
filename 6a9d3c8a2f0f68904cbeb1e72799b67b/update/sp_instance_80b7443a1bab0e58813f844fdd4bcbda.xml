@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">86a7807a1bab0e58813f844fdd4bcb40</sp_column>
+        <sp_widget display_value="HoC OHSM Nurse Appt Confirmation">aad60cbe1b6b0e58813f844fdd4bcb88</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-25 17:44:19</sys_created_on>
+        <sys_id>80b7443a1bab0e58813f844fdd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_instance_80b7443a1bab0e58813f844fdd4bcbda</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-25 17:44:19</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=80b7443a1bab0e58813f844fdd4bcbda"/>
+</record_update>

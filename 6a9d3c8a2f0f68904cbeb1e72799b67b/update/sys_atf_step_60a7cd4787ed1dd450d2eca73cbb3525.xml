@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Impersonate the user: {{Step 4: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Impersonate OHS Advisor</notes>
+        <order>12</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-30 18:23:20</sys_created_on>
+        <sys_id>60a7cd4787ed1dd450d2eca73cbb3525</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_60a7cd4787ed1dd450d2eca73cbb3525</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:54</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - HIRA Create a HIRA case, assign Manager, Assigned To, save case 1 (not reviewed)">b381ab4e1b119d909fde86acdd4bcb78</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=60a7cd4787ed1dd450d2eca73cbb3525"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>60a7cd4787ed1dd450d2eca73cbb3525</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-30 18:23:22</sys_created_on>
+        <sys_id>7fa7c18787ed1dd450d2eca73cbb35d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-30 18:23:22</sys_updated_on>
+        <value>d48860a81b673410426497d58d4bcb9d</value>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=60a7cd4787ed1dd450d2eca73cbb3525"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>60a7cd4787ed1dd450d2eca73cbb3525</id>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-04 13:18:04</sys_created_on>
+        <sys_id>a27b42421bf7ad189fde86acdd4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-04 13:18:04</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['4b0b4ece1bb7ad189fde86acdd4bcbda'].user}}</value>
+    </sys_element_mapping>
+</record_update>

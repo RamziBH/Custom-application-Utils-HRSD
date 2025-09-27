@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">78461525fb1a169895e5fb3f4eefdc20</sp_column>
+        <sp_widget display_value="OHSM Collapsible Sections">09eded7efb9aea9095e5fb3f4eefdcf0</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-26 14:22:30</sys_created_on>
+        <sys_id>ebaf2536fbdaea9095e5fb3f4eefdc10</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_instance_ebaf2536fbdaea9095e5fb3f4eefdc10</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-04 19:33:29</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"section_selector": {
+		"value": "#x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment\\.do > div.sp-form-container",
+		"displayValue": "#x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment\\.do > div.sp-form-container"
+	},
+	"button_selector": {
+		"value": "",
+		"displayValue": ""
+	},
+	"content_selector": {
+		"value": "",
+		"displayValue": ""
+	},
+	"behavior_object": {
+		"value": "[{\"//comment\": \"State complete\", \"glideFilterString\": \"state=30\", \"sections\":[{\"sys_ui_section_id\": \"defaultSection\", \"collapsible\": true, \"startOpen\": true}]}, {\"//comment\": \"State documenting (10)\", \"glideFilterString\": \"state=10\", \"sections\":[{\"sys_ui_section_id\": \"defaultSection\", \"collapsible\": true, \"startOpen\": true},{\"//comment\": \"Mitigation Action section\", \"sys_ui_section_id\": \"3d5362303b5d26d0aeb1ebc964e45ac4\", \"collapsible\": true, \"startOpen\": false}]}, {\"//comment\": \"State documentation complete (20)\", \"glideFilterString\": \"state=20\", \"sections\":[{\"sys_ui_section_id\": \"defaultSection\", \"collapsible\": true, \"startOpen\": true} ,{\"//comment\": \"Mitigation Action section\", \"sys_ui_section_id\": \"3d5362303b5d26d0aeb1ebc964e45ac4\", \"collapsible\": true, \"startOpen\": true} ,{\"//comment\": \"Intrinsic risk assessment section\", \"sys_ui_section_id\": \"45e32ab83b5d26d0aeb1ebc964e45a61\", \"collapsible\": true, \"startOpen\": false} ,{\"//comment\": \"Documentation section\", \"sys_ui_section_id\": \"fd5362303b5d26d0aeb1ebc964e45ac2\", \"collapsible\": true, \"startOpen\": false}]}]",
+		"displayValue": "[{\"//comment\": \"State complete\", \"glideFilterString\": \"state=30\", \"sections\":[{\"sys_ui_section_id\": \"defaultSection\", \"collapsible\": true, \"startOpen\": true}]}, {\"//comment\": \"State documenting (10)\", \"glideFilterString\": \"state=10\", \"sections\":[{\"sys_ui_section_id\": \"defaultSection\", \"collapsible\": true, \"startOpen\": true},{\"//comment\": \"Mitigation Action section\", \"sys_ui_section_id\": \"3d5362303b5d26d0aeb1ebc964e45ac4\", \"collapsible\": true, \"startOpen\": false}]}, {\"//comment\": \"State documentation complete (20)\", \"glideFilterString\": \"state=20\", \"sections\":[{\"sys_ui_section_id\": \"defaultSection\", \"collapsible\": true, \"startOpen\": true} ,{\"//comment\": \"Mitigation Action section\", \"sys_ui_section_id\": \"3d5362303b5d26d0aeb1ebc964e45ac4\", \"collapsible\": true, \"startOpen\": true} ,{\"//comment\": \"Intrinsic risk assessment section\", \"sys_ui_section_id\": \"45e32ab83b5d26d0aeb1ebc964e45a61\", \"collapsible\": true, \"startOpen\": false} ,{\"//comment\": \"Documentation section\", \"sys_ui_section_id\": \"fd5362303b5d26d0aeb1ebc964e45ac2\", \"collapsible\": true, \"startOpen\": false}]}]"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=ebaf2536fbdaea9095e5fb3f4eefdc10"/>
+</record_update>

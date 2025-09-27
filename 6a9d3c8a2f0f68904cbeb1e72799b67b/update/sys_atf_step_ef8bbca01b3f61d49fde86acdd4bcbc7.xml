@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>getLinesInLine(String, Integer)</notes>
+        <order>19</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-29 15:38:18</sys_created_on>
+        <sys_id>ef8bbca01b3f61d49fde86acdd4bcbc7</sys_id>
+        <sys_mod_count>57</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_ef8bbca01b3f61d49fde86acdd4bcbc7</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:17</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - HoCOHSMUtils">96f774e41bfb61d49fde86acdd4bcb8e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ef8bbca01b3f61d49fde86acdd4bcbc7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ef8bbca01b3f61d49fde86acdd4bcbc7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-29 15:38:18</sys_created_on>
+        <sys_id>339b30e01b3f61d49fde86acdd4bcb97</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-13 20:18:15</sys_updated_on>
+        <value>// You can use this step to execute a variety of server-side javascript tests including&#13;
+// jasmine tests and custom assertions&#13;
+//&#13;
+//&#13;
+// Pass or fail a step: Override the step outcome to pass or fail. This is ignored &#13;
+//                      by jasmine tests&#13;
+//&#13;
+//  - Return true from the main function body to pass the step&#13;
+//  - Return false from the main function body to fail the step&#13;
+//&#13;
+//&#13;
+// outputs:       Pre-defined Step config Output variables to set on this step during &#13;
+//                execution that are available to later steps&#13;
+//&#13;
+// steps(SYS_ID): A function to retrieve Output variable data from a step that executed&#13;
+//                earlier in the test. The desired step's sys_id is required&#13;
+//&#13;
+// params:        The current test run data set's parameter data including both &#13;
+//                exclusive and shared parameters&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      // Test step 1 - add data&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      // If parameterized testing is enabled, parameters are stored in the params object&#13;
+//      gr.setValue('short_description', params.u_my_short_description)&#13;
+//      gr.setValue('caller', params.u_my_user.manager)&#13;
+//      // this sample step's Step config has Output variables named table and record_id&#13;
+//      outputs.table = 'sc_task';&#13;
+//      outputs.record_id = gr.insert();&#13;
+//&#13;
+//      // Test step 2 - access added data and validate&#13;
+//      // check that the record exists (or that business logic changed it)&#13;
+//      var gr = new GlideRecord("sc_task");&#13;
+//      gr.get(steps(PREVIOUS_STEP_SYS_ID).record_id);&#13;
+//      assertEqual({name: "task gr exists", shouldbe: true, value: gr.isValidRecord()});&#13;
+//&#13;
+//&#13;
+// stepResult.setOutputMessage: Log a message to step results after step executes.&#13;
+//                              Can only be called once or will overwrite previous &#13;
+//                              message&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      gr.setValue('short_description', 'verify task can be inserted');&#13;
+//      var grSysId = gr.insert();&#13;
+//      var justCreatedGR = new GlideRecord('sc_task');&#13;
+//      if (justCreatedGR.get(grSysId)) {&#13;
+//            stepResult.setOutputMessage("Successfully inserted task record");&#13;
+//            return true; // pass the step&#13;
+//      } else { &#13;
+//            stepResult.setOutputMessage("Failed to insert task record");&#13;
+//            return false; // fail the step&#13;
+//      }&#13;
+//&#13;
+//&#13;
+// Note: describe is only supported in Global scope.&#13;
+// Use 'describe' to create a suite of test scripts and 'it' to define test expectations&#13;
+//&#13;
+//  Example jasmine test:&#13;
+//&#13;
+//      describe('my suite of script tests', function() {&#13;
+//            it('should meet expectations', function() {&#13;
+//                  expect(true).not.toBe(false);&#13;
+//            });&#13;
+//      });&#13;
+//      // make sure to uncomment jasmine.getEnv().execute(); outside the function body&#13;
+//&#13;
+//&#13;
+// assertEqual: A function used to compare that assertion.shouldbe == assertion.value;&#13;
+//              in case of failure it throws an Error and logs that the assertion by&#13;
+//              name has failed&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var testAssertion = {&#13;
+//            name: "my test assertion",&#13;
+//            shouldbe: "expected value"&#13;
+//            value: "actual value",&#13;
+//      };&#13;
+//      assertEqual(testAssertion); // throws Error, logs message to test step output&#13;
+//&#13;
+(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+	var ohsmUtils = new x_hccc_hoc_ohs.HoCOHSMUtils();&#13;
+	var INPUT_TEXT = {&#13;
+		WIDTH50_NO_SPACE: 'WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW',&#13;
+		WIDTH100_NO_SPACE: 'WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW',&#13;
+		WIDTH50: 'WWWWW WWWWWWW WWWWWWWWWW WWWWWWW WWW WWWWWWWW WWWW',&#13;
+		WIDTH100: 'WWWWW WWWWWWW WWWWWWWWWW WWWWWWW WWW WWWWWWWW WWWWWWWWW WWWWWWW WWWWWWWWWW WWWWWWW WWW WWWWWWWW WWWW',&#13;
+		WIDTH445: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'&#13;
+	};&#13;
+&#13;
+	describe('Passing 100 char line without space', function(){&#13;
+		var line = INPUT_TEXT.WIDTH100_NO_SPACE;&#13;
+		it('should return 1 line when the width is 100', function(){&#13;
+			var res = ohsmUtils.getLinesInLine(line, 100);&#13;
+			expect(res.length).toBe(1);&#13;
+			expect(res[0]).toEqual(line);&#13;
+		});&#13;
+		it('should return 2 lines when the width is 99', function(){&#13;
+			var res = ohsmUtils.getLinesInLine(line, 99);&#13;
+			expect(res.length).toBe(2);&#13;
+			expect(res[0].length).toEqual(99);&#13;
+			expect(res[1].length).toEqual(1);&#13;
+		});&#13;
+		it('should return 10 lines when the width is 10', function(){&#13;
+			var res = ohsmUtils.getLinesInLine(line, 10);&#13;
+			expect(res.length).toBe(10);&#13;
+			expect(res[0].length).toEqual(10);&#13;
+			expect(res[1].length).toEqual(10);&#13;
+			expect(res[2].length).toEqual(10);&#13;
+			expect(res[3].length).toEqual(10);&#13;
+			expect(res[4].length).toEqual(10);&#13;
+			expect(res[5].length).toEqual(10);&#13;
+			expect(res[6].length).toEqual(10);&#13;
+			expect(res[7].length).toEqual(10);&#13;
+			expect(res[8].length).toEqual(10);&#13;
+			expect(res[9].length).toEqual(10);&#13;
+		});&#13;
+	});&#13;
+	describe('Passing 100 char line with spaces', function(){&#13;
+		var line = INPUT_TEXT.WIDTH100;&#13;
+		it('should return 1 line when the width is 100', function(){&#13;
+			var res = ohsmUtils.getLinesInLine(line, 100);&#13;
+			expect(res.length).toBe(1);&#13;
+			expect(res[0]).toEqual(line);&#13;
+		});&#13;
+		it('should return 2 lines when the width is 99', function(){&#13;
+			var res = ohsmUtils.getLinesInLine(line, 99);&#13;
+			var firstCharAfterLastSpaceIndex = line.lastIndexOf(' ', line.length) +1;&#13;
+			expect(res.length).toBe(2);&#13;
+			expect(res[0]).toEqual(line.substring(0, firstCharAfterLastSpaceIndex));&#13;
+			expect(res[1]).toEqual(line.substring(firstCharAfterLastSpaceIndex));&#13;
+		});&#13;
+		it('should return more than 10 lines when the width is 10', function(){&#13;
+			/*&#13;
+			WWWWW &#13;
+			WWWWWWW &#13;
+			WWWWWWWWWW &#13;
+			WWWWWWW &#13;
+			WWW &#13;
+			WWWWWWWW &#13;
+			WWWWWWWWW &#13;
+			WWWWWWW &#13;
+			WWWWWWWWWW &#13;
+			WWWWWWW &#13;
+			WWW &#13;
+			WWWWWWWW &#13;
+			WWWW&#13;
+			*/&#13;
+			var res = ohsmUtils.getLinesInLine(line, 10);&#13;
+			var expected = line.split(' ');&#13;
+			expect(res.length).toBe(13);&#13;
+			expect(res.length).toBe(expected.length);&#13;
+			expect(res[0]).toEqual(expected[0]+' ');&#13;
+			expect(res[1]).toEqual(expected[1]+' ');&#13;
+			expect(res[2]).toEqual(expected[2]+' ');&#13;
+			expect(res[3]).toEqual(expected[3]+' ');&#13;
+			expect(res[4]).toEqual(expected[4]+' ');&#13;
+			expect(res[5]).toEqual(expected[5]+' ');&#13;
+			expect(res[6]).toEqual(expected[6]+' ');&#13;
+			expect(res[7]).toEqual(expected[7]+' ');&#13;
+			expect(res[8]).toEqual(expected[8]+' ');&#13;
+			expect(res[9]).toEqual(expected[9]+' ');&#13;
+			expect(res[10]).toEqual(expected[10]+' ');&#13;
+			expect(res[11]).toEqual(expected[11]+' ');&#13;
+			expect(res[12]).toEqual(expected[12]);&#13;
+		});&#13;
+	});&#13;
+})(outputs, steps, params, stepResult, assertEqual);&#13;
+jasmine.getEnv().execute();&#13;
+</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ef8bbca01b3f61d49fde86acdd4bcbc7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-29 15:38:18</sys_created_on>
+        <sys_id>7f9b30e01b3f61d49fde86acdd4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-29 15:38:18</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

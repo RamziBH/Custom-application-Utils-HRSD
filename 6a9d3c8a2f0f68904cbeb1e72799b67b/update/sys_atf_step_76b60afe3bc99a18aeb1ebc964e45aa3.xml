@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Query">2c562117db064110e3dd80c74b96196e</copied_from>
+        <description>Validate there are not any records in 'sys_email' matching query:
+Created &gt; javascript:gs.minutesAgo(2)
+and Recipients contains {{Step 2: Create a User.User.Email}}
+  or Recipients contains whscdemo@gmail.com
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>16</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:33:34</sys_created_on>
+        <sys_id>76b60afe3bc99a18aeb1ebc964e45aa3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_76b60afe3bc99a18aeb1ebc964e45aa3</sys_update_name>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-16 18:22:41</sys_updated_on>
+        <table>sys_email</table>
+        <test display_value="OHS Refusal Employee submits HR mgr is selected notified mgr is selected">2ab6c6fe3bc99a18aeb1ebc964e45ac7</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=76b60afe3bc99a18aeb1ebc964e45aa3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>76b60afe3bc99a18aeb1ebc964e45aa3</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:33:34</sys_created_on>
+        <sys_id>32b60afe3bc99a18aeb1ebc964e45aa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:33:34</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>76b60afe3bc99a18aeb1ebc964e45aa3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:33:34</sys_created_on>
+        <sys_id>7eb60afe3bc99a18aeb1ebc964e45aa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:33:34</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>76b60afe3bc99a18aeb1ebc964e45aa3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:33:34</sys_created_on>
+        <sys_id>bab60afe3bc99a18aeb1ebc964e45aa4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:33:34</sys_updated_on>
+        <value>no_records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>76b60afe3bc99a18aeb1ebc964e45aa3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:33:34</sys_created_on>
+        <sys_id>f2b60afe3bc99a18aeb1ebc964e45aa5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-16 18:22:41</sys_updated_on>
+        <value>sys_created_onRELATIVEGT@minute@ago@2^recipientsLIKE{{step['26b6c6fe3bc99a18aeb1ebc964e45ad0'].user.email}}^ORrecipientsLIKEwhscdemo@gmail.com^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=76b60afe3bc99a18aeb1ebc964e45aa3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>76b60afe3bc99a18aeb1ebc964e45aa3</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:33:34</sys_created_on>
+        <sys_id>f6b60afe3bc99a18aeb1ebc964e45aa5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-16 18:22:41</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>sys_created_onRELATIVEGT@minute@ago@2^recipientsLIKE{{step['26b6c6fe3bc99a18aeb1ebc964e45ad0'].user.email}}^ORrecipientsLIKEwhscdemo@gmail.com^EQ</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'x_hccc_hoc_ohs_hr_task' matching query:
+Parent = {{Step 6: Submit a Form.Record}}
+and Short description starts with Connect with employee and manager
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>13</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-12 15:57:02</sys_created_on>
+        <sys_id>47ab906c3bc89290aeb1ebc964e45a9f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_47ab906c3bc89290aeb1ebc964e45a9f</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:19</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hr_task</table>
+        <test display_value="DNU - OHS - Leave of Absence -WSIB Case">6f42d0283b889290aeb1ebc964e45a8d</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=47ab906c3bc89290aeb1ebc964e45a9f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>47ab906c3bc89290aeb1ebc964e45a9f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-12 15:57:02</sys_created_on>
+        <sys_id>0ccb50ac3bc89290aeb1ebc964e45a8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-12 15:57:02</sys_updated_on>
+        <value>x_hccc_hoc_ohs_hr_task</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>47ab906c3bc89290aeb1ebc964e45a9f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-12 15:57:02</sys_created_on>
+        <sys_id>40cb50ac3bc89290aeb1ebc964e45a8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-12 15:57:02</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>47ab906c3bc89290aeb1ebc964e45a9f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-12 15:57:02</sys_created_on>
+        <sys_id>48cb50ac3bc89290aeb1ebc964e45a8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-12 15:57:02</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>47ab906c3bc89290aeb1ebc964e45a9f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-12 15:57:02</sys_created_on>
+        <sys_id>cccb50ac3bc89290aeb1ebc964e45a8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-12 15:57:02</sys_updated_on>
+        <value>parent={{step['a342d0283b889290aeb1ebc964e45abd'].record_id}}^short_descriptionSTARTSWITHConnect with employee and manager^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=47ab906c3bc89290aeb1ebc964e45a9f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>47ab906c3bc89290aeb1ebc964e45a9f</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-12 15:57:02</sys_created_on>
+        <sys_id>08cb50ac3bc89290aeb1ebc964e45a8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-12 15:57:02</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>47ab906c3bc89290aeb1ebc964e45a9f</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-12 15:57:02</sys_created_on>
+        <sys_id>cccb50ac3bc89290aeb1ebc964e45a8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-12 15:57:02</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>parent={{step['a342d0283b889290aeb1ebc964e45abd'].record_id}}^short_descriptionSTARTSWITHConnect with employee and manager^EQ</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="inc_related_post_exp" label=" Incident lié à la post-exposition (biologique, chimique)" language="fq" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>inc_related_post_exp</element>
+            <help/>
+            <hint>Un incident d'exposition biologique avec du sang ou un OPIM comprend des blessures percutanées (pistolets) et des éclaboussures sur les muqueuses ou la peau non intacte (par exemple, tout œil, bouche, muqueuse, peau non intacte ou autre contact parentéral avec du sang ou d'autres matière infectieuse (OPIM)). Par exemple, une piqûre d'un objet pointu contaminé tel qu'une aiguille d'injection et une éclaboussure ou un contact de fluides corporels avec un œil.
+•	Un incident d'exposition chimique se produit lorsque des personnes sont en contact avec un produit chimique, soit directement, soit par l'intermédiaire d'une autre substance contaminée par un produit chimique. Les quatre principales voies d'entrée sont l'inhalation, l'ingestion, l'injection et l'absorption par la peau et les yeux.</hint>
+            <label> Incident lié à la post-exposition (biologique, chimique)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural> Incident lié à la post-exposition (biologique, chimique)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-06-18 11:46:26</sys_created_on>
+            <sys_id>627444861bf8f010c261ed3cbc4bcb65</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name> Incident lié à la post-exposition (biologique, chimique)</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_inc_related_post_exp_fq</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

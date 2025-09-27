@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>set</applies_to>
+        <cat_item/>
+        <cat_variable/>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Fill-out injury location list</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+
+    g_form.clearOptions('area_of_injury_box');
+
+    if (g_lang === "en") {
+        g_form.addOption('area_of_injury_box', '', 'Please select..');
+
+        g_form.addOption('area_of_injury_box', 'Abdomen', 'Abdomen');
+        g_form.addOption('area_of_injury_box', 'Ankle', 'Ankle');
+        g_form.addOption('area_of_injury_box', 'Arm', 'Arm');
+        g_form.addOption('area_of_injury_box', 'Brain', 'Brain');
+        g_form.addOption('area_of_injury_box', 'Chest', 'Chest');
+        g_form.addOption('area_of_injury_box', 'Ears', 'Ears');
+        g_form.addOption('area_of_injury_box', 'Elbow', 'Elbow');
+        g_form.addOption('area_of_injury_box', 'Eyes', 'Eyes');
+        g_form.addOption('area_of_injury_box', 'Face', 'Face');
+        g_form.addOption('area_of_injury_box', 'Fingers', 'Fingers');
+        g_form.addOption('area_of_injury_box', 'Foot', 'Foot');
+        g_form.addOption('area_of_injury_box', 'Forearm', 'Forearm');
+        g_form.addOption('area_of_injury_box', 'Hand', 'Hand');
+        g_form.addOption('area_of_injury_box', 'Hip', 'Hip');
+        g_form.addOption('area_of_injury_box', 'Knee', 'Knee');
+        g_form.addOption('area_of_injury_box', 'Lower back', 'Lower back');
+        g_form.addOption('area_of_injury_box', 'Lower leg', 'Lower leg');
+        g_form.addOption('area_of_injury_box', 'Neck', 'Neck');
+        g_form.addOption('area_of_injury_box', 'Pelvis', 'Pelvis');
+        g_form.addOption('area_of_injury_box', 'Shoulder', 'Shoulder');
+        g_form.addOption('area_of_injury_box', 'Teeth', 'Teeth');
+        g_form.addOption('area_of_injury_box', 'Thigh', 'Thigh');
+        g_form.addOption('area_of_injury_box', 'Toes', 'Toes');
+        g_form.addOption('area_of_injury_box', 'Upper back', 'Upper back');
+        g_form.addOption('area_of_injury_box', 'Wrist', 'Wrist');
+        g_form.addOption('area_of_injury_box', 'Other', 'Other');
+    }
+
+    if (g_lang === "fq") {
+        g_form.addOption('area_of_injury_box', '', 'Veuillez sélectionner..');
+
+        g_form.addOption('area_of_injury_box', 'Abdomen', 'Abdomen');
+        g_form.addOption('area_of_injury_box', 'Avant-bras', 'Avant-bras');
+        g_form.addOption('area_of_injury_box', 'Bas de la jambe', 'Bas de la jambe');
+        g_form.addOption('area_of_injury_box', 'Bas du dos', 'Bas du dos');
+        g_form.addOption('area_of_injury_box', 'Bassin', 'Bassin');
+        g_form.addOption('area_of_injury_box', 'Bras', 'Bras');
+        g_form.addOption('area_of_injury_box', 'Cerveau', 'Cerveau');
+        g_form.addOption('area_of_injury_box', 'Cheville', 'Cheville');
+        g_form.addOption('area_of_injury_box', 'Cou', 'Cou');
+        g_form.addOption('area_of_injury_box', 'Coude', 'Coude');
+        g_form.addOption('area_of_injury_box', 'Cuisse', 'Cuisse');
+        g_form.addOption('area_of_injury_box', 'Dents', 'Dents');
+        g_form.addOption('area_of_injury_box', 'Doigts', 'Doigts');
+        g_form.addOption('area_of_injury_box', 'Genou', 'Genou');
+        g_form.addOption('area_of_injury_box', 'Hanche', 'Hanche');
+        g_form.addOption('area_of_injury_box', 'Haut du dos', 'Haut du dos');
+        g_form.addOption('area_of_injury_box', 'Main', 'Main');
+        g_form.addOption('area_of_injury_box', 'Oreilles', 'Oreilles');
+        g_form.addOption('area_of_injury_box', 'Orteils', 'Orteils');
+        g_form.addOption('area_of_injury_box', 'Pied', 'Pied');
+        g_form.addOption('area_of_injury_box', 'Poignet', 'Poignet');
+        g_form.addOption('area_of_injury_box', 'Poitrine', 'Poitrine');
+        g_form.addOption('area_of_injury_box', 'Tête', 'Tête');
+        g_form.addOption('area_of_injury_box', 'Visage', 'Visage');
+        g_form.addOption('area_of_injury_box', 'Yeux', 'Yeux');
+        g_form.addOption('area_of_injury_box', 'Autre', 'Autre');
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-06-29 18:15:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c996c225db893c509b09e6fa4b9619cd</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Fill-out injury location list</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_script_client_c996c225db893c509b09e6fa4b9619cd</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-10-11 14:51:41</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <va_supported>false</va_supported>
+        <variable_set display_value="Area of injury">951fca922f0f2c904cbeb1e72799b656</variable_set>
+        <view/>
+    </catalog_script_client>
+</record_update>

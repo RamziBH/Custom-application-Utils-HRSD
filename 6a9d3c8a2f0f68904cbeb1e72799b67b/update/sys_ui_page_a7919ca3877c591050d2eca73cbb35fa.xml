@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function submitCancel() {
+	$("button_clicked").value = 'cancel';
+	$("case_notes").value = '';
+	GlideDialogWindow.get().destroy();
+	return false;
+}
+
+function submitOk() {
+	var case_notes = gel("case_notes").value;
+	case_notes = trim(case_notes);
+    if (case_notes == ''){
+		alert('Please provide case notes');
+		return false;
+	}	
+	GlideDialogWindow.get().destroy();
+	g_form.setDisplay('close_notes', true);
+	g_form.setValue('close_notes', case_notes);
+	returnFromDialog();
+		
+}
+
+]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_hccc_hoc_ohs_hoc_ohs_close_notes.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script type="text/javascript">
+
+</script> 
+	<g:ui_form id="HoC Investigations - Close Notes">
+		<style type="text/css">
+			#wsd_dialog_footer input {
+				width: 100%;
+			}
+			#info_message {
+				margin-left:10px;
+				color:#667;
+			}
+		</style>		
+		<div>
+			<!-- Add onclick validation -->
+			<div class="form-group ${isRequired == 'true' ? 'is-required' : ''}">
+				 <br/>
+				<label for="case_notes" class="control-label col-sm-1">
+					<span id="mandatory_mark" class="${isRequired == 'true'  ? 'required-marker' : ''}" />Close Notes:
+				</label>
+				<!--
+				<select name="reasonSelect" onchange='CheckReason(this.value);' >
+					<option value="one">ONE</option>
+					<option value="two">TWO</option>
+					<option value="others">others</option>				
+				</select>
+				<input type="text" name="otherR" id="otherR" style='display:none;'/>
+		        <br/><br/>
+-->
+				<span class="col-sm-11 form-field">
+					<input id="case_notes" class="col-sm-12 form-control" rows="3" type="text" name="case_notes" placeholder="${JS,HTML:placeHolder}" aria-label="${JS,HTML:placeHolder}" required="${isRequired == 'true'}"/>
+				</span>
+			</div>
+		</div>
+		
+		<footer id="ohs_dialog_footer" class="modal-footer" style="padding: 10px 0;">
+			<input type="hidden" id="task_sys_id" name="task_sys_id" value="${sysparm_task_sys_id}"></input>
+			<input type="hidden" id="ok_method_name" name="ok_method_name" value="${sysparm_ok_method_name}"></input>
+			<input type="hidden" id="task_table" name="task_table" value="${sysparm_task_table}"></input>
+			<input type="hidden" id="dialog_type" name="dialog_type" value="${sysparm_dialog_type}"></input>			
+			<input type="hidden" id="button_clicked" name="button_clicked" value="ok"></input>
+			<input type="hidden" id="is_required" name="is_required" value="${isRequired}"></input>		
+			
+			<button id="cancel_button" class="btn btn-default" onclick="return submitCancel();">
+				${gs.getMessage('Cancel')}
+			</button>
+
+			<button id="ok_button" class="btn btn-primary" onclick="return submitOk();">
+				${gs.getMessage('Ok')}
+			</button>
+		</footer>
+		
+	</g:ui_form>
+</j:jelly>]]></html>
+        <name>hoc_ohs_close_notes</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-25 21:24:26</sys_created_on>
+        <sys_id>a7919ca3877c591050d2eca73cbb35fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hoc_ohs_close_notes</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_page_a7919ca3877c591050d2eca73cbb35fa</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+    </sys_ui_page>
+</record_update>

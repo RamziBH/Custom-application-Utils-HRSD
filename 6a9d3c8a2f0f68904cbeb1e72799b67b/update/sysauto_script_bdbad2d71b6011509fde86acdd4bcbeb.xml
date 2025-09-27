@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>HoC - OHS - create HIRA review cases (Obsolete)</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Automated, Scheduled Job">519e77351bc88450dab2db1dcd4bcb51</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-07-13 02:01:50</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[function copyAssessment(oldItemGR, newCaseSysId) {
+    //copy records
+    var addHist = '';
+
+    addHist += 'HR Task: ' + oldItemGR.hr_task.number + '\n';
+    addHist += 'Recommended Action: ' + oldItemGR.recommended_action + '\n';
+    addHist += 'Start Date for Implementing Control Measures: ' + oldItemGR.start_date.getDisplayValue() + '\n';
+    addHist += 'Is there a training Component Involved? ' + oldItemGR.training + '\n\n';
+
+    var newItem = new GlideRecord('x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment');
+
+    newItem.initialize();
+    newItem.hira_case = newCaseSysId;
+    newItem.state = '100';
+    newItem.work_task_description = oldItemGR.work_task_description;
+    newItem.frequency = oldItemGR.freqency;
+    newItem.hazard_category = oldItemGR.hazard_category;
+    newItem.hazard_subcategory = oldItemGR.hazard_subcategory;
+    newItem.hazard_description = oldItemGR.hazard_description;
+    newItem.consequence = oldItemGR.consequence;
+    newItem.regulatory_reference = oldItemGR.regulatory_reference;
+    newItem.controls_present = oldItemGR.controls_present;
+    newItem.likelihood = oldItemGR.likelihood;
+    newItem.severity = oldItemGR.severity;
+    /*   Commented because the action history should store the previous recommended actions.
+    newItem.recommended_action = oldItem.recommended_action;
+    newItem.actions_taken_by_manager = oldItem.actions_taken_by_manager;
+    newItem.start_date = oldItem.start_date;
+    newItem.training = oldItem.training;
+    newItem.comments = oldItem.comments;		
+    */
+    newItem.action_history = addHist;
+    newItem.insert();
+
+    //Set old items = "archived"
+    oldItemGR.state = 300;
+    oldItemGR.active = false;
+    oldItemGR.update();
+
+    return newItem;
+}
+
+function copyChildAssessments(oldCaseSysId, newCaseSysId) {
+    var oldItem = new GlideRecord('x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment');
+
+    oldItem.addQuery('hira_case', oldCaseSysId);
+    oldItem.query();
+
+    while (oldItem.next()) {
+        copyAssessment(oldItem, newCaseSysId);
+    }
+}
+
+function copyCase(oldCaseGR) {
+    //Get person this position reports to from Position data
+    var grJob = new GlideRecord('sn_hr_core_job');
+    var mgr = '';
+
+    grJob.addQuery('position', oldCaseGR.position.u_parent_position);
+    grJob.query();
+
+    if (grJob.next()) {
+        mgr = grJob.user;
+    } else {
+        mgr = '';
+    }
+
+    //copy parent case
+
+    var newCase = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+
+    newCase.initialize();
+    newCase.hr_service = '3fb664a08754515050d2eca73cbb35f1';
+    newCase.position = oldCaseGR.position;
+    newCase.service_area = oldCaseGR.service_area;
+    newCase.manager_name = mgr; //set manager field to Position's Report's To person
+    newCase.opened_for = mgr;
+    newCase.assignment_group = '44f382bd1be901109fde86acdd4bcba5'; // OHS Representatives
+    newCase.state = 1;
+    newCase.insert();
+
+    oldCaseGR.active = false;
+    oldCaseGR.update();
+
+    //copy child assessments (loop)
+    copyChildAssessments(oldCaseGR.sys_id, newCase.sys_id);
+
+    return newCase;
+}
+
+function getReviewDueDateIn6Months() {
+    var dtReview = new GlideDateTime();
+
+    dtReview.addMonthsLocalTime(-6);
+    return dtReview.getLocalDate();
+}
+
+var dueIn6Months = getReviewDueDateIn6Months();
+var qryDueIn6Months =
+    'review_dueON' + dueIn6Months +
+    '@javascript:gs.dateGenerate("' + dueIn6Months +
+    '","start")@javascript:gs.dateGenerate("' + dueIn6Months + '","end")';
+
+var oldCase = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+
+oldCase.addActiveQuery();
+oldCase.addQuery('hr_service', '3fb664a08754515050d2eca73cbb35f1');
+oldCase.addEncodedQuery(qryDueIn6Months);
+oldCase.query();
+
+while (oldCase.next()) {
+    var newCase = copyCase(oldCase);
+
+    gs.eventQueue('x_hccc_hoc_ohs.hira.due_to_review_manager', newCase, gs.getUserName(), gs.getUserID()); //trigger email to manager.
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-13 02:06:04</sys_created_on>
+        <sys_id>bdbad2d71b6011509fde86acdd4bcbeb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>HoC - OHS - create HIRA review cases (Obsolete)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysauto_script_bdbad2d71b6011509fde86acdd4bcbeb</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 17:29:34</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

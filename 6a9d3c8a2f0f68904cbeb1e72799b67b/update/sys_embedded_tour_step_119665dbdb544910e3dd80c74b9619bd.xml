@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">819665dbdb544910e3dd80c74b9619bb</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Indicate the building in which the refusal of dangerous work is being exercised. ]]></content>
+        <guide display_value="Refusal of dangerous work">c9c4ed57db544910e3dd80c74b96190d</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/services?id=sc_cat_item&amp;sys_id=9509a89c1b53ac10ea0eda02dd4bcbaa"}</options>
+        <order>2</order>
+        <placement>top</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-13 15:47:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>119665dbdb544910e3dd80c74b9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_119665dbdb544910e3dd80c74b9619bd</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">819665dbdb544910e3dd80c74b9619bb</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>services</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=119665dbdb544910e3dd80c74b9619bd"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>119665dbdb544910e3dd80c74b9619bd</documentkey>
+        <fieldname>content</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-13 16:16:43</sys_created_on>
+        <sys_id>ed5d6d5bdb944910e3dd80c74b96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-12-13 16:16:43</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value>Indiquer le bâtiment dans lequel s'exerce le refus de travaux dangereux. </value>
+    </sys_translated_text>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="correct_meas_imp_date" label="Mesures correctives" language="fq" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>correct_meas_imp_date</element>
+            <help/>
+            <hint>Indiquer les mesures correctives à prendre pour éviter que cela ne se reproduise. Veuillez créer une tâche par correctif en cliquant sur « ajouter une tâche » en bas à gauche de cette page. Les mesures correctives seront efficaces si elles empêchent qu'une situation dangereuse ne se reproduise, c'est-à-dire si elles éliminent chacune de ses causes directes. Cela démontre l'importance de mener une enquête concluante qui permettra d'obtenir une description précise de la situation comportant des risques et de révéler une connaissance précise de ses causes.</hint>
+            <label>Mesures correctives</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Mesures correctives</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-06-18 11:34:12</sys_created_on>
+            <sys_id>a3a18cc61bb8f010c261ed3cbc4bcb4f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Mesures correctives</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_correct_meas_imp_date_fq</sys_update_name>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-31 04:17:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

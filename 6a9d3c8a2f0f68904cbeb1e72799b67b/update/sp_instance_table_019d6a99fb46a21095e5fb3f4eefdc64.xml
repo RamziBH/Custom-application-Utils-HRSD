@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>number,work_task_description,hazard_description,state</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>2</order>
+        <order_by>number</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7d4ed4d73b021e18aeb1ebc964e45acf</sp_column>
+        <sp_page display_value="hoc_hira_rl_form">bd1659a1fb1a169895e5fb3f4eefdc60</sp_page>
+        <sp_widget display_value="HoC OHSM Related List">676aaa55fb46a21095e5fb3f4eefdc29</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-09 16:46:21</sys_created_on>
+        <sys_id>019d6a99fb46a21095e5fb3f4eefdc64</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Hazards</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_instance_table_019d6a99fb46a21095e5fb3f4eefdc64</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-04 19:33:09</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</table>
+        <title>Hazards</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"page": {
+		"value": "bd1659a1fb1a169895e5fb3f4eefdc60",
+		"displayValue": "hoc_hira_rl_form"
+	}
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=019d6a99fb46a21095e5fb3f4eefdc64"/>
+</record_update>

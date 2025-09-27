@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">de5972281b8549109fde86acdd4bcb87</copied_from>
+        <description>Answer the questions on the form as follows:
+Location type = Indoor</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:22</sys_created_on>
+        <sys_id>3e9161763b4d1a18aeb1ebc964e45a83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_3e9161763b4d1a18aeb1ebc964e45a83</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:22</sys_updated_on>
+        <table/>
+        <test display_value="OHS - Report Incident Injury Yes Area Anke: Both, Abdomen">ee9121763b4d1a18aeb1ebc964e45a54</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3e9161763b4d1a18aeb1ebc964e45a83"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3e9161763b4d1a18aeb1ebc964e45a83</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:22</sys_created_on>
+        <sys_id>3a9161763b4d1a18aeb1ebc964e45a84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:22</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3e9161763b4d1a18aeb1ebc964e45a83</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:22</sys_created_on>
+        <sys_id>be9161763b4d1a18aeb1ebc964e45a84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:22</sys_updated_on>
+        <value>632c129e2f4f2c904cbeb1e72799b6d0</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3e9161763b4d1a18aeb1ebc964e45a83</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:22</sys_created_on>
+        <sys_id>fa9161763b4d1a18aeb1ebc964e45a84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:22</sys_updated_on>
+        <value>IO:9c62042c1b3481109fde86acdd4bcbc2=Indoor^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=3e9161763b4d1a18aeb1ebc964e45a83"/>
+</record_update>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>de77c9b61b50f410c261ed3cbc4bcb37</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_pdf_template_mapping">
+    <sn_hr_core_pdf_template_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_script_toggle>false</advanced_script_toggle>
+        <box_height/>
+        <box_width/>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units>days</date_offset_units>
+        <doc_left/>
+        <doc_top/>
+        <document display_value="ESDCLAB1070_EN">02ba665a2fcf2c904cbeb1e72799b6ce</document>
+        <document_field>LAB1070_E[0].Page1[0].txtF_2_EmployIDNo[0]</document_field>
+        <document_field_label>txtF_2_EmployIDNo[0]</document_field_label>
+        <document_field_type>text</document_field_type>
+        <mapping_field>subject_person_hr_profile.employee_number</mapping_field>
+        <mapping_table>x_hccc_hoc_ohs_investigation_case</mapping_table>
+        <page_number/>
+        <preview_value>2-Employee ID Number</preview_value>
+        <script/>
+        <select_date_format/>
+        <sign_left/>
+        <sign_top/>
+        <signing_order/>
+        <specific_date_format/>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-05-27 04:03:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>de77c9b61b50f410c261ed3cbc4bcb37</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-05-27 05:02:45</sys_updated_on>
+        <true_value/>
+        <use_signing_date>false</use_signing_date>
+    </sn_hr_core_pdf_template_mapping>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-24 13:37:33</sys_created_on>
+        <sys_id>e39542521b2702989fde86acdd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESDCLAB1070_EN</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_e39542521b2702989fde86acdd4bcbdb</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-24 13:37:33</sys_updated_on>
+        <tablename>sn_hr_core_pdf_template_mapping</tablename>
+    </sys_metadata_link>
+</record_update>

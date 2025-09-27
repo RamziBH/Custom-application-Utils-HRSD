@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_hccc_hoc_ohs_hira_translate_department</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+        /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+        /* Optional GlideRecord */ event) {
+
+        // Add your code here
+		var hbu = new x_hccc_base.HoCBaseUtils();
+		var translated_text = hbu.getTranslatedText("cmn_department", current.getDisplayValue('position_reporting_position.reports_to.department.sys_id'), "name", "fq");
+		template.print(translated_text);
+
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+        <sys_created_on>2024-03-19 17:34:06</sys_created_on>
+        <sys_id>e9897ce11b0d4e14813f844fdd4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_hira_translate_department</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_email_e9897ce11b0d4e14813f844fdd4bcb2c</sys_update_name>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:34:06</sys_updated_on>
+    </sys_script_email>
+</record_update>

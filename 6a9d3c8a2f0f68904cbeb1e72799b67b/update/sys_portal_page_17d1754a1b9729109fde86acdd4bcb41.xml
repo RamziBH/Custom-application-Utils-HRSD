@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-09-26 21:26:57">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-09 14:54:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>17d1754a1b9729109fde86acdd4bcb41</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PA Test Results Summarized</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_portal_page_17d1754a1b9729109fde86acdd4bcb41</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-09 15:30:52</sys_updated_on>
+        <title>PA Test Results Summarized</title>
+        <user/>
+        <view>pa_ohs_-_test_suites_re_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Test Results Summarized">17d1754a1b9729109fde86acdd4bcb41</page>
+                <summary>Top Test Suites Daily Results</summary>
+                <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2023-06-14 14:05:08</sys_created_on>
+                <sys_id>3476d7671b536d109fde86acdd4bcb72</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2023-06-14 14:05:08</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-06-14 10:05:08">3476d7671b536d109fde86acdd4bcb72</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-14 14:05:08</sys_created_on>
+                        <sys_id>3c76d7671b536d109fde86acdd4bcb73</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-14 14:05:08</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-06-14 10:05:08">3476d7671b536d109fde86acdd4bcb72</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-14 14:05:08</sys_created_on>
+                        <sys_id>7476d7671b536d109fde86acdd4bcb74</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-14 14:05:08</sys_updated_on>
+                        <value>Top Test Suites Daily Results</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-06-14 10:05:08">3476d7671b536d109fde86acdd4bcb72</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-14 14:05:08</sys_created_on>
+                        <sys_id>7876d7671b536d109fde86acdd4bcb73</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-14 14:05:08</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-06-14 10:05:08">3476d7671b536d109fde86acdd4bcb72</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-14 14:05:08</sys_created_on>
+                        <sys_id>b076d7671b536d109fde86acdd4bcb74</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-14 14:05:08</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-06-14 10:05:08">3476d7671b536d109fde86acdd4bcb72</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-14 14:05:08</sys_created_on>
+                        <sys_id>bc76d7671b536d109fde86acdd4bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-14 14:05:08</sys_updated_on>
+                        <value>94b59be31b536d109fde86acdd4bcb66</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-06-14 10:05:08">3476d7671b536d109fde86acdd4bcb72</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-14 14:05:08</sys_created_on>
+                        <sys_id>fc76d7671b536d109fde86acdd4bcb73</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-14 14:05:08</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Test Results Summarized">17d1754a1b9729109fde86acdd4bcb41</page>
+                <summary>Monthly Results of all OHS Test Suites</summary>
+                <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2023-06-09 14:55:45</sys_created_on>
+                <sys_id>7d12f14a1b9729109fde86acdd4bcb3d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2023-06-09 14:55:46</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-06-09 10:55:45">7d12f14a1b9729109fde86acdd4bcb3d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 14:55:46</sys_created_on>
+                        <sys_id>3912718a1b9729109fde86acdd4bcb4a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 14:55:46</sys_updated_on>
+                        <value>Monthly Results of all OHS Test Suites</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-06-09 10:55:45">7d12f14a1b9729109fde86acdd4bcb3d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 14:55:46</sys_created_on>
+                        <sys_id>3912718a1b9729109fde86acdd4bcb4b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 14:55:46</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-06-09 10:55:45">7d12f14a1b9729109fde86acdd4bcb3d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 14:55:45</sys_created_on>
+                        <sys_id>3d12718a1b9729109fde86acdd4bcb49</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 14:55:45</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-06-09 10:55:45">7d12f14a1b9729109fde86acdd4bcb3d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 14:55:46</sys_created_on>
+                        <sys_id>7512718a1b9729109fde86acdd4bcb4a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 14:55:46</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-06-09 10:55:45">7d12f14a1b9729109fde86acdd4bcb3d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 14:55:45</sys_created_on>
+                        <sys_id>7912718a1b9729109fde86acdd4bcb49</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 14:55:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-06-09 10:55:45">7d12f14a1b9729109fde86acdd4bcb3d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 14:55:45</sys_created_on>
+                        <sys_id>b112718a1b9729109fde86acdd4bcb4a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 14:55:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-06-09 10:55:45">7d12f14a1b9729109fde86acdd4bcb3d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 14:55:45</sys_created_on>
+                        <sys_id>bd12718a1b9729109fde86acdd4bcb48</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 14:55:45</sys_updated_on>
+                        <value>d9f1354a1b9729109fde86acdd4bcb47</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-06-09 10:55:45">7d12f14a1b9729109fde86acdd4bcb3d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 14:55:45</sys_created_on>
+                        <sys_id>fd12718a1b9729109fde86acdd4bcb49</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 14:55:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Test Results Summarized">17d1754a1b9729109fde86acdd4bcb41</page>
+                <summary>OHS Top Test Suites Results</summary>
+                <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                <sys_id>8b9931021b1b29109fde86acdd4bcb0d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2023-06-09 11:28:36">8b9931021b1b29109fde86acdd4bcb0d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                        <sys_id>079931021b1b29109fde86acdd4bcb0f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-06-09 11:28:36">8b9931021b1b29109fde86acdd4bcb0d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                        <sys_id>439931021b1b29109fde86acdd4bcb0f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-06-09 11:28:36">8b9931021b1b29109fde86acdd4bcb0d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                        <sys_id>8f9931021b1b29109fde86acdd4bcb0e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-06-09 11:28:36">8b9931021b1b29109fde86acdd4bcb0d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                        <sys_id>8f99f5021b1b29109fde86acdd4bcb65</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                        <value>OHS Top Test Suites Results</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2023-06-09 11:28:36">8b9931021b1b29109fde86acdd4bcb0d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                        <sys_id>8f99f5021b1b29109fde86acdd4bcb66</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-06-09 11:28:36">8b9931021b1b29109fde86acdd4bcb0d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                        <sys_id>c39931021b1b29109fde86acdd4bcb0e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                        <value>918231ca1b9729109fde86acdd4bcbe3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-06-09 11:28:36">8b9931021b1b29109fde86acdd4bcb0d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                        <sys_id>c79931021b1b29109fde86acdd4bcb0f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-06-09 11:28:36">8b9931021b1b29109fde86acdd4bcb0d</portal_section>
+                        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-06-09 15:28:36</sys_created_on>
+                        <sys_id>cb99f5021b1b29109fde86acdd4bcb65</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-06-09 15:28:36</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

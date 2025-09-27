@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition/>
+        <description>Create a task for the employee validation in refusal to work (Stage 1)</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">stateCHANGESTO108^hr_service=b745a0501b53ac10ea0eda02dd4bcb4b^emp_agree=^stateCHANGESFROM101^EQ<item display_value="Awaiting employee" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="108"/>
+            <item display_table="sn_hr_core_service" display_value="Refusal of dangerous work" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="b745a0501b53ac10ea0eda02dd4bcb4b"/>
+            <item display_value="-- None --" endquery="false" field="emp_agree" goto="false" newquery="false" operator="=" or="false" value=""/>
+            <item display_value="Investigation in progress" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="101"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HoC- Refusal to work - Employee validation Stage 1</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	gs.info("SF*** OHSM create todo for employee");
+	// Add your code here
+	var grTask = new GlideRecord("sn_hr_core_task");
+	grTask.initialize();
+	grTask.parent = current.sys_id;
+	grTask.hr_task_type = "submit_catalog_item";
+	grTask.state= 18;
+	grTask.assigned_to = current.subject_person;
+	grTask.short_description = "Refusal to work employee validation";
+	grTask.sc_cat_item= "8877d9ea2f5b24104cbeb1e72799b62d"; //Refusal to work employee validation
+	grTask.insert();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-04-06 18:10:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a60edae1b53a410c261ed3cbc4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC- Refusal to work - Employee validation Stage 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_7a60edae1b53a410c261ed3cbc4bcb66</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a60edae1b53a410c261ed3cbc4bcb66"/>
+</record_update>

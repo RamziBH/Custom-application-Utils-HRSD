@@ -1,0 +1,1751 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="a95f68662f8f6c904cbeb1e72799b6a2" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sn_hr_le_activity_set_progress_bar.xml</element>
+            <position>0</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>f73e188a1bb40e1c813f844fdd4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="sn_hr_le_activity_set_progress_bar">62c9bcae775f23003a1c455caa106131</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hr_service</element>
+            <position>3</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb77</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_for</element>
+            <position>4</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_person</element>
+            <position>5</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>8</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>9</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>10</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>11</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>13</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rich_description</element>
+            <position>14</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_remain_anonymous</element>
+            <position>15</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_witnesses_name</element>
+            <position>16</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_date_of_occurence</element>
+            <position>17</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_indiv_inv_des</element>
+            <position>18</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_type_of_occurrence</element>
+            <position>19</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_reviewer_request</element>
+            <position>20</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_agree_2</element>
+            <position>21</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>bb3e188a1bb40e1c813f844fdd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_first_aid_req</element>
+            <position>22</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>b33e188a1bb40e1c813f844fdd4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_aggr_pre_exis_inj</element>
+            <position>23</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_date_initial_inj</element>
+            <position>24</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_work_rel_injury</element>
+            <position>25</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_insur_claim_prov</element>
+            <position>26</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_ins_claim_number</element>
+            <position>27</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_add_med_aid</element>
+            <position>28</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_func_lim_ident</element>
+            <position>29</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_desc_work_inj_ill</element>
+            <position>30</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_aid_administered_by</element>
+            <position>31</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_first_aid_administered_by</element>
+            <position>32</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_personal_protective_equipment_was_worn</element>
+            <position>33</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>medical_aid_attachment</element>
+            <position>34</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb93</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reportable_to_esdc</element>
+            <position>35</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>brief_description_and_estimated_cost</element>
+            <position>36</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_and_time_of_occurrence</element>
+            <position>37</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_gender</element>
+            <position>38</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>direct_causes_of_hazardous_occurrence</element>
+            <position>39</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplementary_preventative_measures</element>
+            <position>40</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_investigation_notes</element>
+            <position>41</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>was_the_employee_on_modified_duties_at_the_time_of_the_incident</element>
+            <position>42</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_employee_now_require_modified_duties_as_a_result_of_this_injury</element>
+            <position>43</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>did_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury</element>
+            <position>44</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>did_this_incident_result_in_an_injury</element>
+            <position>45</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_activity_performed</element>
+            <position>46</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_location_room</element>
+            <position>47</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_conducted_by</element>
+            <position>48</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_rep_investigation_report_provided_to_employer</element>
+            <position>49</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_rep_investigation_report_provided_to_employer_time</element>
+            <position>50</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_rep_investigation_report_provided_to_employer_date</element>
+            <position>51</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_rep_investigation_report_provided_to_employer_time</element>
+            <position>52</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_information_provided</element>
+            <position>53</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_information_provided_date</element>
+            <position>54</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_information_provided_time</element>
+            <position>55</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_corrective_action_s_taken</element>
+            <position>56</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_corrective_action_s_taken_date</element>
+            <position>57</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_corrective_action_s_taken_time</element>
+            <position>58</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_corrective_action_s</element>
+            <position>59</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_based_on_supplemental</element>
+            <position>60</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_date</element>
+            <position>61</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:46</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_time</element>
+            <position>62</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_details</element>
+            <position>63</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>refusal_to_work_room</element>
+            <position>64</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>minister_of_labour_decision</element>
+            <position>65</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>minister_of_labour_recommendations</element>
+            <position>66</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_agree_3</element>
+            <position>67</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>appeal_decision_details</element>
+            <position>68</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_information_details</element>
+            <position>69</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_conducted_by_employer</element>
+            <position>70</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>designated_representative</element>
+            <position>71</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_refusal_reason_3</element>
+            <position>72</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_documents</element>
+            <position>73</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>covered_by_collective_agreement</element>
+            <position>74</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>union</element>
+            <position>75</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rep_name</element>
+            <position>76</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_employees</element>
+            <position>77</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>was_this_complaint_discussed_with_another_government_representative</element>
+            <position>78</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcba9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_specify_discussed_gov_representative</element>
+            <position>79</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_when_employer_received_report_from_joint_investigators</element>
+            <position>80</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_s_response_to_the_joint_investigators_report</element>
+            <position>81</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_witness_name</element>
+            <position>82</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_witness_telephone_number</element>
+            <position>83</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>witness_email_address</element>
+            <position>84</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recipient_of_this_complaint</element>
+            <position>85</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_information</element>
+            <position>86</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>details_of_the_occurrence_s</element>
+            <position>87</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review_due</element>
+            <position>88</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_method</element>
+            <position>89</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_specific_location</element>
+            <position>90</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_explaination_details</element>
+            <position>91</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_interim_measures_and_investigation_notes</element>
+            <position>92</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_investigation_notes</element>
+            <position>93</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mediation_end_date</element>
+            <position>94</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complainant_feels_in_imminent_danger</element>
+            <position>95</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employee_signature_date</element>
+            <position>96</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employee_signature_time</element>
+            <position>97</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employer_signature_date</element>
+            <position>98</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employer_signature_time</element>
+            <position>99</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inspectors</element>
+            <position>100</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_employees_represented_by_committee</element>
+            <position>101</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_trade_union_s_employee_committee_members</element>
+            <position>102</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_non_trade_union_employee_committee_members</element>
+            <position>103</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_employer_committee_members</element>
+            <position>104</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_committee_membership</element>
+            <position>105</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>committee_excemption_pursuant_to_subsection_135_6_a_of_the_act</element>
+            <position>106</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>trade_union_s</element>
+            <position>107</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>meetings_regular</element>
+            <position>108</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>meeting_special</element>
+            <position>109</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>programs</element>
+            <position>110</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_chairperson</element>
+            <position>111</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_chairperson</element>
+            <position>112</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>send_report_to</element>
+            <position>113</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>please_specify_cause_of_hazardous_occurrence</element>
+            <position>114</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_location_as_entered</element>
+            <position>115</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wi_area_s_not_inspected</element>
+            <position>116</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>discrimination_grounds_list</element>
+            <position>117</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>733e188a1bb40e1c813f844fdd4bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw.discrimination_grounds_list</element>
+            <position>118</position>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-08 18:34:47</sys_created_on>
+            <sys_id>7b3e188a1bb40e1c813f844fdd4bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-08 18:34:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_aid</element>
+            <position>119</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-02-04 21:11:04</sys_created_on>
+            <sys_id>c47bbf813baf9650aeb1ebc964e45a82</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-02-04 21:11:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>first_aid_provided</element>
+            <position>120</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-02-04 21:36:42</sys_created_on>
+            <sys_id>df4144193be3d650aeb1ebc964e45a2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-02-04 21:36:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hazard_category</element>
+            <position>121</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-02-05 18:21:31</sys_created_on>
+            <sys_id>9a3e942dfbaf929895e5fb3f4eefdcba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-02-05 18:21:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hazard_subcategory</element>
+            <position>122</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-02-05 18:39:37</sys_created_on>
+            <sys_id>135220a5fb23d29895e5fb3f4eefdc13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">a95f68662f8f6c904cbeb1e72799b6a2</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-02-05 18:39:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 04:20:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a95f68662f8f6c904cbeb1e72799b6a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_a95f68662f8f6c904cbeb1e72799b6a2</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

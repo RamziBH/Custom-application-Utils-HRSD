@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="user_criteria">
+    <user_criteria action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <company/>
+        <department/>
+        <group>9785a58a1b7261509fde86acdd4bcb93,d07e3c021b1a61149fde86acdd4bcbf9,7f05250a1b7261509fde86acdd4bcbfb,5b6353ea1bb66d10893442a7bc4bcb01</group>
+        <location/>
+        <match_all>false</match_all>
+        <name>HoC OHSM - Telework Read Only</name>
+        <role/>
+        <script/>
+        <short_description/>
+        <sys_class_name>user_criteria</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-15 18:25:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3722b1421bb661509fde86acdd4bcbf0</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>HoC OHSM - Telework Read Only</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>user_criteria_3722b1421bb661509fde86acdd4bcbf0</sys_update_name>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-05-24 14:27:26</sys_updated_on>
+        <user/>
+    </user_criteria>
+</record_update>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following variables are visible: Requested for, Department, Phone, Location, Request type, Please indicate the parliamentary institution and service area (if applicable) where the employee works, The departure date has been confirmed, label01, Last day present in the workplace, Last paid date, Type of Departure, As part of a workplace recognition initiative, a personalized letter from the Clerk of the House Administration is sent to all retiring employees. By checking this box, you confirm that a letter of recognition should be sent to this employee., Please confirm your employee's preferred language English, Does this position currently have employees reporting to it?, For any additional comments, please use the comment box below.
+Confirm that the following variables are mandatory: Requested for, Request type
+
+With a failure timeout of 30 Seconds</description>
+        <display_name>Variable State Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Variable State Validation">33f637e8c3ba220076173b0ac3d3aee1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>dd5435e53b08b618aeb1ebc964e45a64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variable State Validation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_dd5435e53b08b618aeb1ebc964e45a64</sys_update_name>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <table/>
+        <test display_value="ATF Generated Test - Service Catalog, HoC- Employee Departure, Gad Dayan">1554fda53b08b618aeb1ebc964e45a48</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=dd5435e53b08b618aeb1ebc964e45a64"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dd5435e53b08b618aeb1ebc964e45a64</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>155435e53b08b618aeb1ebc964e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value/>
+        <variable display_value="Not mandatory">ab59772cc3ba220076173b0ac3d3ae9c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dd5435e53b08b618aeb1ebc964e45a64</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>515435e53b08b618aeb1ebc964e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">32e8ffe8c3ba220076173b0ac3d3ae6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dd5435e53b08b618aeb1ebc964e45a64</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>5d5435e53b08b618aeb1ebc964e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value>5779d16b87e0515050d2eca73cbb3596,bd9cddaf87e0515050d2eca73cbb35e4</value>
+        <variable display_value="Mandatory">5149372cc3ba220076173b0ac3d3ae98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dd5435e53b08b618aeb1ebc964e45a64</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>995435e53b08b618aeb1ebc964e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value/>
+        <variable display_value="Not read only">e439f32cc3ba220076173b0ac3d3ae90</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dd5435e53b08b618aeb1ebc964e45a64</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>9d5435e53b08b618aeb1ebc964e45a65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value/>
+        <variable display_value="Read only">d829b32cc3ba220076173b0ac3d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dd5435e53b08b618aeb1ebc964e45a64</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>d55435e53b08b618aeb1ebc964e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value>305815e787e0515050d2eca73cbb3525</value>
+        <variable display_value="Catalog item">ae58fbe8c3ba220076173b0ac3d3aeac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dd5435e53b08b618aeb1ebc964e45a64</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>d95435e53b08b618aeb1ebc964e45a65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value>5779d16b87e0515050d2eca73cbb3596,1388657b87341d1050d2eca73cbb3567,5be8a57b87341d1050d2eca73cbb355e,8a09a57b87341d1050d2eca73cbb3584,bd9cddaf87e0515050d2eca73cbb35e4,1e73109887f4151050d2eca73cbb3583,1ab3d89887f4151050d2eca73cbb35ec,5bf3501c87f4151050d2eca73cbb356d,42349c1c87f4151050d2eca73cbb3575,4d845c1c87f4151050d2eca73cbb350b,30c4dc1c87f4151050d2eca73cbb3551,4a8590108738151050d2eca73cbb35cf,0ad5d8108738151050d2eca73cbb3516,7c5694508738151050d2eca73cbb3577,14e654508738151050d2eca73cbb3589</value>
+        <variable display_value="Visible">a7987fe8c3ba220076173b0ac3d3ae1d</variable>
+    </sys_variable_value>
+</record_update>

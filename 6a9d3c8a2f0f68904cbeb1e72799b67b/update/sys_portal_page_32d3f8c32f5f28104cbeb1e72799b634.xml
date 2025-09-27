@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-09-26 21:26:44">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>$pain</sys_created_by>
+        <sys_created_on>2021-04-08 04:13:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32d3f8c32f5f28104cbeb1e72799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Workplace Committee (181 Queen)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_portal_page_32d3f8c32f5f28104cbeb1e72799b634</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-22 17:37:48</sys_updated_on>
+        <title>PA Workplace Committee (181 Queen)</title>
+        <user/>
+        <view>pa_health_and_safety_da_-_new_tab_4</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Workplace Committee (181 Queen)">32d3f8c32f5f28104cbeb1e72799b634</page>
+                <summary>Investigations in progress (181 Queen)</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-04-19 14:15:33</sys_created_on>
+                <sys_id>1637e3ee2f6720104cbeb1e72799b6bb</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-04-19 14:15:33</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-04-19 10:15:33">1637e3ee2f6720104cbeb1e72799b6bb</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-19 14:15:33</sys_created_on>
+                        <sys_id>1e37abee2f6720104cbeb1e72799b68a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-19 14:15:33</sys_updated_on>
+                        <value>Investigations in progress (181 Queen)</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-04-19 10:15:33">1637e3ee2f6720104cbeb1e72799b6bb</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-19 14:15:33</sys_created_on>
+                        <sys_id>1e37e3ee2f6720104cbeb1e72799b6bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-19 14:15:33</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-04-19 10:15:33">1637e3ee2f6720104cbeb1e72799b6bb</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-19 14:15:33</sys_created_on>
+                        <sys_id>5a37abee2f6720104cbeb1e72799b68a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-19 14:15:33</sys_updated_on>
+                        <value>donut</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-04-19 10:15:33">1637e3ee2f6720104cbeb1e72799b6bb</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-19 14:15:33</sys_created_on>
+                        <sys_id>9237e3ee2f6720104cbeb1e72799b6bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-19 14:15:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-04-19 10:15:33">1637e3ee2f6720104cbeb1e72799b6bb</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-19 14:15:33</sys_created_on>
+                        <sys_id>de37e3ee2f6720104cbeb1e72799b6bb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-19 14:15:33</sys_updated_on>
+                        <value>cef667ae2f6720104cbeb1e72799b60d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-04-19 10:15:33">1637e3ee2f6720104cbeb1e72799b6bb</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-19 14:15:33</sys_created_on>
+                        <sys_id>de37e3ee2f6720104cbeb1e72799b6bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-19 14:15:33</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Workplace Committee (181 Queen)">32d3f8c32f5f28104cbeb1e72799b634</page>
+                <summary>Safety Complaints</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-04-14 04:27:27</sys_created_on>
+                <sys_id>6aa0f7742f27a4504cbeb1e72799b681</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-04-14 04:27:27</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-04-14 00:27:27">6aa0f7742f27a4504cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:27:27</sys_created_on>
+                        <sys_id>2aa0f7742f27a4504cbeb1e72799b682</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:27:27</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-04-14 00:27:27">6aa0f7742f27a4504cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:27:27</sys_created_on>
+                        <sys_id>66a0f7742f27a4504cbeb1e72799b682</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:27:27</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-04-14 00:27:27">6aa0f7742f27a4504cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:27:27</sys_created_on>
+                        <sys_id>6ea0f7742f27a4504cbeb1e72799b681</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:27:27</sys_updated_on>
+                        <value>dc9037742f27a4504cbeb1e72799b6e2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-04-14 00:27:27">6aa0f7742f27a4504cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:27:27</sys_created_on>
+                        <sys_id>a2a0f7742f27a4504cbeb1e72799b682</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:27:27</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-04-14 00:27:27">6aa0f7742f27a4504cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:27:27</sys_created_on>
+                        <sys_id>aea0f7742f27a4504cbeb1e72799b682</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:27:27</sys_updated_on>
+                        <value>Safety Complaints</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-04-14 00:27:27">6aa0f7742f27a4504cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:27:27</sys_created_on>
+                        <sys_id>eaa0f7742f27a4504cbeb1e72799b682</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:27:27</sys_updated_on>
+                        <value>trend</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Workplace Committee (181 Queen)">32d3f8c32f5f28104cbeb1e72799b634</page>
+                <summary>Refusals to Work</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-04-14 04:24:47</sys_created_on>
+                <sys_id>a3007b342f27a4504cbeb1e72799b653</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-04-14 04:24:47</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-04-14 00:24:47">a3007b342f27a4504cbeb1e72799b653</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:24:47</sys_created_on>
+                        <sys_id>23007b342f27a4504cbeb1e72799b655</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:24:47</sys_updated_on>
+                        <value>Refusals to Work</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-04-14 00:24:47">a3007b342f27a4504cbeb1e72799b653</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:24:47</sys_created_on>
+                        <sys_id>27007b342f27a4504cbeb1e72799b654</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:24:47</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-04-14 00:24:47">a3007b342f27a4504cbeb1e72799b653</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:24:47</sys_created_on>
+                        <sys_id>6f007b342f27a4504cbeb1e72799b654</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:24:47</sys_updated_on>
+                        <value>trend</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-04-14 00:24:47">a3007b342f27a4504cbeb1e72799b653</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:24:47</sys_created_on>
+                        <sys_id>ab007b342f27a4504cbeb1e72799b653</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:24:47</sys_updated_on>
+                        <value>90bfeff02f27a4504cbeb1e72799b66f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-04-14 00:24:47">a3007b342f27a4504cbeb1e72799b653</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:24:47</sys_created_on>
+                        <sys_id>ab007b342f27a4504cbeb1e72799b654</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:24:47</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-04-14 00:24:47">a3007b342f27a4504cbeb1e72799b653</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 04:24:47</sys_created_on>
+                        <sys_id>e7007b342f27a4504cbeb1e72799b654</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 04:24:47</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Workplace Committee (181 Queen)">32d3f8c32f5f28104cbeb1e72799b634</page>
+                <summary>Committee Annual Report</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-04-14 03:58:32</sys_created_on>
+                <sys_id>cb0a63782fe3a4504cbeb1e72799b659</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-04-14 03:58:32</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-04-13 23:58:32">cb0a63782fe3a4504cbeb1e72799b659</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 03:58:32</sys_created_on>
+                        <sys_id>070a63782fe3a4504cbeb1e72799b65a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 03:58:32</sys_updated_on>
+                        <value>40b96ff42fe3a4504cbeb1e72799b679</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-04-13 23:58:32">cb0a63782fe3a4504cbeb1e72799b659</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 03:58:32</sys_created_on>
+                        <sys_id>070a63782fe3a4504cbeb1e72799b65b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 03:58:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-04-13 23:58:32">cb0a63782fe3a4504cbeb1e72799b659</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 03:58:32</sys_created_on>
+                        <sys_id>430a63782fe3a4504cbeb1e72799b65b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 03:58:32</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-04-13 23:58:32">cb0a63782fe3a4504cbeb1e72799b659</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 03:58:32</sys_created_on>
+                        <sys_id>8b0a63782fe3a4504cbeb1e72799b65b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 03:58:32</sys_updated_on>
+                        <value>Committee Annual Report</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-04-13 23:58:32">cb0a63782fe3a4504cbeb1e72799b659</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 03:58:32</sys_created_on>
+                        <sys_id>8f0a63782fe3a4504cbeb1e72799b65a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 03:58:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-04-13 23:58:32">cb0a63782fe3a4504cbeb1e72799b659</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-14 03:58:32</sys_created_on>
+                        <sys_id>c70a63782fe3a4504cbeb1e72799b65b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-14 03:58:32</sys_updated_on>
+                        <value>line_bar</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

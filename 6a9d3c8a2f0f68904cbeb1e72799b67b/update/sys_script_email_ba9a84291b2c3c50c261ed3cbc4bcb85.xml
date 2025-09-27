@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>email_footer</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+
+          // Add your code here
+	var str0 = '<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><img style="margin: 0px 10px 29px -10px;" src="/logo_notif.png" width="42" height="121" align="left" hspace="10" /><strong><span style="font-size: 14.0pt; line-height: 107%;">Occupational Health and Safety / Sant&eacute; et s&eacute;curit&eacute; au travail</span></strong></p><p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">House of Commons / Chambre des communes</p>';
+	var str1 = '<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">50';
+	var str2 = "O'Connor, 8<sup>th 50 rue O'Connor, 8<sup>e</sup>étage<br/>Ottawa, Ontario, K1A 0A6</p>";
+	var str3='<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><a style="color: #0563c1; text-decoration: underline;href="mailto:OHS-SST@parl.gc.ca">OHS-SST@parl.gc.ca</a></p>';
+	var str4='<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Office: 613- 995-3614</p>';
+	template.print(str0+str1+str2+str3+str4);
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>umair.ahmed</sys_created_by>
+        <sys_created_on>2021-06-04 12:57:17</sys_created_on>
+        <sys_id>ba9a84291b2c3c50c261ed3cbc4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email_footer</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_email_ba9a84291b2c3c50c261ed3cbc4bcb85</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+    </sys_script_email>
+</record_update>

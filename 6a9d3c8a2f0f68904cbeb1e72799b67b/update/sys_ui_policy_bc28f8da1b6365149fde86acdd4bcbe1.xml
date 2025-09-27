@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_hccc_hoc_ohs_investigation_case">direct_causes_of_hazardous_occurrence=defects_of_equipment^ORdirect_causes_of_hazardous_occurrence=dress_or_apparel_hazards^ORdirect_causes_of_hazardous_occurrence=hazards_of_outside_work_environment^ORdirect_causes_of_hazardous_occurrence=environmental_hazards^ORdirect_causes_of_hazardous_occurrence=public_hazards^ORdirect_causes_of_hazardous_occurrence=hazardous_methods_or_procedure^ORdirect_causes_of_hazardous_occurrence=inadequately_guarded_equipment_or_materials^ORdirect_causes_of_hazardous_occurrence=personal_factors^ORdirect_causes_of_hazardous_occurrence=organizational_causes^ORdirect_causes_of_hazardous_occurrence=unsafe_acts^ORdirect_causes_of_hazardous_occurrence=other_hazardous_conditions^EQ<item display_value="Defects of equipment" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="false" value="defects_of_equipment"/>
+            <item display_value="Dress or apparel hazards" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="dress_or_apparel_hazards"/>
+            <item display_value="Hazards of outside work environment" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="hazards_of_outside_work_environment"/>
+            <item display_value="Environmental Hazards" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="environmental_hazards"/>
+            <item display_value="Public Hazards" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="public_hazards"/>
+            <item display_value="Hazardous methods or procedures" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="hazardous_methods_or_procedure"/>
+            <item display_value="Inadequately guarded equipment or materials" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="inadequately_guarded_equipment_or_materials"/>
+            <item display_value="Personal factors" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="personal_factors"/>
+            <item display_value="Organizational causes" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="organizational_causes"/>
+            <item display_value="Unsafe acts" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="unsafe_acts"/>
+            <item display_value="Other hazardous conditions" endquery="false" field="direct_causes_of_hazardous_occurrence" goto="false" newquery="false" operator="=" or="true" value="other_hazardous_conditions"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Show field "Please specify cause of hazardous occurrence" when option is selected from field "Direct cause of hazardous occurrence"</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-22 15:38:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bc28f8da1b6365149fde86acdd4bcbe1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Show field "Please specify cause of hazardous occurrence" when option is selected from field "Direct cause of hazardous occurrence"</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_policy_bc28f8da1b6365149fde86acdd4bcbe1</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-22 15:42:45</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

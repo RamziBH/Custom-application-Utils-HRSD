@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following variables are visible: Any pictures, documents or evidence pertaining to this incident can be attached., Branch, Building, Date and time of incident, Date and time the incident was reported to the manager/delegate , Description of the incident., Did this incident result in an injury?, Employee's name, Frequency of the task performed at the time of the incident, I hereby certify that, to the best of my knowledge, the provided  information is true and accurate., Manager/Supervisor, Room, Specific Location, The task performed at the time of incident, Title, Witnesses to the incident
+Confirm that the following variables are read only: Branch, Title
+Confirm that the following variables are mandatory: Date and time of incident, Date and time the incident was reported to the manager/delegate , Description of the incident., Did this incident result in an injury?, Employee's name, Frequency of the task performed at the time of the incident, I hereby certify that, to the best of my knowledge, the provided  information is true and accurate., The task performed at the time of incident, Witnesses to the incident, Building
+Confirm that the following variables are not mandatory: Manager/Supervisor, Room, Specific Location
+</description>
+        <display_name>Variable State Validation (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Variable State Validation (SP)">1ebb17799f1303002528d4b4232e70c0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:29</sys_created_on>
+        <sys_id>3adf4fc31bc809109fde86acdd4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variable State Validation (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_3adf4fc31bc809109fde86acdd4bcbe4</sys_update_name>
+        <sys_updated_by>azure.Konrad.Kyc@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-09-14 15:01:47</sys_updated_on>
+        <table/>
+        <test display_value="OHS - Field State Validation when loading the form">60fb8b0b1b8809109fde86acdd4bcbf1</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3adf4fc31bc809109fde86acdd4bcbe4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3adf4fc31bc809109fde86acdd4bcbe4</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:30</sys_created_on>
+        <sys_id>16a013871bc809109fde86acdd4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-11-30 18:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="Not read only">41ae57b99f1303002528d4b4232e7076</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3adf4fc31bc809109fde86acdd4bcbe4</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:30</sys_created_on>
+        <sys_id>1aa013871bc809109fde86acdd4bcb3e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-11-30 18:44:24</sys_updated_on>
+        <value>e64779bedbd4bc909b09e6fa4b96190a,70b6b5fedbd4bc909b09e6fa4b961917</value>
+        <variable display_value="Read only">516e57b99f1303002528d4b4232e700b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3adf4fc31bc809109fde86acdd4bcbe4</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:30</sys_created_on>
+        <sys_id>1ea013871bc809109fde86acdd4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-11-30 18:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">d92b4dd673142300688e0d573cf6a7c3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3adf4fc31bc809109fde86acdd4bcbe4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:30</sys_created_on>
+        <sys_id>52a013871bc809109fde86acdd4bcb3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-11-30 18:36:30</sys_updated_on>
+        <value>632c129e2f4f2c904cbeb1e72799b6d0</value>
+        <variable display_value="Catalog item">00eb17799f1303002528d4b4232e70fe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3adf4fc31bc809109fde86acdd4bcbe4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:30</sys_created_on>
+        <sys_id>56a013871bc809109fde86acdd4bcb3e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-11-30 18:44:24</sys_updated_on>
+        <value>7c49b4a81bec3450c261ed3cbc4bcb9c,e64779bedbd4bc909b09e6fa4b96190a,903c1a9e2f4f2c904cbeb1e72799b67e,5c3c1a9e2f4f2c904cbeb1e72799b683,d061c71f2f2f64104cbeb1e72799b6f7,c81e889a2f97a0104cbeb1e72799b615,5a0cadc71b20b410c261ed3cbc4bcbad,983c1a9e2f4f2c904cbeb1e72799b678,6ab1fe5b2fab64104cbeb1e72799b60d,4c3c1a9e2f4f2c904cbeb1e72799b63d,5c3c1a9e2f4f2c904cbeb1e72799b689,01b4bcacdb91f8109b09e6fa4b961936,807a39cb1ba0b410c261ed3cbc4bcb67,1bc7cb631b30b050c261ed3cbc4bcb2e,70b6b5fedbd4bc909b09e6fa4b961917,c981e7631b64f810c261ed3cbc4bcbba</value>
+        <variable display_value="Visible">fe5d9f799f1303002528d4b4232e70d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3adf4fc31bc809109fde86acdd4bcbe4</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:30</sys_created_on>
+        <sys_id>9ea013871bc809109fde86acdd4bcb3e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-12-15 12:19:17</sys_updated_on>
+        <value>5c3c1a9e2f4f2c904cbeb1e72799b689,01b4bcacdb91f8109b09e6fa4b961936,807a39cb1ba0b410c261ed3cbc4bcb67</value>
+        <variable display_value="Not mandatory">b4de97b99f1303002528d4b4232e7077</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3adf4fc31bc809109fde86acdd4bcbe4</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:30</sys_created_on>
+        <sys_id>d6a013871bc809109fde86acdd4bcb3f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-12-15 12:19:17</sys_updated_on>
+        <value>5c3c1a9e2f4f2c904cbeb1e72799b683,d061c71f2f2f64104cbeb1e72799b6f7,c81e889a2f97a0104cbeb1e72799b615,5a0cadc71b20b410c261ed3cbc4bcbad,983c1a9e2f4f2c904cbeb1e72799b678,6ab1fe5b2fab64104cbeb1e72799b60d,4c3c1a9e2f4f2c904cbeb1e72799b63d,1bc7cb631b30b050c261ed3cbc4bcb2e,c981e7631b64f810c261ed3cbc4bcbba,903c1a9e2f4f2c904cbeb1e72799b67e</value>
+        <variable display_value="Mandatory">b3be97b99f1303002528d4b4232e70ce</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3adf4fc31bc809109fde86acdd4bcbe4</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-11-30 18:36:30</sys_created_on>
+        <sys_id>daa013871bc809109fde86acdd4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-11-30 18:36:30</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">080e93b99f1303002528d4b4232e706d</variable>
+    </sys_variable_value>
+</record_update>

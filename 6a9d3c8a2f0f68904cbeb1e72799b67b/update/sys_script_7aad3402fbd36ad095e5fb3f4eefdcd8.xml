@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition/>
+        <description>Add NA as a default value under the Witnesses   field in the  Lab 1070 report  report when no Witnesses  are available </description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^EQ<item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HoC - Add Witnesses value NA in the  Lab 1070 report</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+    
+    var witnesses = current.getValue('inc_witnesses');
+
+    function removeNA(witness){
+        witness = witness
+            .split(',')                    
+            .map(function(item) { return item.trim(); }) 
+            .filter(function(item) { return item.toUpperCase() !== 'NOT AVAILABLE'; })
+            .join(', '); 
+        return  witness;
+    }
+
+    // Only set NA if the field is empty
+    if (!witnesses || witnesses.trim() === '') {
+        current.setValue('inc_witnesses', 'not available');
+    } else {
+        current.setValue('inc_witnesses', removeNA(witnesses));
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-12 19:55:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7aad3402fbd36ad095e5fb3f4eefdcd8</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>HoC - Add Witnesses value NA in the  Lab 1070 report</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_7aad3402fbd36ad095e5fb3f4eefdcd8</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-13 18:09:19</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=7aad3402fbd36ad095e5fb3f4eefdcd8"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>7aad3402fbd36ad095e5fb3f4eefdcd8</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-12 19:55:17</sys_created_on>
+        <sys_id>209e78c6fbd36ad095e5fb3f4eefdcf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-12 19:55:17</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

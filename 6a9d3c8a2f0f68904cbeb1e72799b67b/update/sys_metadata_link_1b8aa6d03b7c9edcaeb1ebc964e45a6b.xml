@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>0ea28d7e3b6cdad0aeb1ebc964e45ade</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sn_hr_core_pdf_template_mapping"&gt;
+    &lt;sn_hr_core_pdf_template_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;advanced_script_toggle&gt;true&lt;/advanced_script_toggle&gt;
+        &lt;box_height/&gt;
+        &lt;box_width/&gt;
+        &lt;date_offset_quantity&gt;0&lt;/date_offset_quantity&gt;
+        &lt;date_offset_type&gt;on&lt;/date_offset_type&gt;
+        &lt;date_offset_units&gt;days&lt;/date_offset_units&gt;
+        &lt;doc_left/&gt;
+        &lt;doc_top/&gt;
+        &lt;document display_value="ESDC-LAB1206 EN"&gt;35ec7ace3b605ed4aeb1ebc964e45ae7&lt;/document&gt;
+        &lt;document_field&gt;txt_Race&lt;/document_field&gt;
+        &lt;document_field_label&gt;txt_Race&lt;/document_field_label&gt;
+        &lt;document_field_type&gt;text&lt;/document_field_type&gt;
+        &lt;mapping_field/&gt;
+        &lt;mapping_table&gt;x_hccc_hoc_ohs_investigation_case&lt;/mapping_table&gt;
+        &lt;page_number/&gt;
+        &lt;preview_value&gt;txt_Race&lt;/preview_value&gt;
+        &lt;script&gt;&lt;![CDATA[(function evaluateMappingFieldValue(caseGr /* GlideRecord for parent case */, mappingField /* Pre-computed mapping field value */) {
+
+	var stageData = JSON.parse(caseGr.json_draft);	
+	return stageData.txtF_Race;
+
+})(caseGr, mappingField);]]&gt;&lt;/script&gt;
+        &lt;select_date_format/&gt;
+        &lt;sign_left/&gt;
+        &lt;sign_top/&gt;
+        &lt;signing_order/&gt;
+        &lt;specific_date_format/&gt;
+        &lt;sys_created_by&gt;taylor.pullen@parlissi.gc.ca&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-09-13 15:04:45&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_id&gt;0ea28d7e3b6cdad0aeb1ebc964e45ade&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;taylor.pullen@parlissi.gc.ca&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-09-13 15:14:37&lt;/sys_updated_on&gt;
+        &lt;true_value/&gt;
+        &lt;use_signing_date&gt;false&lt;/use_signing_date&gt;
+    &lt;/sn_hr_core_pdf_template_mapping&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:29:34</sys_created_on>
+        <sys_id>1b8aa6d03b7c9edcaeb1ebc964e45a6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESDC-LAB1206 EN</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_1b8aa6d03b7c9edcaeb1ebc964e45a6b</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:29:34</sys_updated_on>
+        <tablename>sn_hr_core_pdf_template_mapping</tablename>
+    </sys_metadata_link>
+</record_update>

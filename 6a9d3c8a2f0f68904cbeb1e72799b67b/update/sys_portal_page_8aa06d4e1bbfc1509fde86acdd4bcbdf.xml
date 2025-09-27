@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-09-26 21:26:44">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-01 17:48:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8aa06d4e1bbfc1509fde86acdd4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Committee  Workplace Reporting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_portal_page_8aa06d4e1bbfc1509fde86acdd4bcbdf</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-22 17:37:48</sys_updated_on>
+        <title>PA Committee  Workplace Reporting</title>
+        <user/>
+        <view>pa_hoc_h&amp;v_dashboard_-_new_tab_3</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Committee  Workplace Reporting">8aa06d4e1bbfc1509fde86acdd4bcbdf</page>
+                <summary>Workplace inspection</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-06-06 22:45:33</sys_created_on>
+                <sys_id>23841c7387bfc11050d2eca73cbb3587</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-06-06 22:45:33</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:33">23841c7387bfc11050d2eca73cbb3587</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:33</sys_created_on>
+                        <sys_id>27841c7387bfc11050d2eca73cbb3587</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:33</sys_updated_on>
+                        <value>5b01587f877fc11050d2eca73cbb35ae</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:33">23841c7387bfc11050d2eca73cbb3587</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:33</sys_created_on>
+                        <sys_id>2f841c7387bfc11050d2eca73cbb3587</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:33</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:33">23841c7387bfc11050d2eca73cbb3587</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:33</sys_created_on>
+                        <sys_id>67841c7387bfc11050d2eca73cbb3588</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:33</sys_updated_on>
+                        <value>Workplace inspection</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:33">23841c7387bfc11050d2eca73cbb3587</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:33</sys_created_on>
+                        <sys_id>6b841c7387bfc11050d2eca73cbb3587</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:33</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:33">23841c7387bfc11050d2eca73cbb3587</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:33</sys_created_on>
+                        <sys_id>a3841c7387bfc11050d2eca73cbb3588</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:33</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:33">23841c7387bfc11050d2eca73cbb3587</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:33</sys_created_on>
+                        <sys_id>ef841c7387bfc11050d2eca73cbb3587</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:33</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Committee  Workplace Reporting">8aa06d4e1bbfc1509fde86acdd4bcbdf</page>
+                <summary>Health&amp;Safety Occurances by Building</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-06-06 22:44:42</sys_created_on>
+                <sys_id>4f54107387bfc11050d2eca73cbb3507</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-06-06 22:44:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-06 18:44:42">4f54107387bfc11050d2eca73cbb3507</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:44:42</sys_created_on>
+                        <sys_id>0354987387bfc11050d2eca73cbb35a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:44:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-06 18:44:42">4f54107387bfc11050d2eca73cbb3507</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:44:42</sys_created_on>
+                        <sys_id>4b54987387bfc11050d2eca73cbb35a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:44:42</sys_updated_on>
+                        <value>Health&amp;Safety Occurances by Building</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-06 18:44:42">4f54107387bfc11050d2eca73cbb3507</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:44:42</sys_created_on>
+                        <sys_id>4f54987387bfc11050d2eca73cbb35a0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:44:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-06 18:44:42">4f54107387bfc11050d2eca73cbb3507</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:44:42</sys_created_on>
+                        <sys_id>8754987387bfc11050d2eca73cbb35a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:44:42</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-06 18:44:42">4f54107387bfc11050d2eca73cbb3507</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:44:42</sys_created_on>
+                        <sys_id>c354987387bfc11050d2eca73cbb35a1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:44:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-06 18:44:42">4f54107387bfc11050d2eca73cbb3507</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:44:42</sys_created_on>
+                        <sys_id>cf54987387bfc11050d2eca73cbb359f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:44:42</sys_updated_on>
+                        <value>f9cf003f877fc11050d2eca73cbb35f5</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Committee  Workplace Reporting">8aa06d4e1bbfc1509fde86acdd4bcbdf</page>
+                <summary>Refusal to Work</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-06-06 00:39:02</sys_created_on>
+                <sys_id>8cf467d31bb341909fde86acdd4bcbbb</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-06-06 00:39:02</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:02">8cf467d31bb341909fde86acdd4bcbbb</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:02</sys_created_on>
+                        <sys_id>10f467171bb341909fde86acdd4bcb7c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:02</sys_updated_on>
+                        <value>Refusal to Work</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:02">8cf467d31bb341909fde86acdd4bcbbb</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:02</sys_created_on>
+                        <sys_id>18f467d31bb341909fde86acdd4bcbbd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:02</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:02">8cf467d31bb341909fde86acdd4bcbbb</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:02</sys_created_on>
+                        <sys_id>5cf467171bb341909fde86acdd4bcb7b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:02</sys_updated_on>
+                        <value>line_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:02">8cf467d31bb341909fde86acdd4bcbbb</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:02</sys_created_on>
+                        <sys_id>88f467d31bb341909fde86acdd4bcbbc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:02</sys_updated_on>
+                        <value>81132fdf1b7341909fde86acdd4bcb33</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:02">8cf467d31bb341909fde86acdd4bcbbb</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:02</sys_created_on>
+                        <sys_id>98f467171bb341909fde86acdd4bcb7b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:02</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:02">8cf467d31bb341909fde86acdd4bcbbb</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:02</sys_created_on>
+                        <sys_id>d8f467d31bb341909fde86acdd4bcbbd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:02</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Committee  Workplace Reporting">8aa06d4e1bbfc1509fde86acdd4bcbdf</page>
+                <summary>Refusal to Work by Building</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-06-06 00:39:11</sys_created_on>
+                <sys_id>9ef423171bb341909fde86acdd4bcb00</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-06-06 00:39:11</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:11">9ef423171bb341909fde86acdd4bcb00</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:11</sys_created_on>
+                        <sys_id>12f423171bb341909fde86acdd4bcb02</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:11</sys_updated_on>
+                        <value>line_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:11">9ef423171bb341909fde86acdd4bcb00</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:11</sys_created_on>
+                        <sys_id>5ef423171bb341909fde86acdd4bcb01</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:11">9ef423171bb341909fde86acdd4bcb00</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:11</sys_created_on>
+                        <sys_id>92f423171bb341909fde86acdd4bcb01</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:11</sys_updated_on>
+                        <value>303423d31bb341909fde86acdd4bcb1c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:11">9ef423171bb341909fde86acdd4bcb00</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:11</sys_created_on>
+                        <sys_id>9af423171bb341909fde86acdd4bcb01</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:11</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:11">9ef423171bb341909fde86acdd4bcb00</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:11</sys_created_on>
+                        <sys_id>d2f423171bb341909fde86acdd4bcb02</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:11</sys_updated_on>
+                        <value>Refusal to Work by Building</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-05 20:39:11">9ef423171bb341909fde86acdd4bcb00</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 00:39:11</sys_created_on>
+                        <sys_id>d6f423171bb341909fde86acdd4bcb01</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 00:39:11</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Committee  Workplace Reporting">8aa06d4e1bbfc1509fde86acdd4bcbdf</page>
+                <summary>Health&amp;Safety Occurances Summary</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-06-06 22:45:14</sys_created_on>
+                <sys_id>ba74107387bfc11050d2eca73cbb3520</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-06-06 22:45:14</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:14">ba74107387bfc11050d2eca73cbb3520</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:14</sys_created_on>
+                        <sys_id>32741c7387bfc11050d2eca73cbb35dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:14</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:14">ba74107387bfc11050d2eca73cbb3520</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:14</sys_created_on>
+                        <sys_id>7a741c7387bfc11050d2eca73cbb35dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:14</sys_updated_on>
+                        <value>Health&amp;Safety Occurances Summary</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:14">ba74107387bfc11050d2eca73cbb3520</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:14</sys_created_on>
+                        <sys_id>7e741c7387bfc11050d2eca73cbb35db</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:14</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:14">ba74107387bfc11050d2eca73cbb3520</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:14</sys_created_on>
+                        <sys_id>b6741c7387bfc11050d2eca73cbb35dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:14</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:14">ba74107387bfc11050d2eca73cbb3520</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:14</sys_created_on>
+                        <sys_id>be74107387bfc11050d2eca73cbb3520</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:14</sys_updated_on>
+                        <value>c26f48bb877fc11050d2eca73cbb35ff</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-06 18:45:14">ba74107387bfc11050d2eca73cbb3520</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-06 22:45:14</sys_created_on>
+                        <sys_id>f2741c7387bfc11050d2eca73cbb35dc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-06 22:45:14</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

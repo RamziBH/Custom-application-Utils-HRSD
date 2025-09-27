@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Accident/Illness dates and details" section_id="0b4ad1f287c6551050d2eca73cbb3531" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="Work_Related_Injury_or_Illness">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:09</sys_created_on>
+            <sys_id>059504751b79b9509fde86acdd4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:09</sys_updated_on>
+            <text>If there were any witnesses to your accident, or if you mentioned your pain or problems to your supervisor or any of your co-workers, please provide their names.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:09</sys_created_on>
+            <sys_id>419504751b79b9509fde86acdd4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:09</sys_updated_on>
+            <text>If you had a sudden type of accident/illness, describe your injury and what happened to cause it (e.g. hurt lower back while lifting a 50 pound box, sprained left ankle when I slipped on a wet floor, used a new cleaner and immediately got a rash). Please indicate the size, weights and names of any objects involved.
+OR
+If you had a gradual onset type of injury, describe your injury, the work that you do and what you believe caused your injury/condition.</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:09</sys_created_on>
+            <sys_id>859504751b79b9509fde86acdd4bcbad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:09</sys_updated_on>
+            <text>The workplace Safety and Insurance Act requires you to give a copy of this report (Worker's Report of Injury/Disease - Form 6) to your employer.</text>
+            <type display_value="Info Box Red">823f88a80f930000b12e6903cfe01209</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:09</sys_created_on>
+            <sys_id>c59504751b79b9509fde86acdd4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:09</sys_updated_on>
+            <text>The workplace Safety and Insurance Act requires your employer to give you a copy of the Employer's Report of Injury/Disease (form 7).</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_and_hour_of_accident_awareness_of_illness</element>
+            <position>0</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>c19504751b79b9509fde86acdd4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_did_you_report_this_accident_illness_to</element>
+            <position>1</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>c59504751b79b9509fde86acdd4bcbb9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_and_hour_reported_to_employer</element>
+            <position>2</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>819504751b79b9509fde86acdd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>injury_happened_employer_propert</element>
+            <position>3</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>859504751b79b9509fde86acdd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specify_where_it_happened</element>
+            <position>4</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>899504751b79b9509fde86acdd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outside_of_ontario</element>
+            <position>5</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>8d9504751b79b9509fde86acdd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>indicate_where</element>
+            <position>6</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>819504751b79b9509fde86acdd4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>previous_injury</element>
+            <position>7</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>859504751b79b9509fde86acdd4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>do_you_have_any_prior_related_wsib_wcb_claims</element>
+            <position>8</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>899504751b79b9509fde86acdd4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>419504751b79b9509fde86acdd4bcb7b</element>
+            <position>9</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>8d9504751b79b9509fde86acdd4bcbc7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>accident_illness_detail</element>
+            <position>10</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>819504751b79b9509fde86acdd4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>when_did_you_first_start_to_have_problems</element>
+            <position>11</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>859504751b79b9509fde86acdd4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>if_you_did_not_report_this_to_your_employer_right_away_please_explain_why</element>
+            <position>12</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>899504751b79b9509fde86acdd4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>13</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>8d9504751b79b9509fde86acdd4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>059504751b79b9509fde86acdd4bcb7b</element>
+            <position>14</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>819504751b79b9509fde86acdd4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>witness_1</element>
+            <position>15</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>859504751b79b9509fde86acdd4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>witness_2</element>
+            <position>16</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>899504751b79b9509fde86acdd4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>8d9504751b79b9509fde86acdd4bcbc9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>c59504751b79b9509fde86acdd4bcb7b</element>
+            <position>18</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>819504751b79b9509fde86acdd4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>did_you_receive_a_copy_of_the_form_7</element>
+            <position>19</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>859504751b79b9509fde86acdd4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>859504751b79b9509fde86acdd4bcbad</element>
+            <position>20</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-10-10 19:00:10</sys_created_on>
+            <sys_id>899504751b79b9509fde86acdd4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Accident/Illness dates and details" display_value="Accident/Illness dates and details" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">0b4ad1f287c6551050d2eca73cbb3531</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-10 19:00:10</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Accident/Illness dates and details</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-23 21:37:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b4ad1f287c6551050d2eca73cbb3531</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_0b4ad1f287c6551050d2eca73cbb3531</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Work Related Injury or Illness" name="Work_Related_Injury_or_Illness">d2f0545a1b399d509fde86acdd4bcb96</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Inspecting a workplace is an important activity that can help prevent occupational injuries and illnesses. Through an examination of the workplace, hazards and appropriate corrective actions can be identified and recorded. Inspections allow WHSC and HSR to:</p>
+<ul style="list-style-position: inside;"><li>better understand jobs and tasks;</li><li>identify existing and potential hazards;</li><li>determine underlying causes of hazards;</li><li>determine whether existing hazard controls are adequate and operational; and</li><li>suggest corrective actions where appropriate.</li></ul>
+<p>Remember: For inspections, wear personal protective equipment (PPE) where required. If you do not have PPE and cannot get any, do not enter the area. List this as a deficiency during the inspection. Re-inspect the area when PPE is provided. For more information on how to plan and conduct a routine inspection, refer to the workplace inspection guide and the resources in your WHSC toolkit.</p>
+<p>For post exposure to a chemical or information pertaining to a chemical product, you may refer to the <a title="SDS Repository" href="https://webhouseofcommons77ff9fjquf.maerixium.com/paratoxxpress/binder/default/EN/" target="_blank" rel="noopener noreferrer nofollow">SDS Repository</a> for further information.</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Monthly Workplace Inspection Report</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=936de3601b2ab810426497d58d4bcb19&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[(function() {
+	
+    producer.portal_redirect = "?id=hoc_ohsm_confirmation&requestNumber=" + current.number + "&anonymous=true";
+
+    var aislesHazards = JSON.parse(producer.hazard_s_to_report_in_aisles_and_flooring);
+	var environmentHazards = JSON.parse(producer.hazard_s_to_report_in_environment);
+	var electricalHazards = JSON.parse(producer.hazard_s_to_report_in_electrical);
+	var firstAidHazards = JSON.parse(producer.hazard_s_to_report_in_first_aid_and_emergency_preparedness);
+	var housekeepingHazards = JSON.parse(producer.hazard_s_to_housekeeping);
+	var postingHazards = JSON.parse(producer.hazard_s_to_posting_requirements);
+	var storageHazards = JSON.parse(producer.hazard_s_to_storage_shelving_and_cabinets);
+	var washroomsHazards = JSON.parse(producer.hazard_s_to_washrooms_and_kitchens);
+	var outdoorHazards = JSON.parse(producer.hazard_s_to_outdoor);
+	var otherHazards = JSON.parse(producer.hazard_s_to_others);
+	
+	//If has an existing draft exist, delete the draft before another report gets created
+	if (producer.case_sys_id != ""){
+		var rec = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+		rec.addQuery('sys_id',producer.case_sys_id);
+		rec.query();		
+		if (rec.next()){
+			current.number = rec.number;
+			rec.deleteRecord();
+		}
+	}
+
+	//If save as a draft, save as a draft
+	if (producer.report_submission == "Save as a draft"){
+		var producer_copy = createCurrentCopy();
+		current.wi_building = producer.building;
+		current.wi_floor_inspected = producer.floor_inspected.getDisplayValue();
+		current.wi_area_inspected = producer.area_s_inspected;
+		current.wi_area_s_not_inspected = producer.area_s_not_inspected;
+		current.wi_date_time_of_inspection = producer.date_time_of_inspection;
+		current.wi_shared_space = producer.shared_space;
+		current.hr_service = 'a94b0c891b7e7c109fde86acdd4bcbc1';
+		current.short_description = 'Incident report on ' + producer.building.getDisplayValue() + " (floor " + producer.floor_inspected.getDisplayValue() + ") at " + producer.date_time_of_inspection.getDisplayValue();
+		current.subject_person = producer.inspector_name;
+		current.opened_for = producer.inspector_name;
+		current.state = 903; //Draft
+		current.json_draft = JSON.stringify(producer_copy);
+		return;
+	}
+	
+	//----------------------------------------------------------------------------
+	//Create parent case (Current) -----------------------------------------------
+	//----------------------------------------------------------------------------
+	current.hr_service = 'a94b0c891b7e7c109fde86acdd4bcbc1';
+	current.short_description = generateReportShortDescription();
+	current.subject_person = producer.inspector_name;
+	current.opened_for = producer.inspector_name;
+	current.rich_description = generateDescription();
+	
+	current.wi_building = producer.building;
+	current.wi_floor_inspected = producer.floor_inspected.getDisplayValue();
+	current.wi_area_inspected = producer.area_s_inspected;
+	current.wi_area_s_not_inspected = producer.area_s_not_inspected;
+	current.wi_date_time_of_inspection = producer.date_time_of_inspection;
+	current.wi_shared_space = producer.shared_space;
+	
+	//Create inspector(s) in x_hccc_hoc_ohs_other_inspectors (parent_case, inspector)
+	var grInspectors = new GlideRecord("x_hccc_hoc_ohs_other_inspectors");	
+	grInspectors.initialize();
+	grInspectors.parent_case = current.sys_id;
+	grInspectors.inspector = producer.inspector_name;
+	grInspectors.insert();	
+	
+	var inspectors = '' + producer.other_inspectors;
+	if (inspectors != "") {
+		var inspectors_array = inspectors.split(',');
+		for (var i = 0; i < inspectors_array.length; i++) {
+			grInspectors.initialize();
+			grInspectors.parent_case = current.sys_id;
+			grInspectors.inspector = inspectors_array[i];
+			grInspectors.insert();				
+		}
+	}
+
+	//2) CREATE CHILD CASES
+	var hasOpenCorrectiveMeasure = false;
+	
+	var hazard = [];
+	var room = [];
+	var location = [];
+	var hazard_removed = [];
+	var hazard_category = [];
+	var consequence = [];
+	var likelihood = [];
+	var comments = [];
+	var manager = [];
+	var recommendation = []; 
+
+	//APPREND Corrective action for AISLES AND FLOORING
+	var corrective_action_count = aislesHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(aislesHazards[i].aisles__hazard);
+		room.push(aislesHazards[i].aisles__room);
+		location.push(aislesHazards[i].aisles__location);
+		hazard_removed.push(aislesHazards[i].aisles__hazard_removed);
+		hazard_category.push(aislesHazards[i].aisles__hazard_category);
+		consequence.push(aislesHazards[i].aisles__consequence);
+		likelihood.push(aislesHazards[i].aisles__likelihood);
+		comments.push(aislesHazards[i].aisles__comments);
+		manager.push(aislesHazards[i].aisles__manager_responsible_for_the_area);
+		recommendation.push(aislesHazards[i].aisles__recommendations);
+	}
+
+	//APPREND Corrective action for ENVIRONMENT
+	corrective_action_count = environmentHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(environmentHazards[i].environment__hazard);
+		room.push(environmentHazards[i].environment__room);
+		location.push(environmentHazards[i].environment__location);
+		hazard_removed.push(environmentHazards[i].environment__hazard_removed);
+		hazard_category.push(environmentHazards[i].environment__hazard_category);
+		consequence.push(environmentHazards[i].environment__consequence);
+		likelihood.push(environmentHazards[i].environment__likelihood);
+		comments.push(environmentHazards[i].environment__comments);
+		manager.push(environmentHazards[i].environment__manager_responsible_for_the_area);
+		recommendation.push(environmentHazards[i].environment__recommendations);
+	}
+
+	//APPREND Corrective action for ELECTRICAL
+	corrective_action_count = electricalHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(electricalHazards[i].electrical__hazard);
+		room.push(electricalHazards[i].electrical__room);
+		location.push(electricalHazards[i].electrical__location);
+		hazard_removed.push(electricalHazards[i].electrical__hazard_removed);
+		hazard_category.push(electricalHazards[i].electrical__hazard_category);
+		consequence.push(electricalHazards[i].electrical__consequence);
+		likelihood.push(electricalHazards[i].electrical__likelihood);
+		comments.push(electricalHazards[i].electrical__comments);
+		manager.push(electricalHazards[i].electrical__manager_responsible_for_the_area);
+		recommendation.push(electricalHazards[i].electrical__recommendations);
+	}
+	
+	//APPREND Corrective action for FIRST AID
+	corrective_action_count = firstAidHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(firstAidHazards[i].first_aid__hazard);
+		room.push(firstAidHazards[i].first_aid__room);
+		location.push(firstAidHazards[i].first_aid__location);
+		hazard_removed.push(firstAidHazards[i].first_aid__hazard_removed);
+		hazard_category.push(firstAidHazards[i].first_aid__hazard_category);
+		consequence.push(firstAidHazards[i].first_aid__consequence);
+		likelihood.push(firstAidHazards[i].first_aid__likelihood);
+		comments.push(firstAidHazards[i].first_aid__comments);
+		manager.push(firstAidHazards[i].first_aid__manager_responsible_for_the_area);
+		recommendation.push(firstAidHazards[i].first_aid__recommendations);
+	}
+
+	
+	//APPREND Corrective action for HOUSEKEEPING
+	corrective_action_count = housekeepingHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(housekeepingHazards[i].housekeeping__hazard);
+		room.push(housekeepingHazards[i].housekeeping__room);
+		location.push(housekeepingHazards[i].housekeeping__location);
+		hazard_removed.push(housekeepingHazards[i].housekeeping__hazard_removed);
+		hazard_category.push(housekeepingHazards[i].housekeeping__hazard_category);
+		consequence.push(housekeepingHazards[i].housekeeping__consequence);
+		likelihood.push(housekeepingHazards[i].housekeeping__likelihood);
+		comments.push(housekeepingHazards[i].housekeeping__comments);
+		manager.push(housekeepingHazards[i].housekeeping__manager_responsible_for_the_area);
+		recommendation.push(housekeepingHazards[i].housekeeping__recommendations);
+	}
+	
+	//APPREND Corrective action for POSTING
+	corrective_action_count = postingHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(postingHazards[i].posting__hazard);
+		room.push(postingHazards[i].posting__room);
+		location.push(postingHazards[i].posting__location);
+		hazard_removed.push(postingHazards[i].posting__hazard_removed);
+		hazard_category.push(postingHazards[i].posting__hazard_category);
+		consequence.push(postingHazards[i].posting__consequence);
+		likelihood.push(postingHazards[i].posting__likelihood);
+		comments.push(postingHazards[i].posting__comments);
+		manager.push(postingHazards[i].posting__manager_responsible_for_the_area);
+		recommendation.push(postingHazards[i].posting__recommendations);
+	}
+
+	//APPREND Corrective action for STORAGE
+	corrective_action_count = storageHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(storageHazards[i].storage__hazard);
+		room.push(storageHazards[i].storage__room);
+		location.push(storageHazards[i].storage__location);
+		hazard_removed.push(storageHazards[i].storage__hazard_removed);
+		hazard_category.push(storageHazards[i].storage__hazard_category);
+		consequence.push(storageHazards[i].storage__consequence);
+		likelihood.push(storageHazards[i].storage__likelihood);
+		comments.push(storageHazards[i].storage__comments);
+		manager.push(storageHazards[i].storage__manager_responsible_for_the_area);
+		recommendation.push(storageHazards[i].storage__recommendations);
+	}
+
+	//APPREND Corrective action for WASHROOMS
+	corrective_action_count = washroomsHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(washroomsHazards[i].washrooms__hazard);
+		room.push(washroomsHazards[i].washrooms__room);
+		location.push(washroomsHazards[i].washrooms__location);
+		hazard_removed.push(washroomsHazards[i].washrooms__hazard_removed);
+		hazard_category.push(washroomsHazards[i].washrooms__hazard_category);
+		consequence.push(washroomsHazards[i].washrooms__consequence);
+		likelihood.push(washroomsHazards[i].washrooms__likelihood);
+		comments.push(washroomsHazards[i].washrooms__comments);
+		manager.push(washroomsHazards[i].washrooms__manager_responsible_for_the_area);
+		recommendation.push(washroomsHazards[i].washrooms__recommendations);
+	}
+
+	
+	//APPREND Corrective action for OUTDOOR
+	corrective_action_count = outdoorHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(outdoorHazards[i].outdoor__hazard);
+		room.push(outdoorHazards[i].outdoor__room);
+		location.push(outdoorHazards[i].outdoor__location);
+		hazard_removed.push(outdoorHazards[i].outdoor__hazard_removed);
+		hazard_category.push(outdoorHazards[i].outdoor__hazard_category);
+		consequence.push(outdoorHazards[i].outdoor__consequence);
+		likelihood.push(outdoorHazards[i].outdoor__likelihood);
+		comments.push(outdoorHazards[i].outdoor__comments);
+		manager.push(outdoorHazards[i].outdoor__manager_responsible_for_the_area);
+		recommendation.push(outdoorHazards[i].outdoor__recommendations);
+	}
+
+	//APPREND Corrective action for OTHERS
+	corrective_action_count = otherHazards.length;
+	for (var i = 0; i < corrective_action_count; i++) {
+		hazard.push(otherHazards[i].others__hazard);
+		room.push(otherHazards[i].others__room);
+		location.push(otherHazards[i].others__location);
+		hazard_removed.push(otherHazards[i].others__hazard_removed);
+		hazard_category.push(otherHazards[i].others__hazard_category);
+		consequence.push(otherHazards[i].others__consequence);
+		likelihood.push(otherHazards[i].others__likelihood);
+		comments.push(otherHazards[i].others__comments);
+		manager.push(otherHazards[i].others__manager_responsible_for_the_area);
+		recommendation.push(otherHazards[i].others__recommendations);
+	}
+	
+	//Create correction actions records
+	if (hazard.length > 0){
+		var grCA = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+		hasOpenCorrectiveMeasure = true;
+		var matrix = [[1,1,2,2,2],[1,2,2,2,2],[1,2,2,2,2],[1,2,2,2,3],[1,2,3,3,3]];
+
+		for (var x=0;x<hazard.length;x++){
+			grCA.initialize();
+			grCA.hr_service = 'a284e0261b7a30109fde86acdd4bcbfc';
+			grCA.opened_for = manager[x];
+			grCA.wi_room = room[x];
+			grCA.short_description = generateCorrectiveActionShortDescription(hazard[x]);
+			grCA.wi_floor_inspected = producer.floor_inspected.getDisplayValue();
+			grCA.wi_area_inspected = producer.area_inspected;
+			grCA.wi_area_s_not_inspected = producer.area_s_not_inspected;
+			grCA.wi_shared_space = producer.shared_space;
+			grCA.inspectors = producer.inspector_name;//inspectors;
+			grCA.parent = current.sys_id;
+			hazard_removed[x] == "no" ? grCA.state = 900 : grCA.state = 902; //(900=Open, 902=Completed)
+			grCA.hazard_removed = hazard_removed[x];
+			grCA.wi_location = location[x];
+			grCA.wi_building = producer.building;
+			grCA.wi_hazard = hazard[x];
+			grCA.wi_hazard_category = hazard_category[x];
+			grCA.wi_comments = comments[x];
+			grCA.wi_manager_responsible_for_the_area = manager[x];
+			grCA.u_wi_recommendation = recommendation[x];
+			
+			if (hazard_removed[x] == "no"){
+				grCA.wi_hazard_rating = matrix[consequence[x]-1][likelihood[x]-1];
+			}
+			grCA.insert();
+		}
+
+	}
+
+	//Define state as "Open" (900) if at least one corrective action has been created, and "Completed" (902) otherwise
+	hasOpenCorrectiveMeasure ? current.state = 900 : current.state = 902;
+	
+})();
+
+
+function generateDescription(){
+	var description = "";
+	description+=producer.floors_are_clear;
+	description+=producer.signs_are_posted_when_the_floors_are_wet;
+	description+=producer.walkways_are_free_from_obstructions;
+	description+=producer.main_aisles_are_at_least_36_inches_wide;
+	description+=producer.lighting_levels_are_operational_entrance_office_and_stairways;
+	description+=producer.air_quality_is_adequate;
+	description+=producer.temperature_is_adequate;
+	description+=producer.noise_levels_are_appropriate;
+		
+	
+	 
+	 
+	 /*
+	producer_copy.ventilation_is_adequate = '' + producer.ventilation_is_adequate;
+	producer_copy.hazardous_products_are_properly_identified = '' + producer.hazardous_products_are_properly_identified;
+	producer_copy.ceiling_tiles_are_in_good_condition = '' + producer.ceiling_tiles_are_in_good_condition;
+	producer_copy.cords_and_plugs_are_in_good_condition = '' + producer.cords_and_plugs_are_in_good_condition;
+	producer_copy.power_bars_are_not_plugged_into_another_power_bar_daisy_chain = '' + producer.power_bars_are_not_plugged_into_another_power_bar_daisy_chain;
+	producer_copy.space_heaters_are_csa_approved_and_have_an_auto_shut_off_feature = '' + producer.space_heaters_are_csa_approved_and_have_an_auto_shut_off_feature;
+	producer_copy.wire_management_in_good_condition_and_are_not_a_tripping_hazard = '' + producer.wire_management_in_good_condition_and_are_not_a_tripping_hazard;
+	producer_copy.first_aid_kits_are_inspected_on_a_monthly_basis_and_are_they_accessible = '' + producer.first_aid_kits_are_inspected_on_a_monthly_basis_and_are_they_accessible;
+	producer_copy.fire_extinguishers_are_hung_properly_are_accessible_inspected_on_a_monthly_basis = '' + producer.fire_extinguishers_are_hung_properly_are_accessible_inspected_on_a_monthly_basis;
+	producer_copy.emergency_exits_are_free_from_obstruction = '' + producer.emergency_exits_are_free_from_obstruction;
+	producer_copy.emergency_exits_signs_are_properly_lit = '' + producer.emergency_exits_signs_are_properly_lit;
+	producer_copy.evacuation_plan_is_properly_posted = '' + producer.evacuation_plan_is_properly_posted;
+	producer_copy.fire_hose_cabinets_are_accessible_and_free_of_obstruction = '' +  producer.fire_hose_cabinets_are_accessible_and_free_of_obstruction;
+	producer_copy.pull_stations_are_accessible_and_free_of_obstruction = '' + producer.pull_stations_are_accessible_and_free_of_obstruction;
+	producer_copy.security_systems_intercom_duress_alarm_etc = '' + producer.security_systems_intercom_duress_alarm_etc;
+	producer_copy.is_the_office_furniture_ergonomic_and_in_good_condition = '' + producer.is_the_office_furniture_ergonomic_and_in_good_condition;
+	producer_copy.paper_trimmer_cutter_blade_is_closed_and_secured = '' + producer.paper_trimmer_cutter_blade_is_closed_and_secured;
+	producer_copy.desk_and_file_cabinet_drawers_are_closed_while_not_in_use = '' + producer.desk_and_file_cabinet_drawers_are_closed_while_not_in_use;
+	producer_copy.is_the_office_furniture_free_from_sharp_edges_and_corners = '' + producer.is_the_office_furniture_free_from_sharp_edges_and_corners;
+	producer_copy.printer_toners_are_handled_as_a_hazardous_substance_and_are_stored_properly = '' + producer.printer_toners_are_handled_as_a_hazardous_substance_and_are_stored_properly;
+	producer_copy.see_the_posting_requirements_document_in_the_health_and_safety_representative_toolbox = '' + producer.see_the_posting_requirements_document_in_the_health_and_safety_representative_toolbox;
+	producer_copy.materials_are_stored_securely_and_at_an_appropriate_height = '' + producer.materials_are_stored_securely_and_at_an_appropriate_height;
+	producer_copy.material_and_storage_systems_are_secured_from_tipping_and_are_in_good_condition = '' + producer.material_and_storage_systems_are_secured_from_tipping_and_are_in_good_condition;
+	producer_copy.step_stools_and_ladders_are_available_and_in_good_condition = '' + producer.step_stools_and_ladders_are_available_and_in_good_condition;
+	producer_copy.storage_room_is_maintained_and_clean_if_applicable = '' + producer.storage_room_is_maintained_and_clean_if_applicable;
+	producer_copy.washrooms_are_clean = '' + producer.washrooms_are_clean;
+	producer_copy.hygiene_supplies_are_available_soap_towels_bathroom_tissue = '' + producer.hygiene_supplies_are_available_soap_towels_bathroom_tissue;
+	producer_copy.waste_containers_are_emptied_daily = '' + producer.waste_containers_are_emptied_daily;
+	producer_copy.kitchen_area_appliances_countertop_etc_is_clean = '' + producer.kitchen_area_appliances_countertop_etc_is_clean;
+	producer_copy.appliances_are_in_good_condition_and_are_csa_or_ulc_approved = '' + producer.appliances_are_in_good_condition_and_are_csa_or_ulc_approved;
+	producer_copy.one_appliance_is_plugged_in_the_same_socket_at_the_same_time = '' + producer.one_appliance_is_plugged_in_the_same_socket_at_the_same_time;
+	producer_copy.parking_lot_and_outside_of_the_building_are_in_good_condition_snow_removal_salting_lighting = '' + producer.parking_lot_and_outside_of_the_building_are_in_good_condition_snow_removal_salting_lighting;
+	producer_copy.other = '' + producer.other;
+	*/
+
+	return description;
+}
+
+//CREATES A COPY OF THE PRODUCER OBJECT THAT CAN BE SERIALIZED
+function createCurrentCopy(){
+	var producer_copy = {};
+	
+	var aislesHazards = JSON.parse(producer.hazard_s_to_report_in_aisles_and_flooring);
+	var environmentHazards = JSON.parse(producer.hazard_s_to_report_in_environment);
+	var electricalHazards = JSON.parse(producer.hazard_s_to_report_in_electrical);
+	var firstAidHazards = JSON.parse(producer.hazard_s_to_report_in_first_aid_and_emergency_preparedness);
+	var housekeepingHazards = JSON.parse(producer.hazard_s_to_housekeeping);
+	var postingHazards = JSON.parse(producer.hazard_s_to_posting_requirements);
+	var storageHazards = JSON.parse(producer.hazard_s_to_storage_shelving_and_cabinets);
+	var washroomsHazards = JSON.parse(producer.hazard_s_to_washrooms_and_kitchens);
+	var outdoorHazards = JSON.parse(producer.hazard_s_to_outdoor);
+	var otherHazards = JSON.parse(producer.hazard_s_to_others);
+	
+	//Copy checkboxes
+	producer_copy.floors_are_clear = '' + producer.floors_are_clear;
+	producer_copy.signs_are_posted_when_the_floors_are_wet = '' + producer.signs_are_posted_when_the_floors_are_wet;
+	producer_copy.walkways_are_free_from_obstructions = '' + producer.walkways_are_free_from_obstructions;
+	producer_copy.main_aisles_are_at_least_36_inches_wide = '' + producer.main_aisles_are_at_least_36_inches_wide;
+	producer_copy.lighting_levels_are_operational_entrance_office_and_stairways = '' + producer.lighting_levels_are_operational_entrance_office_and_stairways;
+	producer_copy.air_quality_is_adequate = '' + producer.air_quality_is_adequate;
+	producer_copy.temperature_is_adequate = '' + producer.temperature_is_adequate;
+	producer_copy.noise_levels_are_appropriate = '' + producer.noise_levels_are_appropriate;
+	producer_copy.ventilation_is_adequate = '' + producer.ventilation_is_adequate;
+	producer_copy.hazardous_products_are_properly_identified = '' + producer.hazardous_products_are_properly_identified;
+	producer_copy.ceiling_tiles_are_in_good_condition = '' + producer.ceiling_tiles_are_in_good_condition;
+	producer_copy.cords_and_plugs_are_in_good_condition = '' + producer.cords_and_plugs_are_in_good_condition;
+	producer_copy.power_bars_are_not_plugged_into_another_power_bar_daisy_chain = '' + producer.power_bars_are_not_plugged_into_another_power_bar_daisy_chain;
+	producer_copy.space_heaters_are_csa_approved_and_have_an_auto_shut_off_feature = '' + producer.space_heaters_are_csa_approved_and_have_an_auto_shut_off_feature;
+	producer_copy.wire_management_in_good_condition_and_are_not_a_tripping_hazard = '' + producer.wire_management_in_good_condition_and_are_not_a_tripping_hazard;
+	producer_copy.first_aid_kits_are_inspected_on_a_monthly_basis_and_are_they_accessible = '' + producer.first_aid_kits_are_inspected_on_a_monthly_basis_and_are_they_accessible;
+	producer_copy.fire_extinguishers_are_hung_properly_are_accessible_inspected_on_a_monthly_basis = '' + producer.fire_extinguishers_are_hung_properly_are_accessible_inspected_on_a_monthly_basis;
+	producer_copy.emergency_exits_are_free_from_obstruction = '' + producer.emergency_exits_are_free_from_obstruction;
+	producer_copy.emergency_exits_signs_are_properly_lit = '' + producer.emergency_exits_signs_are_properly_lit;
+	producer_copy.evacuation_plan_is_properly_posted = '' + producer.evacuation_plan_is_properly_posted;
+	producer_copy.fire_hose_cabinets_are_accessible_and_free_of_obstruction = '' +  producer.fire_hose_cabinets_are_accessible_and_free_of_obstruction;
+	producer_copy.pull_stations_are_accessible_and_free_of_obstruction = '' + producer.pull_stations_are_accessible_and_free_of_obstruction;
+	producer_copy.security_systems_intercom_duress_alarm_etc = '' + producer.security_systems_intercom_duress_alarm_etc;
+	producer_copy.is_the_office_furniture_ergonomic_and_in_good_condition = '' + producer.is_the_office_furniture_ergonomic_and_in_good_condition;
+	producer_copy.paper_trimmer_cutter_blade_is_closed_and_secured = '' + producer.paper_trimmer_cutter_blade_is_closed_and_secured;
+	producer_copy.desk_and_file_cabinet_drawers_are_closed_while_not_in_use = '' + producer.desk_and_file_cabinet_drawers_are_closed_while_not_in_use;
+	producer_copy.is_the_office_furniture_free_from_sharp_edges_and_corners = '' + producer.is_the_office_furniture_free_from_sharp_edges_and_corners;
+	producer_copy.printer_toners_are_handled_as_a_hazardous_substance_and_are_stored_properly = '' + producer.printer_toners_are_handled_as_a_hazardous_substance_and_are_stored_properly;
+	producer_copy.see_the_posting_requirements_document_in_the_health_and_safety_representative_toolbox = '' + producer.see_the_posting_requirements_document_in_the_health_and_safety_representative_toolbox;
+	producer_copy.materials_are_stored_securely_and_at_an_appropriate_height = '' + producer.materials_are_stored_securely_and_at_an_appropriate_height;
+	producer_copy.material_and_storage_systems_are_secured_from_tipping_and_are_in_good_condition = '' + producer.material_and_storage_systems_are_secured_from_tipping_and_are_in_good_condition;
+	producer_copy.step_stools_and_ladders_are_available_and_in_good_condition = '' + producer.step_stools_and_ladders_are_available_and_in_good_condition;
+	producer_copy.storage_room_is_maintained_and_clean_if_applicable = '' + producer.storage_room_is_maintained_and_clean_if_applicable;
+	producer_copy.washrooms_are_clean = '' + producer.washrooms_are_clean;
+	producer_copy.hygiene_supplies_are_available_soap_towels_bathroom_tissue = '' + producer.hygiene_supplies_are_available_soap_towels_bathroom_tissue;
+	producer_copy.waste_containers_are_emptied_daily = '' + producer.waste_containers_are_emptied_daily;
+	producer_copy.kitchen_area_appliances_countertop_etc_is_clean = '' + producer.kitchen_area_appliances_countertop_etc_is_clean;
+	producer_copy.appliances_are_in_good_condition_and_are_csa_or_ulc_approved = '' + producer.appliances_are_in_good_condition_and_are_csa_or_ulc_approved;
+	producer_copy.one_appliance_is_plugged_in_the_same_socket_at_the_same_time = '' + producer.one_appliance_is_plugged_in_the_same_socket_at_the_same_time;
+	producer_copy.parking_lot_and_outside_of_the_building_are_in_good_condition_snow_removal_salting_lighting = '' + producer.parking_lot_and_outside_of_the_building_are_in_good_condition_snow_removal_salting_lighting;
+	producer_copy.other = '' + producer.other;
+	
+	//Copy MVRSs
+	
+	producer_copy.other_inspectors ='' + producer.other_inspectors;
+	producer_copy.hazard_s_to_report_in_aisles_and_flooring = aislesHazards;
+	producer_copy.hazard_s_to_report_in_environment = environmentHazards;
+	producer_copy.hazard_s_to_report_in_electrical = electricalHazards;
+	producer_copy.hazard_s_to_report_in_first_aid_and_emergency_preparedness = firstAidHazards;
+	producer_copy.hazard_s_to_housekeeping = housekeepingHazards;
+	producer_copy.hazard_s_to_posting_requirements = postingHazards;
+	producer_copy.hazard_s_to_storage_shelving_and_cabinets = storageHazards;
+	producer_copy.hazard_s_to_washrooms_and_kitchens = washroomsHazards;
+	producer_copy.hazard_s_to_outdoor = outdoorHazards;
+	producer_copy.hazard_s_to_others = otherHazards;
+	
+	return producer_copy;
+	
+}
+
+function generateReportShortDescription(){
+	return 'Incident report on ' + producer.building.getDisplayValue() + " (floor " + producer.floor_inspected.getDisplayValue() + ") at " + producer.date_time_of_inspection.getDisplayValue();
+}
+
+function generateCorrectiveActionShortDescription(hazard){
+	return "Hazard: '" + hazard + "' at " + producer.building.getDisplayValue() + " (floor " + producer.floor_inspected.getDisplayValue() + ")";
+}
+
+]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-09-09 12:44:11</sys_created_on>
+        <sys_id>936de3601b2ab810426497d58d4bcb19</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Monthly Workplace Inspection Report</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_936de3601b2ab810426497d58d4bcb19</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-28 15:52:37</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_investigation_case</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_hoc_sc_service/>
+        <u_includes_additional_services/>
+        <u_other_additional_services/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=936de3601b2ab810426497d58d4bcb19"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>936de3601b2ab810426497d58d4bcb19</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-01-25 17:37:04</sys_created_on>
+        <sys_id>391c93891b1901109fde86acdd4bcb5b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2023-02-14 15:15:11</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;p&gt;L'inspection d'un lieu de travail est une activit&amp;eacute; importante qui peut contribuer &amp;agrave; pr&amp;eacute;venir les blessures et les maladies professionnelles. Un examen du lieu de travail permet d'identifier et d'enregistrer les dangers et les actions correctives appropri&amp;eacute;es. Les inspections permettent au CLSST et au HSR de :&lt;/p&gt;&#13;
+&lt;ul style="list-style-position: inside;"&gt;&#13;
+&lt;li&gt;mieux comprendre les emplois et les t&amp;acirc;ches ;&lt;/li&gt;&#13;
+&lt;li&gt;identifier les dangers existants et potentiels ;&lt;/li&gt;&#13;
+&lt;li&gt;d&amp;eacute;terminer les causes sous-jacentes des dangers ;&lt;/li&gt;&#13;
+&lt;li&gt;d&amp;eacute;terminer si les contr&amp;ocirc;les des dangers existants sont ad&amp;eacute;quats et op&amp;eacute;rationnels ; et&lt;/li&gt;&#13;
+&lt;li&gt;sugg&amp;eacute;rer des actions correctives le cas &amp;eacute;ch&amp;eacute;ant.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;N'oubliez pas : Durant votre inspection, portez l'&amp;eacute;quipement de protection individuelle (EPI), si n&amp;eacute;cessaire. Si vous n'avez pas d'EPI et que vous ne pouvez pas en obtenir, n'entre pas dans la zone. Indiquez-le comme une lacune lors de l'inspection. R&amp;eacute;inspectez la zone lorsque l'EPI est fournie. Pour plus d'informations sur la planification et la r&amp;eacute;alisation d'une inspection de routine, consultez le guide d'inspection du lieu de travail et les ressources dans votre bo&amp;icirc;te &amp;agrave; outils CLSST.&lt;/p&gt;&#13;
+&lt;p&gt;Pour une exposition &amp;agrave; un produit chimique ou des informations relatives &amp;agrave; un produit chimique, vous pouvez vous r&amp;eacute;f&amp;eacute;rer au &lt;a title="r&amp;eacute;f&amp;eacute;rentiel FDS" href="https://webhouseofcommons77ff9fjquf.maerixium.com/paratoxxpress/binder/default/FR/" target="_blank" rel="noopener noreferrer nofollow"&gt;r&amp;eacute;f&amp;eacute;rentiel FDS&lt;/a&gt; pour plus d'informations.&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>936de3601b2ab810426497d58d4bcb19</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-01-25 17:37:03</sys_created_on>
+        <sys_id>7d1c93891b1901109fde86acdd4bcb54</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-01-25 17:49:26</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Rapport mensuel d'inspection des lieux de travail</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>936de3601b2ab810426497d58d4bcb19</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-01-25 17:37:04</sys_created_on>
+        <sys_id>351c93891b1901109fde86acdd4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-01-25 17:37:04</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=936de3601b2ab810426497d58d4bcb19"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price</field>
+        <id>936de3601b2ab810426497d58d4bcb19</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-09-09 12:44:11</sys_created_on>
+        <sys_id>42adeb601b2ab810426497d58d4bcb2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2021-09-09 12:44:11</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>recurring_price</field>
+        <id>936de3601b2ab810426497d58d4bcb19</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-09-09 12:44:11</sys_created_on>
+        <sys_id>86adeb601b2ab810426497d58d4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2021-09-09 12:44:11</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

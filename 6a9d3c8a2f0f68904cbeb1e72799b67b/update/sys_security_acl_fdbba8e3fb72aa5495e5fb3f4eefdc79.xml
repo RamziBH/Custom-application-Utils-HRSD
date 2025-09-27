@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>allow users who are assigned with x_hccc_hoc_ohs.advisor role  to update collaborators field in the case of OHS Assessments and Workplace Assessments Request</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_hccc_hoc_ohs_case.collaborators</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-23 13:58:29</sys_created_on>
+        <sys_id>fdbba8e3fb72aa5495e5fb3f4eefdc79</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_case.collaborators</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_security_acl_fdbba8e3fb72aa5495e5fb3f4eefdc79</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-25 17:43:38</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>fdbba8e3fb72aa5495e5fb3f4eefdc79</id>
+        <sys_created_by>Benoit.Proulx@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-23 14:08:17</sys_created_on>
+        <sys_id>625f282bfb7aaa5495e5fb3f4eefdc11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Benoit.Proulx@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-23 14:08:17</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

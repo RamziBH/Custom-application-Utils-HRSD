@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.message {&#13;
+ 	font-size:115%;&#13;
+  font-weight:bold;&#13;
+  text-align:left;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Widget to display confirmation messages in Health &amp; Safety</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hoc_ohdm_nurse_appt_confirmation</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>HoC OHSM Nurse Appt Confirmation</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var language = gs.getSession().getLanguage();//gs.getMessage($sp.getParameter("language"));
+	var caseNumber = gs.getMessage($sp.getParameter("requestNumber"));
+	//x_hccc_hoc_ohs_vaccination_appointment.do?sys_id=487fc8f01beb0a109fde86acdd4bcb65
+	var apptSysId = new GlideRecordSecure('x_hccc_hoc_ohs_vaccination_appointment');
+	apptSysId.get('number', caseNumber);
+	var message = "";
+	if (language == "en"){
+		
+		message+= 'The appointment has been created. The appointment number is <a target="_blank" href="/x_hccc_hoc_ohs_vaccination_appointment?sys_id='+ apptSysId.sys_id + '">' + caseNumber + '</a><br><br>';
+		
+	}
+	if (language == "fq"){
+		
+			message+= "<br>Bonne journée,<br><br> Votre demande a été soumise avec succès. Le numéro de dossier est {caseNumber}. <br><br>";
+		
+	}
+	
+	
+	data.message = message;
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-25 17:40:40</sys_created_on>
+        <sys_id>aad60cbe1b6b0e58813f844fdd4bcb88</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>HoC OHSM Nurse Appt Confirmation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_aad60cbe1b6b0e58813f844fdd4bcb88</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-25 18:16:10</sys_updated_on>
+        <template><![CDATA[<div>
+	<center>
+      	<br /><br />
+  		<div class="message" ng-bind-html="data.message"></div>
+	</center>
+</div>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Follow-up" section_id="bb026dfa1b76f0109fde86acdd4bcb21" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="corrective_action">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wi_who</element>
+            <position>0</position>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 14:04:02</sys_created_on>
+            <sys_id>028954a31b43e5d49fde86acdd4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Follow-up" display_value="Follow-up" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="47d364a21b7a30109fde86acdd4bcb4a">bb026dfa1b76f0109fde86acdd4bcb21</sys_ui_section>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 14:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wi_when</element>
+            <position>1</position>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 14:04:02</sys_created_on>
+            <sys_id>068954a31b43e5d49fde86acdd4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Follow-up" display_value="Follow-up" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="47d364a21b7a30109fde86acdd4bcb4a">bb026dfa1b76f0109fde86acdd4bcb21</sys_ui_section>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 14:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 14:04:02</sys_created_on>
+            <sys_id>0a8954a31b43e5d49fde86acdd4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Follow-up" display_value="Follow-up" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="47d364a21b7a30109fde86acdd4bcb4a">bb026dfa1b76f0109fde86acdd4bcb21</sys_ui_section>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 14:04:02</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wi_famis_number</element>
+            <position>3</position>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 14:04:02</sys_created_on>
+            <sys_id>0e8954a31b43e5d49fde86acdd4bcbb5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Follow-up" display_value="Follow-up" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="47d364a21b7a30109fde86acdd4bcb4a">bb026dfa1b76f0109fde86acdd4bcb21</sys_ui_section>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 14:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wi_completion_date</element>
+            <position>4</position>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 14:04:02</sys_created_on>
+            <sys_id>028954a31b43e5d49fde86acdd4bcbb6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Follow-up" display_value="Follow-up" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="47d364a21b7a30109fde86acdd4bcb4a">bb026dfa1b76f0109fde86acdd4bcb21</sys_ui_section>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 14:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 14:04:02</sys_created_on>
+            <sys_id>c68954a31b43e5d49fde86acdd4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Follow-up" display_value="Follow-up" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="47d364a21b7a30109fde86acdd4bcb4a">bb026dfa1b76f0109fde86acdd4bcb21</sys_ui_section>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 14:04:02</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wi_action_taken</element>
+            <position>6</position>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 14:04:02</sys_created_on>
+            <sys_id>ca8954a31b43e5d49fde86acdd4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Follow-up" display_value="Follow-up" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="47d364a21b7a30109fde86acdd4bcb4a">bb026dfa1b76f0109fde86acdd4bcb21</sys_ui_section>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 14:04:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Follow-up</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-09-28 12:36:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb026dfa1b76f0109fde86acdd4bcb21</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_bb026dfa1b76f0109fde86acdd4bcb21</sys_update_name>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 14:36:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Corrective action" name="corrective_action">47d364a21b7a30109fde86acdd4bcb4a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

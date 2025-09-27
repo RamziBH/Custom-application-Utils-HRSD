@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=a284e0261b7a30109fde86acdd4bcbfc^EQ<item display_table="sn_hr_core_service" display_value="Corrective action" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="a284e0261b7a30109fde86acdd4bcbfc"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="">&nbsp;</p>
+<p><span style="font-family: 'calibri light'; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"> <em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+<p><strong>Please do not reply to this email. This system cannot receive messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">The corrective action '${number}' must be assigned</span></p>
+<p>A health and safety hazard has been identified during a monthly workplace health and safety inspection and requires your immediate attention.</p>
+<p>&nbsp;</p>
+<p>Name of inspector: ${parent.subject_person}</p>
+<p>Other inspector(s): ${mail_script:hoc_ohsm_generate_inspectors_list}</p>
+<p>Location: ${wi_location}</p>
+<p>Hazard: &nbsp;${wi_hazard}</p>
+<p>Hazard corrected on site by inspector: ${hazard_removed}</p>
+<p>Recommended action from WHSC, if any: ${wi_action_taken}</p>
+<p>&nbsp;</p>
+<p>Please click here to access the workplace inspection report and action your items within the specified timeline above.</p>
+<p>Please open the following <a href="${mail_script:x_hccc_hoc_ohs_inv_case_link}" target="_blank" rel="noopener">link</a></p>
+<p>&nbsp;</p>
+<div>
+<p><strong>Occupational Health and Safety</strong></p>
+<p>House of Commons</p>
+<p>50 O&rsquo;Connor, 8<span data-fontsize="11">th</span> floor <br>Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Office: 613-995-3614</p>
+</div>
+<hr noshade="noshade">
+<p><span style="font-family: 'calibri light'; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p>&nbsp;</p>
+<p><strong>Pri&egrave;re de ne pas r&eacute;pondre au pr&eacute;sent courriel, car il provient d&rsquo;une adresse qui ne peut pas recevoir de messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">L&rsquo;action corrective '${number}' doit &ecirc;tre assign&eacute;e</span></p>
+<p>Un danger pour la sant&eacute; et la s&eacute;curit&eacute; a &eacute;t&eacute; identifi&eacute; lors d'une inspection mensuelle de la sant&eacute; et de la s&eacute;curit&eacute; au travail et n&eacute;cessite votre attention imm&eacute;diate.</p>
+<p>&nbsp;</p>
+<p>Nom de l'inspecteur : ${parent.subject_person}</p>
+<p>Nom du ou des autres inspecteurs : ${mail_script:hoc_ohsm_generate_inspectors_list}</p>
+<p>Lieu: ${wi_location}</p>
+<p>Danger: ${wi_hazard}</p>
+<p>Danger corrig&eacute; sur place par l'inspecteur : ${mail_script:corrective_action_hazard_removed_french}</p>
+<p>Action recommand&eacute;e par le WHSC, le cas &eacute;ch&eacute;ant : ${wi_action_taken}</p>
+<p>&nbsp;</p>
+<p>Veuillez cliquer ici pour acc&eacute;der au rapport d'inspection du lieu de travail et traiter vos &eacute;l&eacute;ments dans le</p>
+<p>Veuillez ouvrir le <a href="${mail_script:x_hccc_hoc_ohs_inv_case_link}" target="_blank" rel="noopener">lien</a> suivant</p>
+<p>&nbsp;</p>
+<div>
+<p><strong>Sant&eacute; et s&eacute;curit&eacute; au travail</strong></p>
+<p>Chambre des communes</p>
+<p>50 Rue O&rsquo;Connor, 8<span data-fontsize="11">e</span> &eacute;tage <br>Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Bureau: 613-995-3614</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Corrective action - Notify the manager of the area</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>wi_manager_responsible_for_the_area.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>ACTION REQUIRED: The  corrective action '${number}' must be assigned / ACTION REQUISE: L'action corrective '${number}' doit être assignée</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-06-09 13:32:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ea2b1a88744591050d2eca73cbb3521</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Corrective action - Notify the manager of the area</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_8ea2b1a88744591050d2eca73cbb3521</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-07 14:13:57</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8ea2b1a88744591050d2eca73cbb3521</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-07 14:13:57</sys_created_on>
+        <sys_id>c73e08fefbdd6ad095e5fb3f4eefdc00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-07 14:13:57</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

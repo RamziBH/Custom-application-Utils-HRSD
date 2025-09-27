@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from/>
+        <description>For the OHS Harassment and Violence module, test the tab and field access permissions for OHS advisors when they are set to handle the case or not. </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>DNU - OHS - H&amp;V - Field and Tab access for OHS Advisors</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-25 15:17:04</sys_created_on>
+        <sys_id>4ff563661be78ad89fde86acdd4bcb0f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DNU - OHS - H&amp;V - Field and Tab access for OHS Advisors</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_4ff563661be78ad89fde86acdd4bcb0f</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:38:48</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=4ff563661be78ad89fde86acdd4bcb0f"/>
+</record_update>

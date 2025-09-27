@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Run Server Side Script">275b38a01b3f61d49fde86acdd4bcbea</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>getLocationString(GlideRecord)</notes>
+        <order>17</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:13</sys_created_on>
+        <sys_id>98360e3a3bc99a18aeb1ebc964e45a7b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_98360e3a3bc99a18aeb1ebc964e45a7b</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:13</sys_updated_on>
+        <table/>
+        <test display_value="OHS - HoCOHSMUtils">ef264a3a3bc99a18aeb1ebc964e45ada</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=98360e3a3bc99a18aeb1ebc964e45a7b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>98360e3a3bc99a18aeb1ebc964e45a7b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:13</sys_created_on>
+        <sys_id>94360e3a3bc99a18aeb1ebc964e45a7c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:13</sys_updated_on>
+        <value>//Using jasmine&#13;
+(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+	//setup&#13;
+	var ohsmUtils = new x_hccc_hoc_ohs.HoCOHSMUtils();&#13;
+&#13;
+	var locationBuildingSysId = steps('2f268a3a3bc99a18aeb1ebc964e45a0b').record_id;&#13;
+	var locationRoomSysId = steps('27268a3a3bc99a18aeb1ebc964e45a5a').record_id;&#13;
+	&#13;
+	var OHSM_CASES = {&#13;
+		WITH_LOCATION: steps('fb268a3a3bc99a18aeb1ebc964e45ada').record_id,&#13;
+		WITH_LOCATION_ROOM: steps('f726ca3a3bc99a18aeb1ebc964e45a0c').record_id,&#13;
+		WITH_LOCATION_AREA: steps('cc36ca3a3bc99a18aeb1ebc964e45a87').record_id,&#13;
+		WITH_LOCATION_DETAILS: steps('4c36ca3a3bc99a18aeb1ebc964e45aa0').record_id,&#13;
+		WITH_LOCATION_AREA_DETAILS: steps('4c36ca3a3bc99a18aeb1ebc964e45ac7').record_id,&#13;
+		WITH_LOCATION_ROOM_AREA: steps('8c36ca3a3bc99a18aeb1ebc964e45aee').record_id,&#13;
+		WITH_LOCATION_ROOM_DETAILS: steps('d0360e3a3bc99a18aeb1ebc964e45a3a').record_id,&#13;
+		WITH_LOCATION_ROOM_AREA_DETAILS: steps('dc360e3a3bc99a18aeb1ebc964e45a55').record_id,&#13;
+		WITHOUT_LOCATION: steps('d8360e3a3bc99a18aeb1ebc964e45a64').record_id&#13;
+	};&#13;
+&#13;
+	var caseGr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');&#13;
+&#13;
+	var locationGr = new GlideRecord('cmn_location');&#13;
+	locationGr.get(locationBuildingSysId);&#13;
+	var roomGr = new GlideRecord('cmn_location');&#13;
+	roomGr.get(locationRoomSysId);&#13;
+&#13;
+&#13;
+	//tests&#13;
+	describe('using a glideRecord', function() {&#13;
+		describe('that contains location, street, room, area and details', function(){&#13;
+			it('should return the full address and details', function() {&#13;
+				caseGr.get(OHSM_CASES.WITH_LOCATION_ROOM_AREA_DETAILS);&#13;
+				var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+				var expectedOutput = locationGr.getDisplayValue('name')+"("+locationGr.getDisplayValue('street')+")";&#13;
+				expectedOutput += '\n' + roomGr.getDisplayValue('name');&#13;
+				expectedOutput += '\n' + caseGr.getDisplayValue('inc_location_area');&#13;
+				expectedOutput += '\n' + caseGr.getDisplayValue('inc_specific_location');&#13;
+				&#13;
+				expect(locationString).toBe(expectedOutput);&#13;
+			});&#13;
+		});&#13;
+		describe('that contains location (and street)', function(){&#13;
+			it('should return basic details', function() {&#13;
+				caseGr.get(OHSM_CASES.WITH_LOCATION);&#13;
+				var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+				expect(locationString).toBe(locationGr.getDisplayValue('name')+"("+locationGr.getDisplayValue('street')+")");&#13;
+			});&#13;
+		});&#13;
+		describe('that contains location and room', function(){&#13;
+			it('should return basic details', function() {&#13;
+				caseGr.get(OHSM_CASES.WITH_LOCATION_ROOM);&#13;
+				var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+				var expectedOutput = locationGr.getDisplayValue('name')+"("+locationGr.getDisplayValue('street')+")";&#13;
+				expectedOutput += '\n' + roomGr.getDisplayValue('name');&#13;
+				&#13;
+				expect(locationString).toBe(expectedOutput);&#13;
+			});&#13;
+		});&#13;
+		describe('that contains location and area', function(){&#13;
+			it('should return basic details', function() {&#13;
+				caseGr.get(OHSM_CASES.WITH_LOCATION_AREA);&#13;
+				var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+				var expectedOutput = locationGr.getDisplayValue('name')+"("+locationGr.getDisplayValue('street')+")";&#13;
+				expectedOutput += '\n' + caseGr.getDisplayValue('inc_location_area');&#13;
+				&#13;
+				expect(locationString).toBe(expectedOutput);&#13;
+			});&#13;
+		});&#13;
+		describe('that contains location and details', function(){&#13;
+			it('should return basic details', function() {&#13;
+				caseGr.get(OHSM_CASES.WITH_LOCATION_DETAILS);&#13;
+				var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+				var expectedOutput = locationGr.getDisplayValue('name')+"("+locationGr.getDisplayValue('street')+")";&#13;
+				expectedOutput += '\n' + caseGr.getDisplayValue('inc_specific_location');&#13;
+				&#13;
+				expect(locationString).toBe(expectedOutput);&#13;
+			});&#13;
+		});&#13;
+		describe('that contains location, area and details', function(){&#13;
+			it('should return basic details', function() {&#13;
+				caseGr.get(OHSM_CASES.WITH_LOCATION_AREA_DETAILS);&#13;
+				var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+				var expectedOutput = locationGr.getDisplayValue('name')+"("+locationGr.getDisplayValue('street')+")";&#13;
+				expectedOutput += '\n' + caseGr.getDisplayValue('inc_location_area');&#13;
+				expectedOutput += '\n' + caseGr.getDisplayValue('inc_specific_location');&#13;
+				&#13;
+				expect(locationString).toBe(expectedOutput);&#13;
+			});&#13;
+		});&#13;
+		describe('that contains location, room and details', function(){&#13;
+			it('should return basic details', function() {&#13;
+				caseGr.get(OHSM_CASES.WITH_LOCATION_ROOM_DETAILS);&#13;
+				var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+				var expectedOutput = locationGr.getDisplayValue('name')+"("+locationGr.getDisplayValue('street')+")";&#13;
+				expectedOutput += '\n' + roomGr.getDisplayValue('name');&#13;
+				expectedOutput += '\n' + caseGr.getDisplayValue('inc_specific_location');&#13;
+				&#13;
+				expect(locationString).toBe(expectedOutput);&#13;
+			});&#13;
+		});&#13;
+		describe('that contains location, room an area', function(){&#13;
+			it('should return basic details', function() {&#13;
+				caseGr.get(OHSM_CASES.WITH_LOCATION_ROOM_AREA);&#13;
+				var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+				var expectedOutput = locationGr.getDisplayValue('name')+"("+locationGr.getDisplayValue('street')+")";&#13;
+				expectedOutput += '\n' + roomGr.getDisplayValue('name');&#13;
+				expectedOutput += '\n' + caseGr.getDisplayValue('inc_location_area');&#13;
+				&#13;
+				expect(locationString).toBe(expectedOutput);&#13;
+			});&#13;
+		});&#13;
+		/*describe('that does contains no location', function(){&#13;
+			it('should throw an error', function() {&#13;
+				caseGr.get(OHSM_CASES.WITHOUT_LOCATION);&#13;
+				expect(function(){&#13;
+					var locationString = ohsmUtils.getLocationString(caseGr);&#13;
+					stepResult.setOutputMessage("expecting to throw but instead we have: " + locationString);&#13;
+				}).toThrow();&#13;
+			});&#13;
+		});*/ //currently the function will work and return all other info available&#13;
+	});&#13;
+})(outputs, steps, params, stepResult, assertEqual);&#13;
+jasmine.getEnv().execute();</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>98360e3a3bc99a18aeb1ebc964e45a7b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:13</sys_created_on>
+        <sys_id>d0360e3a3bc99a18aeb1ebc964e45a7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:13</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

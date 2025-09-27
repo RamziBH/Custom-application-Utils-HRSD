@@ -1,0 +1,2979 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>REST call to unit 4</description>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>ohs__telework__send_agreement_to_unit4</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.document}}","label":"action➛document","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.telework_agreement}}","label":"action➛telework agreement","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.endpoint}}","label":"action➛endpoint","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.employeeNumber}}","label":"action➛employeeNumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.teleworkAgreement}}","label":"action➛teleworkAgreement","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"multi_small","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.teleworkagreement}}","label":"action➛JSON String Telework Agreement","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.employeenumber}}","label":"action➛employee Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.message}}","label":"step➛REST step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>0ea76ca31bdf8a589fde86acdd4bcb3f</master_snapshot>
+        <master_snapshot_digest/>
+        <name>HoC OHSM - Telework - Send Agreement to Unit4</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:25:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>3a64d92e1b5f8214813f844fdd4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC OHSM - Telework - Send Agreement to Unit4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3a64d92e1b5f8214813f844fdd4bcb74</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-09 08:14:35</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3a64d92e1b5f8214813f844fdd4bcb74"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3a64d92e1b5f8214813f844fdd4bcb74"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3a64d92e1b5f8214813f844fdd4bcb74</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:11</sys_created_on>
+        <sys_id>33b51d2e1bdf8214813f844fdd4bcb5e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>azure.DavidChristian.Smith@parlissi.gc.c</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:35:44</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FD67b51d2e6cdf8214626f01ecebc8191b":{},"FlowDesigner:FD67b51d2e6cdf8214626f01ecebc8191b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d232729e-c2e6-42af-9572-436dbddb8dfc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD67b51d2e6cdf8214626f01ecebc8191b\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">bbb51d2e1bdf8214813f844fdd4bcb1c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3a64d92e1b5f8214813f844fdd4bcb74</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:11</sys_created_on>
+        <sys_id>7fb51d2e1bdf8214813f844fdd4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">37b51d2e1bdf8214813f844fdd4bcb22</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3a64d92e1b5f8214813f844fdd4bcb74"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>3a64d92e1b5f8214813f844fdd4bcb74</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:58:52</sys_created_on>
+        <sys_id>bf1be4a31b17ca589fde86acdd4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:58:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</table>
+        <value>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_code</field>
+        <id>3a64d92e1b5f8214813f844fdd4bcb74</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:58:52</sys_created_on>
+        <sys_id>771be4a31b17ca589fde86acdd4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:58:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</table>
+        <value>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>3a64d92e1b5f8214813f844fdd4bcb74</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:11</sys_created_on>
+        <sys_id>fbb51d2e1bdf8214813f844fdd4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>3a64d92e1b5f8214813f844fdd4bcb74</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:11</sys_created_on>
+        <sys_id>3bb51d2e1bdf8214813f844fdd4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT INefb5d92e1bdf8214813f844fdd4bcba3"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</action>
+        <cid>bd31b109-475a-4fec-8468-73cb0d5c1fe4</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>efb5d92e1bdf8214813f844fdd4bcba3</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.DavidChristian.Smith@parlissi.gc.c</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:39:07</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=efb5d92e1bdf8214813f844fdd4bcba3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:46:18</sys_created_on>
+        <sys_id>1d3955ea1bd3c214813f844fdd4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:46:18</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>2bb5d92e1bdf8214813f844fdd4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>2fb5d92e1bdf8214813f844fdd4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>14</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>30f89da61bd3c214813f844fdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>${mid_server}</value>
+        <variable display_value="MID Server">61d6b2cb73131010791f94596bf6a721</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>34f89da61bd3c214813f844fdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>patch</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>67b5d92e1bdf8214813f844fdd4bcbf0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.DavidChristian.Smith@parlissi.gc.c</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:39:07</sys_updated_on>
+        <value>https://api2-dvnlb1.rmis-sigr.tenantdev.hoc-cdc.ca/EmployeeServices</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>6bb5d92e1bdf8214813f844fdd4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>90</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>70f89da61bd3c214813f844fdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>8dd42d811b434a94813f844fdd4bcb02</value>
+        <variable display_value="REST Message">b79bea415b101110ab933520b881c737</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>78f89da61bd3c214813f844fdd4bcbf7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>305c25c11bcb4a94813f844fdd4bcb8e</value>
+        <variable display_value="REST Message Function">35bb6e415b101110ab933520b881c752</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>7cf89da61bd3c214813f844fdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Use MID">e532afc12f101300a09a839fb18c95b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>a3b5d92e1bdf8214813f844fdd4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>a7b5d92e1bdf8214813f844fdd4bcbef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>afb5d92e1bdf8214813f844fdd4bcbee</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>manually</value>
+        <variable display_value="Build Request">bb61fcd3c7312300a150effeeb97638e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>b8f89da61bd3c214813f844fdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json-patch+json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>ebb5d92e1bdf8214813f844fdd4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>efb5d92e1bdf8214813f844fdd4bcbef</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.DavidChristian.Smith@parlissi.gc.c</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:39:07</sys_updated_on>
+        <value>709650c52faa20904cbeb1e72799b609</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>f0f89da61bd3c214813f844fdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>efb5d92e1bdf8214813f844fdd4bcba3</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>f4f89da61bd3c214813f844fdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">a7d3fa4b73131010791f94596bf6a79a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_efb5d92e1bdf8214813f844fdd4bcba3^id=efb5d92e1bdf8214813f844fdd4bcba3"/>
+    <sys_element_mapping action="delete_multiple" query="id=efb5d92e1bdf8214813f844fdd4bcba3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>6bb5d92e1bdf8214813f844fdd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>a7b5d92e1bdf8214813f844fdd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>b4f89da61bd3c214813f844fdd4bcbdc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 13:21:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.teleworkagreement}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>build_request</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>23b5d92e1bdf8214813f844fdd4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>e3b5d92e1bdf8214813f844fdd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>23b5d92e1bdf8214813f844fdd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>2fb5d92e1bdf8214813f844fdd4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enable_retry_policy</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:46:18</sys_created_on>
+        <sys_id>993955ea1bd3c214813f844fdd4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:46:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>f0f89da61bd3c214813f844fdd4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>e7b5d92e1bdf8214813f844fdd4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>6fb5d92e1bdf8214813f844fdd4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>3cf89da61bd3c214813f844fdd4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>b0f89da61bd3c214813f844fdd4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>78f89da61bd3c214813f844fdd4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>3cf89da61bd3c214813f844fdd4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>fcf89da61bd3c214813f844fdd4bcbdc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 13:32:07</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/api/v1/Employees/{{action.employeenumber}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_message</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>78f89da61bd3c214813f844fdd4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_message_function</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>fcf89da61bd3c214813f844fdd4bcbdb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>abb5d92e1bdf8214813f844fdd4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>use_mid</field>
+        <id>efb5d92e1bdf8214813f844fdd4bcba3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:11</sys_created_on>
+        <sys_id>b4f89da61bd3c214813f844fdd4bcbf6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:11</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=efb5d92e1bdf8214813f844fdd4bcba3"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=efb5d92e1bdf8214813f844fdd4bcba3^sys_idNOT IN6fb5d92e1bdf8214813f844fdd4bcbc8"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=003b690b-3b57-4bd0-8533-dd0dcf7ab3b5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">efb5d92e1bdf8214813f844fdd4bcba3</model>
+        <model_id>efb5d92e1bdf8214813f844fdd4bcba3</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_efb5d92e1bdf8214813f844fdd4bcba3</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>6fb5d92e1bdf8214813f844fdd4bcbc8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:46:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=efb5d92e1bdf8214813f844fdd4bcba3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_efb5d92e1bdf8214813f844fdd4bcba3^sys_idNOT IN6bb5d92e1bdf8214813f844fdd4bcbcc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_efb5d92e1bdf8214813f844fdd4bcba3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>6bb5d92e1bdf8214813f844fdd4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credential Value</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_efb5d92e1bdf8214813f844fdd4bcba3_sn_auth_token_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT INacf89da61bd3c214813f844fdd4bcb36,acf89da61bd3c214813f844fdd4bcb61"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0bccf60e-4655-4afd-b9d4-41c2bf101222</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>employeenumber</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>employee Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</model>
+        <model_id>3a64d92e1b5f8214813f844fdd4bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:10</sys_created_on>
+        <sys_id>acf89da61bd3c214813f844fdd4bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=acf89da61bd3c214813f844fdd4bcb36"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a5af0caa-ec61-4ab8-9787-7b00e5dbd951</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>teleworkagreement</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>JSON String Telework Agreement</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</model>
+        <model_id>3a64d92e1b5f8214813f844fdd4bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:10</sys_created_on>
+        <sys_id>acf89da61bd3c214813f844fdd4bcb61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:10</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=acf89da61bd3c214813f844fdd4bcb61"/>
+    <sys_hub_action_output action="delete_multiple" query="model=3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT IN37b51d2e1bdf8214813f844fdd4bcb22,7f1ba4a31b17ca589fde86acdd4bcba4,bbb51d2e1bdf8214813f844fdd4bcb1c,bf1ba4a31b17ca589fde86acdd4bcb1e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=01cdc82c-35d6-4f85-943d-f06bf6b3d820,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</model>
+        <model_id>3a64d92e1b5f8214813f844fdd4bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:11</sys_created_on>
+        <sys_id>37b51d2e1bdf8214813f844fdd4bcb22</sys_id>
+        <sys_mod_count>99</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=37b51d2e1bdf8214813f844fdd4bcb22"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=37b51d2e1bdf8214813f844fdd4bcb22"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=5d6d8e92-a897-4593-afee-e52da1e2ae39</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response Body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</model>
+        <model_id>3a64d92e1b5f8214813f844fdd4bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:58:52</sys_created_on>
+        <sys_id>7f1ba4a31b17ca589fde86acdd4bcba4</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7f1ba4a31b17ca589fde86acdd4bcba4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7f1ba4a31b17ca589fde86acdd4bcba4"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD67b51d2e6cdf8214626f01ecebc8191b</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6a9d3c8a2f0f68904cbeb1e72799b67b</scope_name>
+        <serialized_content>{"FlowDesigner:FD67b51d2e6cdf8214626f01ecebc8191b":{},"FlowDesigner:FD67b51d2e6cdf8214626f01ecebc8191b.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d232729e-c2e6-42af-9572-436dbddb8dfc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD67b51d2e6cdf8214626f01ecebc8191b\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2bb51d2e1bdf8214813f844fdd4bcb1b</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:53</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD67b51d2e6cdf8214626f01ecebc8191b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d232729e-c2e6-42af-9572-436dbddb8dfc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</model>
+        <model_id>3a64d92e1b5f8214813f844fdd4bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:10</sys_created_on>
+        <sys_id>bbb51d2e1bdf8214813f844fdd4bcb1c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:58:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bbb51d2e1bdf8214813f844fdd4bcb1c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bbb51d2e1bdf8214813f844fdd4bcb1c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=73f90bf4-0851-4994-885f-01c5565d14e5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</model>
+        <model_id>3a64d92e1b5f8214813f844fdd4bcb74</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:58:52</sys_created_on>
+        <sys_id>bf1ba4a31b17ca589fde86acdd4bcb1e</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bf1ba4a31b17ca589fde86acdd4bcb1e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bf1ba4a31b17ca589fde86acdd4bcb1e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3a64d92e1b5f8214813f844fdd4bcb74"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT INb3b51d2e1bdf8214813f844fdd4bcb60"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</action_type_id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:11</sys_created_on>
+        <sys_id>b3b51d2e1bdf8214813f844fdd4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:11</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=b3b51d2e1bdf8214813f844fdd4bcb60^sys_idNOT IN2fb3f8a2fb0d9a9095e5fb3f4eefdcfe,b8c4b82afb0d9a9095e5fb3f4eefdc43,f0c4b82afb0d9a9095e5fb3f4eefdc43"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-07-12 14:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
+        <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Step error</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-07 15:52:30</sys_created_on>
+        <sys_id>2fb3f8a2fb0d9a9095e5fb3f4eefdcfe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.DavidChristian.Smith@parlissi.gc.c</sys_updated_by>
+        <sys_updated_on>2024-10-09 15:35:45</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-07-12 14:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
+        <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}!=200</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Error in response</label>
+        <order>2</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"Response Body:\\\\n{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].response_body}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-07 15:56:58</sys_created_on>
+        <sys_id>b8c4b82afb0d9a9095e5fb3f4eefdc43</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 14:56:37</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-07-12 14:31:11">b3b51d2e1bdf8214813f844fdd4bcb60</action_status_metadata_id>
+        <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Error Code exist</label>
+        <order>3</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"Message:{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-07 15:56:58</sys_created_on>
+        <sys_id>f0c4b82afb0d9a9095e5fb3f4eefdc43</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 14:56:37</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT IN24f89da61bd3c214813f844fdd4bcb65,acf89da61bd3c214813f844fdd4bcb60"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>teleworkagreement</element>
+        <help/>
+        <hint/>
+        <label>JSON String Telework Agreement</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:10</sys_created_on>
+        <sys_id>24f89da61bd3c214813f844fdd4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JSON String Telework Agreement</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74_teleworkagreement_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>employeenumber</element>
+        <help/>
+        <hint/>
+        <label>employee Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:45:10</sys_created_on>
+        <sys_id>acf89da61bd3c214813f844fdd4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employee Number</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74_employeenumber_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:45:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_3a64d92e1b5f8214813f844fdd4bcb74"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT IN37b51d2e1bdf8214813f844fdd4bcb21,7f1ba4a31b17ca589fde86acdd4bcb23,f31ba4a31b17ca589fde86acdd4bcba8,f3b51d2e1bdf8214813f844fdd4bcb5a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:11</sys_created_on>
+        <sys_id>37b51d2e1bdf8214813f844fdd4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74___action_status___en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response_code</element>
+        <help/>
+        <hint/>
+        <label>response code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:58:52</sys_created_on>
+        <sys_id>7f1ba4a31b17ca589fde86acdd4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>response code</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74_response_code_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:58:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response_body</element>
+        <help/>
+        <hint/>
+        <label>Response Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:58:52</sys_created_on>
+        <sys_id>f31ba4a31b17ca589fde86acdd4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Response Body</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74_response_body_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:58:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-12 18:31:11</sys_created_on>
+        <sys_id>f3b51d2e1bdf8214813f844fdd4bcb5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:31:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3a64d92e1b5f8214813f844fdd4bcb74"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=3a64d92e1b5f8214813f844fdd4bcb74^sys_idNOT IN6aa7eca31bdf8a589fde86acdd4bcb2b"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"6aa7eca31bdf8a589fde86acdd4bcb2b","name":"plan","plan_signature":null}}</plan>
+        <snapshot>ff741ce33b4d1698aeb1ebc964e45a71</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6aa7eca31bdf8a589fde86acdd4bcb2b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:56</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>REST call to unit 4</description>
+        <flow_priority/>
+        <internal_name>ohs__telework__send_agreement_to_unit4</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"document_id","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.document}}","label":"action➛document","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.telework_agreement}}","label":"action➛telework agreement","type":"action","ref":"","reference_display":"","base_type":"GUID","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.endpoint}}","label":"action➛endpoint","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.employeeNumber}}","label":"action➛employeeNumber","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.teleworkAgreement}}","label":"action➛teleworkAgreement","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.body}}","label":"action➛body","type":"action","ref":"","reference_display":"","base_type":"multi_small","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.teleworkagreement}}","label":"action➛JSON String Telework Agreement","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.employeenumber}}","label":"action➛employee Number","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.code}}","label":"step➛REST step➛Step Status➛Code","type":"step","ref":"","reference_display":"","base_type":"integer","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].response_headers}}","label":"step➛REST step➛Response Headers","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.message}}","label":"step➛REST step➛Step Status➛Message","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>HoC OHSM - Telework - Send Agreement to Unit4</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="HoC OHSM - Telework - Send Agreement to Unit4">3a64d92e1b5f8214813f844fdd4bcb74</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0ea76ca31bdf8a589fde86acdd4bcb3f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=0ea76ca31bdf8a589fde86acdd4bcb3f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=0ea76ca31bdf8a589fde86acdd4bcb3f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0ea76ca31bdf8a589fde86acdd4bcb3f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>5ea7aca31bdf8a589fde86acdd4bcb52</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 15:12:51</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{},"complexObjectSchema":{"FlowDesigner:FD1ea7aca302df8a58c6b9286dbdd5691d":{},"FlowDesigner:FD1ea7aca302df8a58c6b9286dbdd5691d.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d232729e-c2e6-42af-9572-436dbddb8dfc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD1ea7aca302df8a58c6b9286dbdd5691d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">52a7aca31bdf8a589fde86acdd4bcb1f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>0ea76ca31bdf8a589fde86acdd4bcb3f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>9aa7aca31bdf8a589fde86acdd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">9ea7aca31bdf8a589fde86acdd4bcb30</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0ea76ca31bdf8a589fde86acdd4bcb3f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_body</field>
+        <id>0ea76ca31bdf8a589fde86acdd4bcb3f</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:59:01</sys_created_on>
+        <sys_id>752b28e31b17ca589fde86acdd4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:59:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</table>
+        <value>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>response_code</field>
+        <id>0ea76ca31bdf8a589fde86acdd4bcb3f</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:59:01</sys_created_on>
+        <sys_id>392b28e31b17ca589fde86acdd4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:59:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</table>
+        <value>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>0ea76ca31bdf8a589fde86acdd4bcb3f</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>1aa7aca31bdf8a589fde86acdd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>0ea76ca31bdf8a589fde86acdd4bcb3f</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>56a7aca31bdf8a589fde86acdd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=0ea76ca31bdf8a589fde86acdd4bcb3f^sys_idNOT INdea76ca31bdf8a589fde86acdd4bcba6"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="HoC OHSM - Telework - Send Agreement to Unit4">0ea76ca31bdf8a589fde86acdd4bcb3f</action>
+        <cid>bd31b109-475a-4fec-8468-73cb0d5c1fe4</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>dea76ca31bdf8a589fde86acdd4bcba6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dea76ca31bdf8a589fde86acdd4bcba6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>12a7aca31bdf8a589fde86acdd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Use MID">e532afc12f101300a09a839fb18c95b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>16a7aca31bdf8a589fde86acdd4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>patch</value>
+        <variable display_value="HTTP Method">e85b7ebf47222200b4fad7527c9a71e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>1aa7aca31bdf8a589fde86acdd4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>305c25c11bcb4a94813f844fdd4bcb8e</value>
+        <variable display_value="REST Message Function">35bb6e415b101110ab933520b881c752</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>1ea7aca31bdf8a589fde86acdd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>52a7aca31bdf8a589fde86acdd4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>56a7aca31bdf8a589fde86acdd4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enable Retry Policy">321e31fd87803300a8cc7d5e27cb0b7a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>5aa7aca31bdf8a589fde86acdd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>https://api2-dvnlb1.rmis-sigr.tenantdev.hoc-cdc.ca/EmployeeServices</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>5ea7aca31bdf8a589fde86acdd4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>5ea7aca31bdf8a589fde86acdd4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Content-Type","value":"application/json-patch+json"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>92a7aca31bdf8a589fde86acdd4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>14</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>96a7aca31bdf8a589fde86acdd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>${mid_server}</value>
+        <variable display_value="MID Server">61d6b2cb73131010791f94596bf6a721</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>11</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>9aa7aca31bdf8a589fde86acdd4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>specific_mid_server</value>
+        <variable display_value="MID Selection">a7d3fa4b73131010791f94596bf6a79a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>90</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>9ea7aca31bdf8a589fde86acdd4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>8dd42d811b434a94813f844fdd4bcb02</value>
+        <variable display_value="REST Message">b79bea415b101110ab933520b881c737</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>d2a7aca31bdf8a589fde86acdd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>d6a7aca31bdf8a589fde86acdd4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>709650c52faa20904cbeb1e72799b609</value>
+        <variable display_value="Connection Alias">262882f03b23320057a4a2e334efc4f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>daa7aca31bdf8a589fde86acdd4bcb15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>ef751ff07301330025d71afe2ff6a7f9</value>
+        <variable display_value="Retry Policy">37be397587c03300a8cc7d5e27cb0ba2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>dea76ca31bdf8a589fde86acdd4bcba6</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>dea7aca31bdf8a589fde86acdd4bcb17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_dea76ca31bdf8a589fde86acdd4bcba6^id=dea76ca31bdf8a589fde86acdd4bcba6"/>
+    <sys_element_mapping action="delete_multiple" query="id=dea76ca31bdf8a589fde86acdd4bcba6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>56a7aca31bdf8a589fde86acdd4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>base_url</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>92a7aca31bdf8a589fde86acdd4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>body</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>d2a76ca31bdf8a589fde86acdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>{{action.teleworkagreement}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>9ea76ca31bdf8a589fde86acdd4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>dea76ca31bdf8a589fde86acdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_timeout</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>daa7aca31bdf8a589fde86acdd4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enable_retry_policy</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>9aa76ca31bdf8a589fde86acdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>headers</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>1aa76ca31bdf8a589fde86acdd4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_headers</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>d2a76ca31bdf8a589fde86acdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>honor_duplicate_query_params</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>5aa76ca31bdf8a589fde86acdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>http_method</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>1ea76ca31bdf8a589fde86acdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>56a76ca31bdf8a589fde86acdd4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_server</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>52a76ca31bdf8a589fde86acdd4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>query_params</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>1aa7aca31bdf8a589fde86acdd4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>resource_path</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>92a76ca31bdf8a589fde86acdd4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value>/api/v1/Employees/{{action.employeenumber}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_message</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>96a76ca31bdf8a589fde86acdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>rest_message_function</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>5ea76ca31bdf8a589fde86acdd4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>retry_policy</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>12a76ca31bdf8a589fde86acdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>use_mid</field>
+        <id>dea76ca31bdf8a589fde86acdd4bcba6</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>daa76ca31bdf8a589fde86acdd4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=dea76ca31bdf8a589fde86acdd4bcba6"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=dea76ca31bdf8a589fde86acdd4bcba6^sys_idNOT IN5ea76ca31bdf8a589fde86acdd4bcbae"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,isLocal=true,uiType=password2,uiTypeLabel=Password (2 Way Encrypted),uiUniqueId=003b690b-3b57-4bd0-8533-dd0dcf7ab3b5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sn_auth_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">password2</internal_type>
+        <label>Credential Value</label>
+        <mandatory>false</mandatory>
+        <max_length>255</max_length>
+        <model display_value="REST step">dea76ca31bdf8a589fde86acdd4bcba6</model>
+        <model_id>dea76ca31bdf8a589fde86acdd4bcba6</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_dea76ca31bdf8a589fde86acdd4bcba6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>5ea76ca31bdf8a589fde86acdd4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dea76ca31bdf8a589fde86acdd4bcba6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_dea76ca31bdf8a589fde86acdd4bcba6^sys_idNOT IN1ea76ca31bdf8a589fde86acdd4bcbf0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sn_auth_token</element>
+        <help/>
+        <hint/>
+        <label>Credential Value</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_dea76ca31bdf8a589fde86acdd4bcba6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>1ea76ca31bdf8a589fde86acdd4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Credential Value</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_dea76ca31bdf8a589fde86acdd4bcba6_sn_auth_token_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=0ea76ca31bdf8a589fde86acdd4bcb3f^sys_idNOT IN02a76ca31bdf8a589fde86acdd4bcb6a,d6a76ca31bdf8a589fde86acdd4bcb6f"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0bccf60e-4655-4afd-b9d4-41c2bf101222</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>employeenumber</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>employee Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">0ea76ca31bdf8a589fde86acdd4bcb3f</model>
+        <model_id>0ea76ca31bdf8a589fde86acdd4bcb3f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:44</sys_created_on>
+        <sys_id>02a76ca31bdf8a589fde86acdd4bcb6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=02a76ca31bdf8a589fde86acdd4bcb6a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a5af0caa-ec61-4ab8-9787-7b00e5dbd951</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>teleworkagreement</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>JSON String Telework Agreement</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">0ea76ca31bdf8a589fde86acdd4bcb3f</model>
+        <model_id>0ea76ca31bdf8a589fde86acdd4bcb3f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>d6a76ca31bdf8a589fde86acdd4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d6a76ca31bdf8a589fde86acdd4bcb6f"/>
+    <sys_hub_action_output action="delete_multiple" query="model=0ea76ca31bdf8a589fde86acdd4bcb3f^sys_idNOT IN52a7aca31bdf8a589fde86acdd4bcb1f,7d2be4e31b17ca589fde86acdd4bcb57,9ea7aca31bdf8a589fde86acdd4bcb30,bd2be4e31b17ca589fde86acdd4bcb4f"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1ea7aca302df8a58c6b9286dbdd5691d</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6a9d3c8a2f0f68904cbeb1e72799b67b</scope_name>
+        <serialized_content>{"FlowDesigner:FD1ea7aca302df8a58c6b9286dbdd5691d":{},"FlowDesigner:FD1ea7aca302df8a58c6b9286dbdd5691d.$type_facets":{"SimpleMapFacet":"{\"choiceOption\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d232729e-c2e6-42af-9572-436dbddb8dfc\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD1ea7aca302df8a58c6b9286dbdd5691d\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"2\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>dea7aca31bdf8a589fde86acdd4bcb1d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD1ea7aca302df8a58c6b9286dbdd5691d,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d232729e-c2e6-42af-9572-436dbddb8dfc</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">0ea76ca31bdf8a589fde86acdd4bcb3f</model>
+        <model_id>0ea76ca31bdf8a589fde86acdd4bcb3f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>52a7aca31bdf8a589fde86acdd4bcb1f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:59:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=52a7aca31bdf8a589fde86acdd4bcb1f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=52a7aca31bdf8a589fde86acdd4bcb1f"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=5d6d8e92-a897-4593-afee-e52da1e2ae39</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_body</element>
+        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Response Body</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">0ea76ca31bdf8a589fde86acdd4bcb3f</model>
+        <model_id>0ea76ca31bdf8a589fde86acdd4bcb3f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:59:00</sys_created_on>
+        <sys_id>7d2be4e31b17ca589fde86acdd4bcb57</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7d2be4e31b17ca589fde86acdd4bcb57"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7d2be4e31b17ca589fde86acdd4bcb57"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=01cdc82c-35d6-4f85-943d-f06bf6b3d820,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">0ea76ca31bdf8a589fde86acdd4bcb3f</model>
+        <model_id>0ea76ca31bdf8a589fde86acdd4bcb3f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>9ea7aca31bdf8a589fde86acdd4bcb30</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9ea7aca31bdf8a589fde86acdd4bcb30"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9ea7aca31bdf8a589fde86acdd4bcb30"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=73f90bf4-0851-4994-885f-01c5565d14e5</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>response_code</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>response code</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Send Agreement to Unit4">0ea76ca31bdf8a589fde86acdd4bcb3f</model>
+        <model_id>0ea76ca31bdf8a589fde86acdd4bcb3f</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:59:00</sys_created_on>
+        <sys_id>bd2be4e31b17ca589fde86acdd4bcb4f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=bd2be4e31b17ca589fde86acdd4bcb4f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bd2be4e31b17ca589fde86acdd4bcb4f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0ea76ca31bdf8a589fde86acdd4bcb3f"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=0ea76ca31bdf8a589fde86acdd4bcb3f^sys_idNOT IN52a7aca31bdf8a589fde86acdd4bcb55"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="HoC OHSM - Telework - Send Agreement to Unit4">0ea76ca31bdf8a589fde86acdd4bcb3f</action_type_id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>52a7aca31bdf8a589fde86acdd4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=52a7aca31bdf8a589fde86acdd4bcb55^sys_idNOT IN37741ce33b4d1698aeb1ebc964e45a70,7f741ce33b4d1698aeb1ebc964e45a70,fb741ce33b4d1698aeb1ebc964e45a70"/>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-07-15 13:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
+        <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Step error</label>
+        <order>1</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].__step_status__.message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-10 16:09:55</sys_created_on>
+        <sys_id>37741ce33b4d1698aeb1ebc964e45a70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-07-15 13:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
+        <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_code}}!=0</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Error Code exist</label>
+        <order>3</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"Message:{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].error_message}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-10 16:09:55</sys_created_on>
+        <sys_id>7f741ce33b4d1698aeb1ebc964e45a70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_hub_status_condition action="INSERT_OR_UPDATE">
+        <action_status_metadata_id display_value="Created 2024-07-15 13:43:45">52a7aca31bdf8a589fde86acdd4bcb55</action_status_metadata_id>
+        <condition>{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}!=200</condition>
+        <dont_treat_as_error>false</dont_treat_as_error>
+        <label>Error in response</label>
+        <order>2</order>
+        <status>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"mapped\":\"{\\\"code\\\":\\\"{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].status_code}}\\\"}\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"mapped\":\"{\\\"message\\\":\\\"Response Body:\\\\n{{step[bd31b109-475a-4fec-8468-73cb0d5c1fe4].response_body}}\\\"}\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</status>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-10 16:09:55</sys_created_on>
+        <sys_id>fb741ce33b4d1698aeb1ebc964e45a70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 16:09:55</sys_updated_on>
+    </sys_hub_status_condition>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f^sys_idNOT IN56a76ca31bdf8a589fde86acdd4bcba4,d6a76ca31bdf8a589fde86acdd4bcb6e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>teleworkagreement</element>
+        <help/>
+        <hint/>
+        <label>JSON String Telework Agreement</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>56a76ca31bdf8a589fde86acdd4bcba4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>JSON String Telework Agreement</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f_teleworkagreement_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>employeenumber</element>
+        <help/>
+        <hint/>
+        <label>employee Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:44</sys_created_on>
+        <sys_id>d6a76ca31bdf8a589fde86acdd4bcb6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>employee Number</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f_employeenumber_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_0ea76ca31bdf8a589fde86acdd4bcb3f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f^sys_idNOT IN16a7aca31bdf8a589fde86acdd4bcb36,352b28e31b17ca589fde86acdd4bcb09,7d2be4e31b17ca589fde86acdd4bcb53,9ea7aca31bdf8a589fde86acdd4bcb2f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>16a7aca31bdf8a589fde86acdd4bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response_body</element>
+        <help/>
+        <hint/>
+        <label>Response Body</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:59:01</sys_created_on>
+        <sys_id>352b28e31b17ca589fde86acdd4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Response Body</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f_response_body_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:59:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>response_code</element>
+        <help/>
+        <hint/>
+        <label>response code</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:59:00</sys_created_on>
+        <sys_id>7d2be4e31b17ca589fde86acdd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>response code</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f_response_code_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:59:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-15 17:43:45</sys_created_on>
+        <sys_id>9ea7aca31bdf8a589fde86acdd4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f___action_status___en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-15 17:43:45</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_0ea76ca31bdf8a589fde86acdd4bcb3f"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>3a64d92e1b5f8214813f844fdd4bcb74</sys_id>
+        <latest_snapshot>0ea76ca31bdf8a589fde86acdd4bcb3f</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch10-08-08-2025_08-21-2025_1913.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

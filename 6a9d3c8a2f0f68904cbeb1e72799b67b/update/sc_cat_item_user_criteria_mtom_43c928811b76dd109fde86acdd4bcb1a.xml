@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Co-Chair Management tool">418458b81bba5d109fde86acdd4bcb57</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-10-25 14:23:26</sys_created_on>
+        <sys_id>43c928811b76dd109fde86acdd4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Co-Chair Management tool.Form available for OHS Admins</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_43c928811b76dd109fde86acdd4bcb1a</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <user_criteria display_value="Form available for OHS Admins">eeb9a8811b76dd109fde86acdd4bcbf2</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

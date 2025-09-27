@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCDisabilityAccommodation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Script to transfer data between server and client side</description>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCDisabilityAccommodation</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var HoCDisabilityAccommodation = Class.create();
+
+HoCDisabilityAccommodation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getEmployeeInfo: function() {
+        var parent_case_id = this.getParameter("sysparm_case_id");
+		
+        var gr = new GlideRecord('x_hccc_hoc_ohs_case'); 
+		
+        gr.addQuery('number', parent_case_id);
+        gr.query();
+
+        if (gr.next()) {
+            var result = {
+                employee_name: gr.getDisplayValue('opened_for'),
+                employee_description: gr.getValue('rich_description'),
+                employee_details: this.getEmployeeDetails(gr.getValue('opened_for'))
+
+            };
+
+            return JSON.stringify(result);
+        }
+        return JSON.stringify({ error: "Case not found"});
+    },
+
+    getEmployeeDetails: function(userId) {
+        
+        var gu = new GlideRecord('sys_user');
+
+        gu.get(userId);
+        if (gu.isValidRecord()) {
+            var managerRecord = gu.manager.getRefRecord();
+            var employeeDetailsResult = {
+                employee_position_title:  gu.getValue('title'),
+                employee_manager_name: managerRecord.getDisplayValue('name'),
+                employee_email:  gu.getValue('email')
+            };
+			
+            return JSON.stringify(employeeDetailsResult);
+            
+        }
+        return JSON.stringify({ error: "user not found"});	
+    },
+
+    updateParentOHSMCase: function() {
+
+        var parent_case_id = this.getParameter("sysparm_case_id");
+        var last_name = this.getParameter("sysparm_last_name"); 
+        var first_name = this.getParameter("sysparm_first_name"); 
+        var position_title = this.getParameter("sysparm_position_title"); 
+        var decision = this.getParameter("sysparm_decision"); 
+        var accommodation_is_denied = this.getParameter("sysparm_accommodation_is_denied"); 
+        var other_reasons = this.getParameter("sysparm_other_reasons"); 
+        var employee_be_accommodated = this.getParameter("sysparm_employee_be_accommodated"); 
+
+        if (parent_case_id && (last_name || first_name || position_title || decision || accommodation_is_denied || employee_be_accommodated)) { 
+
+            var caseGR = new GlideRecord('x_hccc_hoc_ohs_case'); 
+
+            caseGR.addQuery('number', parent_case_id); 
+            caseGR.query();
+
+            if (caseGR.next()) {
+                var caseSysId = caseGR.getValue('sys_id'); // Get sys_id of the case
+                
+                var taskGR = new GlideRecord('x_hccc_hoc_ohs_hr_task'); // Target the task table
+
+                taskGR.addQuery('parent', caseSysId); // Use sys_id instead of case number
+
+                taskGR.query();
+
+                if (taskGR.next()) {
+
+                    var result = {
+		
+                        taskId:   taskGR.getValue('sys_id'),
+                        decision: taskGR.getRowCount()
+                    };
+
+                    taskGR.state = "3";
+                    taskGR.update();
+
+var existingDescription = caseGR.getValue('rich_description') || ""; 
+
+var newDescription = "<br><br><b>Information Added by the Manager</b><br>" +
+			"<br><b>Last Name: </b>" + last_name + "<br>" +
+			"<br><b>First Name: </b>" + first_name + "<br>" +
+			"<br><b>Position Title: </b>" + position_title + "<br>" +
+			"<br><b>Decision:</b> " + decision + "<br>" +
+			"<br><b>If the accommodation is denied, please indicate the reasons:</b> " + accommodation_is_denied + "<br>" +
+			"<br><b>How will the employee be accommodated?</b> " + employee_be_accommodated;
+
+caseGR.rich_description = existingDescription + newDescription;
+	
+caseGR.update(); // Save the update
+
+	
+	return JSON.stringify(result);
+}
+}
+        }
+
+
+
+return JSON.stringify({ error: "user not found"});	
+},
+
+    type: 'HoCDisabilityAccommodation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-02 14:56:52</sys_created_on>
+        <sys_id>88c722cd3b59eed0aeb1ebc964e45a8a</sys_id>
+        <sys_mod_count>53</sys_mod_count>
+        <sys_name>HoCDisabilityAccommodation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_88c722cd3b59eed0aeb1ebc964e45a8a</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-09 18:37:34</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>88c722cd3b59eed0aeb1ebc964e45a8a</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-02 14:56:52</sys_created_on>
+        <sys_id>2618aecd3b59eed0aeb1ebc964e45a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-02 14:56:52</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

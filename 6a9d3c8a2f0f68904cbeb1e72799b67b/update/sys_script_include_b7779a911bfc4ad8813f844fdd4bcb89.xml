@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSGetChoiceValues</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSGetChoiceValues</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var HoCOHSGetChoiceValues = Class.create();
+
+HoCOHSGetChoiceValues.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getChoiceValues: function() {
+        var field = this.getParameter('field');
+        var table = this.getParameter('table');
+        var language = this.getParameter('language');
+        var result = [];
+
+        if (field && table) {
+            var gr = new GlideRecord('sys_choice');
+
+            gr.addQuery('element', field);
+            gr.addQuery('name', table);
+            gr.addQuery('language', language || 'en');
+            gr.addQuery('inactive', false);
+			gr.orderBy('sequence');
+            gr.query();
+            while (gr.next()) {
+                result.push({
+                    value: gr.value.toString(),
+                    label: gr.label.toString()
+                })
+            }
+            return JSON.stringify(result);
+
+        }
+        return JSON.stringify({});
+    },
+
+    type: 'HoCOHSGetChoiceValues'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-06 19:40:17</sys_created_on>
+        <sys_id>b7779a911bfc4ad8813f844fdd4bcb89</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>HoCOHSGetChoiceValues</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_b7779a911bfc4ad8813f844fdd4bcb89</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-07 14:49:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

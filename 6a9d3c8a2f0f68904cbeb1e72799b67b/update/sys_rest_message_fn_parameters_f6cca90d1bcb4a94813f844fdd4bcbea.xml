@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>teleworkAgreement</name>
+        <rest_message_function display_value="insert telework agreement">305c25c11bcb4a94813f844fdd4bcb8e</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-25 18:05:18</sys_created_on>
+        <sys_id>f6cca90d1bcb4a94813f844fdd4bcbea</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>teleworkAgreement</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_f6cca90d1bcb4a94813f844fdd4bcbea</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-12 18:57:10</sys_updated_on>
+        <type>string</type>
+        <value>{
+rowId: 0,
+telework_number_fx: "TELWRK0001257",
+type_of_telework_fx: "telework_flexible",
+number_of_days_fx: "",
+telework_monday_fx: false,
+telework_tuesday_fx: false,
+telework_wednesday_fx: false,
+telework_thursday_fx: false,
+telework_friday_fx: false,
+telework_start_date_fx: "2023-05-01",
+telework_end_date_fx: "2023-12-31",
+telework_location_addr_fx: "123 Street, City, Province",
+telework_telephone_num_fx: "string",
+emergency_contact_name_fx: "J. Doe",
+emergency_tel_number_fx: "19999999999",
+relationship_to_employ_fx: "Person",
+approver_name_fx: "Gladu, Isabelle",
+approved_date_fx: "2024-06-21 19:47:34",
+telework_number_fx: "9999999999"
+}</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

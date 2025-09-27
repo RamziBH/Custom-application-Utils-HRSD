@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition/>
+        <description>Checks to make sure that an annual report run request for LAB 1058 is submitted with the WHSC role and the building the report request is for is under the responsibility of a WHSC they are a part of</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=31ecd2f31b081d109fde86acdd4bcb9b^pdf_template=2306fd9c8774ad5050d2eca73cbb3500^ORpdf_template=55703d708701a99450d2eca73cbb3566^EQ<item display_table="sn_hr_core_service" display_value="OHSM Report Request" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="31ecd2f31b081d109fde86acdd4bcb9b"/>
+            <item display_table="sn_hr_core_document_template" display_value="ESDC-LAB1058 EN" endquery="false" field="pdf_template" goto="false" newquery="false" operator="=" or="false" value="2306fd9c8774ad5050d2eca73cbb3500"/>
+            <item display_table="sn_hr_core_document_template" display_value="ESDC-LAB1058 FQ" endquery="false" field="pdf_template" goto="false" newquery="false" operator="=" or="true" value="55703d708701a99450d2eca73cbb3566"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HoC - Annual Reporting LAB 1058 Committee Access Validation</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var admin_permission = gs.hasRole('x_hccc_hoc_ohs.admin');
+    var advisor_permission = gs.hasRole('x_hccc_hoc_ohs.advisor');
+    var committee_permission = gs.hasRole('x_hccc_hoc_ohs.committee');
+    var report_type = current.pdf_template.sys_id;
+    var lab_1058 = (String(report_type) === '2306fd9c8774ad5050d2eca73cbb3500' || String(report_type) === '55703d708701a99450d2eca73cbb3566');
+
+    if (admin_permission || advisor_permission) {
+        current.setAbortAction(false);
+    } else if (committee_permission && lab_1058) {
+        var current_user = gs.getUserID();
+        var report_building = current.inc_location;
+        var user_groups_gr = new GlideRecord('sys_user_grmember');
+
+        user_groups_gr.addQuery('user', current_user);
+        user_groups_gr.addEncodedQuery('groupSTARTSWITHCEH-HRS-OHS-COMMITTEE');
+        user_groups_gr.query();
+
+        var address = '';
+        var current_building = '';
+        var building_permission = false;
+
+        while (user_groups_gr.next()) {
+            var building_list = user_groups_gr.group.description.split(", ");
+
+            for (let i = 0; i < building_list.length; i++) {
+                current_building = building_list[i].split(" (");
+
+                [address] = current_building;
+
+                var correct_building = report_building.street.includes(address);
+
+                building_permission = building_permission || correct_building;
+
+            }
+        }
+
+        if (!building_permission) {
+            gs.addErrorMessage("Invalid permissions. You do not have the correct permissions to submit a report for this building.");
+            current.setAbortAction(true);
+        }
+
+    } else {
+        gs.addErrorMessage("Invalid permissions. You do not have the correct permissions to submit this report.");
+        current.setAbortAction(true);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-12-15 21:35:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a82020471bcbb5d0813f844fdd4bcb37</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>HoC - Annual Reporting LAB 1058 Committee Access Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_a82020471bcbb5d0813f844fdd4bcb37</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-12-19 14:43:56</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a82020471bcbb5d0813f844fdd4bcb37"/>
+</record_update>

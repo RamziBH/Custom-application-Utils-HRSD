@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Field Values">fe0993761b30bd149fde86acdd4bcb80</copied_from>
+        <description>Set the following values on the form:
+Work Task &amp; Description = ATF work task
+and Frequency = Occasional
+and Hazard Category = Psychosocial
+and Hazard Description = ATF Description
+and Consequence(s) = ATF consequence
+and Likelihood = 5
+and Severity = 5
+and Recommended Action by OHS = ATF Recommended
+and work_task_description=ATF work task^frequency=occasional^hazard_category=psychosocial^hazard_description=ATF Description^consequence=ATF consequence^likelihood=5^severity=5^recommended_action=ATF Recommended^actions_taken=ATF Actions
+and work_task_description=ATF work task^frequency=occasional^hazard_category=psychosocial^hazard_description=ATF Description^consequence=ATF consequence^likelihood=5^severity=5^recommended_action=ATF Recommended^actions_taken=ATF Actions^start_date=2023-08-25
+and work_task_description=ATF work task^frequency=occasional^hazard_category=psychosocial^hazard_description=ATF Description^consequence=ATF consequence^likelihood=5^severity=5^recommended_action=ATF Recommended^actions_taken=ATF Actions^start_date=2023-08-25^training=yes
+and work_task_description=ATF work task^frequency=occasional^hazard_category=psychosocial^hazard_description=ATF Description^consequence=ATF consequence^likelihood=5^severity=5^recommended_action=ATF Recommended^actions_taken=ATF Actions^start_date=2023-08-25^training=yes^comment=ATF Comments
+and Regulatory Reference = ATF Refulatory
+and Controls Present = ATF Controls</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>21</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-07 19:41:22</sys_created_on>
+        <sys_id>c428ad2afb851e9095e5fb3f4eefdc05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_c428ad2afb851e9095e5fb3f4eefdc05</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-07 19:41:22</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</table>
+        <test display_value="OHS - HIRA - Assigned Mgr Adds HIRA to OHS case - Complete Review - HIRA Complete 2 (not reviewed)">9b18e92afb851e9095e5fb3f4eefdc41</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c428ad2afb851e9095e5fb3f4eefdc05"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c428ad2afb851e9095e5fb3f4eefdc05</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-07 19:41:22</sys_created_on>
+        <sys_id>4c28ad2afb851e9095e5fb3f4eefdc06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-07 19:41:22</sys_updated_on>
+        <value>work_task_description=ATF work task^frequency=occasional^hazard_category=psychosocial^hazard_description=ATF Description^consequence=ATF consequence^likelihood=5^severity=5^recommended_action=ATF Recommended^actions_taken=ATF Actions^start_date=2023-08-25^training=yes^comment=ATF Comments^regulatory_reference=ATF Refulatory^controls_present=ATF Controls^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c428ad2afb851e9095e5fb3f4eefdc05</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-07 19:41:22</sys_created_on>
+        <sys_id>8828ad2afb851e9095e5fb3f4eefdc06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-07 19:41:22</sys_updated_on>
+        <value>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c428ad2afb851e9095e5fb3f4eefdc05</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-07 19:41:22</sys_created_on>
+        <sys_id>c428ad2afb851e9095e5fb3f4eefdc06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-07 19:41:22</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=c428ad2afb851e9095e5fb3f4eefdc05"/>
+</record_update>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition/>
+        <description>Auto populate age, gender and years fields from subject person</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^EQ<item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HoC - Incident Reporting: Autopopulate Auto populate age, gender and years</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//calculate years since date, returns int
+	function calculateYear(date){
+		if(!date){
+			return null;
+		}
+		var glideDate = new GlideDateTime(date);
+		var today = new GlideDateTime();
+		
+		var age = today.getYearUTC() - glideDate.getYearUTC();
+		if(today.getMonthUTC() < glideDate.getMonthUTC() || (today.getMonthUTC() == glideDate.getMonthUTC() && today.getDayOfMonthUTC() < glideDate.getDayOfMonthUTC())){
+			age--;
+		}
+		return age;
+	}
+	
+	var subjectPerson = current.getValue('subject_person');
+	if (subjectPerson && !(subjectPerson.trim() === '')) {
+	    var userRecord = new GlideRecord('sys_user');
+	    userRecord.get(subjectPerson);
+		
+		var gender = userRecord.gender;
+		current.setValue('employee_gender', gender);
+		
+		
+		//reset values - if subject person changes but doesn't have a HR profile reference
+		current.setValue('emp_age', '');
+		current.setValue('emp_time_in_pos', '');
+		
+		
+		var hrReference = userRecord.x_hccc_base_hr_profile;
+		if (hrReference && !(hrReference.trim() === '')) {
+			var hrProfile = new GlideRecord('sn_hr_core_profile');
+			hrProfile.get(hrReference);
+			
+			var birthDate = hrProfile.date_of_birth;
+			current.setValue('emp_age', calculateYear(birthDate));
+			
+			var jobRecord = new GlideRecord('sn_hr_core_job');
+			jobRecord.addQuery('job_active', true);
+			jobRecord.addQuery('user', subjectPerson);
+			jobRecord.query();
+			
+			if(jobRecord.next()){
+				current.setValue('emp_time_in_pos', calculateYear(jobRecord.job_start_date).toString());
+			}
+		}
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>mdsajid.islam@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-13 19:03:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>546bfdd63b1b2614aeb1ebc964e45a06</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>HoC - Incident Reporting: Autopopulate Auto populate age, gender and years</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_546bfdd63b1b2614aeb1ebc964e45a06</sys_update_name>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-29 15:46:23</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=546bfdd63b1b2614aeb1ebc964e45a06"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>546bfdd63b1b2614aeb1ebc964e45a06</id>
+        <sys_created_by>mdsajid.islam@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-13 19:03:57</sys_created_on>
+        <sys_id>626cf99e3b1b2614aeb1ebc964e45a14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-13 19:03:57</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

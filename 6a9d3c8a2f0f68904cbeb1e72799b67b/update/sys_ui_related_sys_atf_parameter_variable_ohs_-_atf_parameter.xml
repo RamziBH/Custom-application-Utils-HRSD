@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_atf_parameter_variable" version="2" view="ohs_-_atf_parameter">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Parameter Variable - OHS - ATF Parameter" name="sys_atf_parameter_variable" related_list="NULL" sys_domain="global" view="f7015ce4fbf51ed495e5fb3f4eefdc31">dd319828fbf51ed495e5fb3f4eefdc9d</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:9355cd9b0a000704053ea63b163e74b9</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:00:51</sys_created_on>
+            <sys_id>99319828fbf51ed495e5fb3f4eefdc9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:00:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Parameter Variable - OHS - ATF Parameter" name="sys_atf_parameter_variable" related_list="NULL" sys_domain="global" view="f7015ce4fbf51ed495e5fb3f4eefdc31">dd319828fbf51ed495e5fb3f4eefdc9d</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:9bccf33b0a4700ac6663c127a39ce8a7</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:00:51</sys_created_on>
+            <sys_id>9d319828fbf51ed495e5fb3f4eefdc9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:00:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Parameter Variable - OHS - ATF Parameter" name="sys_atf_parameter_variable" related_list="NULL" sys_domain="global" view="f7015ce4fbf51ed495e5fb3f4eefdc31">dd319828fbf51ed495e5fb3f4eefdc9d</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:67bdac52374010008687ddb1967334ee</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:00:51</sys_created_on>
+            <sys_id>91319828fbf51ed495e5fb3f4eefdc9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:00:51</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Parameter Variable - OHS - ATF Parameter</calculated_name>
+            <filter/>
+            <name>sys_atf_parameter_variable</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:00:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd319828fbf51ed495e5fb3f4eefdc9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Parameter Variable - OHS - ATF Parameter</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_related_sys_atf_parameter_variable_ohs_-_atf_parameter</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:00:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="OHS - ATF Parameter" name="ohs_-_atf_parameter">f7015ce4fbf51ed495e5fb3f4eefdc31</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

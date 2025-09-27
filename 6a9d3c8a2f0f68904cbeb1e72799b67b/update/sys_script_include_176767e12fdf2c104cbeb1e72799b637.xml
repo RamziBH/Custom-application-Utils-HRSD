@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMUtils</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[/*eslint padding-line-between-statements: [
+    "error",
+    { blankLine: "always", prev: "var", next: "return" }
+]*/
+const CASE = {
+    STATE: {
+        PENDING: "-5",
+        DRAFT: "1",
+        CLOSED_COMPLETE: "3",
+        CLOSED_INCOMPLETE: "4",
+        CANCEL: "7",
+        READY: "10",
+
+        NEEDS_COMMITTEE_REVIEW: "30",
+
+        INVESTIGATION_IN_PROGRESS: "101",
+        NEEDS_OHS_ADVISOR_REVIEW: "102",
+        FINAL_REVIEW_ADVISOR: "104",
+        INVESTIGATION_COMPLETE_SENT_TO_ESDC: "105",
+        INVESTIGATION_COMPLETE_INTERNAL: "106",
+        AWAITING_EMPLOYEE: "108",
+        INITIAL_REVIEW: "109",
+        NEGOTIATED_RESOLUTION: "110",
+        ALTERNATIVE_RESOLUTION: "112",
+        MEDIATION_IN_PROGRESS: "113",
+
+        COMPLAINT_RESOLVED_INTERNAL: "200",
+        REFERRED_TO_WORKPLACE_COMMITEE: "201",
+        AWAITING_MANAGER: "203",
+        NEEDS_MINISTER_OF_LABOUR_REVIEW: "204",
+        ISSUE_RESOLVED: "205",
+        APPEALING_THE_MINISTER_OF_LABOUR_DECISION: "206",
+        SENT_TO_ESDC_WAITING_FOR_INVESTIGATION_RESULT: "207",
+
+        AWAITING_EMPLOYEE_SIGNATURE: "301",
+        AWAITING_MANAGER_SIGNATURE: "302",
+
+        RW_REVIEW: "400",
+
+        OPEN: "900",
+        IN_PROGRESS: "901",
+        COMPLETED: "902",
+        DRAFT_INSPECTION_REPORT: "903",
+        PRELIMINARY_DISCUSSION: "904",
+        NEGOTIATION_IN_PROGRESS: "905",
+        REQUEST_MEDIATION: "906",
+        CLOSE_UNABLE_TO_PROCESS: "907",
+        MEASURES_IMPLEMENTATION_IN_PROGRESS: "908"
+    }
+};
+var HoCOHSMUtils = Class.create();
+
+HoCOHSMUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getWorkplaceInspectionDraft: function() {
+        var param_case_sys_id = this.getParameter("sysparm_case_sys_id");
+        var result = {};
+        var grHrParentCase = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+
+        grHrParentCase.get("sys_id", param_case_sys_id);
+        var caseFound = grHrParentCase.getRowCount();
+
+        if (caseFound === 1) {
+
+            //result = grHrParentCase.getDisplayValue("short_description");
+            result = JSON.parse(grHrParentCase.getDisplayValue("json_draft"));
+            result.building = grHrParentCase.getValue("wi_building");
+            result.floor_inspected = grHrParentCase.getValue("wi_floor_inspected");
+            result.area_s_inspected = grHrParentCase.getValue("wi_area_inspected");
+            result.date_time_of_inspection = grHrParentCase.getValue("wi_date_time_of_inspection");
+            result.shared_space = grHrParentCase.getValue("wi_shared_space");
+        }
+
+        return JSON.stringify(result);
+    },
+
+    getParentOHSMDetails: function() {
+
+        var taskId = this.getParameter("sysparm_task_num");
+        var result = {};
+
+        // Harassment and violence fields 
+
+        result.inc_date_time = "";
+        result.inc_location = "";
+        result.sc_hazardous_situation = "";
+        result.hazard_type = "";
+        result.danger_exists = "";
+        result.sc_action_plan = "";
+        result.refusal_reason = "";
+        result.inc_refusal_loc = "";
+        result.rw_decision = "";
+        result.rw_event_refusal = "";
+        result.rw_corrective_action = "";
+        result.rw_investigation_details = "";
+
+        result.whsc_user = "";
+        result.rw_whsc_date_time = "";
+        result.rw_agree_emply_dec = "";
+        result.rw_reco_deta = "";
+        result.whsc_comments = "";
+        result.rw_whsc_decision = "";
+        result.rw_reco_empl = "";
+
+
+        // Harassment and violence fields 
+        result.hv_remain_anonymous = "";
+        result.hv_witnesses_name = "";
+        result.hv_date_of_occurence = "";
+        result.hv_indiv_inv_des = "";
+        result.hv_type_of_occurrence = "";
+        result.hv_reviewer_request = "";
+        result.hv_location_occurence = "";
+        result.hv_pre_mea = "";
+        result.investigation_details = "";
+
+        // search for hr task:
+        var grHrTask = new GlideRecord("sn_hr_core_task");
+
+        grHrTask.get("sys_id", taskId);
+
+        // find the parent case
+
+        var grHrParentCase = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+
+        grHrParentCase.get("sys_id", grHrTask.getValue("parent"));
+
+        var caseFound = grHrParentCase.getRowCount();
+
+        if (caseFound === 1) {
+            result.inc_date_time = grHrParentCase.getDisplayValue("inc_date_time");
+            result.inc_location = grHrParentCase.getDisplayValue("inc_location");
+            result.sc_hazardous_situation = grHrParentCase.getDisplayValue("sc_hazardous_situation");
+            result.hazard_type = grHrParentCase.getDisplayValue("hazard_type");
+            result.danger_exists = grHrParentCase.getDisplayValue("danger_exists");
+            result.sc_action_plan = grHrParentCase.getDisplayValue("sc_action_plan");
+            result.refusal_reason = grHrParentCase.getDisplayValue("refusal_reason");
+            result.inc_refusal_loc = grHrParentCase.getDisplayValue("inc_refusal_loc");
+            result.rw_decision = grHrParentCase.getDisplayValue("rw_decision");
+            result.rw_event_refusal = grHrParentCase.getDisplayValue("rw_event_refusal");
+            result.rw_corrective_action = grHrParentCase.getDisplayValue("rw_corrective_action");
+            result.rw_investigation_details = grHrParentCase.getDisplayValue("rw_investigation_details");
+
+            result.whsc_user = grHrParentCase.getDisplayValue("whsc_user");
+            result.rw_whsc_date_time = grHrParentCase.getDisplayValue("rw_whsc_date_time");
+            result.rw_agree_emply_dec = grHrParentCase.getDisplayValue("rw_agree_emply_dec");
+            result.rw_reco_deta = grHrParentCase.getDisplayValue("rw_reco_deta");
+            result.whsc_comments = grHrParentCase.getDisplayValue("whsc_comments");
+            result.rw_whsc_decision = grHrParentCase.getDisplayValue("rw_whsc_decision");
+            result.rw_reco_empl = grHrParentCase.getDisplayValue("rw_reco_empl");
+
+            // mapping harassment and violence 
+
+            result.hv_remain_anonymous = grHrParentCase.getDisplayValue("hv_remain_anonymous");
+            result.hv_witnesses_name = grHrParentCase.getDisplayValue("hv_witnesses_name");
+            result.hv_date_of_occurence = grHrParentCase.getDisplayValue("hv_date_of_occurence");
+            result.hv_indiv_inv_des = grHrParentCase.getDisplayValue("hv_indiv_inv_des");
+            result.hv_type_of_occurrence = grHrParentCase.getDisplayValue("hv_type_of_occurrence");
+            result.hv_reviewer_request = grHrParentCase.getDisplayValue("hv_reviewer_request");
+            result.hv_location_occurence = grHrParentCase.getDisplayValue("hv_location_occurence");
+            result.hv_pre_mea = grHrParentCase.getDisplayValue("hv_pre_mea");
+            if (grHrParentCase.getValue('recipient_of_this_complaint') === 'manager') {
+                result.investigation_details = grHrParentCase.getDisplayValue('rw_investigation_details');
+            } else {
+                result.investigation_details =
+                    grHrParentCase.getDisplayValue('interim_measures_and_investigation_notes');
+            }
+
+            result.rw_minister_of_labour_decision = grHrParentCase.getDisplayValue("minister_of_labour_decision");
+            result.rw_minister_of_labour_recommendations =
+                grHrParentCase.getDisplayValue("minister_of_labour_recommendations");
+
+
+        }
+
+        return JSON.stringify(result);
+
+    },
+
+    updateParentOHSMCase: function() {
+        var taskId = this.getParameter("sysparm_task_num");
+        var empDecision = this.getParameter("sysparm_emp_decision"); //
+        var emprefusalReason = this.getParameter("sysparm_emp_refusal_reason"); //
+        var catItem = this.getParameter("sysparm_catItem");
+        var result = {};
+
+        result.updated = "";
+
+        // search for hr task:
+        var grHrTask = new GlideRecord("sn_hr_core_task");
+
+        grHrTask.get("sys_id", taskId);
+
+        // find the parent case
+        var grHrParentCase = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+
+        grHrParentCase.get("sys_id", grHrTask.getValue("parent"));
+
+        var caseFound = grHrParentCase.getRowCount();
+
+        if (caseFound === 1) {
+            if (empDecision === "yes" &&
+                grHrParentCase.hr_service.value === "internal_safety_complaint" &&
+                catItem === 'c4d4d48d2f1fe4104cbeb1e72799b6d8'
+            ) {
+                grHrParentCase.setValue("emp_agree", "Yes");
+                grHrParentCase.setValue("state", 106);
+                // change state investigation complete - internal 106
+            } else if (empDecision === "no" &&
+                grHrParentCase.hr_service.value === "internal_safety_complaint" &&
+                catItem === 'c4d4d48d2f1fe4104cbeb1e72799b6d8'
+            ) {
+                grHrParentCase.setValue("emp_agree", "No");
+                grHrParentCase.setValue("state", 30);
+                grHrParentCase.setValue("emp_refusal_reason", emprefusalReason);
+                // change state Needs Committee Review 30
+            } else if (empDecision === "yes" &&
+                grHrParentCase.hr_service.value === "internal_safety_complaint" &&
+                catItem === '7763286ddbfdbc109b09e6fa4b961904'
+            ) {
+                grHrParentCase.setValue("emp_agree_2", "Yes");
+                grHrParentCase.setValue("state", 301);
+                // change state investigation complete - internal 106
+            } else if (empDecision === "no" &&
+                grHrParentCase.hr_service.value === "internal_safety_complaint" &&
+                catItem === '7763286ddbfdbc109b09e6fa4b961904'
+            ) {
+                grHrParentCase.setValue("emp_agree_2", "No");
+                grHrParentCase.setValue("state", 301);
+                grHrParentCase.setValue("emp_refusal_reason_2", emprefusalReason);
+            } else if (empDecision === "yes" &&
+                grHrParentCase.hr_service.value === "internal_safety_complaint" &&
+                catItem === 'df5b84f387bdf810b7cac956cebb35c4'
+            ) {
+                grHrParentCase.setValue("emp_agree_3", "Yes");
+                grHrParentCase.setValue("state", 205);
+                // change state investigation complete - internal 106
+            } else if (empDecision === "no" &&
+                grHrParentCase.hr_service.value === "internal_safety_complaint" &&
+                catItem === 'df5b84f387bdf810b7cac956cebb35c4'
+            ) {
+                grHrParentCase.setValue("emp_agree_3", "No");
+                grHrParentCase.setValue("state", 206);
+                grHrParentCase.setValue("emp_refusal_reason_3", emprefusalReason);
+            } else if (empDecision === "yes" &&
+                grHrParentCase.hr_service.value === "refusal_to_work" &&
+                catItem === '8877d9ea2f5b24104cbeb1e72799b62d'
+            ) { //Refusal to work employee validation
+                grHrParentCase.setValue("emp_agree", "Yes");
+                grHrParentCase.setValue("state", 106);
+
+                // change state complaint resolved - internal 200
+            } else if (empDecision === "no" &&
+                grHrParentCase.hr_service.value === "refusal_to_work" &&
+                catItem === '8877d9ea2f5b24104cbeb1e72799b62d'
+            ) { //Refusal to work employee validation
+                grHrParentCase.setValue("emp_agree", "No");
+                grHrParentCase.setValue("state", 30); //
+                grHrParentCase.setValue("emp_refusal_reason", emprefusalReason);
+                // change state complaint resolved - internal 200
+            } else if (empDecision === "yes" &&
+                grHrParentCase.hr_service.value === "refusal_to_work" &&
+                catItem === 'e578ccaf2fd72c104cbeb1e72799b6d2'
+            ) { // Refusal to work employee validation-Stage II
+                grHrParentCase.setValue("emp_agree_2", "Yes");
+                grHrParentCase.setValue("state", 106);
+                // change state complaint resolved - internal 200
+            } else if (empDecision === "no" &&
+                grHrParentCase.hr_service.value === "refusal_to_work" &&
+                catItem === 'e578ccaf2fd72c104cbeb1e72799b6d2'
+            ) { //Refusal to work employee validation-Stage II
+                grHrParentCase.setValue("emp_agree_2", "No");
+                grHrParentCase.setValue("state", 204);
+                grHrParentCase.setValue("emp_refusal_reason_2", emprefusalReason);
+                // change state complaint resolved - internal 200
+            } else if (empDecision === "yes" &&
+                grHrParentCase.hr_service.value === "refusal_to_work" &&
+                catItem === 'da183f6687d53010b7cac956cebb35b7'
+            ) { //Refusal to work employee validation-Stage III
+                grHrParentCase.setValue("emp_agree_3", "Yes");
+                grHrParentCase.setValue("state", 205); //Issue Resolved
+                grHrParentCase.setValue("emp_refusal_reason_3", emprefusalReason);
+            } else if (empDecision === "no" &&
+                grHrParentCase.hr_service.value === "refusal_to_work" &&
+                catItem === 'da183f6687d53010b7cac956cebb35b7') { //Refusal to work employee validation-Stage III
+                grHrParentCase.setValue("emp_agree_3", "No");
+                grHrParentCase.setValue("state", 206); //Appealing the Minister of Labour's decision or direction
+                grHrParentCase.setValue("emp_refusal_reason_3", emprefusalReason);
+            } else if (empDecision === "no" &&
+                grHrParentCase.hr_service.value === "harassment_and_violence_complaint" &&
+                catItem === 'cff68e8d2f67e4504cbeb1e72799b6ed') { //Harassment&Voilence stage 1
+                grHrParentCase.setValue("emp_agree", "No");
+                grHrParentCase.setValue("emp_refusal_reason", emprefusalReason);
+            } else if (empDecision === "yes" &&
+                grHrParentCase.hr_service.value === "harassment_and_violence_complaint" &&
+                catItem === 'cff68e8d2f67e4504cbeb1e72799b6ed') { //Harassment&Voilence stage 1
+                grHrParentCase.setValue("emp_agree", "Yes");
+            }
+            var resultUpdate = grHrParentCase.update();
+
+            return resultUpdate;
+        }
+
+        return JSON.stringify(result);
+
+    },
+
+
+    updateParentOHSMCaseNew: function() {
+        var taskId = this.getParameter("sysparm_task_num");
+        var manDecision = this.getParameter("sysparm_emp_decision"); //
+        var manrefusalReason = this.getParameter("sysparm_emp_refusal_reason"); //
+        //var catItem = this.getParameter("sysparm_catItem");
+
+        // search for hr task:
+        var grHrTask = new GlideRecord("sn_hr_core_task");
+
+        grHrTask.get("sys_id", taskId);
+        // find the parent case
+        var grHrParentCase = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+
+        grHrParentCase.get("sys_id", grHrTask.getValue("parent"));
+
+        var caseFound = grHrParentCase.getRowCount();
+
+        if (caseFound === 1) {
+            if (manDecision === "no") {
+                grHrParentCase.setValue("man_agrees_with_result_2", "No");
+                grHrParentCase.setValue("man_refusal_reason_2", manrefusalReason);
+            } else {
+                grHrParentCase.setValue("man_agrees_with_result_2", "Yes");
+            }
+
+            //If Employee has already signed the document, change the state accordingly
+            if (grHrParentCase.getValue('sc_employee_has_signed_lab1060') === "yes") {
+                if (grHrParentCase.getValue('emp_agree_2') === "Yes" && manDecision === "yes") {
+                    //Change to "Investigation Complete - Internal (106)" if both (Manager and employee) did agree
+                    grHrParentCase.setValue('state', 106);
+                } else {
+                    //Change to "Needs Minister of Labour Review (204)" 
+                    //if at least one (Manager or employee) did not agree
+                    grHrParentCase.setValue('state', 204);
+                }
+            }
+        }
+
+        var resultUpdate = grHrParentCase.update();
+
+        return JSON.stringify(resultUpdate);
+
+    },
+
+
+    updateParentOHSMCaseHV: function() {
+        var taskId = this.getParameter("sysparm_task_num");
+        var empDecision = this.getParameter("sysparm_emp_decision");
+        //var catItem = this.getParameter("sysparm_catItem");
+        var result = {};
+
+        result.updated = "";
+
+        // search for hr task
+        var grHrTask = new GlideRecord("sn_hr_core_task");
+
+        grHrTask.get("sys_id", taskId);
+
+        // find the parent case
+        var grHrParentCase = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+
+        grHrParentCase.get("sys_id", grHrTask.getValue("parent"));
+
+        var caseFound = grHrParentCase.getRowCount();
+
+        if (caseFound === 1) {
+            if ((empDecision === "Yes" || empDecision === "yes") &&
+                grHrParentCase.hr_service.value === "harassment_and_violence_complaint"
+            ) {
+                grHrParentCase.setValue(
+                    "according_to_the_designated_recipient_is_it_a_harassement_and_violence_case", "Yes");
+                grHrParentCase.setValue("state", 905); //Negotiation in progress
+            } else {
+                grHrParentCase.setValue(
+                    "according_to_the_designated_recipient_is_it_a_harassement_and_violence_case", "No");
+                grHrParentCase.setValue("state", 3); //Negotiation in progress
+            }
+            var resultUpdate = grHrParentCase.update();
+
+            return resultUpdate;
+        }
+
+        return JSON.stringify(result);
+    },
+
+    getEmployeeAndManager: function() {
+        var current_user_Sys_Id = gs.getUserID();
+        var current_user_Manager = "test"; //gs.getUser().getValue("manager");
+
+        var gr = new GlideRecord('sys_user');
+
+        gr.addQuery('sys_id', current_user_Sys_Id);
+        gr.query();
+        while (gr.next()) {
+            current_user_Manager = gr.getValue('manager');
+        }
+
+        var result = {
+            employee: current_user_Sys_Id,
+            manager: current_user_Manager
+        };
+
+        return JSON.stringify(result);
+    },
+
+    //Return the manager of an employee
+    //Param: Employee sys_id
+    //Return: Manager sys_id
+    getManagerFromEmployee: function() {
+        var current_user_Sys_Id = this.getParameter("current_user_Sys_Id");
+        var current_user_Manager = "";
+        var gr = new GlideRecord('sys_user');
+
+        gr.addQuery('sys_id', current_user_Sys_Id);
+        gr.query();
+        while (gr.next()) {
+            current_user_Manager = gr.getValue('manager');
+        }
+        return "" + current_user_Manager;
+    },
+
+    //Provide the sys_id of the current employee and and all its subordinates in the hierarchy
+    getEmployeeAndSubordinates: function() {
+        var current_user_Sys_Id = gs.getUserID();
+        var listEmployee = [];
+
+        listEmployee.push(current_user_Sys_Id);
+
+        var gr = new GlideRecord('sys_user');
+
+        do {
+            gr.addQuery('manager', 'IN', listEmployee);
+            gr.addQuery('active', 'true');
+            gr.addQuery('sys_id', 'NOT IN', listEmployee);
+            gr.query();
+            while (gr.next()) {
+                listEmployee.push(gr.getValue('sys_id'));
+            }
+        } while (gr.getRowCount() > 0);
+        return listEmployee;
+    },
+
+    /*
+        Created by: Guillaume Houde
+        Created Date: 2023-06-14
+        Return: returns the formatted time HHmm (not HH:mm)
+        Input 1: First Parameter can be a string, a GlideRecord, a GlideElement, 
+    		a GlideDateTime object and a GlideTime object 
+        Input 2: Second parameter is optional, and is a string representing a GlideRecord's column
+        Reference: https://www.measurethat.net/Benchmarks/Show/20813/0/...
+    		...instanceof-vs-typeof-vs-objectprototypetostringcall-vs
+         */
+    getTime: function(recVal, grColumn) {
+        if (recVal === 'undefined') { //parameter provided 
+            throw new Error('Missing parameter');
+        } else {
+            var t;
+
+            if (typeof recVal === 'object' &&
+                (Object.prototype.toString.call(recVal).slice(8, -1) === 'ScopedGlideElement' ||
+                    Object.prototype.toString.call(recVal).slice(8, -1) === 'ScopedGlideRecord') &&
+                recVal.getED().getInternalType() === 'collection'
+            ) {
+                //if column is undefined we default to 'date_and_time_of_occurrence'
+                grColumn = grColumn || 'date_and_time_of_occurrence';
+                if (recVal.isValidField(grColumn)) {
+                    t = new GlideDateTime(recVal.getElement(grColumn));
+                } else {
+                    throw new Error('Invalid column');
+                }
+            } else {
+                t = new GlideDateTime(recVal);
+            }
+
+            //HH for 24h format, 
+            //getLocalTime as it's stored in GMT 
+            //no ":" because Max 4 char on the english version of LAB1070
+            return t.getLocalTime().getByFormat('HHmm');
+        }
+    },
+
+    /*
+    Created by: Guillaume Houde
+    Created Date: 2023-06-15
+    Return: returns a string formatted location
+    Input: a GlideRecord
+     */
+    getLocationString: function(gr) {
+        var locationString = gr.getDisplayValue('inc_location'); //ref to cmn_location
+        var street = gr.inc_location.street;
+        var room = gr.getDisplayValue('inc_location_room'); //ref to cmn_location
+        var area = gr.getDisplayValue('inc_location_area'); //a string
+        var locationDetails = gr.getDisplayValue('inc_specific_location'); //a string
+
+        if (street) {
+            locationString += "(" + street + ")";
+        }
+        if (room) {
+            locationString += '\n' + room;
+        }
+        if (area) {
+            locationString += '\n' + area;
+        }
+        if (locationDetails) {
+            locationString += '\n' + locationDetails;
+        }
+
+        return locationString;
+    },
+
+    /*
+        Created by: Guillaume Houde
+        Created Date: 2023-06-22
+        Last update: 2023-06-28 - Guillaume Houde
+        Return: an object = {input: inputString, formattedString: formattedString, inputFits: output === input}
+        Input: String inputString, 
+    		Integer max number of characters per line, 
+    		Integer max number of lines, 
+    		String what to say if it doesn't all fit
+         */
+    getFieldFormattedString: function(inputString, maxCharWidth, maxLines, annexString) {
+        var returnObject = {
+            input: inputString,
+            formattedString: inputString,
+            inputFits: true
+        };
+        var lines = [];
+        var numberOfLines = 0;
+        var outputString = "";
+        var lastChar = 0;
+
+        maxLines = maxLines || 1;
+        annexString = annexString || "";
+        //convert all "return" types to "\n" 
+        //inputString = inputString.replaceAll(/\r\n/g, '\n').replaceAll(/\r/g, '\n').trim();
+        inputString = inputString
+            .replaceAll('\r\n', '\n')
+            .replaceAll('\r', '\n')
+            .trim();
+        lines = inputString.split("\n");
+        if (annexString.length > 0 &&
+            this.getFieldFormattedString(annexString, maxCharWidth, maxLines, "").inputFits === false
+        ) {
+            throw new Error('Annex cannot be bigger than the field');
+        }
+
+        //if no carriage return and line fits in field, return as is.
+        if (lines.length === 1 && inputString < maxCharWidth) {
+            return returnObject;
+        }
+
+        for (var i = 0; i < lines.length && !outputString; i++) {
+            //for(let line of lines){
+            var line = lines[i];
+            var linesInLine = this.getLinesInLine(line, maxCharWidth);
+
+            //if we bust maxLines
+            if (numberOfLines + linesInLine.length > maxLines) {
+                var remainingLines = maxLines - numberOfLines;
+
+                numberOfLines += remainingLines;
+
+                for (var j = 0; j < remainingLines; j++) {
+                    lastChar += linesInLine[j].length;
+                }
+
+                outputString = inputString.substring(0, lastChar - (annexString.length)) + annexString;
+            } else { //we fit in maxLines
+                numberOfLines += linesInLine.length;
+                lastChar += line.length;
+
+                if (inputString.charAt(lastChar) === '\n' && numberOfLines < maxLines) {
+                    //there's a carriage return and there's still space
+                    lastChar += 1;
+                } else if (numberOfLines === maxLines && i < (lines.length - 1)) {
+                    //we've reached maxLines but not the last line in input
+                    var charToRemove;
+
+                    if (linesInLine.length === 1) { //if line is 1 line
+                        if (line.length + annexString.length <= maxCharWidth) { //annexString fits
+                            outputString = inputString.substring(0, lastChar) + annexString;
+                        } else { //annexString doesn't fit
+                            charToRemove = line.length + annexString.length - maxCharWidth;
+                            outputString = inputString.substring(0, lastChar - charToRemove) + annexString;
+                        }
+                    } else { //if line is > 1 line
+                        var charsInLastLine = linesInLine.pop().length; //.pop() faster than [array.length-1]
+
+                        if (charsInLastLine + annexString.length <= maxCharWidth) { //annexString fits
+                            outputString = inputString.substring(0, lastChar) + annexString;
+                        } else { //annexString doesn't fit
+                            charToRemove = charsInLastLine + annexString.length - maxCharWidth;
+                            outputString = inputString.substring(0, lastChar - charToRemove) + annexString;
+                        }
+                    }
+                }
+            }
+        }
+
+        if (outputString) {
+            returnObject.formattedString = outputString;
+            returnObject.inputFits = false;
+        }
+
+        return returnObject;
+    },
+
+    /*
+    Created by: Guillaume Houde
+    Created Date: 2023-06-28
+    Return: an array of lines
+    Input: String line (must not containt carriage return), Integer maxWidth the max number of characters per line
+     */
+    getLinesInLine: function(line, maxWidth) {
+        var substring;
+        var index;
+        var lastCharProcessed = 0;
+        var lines = [];
+
+        while (lastCharProcessed + maxWidth < line.length) {
+            /*
+			gs.debug(
+				"checking: " + 
+				line.slice(0,lastCharProcessed) + 
+				"[" + line.slice(lastCharProcessed, lastCharProcessed + maxWidth) + "]" + 
+				line.slice(lastCharProcessed + maxWidth)
+			);
+			*/
+
+            if (line.charAt(lastCharProcessed + maxWidth) === ' ') {
+                lines.push(line.substring(lastCharProcessed, lastCharProcessed + maxWidth + 1));
+                lastCharProcessed += maxWidth + 1;
+            } else {
+                substring = line.substring(lastCharProcessed, lastCharProcessed + maxWidth);
+                index = substring.lastIndexOf(' ', substring.length);
+                //if index = -1 then it's 1 big word that and is split in the middle, 
+                //otherwise it splits after the prior space
+                index = index === -1 ? substring.length : index + 1;
+                lines.push(substring.substring(0, index));
+                lastCharProcessed += index === 0 ? 1 : index; //prevent infinit loop 
+            }
+        }
+        lines.push(line.substring(lastCharProcessed, lastCharProcessed + maxWidth));
+
+        return lines;
+    },
+
+    /*
+        Created by: Zachary Adams
+        Created Date: 2023-07-13
+        Return: returns a string for field "Did the employee receive training?"
+        Input 1: a GlideRecord  
+    	Input 2: Language of string(if different then english)- Optional
+    	Input 3: Represents type of LAB1070 Template - 
+    		"Extra" is for the Extra page templates. (Only necesary if template contains "Extra") 
+         */
+    getEmployeeTrainingString: function(gr, lang, type) {
+        lang = lang || "en";
+        type = type || '';
+        if (gr.inc_training_prov === "yes" || gr.inc_training_prov === "Yes" || gr.inc_training_prov === "0") {
+            if (type === 'Extra') {
+                return 'doc_0_0'; //Yes
+            } else {
+                return gs.getMessageLang("x_hccc_hoc_ohs.Yes", lang); //Yes
+            }
+        } else if (type === 'Extra') {
+            return 'doc_0_0'; //No
+        } else {
+            return gs.getMessageLang("x_hccc_hoc_ohs.Yes", lang); //No
+        }
+    },
+
+    /*
+    Created by: Zachary Adams
+    Created Date: 2023-07-13
+    Return: returns subject persons title for french template"
+    Input: a GlideRecord
+     */
+    getPersonTitle: function(gr) {
+        return gr.subject_person.title;
+    },
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-07-13
+    	Return: returns employe telephone number"
+    	Input: a GlideRecord
+    */
+    getEmployeetel: function(gr) {
+        var phone = "" + gr.manager_name.phone;
+
+        if (phone === "") {
+            return "613-850-6983"; //Default phone number if not phone number in the manager's profile
+        } else {
+            return "" + gr.manager_name.phone;
+        }
+    },
+    /*
+        	Created by: Zachary Adams
+        	Created Date: 2023-07-13
+        	Return: returns investigator telephone number"
+        	Input1: a GlideRecord
+    		Input 2: Name of investigator field wich is using the current function. 
+        */
+    getInvestigator: function(gr, field) {
+        var value = '';
+
+        switch (field) {
+            case "number":
+                if (gr.manager_name.phone.getDisplayValue() === "") {
+                    value += gr.manager_name.mobile_phone.getDisplayValue();
+                } else {
+                    value += gr.manager_name.phone.getDisplayValue();
+                }
+                break;
+            case "firstname":
+                value += gr.manager_name.first_name;
+                break;
+            case "title":
+                value += gr.manager_name.title;
+                break;
+            case "email":
+                value += gr.manager_name.email;
+                break;
+            case "lastname":
+                value += gr.manager_name.last_name;
+                break;
+            default:
+                value = '';
+        }
+
+        return value;
+    },
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-07-13
+    	Return: returns employee genders
+    	Input: mappingField (Pre-computed mapping field value) 
+    */
+    getGender: function(mp) {
+        switch (mp) {
+            case "Man":
+                return "M";
+            case "Male":
+                return "M";
+            case "Homme":
+                return "M";
+
+            case "Female":
+                return "F";
+            case "Femme":
+                return "F";
+            case "Woman":
+                return "F"; //Seems to be the right one
+
+            case "Intersex":
+                return "O";
+            case "Another gender":
+                return "O";
+            default:
+                return "";
+        }
+    },
+
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-07-13
+    	Return: returns commitee telephone number
+    	Input: a GlideRecord
+    */
+    getCommiteetel: function(gr) {
+        if (gr.whsc_user.phone.getDisplayValue() === "") {
+            return "" + gr.whsc_user.mobile_phone.getDisplayValue();
+        } else {
+            return "" + gr.whsc_user.phone.getDisplayValue();
+        }
+    },
+
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-07-18
+    	Return: returns location in french and english
+    	Input: Language of string(if different then english)- Optional
+    */
+    getEmplNameandMailing: function(lang) {
+        lang = lang || "en";
+        return gs.getMessageLang("x_hccc_hoc_ohs.houseofcommons", lang) + "\n" +
+            gs.getMessageLang("x_hccc_hoc_ohs.wellington", lang) + "\nOttawa, Ontario";
+    },
+
+    /*
+        	Created by: Zachary Adams
+        	Created Date: 2023-07-18
+        	Return: returns option selected for type of occurence
+        	Input 1: a GlideRecord
+    		Input 2: Occurence type label name 
+    			(i.e for type of occurence option "Emergency Procedure", input 2 would be "Emergency Procedure")
+    		Input 3: Occurence type value name 
+    			(i.e for type of occurence option "Emergency Procedure", input 3 would be "emerg_proc")
+    		Input 4: Represents type of LAB1070 Template - 
+    			"Extra" is for the Extra page templates. (Only necesary if template contains "Extra") 
+        */
+    getTypeoccurence: function(gr, occ1, occ2, type) {
+        type = type || '';
+        if (gr.getValue('inc_type_occ') === occ1 || gr.getValue('inc_type_occ') === occ2) {
+            if (type === 'Extra') {
+                return 'Yes';
+            } else {
+                return '1';
+            }
+        } else {
+            return '';
+        }
+    },
+
+    /*
+    		Created by: Abigael Schonewille
+    		Created Date: 2023-10-24
+        	Return: returns value for pdf checkbox based on list of choices
+    			Initially created for type of occurence for LAB1070Extra
+        	Input 1: a GlideRecord
+    		Input 2: string of the field name
+    		Input 3: Choice value list 
+    			(i.e for LAB1070 type of occurence option "Emergency Procedure", input 2 would be "emerg_proc")
+        */
+    getPDFCheckboxValue: function(gr, check_field, choice_list) {
+        var choice_check_value = '';
+
+        for (var i = 0; i < choice_list.length; i++) {
+            if (gr.getValue(check_field) === choice_list[i]) {
+                choice_check_value = 'Yes';
+                return choice_check_value;
+            }
+        }
+        return choice_check_value;
+    },
+
+    /*
+    		Created by: Abigael Schonewille
+    		Created Date: 2023-10-25
+        	Return: returns value for choice list in specified language
+    			Initially created for type of occurence for LAB1070Extra
+        	Input 1: table the choice list is from
+    		Input 2: value of the desired choice
+    		Input 3: language to return the choice label in
+        */
+    getChoiceTranslation: function(table, choice_value, lang) {
+
+        if (lang !== 'en' && lang !== 'fq') {
+            lang = 'en';
+        }
+
+        var grChoice = new GlideRecord('sys_choice');
+
+        grChoice.addQuery('name', table);
+        grChoice.addQuery('value', choice_value);
+        grChoice.addQuery('language', lang);
+
+        grChoice.query();
+
+        if (grChoice.next()) {
+            return grChoice.getDisplayValue();
+        }
+
+        return '';
+    },
+
+    /*
+    		Created by: Abigael Schonewille
+    		Created Date: 2023-10-24
+        	Return: returns value for pdf other specify field
+    			Initially created for type of occurence for LAB1070Extra
+        	Input 1: a GlideRecord
+    		Input 2: string of the field name with other
+    		Input 3: string of the field name that specifies other
+    		Input 4: Choice value list 
+    			(i.e for LAB1070 type of occurence option "Emergency Procedure", input 2 would be "emerg_proc")
+        */
+    getPDFSpecifyOtherValue: function(gr, check_field, specify_field, choice_list) {
+        var specify_field_value = '';
+
+        for (var i = 0; i < choice_list.length; i++) {
+            if (gr.getValue(check_field) === choice_list[i]) {
+                if (choice_list[i] === 'other') {
+                    specify_field_value = gr.getDisplayValue(specify_field);
+                } else {
+
+                    var check_field_choice_table = "";
+                    var grDict = new GlideRecord('sys_dictionary');
+
+                    grDict.addQuery('name', gr.sys_class_name);
+                    grDict.addQuery('element', check_field);
+                    grDict.query();
+
+                    if (grDict.next()) {
+                        check_field_choice_table = grDict.choice_table;
+                    }
+
+                    var choice_value = gr.getValue(check_field);
+                    var manager_lang = gr.manager_name.preferred_language.toString();
+
+                    specify_field_value = this.getChoiceTranslation(check_field_choice_table, choice_value, manager_lang);
+                }
+                return specify_field_value;
+            }
+        }
+        return specify_field_value;
+    },
+
+    /*
+    		Created by: Marcus Martinet
+    		Created Date: 2024-03-07
+        	Return: returns Corrective Measure with Implementation Date
+    			Input1: Workplace Incident Reporting case
+    			Input2: Corrective Measure field name
+    			Input3: Implementation Date field name
+        */
+    getMeasuresAndDate: function(caseGr, CorrectiveMeasures, ImplementationDate) {
+        var MeasuresAndDate = "";
+
+        if (caseGr.getValue(ImplementationDate) === null || caseGr.getValue(ImplementationDate) === '') {
+            MeasuresAndDate = caseGr.getValue(CorrectiveMeasures);
+            return MeasuresAndDate;
+        } else if (caseGr.getValue(ImplementationDate) != null && caseGr.getValue(ImplementationDate) != null) {
+            MeasuresAndDate = caseGr.getValue(CorrectiveMeasures) + " (" + caseGr.getValue(ImplementationDate) + ")";
+            return MeasuresAndDate;
+        }
+
+        return MeasuresAndDate;
+    },
+
+    /*
+    		Created by: Abigael Schonewille
+    		Created Date: 2023-11-07
+        	Return: returns specified value from json draft data for LAB 1009 and LAB 1058 
+    			PDF template mapping
+        	Input 1: OHSM glide record containing the staged json draft data
+    		Input 2: string of the target field 
+    		Input 3: index for the desired value in the target field
+        */
+    getPDFMappingFromJSONDraft: function(gr, target_field, target_index) {
+        gs.info('OHSM Testing: ' + gs.json_draft);
+        var stageData = JSON.parse(gr.json_draft);
+
+        var target_value = "";
+        var str = "";
+
+        if (target_field === "Address") {
+            str = stageData.addr;
+        } else if (target_field === "Comment") {
+            str = stageData.comment;
+        }
+
+        var arr = [];
+
+        arr = str.split(',');
+
+        if (target_index >= arr.length) {
+            return ''
+        }
+
+        target_value = arr[target_index];
+
+        if (target_field === 'Comment') {
+            var bldgName_str = stageData.bldgName;
+            var bldgName_arr = bldgName_str.split(',');
+            var bldgName = bldgName_arr[target_index];
+
+            target_value = bldgName + ". " + target_value;
+        }
+
+        return target_value;
+
+    },
+
+    /*
+    	Created by: Abigael Schonewille
+    	Created Date: 2023-11-20
+        	Return: get the appropriate LAB 1009 and LAB 1058 pdf templates based on the user's language
+        */
+    getReportChoiceList: function() {
+        var current_lang = gs.getSession().getLanguage();
+        var admin_permission = gs.hasRole('x_hccc_hoc_ohs.admin');
+        var advisor_permission = gs.hasRole('x_hccc_hoc_ohs.advisor');
+        var committee_permission = gs.hasRole('x_hccc_hoc_ohs.committee');
+
+        if (current_lang === 'en') {
+            if (admin_permission || advisor_permission) {
+                return "nameNOT LIKEold^nameLIKElab^nameLIKEEN^nameLIKE1009^ORnameLIKE1058^ORnameLIKE1206";
+            } else if (committee_permission) {
+                return "nameNOT LIKEold^nameLIKElab^nameLIKEEN^nameLIKE1058";
+            } else {
+                return 'name=none';
+            }
+        } else if (current_lang === 'fq') {
+            if (admin_permission || advisor_permission) {
+                return "nameNOT LIKEold^nameLIKElab^nameLIKEFQ^nameLIKE1009^ORnameLIKE1058^ORnameLIKE1206";
+            } else if (committee_permission) {
+                return "nameNOT LIKEold^nameLIKElab^nameLIKEFQ^nameLIKE1058";
+            } else {
+                return 'name=none';
+            }
+        } else {
+            return 'name=none';
+        }
+    },
+
+    /*
+    	Created by: Abigael Schonewille
+    	Created Date: 2023-12-12
+        	Return: get list of buildings committee members have access for to produce LAB 1058
+        */
+    getApprovedCommitteeBuildings: function() {
+        var admin_permission = gs.hasRole('x_hccc_hoc_ohs.admin');
+        var advisor_permission = gs.hasRole('x_hccc_hoc_ohs.advisor');
+        var committee_permission = gs.hasRole('x_hccc_hoc_ohs.committee');
+
+        if (admin_permission || advisor_permission) {
+            return "";
+        } else if (committee_permission) {
+
+            var current_user = gs.getUserID();
+            var user_groups_gr = new GlideRecord('sys_user_grmember');
+
+            user_groups_gr.addQuery('user', current_user);
+            user_groups_gr.addEncodedQuery('groupSTARTSWITHCEH-HRS-OHS-COMMITTEE');
+            user_groups_gr.query();
+
+            var building_query = '';
+            var address = '';
+            var current_building = '';
+
+            while (user_groups_gr.next()) {
+
+                var building_list = user_groups_gr.group.description.split(", ");
+
+                for (let i = 0; i < building_list.length; i++) {
+                    current_building = building_list[i].split(" (");
+
+                    [address] = current_building;
+
+                    if (i !== 0) {
+                        building_query = building_query + '^NQ';
+                    }
+
+                    building_query = building_query + 'streetLIKE' + address;
+                }
+            }
+            return building_query;
+        } else {
+            return 'name=none';
+        }
+    },
+
+    /*
+    	Created by: Abigael Schonewille
+    	Created Date: 2023-12-19
+        	Return: true or false based on if user has permission to access a given lab 1058 record
+        */
+    getCommitteeRecordPermissions: function(admin_or_advisor_permission, committee_permission, current_user, report_building) {
+
+        if (admin_or_advisor_permission) {
+            return true;
+        } else if (committee_permission) {
+            var user_groups_gr = new GlideRecord('sys_user_grmember');
+
+            user_groups_gr.addQuery('user', current_user);
+            user_groups_gr.addEncodedQuery('groupSTARTSWITHCEH-HRS-OHS-COMMITTEE');
+            user_groups_gr.query();
+
+            var address = '';
+            var current_building = '';
+            var building_permission = false;
+
+            while (user_groups_gr.next()) {
+                var building_list = user_groups_gr.group.description.split(", ");
+
+                for (let i = 0; i < building_list.length; i++) {
+                    current_building = building_list[i].split(" (");
+
+                    [address] = current_building;
+
+                    var correct_building = report_building.street.includes(address);
+
+                    building_permission = building_permission || correct_building;
+
+                }
+            }
+
+            if (building_permission) {
+                return true;
+            } else {
+                return false;
+            }
+
+        } else {
+            return false;
+        }
+    },
+
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-07-18
+    	Return: returns location in french and english
+    	Input: a GlideRecord
+    */
+    getHazardousOcc: function(gr) {
+        return gr.direct_causes_of_hazardous_occurrence.getDisplayValue() + ', ' +
+            gr.please_specify_cause_of_hazardous_occurrence.getDisplayValue();
+    },
+
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-07-19
+    	Return: returns EmployeeName
+    	Input: a GlideRecord
+    */
+    getEmployeeName: function(gr) {
+        return gr.subject_person.last_name + ", " + gr.subject_person.first_name;
+    },
+
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-08-14
+    	Return: Employer Addresss for LAB1069 (Refusal) PDF
+    	Input: a GlideRecord
+    */
+    getEmployerAddress: function(gr) {
+        var sub = gr.getValue('inc_refusal_loc');
+        var gr1 = new GlideRecord('sn_wsd_core_building');
+
+        gr1.get(sub);
+        var add = gr1.city;
+
+        return gr.getDisplayValue('inc_refusal_loc') + " , " + add + " , " +
+            gr.getDisplayValue('refusal_to_work_room');
+    },
+
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-08-15
+    	Return: Complainant Addresss for LAB1069 (Refusal) PDF
+    	Input: a GlideRecord
+    */
+
+    getComplainantAddress: function(gr) {
+        var sub = gr.getValue('subject_person');
+        var gr1 = new GlideRecord('sys_user');
+
+        gr1.get(sub);
+        var add = gr1.street + " , " + gr1.city + " , " + gr1.zip;
+
+        return add;
+    },
+
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-08-15
+    	Return: Employee/Employer Request Time for LAB 1069 (Refusal)
+    	Input: a GlideRecord
+    */
+    getRequestTime: function() {
+        return (new GlideDateTime())
+            .getLocalTime()
+            .getByFormat('hh:mm:ss');
+    },
+
+    /*
+    	Created by: Zachary Adams
+    	Created Date: 2023-08-15
+    	Return: value of corrective actions taken field 
+    	Input: a GlideRecord
+    */
+    getCorrectiveActions: function(gr) {
+        if (gr.correct_actions_taken === "yes") {
+            return '0';
+        } else {
+            return '2';
+        }
+    },
+
+    /*
+       	Created by: Abigael Schonewille
+       	Created Date: 2024-05-27
+    	Description: Check if user is in given group
+       	Return: bool, true if user in group otherwise false
+       	Input: a user record, a string of the group name
+    */
+    checkUserInGroup: function() {
+        var user_id = this.getParameter('user_id');
+        var group_id = this.getParameter('group_id');
+        var result;
+
+        var gr = new GlideRecord('sys_user_grmember');
+
+        gr.addQuery('user', user_id);
+        gr.addQuery('group', group_id);
+        gr.query();
+
+        if (gr.next()) {
+            result = true;
+        } else {
+            result = false;
+        }
+        return JSON.stringify(result);
+    },
+
+    /*
+       	Created by: Abigael Schonewille
+       	Created Date: 2024-07-10
+    	Description: Create a list of H&V records based on the current user's access permissions for use in reports
+       	Return: a list of sys ids
+       	Input: a user record, a string of the group name
+    */
+    hvReportRecords: function() {
+        var hv_records_gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+
+        hv_records_gr.addQuery('hr_service', '11d78aa31bb201509fde86acdd4bcb0b'); //hr service is harassment and violence
+        hv_records_gr.addEncodedQuery('stateIN109,900'); //state is initial review or open
+        hv_records_gr.query();
+
+        var current_user = gs.getUserID();
+
+
+        var all_records = false;
+        var hv_records_sys_id_list = [];
+
+        while (hv_records_gr.next()) {
+            var include_record = false;
+
+            if (all_records) {
+
+                include_record = true;
+
+            } else if (hv_records_gr.getValue('assigned_to') === current_user) { //manager
+
+                include_record = true;
+
+            } else { //OHS Admin, OHS Advisors, OHS RW, WHSC committee
+                var user_groups_gr = new GlideRecord('sys_user_grmember');
+
+                user_groups_gr.addQuery('user', current_user); //current user
+                user_groups_gr.query();
+
+                while (user_groups_gr.next() && !all_records && !include_record) {
+
+                    if (user_groups_gr.getValue('group') === "f825414a2f4f68904cbeb1e72799b6bb" || user_groups_gr.getValue('group') === "13e4414a2f4f68904cbeb1e72799b6f1" || user_groups_gr.getValue('group') === "b4a1b2c2db927c109b09e6fa4b961983") { //OHS Admin, OHS Advisors, OHS RW
+
+                        all_records = true;
+                        include_record = true;
+                    } else if (user_groups_gr.getValue('group') === hv_records_gr.complainant_name.location.u_hs_committee.sys_id.toString()) {
+
+                        include_record = true;
+                    }
+                }
+            }
+            if (include_record) {
+                hv_records_sys_id_list.push(hv_records_gr.sys_id.toString());
+            }
+        }
+
+        return hv_records_sys_id_list;
+    },
+
+    /*
+       	Created by: Abigael Schonewille
+       	Created Date: 2024-08-02
+    	Description: check current user's permission to use the initial review ui action for the HV module
+       	Return: true/false to represent permission or not
+    */
+    hvInitReviewActionPerm: function(state, hr_service, assigned_to) {
+        //gs.info("OHSM Testing: init review ui action - " + state + "/" + hr_service + "/" + assigned_to);
+        var permission = false;
+
+        if (state.toString() === '109' && hr_service.toString() === 'harassment_and_violence_complaint') {
+
+            if (gs.getUser().isMemberOf("CEH-HRS-OHS-Respectful Workplace")) {
+                permission = true;
+            } else if (gs.getUser().getID() === assigned_to) {
+                permission = true;
+            }
+        }
+        return permission;
+    },
+
+    /*
+       	Created by: Abigael Schonewille
+       	Created Date: 2024-08-02
+    	Description: check current user's permission to use the cloase case ui action for the HV module
+       	Return: true/false to represent permission or not
+    */
+    hvCloseCaseActionPerm: function(state, hr_service, assigned_to, investigation_start) {
+        //gs.info("OHSM Testing: close case ui action - " + state + "/" + hr_service + "/" + assigned_to + "/" + investigation_start);
+        var permission = false;
+
+        if ((state.toString() === '109' || state.toString() === '900') && hr_service.toString() === 'harassment_and_violence_complaint') {
+
+            if (gs.getUser().isMemberOf("CEH-HRS-OHS-Respectful Workplace")) {
+                permission = true;
+            } else if (gs.getUser().getID() === assigned_to && investigation_start.nil()) {
+                permission = true;
+            }
+        }
+        return permission;
+    },
+
+    /*
+       	Created by: Abigael Schonewille
+       	Created Date: 2025-09-24
+    	Description: check current user's permission to access the attachments icon for HV cases
+       	Return: JSON with true/false to represent permission to access or not
+    */
+    getHVAttachmentIconPermissions: function() {
+        var case_id = this.getParameter("sysparm_case_id");
+        var result = {};
+
+        result.hv_attachment_permission = this.checkHVAttachmentPermissions(case_id);
+        return JSON.stringify(result);
+    },
+
+    /*
+       	Created by: Abigael Schonewille
+       	Created Date: 2025-09-24
+    	Description: check current user's permission to access the attachments for HV cases
+		Input: case_id - sys_id of the hv case being opened
+       	Return: true/false to represent permission to access or not
+    */
+    checkHVAttachmentPermissions: function(case_id) {
+        var result = false;
+
+        if (gs.getUser().isMemberOf("CEH-HRS-OHS-Respectful Workplace")) {
+            //check if user in RW group
+            result = true;
+
+        } else if (gs.getUser().isMemberOf("CEH-HRS-OHS-Admin")) {
+            //check if user in OHS admin group
+            result = true;
+
+        } else { //check if user is manager handling the case
+            var hv_case_gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+
+            hv_case_gr.addQuery('sys_id', case_id);
+            hv_case_gr.query();
+
+            if (hv_case_gr.next()) {
+                var user_id = gs.getUser().getID();
+
+                if (user_id.toString() === hv_case_gr.assigned_to.toString() && user_id.toString() === hv_case_gr.hv_complainant_manager.toString() && hv_case_gr.getValue('manager_involved') === 'yes') {
+                    result = true;
+                }
+            }
+        }
+        return result;
+    },
+
+
+    type: 'HoCOHSMUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-04 01:37:47</sys_created_on>
+        <sys_id>176767e12fdf2c104cbeb1e72799b637</sys_id>
+        <sys_mod_count>326</sys_mod_count>
+        <sys_name>HoCOHSMUtils</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_176767e12fdf2c104cbeb1e72799b637</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-24 20:34:39</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>176767e12fdf2c104cbeb1e72799b637</id>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-25 16:33:44</sys_created_on>
+        <sys_id>dd1359163b865a14aeb1ebc964e45ad2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-25 16:33:44</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

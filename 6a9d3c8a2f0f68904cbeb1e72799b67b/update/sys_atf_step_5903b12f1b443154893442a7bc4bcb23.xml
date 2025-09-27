@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Click a UI Action">11b67d5bdbc64110e3dd80c74b9619a1</copied_from>
+        <description>Click UI action 'Investigation completed' on 'HoC Investigation case ' form
+
+Warning: Using assert type '-- None --' may cause unexpected behavior for server UI actions. Avoid potential issues by setting the assert type and using a timeout&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Click a UI Action</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>23</order>
+        <step_config display_value="Click a UI Action">0f4a128297202200abe4bb7503ac4af0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:37:47</sys_created_on>
+        <sys_id>5903b12f1b443154893442a7bc4bcb23</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Click a UI Action</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_5903b12f1b443154893442a7bc4bcb23</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:37:47</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <test display_value="OHS Refusal workflow - Mgr investigates selects danger copy">2c03712f1b443154893442a7bc4bcb03</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message>Warning: Using assert type '-- None --' may cause unexpected behavior for server UI actions. Avoid potential issues by setting the assert type and using a timeout&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5903b12f1b443154893442a7bc4bcb23"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5903b12f1b443154893442a7bc4bcb23</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:37:47</sys_created_on>
+        <sys_id>1d03b12f1b443154893442a7bc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:37:47</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">3eee292353e0220002c6435723dc343c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5903b12f1b443154893442a7bc4bcb23</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:37:47</sys_created_on>
+        <sys_id>5903b12f1b443154893442a7bc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:37:47</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">535cb5ab53233300f06fddeeff7b1247</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5903b12f1b443154893442a7bc4bcb23</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:37:47</sys_created_on>
+        <sys_id>9503b12f1b443154893442a7bc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:37:47</sys_updated_on>
+        <value>10eba27e2f97e4104cbeb1e72799b6c3</value>
+        <variable display_value="UI action">7c5f6d2353e0220002c6435723dc34f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5903b12f1b443154893442a7bc4bcb23</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:37:47</sys_created_on>
+        <sys_id>d103b12f1b443154893442a7bc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:37:47</sys_updated_on>
+        <value/>
+        <variable display_value="Assert type">7600f16353e0220002c6435723dc34d5</variable>
+    </sys_variable_value>
+</record_update>

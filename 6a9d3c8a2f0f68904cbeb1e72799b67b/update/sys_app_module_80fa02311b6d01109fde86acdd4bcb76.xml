@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="HoC Occupational Health and Safety Manag">712efc8a2f0f68904cbeb1e72799b660</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_hccc_hoc_ohs_investigation_case">hr_service=a94b0c891b7e7c109fde86acdd4bcbc1^ORhr_service=a284e0261b7a30109fde86acdd4bcbfc^ORhr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^ORhr_service=5227b08f2f4b60d04cbeb1e72799b659^ORhr_service=b745a0501b53ac10ea0eda02dd4bcb4b^wi_building.u_hs_committeeDYNAMICd6435e965f510100a9ad2572f2b47744^ORinc_location.u_hs_committeeDYNAMICd6435e965f510100a9ad2572f2b47744^EQ<item display_table="sn_hr_core_service" display_value="Workplace inspection" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="a94b0c891b7e7c109fde86acdd4bcbc1"/>
+            <item display_table="sn_hr_core_service" display_value="Corrective action" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="a284e0261b7a30109fde86acdd4bcbfc"/>
+            <item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
+            <item display_table="sn_hr_core_service" display_value="Internal Safety Complaint" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="5227b08f2f4b60d04cbeb1e72799b659"/>
+            <item display_table="sn_hr_core_service" display_value="Refusal of dangerous work" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="b745a0501b53ac10ea0eda02dd4bcb4b"/>
+            <item endquery="false" field="wi_building.u_hs_committee" goto="false" newquery="false" operator="DYNAMIC" or="false" value="d6435e965f510100a9ad2572f2b47744"/>
+            <item endquery="false" field="inc_location.u_hs_committee" goto="false" newquery="false" operator="DYNAMIC" or="true" value="d6435e965f510100a9ad2572f2b47744"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My investigations</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_hccc_hoc_ohs_investigation_case</name>
+        <order>100</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_hccc_hoc_ohs.representative,x_hccc_hoc_ohs.committee</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>$jcoyne</sys_created_by>
+        <sys_created_on>2022-02-09 05:53:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80fa02311b6d01109fde86acdd4bcb76</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>My Building Cases</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_app_module_80fa02311b6d01109fde86acdd4bcb76</sys_update_name>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2023-05-03 15:00:21</sys_updated_on>
+        <timeline_page/>
+        <title>My Building Cases</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type_of_request_assessment_request" table="x_hccc_hoc_ohs_options" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type_of_request_assessment_request</element>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:00:44</sys_created_on>
+            <sys_id>aa79db101b51869478230d47dc4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type_of_request_assessment_request</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_options_type_of_request_assessment_request</sys_update_name>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 22:00:44</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:gs.getMessage("x_hccc_hoc_ohs.please.select")</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:00:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ac9106b3b04b2d0aeb1ebc964e45ae9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 22:01:02</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:gs.getMessage("x_hccc_hoc_ohs.please.select")</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:00:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6c9106b3b04b2d0aeb1ebc964e45aea</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 22:01:01</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical Demands Analysis (PDA)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:01:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56c9106b3b04b2d0aeb1ebc964e45aeb</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-15 14:54:51</sys_updated_on>
+            <value>pda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>demande d'analyse des contraintes physiques ACP</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:40:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2c9106b3b04b2d0aeb1ebc964e45aec</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:40:15</sys_updated_on>
+            <value>pda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>d'analyse des contraintes cognitives ACC</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:40:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ac9106b3b04b2d0aeb1ebc964e45af9</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:40:44</sys_updated_on>
+            <value>cda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cognitive Demands Analysis (CDA)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:01:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96c9106b3b04b2d0aeb1ebc964e45afa</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-15 14:54:26</sys_updated_on>
+            <value>cda</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ergonomic Assessment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:02:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16c9106b3b04b2d0aeb1ebc964e45afb</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 22:03:46</sys_updated_on>
+            <value>ergo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>d'ergonomie</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:40:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92c9106b3b04b2d0aeb1ebc964e45afc</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:41:33</sys_updated_on>
+            <value>ergo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lighting Assessment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:02:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12c9106b3b04b2d0aeb1ebc964e45afd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 22:03:48</sys_updated_on>
+            <value>lighting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>d'évaluation du bruit</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:42:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ec9106b3b04b2d0aeb1ebc964e45afd</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:42:53</sys_updated_on>
+            <value>noise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>d'éclairage</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:42:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ec9106b3b04b2d0aeb1ebc964e45afe</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:42:31</sys_updated_on>
+            <value>lighting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Noise Assessment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:03:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ac9106b3b04b2d0aeb1ebc964e45aff</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 22:03:49</sys_updated_on>
+            <value>noise</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>de qualité de l'air intérieur (QAI)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:41:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ac9506b3b04b2d0aeb1ebc964e45a00</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:42:05</sys_updated_on>
+            <value>iaq</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type_of_request_assessment_request</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Indoor Air Quality Assessment</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 22:03:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96c9506b3b04b2d0aeb1ebc964e45a01</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 22:03:50</sys_updated_on>
+            <value>iaq</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="OHS Assessment ">21a032c31be44a909fde86acdd4bcb26</catalog_item>
+        <catalog_variable>IO:c655c3311bc20e909fde86acdd4bcbdd</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 17:14:17</sys_created_on>
+        <sys_id>7a00ac513bc5529caeb1ebc964e45a34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_and_time_of_occurence</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_7a00ac513bc5529caeb1ebc964e45a34</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-03 17:14:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Type is CDA or PDA">76ef189d3b85529caeb1ebc964e45acc</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>date_and_time_of_occurence</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

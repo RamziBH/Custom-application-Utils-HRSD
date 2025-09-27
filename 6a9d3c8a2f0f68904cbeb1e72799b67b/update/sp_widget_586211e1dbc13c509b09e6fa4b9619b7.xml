@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>HoC - OHSM Guided tour start</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-06-29 14:26:15</sys_created_on>
+        <sys_id>586211e1dbc13c509b09e6fa4b9619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC - OHSM Guided tour start</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_586211e1dbc13c509b09e6fa4b9619b7</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <template><![CDATA[<script>
+  
+  function loadGuidedTour(){
+   		window.location.href = "services?id=sc_cat_item&sys_id=632c129e2f4f2c904cbeb1e72799b6d0&gtd_preview_tour_id=e7a8c5addb413c509b09e6fa4b9619c1"
+  }
+  
+  var link = document.getElementById("guidedTourLink");
+  if (g_lang == "en"){
+    link.innerHTML = "Help me with a <a onclick='loadGuidedTour()' style='color:blue;cursor: pointer;text-decoration:underline;'>Guided Tour</a>";
+  }
+  if (g_lang == "fq"){
+    link.innerHTML = "Lancer une <a onclick='loadGuidedTour()' style='color:blue;cursor: pointer;text-decoration:underline;'>visite guidée</a>";
+  }
+  
+</script>
+
+<span style="float:right" id="guidedTourLink"></span>]]></template>
+    </sp_widget>
+</record_update>

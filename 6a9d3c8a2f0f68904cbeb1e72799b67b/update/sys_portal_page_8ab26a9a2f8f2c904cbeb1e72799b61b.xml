@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-09-26 21:26:44">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>$pain</sys_created_by>
+        <sys_created_on>2021-03-24 18:06:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ab26a9a2f8f2c904cbeb1e72799b61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Monthly Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_portal_page_8ab26a9a2f8f2c904cbeb1e72799b61b</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-22 17:37:48</sys_updated_on>
+        <title>PA Monthly Dashboard</title>
+        <user/>
+        <view>pa_health_and_safety_da_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Monthly Dashboard">8ab26a9a2f8f2c904cbeb1e72799b61b</page>
+                <summary>Incident by Status</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-03-26 04:25:36</sys_created_on>
+                <sys_id>160abdbe1b8f6010ea0eda02dd4bcb52</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-03-26 04:25:36</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-03-26 00:25:36">160abdbe1b8f6010ea0eda02dd4bcb52</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:25:36</sys_created_on>
+                        <sys_id>1e0abdbe1b8f6010ea0eda02dd4bcb52</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:25:36</sys_updated_on>
+                        <value>a6b9357e1b8f6010ea0eda02dd4bcb4a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-03-26 00:25:36">160abdbe1b8f6010ea0eda02dd4bcb52</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:25:36</sys_created_on>
+                        <sys_id>1e0abdbe1b8f6010ea0eda02dd4bcb53</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:25:36</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-03-26 00:25:36">160abdbe1b8f6010ea0eda02dd4bcb52</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:25:36</sys_created_on>
+                        <sys_id>5a0abdbe1b8f6010ea0eda02dd4bcb53</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:25:36</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-03-26 00:25:36">160abdbe1b8f6010ea0eda02dd4bcb52</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:25:36</sys_created_on>
+                        <sys_id>920abdbe1b8f6010ea0eda02dd4bcb54</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:25:36</sys_updated_on>
+                        <value>Incident by Status</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-03-26 00:25:36">160abdbe1b8f6010ea0eda02dd4bcb52</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:25:36</sys_created_on>
+                        <sys_id>960abdbe1b8f6010ea0eda02dd4bcb53</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:25:36</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-03-26 00:25:36">160abdbe1b8f6010ea0eda02dd4bcb52</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:25:36</sys_created_on>
+                        <sys_id>de0abdbe1b8f6010ea0eda02dd4bcb53</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:25:36</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Monthly Dashboard">8ab26a9a2f8f2c904cbeb1e72799b61b</page>
+                <summary>Workplace Incidents This Month</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-03-24 18:09:41</sys_created_on>
+                <sys_id>1a73eada2f8f2c904cbeb1e72799b60b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:41">1a73eada2f8f2c904cbeb1e72799b60b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:42</sys_created_on>
+                        <sys_id>1273eada2f8f2c904cbeb1e72799b60d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                        <value>Workplace Incidents This Month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:41">1a73eada2f8f2c904cbeb1e72799b60b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:42</sys_created_on>
+                        <sys_id>1673eada2f8f2c904cbeb1e72799b60c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:41">1a73eada2f8f2c904cbeb1e72799b60b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:42</sys_created_on>
+                        <sys_id>1e73eada2f8f2c904cbeb1e72799b60b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                        <value>549a1e5a2f4f2c904cbeb1e72799b62a</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:41">1a73eada2f8f2c904cbeb1e72799b60b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:42</sys_created_on>
+                        <sys_id>5273eada2f8f2c904cbeb1e72799b60c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:41">1a73eada2f8f2c904cbeb1e72799b60b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:42</sys_created_on>
+                        <sys_id>5e73eada2f8f2c904cbeb1e72799b60c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:41">1a73eada2f8f2c904cbeb1e72799b60b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:42</sys_created_on>
+                        <sys_id>9673eada2f8f2c904cbeb1e72799b60d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:41">1a73eada2f8f2c904cbeb1e72799b60b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:42</sys_created_on>
+                        <sys_id>9a73eada2f8f2c904cbeb1e72799b60c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:41">1a73eada2f8f2c904cbeb1e72799b60b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:42</sys_created_on>
+                        <sys_id>d673eada2f8f2c904cbeb1e72799b60c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:42</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Monthly Dashboard">8ab26a9a2f8f2c904cbeb1e72799b61b</page>
+                <summary>Health and Safety Incidents By Location</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-03-24 18:10:51</sys_created_on>
+                <sys_id>53b362da2f8f2c904cbeb1e72799b681</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-03-24 18:10:51</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-03-24 14:10:51">53b362da2f8f2c904cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:10:51</sys_created_on>
+                        <sys_id>13b362da2f8f2c904cbeb1e72799b682</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:10:51</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-03-24 14:10:51">53b362da2f8f2c904cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:10:51</sys_created_on>
+                        <sys_id>1fb3261e2f8f2c904cbeb1e72799b61d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:10:51</sys_updated_on>
+                        <value>horizontal_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-03-24 14:10:51">53b362da2f8f2c904cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:10:51</sys_created_on>
+                        <sys_id>57b362da2f8f2c904cbeb1e72799b681</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:10:51</sys_updated_on>
+                        <value>d31166d62f8f2c904cbeb1e72799b6a4</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-03-24 14:10:51">53b362da2f8f2c904cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:10:51</sys_created_on>
+                        <sys_id>5fb362da2f8f2c904cbeb1e72799b681</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:10:51</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-03-24 14:10:51">53b362da2f8f2c904cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:10:51</sys_created_on>
+                        <sys_id>9bb362da2f8f2c904cbeb1e72799b681</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:10:51</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-03-24 14:10:51">53b362da2f8f2c904cbeb1e72799b681</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:10:51</sys_created_on>
+                        <sys_id>dfb3261e2f8f2c904cbeb1e72799b61d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:10:51</sys_updated_on>
+                        <value>Health and Safety Incidents By Location</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Monthly Dashboard">8ab26a9a2f8f2c904cbeb1e72799b61b</page>
+                <summary>Active Workplace Incidents</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                <sys_id>83636a9a2f8f2c904cbeb1e72799b632</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:28">83636a9a2f8f2c904cbeb1e72799b632</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                        <sys_id>0363eada2f8f2c904cbeb1e72799b622</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                        <value>Active Workplace Incidents</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:28">83636a9a2f8f2c904cbeb1e72799b632</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                        <sys_id>0763eada2f8f2c904cbeb1e72799b621</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:28">83636a9a2f8f2c904cbeb1e72799b632</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                        <sys_id>4363eada2f8f2c904cbeb1e72799b621</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:28">83636a9a2f8f2c904cbeb1e72799b632</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                        <sys_id>4f636a9a2f8f2c904cbeb1e72799b632</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                        <value>e80a5a5a2f4f2c904cbeb1e72799b624</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:28">83636a9a2f8f2c904cbeb1e72799b632</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                        <sys_id>4f63eada2f8f2c904cbeb1e72799b621</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:28">83636a9a2f8f2c904cbeb1e72799b632</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                        <sys_id>4f63eada2f8f2c904cbeb1e72799b622</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:28">83636a9a2f8f2c904cbeb1e72799b632</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                        <sys_id>8b63eada2f8f2c904cbeb1e72799b621</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-03-24 14:09:28">83636a9a2f8f2c904cbeb1e72799b632</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-24 18:09:28</sys_created_on>
+                        <sys_id>c763eada2f8f2c904cbeb1e72799b621</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-24 18:09:28</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Monthly Dashboard">8ab26a9a2f8f2c904cbeb1e72799b61b</page>
+                <summary>Incidents by Location and Type</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-03-26 04:33:30</sys_created_on>
+                <sys_id>8adb79f21bcf6010ea0eda02dd4bcb48</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-03-26 04:33:30</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-03-26 00:33:30">8adb79f21bcf6010ea0eda02dd4bcb48</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:33:30</sys_created_on>
+                        <sys_id>0adb79f21bcf6010ea0eda02dd4bcb4a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:33:30</sys_updated_on>
+                        <value>Incidents by Location and Type</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-03-26 00:33:30">8adb79f21bcf6010ea0eda02dd4bcb48</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:33:30</sys_created_on>
+                        <sys_id>0edb79f21bcf6010ea0eda02dd4bcb49</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:33:30</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-03-26 00:33:30">8adb79f21bcf6010ea0eda02dd4bcb48</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:33:30</sys_created_on>
+                        <sys_id>46db79f21bcf6010ea0eda02dd4bcb4a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:33:30</sys_updated_on>
+                        <value>pivot_v2</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-03-26 00:33:30">8adb79f21bcf6010ea0eda02dd4bcb48</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:33:30</sys_created_on>
+                        <sys_id>82db79f21bcf6010ea0eda02dd4bcb49</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:33:30</sys_updated_on>
+                        <value>41cbf5721bcf6010ea0eda02dd4bcb85</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-03-26 00:33:30">8adb79f21bcf6010ea0eda02dd4bcb48</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:33:30</sys_created_on>
+                        <sys_id>82db79f21bcf6010ea0eda02dd4bcb4a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:33:30</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-03-26 00:33:30">8adb79f21bcf6010ea0eda02dd4bcb48</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-03-26 04:33:30</sys_created_on>
+                        <sys_id>cedb79f21bcf6010ea0eda02dd4bcb49</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-03-26 04:33:30</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Monthly Dashboard">8ab26a9a2f8f2c904cbeb1e72799b61b</page>
+                <summary>Incidents By Type</summary>
+                <sys_created_by>$pain</sys_created_by>
+                <sys_created_on>2021-04-01 16:36:11</sys_created_on>
+                <sys_id>a2ca9ff01b536010c261ed3cbc4bcb9b</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>$pain</sys_updated_by>
+                <sys_updated_on>2021-04-01 16:36:11</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-04-01 12:36:11">a2ca9ff01b536010c261ed3cbc4bcb9b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-01 16:36:11</sys_created_on>
+                        <sys_id>3eca9ff01b536010c261ed3cbc4bcb9c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-01 16:36:11</sys_updated_on>
+                        <value>pie</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-04-01 12:36:11">a2ca9ff01b536010c261ed3cbc4bcb9b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-01 16:36:11</sys_created_on>
+                        <sys_id>7aca9ff01b536010c261ed3cbc4bcb9c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-01 16:36:11</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-04-01 12:36:11">a2ca9ff01b536010c261ed3cbc4bcb9b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-01 16:36:11</sys_created_on>
+                        <sys_id>b6ca9ff01b536010c261ed3cbc4bcb9c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-01 16:36:11</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-04-01 12:36:11">a2ca9ff01b536010c261ed3cbc4bcb9b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-01 16:36:11</sys_created_on>
+                        <sys_id>baca9ff01b536010c261ed3cbc4bcb9b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-01 16:36:11</sys_updated_on>
+                        <value>6e0b1ada2f4f2c904cbeb1e72799b69d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-04-01 12:36:11">a2ca9ff01b536010c261ed3cbc4bcb9b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-01 16:36:11</sys_created_on>
+                        <sys_id>f2ca9ff01b536010c261ed3cbc4bcb9c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-01 16:36:11</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-04-01 12:36:11">a2ca9ff01b536010c261ed3cbc4bcb9b</portal_section>
+                        <sys_created_by>$pain</sys_created_by>
+                        <sys_created_on>2021-04-01 16:36:11</sys_created_on>
+                        <sys_id>feca9ff01b536010c261ed3cbc4bcb9c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>$pain</sys_updated_by>
+                        <sys_updated_on>2021-04-01 16:36:11</sys_updated_on>
+                        <value>Incidents By Type</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

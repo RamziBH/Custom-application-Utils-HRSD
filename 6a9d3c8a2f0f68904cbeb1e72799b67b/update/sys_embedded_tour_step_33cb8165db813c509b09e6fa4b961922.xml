@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">bbcb8165db813c509b09e6fa4b96191f</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Select if there were witnesses or not. For this example, select &#34;no&#34;]]></content>
+        <guide display_value="Submit incident report">e7a8c5addb413c509b09e6fa4b9619c1</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/services?id=sc_cat_item&amp;sys_id=632c129e2f4f2c904cbeb1e72799b6d0"}</options>
+        <order>7</order>
+        <placement>top</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-06-29 13:56:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33cb8165db813c509b09e6fa4b961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_33cb8165db813c509b09e6fa4b961922</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">bbcb8165db813c509b09e6fa4b96191f</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>services</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=33cb8165db813c509b09e6fa4b961922"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>33cb8165db813c509b09e6fa4b961922</documentkey>
+        <fieldname>content</fieldname>
+        <language>fq</language>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-06-30 14:57:45</sys_created_on>
+        <sys_id>9e53e271db49bc509b09e6fa4b961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2021-06-30 14:57:45</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value>&lt;p id="tw-target-text" dir="ltr" data-placeholder="Translation"&gt;S&amp;eacute;lectionnez s'il y a eu des t&amp;eacute;moins ou non. Pour cet exemple, s&amp;eacute;lectionnez "non"&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>33cb8165db813c509b09e6fa4b961922</documentkey>
+        <fieldname>title</fieldname>
+        <language>fq</language>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-06-30 14:57:45</sys_created_on>
+        <sys_id>5653e271db49bc509b09e6fa4b961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2021-06-30 14:57:45</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

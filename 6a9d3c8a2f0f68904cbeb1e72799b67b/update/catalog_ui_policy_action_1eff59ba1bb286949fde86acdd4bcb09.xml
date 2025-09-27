@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:1bbf51ba1b7286949fde86acdd4bcbe7</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-18 17:23:24</sys_created_on>
+        <sys_id>1eff59ba1bb286949fde86acdd4bcb09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1eff59ba1bb286949fde86acdd4bcb09</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-18 17:23:57</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide/Show elements when Asset type is Other">fcd79bfa1ba20650813f844fdd4bcb46</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>description</variable>
+        <variable_set display_value="Asset information">dfee0bf61b2ac250813f844fdd4bcb4c</variable_set>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

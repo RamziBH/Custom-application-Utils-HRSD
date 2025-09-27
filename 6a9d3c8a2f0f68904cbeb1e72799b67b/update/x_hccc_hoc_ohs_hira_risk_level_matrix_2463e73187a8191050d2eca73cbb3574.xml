@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_hccc_hoc_ohs_hira_risk_level_matrix">
+    <x_hccc_hoc_ohs_hira_risk_level_matrix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <likelihood>4</likelihood>
+        <order>1600</order>
+        <residual_risk_level>red</residual_risk_level>
+        <severity>1</severity>
+        <sys_class_name>x_hccc_hoc_ohs_hira_risk_level_matrix</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-08 15:44:50</sys_created_on>
+        <sys_id>2463e73187a8191050d2eca73cbb3574</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>1600</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>x_hccc_hoc_ohs_hira_risk_level_matrix_2463e73187a8191050d2eca73cbb3574</sys_update_name>
+        <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-04 16:30:49</sys_updated_on>
+    </x_hccc_hoc_ohs_hira_risk_level_matrix>
+</record_update>

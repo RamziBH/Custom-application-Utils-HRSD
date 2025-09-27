@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">933e869d1bedc1109fde86acdd4bcbfc</copied_from>
+        <description>Answer the questions on the form as follows:
+Witnesses(s)  = Vax, HocEmployeePersona</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>19</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:52:01</sys_created_on>
+        <sys_id>dcc1a57a3b4d1a18aeb1ebc964e45af2</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_dcc1a57a3b4d1a18aeb1ebc964e45af2</sys_update_name>
+        <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-22 16:06:33</sys_updated_on>
+        <table/>
+        <test display_value="OHS - Report Incident check email content at each step">84c1657a3b4d1a18aeb1ebc964e45a14</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=dcc1a57a3b4d1a18aeb1ebc964e45af2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dcc1a57a3b4d1a18aeb1ebc964e45af2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:52:01</sys_created_on>
+        <sys_id>1cc1e57a3b4d1a18aeb1ebc964e45a3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:52:01</sys_updated_on>
+        <value>632c129e2f4f2c904cbeb1e72799b6d0</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dcc1a57a3b4d1a18aeb1ebc964e45af2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:52:01</sys_created_on>
+        <sys_id>58c1e57a3b4d1a18aeb1ebc964e45a3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:52:01</sys_updated_on>
+        <value>IO:1b4e6a932fab64104cbeb1e72799b692=,e26d889c1b6bb010426497d58d4bcbce^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dcc1a57a3b4d1a18aeb1ebc964e45af2</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:52:01</sys_created_on>
+        <sys_id>94c1e57a3b4d1a18aeb1ebc964e45a3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:52:01</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=dcc1a57a3b4d1a18aeb1ebc964e45af2"/>
+</record_update>

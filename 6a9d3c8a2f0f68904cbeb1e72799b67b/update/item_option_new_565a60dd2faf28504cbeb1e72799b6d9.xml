@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Employee Workplace Incident Reporting">632c129e2f4f2c904cbeb1e72799b6d0</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field>yes_no</choice_field>
+        <choice_table>x_hccc_base_option</choice_table>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field>inc_first_aid_req</field>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text>Select whether you received first aid. First aid is the first and immediate assistance given to any person suffering from either a minor or serious illness or injury, with care provided to preserve life, prevent the condition from worsening, or to promote recovery. This may include the cleaning/disinfecting of the wound or application of a bandage (band aid). </help_text>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions><![CDATA[<p>Sélectionnez si vous avez reçu les premiers soins. Les premiers soins sont les premiers secours apportés à toute personne souffrant d&#39;une maladie ou d&#39;une blessure mineure ou grave, avec des soins prodigués pour préserver la vie, empêcher l&#39;aggravation de l&#39;état ou favoriser le rétablissement. Cela peut inclure le nettoyage/la désinfection de la plaie ou l&#39;application d&#39;un pansement.</p>]]></instructions>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>true</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>inc_first_aid_req</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>650</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>First aid administered</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_hccc_hoc_ohs_investigation_case</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>true</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-15 03:18:31</sys_created_on>
+        <sys_id>565a60dd2faf28504cbeb1e72799b6d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>First aid administered</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>item_option_new_565a60dd2faf28504cbeb1e72799b6d9</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>5</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+        <x_hccc_dfsa_erp_u_simple_name_values_1/>
+        <x_hccc_dfsa_erp_u_translated_text_2/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=565a60dd2faf28504cbeb1e72799b6d9"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>565a60dd2faf28504cbeb1e72799b6d9</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-06-03 05:29:54</sys_created_on>
+        <sys_id>cd7ed9c9db6434109b09e6fa4b961969</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-19 16:07:41</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value>Sélectionnez si vous avez reçu les premiers soins. Les premiers soins sont les premiers secours apportés à toute personne souffrant d'une maladie ou d'une blessure mineure ou grave, avec des soins prodigués pour préserver la vie, empêcher l'aggravation de l'état ou favoriser le rétablissement. Cela peut inclure le nettoyage/la désinfection de la plaie ou l'application d'un pansement. </value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>565a60dd2faf28504cbeb1e72799b6d9</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>fq</language>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-06-03 05:29:54</sys_created_on>
+        <sys_id>cd7e5989db6434109b09e6fa4b9619cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-04 18:08:59</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value>Sélectionnez si vous avez reçu les premiers soins. Les premiers soins sont les premiers secours apportés à toute personne souffrant d'une maladie ou d'une blessure mineure ou grave, avec des soins prodigués pour préserver la vie, empêcher l'aggravation de l'état ou favoriser le rétablissement. Cela peut inclure le nettoyage/la désinfection de la plaie ou l'application d'un pansement.</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>565a60dd2faf28504cbeb1e72799b6d9</documentkey>
+        <fieldname>rich_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-19 16:07:41</sys_created_on>
+        <sys_id>4e1e445f1b4901109fde86acdd4bcbb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-19 16:07:41</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>565a60dd2faf28504cbeb1e72799b6d9</documentkey>
+        <fieldname>x_hccc_dfsa_erp_u_translated_text_2</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-19 16:07:41</sys_created_on>
+        <sys_id>ce1e445f1b4901109fde86acdd4bcbab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-19 16:07:41</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=565a60dd2faf28504cbeb1e72799b6d9"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price_if_checked</field>
+        <id>565a60dd2faf28504cbeb1e72799b6d9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-15 03:18:31</sys_created_on>
+        <sys_id>667ae0512fef28504cbeb1e72799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-15 03:18:31</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>rec_price_if_checked</field>
+        <id>565a60dd2faf28504cbeb1e72799b6d9</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-15 03:18:31</sys_created_on>
+        <sys_id>2e7ae0512fef28504cbeb1e72799b621</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-15 03:18:31</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

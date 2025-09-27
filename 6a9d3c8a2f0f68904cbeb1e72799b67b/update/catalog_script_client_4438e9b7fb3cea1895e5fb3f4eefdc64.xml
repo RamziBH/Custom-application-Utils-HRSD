@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item/>
+        <cat_variable/>
+        <condition/>
+        <description>To fetch employees value from the url and populates in the record producer form</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Fetch Values from the Url</name>
+        <order>100</order>
+        <published_ref/>
+        <script><![CDATA[function onLoad() {
+
+alert('pass');
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-04-16 02:50:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4438e9b7fb3cea1895e5fb3f4eefdc64</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Fetch Values from the Url</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_script_client_4438e9b7fb3cea1895e5fb3f4eefdc64</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-04-16 02:56:04</sys_updated_on>
+        <table/>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>4438e9b7fb3cea1895e5fb3f4eefdc64</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-04-16 02:50:38</sys_created_on>
+        <sys_id>7878a17bfb3cea1895e5fb3f4eefdc42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-04-16 02:50:38</sys_updated_on>
+        <table>catalog_script_client</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

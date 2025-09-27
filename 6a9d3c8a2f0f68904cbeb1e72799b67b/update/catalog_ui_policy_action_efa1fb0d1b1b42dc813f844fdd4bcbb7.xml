@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:b6b03bc51bd742dc813f844fdd4bcbfc</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-08 14:01:41</sys_created_on>
+        <sys_id>efa1fb0d1b1b42dc813f844fdd4bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>location</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_efa1fb0d1b1b42dc813f844fdd4bcbb7</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-08 14:01:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="HOC Employee Info Mandatory Always">cb7177091b1b42dc813f844fdd4bcb7a</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>location</variable>
+        <variable_set display_value="HoC OHS Employee Details">90fbe9c81b2a0a50813f844fdd4bcb28</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

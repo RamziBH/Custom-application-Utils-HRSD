@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($window, $scope, $rootScope, $timeout, $location, spAriaFocusManager, $element) {
+	/* widget controller */
+    var c = this;
+
+    $scope.selectedOption = c.data.selectedOption;
+    var parentField = $location.search().parent_field;
+    var table = $location.search().table;
+    var parent = $location.search().parent;
+    var sys_id = $location.search().sys_id;
+
+    c.data.dropdownRecordsclass = sys_id == '-1' ? 'noshow' : '';
+    c.data.newLink = 'services?id=hoc_hira_rl_form&table=' + table + '&sys_id=-1&view=sp&parent=' +
+        parent + '&parent_field=' + parentField + '&query=' + parentField + '=' + parent;
+    //$scope.page.g_form.setValue(parentField, parent);
+
+    function callDataClick() {
+        var s = {
+            id: 'hoc_hira_rl_form',
+            table: table,
+            sys_id: $scope.selectedOption.id,
+            view: 'sp',
+            parent: parent,
+            parent_field: parentField
+        };
+
+        $rootScope.$broadcast('$sp.list.click', s);
+
+        var newURL = $location.search(s);
+
+        spAriaFocusManager.navigateToLink(newURL.url());
+    }
+	
+
+	
+	
+
+    //Used to add annotations/sections.... was changed to use the form sections instead
+    /*$rootScope.$on('spModel.gForm.env.created', function(event, toState, toParams){
+    			$timeout(function() {
+    				var el1 = $element.find('#\\.annotation\\.cd5c7666fb42165495e5fb3f4eefdc77');
+    				if (el1 && el1[0]) {
+    					el1[0].innerText = c.data.hazardDescription;
+    				}
+    				var el2 = $element.find('#\\.annotation\\.c15c7666fb42165495e5fb3f4eefdc78')
+    				if (el2 && el2[0]) {
+    					el2[0].innerText = c.data.riskAssessment;
+    				}
+    				var el3 = $element.find('#\\.annotation\\.855c7666fb42165495e5fb3f4eefdc78');
+    				if (el3 && el3[0]) {
+    					el3[0].innerText = c.data.mitigationActions;
+    				}
+    				var el4 = $element.find('#\\.annotation\\.495c7666fb42165495e5fb3f4eefdc78');
+    				if (el4 && el4[0]) {
+    					el4[0].innerText = c.data.noMitigation;
+    				}
+    				
+    				
+    				console.log(t)
+    			}, 100);
+    });*/
+
+    c.updateForm = function() {
+        callDataClick();
+    }
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.dropdown_title {
+  display: inline-block;
+}
+.hira_back_link {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.btn-default {
+  display: none;
+}
+
+.noshow {
+  display: none;
+}
+
+#\.annotation\.cd5c7666fb42165495e5fb3f4eefdc77, #\.annotation\.c15c7666fb42165495e5fb3f4eefdc78, #\.annotation\.855c7666fb42165495e5fb3f4eefdc78 {
+   font-weight: bold;
+  font-size: x-large;
+  color: red;
+}
+
+#\.annotation\.495c7666fb42165495e5fb3f4eefdc78 {
+  color: red;
+  font-weight: bold;
+}
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>HIRA Dropdown</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function(input) {
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    data.newLabel = gs.getMessage('New');
+    data.formWidget = $sp.getWidget('widget-form');
+
+	//for annotations/sections... was changed to use the form sections instead.
+    //data.hazardDescription = gs.getMessage('Hazard Description');
+    //data.riskAssessment = gs.getMessage('Risk Assessment');
+    //data.mitigationActions = gs.getMessage('Mitigation Action(s)');
+    //data.noMitigation = gs.getMessage('If no recommendations are required, add "N/A".')
+    var parent = $sp.getParameter('parent');
+    var table = $sp.getParameter('table');
+    var parentField = $sp.getParameter('parent_field');
+    var sys_id = $sp.getParameter('sys_id');
+    var childRecords = new GlideRecordSecure(table);
+
+    childRecords.addQuery(parentField, parent);
+    childRecords.query();
+    //data.selectedOption = {name: gs.getMessage('New Record'),
+    //		id: -1
+    //	}
+    data.relatedRecords = [
+        //data.selectedOption
+    ];
+
+    while (childRecords.next()) {
+        var shortDesc = '';
+
+        if (table == 'x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment') {
+            shortDesc = ' - ' + childRecords.work_task_description.toString();
+        } else if (table == 'x_hccc_hoc_ohs_hira_action') {
+            shortDesc = ' - ' + childRecords.short_description.toString();
+        }
+
+        var record = {
+            name: childRecords.number.toString() + shortDesc,
+            id: childRecords.sys_id.toString()
+        }
+
+        if (childRecords.sys_id.toString() == sys_id) {
+            data.selectedOption = record;
+        }
+        data.relatedRecords.push(record)
+    }
+
+    if (table == 'x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment') {
+        var gr = new GlideRecord('x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment');
+
+        data.title = gr.getClassDisplayValue();
+        data.backMessage = '<- ' + gs.getMessage('Back to Case');
+        data.backLink = '/services?id=hoc_hira_form&table=x_hccc_hoc_ohs_hira_case&sys_id=' + parent + '&view=sp';
+    } else if (table == 'x_hccc_hoc_ohs_hira_action') {
+        var gr = new GlideRecord('x_hccc_hoc_ohs_hira_action');
+        data.title = gr.getClassDisplayValue();
+        var hazard = new GlideRecordSecure('x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment');
+        if (hazard.get('sys_id', parent)) {
+            data.backMessage = '<- ' + gs.getMessage('Back to Hazard');
+            data.backLink = '/services?id=hoc_hira_rl_form&table=x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment&parent=' + hazard.hira_case.sys_id.toString() + '&view=sp&parent_field=hira_case&sys_id=' + parent;
+        }
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-12-05 19:09:21</sys_created_on>
+        <sys_id>ed86d929fb1a169895e5fb3f4eefdccf</sys_id>
+        <sys_mod_count>304</sys_mod_count>
+        <sys_name>HIRA Dropdown</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_ed86d929fb1a169895e5fb3f4eefdccf</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-26 19:50:08</sys_updated_on>
+        <template><![CDATA[<div>
+   <!--<p class="hira_back_link">
+    <a href="{{c.data.backLink}}">{{c.data.backMessage}}</a>
+  </p>-->
+  <h2 class="dropdown_title">
+    {{c.data.title}}
+  </h2>
+  <a href="{{c.data.newLink}}" class="btn btn-primary action-btn" style="float: right; margin-top: 10px;">
+    {{c.data.newLabel}}
+  </a>
+  
+<span class="{{c.data.dropdownRecordsclass}}">
+  <select class="select2-choice form-control" name="records" id="records"
+      ng-options="option.name for option in data.relatedRecords track by option.id"
+      ng-model="selectedOption"  ng-change="c.updateForm();"></select>
+  
+	  <br />
+</span>
+  <sp-widget widget="c.data.formWidget"></sp-widget>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>ed86d929fb1a169895e5fb3f4eefdccf</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-12-05 19:09:20</sys_created_on>
+        <sys_id>0a965d29fb1a169895e5fb3f4eefdc07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-12-05 19:09:20</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

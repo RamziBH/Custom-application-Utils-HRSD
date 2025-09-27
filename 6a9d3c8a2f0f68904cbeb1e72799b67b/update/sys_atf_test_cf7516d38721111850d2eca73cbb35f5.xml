@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Pre-conditions:&#13;
+- create a new department&#13;
+- create a HR position that uses the newly created department&#13;
+- create a second position that Report to the first position&#13;
+&#13;
+4.	Manager then adds appropriate HIRA Records (stored in a custom table). When complete, the Manager clicks "Send to OHS"&#13;
+a.	Assignment Group = CEH-HRS-OHS-Advisor&#13;
+b.	State = Final Review – Advisor&#13;
+c.	Notification sent to Manager: HOC – OHSM Manager – HIRA Assigned&#13;
+&#13;
+5. An advisor reviews and can return it to the Manager (Send to Manager) with comments or accept the HIRA (Complete Review).&#13;
+	1. If returned to Manager &#13;
+			1. Assigned To = Manager&#13;
+			2. State = In Progress&#13;
+                        3. HIRA State = stays the same&#13;
+			4. Notification sent to Manager: HOC – OHSM Manager – HIRA Assigned&#13;
+&#13;
+ </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>DNU - OHS - HIRA Assigned Mgr Adds HIRA OHS sends back to Mgr 1 (fix in progress #144846)</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-31 18:41:46</sys_created_on>
+        <sys_id>cf7516d38721111850d2eca73cbb35f5</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>DNU - OHS - HIRA Assigned Mgr Adds HIRA OHS sends back to Mgr 1 (fix in progress #144846)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_cf7516d38721111850d2eca73cbb35f5</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-07 19:48:23</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=cf7516d38721111850d2eca73cbb35f5"/>
+</record_update>

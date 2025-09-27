@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Run Server Side Script">96b6ca0b1b3361989fde86acdd4bcbe0</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Workaround to indicate the manager disagrees with the committee decision</notes>
+        <order>44</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:38:56</sys_created_on>
+        <sys_id>8e43f56f1b443154893442a7bc4bcbcc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_8e43f56f1b443154893442a7bc4bcbcc</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:38:56</sys_updated_on>
+        <table/>
+        <test display_value="(INACTIVE)OHS - Safety Complaint Workflow Emp disagree Mgr agrees Commit. Mgr disagrees Commit. copy">7c43356f1b443154893442a7bc4bcb82</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=8e43f56f1b443154893442a7bc4bcbcc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8e43f56f1b443154893442a7bc4bcbcc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:38:56</sys_created_on>
+        <sys_id>8a43f56f1b443154893442a7bc4bcbcd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:38:56</sys_updated_on>
+        <value>&#13;
+(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+    var workaround = new x_hccc_hoc_ohs.HoCOHSATFUtils();&#13;
+	var SYSID_PREV_STEP = '4143756f1b443154893442a7bc4bcb7a';&#13;
+	var success;&#13;
+&#13;
+	success = workaround.safetyComplaintManagerdisagreeCommittee(steps(SYSID_PREV_STEP).record_id);&#13;
+&#13;
+	if (success){&#13;
+		gs.info("Workaround is successful");&#13;
+	}&#13;
+	else{&#13;
+		gs.info("Workaround failed");&#13;
+	}&#13;
+&#13;
+return true;&#13;
+&#13;
+})(outputs, steps, params, stepResult, assertEqual);&#13;
+&#13;
+</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>8e43f56f1b443154893442a7bc4bcbcc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:38:56</sys_created_on>
+        <sys_id>c643f56f1b443154893442a7bc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:38:56</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

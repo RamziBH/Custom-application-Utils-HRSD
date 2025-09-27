@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Hazard Investigation and Risk Assessment (HIRA) (Obsolete)</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Erin Kelly (AZ)">1def196a877f051050d2eca73cbb35d5</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=4d61da6a8780191050d2eca73cbb35c7&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[/* global producer, sn_hr_le, cat_item */
+(function() {
+
+    new sn_hr_le.hr_ActivityUtils().createCaseFromProducer(current, producer, cat_item.sys_id);
+    //   producer.portal_redirect = "?id=hoc_ohsm_confirmation&requestNumber=" + current.number;
+
+    var chemical = JSON.parse(producer.hira_chemical_risks);
+    var biological = JSON.parse(producer.hira_biological_risks);
+    var energy = JSON.parse(producer.hira_energy_risks);
+    var explosion = JSON.parse(producer.hira_explosion_risks);
+    var physical = JSON.parse(producer.hira_physical_risks);
+    var psychosocial = JSON.parse(producer.hira_psychosocial_risks);
+
+    var gdt = new GlideDateTime();
+
+    gdt.addYearsLocalTime(3);
+    current.review_due = gdt.getDate();
+    current.state = 1;
+    current.assigned_to = producer.manager_name;
+
+    //create a child case per MRVS line
+    var work_task_desc = [];
+    var frequency = [];
+    var hazard_category = [];
+    var hazard_subcat = [];
+    var hazard_desc = [];
+    var consequence = [];
+    var reg_reference = [];
+    var severity = [];
+    var likelihood = [];
+    var controls = [];
+    var recommended = [];
+    var actions = [];
+    var start_date = [];
+    var training = [];
+    var comment = [];
+
+    //populate array with MRVS - CHEMICAL
+    var risks_identified_count = chemical.length;
+    var i = 0;
+
+    for (i = 0; i < risks_identified_count; i++) {
+        work_task_desc.push(chemical[i].work_task_and_description_chemical);
+        frequency.push(chemical[i].frequency_chemical);
+        hazard_category.push("chemical");
+        hazard_subcat.push(chemical[i].hazard_subcategory_chemical);
+        hazard_desc.push(chemical[i].hazard_description_chemical);
+        consequence.push(chemical[i].consequence_chemical);
+        likelihood.push(chemical[i].likelihood_chemical);
+        reg_reference.push(chemical[i].regulatory_reference_chemical);
+        severity.push(chemical[i].severity_chemical);
+        controls.push(chemical[i].controls_present_chemical);
+        recommended.push(chemical[i].recommended_action_chemical);
+        actions.push(chemical[i].action_s_taken_by_manager_chemical);
+        start_date.push(chemical[i].start_date_for_implementing_control_measures_chemical);
+        training.push(chemical[i].is_there_a_training_component_involved_chemical);
+        comment.push(chemical[i].comments_chemical);
+    }
+
+    //populate array with MRVS - BIOLOGICAL
+    risks_identified_count = biological.length;
+    for (i = 0; i < risks_identified_count; i++) {
+        work_task_desc.push(biological[i].work_task_and_description_bio);
+        frequency.push(biological[i].frequency_bio);
+        hazard_category.push('biological');
+        hazard_subcat.push(biological[i].hazard_subcategory_bio);
+        hazard_desc.push(biological[i].hazard_description_bio);
+        consequence.push(biological[i].consequence_bio);
+        likelihood.push(biological[i].likelihood_bio);
+        reg_reference.push(biological[i].regulatory_reference_bio);
+        severity.push(biological[i].severity_bio);
+        controls.push(biological[i].controls_present_bio);
+        recommended.push(biological[i].recommended_action_bio);
+        actions.push(biological[i].action_s_taken_by_manager_bio);
+        start_date.push(biological[i].start_date_for_implementing_control_measures_bio);
+        training.push(biological[i].is_there_a_training_component_involved_bio);
+        comment.push(biological[i].comments_bio);
+    }
+
+    //populate array with MRVS - ENERGY
+    risks_identified_count = energy.length;
+    for (i = 0; i < risks_identified_count; i++) {
+        work_task_desc.push(energy[i].work_task_and_description_energy);
+        frequency.push(energy[i].frequency_energy);
+        hazard_category.push('energy');
+        hazard_subcat.push(energy[i].hazard_subcategory_energy);
+        hazard_desc.push(energy[i].hazard_description_energy);
+        consequence.push(energy[i].consequence_energy);
+        likelihood.push(energy[i].likelihood_energy);
+        reg_reference.push(energy[i].regulatory_reference_energy);
+        severity.push(energy[i].severity_energy);
+        controls.push(energy[i].controls_present_energy);
+        recommended.push(energy[i].recommended_action_energy);
+        actions.push(energy[i].action_s_taken_by_manager_energy);
+        start_date.push(energy[i].start_date_for_implementing_control_measures_energy);
+        training.push(energy[i].is_there_a_training_component_involved_energy);
+        comment.push(energy[i].comments_energy);
+    }
+
+    //populate array with MRVS - EXPLOSION
+    risks_identified_count = explosion.length;
+    for (i = 0; i < risks_identified_count; i++) {
+        work_task_desc.push(explosion[i].work_task_and_description_explosion);
+        frequency.push(explosion[i].frequency_explosion);
+        hazard_category.push('explosion');
+        hazard_subcat.push(explosion[i].hazard_subcategory_explosion);
+        hazard_desc.push(explosion[i].hazard_description_explosion);
+        consequence.push(explosion[i].consequence_explosion);
+        likelihood.push(explosion[i].likelihood_explosion);
+        reg_reference.push(explosion[i].regulatory_reference_explosion);
+        severity.push(explosion[i].severity_explosion);
+        controls.push(explosion[i].controls_present_explosion);
+        recommended.push(explosion[i].recommended_action_explosion);
+        actions.push(explosion[i].action_s_taken_by_manager_explosion);
+        start_date.push(explosion[i].start_date_for_implementing_control_measures_explosion);
+        training.push(explosion[i].is_there_a_training_component_involved_explosion);
+        comment.push(explosion[i].comments_explosion);
+    }
+
+    //populate array with MRVS - PHYSICAL
+    risks_identified_count = physical.length;
+    for (i = 0; i < risks_identified_count; i++) {
+        work_task_desc.push(physical[i].work_task_and_description_physical);
+        frequency.push(physical[i].frequency_physical);
+        hazard_category.push('physical');
+        hazard_subcat.push(physical[i].hazard_subcategory_physical);
+        hazard_desc.push(physical[i].hazard_description_physical);
+        consequence.push(physical[i].consequence_physical);
+        likelihood.push(physical[i].likelihood_physical);
+        reg_reference.push(physical[i].regulatory_reference_physical);
+        severity.push(physical[i].severity_physical);
+        controls.push(physical[i].controls_present_physical);
+        recommended.push(physical[i].recommended_action_physical);
+        actions.push(physical[i].action_s_taken_by_manager_physical);
+        start_date.push(physical[i].start_date_for_implementing_control_measures_physical);
+        training.push(physical[i].is_there_a_training_component_involved_physical);
+        comment.push(physical[i].comments_physical);
+    }
+
+    //populate array with MRVS - PSYCHOSOCIAL
+    risks_identified_count = psychosocial.length;
+    for (i = 0; i < risks_identified_count; i++) {
+        work_task_desc.push(psychosocial[i].work_task_and_description_ps);
+        frequency.push(psychosocial[i].frequency_ps);
+        hazard_category.push('psychosocial');
+        hazard_subcat.push(psychosocial[i].hazard_subcategory_ps);
+        hazard_desc.push(psychosocial[i].hazard_description_ps);
+        consequence.push(psychosocial[i].consequence_ps);
+        likelihood.push(psychosocial[i].likelihood_ps);
+        reg_reference.push(psychosocial[i].regulatory_reference_ps);
+        severity.push(psychosocial[i].severity_ps);
+        controls.push(psychosocial[i].controls_present_ps);
+        recommended.push(psychosocial[i].recommended_action_ps);
+        actions.push(psychosocial[i].action_s_taken_by_manager_ps);
+        start_date.push(psychosocial[i].start_date_for_implementing_control_measures_ps);
+        training.push(psychosocial[i].is_there_a_training_component_involved_ps);
+        comment.push(psychosocial[i].comments_ps);
+    }
+
+    if (work_task_desc.length > 0) {
+        for (var x = 0; x < work_task_desc.length; x++) {
+            var grItem = new GlideRecord('x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment');
+
+            grItem.initialize();
+            //grItem.hr_service = '2519e8648754515050d2eca73cbb35d4'; //HIRA Line Item		
+            grItem.work_task_description = work_task_desc[x];
+            grItem.hira_case = current.sys_id;
+            grItem.frequency = frequency[x];
+            grItem.hazard_category = hazard_category[x];
+            grItem.hazard_subcategory = hazard_subcat[x];
+            grItem.hazard_description = hazard_desc[x];
+            grItem.consequence = consequence[x];
+            grItem.regulatory_reference = reg_reference[x];
+            grItem.likelihood = likelihood[x];
+            grItem.severity = severity[x];
+            grItem.controls_present = controls[x];
+            grItem.recommended_action = recommended[x];
+            grItem.actions_taken = actions[x];
+            grItem.start_date = start_date[x];
+            grItem.training = training[x];
+            grItem.comment = comment[x];
+            grItem.insert();
+
+        }
+    }
+})();]]></script>
+        <short_description>Hazard and Risk Assessment reviewed every three years</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-15 20:55:19</sys_created_on>
+        <sys_id>4d61da6a8780191050d2eca73cbb35c7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Hazard Investigation and Risk Assessment (HIRA) (Obsolete)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_4d61da6a8780191050d2eca73cbb35c7</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 17:38:06</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_hira_case</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_hoc_sc_service/>
+        <u_includes_additional_services/>
+        <u_other_additional_services/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>4</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d61da6a8780191050d2eca73cbb35c7"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>4d61da6a8780191050d2eca73cbb35c7</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-15 16:28:39</sys_created_on>
+        <sys_id>899d1f061b119d909fde86acdd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-15 16:28:39</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>4d61da6a8780191050d2eca73cbb35c7</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-15 16:28:39</sys_created_on>
+        <sys_id>f09d1f061b119d909fde86acdd4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-15 16:28:39</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Enquête sur les dangers et évaluation des risques</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>4d61da6a8780191050d2eca73cbb35c7</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-15 16:28:39</sys_created_on>
+        <sys_id>3c9d1f061b119d909fde86acdd4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-15 16:28:39</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=4d61da6a8780191050d2eca73cbb35c7"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price</field>
+        <id>4d61da6a8780191050d2eca73cbb35c7</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-15 20:55:19</sys_created_on>
+        <sys_id>24a1d6aa8780191050d2eca73cbb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-15 20:55:19</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

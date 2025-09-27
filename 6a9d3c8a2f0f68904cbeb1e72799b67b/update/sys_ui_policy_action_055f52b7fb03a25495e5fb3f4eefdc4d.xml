@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>additional_information.please_specify_cause</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-06 03:11:56</sys_created_on>
+        <sys_id>055f52b7fb03a25495e5fb3f4eefdc4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>additional_information.please_specify_cause</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_055f52b7fb03a25495e5fb3f4eefdc4d</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-06 03:11:56</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <ui_policy display_value="Hide please specify cause field on loading of backend incident reporting case">601fd6b3fbcf625495e5fb3f4eefdcbd</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

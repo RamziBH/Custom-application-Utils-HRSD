@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <adv_condition_type>none</adv_condition_type>
+        <cancel_condition/>
+        <collection>x_hccc_hoc_ohs_hr_task</collection>
+        <condition_class/>
+        <duration>1970-01-04 18:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <flow/>
+        <name>HoC - Disability - 10 day</name>
+        <pause_condition/>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>true</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="HoC HR OHS">270bb9af1b028a10813f844fdd4bcb21</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <service_commitment>false</service_commitment>
+        <set_start_to>sys_created_on</set_start_to>
+        <start_condition table="x_hccc_hoc_ohs_hr_task">short_descriptionSTARTSWITHNotification of loss of substantive^ORshort_descriptionSTARTSWITHLoss of substantive-1yr^ORshort_descriptionSTARTSWITHEmployment Status -2yr^ORshort_descriptionSTARTSWITHEmployment Status -3yr^parent.ref_sn_hr_core_case.hr_service=10b2f3cb1b544e949fde86acdd4bcb92^EQ<item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Notification of loss of substantive"/>
+            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="true" value="Loss of substantive-1yr"/>
+            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="true" value="Employment Status -2yr"/>
+            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="true" value="Employment Status -3yr"/>
+            <item display_table="sn_hr_core_service" display_value="Disability Management" endquery="false" field="parent.ref_sn_hr_core_case.hr_service" goto="false" newquery="false" operator="=" or="false" value="10b2f3cb1b544e949fde86acdd4bcb92"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_hccc_hoc_ohs_hr_task">state=3^ORstate=4^ORstate=7^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item display_value="Closed Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="4"/>
+            <item display_value="Cancelled" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-14 22:43:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9b99d2671b8a0e10813f844fdd4bcbfa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HoC - Disability - 10 day</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>contract_sla_9b99d2671b8a0e10813f844fdd4bcbfa</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-14 22:47:19</sys_updated_on>
+        <target>resolution</target>
+        <timezone/>
+        <timezone_source>sla.timezone</timezone_source>
+        <type>SLA</type>
+        <vendor/>
+        <when_to_cancel>no_match</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow display_value="Default SLA workflow">4b6570360a0a0b3000bbacab877713f2</workflow>
+    </contract_sla>
+</record_update>

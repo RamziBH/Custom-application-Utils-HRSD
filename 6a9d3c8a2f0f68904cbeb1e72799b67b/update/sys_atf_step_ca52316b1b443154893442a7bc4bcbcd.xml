@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Field Values">779c35f187c4511050d2eca73cbb3505</copied_from>
+        <description>Set the following values on the form:
+Years of Occupation (calculated in years) = 22
+and Description of the event = ATF desc what happen
+and Description of the injury = ATF desc injury
+and Corrective measures = ATF correct measure and date
+and Implementation Date = 2022-01-31
+and Protection equipment required = No
+and Employee gender = Female
+and Direct cause of hazardous occurrence = Dress or apparel hazards
+and Employee Age = 45
+and Work hour start = 03:30:00
+and Work hour end = 11:30:00
+and Did the employee receive training? = Yes
+and Training specifications = ATF train spec
+and Weather = Occurred Indoors
+and Was the employee on modified duties at the time of the incident? = No
+and Does the employee require modified duties as a result of this injury/illness? = No
+and Did the employee consult a healthcare professional as a result of this injury? = No
+and Incident related illness = No
+and Post-exposure incident (biological, chemical) = No
+and Date and time of occurrence = 2022-01-14 05:11:12
+and Direct cause of injury = Contact by
+and Type of Occurrence = Minor</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>20</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:34:50</sys_created_on>
+        <sys_id>ca52316b1b443154893442a7bc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_ca52316b1b443154893442a7bc4bcbcd</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:34:50</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <test display_value="(INACTIVE) OHS -  Incident Full workflow Look for EDCSLAB1070 copy">e552fd2b1b443154893442a7bc4bcbb6</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ca52316b1b443154893442a7bc4bcbcd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ca52316b1b443154893442a7bc4bcbcd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:34:50</sys_created_on>
+        <sys_id>0652316b1b443154893442a7bc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:34:50</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ca52316b1b443154893442a7bc4bcbcd</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:34:50</sys_created_on>
+        <sys_id>4252316b1b443154893442a7bc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:34:50</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ca52316b1b443154893442a7bc4bcbcd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:34:50</sys_created_on>
+        <sys_id>c652316b1b443154893442a7bc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 13:34:50</sys_updated_on>
+        <value>emp_time_in_pos=22^mng_inc_desc=ATF desc what happen^mng_desc_injury=ATF desc injury^correct_meas_imp_date=ATF correct measure and date^implementation_date=2022-01-31^inc_req_prot_equip=no^employee_gender=Female^direct_causes_of_hazardous_occurrence=dress_or_apparel_hazards^emp_age=45^emp_work_start=08:30:00^emp_work_end=16:30:00^inc_training_prov=yes^training_spec=ATF train spec^weather=occurred_Indoors^was_the_employee_on_modified_duties_at_the_time_of_the_incident=no^does_the_employee_now_require_modified_duties_as_a_result_of_this_injury=no^did_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury=no^inc_related_illness=no^inc_related_post_exp=no^date_and_time_of_occurrence=2022-01-14 10:11:12^dir_cause_injury=Contact by^inc_type_occ=minor^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e^id=ca52316b1b443154893442a7bc4bcbcd"/>
+</record_update>

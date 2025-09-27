@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMPdfReprocessorAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMPdfReprocessorAjax</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var HoCOHSMPdfReprocessorAjax = Class.create();
+HoCOHSMPdfReprocessorAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getPDFTemplate: function(){
+		var case_sys_id = this.getParameter("sysparm_case_sys_id");
+		var gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+		gr.get(case_sys_id);
+		gr.query();
+		gr.next();
+		return gr.pdf_template;
+	},
+	
+	reprocessPDF: function(){
+		var case_sys_id = this.getParameter("sysparm_case_sys_id");
+		var pdf_template = this.getParameter("sysparm_case_pdf_template");
+		var file_name = this.getParameter("sysparm_case_file_name");
+		
+		var gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+		gr.get(case_sys_id);
+		gr.query();
+		gr.next();
+		new x_hccc_hoc_ohs.HoCOHSMPdf().generatePDF(gr, pdf_template, file_name);
+		return "";
+	},
+    type: 'HoCOHSMPdfReprocessorAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-09-01 15:28:53</sys_created_on>
+        <sys_id>c4d2f2271b25dd109fde86acdd4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoCOHSMPdfReprocessorAjax</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_c4d2f2271b25dd109fde86acdd4bcb65</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

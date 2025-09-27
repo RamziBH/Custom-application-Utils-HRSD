@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Create HIRA">fee7d2703bcc9e90aeb1ebc964e45a11</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+    const timeStamp = new Date().toISOString(); //performance.timeOrigin + performance.now();
+    const infoStr = 'OHS - ' + timeStamp + ' - Create HIRA - Get Position (Position_Reporting_Position) - ';
+
+    try {
+        const posCode = source.u_position_code.toString(); //otherwise it's an object
+
+        if (posCode !== null && posCode !== '') {
+            gs.debug(infoStr + '1- PosCode Exists: ' + posCode);
+            const grPosCode = new GlideRecord('x_hccc_base_org_position_code');
+            const grPosRep = new GlideRecord('x_hccc_hoc_ohs_position_reports_to');
+
+            grPosCode.get('code', posCode); //should only have 1
+            gs.debug(infoStr + '2- grabbed grPosCode' + grPosCode.getUniqueValue());
+            grPosRep.get('position_code', grPosCode.getUniqueValue()); //could have multiple, but we only need 1
+
+            gs.debug(infoStr + '3- grabbed grPosRep' + grPosRep.getUniqueValue());
+
+            /*gs.debug(infoStr + '\nposCode: ' + posCode +
+                ' - posCodeId: ' + grPosCode.getUniqueValue() +
+                ' - PosRepId: ' + grPosRep.getUniqueValue()
+            );*/
+            return grPosRep.getUniqueValue();
+        } /*else {
+            gs.warn(infoStr + 'PosCode is NULL');
+            gs.warn(infoStr + JSON.stringify(source));
+        }*/
+    } catch (e) {
+        gs.error(infoStr + 'ERROR: ' + e);
+        gs.error(infoStr + 'ERROR - source content: ' + JSON.stringify(source));
+    }
+
+    return ""; // return the value to be put into the target field
+})(source);]]></source_script>
+        <source_table>x_hccc_hoc_ohs_initial_hira_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-13 19:44:34</sys_created_on>
+        <sys_id>6009d2743bcc9e90aeb1ebc964e45a19</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_transform_entry_6009d2743bcc9e90aeb1ebc964e45a19</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-29 15:19:27</sys_updated_on>
+        <target_field>position_reporting_position</target_field>
+        <target_table>x_hccc_hoc_ohs_hira_case</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

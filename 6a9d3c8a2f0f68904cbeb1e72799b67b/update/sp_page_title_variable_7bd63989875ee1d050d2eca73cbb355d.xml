@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page_title_variable">
+    <sp_page_title_variable action="INSERT_OR_UPDATE">
+        <column_name>sys_id</column_name>
+        <filter_condition/>
+        <id_parameter>sys_id</id_parameter>
+        <order>100</order>
+        <source_field>sys_class_name</source_field>
+        <source_table>task</source_table>
+        <sp_page display_value="ohs_telework_ticket">30c0650587dae1d050d2eca73cbb3519</sp_page>
+        <sys_class_name>sp_page_title_variable</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-17 19:42:19</sys_created_on>
+        <sys_id>7bd63989875ee1d050d2eca73cbb355d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>%name</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_page_title_variable_7bd63989875ee1d050d2eca73cbb355d</sys_update_name>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-04-17 19:42:19</sys_updated_on>
+        <variable>%name</variable>
+    </sp_page_title_variable>
+</record_update>

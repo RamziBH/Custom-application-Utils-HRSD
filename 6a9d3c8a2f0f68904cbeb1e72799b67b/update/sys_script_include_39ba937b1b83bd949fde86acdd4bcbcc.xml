@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMHIRAUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Helper Class with everything related to HIRA</description>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMHIRAUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[/* global sn_fd */
+var HoCOHSMHIRAUtils = Class.create();
+
+HoCOHSMHIRAUtils.prototype = {
+    //constants
+    EVENT: {
+        ASSIGNED_TO_MANAGER: 'x_hccc_hoc_ohs.hira_assigned_to_manager',
+        ASSIGNED_TO_OHS_ADVISOR: 'x_hccc_hoc_ohs.hira_assigned_to_OHS_advisor',
+        DUE_TO_REVIEW: 'x_hccc_hoc_ohs.hira.due_to_review_manager'
+    },
+    MITIGATION: {
+        STATE: {
+            WAITING_FOR_ACTION: "1",
+            IMPLEMENTATION_IN_PROGRESS: "2",
+            IMPLEMENTED: "3",
+            CANCELLED: "4"
+        }
+    },
+    HAZARD: {
+        STATE: {
+            DOCUMENTING: "10",
+            DOCUMENTATION_COMPLETED_IMPLEMENTING_MEASURES: "20",
+            COMPLETED: "30",
+
+            UNDER_REVIEW: "100", //inactive
+            ACCEPTED: "200", //inactive
+            ARCHIVED: "300"
+        }
+    },
+    CASE: {
+        STATE: {
+            PENDING: "-5",
+            CLOSED_COMPLETE: "3",
+            //CLOSED_INCOMPLETE: "4", //inactive (removed 2024-05-09 PBI#151858)
+            CANCELLED: "7",
+            READY: "10",
+            WORK_IN_PROGRESS: "18",
+
+            NEEDS_OHS_REVIEW: "102", //#150134 - manager deems case done, needs to be reviewed before closing
+            ARCHIVED: "300",
+            OPEN: "900", //inactive
+            IN_PROGRESS: "901", //inactive
+            HIRA_COMPLETED_IMPLEMENTING_MEASURES: "951", //inactive
+            HIRA_COMPLETED: "952" //inactive
+        }
+    },
+    TABLE: {
+        CASE: "x_hccc_hoc_ohs_hira_case", //the Case contains Hazards
+        HAZARD: "x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment", //single hazard, contains mitigation actions
+        ACTION: "x_hccc_hoc_ohs_hira_action", //Mitigation action
+        POSITION: "x_hccc_hoc_ohs_position_reports_to" //referencing position code and it's reporting position
+    },
+    GROUP: {
+        OHS_ADVISOR: "13e4414a2f4f68904cbeb1e72799b6f1" //CEH-HRS-OHS-Advisor
+    },
+    FLOW: {
+        HIRA_FLOW: "x_hccc_hoc_ohs.hira_creation", //creates case for new positions, copy case for review due
+        SUBFLOW: {
+            CASE_COPY: "x_hccc_hoc_ohs.hoc_ohsm__hira__copy",
+            CASE_CREATE: "x_hccc_hoc_ohs.hoc_ohsm__hira__create"
+        },
+        ACTION: {
+            COPY: "x_hccc_hoc_ohs.ohsm__hira__copy",
+            CREATE: "x_hccc_hoc_ohs.hoc_ohsm__hira__create",
+            CREATE_OR_COPY: "x_hccc_hoc_ohs.ohsm__hira__create_or_copy",
+            LOOKUP_UNASIGNED_POSITION: "x_hccc_hoc_ohs.hoc_ohsm__hira__lookup_records_no_active_hira"
+        }
+    },
+
+    //initialize: function() {},
+
+    /*
+    Created by: Guillaume Houde
+    Created Date: 2024-01-13
+	Updated: 2024-02-20 - added skip to field "active" and null values
+	Note: modified from https://www.servicenow.com/community/developer-forum/what-is-the-best-way-to-copy-fields-between-gliderecords/m-p/2037052
+    Return: returns the destination record
+    Input: 2 records of the same type and 1 array or string with excluded columns;
+     */
+    copyRecordInfo: function(sourceRec, destinationRec, exclusionList) {
+        if (sourceRec.getTableName() !== destinationRec.getTableName()) {
+            throw new Error('Unable to copy fields, destination record type different than source record type.');
+        }
+
+        //Variables
+        var fieldIndex;
+        var fieldName;
+        var excludeList;
+        var recordUtil = new global.GlideRecordUtil();
+        var dupFieldList = recordUtil.getFields(sourceRec);
+
+        //Exclusions
+        if (exclusionList) {
+            // Loop through the excludeList and remove all those fields from the dupFieldList array
+            excludeList = exclusionList.toString().split(","); //this to accept both string and array of string
+            excludeList = excludeList.map(function(item) { //this to remove whitespace
+                return item.trim();
+            });
+        }
+        excludeList.push('sys_id'); //never copy sys_id
+        excludeList.push('number'); //never copy number
+        excludeList.push('active'); //never copy active
+        for (var e = 0; e < excludeList.length; e++) {
+            fieldIndex = dupFieldList.indexOf(excludeList[e]);
+            if (fieldIndex > -1) {
+                dupFieldList.splice(fieldIndex, 1);
+            }
+        }
+        gs.info('HiraUtils.copyRecordInfo dupFieldList: ' + dupFieldList);
+
+        //Copy to destination
+        for (var f = 0; f < dupFieldList.length; f++) {
+            fieldName = dupFieldList[f];
+            if (sourceRec.isValidField(fieldName) && !gs.nil(sourceRec[fieldName])) {
+                gs.info('HiraUtils.copyRecordInfo table: ' + sourceRec.getTableName() + ' - field: ' + fieldName);
+                destinationRec[fieldName] = sourceRec[fieldName];
+            }
+        }
+
+        return destinationRec;
+    },
+
+    //===============================
+    //Copy for review
+    //===============================
+    /*
+    Created by: Guillaume Houde
+    Created Date: 2024-01-12
+	Updated: 2024-05-16 - #155847 copy action to have multiple cases for the same position code under the same manager
+    Return: returns the new hira case sys id
+    Inputs: 
+		- [GlideRecord] a record from the x_hccc_hoc_ohs_hira_case table
+		- (optional) [String] worknotes to add to the new record
+     */
+    copyCase: function(oldCaseGR, workNotes, archiveOld) {
+        //Define variables
+        var newCase = new GlideRecord(this.TABLE.CASE);
+        var mgr = '';
+        var gdt = new GlideDateTime();
+        var newCaseSysId;
+        var excludedFields =
+            "short_description, initiated_from, review_due, state, work_notes, " +
+            "assignment_group, manager_name, assigned_to, opened_for";
+
+        //initialization
+        archiveOld = (typeof archiveOld === 'undefined' ? true : archiveOld);
+        gdt.addYearsLocalTime(3);
+        newCase.initialize();
+
+        //copy case
+        newCase.initiated_from = oldCaseGR.sys_id;
+        newCase.review_due = gdt.getDate();
+        newCase.work_notes = workNotes || ('Case created from HIRA Case ' + oldCaseGR.sys_id);
+        newCase.short_description = this.getPositionDescription(oldCaseGR.position_reporting_position);
+        this.copyRecordInfo(oldCaseGR, newCase, excludedFields);
+
+        //Get Manager (in case it changed)
+        mgr = this.getPositionManager(oldCaseGR.position_reporting_position);
+
+        if (gs.nil(mgr)) { //manager not found
+            newCase.assignment_group = this.GROUP.OHS_ADVISOR; //CEH-HRS-OHS-Advisor
+            newCase.state = this.CASE.STATE.PENDING; //pending = missing info, we're missing manager
+        } else { //manager found
+            newCase.manager_name = mgr;
+            newCase.assigned_to = mgr;
+            newCase.opened_for = mgr;
+            newCase.state = this.CASE.STATE.READY;
+        }
+
+        newCaseSysId = newCase.insert();
+
+        if (gs.nil(newCaseSysId)) {
+            gs.error('Error trying to insert new case');
+            throw new Error('Unable to copy HIRA case');
+        } else {
+            if (archiveOld) {
+                oldCaseGR.active = false;
+                oldCaseGR.state = this.CASE.STATE.ARCHIVED;
+                oldCaseGR.update();
+            }
+
+            //copy the Hazards-----------------------------------------
+            this.copyChildAssessments(oldCaseGR.sys_id, newCase.sys_id, archiveOld);
+
+            gs.eventQueue(this.EVENT.DUE_TO_REVIEW, newCase, gs.getUserName(), gs.getUserID()); //trigger email to manager.
+        }
+
+        return newCase;
+    },
+
+    /*
+    Created by: Guillaume Houde
+    Description: copy all hazards from one HIRA to another
+    Input: 2 x_hccc_hoc_ohs_hira_case sys_ids (old, new)
+     */
+    copyChildAssessments: function(oldCaseSysId, newCaseSysId, archiveOld) {
+        var oldItem = new GlideRecord(this.TABLE.HAZARD);
+
+        oldItem.addQuery('hira_case', oldCaseSysId);
+        oldItem.query();
+
+        while (oldItem.next()) {
+            this.copyAssessment(oldItem, newCaseSysId, archiveOld);
+        }
+    },
+
+    /*
+    Updated by: Guillaume Houde
+    Updated: 2024-01-12
+	Updated: 2024-05-16 - #155847 copy action to have multiple cases for the same position code under the same manager
+    Return: returns the new assessment/hazard
+    Inputs: 
+		-a glide record from the x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment table
+		-the new HIRA case sys id
+     */
+    copyAssessment: function(oldItemGR, newCaseSysId, archiveOld) {
+        if (!newCaseSysId) { //prevent adding floating record
+            return null;
+        }
+
+        //Variables
+        var newItem = new GlideRecord(this.TABLE.HAZARD);
+        var excludedFields =
+            "hira_case, hr_task, state, review_due, actions_taken_by_manager, actions_taken, " +
+            "start_date, training, comments, action_history, comment";
+        var addHist = '';
+        var isRecommendedActionMultiLine = /\r|\n/.exec(oldItemGR.recommended_action); //check if previous recommendation has carriage return
+
+        //Initialization
+        archiveOld = (typeof archiveOld === 'undefined' ? true : archiveOld);
+        newItem.initialize();
+        addHist += 'HR Task: ' + oldItemGR.number + '\n'; //oldItemGR.hr_task.number + '\n';
+        addHist += 'Recommended Action: ' +
+            (isRecommendedActionMultiLine ? //if previous recommendation is multiline we make an clear separation
+                '\n' + oldItemGR.recommended_action + '\n----------------------\n' :
+                oldItemGR.recommended_action + '\n');
+
+        //addHist += 'Start Date for Implementing Control Measures: ' + oldItemGR.start_date.getDisplayValue() + '\n'; //TODO this is in a new record now, will need to query said record in the future;
+
+        //copy assessment
+        newItem.hira_case = newCaseSysId;
+        newItem.state = this.HAZARD.STATE.DOCUMENTING;
+        newItem.action_history = addHist;
+        this.copyRecordInfo(oldItemGR, newItem, excludedFields);
+        newItem.insert();
+
+        //Set old items = "archived"
+        if (archiveOld) {
+            oldItemGR.state = this.HAZARD.STATE.ARCHIVED;
+            oldItemGR.active = false;
+            oldItemGR.update();
+        }
+
+        //copy the Mitigations-------------------------------------------
+        this.copyChildMitigationActions(oldItemGR.sys_id, newItem.sys_id);
+
+        return newItem;
+    },
+
+    /*
+    Created by: Guillaume Houde
+	Created: 2024-05-09
+    Description: copy all mitigations from one Hazard to another
+    Inputs: 
+		-[String] sys_ids of old x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment record (old)
+		-[String] sys_ids of new x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment record (new)
+     */
+    copyChildMitigationActions: function(oldHazardSysId, newHazardSysId) {
+        var oldItem = new GlideRecord(this.TABLE.ACTION);
+
+        oldItem.addQuery('parent_hazard', oldHazardSysId);
+        oldItem.addQuery('state', '!=', this.MITIGATION.STATE.CANCELLED);
+        oldItem.query();
+
+        while (oldItem.next()) {
+            this.copyMitigationAction(oldItem, newHazardSysId);
+        }
+    },
+
+    /*
+    Created by: Guillaume Houde
+    Created: 2024-05-09
+    Return: returns the new action
+    Inputs: 
+		- [GlideRecord] the old x_hccc_hoc_ohs_hira_action record
+		- [String] the new hazard's sys id
+     */
+    copyMitigationAction: function(oldActionGR, newHazardSysId) {
+        if (!newHazardSysId) { //prevent adding floating record
+            return null;
+        }
+
+        //Variables
+        var newItem = new GlideRecord(this.TABLE.ACTION);
+        var excludedFields = "number, parent_hazard, state, comments, comments_and_work_notes, work_notes";
+
+        //Initialization
+        newItem.initialize();
+        newItem.parent_hazard = newHazardSysId;
+        newItem.state = this.MITIGATION.STATE.WAITING_FOR_ACTION;
+        newItem.work_notes = 'Copied from: ' + oldActionGR.number + ' - ' + oldActionGR.short_description;
+
+        //copy assessment
+        this.copyRecordInfo(oldActionGR, newItem, excludedFields);
+        newItem.insert();
+
+        //Add notes to old items
+        oldActionGR.work_notes = 'Copied to: ' + newItem.number;
+        oldActionGR.update();
+
+        return newItem;
+    },
+
+
+    getDate6MonthsFromNow: function() {
+        var dtReview = new GlideDateTime();
+
+        dtReview.addMonthsLocalTime(-6);
+        return dtReview.getLocalDate();
+    },
+    //===============================
+    //Copy for review - above -
+    //===============================
+    //===============================
+    //Create
+    //===============================
+    /*
+    Created by: Guillaume Houde
+    Created Date: 2024-01-12
+    Return: returns the a hira case sys id
+    Input: a record from the x_hccc_hoc_ohs_position_reports_to table
+     */
+    createCase: function(position) {
+        //define variables
+        var hiraCase = new GlideRecord(this.TABLE.CASE);
+        var mgr = '';
+        var gdt = new GlideDateTime();
+        var sysId;
+
+        //initialization
+        gdt.addYearsLocalTime(3);
+        hiraCase.initialize();
+
+        //create case
+        hiraCase.hr_service = '3fb664a08754515050d2eca73cbb35f1'; //HIRA
+        hiraCase.position_reporting_position = position.sys_id;
+        hiraCase.review_due = gdt.getDate();
+        hiraCase.short_description = this.getPositionDescription(position);
+        hiraCase.work_notes = 'Case automatically created from a new position record';
+
+        mgr = this.getPositionManager(position);
+
+        if (gs.nil(mgr)) { //manager not found
+            hiraCase.assignment_group = this.GROUP.OHS_ADVISOR; //CEH-HRS-OHS-Advisor
+            hiraCase.state = this.CASE.STATE.PENDING; //pending = missing info, we're missing manager
+        } else { //manager found
+            hiraCase.manager_name = mgr;
+            hiraCase.assigned_to = mgr;
+            hiraCase.opened_for = mgr;
+            hiraCase.state = this.CASE.STATE.READY;
+        }
+
+        sysId = hiraCase.insert();
+
+        if (gs.nil(sysId)) {
+            throw new Error('Unable to create HIRA case');
+        } else if (mgr === '') {
+            gs.eventQueue(this.EVENT.ASSIGNED_TO_OHS_ADVISOR, hiraCase, gs.getUserName(), gs.getUserID()); //trigger email to OHS-Advisor.
+        } else {
+            gs.eventQueue(this.EVENT.ASSIGNED_TO_MANAGER, hiraCase, gs.getUserName(), gs.getUserID()); //trigger email to manager.
+        }
+
+        return sysId;
+    },
+    //===============================
+    //Create - above -
+    //===============================
+
+    //===============================
+    //Hazards Utils
+    //===============================
+    /*
+    Created by: Guillaume Houde
+    Created Date: 2024-02-07
+    Return: true when no mitigations are left to action
+    Input: a hazard record
+     */
+    areMitigationsCompleted: function(sourceHazard) {
+        var grActions = new GlideRecord(this.TABLE.ACTION);
+
+        grActions.addQuery('parent_hazard', sourceHazard.getUniqueValue());
+        grActions.addQuery('state', 'NOT IN', [this.MITIGATION.STATE.CANCELLED, this.MITIGATION.STATE.IMPLEMENTED]);
+        grActions.setLimit(1);
+        grActions.query();
+
+        return !grActions.hasNext();
+    },
+
+    /*
+	Created by: Guillaume Houde
+    Created Date: 2024-02-12
+    Return: position Description
+    Input: a record from the x_hccc_hoc_ohs_position_reports_to table
+	 */
+    getPositionDescription: function(position) {
+        var description = '';
+
+        description = 'Position: ' + position.position_code.code + ' - ' + position.position_code.name;
+        description += '\nReporting to: ' + position.reports_to.x_hccc_base_org_position_code.name;
+        description += '\nIn Department: ' + position.reports_to.department.name; //Whilst doing the initial import script I noticed that it errors here and looking into the record the department doesn't seem to exist anymore. Should check if it's a permission issue.
+
+        return description;
+    },
+
+    /*
+	Created by: Guillaume Houde
+    Created Date: 2024-02-20
+    Return: the manager of a given position (or null)
+    Input: a record from the x_hccc_hoc_ohs_position_reports_to table
+     */
+    getPositionManager: function(position) {
+        var jbs = new GlideRecord('sn_hr_core_job');
+
+        if (gs.nil(position.reports_to)) {
+            return null;
+        }
+
+        //Find manager & assignation
+        jbs.addQuery('position', position.reports_to);
+        jbs.addQuery('job_active', true);
+        jbs.addQuery('user.active', true);
+        jbs.query();
+        if (jbs.next()) {
+            return jbs.user;
+        }
+
+        return null;
+    },
+
+    /*
+	Created by: Guillaume Houde
+    Created Date: 2024-04-24
+    Return: an array of sys_user's sys_ids managing a given position
+    Input: a record from the x_hccc_hoc_ohs_position_reports_to table
+     */
+    getPositionManagersIds: function(position) {
+        var managers = []
+        var jbs = new GlideRecord('sn_hr_core_job');
+
+        if (gs.nil(position.reports_to)) {
+            return managers;
+        }
+
+        //Find manager & assignation
+        jbs.addQuery('position', position.reports_to);
+        jbs.addQuery('job_active', true);
+        jbs.addQuery('user.active', true);
+        jbs.query();
+        while (jbs.next()) {
+            managers.push(jbs.user.toString());
+        }
+
+        return managers;
+    },
+
+    /*
+	Created by: Guillaume Houde
+    Created Date: 2024-05-09
+	Description: trigger event to notify someone a hira is ready to action (copied from the UI action "Send to Manager")
+    Input: [GlideRecord] a hira case record (table: x_hccc_hoc_ohs_hira_case)
+    */
+    sendToManager: function(hiraGR) {
+        if (hiraGR.manager_name.nil()) {
+            gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.hira_manager_required"));
+            hiraGR.update();
+            //hiraGR.setAbortAction(true); //was in the UI action but I don't see this helping, leaving it commented to help investigation if it causes issues
+        } else {
+            hiraGR.state = this.CASE.STATE.READY; //Ready
+            hiraGR.assignment_group = '';
+            hiraGR.assigned_to = hiraGR.manager_name;
+            hiraGR.update();
+            gs.eventQueue(this.EVENT.ASSIGNED_TO_MANAGER, hiraGR); //trigger email to manager.
+        }
+    },
+
+    /*
+     * Created by: Guillaume Houde
+     * Created Date: 2024-05-09
+     * Description: return the active records sys_ids for a given position
+     * input: [GlideRecord] a position record (table: "x_hccc_hoc_ohs_position_reports_to") 
+     */
+    getActiveHIRAforPosition(positionGR) {
+        var activeHiraForPosition = [];
+        var hiraCaseGR = new GlideRecord(this.TABLE.CASE);
+
+        hiraCaseGR.addQuery('active', true);
+        hiraCaseGR.addQuery('position_reporting_position', positionGR);
+        hiraCaseGR.query();
+
+        while (hiraCaseGR.next()) {
+            activeHiraForPosition.push(hiraCaseGR.getUniqueValue());
+        }
+
+        return activeHiraForPosition;
+    },
+
+    /*
+     * Created by: Guillaume Houde
+     * Created Date: 2024-05-09
+     * Description: return the active and open records sys_ids for a given position
+     * input: [GlideRecord] a position record (table: "x_hccc_hoc_ohs_position_reports_to") 
+     */
+    getActiveAndOpenHIRAforPosition(positionGR) {
+        var activeHiraForPosition = [];
+        var hiraCaseGR = new GlideRecord(this.TABLE.CASE);
+
+        hiraCaseGR.addQuery('active', true);
+        hiraCaseGR.addQuery('state', '!=', this.CASE.STATE.CLOSED_COMPLETE);
+        hiraCaseGR.addQuery('position_reporting_position', positionGR);
+        hiraCaseGR.query();
+
+        while (hiraCaseGR.next()) {
+            activeHiraForPosition.push(hiraCaseGR.getUniqueValue());
+        }
+
+        return activeHiraForPosition;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-05-09
+     * moved the condition of the cancel UI action here
+     */
+    canCancel(gr) {
+        return !gr.isNewRecord() &&
+            gr.canWrite() &&
+            //gr.active == true && // "== true" works "=== true" doesn't since it's not really a boolean but an object
+            gr.getValue('active') === '1' &&
+            !gr.state.nil() &&
+            //gr.state !== this.CASE.STATE.CLOSED_COMPLETE && //same behaviour as gr.active, same reason
+            gr.getValue('state') !== this.CASE.STATE.CLOSED_COMPLETE &&
+            this.getActiveHIRAforPosition(gr.position_reporting_position).length > 1;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-05-09
+     * moved the condition of the Delete UI action here
+     */
+    canDelete(gr) {
+        return gr.isValidRecord() &&
+            gr.canDelete() &&
+            //gr.active == true && // "== true" works "=== true" doesn't since it's not really a boolean but an object
+            gr.getValue('active') === '1' &&
+            !gr.state.nil() &&
+            //gr.state !== this.CASE.STATE.CLOSED_COMPLETE && //same behaviour as gr.active, same reason
+            gr.getValue('state') !== this.CASE.STATE.CLOSED_COMPLETE &&
+            this.getActiveHIRAforPosition(gr.position_reporting_position).length > 1;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-05-21
+     * moved the condition of the Delete UI action here
+     */
+    submitForReview(gr) {
+        if (gr.skip_automatic_user_acceptance_state) {
+            gr.state = this.CASE.STATE.NEEDS_OHS_REVIEW; //"Needs OHS Advisor review"
+        }
+
+        gr.assignment_group = this.GROUP.OHS_ADVISOR;
+        gr.assigned_to = '';
+
+        /**
+         * ASSIGNED_TO_MANAGER: 'x_hccc_hoc_ohs.hira_assigned_to_manager',
+         * ASSIGNED_TO_OHS_ADVISOR: 'x_hccc_hoc_ohs.hira_assigned_to_OHS_advisor',
+         * DUE_TO_REVIEW: 'x_hccc_hoc_ohs.hira.due_to_review_manager'
+         * 
+         * gs.eventQueue(this.EVENT.ASSIGNED_TO_MANAGER, hiraGR);
+         */
+
+        gr.update();
+    },
+
+    executeFlow: function(timeout = 30) {
+        let result = null;
+
+        try {
+            result = sn_fd.FlowAPI
+                .getRunner()
+                .flow(this.FLOW.HIRA_FLOW)
+                //.flow('x_hccc_hoc_ohs.hira_creation')
+                .inForeground()
+                .timeout(1000 * timeout) //30 seconds
+                .run();
+
+        } catch (ex) {
+            gs.error('-------ERROR-------\r\n' + ex);
+        }
+
+        return result;
+    },
+
+    type: 'HoCOHSMHIRAUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-12-18 18:58:34</sys_created_on>
+        <sys_id>39ba937b1b83bd949fde86acdd4bcbcc</sys_id>
+        <sys_mod_count>135</sys_mod_count>
+        <sys_name>HoCOHSMHIRAUtils</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_39ba937b1b83bd949fde86acdd4bcbcc</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 19:12:09</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>39ba937b1b83bd949fde86acdd4bcbcc</id>
+        <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-11 19:56:39</sys_created_on>
+        <sys_id>4b4573e53bd72a90aeb1ebc964e45a41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-11 19:56:39</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

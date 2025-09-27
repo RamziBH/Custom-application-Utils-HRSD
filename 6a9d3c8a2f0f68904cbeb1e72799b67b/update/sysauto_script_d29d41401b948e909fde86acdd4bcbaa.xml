@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>HoC - OHSM - Telework Manager and BU check</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Lise Champagne (AZ)">626d32fa1b9601109fde86acdd4bcb00</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2024-02-06 20:22:24</run_start>
+        <run_time>1970-01-01 09:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[// This script goes through active Telework Agreements and verifies that the Employee's "Manager" 
+// and "Service Area" listed in their Telework Agreement match with what's in their (Employee's) User record.
+// If they do not match, the Telework Agreement is updated.
+// 
+// Note: it is assumed that Employee's User record in ServiceNow, which is synched nightly
+// (from AD/PeopleCentral/Unit4), will contain correct Manager and Service Area information.
+// 
+// Number of records to process is set in call updateTeleworkAgreementManagerServiceArea() on LAST line
+// of code below. Set to -1 for all records.
+
+function updateTeleworkAgreementManagerServiceArea(numRecords, doUpdate) {
+
+    var grTele = new GlideRecord('x_hccc_hoc_ohs_telework_agreement');
+
+    grTele.addEncodedQuery("active=true");
+    //grTele.setWorkflow(false);		// Setting these to false stops auditing from working
+    //grTele.autoSysFields(false);
+    if (numRecords != -1) grTele.setLimit(numRecords);
+    grTele.query();
+
+    gs.info("Telework: Number records found: " + grTele.getRowCount());
+
+    var numCount = 0;
+
+    while (grTele.next()) {
+
+        var managerUpdated = 0;
+        var serviceareaUpdated = 0;
+
+        // Get User record for the Employee of current Teleweork Agreement
+        var userId = grTele.subject_person;
+        var grUser = new GlideRecord('sys_user');
+
+        grUser.get(userId);
+
+        var infoStr = "Telework: # " + grTele.number.toString() + " - Employee: " + grUser.name.toString();
+
+        // Check if Manager has changed	
+        if (grTele.manager_name != grUser.manager) {
+            if (doUpdate != 0) {
+                infoStr += " - MANAGER updated";
+                grTele.setValue('manager_name', grUser.manager);
+            } else infoStr += " - MANAGER to update";
+            managerUpdated = 1;
+        }
+
+        // Check if Service Area (i.e. Business Unit) has changed
+        if (grTele.employee_service_area != grUser.department.business_unit) {
+            if (doUpdate != 0) {
+                infoStr += " - SERVICE AREA updated";
+                grTele.setValue('employee_service_area', grUser.department.business_unit);
+            } else infoStr += " - SERVICE AREA to update";
+            serviceareaUpdated = 1;
+        }
+
+        if ((managerUpdated != 0) || (serviceareaUpdated != 0)) {
+            if (doUpdate != 0) grTele.update();
+            gs.info(infoStr);
+            numCount++;
+        }
+
+        //infoStr += "\n";
+
+    }
+
+    if (doUpdate != 0) gs.info("Telework: Number records updated: " + numCount.toString());
+    else gs.info("Telework: Number records that require updating: " + numCount.toString());
+
+}
+
+// 1st parameter = # of records to process **OR** -1 for all records that fit the criteria
+// 2nd parameter = 0 to NOT update and only generate list of records to be updated **OR** 1 to UPDATE and generate list
+// Example: updateTeleworkAgreementManagerServiceArea(100, 0) will process 100 records but NOT update them
+// Example: updateTeleworkAgreementManagerServiceArea(-1, 1) will process ALL records and update them
+updateTeleworkAgreementManagerServiceArea(-1, 1);]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-06 21:07:03</sys_created_on>
+        <sys_id>d29d41401b948e909fde86acdd4bcbaa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>HoC - OHSM - Telework Manager and BU check</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysauto_script_d29d41401b948e909fde86acdd4bcbaa</sys_update_name>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-02-07 16:18:24</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

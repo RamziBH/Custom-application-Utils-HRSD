@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition table="x_hccc_hoc_ohs_investigation_case">inc_type_occCHANGESTOexplosion^EQ<item display_value="Explosion" endquery="false" field="inc_type_occ" goto="false" newquery="false" operator="CHANGESTO" or="false" value="explosion"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Email Notification being sent to OHS Advisor when Manager sets field "Type of Occurence" to Explosion</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_hccc_hoc_ohs.manager_reminder</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance>high</importance>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><br /><img style="align: baseline;" title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="" />&nbsp;</p>
+<p><span style="font-family: 'calibri light'; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"> <em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+<p><strong>Please do not reply to this email. This system cannot receive messages.</strong></p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 11.0pt; line-height: 107%; font-family: Calibri, sans-serif;">An <span style="color: #e03e2d;"><strong>explosion</strong> </span>has been </span>reported by ${subject_person}<br />on ${opened_at}</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Location of the explosion: ${inc_location}</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Click ${URI_REF} to action this file.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">For any inquires or questions pertaining to this incident, please contact OHS at <a style="color: #0563c1; text-decoration: underline;" href="mailto:OHS-SST@parl.gc.ca">OHS-SST@parl.gc.ca</a></p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Thank you,</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">OHS Management System</p>
+<hr />
+<div>
+<p>&nbsp;</p>
+</div>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-family: 'calibri light'; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>S'il vous plait ne r&eacute;pondez pas &agrave; ce courriel. Ce syst&egrave;me ne peut pas recevoir de messages. </strong></p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 11.0pt; line-height: 107%; font-family: Calibri, sans-serif;">Une <strong><span style="color: #e03e2d;">explosion</span></strong> a &eacute;t&eacute; signal&eacute;e par </span> ${subject_person} le ${opened_at}.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><span style="font-size: 11.0pt; line-height: 107%; font-family: Calibri, sans-serif;">Lieu de l'explosion : </span>${inc_location}</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Cliquez sur ${URI_REF} pour actionner ce dossier.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Pour toute demande ou question relative &agrave; cet incident, veuillez contacter SST &agrave; <a style="color: #0563c1; text-decoration: underline;" href="mailto:OHS-SST@parl.gc.ca">OHS-SST@parl.gc.ca</a></p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">&nbsp;</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Merci,</p>
+<p><span style="font-size: 11.0pt; line-height: 107%; font-family: Calibri, sans-serif;">Syst&egrave;me de gestion de la SST</span></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Remainder mail (explosion)</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="CEH-HRS-OHS-Advisor">13e4414a2f4f68904cbeb1e72799b6f1</recipient_groups>
+        <recipient_users/>
+        <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Action Required: EXPLOSION / Action Requise : EXPLOSION</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>umair.ahmed</sys_created_by>
+        <sys_created_on>2021-06-28 11:20:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a56e53c9874df410b7cac956cebb356d</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Remainder mail (explosion)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_a56e53c9874df410b7cac956cebb356d</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-08-09 14:24:41</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

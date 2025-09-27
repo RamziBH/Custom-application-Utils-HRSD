@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>250</order>
+        <published_ref/>
+        <question display_value="Type of request">65f77fae1bc40a909fde86acdd4bcba5</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-25 15:12:24</sys_created_on>
+        <sys_id>cd717026fb1e6a5095e5fb3f4eefdced</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Work-related illness or injury</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>question_choice_cd717026fb1e6a5095e5fb3f4eefdced</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-25 16:13:15</sys_updated_on>
+        <text>Work-related illness or injury </text>
+        <value>Work-related illness or injury </value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=cd717026fb1e6a5095e5fb3f4eefdced"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>misc</field>
+        <id>cd717026fb1e6a5095e5fb3f4eefdced</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-25 15:12:24</sys_created_on>
+        <sys_id>7c813426fb1e6a5095e5fb3f4eefdc77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-25 15:12:24</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>rec_misc</field>
+        <id>cd717026fb1e6a5095e5fb3f4eefdced</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-25 15:12:24</sys_created_on>
+        <sys_id>f8813426fb1e6a5095e5fb3f4eefdc76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-25 15:12:24</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

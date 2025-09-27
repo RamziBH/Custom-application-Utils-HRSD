@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>e4a5beecfbd31e9895e5fb3f4eefdc33</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="checklist_template">
+    <checklist_template action="INSERT_OR_UPDATE">
+        <group display_value="CEH-HRS-OHS-Disability-Advisors" name="CEH-HRS-OHS-Disability-Advisors">dc2888f13b62de54aeb1ebc964e45a23</group>
+        <name>Disability - Sick Leave</name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-21 16:36:25</sys_created_on>
+        <sys_id>e4a5beecfbd31e9895e5fb3f4eefdc33</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-21 16:41:16</sys_updated_on>
+        <template>{"owner":"","name":"","items":[{"name":"Obtain medical info","order":0},{"name":"Validate personal contact info","order":1},{"name":"Send medical to WAAT email","order":2},{"name":"Verify that the leave is entered and approved in Unit 4","order":3},{"name":"Set a reminder to follow up with the employee before the medical expires","order":4}]}</template>
+        <user/>
+    </checklist_template>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-21 16:41:34</sys_created_on>
+        <sys_id>3b773a28fb171e9895e5fb3f4eefdc70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Disability - Sick Leave</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_3b773a28fb171e9895e5fb3f4eefdc70</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-21 16:41:34</sys_updated_on>
+        <tablename>checklist_template</tablename>
+    </sys_metadata_link>
+</record_update>

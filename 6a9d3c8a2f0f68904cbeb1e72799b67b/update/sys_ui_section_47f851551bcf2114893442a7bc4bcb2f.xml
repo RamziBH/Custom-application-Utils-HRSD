@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Telework Arrangement and Schedule" section_id="47f851551bcf2114893442a7bc4bcb2f" sys_domain="global" table="x_hccc_hoc_ohs_telework_agreement" version="3" view="sp">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type_telework_arrangement</element>
+            <position>0</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a94</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>flexible_telework_choices</element>
+            <position>2</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specify_number_telework_days</element>
+            <position>3</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fixed_telework_choices</element>
+            <position>4</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a96</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_monday</element>
+            <position>6</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_tuesday</element>
+            <position>7</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_wednesday</element>
+            <position>8</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_thursday</element>
+            <position>9</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_friday</element>
+            <position>10</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>12</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>combining_telework_working_arrangement</element>
+            <position>13</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specify_other_working_arrangement</element>
+            <position>14</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_start_date</element>
+            <position>15</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_end_date</element>
+            <position>16</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>17</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_location_address</element>
+            <position>18</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telework_telephone_number</element>
+            <position>19</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emergency_contact_name</element>
+            <position>20</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emergency_contact_telephone</element>
+            <position>21</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f026df0f3bc91a58aeb1ebc964e45a9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relationship_to_employee</element>
+            <position>22</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-10-09 16:58:59</sys_created_on>
+            <sys_id>f826df0f3bc91a58aeb1ebc964e45a9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Telework Arrangement and Schedule" display_value="Telework Arrangement and Schedule" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">47f851551bcf2114893442a7bc4bcb2f</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-10-09 16:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Telework Arrangement and Schedule</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-25 18:54:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>47f851551bcf2114893442a7bc4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_telework_agreement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_47f851551bcf2114893442a7bc4bcb2f</sys_update_name>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-25 18:54:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Portal" name="sp">ec2daaf9d7523100a9ad1e173e24d4ea</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

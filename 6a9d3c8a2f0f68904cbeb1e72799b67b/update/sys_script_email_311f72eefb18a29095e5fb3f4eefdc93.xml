@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>hoc_accommodation_email_notification</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */ event) {
+
+    var body = JSON.parse(event.parm2);
+
+    template.print('<strong>Employee Name : </strong>' + body.employee_name + '<br><br>');
+    template.print('<strong>Location : </strong>' + body.location + '<br><br>');
+    template.print('<strong>Type of Request : </strong>' + body.type_of_request + '<br><br>');
+    if (body.type_of_request == 'Others') {
+        template.print('<strong>Specify the Other Type : </strong>' + body.other_type + '<br><br>');
+    }
+    template.print('<strong>Describe how your needs impact your ability to do your work or complete your workday : </strong>' + body.describe_how_your_needs_impact_your_ability + '<br><br>');
+    template.print('<strong>Describe how your needs could be met with an accommodation : </strong>' + body.describe_how_your_needs_could_be_met_with_accommodation + '<br><br>');
+
+    email.addAddress("cc", "wa-at@parl.gc.ca", "CEH-HRS-OHS-Disability-Advisors");
+	
+		  
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-03-18 15:27:15</sys_created_on>
+        <sys_id>311f72eefb18a29095e5fb3f4eefdc93</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>hoc_accommodation_email_notification</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_email_311f72eefb18a29095e5fb3f4eefdc93</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-03-25 17:09:11</sys_updated_on>
+    </sys_script_email>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>311f72eefb18a29095e5fb3f4eefdc93</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-03-18 15:27:15</sys_created_on>
+        <sys_id>c98f7262fb58a29095e5fb3f4eefdc8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-03-18 15:27:15</sys_updated_on>
+        <table>sys_script_email</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

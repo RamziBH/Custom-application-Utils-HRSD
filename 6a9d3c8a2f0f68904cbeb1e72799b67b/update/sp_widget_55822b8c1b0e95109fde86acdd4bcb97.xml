@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Vaccination appointments</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-09-15 18:29:45</sys_created_on>
+        <sys_id>55822b8c1b0e95109fde86acdd4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vaccination appointments</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_55822b8c1b0e95109fde86acdd4bcb97</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <template><![CDATA[<div>
+  
+  <style>
+    table {
+		border:none;
+    }
+    
+    td:hover {
+     	background-color:rgb(220,220,200);
+    }
+    
+    th {
+     	text-align:center; 
+      	border:none;
+      	padding:4px;
+    }
+    
+    td {
+     	font-size:125%;
+      	text-align:center; 
+      	border:none;
+      	padding:4px;
+      
+      	-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+      	cursor: pointer;
+    }
+    
+    .no_availability {
+     color:red; 
+    }
+    
+    .available {
+     	color:green; 
+    }
+    
+    .arrow {
+      width:25px;
+      height:25px;
+      font-size:22px;
+      border-radius:13px;
+      background-color:rgb(220,220,220);
+      color:blue;
+      text-align:center;
+      line-height:25px;
+      cursor: pointer;
+    }
+    
+    #week {
+     	margin-left:auto;
+      	margin-right:auto;
+      	text-align:center;
+      	width:250px;
+      	font-size:25px;
+    }
+    
+    th {
+      font-size:150%;
+    }
+  </style>
+  
+
+  
+<!-- your widget template -->
+  <!-- <div id="week">Oct 3th - Oct 10th</div>
+  <div class="arrow" style="float:left">&lt;</div>
+  <div class="arrow" style="float:right">&gt;</div>
+  <br><br>
+-->
+  <div id="week">Appointments periods</div>
+  <table border=1 style="width:100%">
+    <tr>
+			<th>NOVEMBER 17th</th>
+			<th>NOVEMBER 18th</th>
+		</tr>
+    	<tr>
+			<td class="available" onclick="selectTime(this, 'day1','08:00')">08:00 - 08:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','08:00')">08:00 - 08:30</td>
+		</tr>
+    	<tr>
+			<td class="available" onclick="selectTime(this, 'day1','08:30')">08:30 - 09:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','08:30')">08:30 - 09:00</td>
+		</tr>
+		<tr>
+			<td class="available" onclick="selectTime(this, 'day1','09:00')">09:00 - 09:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','09:00')">09:00 - 09:30</td>
+		</tr>
+    	<tr>
+			<td class="available" onclick="selectTime(this, 'day1','09:30')">09:30 - 10:00</td>
+			<td class="available" onclick="selectTime(this, 'day2','09:30')">09:30 - 10:00</td>
+		</tr>
+    	<tr>
+			<td class="available" onclick="selectTime(this, 'day1','10:00')">10:00 - 10:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','10:00')">10:00 - 10:30</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','10:30')">10:30 - 11:00</td>
+			<td class="available" onclick="selectTime(this, 'day2','10:30')">10:30 - 11:00</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','11:00')">11:00 - 11:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','11:00')">11:00 - 11:30</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','11:30')">11:30 - 12:00</td>
+			<td class="available" onclick="selectTime(this, 'day2','11:30')">11:30 - 12:00</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','12:00')">12:00 - 12:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','12:00')">12:00 - 12:30</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','12:30')">12:30 - 13:00</td>
+			<td class="available" onclick="selectTime(this, 'day2','12:30')">12:30 - 13:00</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','13:00')">13:00 - 13:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','13:00')">13:00 - 13:30</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','13:30')">13:30 - 14:00</td>
+			<td class="available" onclick="selectTime(this, 'day2','13:30')">13:30 - 14:00</td>
+		</tr>
+    	<tr>
+			<td class="available" onclick="selectTime(this, 'day1','14:00')">14:00 - 14:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','14:00')">14:00 - 14:30</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','14:30')">14:30 - 14:00</td>
+			<td class="available" onclick="selectTime(this, 'day2','14:30')">14:30 - 14:00</td>
+		</tr>
+    	<tr>
+			<td class="available" onclick="selectTime(this, 'day1','14:00')">14:00 - 14:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','14:00')">14:00 - 14:30</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','14:30')">14:30 - 15:00</td>
+			<td class="available" onclick="selectTime(this, 'day2','14:30')">14:30 - 15:00</td>
+		</tr>
+    	<tr>
+			<td class="available" onclick="selectTime(this, 'day1','15:00')">15:00 - 15:30</td>
+			<td class="available" onclick="selectTime(this, 'day2','15:00')">15:00 - 15:30</td>
+		</tr>
+        <tr>
+			<td class="available" onclick="selectTime(this, 'day1','15:30')">15:30 - 16:00</td>
+			<td class="available" onclick="selectTime(this, 'day2','15:30')">15:30 - 16:00</td>
+		</tr>
+  </table>
+</div>
+  <script>
+    	var date_time = null;
+    
+    	function selectTime(element,  date, time){ 
+          //alert(element.innerHTML + " " + day + " " + time);
+          var td = document.querySelectorAll("td");
+          for (var x=0;x<td.length;x++){
+           	td[x].style.backgroundColor="white"; 
+          }
+          
+          if (date == "day1"){
+            date_time = "2022-11-03 " + time + ":00";
+            document.getElementById("sp_formfield_u_time").value = date_time;  
+          }
+          else if (date == "day2"){
+          	//element.style.backgroundColor="rgb(168,168,255)";
+            date_time = "2022-11-04 " + time + ":00";
+          	document.getElementById("sp_formfield_u_time").value =  date_time;
+          }
+          element.style.backgroundColor="rgb(220,220,200)";
+        }
+    
+    
+    	
+  </script>]]></template>
+    </sp_widget>
+</record_update>

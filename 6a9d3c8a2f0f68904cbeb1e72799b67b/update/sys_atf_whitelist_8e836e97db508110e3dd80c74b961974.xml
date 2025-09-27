@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_whitelist">
+    <sys_atf_whitelist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This client error occurred on the page in Chrome 102.0.5005.63</description>
+        <error_location>client_error</error_location>
+        <error_message>TypeError: Cannot read properties of null (reading 'hopscotch')</error_message>
+        <report_level>ignored</report_level>
+        <sys_class_name>sys_atf_whitelist</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-13 20:13:30</sys_created_on>
+        <sys_id>8e836e97db508110e3dd80c74b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TypeError: Cannot read properties of null (reading 'hopscotch')</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_whitelist_8e836e97db508110e3dd80c74b961974</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <test display_value="DNU - OHS -  Incident Full workflow Look for EDCSLAB1070">4b9cf97187c4511050d2eca73cbb359b</test>
+    </sys_atf_whitelist>
+</record_update>

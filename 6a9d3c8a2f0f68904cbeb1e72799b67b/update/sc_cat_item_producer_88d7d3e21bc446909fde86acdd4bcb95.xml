@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<div>
+<p>Use this form to book a service with the health and wellness team or a confidential appointment with a nurse counsellor.  </p>
+</div>
+<div>
+<p>The team offers coaching, guidance and referrals to help you access the right resources. Services include mental and physical health support, general health consultations, access to training, on-site crisis support and help to minimize psychological risk factors.  </p>
+</div>
+<div>
+<p>A description of the services is available by selecting the <strong>“?” icon next to the Type of request field</strong>. </p>
+</div>
+<div>
+<p>All nursing support requests are confidential and will not be shared with your manager without your consent. Please note that nurse counsellors do not provide prescriptions or medical notes. </p>
+</div>
+<div>
+<p>You can expect a reply within <strong>24 business hours</strong>. </p>
+</div>
+<div>
+<p><strong>Note</strong>: In case of a medical emergency, please call the Parliamentary Protective Service emergency line at           613-992-7000. Security personnel are available 24 hours a day, 7 days a week. They are responsible for dealing with emergencies and certified in first aid and CPR. </p>
+</div>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Health and wellness service request</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Pullen, Taylor">617dac801bfbb994c6c7a8ecbc4bcbf2</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=88d7d3e21bc446909fde86acdd4bcb95&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[(function() {
+    new x_hccc_hoc_ohs.HoCOHSRecordProducerUtil().createCaseFromProducer(current, producer, cat_item.sys_id);
+    producer.portal_redirect = "?id=hoc_ohsm_confirmation&requestNumber=" + current.number;
+})();]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>taylor.pullen@ca.ey.com</sys_created_by>
+        <sys_created_on>2024-02-02 14:41:56</sys_created_on>
+        <sys_id>88d7d3e21bc446909fde86acdd4bcb95</sys_id>
+        <sys_mod_count>246</sys_mod_count>
+        <sys_name>Demande de service de santé et mieux-être</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_88d7d3e21bc446909fde86acdd4bcb95</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-01 14:13:51</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_case</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_hoc_sc_service/>
+        <u_includes_additional_services/>
+        <u_other_additional_services/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>246</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=88d7d3e21bc446909fde86acdd4bcb95"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>88d7d3e21bc446909fde86acdd4bcb95</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-25 17:15:49</sys_created_on>
+        <sys_id>78bb5318fb62661095e5fb3f4eefdc4e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-25 16:07:37</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Veuillez utiliser ce formulaire pour r&amp;eacute;server un service de l&amp;rsquo;&amp;eacute;quipe de sant&amp;eacute; et mieux-&amp;ecirc;tre ou prendre un rendez-vous confidentiel avec une infirmi&amp;egrave;re-conseill&amp;egrave;re&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;L&amp;rsquo;&amp;eacute;quipe offre de l&amp;rsquo;accompagnement, des conseils et des recommandations pour vous aider &amp;agrave; obtenir les bonnes ressources. Parmi les services qu&amp;rsquo;elle propose, citons le soutien en sant&amp;eacute; mentale et physique, des consultations g&amp;eacute;n&amp;eacute;rales li&amp;eacute;es &amp;agrave; la sant&amp;eacute;, l&amp;rsquo;acc&amp;egrave;s &amp;agrave; la formation, le soutien sur place en cas de crise et de l&amp;rsquo;aide pour r&amp;eacute;duire les facteurs de risque psychologiques.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&amp;nbsp;&lt;br&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;On trouve la description des services en s&amp;eacute;lectionnant l&amp;rsquo;ic&amp;ocirc;ne &amp;laquo;&lt;strong&gt; &lt;/strong&gt;&lt;/span&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;?&lt;/span&gt;&lt;/strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt; &amp;raquo; &amp;agrave; c&amp;ocirc;t&amp;eacute; du champ Type de demande.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Toutes les demandes de services infirmiers sont confidentielles et ne seront pas communiqu&amp;eacute;es &amp;agrave; votre gestionnaire sans votre consentement.&amp;nbsp; Veuillez noter que les infirmi&amp;egrave;res-conseill&amp;egrave;res ne remettent pas d&amp;rsquo;ordonnances ni de billets de m&amp;eacute;decin.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&amp;nbsp;&lt;br&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Vous recevrez une r&amp;eacute;ponse dans un d&amp;eacute;lai de &lt;/span&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;24 heures ouvrables&lt;/span&gt;&lt;/strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&amp;nbsp;&lt;br&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&lt;strong&gt;Note &lt;/strong&gt;:&lt;/span&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt; En cas d&amp;rsquo;urgence m&amp;eacute;dicale, veuillez appeler la ligne d&amp;rsquo;urgence du Service de protection parlementaire au 613-992-7000. Le personnel de s&amp;eacute;curit&amp;eacute; est disponible 24 heures sur 24, 7 jours sur 7. Il est responsable de la gestion des urgences et d&amp;eacute;tient un certificat en secourisme et en RCR.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>88d7d3e21bc446909fde86acdd4bcb95</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-25 17:15:49</sys_created_on>
+        <sys_id>30bb5318fb62661095e5fb3f4eefdc4b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-25 16:07:37</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Demande de service de santé et mieux-être </value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>88d7d3e21bc446909fde86acdd4bcb95</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-25 17:15:49</sys_created_on>
+        <sys_id>fcbb5318fb62661095e5fb3f4eefdc45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-25 17:15:49</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=88d7d3e21bc446909fde86acdd4bcb95"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price</field>
+        <id>88d7d3e21bc446909fde86acdd4bcb95</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>taylor.pullen@ca.ey.com</sys_created_by>
+        <sys_created_on>2024-02-02 14:41:56</sys_created_on>
+        <sys_id>b349dbaa1b4846909fde86acdd4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@ca.ey.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 14:41:56</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>88d7d3e21bc446909fde86acdd4bcb95</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-31 20:39:33</sys_created_on>
+        <sys_id>9bdd07fbfb175e9495e5fb3f4eefdc99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-31 20:39:33</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

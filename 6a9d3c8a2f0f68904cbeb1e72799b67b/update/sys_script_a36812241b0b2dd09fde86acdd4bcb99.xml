@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>pdf_draft</collection>
+        <condition/>
+        <description>Copy of "e8b28c972f1ba8104cbeb1e72799b630" but changed the application from Global to OHSM</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="pdf_draft">table=x_hccc_hoc_ohs_investigation_case^EQ<item endquery="false" field="table" goto="false" newquery="false" operator="=" or="false" value="x_hccc_hoc_ohs_investigation_case"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Document is copied</p>]]></message>
+        <name>HoC - Copy pdf_draft to HoC Investigation case</name>
+        <order>1000</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	gs.addInfoMessage(gs.getMessage("x_hccc_hoc_ohs.document_has_been_copied"));
+	// check if investigation case have a parent
+	
+	var destinationRecord;
+	var parentCase = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+	var parentFound=parentCase.get(current.document.parent);
+
+	if(parentFound){
+		destinationRecord=parentCase.getValue("sys_id");
+	}else{
+		destinationRecord=current.document.sys_id;
+	}
+	
+    //gs.sleep(5000); //5 seconds //Sleep doesn't work when not global
+	//var globalSleep = new global.HoCSleepFunction(); //
+	//globalSleep.sleep(5000); //Needs cross scope access privilege
+
+    var copyAtt = new GlideSysAttachment();
+
+    copyAtt.copy("pdf_draft", current.sys_id, "x_hccc_hoc_ohs_investigation_case", destinationRecord);
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-23 15:39:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a36812241b0b2dd09fde86acdd4bcb99</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>HoC - Copy pdf_draft to HoC Investigation case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_a36812241b0b2dd09fde86acdd4bcb99</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-11-08 16:41:19</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a36812241b0b2dd09fde86acdd4bcb99"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>a36812241b0b2dd09fde86acdd4bcb99</documentkey>
+        <fieldname>message</fieldname>
+        <language>fq</language>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-02 19:24:15</sys_created_on>
+        <sys_id>6e6cea3f1b47add49fde86acdd4bcb4f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-02 19:24:15</sys_updated_on>
+        <tablename>sys_script</tablename>
+        <value/>
+    </sys_translated_text>
+</record_update>

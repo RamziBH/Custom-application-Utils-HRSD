@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Case Information" section_id="1ab3b9f82f6764504cbeb1e72799b60e" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="harassment_violence_complaint">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>3f7d8073fb74661895e5fb3f4eefdc26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <text>${gs.getMessage("x_hccc_hoc_ohs.general_details")}</text>
+            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>7b7d8073fb74661895e5fb3f4eefdc26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <text>${gs.getMessage("x_hccc_hoc_ohs.respondent_information")}</text>
+            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>b77d8073fb74661895e5fb3f4eefdc26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <text>${gs.getMessage("x_hccc_hoc_ohs.complainant_information")}</text>
+            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>bb7d8073fb74661895e5fb3f4eefdc25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <text>${gs.getMessage("x_hccc_hoc_ohs.submitter_information")}</text>
+            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f37d8073fb74661895e5fb3f4eefdc26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <text>${gs.getMessage("x_hccc_hoc_ohs.submitter_is_complainant")}</text>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>ff7d8073fb74661895e5fb3f4eefdc26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <text>${gs.getMessage("x_hccc_hoc_ohs.occurrence_details")}</text>
+            <type display_value="Section Header">0d030c92233b1010fb0c949e27bf65e1</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>bb7d8073fb74661895e5fb3f4eefdc25</element>
+            <position>0</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f37d8073fb74661895e5fb3f4eefdcd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>f37d8073fb74661895e5fb3f4eefdc26</element>
+            <position>1</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>fb7d8073fb74661895e5fb3f4eefdcd4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_witness_name</element>
+            <position>2</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f37d8073fb74661895e5fb3f4eefdcd5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>submitter_contact_details</element>
+            <position>3</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f77dc073fb74661895e5fb3f4eefdc07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b77d8073fb74661895e5fb3f4eefdc26</element>
+            <position>4</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>ff7dc073fb74661895e5fb3f4eefdc07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complainant_name</element>
+            <position>5</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f77dc073fb74661895e5fb3f4eefdc08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_complainant_manager</element>
+            <position>6</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>ff7dc073fb74661895e5fb3f4eefdc08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complainant_contact_details</element>
+            <position>7</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f77dc073fb74661895e5fb3f4eefdc09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7b7d8073fb74661895e5fb3f4eefdc26</element>
+            <position>8</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>ff7dc073fb74661895e5fb3f4eefdc09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>respondent_list</element>
+            <position>9</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f77dc073fb74661895e5fb3f4eefdc0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>10</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>ff7dc073fb74661895e5fb3f4eefdc0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f77dc073fb74661895e5fb3f4eefdc0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3f7d8073fb74661895e5fb3f4eefdc26</element>
+            <position>12</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>ff7dc073fb74661895e5fb3f4eefdc0b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complainant_feels_in_imminent_danger</element>
+            <position>13</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>f77dc073fb74661895e5fb3f4eefdc0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>submitted_by_the_subject_of_harassement</element>
+            <position>14</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>cc8dc073fb74661895e5fb3f4eefdc0c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_remain_anonymous</element>
+            <position>15</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>c48dc073fb74661895e5fb3f4eefdc0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recipient_of_this_complaint</element>
+            <position>16</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>cc8dc073fb74661895e5fb3f4eefdc0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_involved</element>
+            <position>17</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>c48dc073fb74661895e5fb3f4eefdc0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ff7d8073fb74661895e5fb3f4eefdc26</element>
+            <position>18</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>cc8dc073fb74661895e5fb3f4eefdc0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_resulted_in_an_injury</element>
+            <position>19</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>c48dc073fb74661895e5fb3f4eefdc0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_resulted_in_time_loss</element>
+            <position>20</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>cc8dc073fb74661895e5fb3f4eefdc0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hv_resulted_in_modified_duties</element>
+            <position>21</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-04-15 20:13:16</sys_created_on>
+            <sys_id>c48dc073fb74661895e5fb3f4eefdc10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-04-15 20:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Case Information</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-13 19:21:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ab3b9f82f6764504cbeb1e72799b60e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_1ab3b9f82f6764504cbeb1e72799b60e</sys_update_name>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-10 19:00:18</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Harassment and Violence complaint " name="harassment_violence_complaint">7db275782f6764504cbeb1e72799b6da</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

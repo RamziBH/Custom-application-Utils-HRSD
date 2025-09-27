@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMTelWrkUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Various scripts for Telework Agreements</description>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMTelWrkUtils</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[/* global sn_fd */
+var HoCOHSMTelWrkUtils = Class.create();
+
+HoCOHSMTelWrkUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    RECORD_PRODUCER: {
+        SYS_ID: "cedc7de78779219050d2eca73cbb3565",
+        VARIABLES: {
+            BOOLEAN_YES_NO: {
+                YES: "Yes",
+                NO: "No"
+            }
+        }
+    },
+    SCRIPT_INCLUDE: "593fe9271bda25949fde86acdd4bcb5f",
+    TABLE: "x_hccc_hoc_ohs_telework_agreement",
+    ASSET: {
+        TABLE: "x_hccc_hoc_ohs_telework_agreement_asset"
+    },
+    //initialize: function() {},
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-11-04
+     * Description: Approve agreement
+     * @param {GlideRecord} teleworkGr - glide record of the telework agreement
+     * @return {boolean} true if record was approved
+     * NOTE: used by widget https://hoccdcdv.service-now.com/sp_widget.do?sys_id=c9dff1931b9a2d549fde86acdd4bcb78
+     */
+    approve: function(teleworkGr) {
+        teleworkGr.state = "2"; //Approved
+        teleworkGr.setValue("approval", "approved");
+        teleworkGr.closed_by = gs.getUserID();
+        return teleworkGr.update();
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-11-04
+     * Description: Refuse agreement
+     * @param {GlideRecord} teleworkGr - glide record of the telework agreement
+     * @return {boolean} true if record was refused
+     * NOTE: used by widget https://hoccdcdv.service-now.com/sp_widget.do?sys_id=c9dff1931b9a2d549fde86acdd4bcb78
+     */
+    refuse: function(teleworkGr) {
+        teleworkGr.state = "30"; //Refused
+        teleworkGr.setValue("approval", "rejected");
+        teleworkGr.closed_by = gs.getUserID();
+        return teleworkGr.update();
+    },
+
+    // Verify it's the Manager who's trying to approve/reject the Telework agreement in the Portal
+    // and that the current State of the Telework Agreement is "Awaiting Approval" (11) and Approval is "requested"
+    // Glide Record for the Telework Agreement is passed in
+    isManagerAndAgreementIsRequested: function(teleworkGr) {
+        var currentUserId = gs.getUser().getID();
+        var isManager = false;
+        var isRequested = false;
+
+        if (this.isRecordApprovableByUser(currentUserId, teleworkGr)) { //check for delegates
+            isManager = true;
+        }
+
+        if ((teleworkGr.getValue('state') == "11") && (teleworkGr.getValue('approval') == "requested")) {
+            isRequested = true;
+        }
+
+        return (isManager && isRequested);
+    },
+
+    // Verify Approval button visible for Telework agreement in Portal
+    // Glide Record for the Telework Agreement is passed in
+    canApproveTeleworkAgreement: function(teleworkGr) {
+        return this.isManagerAndAgreementIsRequested(teleworkGr);
+    },
+
+    // Verify Reject button visible for Telework agreement in Portal
+    // Glide Record for the Telework Agreement is passed in
+    canRejectTeleworkAgreement: function(teleworkGr) {
+        return this.isManagerAndAgreementIsRequested(teleworkGr);
+    },
+
+    // Returns the Service Area (Business Unit) of the passed in employee
+    getServiceArea: function() {
+        var employee = this.getParameter("sysparm_employee_sys_id");
+        var result = "";
+        var grEmployee = new GlideRecord("sys_user");
+
+        grEmployee.get("sys_id", employee);
+
+        if (!gs.nil(grEmployee.department)) {
+            result = grEmployee.department.business_unit;
+        }
+        return result;
+    },
+
+    /**
+     * Created by: Lise Champagne
+     * Created Date: 2024-10-28
+     * Description: Get info from employees last approved Telework Agreement to use to prefill the new form they are filling
+     * @param {string} emp - sys_id of employee
+     * @return {JSON object}: resultsObj -  info to prefill new TA
+     */
+    getTeleWorkInfo: function() {
+        var employee = this.getParameter("sysparm_employee_sys_id");
+        var resultsObj = {};
+        var grTA = new GlideRecord("x_hccc_hoc_ohs_telework_agreement");
+
+        //gs.info("Telework: User sys_id = " + employee.toString());
+
+        resultsObj.workplaceAddressId = "";
+        resultsObj.workplaceAddressName = "";
+        resultsObj.teleworkType = "";
+        resultsObj.flexibleDays = "";
+        resultsObj.flexibleOther = "";
+        resultsObj.fixedDays = "";
+        resultsObj.fixedMonday = "";
+        resultsObj.fixedTuesday = "";
+        resultsObj.fixedWednesday = "";
+        resultsObj.fixedThursday = "";
+        resultsObj.fixedFriday = "";
+        resultsObj.teleworkAddress = "";
+        resultsObj.teleworkPhone = "";
+        resultsObj.emergencyContact = "";
+        resultsObj.emergencyRelationship = "";
+        resultsObj.emergencyPhone = "";
+
+        // Get all Telework Agreements for that employee that have been approved and sort them with most recent first
+        grTA.addEncodedQuery("subject_person=" + employee + "^approval=approved");
+        grTA.orderByDesc("sys_created_on");
+        grTA.query();
+
+        // If at least one record found
+        if (grTA.next()) {
+            //gs.info("Telework: TA Found! " + grTA.sys_id.toString());
+
+            resultsObj.workplaceAddressId = grTA.getValue("designated_workplace_address");
+            resultsObj.workplaceAddressName = grTA.getDisplayValue("designated_workplace_address");
+            resultsObj.teleworkType = grTA.getValue("type_telework_arrangement");
+            if (grTA.getValue("type_telework_arrangement") === "telework_flexible") {
+                resultsObj.flexibleDays = grTA.getValue("flexible_telework_choices");
+                if (!gs.nil(grTA.specify_number_telework_days)) {
+                    resultsObj.flexibleOther = grTA.getValue("specify_number_telework_days");
+                }
+            } else {
+                resultsObj.fixedDays = grTA.getValue("fixed_telework_choices");
+                resultsObj.fixedMonday = grTA.getValue("telework_monday");
+                resultsObj.fixedTuesday = grTA.getValue("telework_tuesday");
+                resultsObj.fixedWednesday = grTA.getValue("telework_wednesday");
+                resultsObj.fixedThursday = grTA.getValue("telework_thursday");
+                resultsObj.fixedFriday = grTA.getValue("telework_friday");
+            }
+            resultsObj.teleworkAddress = grTA.getValue("telework_location_address");
+            resultsObj.teleworkPhone = grTA.getValue("telework_telephone_number");
+            resultsObj.emergencyContact = grTA.getValue("emergency_contact_name");
+            resultsObj.emergencyPhone = grTA.getValue("emergency_contact_telephone");
+
+            // Verify Relationship is a valid choice, else return empty string
+            var gr = new GlideRecord("sys_choice");
+            var relation = grTA.getValue("relationship_to_employee").toString();
+
+            gr.addEncodedQuery(
+                "nameSTARTSWITHx_hccc_hoc_ohs_telework_agreement^" +
+                "elementSTARTSWITHrelationship_to_employee^languageSTARTSWITHen"
+            );
+            gr.query();
+            while (gr.next()) {
+                if (gr.getValue("value").toString() === relation) {
+                    resultsObj.emergencyRelationship = grTA.getValue("relationship_to_employee");
+                    break;
+                }
+            }
+
+        }
+
+        return JSON.stringify(resultsObj);
+    },
+
+    /**
+     * Created by: Lise Champagne
+     * Created Date: 2024-10-10
+     * Description: Verify that the date is last year, this year, or next year but NOT 2 or more years in the future or past. 
+     * 				If valid date, update the end date for the same year as start date, if not same year.
+     * @param {string} sysparm_date_to_check - date that verification will done to (can be either start date or end date)
+     * @param {string} sysparm_other_date - if start date is being verified then other date = end date and vice versa
+     * @param {string} sysparm_is_start - "true" if start date is being verified, otherwise it's "false"
+     * @return {JSON object}: resultsObj
+     * 		resultsObj.goodYear = "true" if date to check in correct year range, "false" if not in range
+     * 		resultsObj.endDate = new value for end date to be in same year as start date
+     */
+    checkDateYear: function() {
+        var date = this.getParameter("sysparm_date_to_check");
+        var otherDate = this.getParameter("sysparm_other_date");
+        var isStart = this.getParameter("sysparm_is_start");
+        var resultsObj = {};
+
+        resultsObj.goodYear = "true";
+        resultsObj.endDate = "";
+
+        //gs.info("Nethik - checkDateYear: date = " + date + " otherDate = " + otherDate + " isStart = " + isStart);
+
+        var gdtNowYear = new GlideDateTime().getYearUTC();
+        var gdtDateYear = new GlideDateTime(date).getYearUTC();
+
+        var diff = gdtDateYear - gdtNowYear;
+        var diffAbs = Math.abs(parseInt(diff, 10));
+
+        // Verify that date is last year, this year, or next year but NOT 2 or more years in the future or past
+        if (diffAbs >= 2) { //(gdtDateYear < gdtNowYear) || (diff >= 2)
+            resultsObj.goodYear = "false";
+        } else if ((isStart.toString() === "true") && (!gs.nil(otherDate))) { // verify end date (otherDate) year same as start date, else change end date to Dec 31 of same year
+            var gdtEndYear = new GlideDateTime(otherDate).getYearUTC();
+
+            if (gdtEndYear !== gdtDateYear) {
+                var gdt1 = new GlideDateTime(date).getDate(); // startdate
+
+                gdt1.setMonthUTC(12);
+                gdt1.setDayOfMonthUTC(31);
+                resultsObj.endDate = gdt1.getDisplayValue().toString();
+            }
+        } else if ((isStart.toString() === "false") && (!gs.nil(otherDate))) { // verify end date year same as start (otherDate), else change end date to same year
+            var gdtStartYear = new GlideDateTime(otherDate).getYearUTC();
+
+            if (gdtDateYear !== gdtStartYear) {
+                var gdt2 = new GlideDateTime(otherDate).getDate(); // startdate
+
+                gdt2.setMonthUTC(12);
+                gdt2.setDayOfMonthUTC(31);
+                resultsObj.endDate = gdt2.getDisplayValue().toString();
+            }
+        }
+
+        //gs.info("Nethik - checkDateYear: resultsObj.goodYear = " + resultsObj.goodYear + " resultsObj.endDate = " + resultsObj.endDate);
+        var resultsJson = JSON.stringify(resultsObj);
+
+        return (resultsJson);
+    },
+
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-04-22
+     * Description: grab the assigned users and check if one of the role that should have access is in the list.
+     */
+    isRecordAccessibleToUser: function(userId, gr) {
+        var accessingUsers = [];
+        var allowedUsers = [];
+
+        accessingUsers = this.getAssignedUsers(userId);
+
+        allowedUsers.push(gr.manager_name.sys_id.toString()); //manager (historical)
+        allowedUsers.push(gr.subject_person.manager.sys_id.toString()); //manager (current)
+        allowedUsers.push(gr.assigned_to.sys_id.toString()); //assigned user
+        allowedUsers.push(gr.subject_person.sys_id.toString()); //subject_person
+
+        for (var i = 0; i < allowedUsers.length; i++) {
+            if (accessingUsers.includes(allowedUsers[i])) {
+                return true;
+            }
+        }
+
+        return false;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-04-23
+     * Description: grab the assigned users and check if one of the role that should have access is in the list.
+     */
+    /*isRecordWritableByUser: function(userId, gr) {
+        var accessingUsers = [];
+        var allowedUsers = [];
+
+        accessingUsers = this.getAssignedUsers(userId); //assigned to
+
+        allowedUsers.push(gr.manager_name.sys_id.toString()); //manager (historical)
+        allowedUsers.push(gr.subject_person.manager.sys_id.toString()); //manager (current)
+        allowedUsers.push(gr.assigned_to.sys_id.toString()); //assigned user
+
+        for (var i = 0; i < allowedUsers.length; i++) {
+            if (accessingUsers.includes(allowedUsers[i])) {
+                return true;
+            }
+        }
+
+        return false;
+    },*/
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-04-23
+     * Description: grab the approvers and check if one of the role that should have access is in the list.
+     */
+    isRecordApprovableByUser: function(userId, gr) {
+        var accessingUsers = [];
+        var allowedUsers = [];
+
+        accessingUsers = this.getApprovers(userId); //approver
+
+        allowedUsers.push(gr.manager_name.sys_id.toString()); //manager (historical)
+        allowedUsers.push(gr.subject_person.manager.sys_id.toString()); //manager (current)
+        allowedUsers.push(gr.assigned_to.sys_id.toString()); //assigned user
+
+        for (var i = 0; i < allowedUsers.length; i++) {
+            if (accessingUsers.includes(allowedUsers[i])) {
+                return true;
+            }
+        }
+
+        return false;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-04-22
+     * Description: branched from sn_wsd_core.WPCoreUtilsSNC.getApprovers, grab all delegate record where user can approve
+     * Method to get all the approvals
+     * @param {sys_id} userId - sys_id of the user
+     * @return {Array} - of user sys_ids, who can access the case
+     */
+    getApprovers: function(userId) {
+        var approvers = [];
+
+        if (gs.nil(userId)) {
+            userId = gs.getUserID();
+        }
+        approvers.push(userId);
+
+        var delegateGr = new GlideRecord("sys_user_delegate");
+
+        delegateGr.addQuery("delegate", userId);
+        delegateGr.addQuery("approvals", "true");
+        delegateGr.addQuery("starts", "<=", gs.daysAgo(0));
+        delegateGr.addQuery("ends", ">=", gs.daysAgo(0));
+        delegateGr.query();
+        while (delegateGr.next()) {
+            approvers.push(delegateGr.user.toString());
+        }
+
+        return approvers;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-04-22
+	 * Updated: 2025-01-08 Added check to prevent small bug where someone could pass a userGlideRecord instead, this caused the returned array to be inconstant and could cause errors.
+     * Description: branched from sn_wsd_core.WPCoreUtilsSNC.getApprovers, grab all delegate record where user can see assignements
+     * Method to get all the assigned users
+     * @param {sys_id} userId - sys_id of the user
+     * @return {Array} - of user sys_ids, who can access the case
+     */
+    getAssignedUsers: function(userId) {
+        var assignedUsers = [];
+
+        if (gs.nil(userId)) {
+            userId = gs.getUserID();
+        }
+        if (userId instanceof GlideRecord) {
+            userId = userId.getUniqueValue(); //make sure we push string and not glideRecord
+        }
+        assignedUsers.push(userId);
+
+        var delegateGr = new GlideRecord("sys_user_delegate");
+
+        delegateGr.addQuery("delegate", userId);
+        delegateGr.addQuery("assignments", "true");
+        delegateGr.addQuery("starts", "<=", gs.daysAgo(0));
+        delegateGr.addQuery("ends", ">=", gs.daysAgo(0));
+        delegateGr.query();
+        while (delegateGr.next()) {
+            assignedUsers.push(delegateGr.user.toString());
+        }
+
+        return assignedUsers;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-06-10
+     * Description: Parse assets multi row variable set and add to table.
+     * @param {string} teleworkAgreementSysId - sys_id of the telework agreement the asset list is assigned to
+     * @param {string or object array} mrvsAssets - an object or JSON formatted string representing the asset list to assign to a case
+     * @return {[string]} array of sys ids of the newly created records. Null entries for failed insertions
+     */
+    addAssets: function(teleworkAgreementSysId, mrvsAssets) {
+        /*
+		for (let i = 0; i < arguments.length; i++) {
+			gs.debug('2b AddAssets argument ' + i + ': \r\ntype: ' + typeof arguments[i] + '\r\nprototype: ' + Object.prototype.toString.call(arguments[i]) + '\r\nvalue: ' + arguments[i]);
+		}*/
+
+        //Convert assets JSON to object
+        if (typeof mrvsAssets === 'string' ||
+            Object.prototype.toString.call(mrvsAssets) === '[object ScopedGlideElement]'
+        ) {
+            try {
+                mrvsAssets = JSON.parse(mrvsAssets);
+            } catch (e) {
+                gs.error('-----ERROR-----\r\n' + e);
+                throw new Error('Unable to parse assets\r\n' + e);
+            }
+        }
+
+        if (Object.prototype.toString.call(mrvsAssets) !== '[object Array]') {
+            throw new Error('Telework assets should be an array');
+        }
+
+        //add assets
+        const assets = mrvsAssets;
+        const result = [];
+
+        for (let i = 0; i < assets.length; i++) {
+            try {
+                result.push(this._addAsset(teleworkAgreementSysId, assets[i]));
+            } catch (e) {
+                gs.debug('-----ERROR-----\r\n' + e);
+            }
+
+        }
+
+        return result;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-06-10
+     * Description: Parse asset multi row variable set and add to table.
+     * @param {sys_id} teleworkAgreementSysId - sys_id of the telework agreement the asset is assigned to
+     * @return {string} string of the newly created record or null when it fails to insert
+     */
+    _addAsset: function(teleworkAgreementSysId, asset) {
+        function isHybrid(a) {
+            const LOCATION = {
+                HYBRID: "hybrid",
+                TELEWORK: "telework"
+            };
+
+            if (typeof asset.is_asset_hybrid === 'undefined' && typeof asset.asset_location === 'undefined') { //only when both are undefined is the object wrong. Front-end uses one or the other but never both.
+                throw new Error('Malformed asset object');
+            } else if (typeof asset.is_asset_hybrid === 'undefined') { //if checkbox is undefined then it's using the radio buttons
+                return a.asset_location === LOCATION.HYBRID;
+            } else {
+                return a.is_asset_hybrid;
+            }
+        }
+
+        const taa = new GlideRecord('x_hccc_hoc_ohs_telework_agreement_asset');
+
+        taa.initialize();
+        taa.telework_agreement = teleworkAgreementSysId;
+        taa.barcode = asset.barcode;
+        taa.asset_type_selected = asset.asset_type; //(asset.asset_type === 'other' ? asset.asset_type_ref : asset.asset_type);
+        taa.is_hybrid = isHybrid(asset);
+        //taa.asset_type_mapped = false; //column exist in table but currently unused. For mapping to CMDB 
+        taa.description = asset.description;
+
+        return taa.insert();
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-06-26
+     * Description: Calls a REST message
+     * @param {GlideRecord} teleworkAgreementGr - glide record of the telework agreement
+     * @return {boolean} Boolean of the response or lack thereof. true if http 200, false for anything else
+     */
+    sendToUnit4: function(teleworkAgreementGr) {
+        //get employee number
+        const employeeNumber = this._getEmployeeNumber(teleworkAgreementGr.subject_person);
+
+        gs.debug('employee number found: ' + employeeNumber + ', formatting agreement');
+        const unit4Obj = this._getUnit4Obj(teleworkAgreementGr);
+
+        gs.debug('unit4Obj constructed');
+        const teleworkAgreementString = JSON.stringify(unit4Obj);
+
+        gs.debug('sending content with flow');
+        //return this._sendWithRestMessage(employeeNumber, teleworkAgreementString);
+        return this._sendWithFlowAction(employeeNumber, teleworkAgreementString);
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-08-06
+     * Description: get employee's employee number
+     * @param {GlideRecord} userRecord - sys_user record
+     * @return {String} employee number or null
+     */
+    _getEmployeeNumber: function(userRecord) {
+        //gs.debug('typeOf userRecord: ' + typeof userRecord);
+        //gs.debug('Obj prot of userRecord: ' + Object.prototype.toString.call(userRecord));
+
+        //Making sure the input parameter is valid
+        if (typeof userRecord === 'string') {
+            /*gs.debug(
+                'OHS - _getEmployeeNumber()\'s userRecord parameter is a string but it should be a glideRecord.' +
+                '\r\nvalue: ' + userRecord
+            );*/
+            const user = new GlideRecord('sys_user');
+
+            user.get(userRecord);
+            userRecord = user;
+        } else if (Object.prototype.toString.call(userRecord) === '[object ScopedGlideElement]') {
+            /*gs.debug(
+                'OHS - _getEmployeeNumber()\'s userRecord parameter is a GlideElement but it should be a GlideRecord.'
+            );*/
+            userRecord = userRecord.getRefRecord();
+        }
+
+        if (!userRecord.isValidRecord()) {
+            gs.error('OHS - _getEmployeeNumber()\'s userRecord is invalid');
+            throw new Error('OHS - Telework - _getEmployeeNumber - user record invalid');
+        }
+
+        //grabbing hr profile for better employee number accuracy
+        const profile = new GlideRecord('sn_hr_core_profile');
+
+        profile.get("user", userRecord);
+
+        const employeeNumber = profile.u_employee_number_unit4 ||
+            profile.employee_number ||
+            userRecord.employee_number; //if u_employee_number_unit4 is empty try the other values (less accurate);
+
+        if (!employeeNumber) {
+            gs.error('OHS - Telework - REST call - Employee Number not found! ' +
+                '\r\nUser Id: ' + userRecord.getUniqueValue() + //this fail if input parameter is NOT a glideRecord
+                '\r\nhr Profile: ' + profile.sys_id +
+                '\r\nemployeeNumber: ' + employeeNumber);
+            throw new Error('OHS - Telework - _getEmployeeNumber - Employee Number not found!');
+        }
+        return employeeNumber;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-07-15
+     * Description: Uses a REST message to contact Unit4/RMIS service's
+     * @param {String} employeeNumber - employee number
+     * @param {String} teleworkAgreementString - JSON object representing the telework agreement
+     * @return {boolean} Boolean of the response or lack thereof. true if http 200, false for anything else
+     */
+    _sendWithFlowAction: function(employeeNumber, teleworkAgreementString, background) {
+        background = background || false;
+        try {
+            const inputs = {};
+
+            inputs['employeenumber'] = employeeNumber; // String 
+            inputs['teleworkagreement'] = teleworkAgreementString; // String 
+
+            if (background) {
+                // Start Asynchronously, no access to outputs
+                sn_fd.FlowAPI.getRunner()
+                    .action('x_hccc_hoc_ohs.ohs__telework__send_agreement_to_unit4')
+                    .inBackground()
+                    .withInputs(inputs)
+                    .run();
+
+                return true;
+            } else {
+                // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+                const result = sn_fd.FlowAPI.getRunner()
+                    .action('x_hccc_hoc_ohs.ohs__telework__send_agreement_to_unit4')
+                    .inForeground()
+                    .withInputs(inputs)
+                    .timeout(900000) //default is 30 seconds but the REST API can take up to a minute.. we give another 30 second buffer
+                    .run();
+                const outputs = result.getOutputs(); // Note: outputs can only be retrieved when executing synchronously
+                const httpStatus = outputs['response_code']; //String
+
+                if (httpStatus !== 200) {
+                    gs.debug('OHS - Calling REST - ' +
+                        '\r\nResponse status: ' + httpStatus +
+                        '\r\nResponse body: \r\n' + outputs['response_body'] +
+                        '\r\n\r\nEmployee Number used: ' + employeeNumber +
+                        '\r\nObject Sent: \r\n' + teleworkAgreementString);
+                    throw new Error('OHS - Calling REST - Unexpected response:\r\n HTTP status code: ' + httpStatus +
+                        '\r\n response body:\r\n ' + outputs['response_body']);
+                }
+
+                return httpStatus === 200;
+            }
+        } catch (ex) {
+            //let message = ex.getMessage();
+            gs.error('OHS - Calling REST - Error when sending a REST message from Flow Action: \r\n' +
+                'EmployeeNumber: ' + employeeNumber + '\r\nObject sent: ' + teleworkAgreementString +
+                '\r\n\r\nActual Error encoutered: ' + ex);
+            throw ex;
+        }
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-06-27
+     * Description: Generates a new representation of a telework agreement following the Unit 4 REST api schema https://api2-dv.rmis-sigr.tenantdev.hoc-cdc.ca/EmployeeServices/swagger/index.html
+     * 
+     * inserted_by_fx has been removed from Schema in Dev...here is the latest schema (Swagger UI (hoc-cdc.ca)):
+     * TeleworkInformation
+     * {
+     * rowId	integer($int32)
+     * type_of_telework_fx	string
+     * nullable: true
+     * number_of_days_fx	string
+     * nullable: true
+     * telework_start_date_fx	string($date-time)
+     * telework_end_date_fx	string($date-time)
+     * telework_location_addr_fx	string
+     * nullable: true
+     * telework_telephone_num_fx	string
+     * nullable: true
+     * emergency_contact_name_fx	string
+     * nullable: true
+     * emergency_tel_number_fx	string
+     * nullable: true
+     * relationship_to_employ_fx	string
+     * nullable: true
+     * approver_name_fx	string
+     * nullable: true
+     * approved_date_fx	string($date-time)
+     * telework_monday_fx	boolean
+     * telework_tuesday_fx	boolean
+     * telework_wednesday_fx	boolean
+     * telework_thursday_fx	boolean
+     * telework_friday_fx	boolean
+     * telework_number_fx	string
+     * }
+     * 
+     * @param {GlideRecord} teleworkAgreementGr - glide record of the telework agreement
+     * @return {Object} Object of the telework agreement following Unit4 schema
+     */
+    _getUnit4Obj: function(teleworkAgreementGr) {
+        //create object / object string
+        const teleworkAgreementObj = {
+            rowId: 0 //0 to insert at the end, else insert with number if number doesn't exist, fails otherwise
+        };
+
+        teleworkAgreementObj.telework_number_fx = teleworkAgreementGr.getValue('number');
+        //teleworkAgreementObj.type_of_telework_fx = teleworkAgreementGr.getValue('type_telework_arrangement');
+        teleworkAgreementObj.type_of_telework_fx = this._getTypeOfTeleworkBilingual(teleworkAgreementGr);
+        teleworkAgreementObj.number_of_days_fx = this._getNumberOfDays(teleworkAgreementGr); //max 10 char
+        //teleworkAgreementObj.number_of_days_fx = teleworkAgreementGr.getValue('flexible_telework_choices') || ''; //can't send null
+
+        teleworkAgreementObj.telework_monday_fx = teleworkAgreementGr.getValue('telework_monday') === '1';
+        teleworkAgreementObj.telework_tuesday_fx = teleworkAgreementGr.getValue('telework_tuesday') === '1';
+        teleworkAgreementObj.telework_wednesday_fx = teleworkAgreementGr.getValue('telework_wednesday') === '1';
+        teleworkAgreementObj.telework_thursday_fx = teleworkAgreementGr.getValue('telework_thursday') === '1';
+        teleworkAgreementObj.telework_friday_fx = teleworkAgreementGr.getValue('telework_friday') === '1';
+
+        teleworkAgreementObj.telework_start_date_fx = teleworkAgreementGr.getValue('telework_start_date');
+        teleworkAgreementObj.telework_end_date_fx = teleworkAgreementGr.getValue('telework_end_date');
+        teleworkAgreementObj.telework_location_addr_fx = teleworkAgreementGr.getValue('telework_location_address');
+        teleworkAgreementObj.telework_telephone_num_fx = teleworkAgreementGr.getValue('telework_telephone_number')
+            .replaceAll(' ', '')
+            .replaceAll('(', '')
+            .replaceAll(')', '')
+            .replaceAll('+', '')
+            .replaceAll('-', '');
+        teleworkAgreementObj.emergency_contact_name_fx = teleworkAgreementGr.getValue('emergency_contact_name');
+        teleworkAgreementObj.emergency_tel_number_fx = teleworkAgreementGr.getValue('emergency_contact_telephone')
+            .replaceAll(' ', '')
+            .replaceAll('(', '')
+            .replaceAll(')', '')
+            .replaceAll('+', '')
+            .replaceAll('-', '');
+        //teleworkAgreementObj.relationship_to_employ_fx = teleworkAgreementGr.getValue('relationship_to_employee');
+        teleworkAgreementObj.relationship_to_employ_fx = this._getBilingualChoice(
+            teleworkAgreementGr, 'relationship_to_employee');
+        teleworkAgreementObj.approver_name_fx = this._getApproverName(teleworkAgreementGr);
+        teleworkAgreementObj.approved_date_fx = teleworkAgreementGr.getValue('approval_set'); //required
+
+        //gs.debug('OHS - TELEWORK - Unit 4 Formatted: \r\n' + JSON.stringify(teleworkAgreementObj));
+        return teleworkAgreementObj;
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-11-04
+     * Description: grab either the name in "closed_by" or the value of sys_updated_by
+     * @param {GlideRecord} teleworkAgreementGr - glide record of the telework agreement
+     * @return {String} name of reference in closed_by or value in updated_by
+     */
+    _getApproverName: function(teleworkAgreementGr) {
+        return teleworkAgreementGr.getDisplayValue('closed_by') || teleworkAgreementGr.getValue('sys_updated_by'); //if closed_by is empty, use sys_updated_by
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-06-27
+     * Description: Generates a representation of the schedule arrangement
+     * @param {GlideRecord} teleworkAgreementGr - glide record of the telework agreement
+     * @return {obj} representation of the schedule arrangement
+     * Updated: 2024-10-15 by Lise Champagne - use getDisplayValue to return label value for choice fields flexible_telework_choices and fixed_telework_choices (new field)
+     */
+    _getNumberOfDays: function(teleworkAgreementGr) {
+        let returnString;
+
+        if (teleworkAgreementGr.getValue('type_telework_arrangement') === 'telework_fixed') {
+            returnString = teleworkAgreementGr.getDisplayValue('fixed_telework_choices');
+            //if old record the fixed_telework_choices won't be set (this whole block can be removed starting 2025)
+            if (returnString === null || typeof returnString === 'undefined') {
+                let number = 0;
+
+                if (teleworkAgreementGr.getValue('telework_monday') === '1') {
+                    number += 1;
+                }
+                if (teleworkAgreementGr.getValue('telework_tuesday') === '1') {
+                    number += 1;
+                }
+                if (teleworkAgreementGr.getValue('telework_wednesday') === '1') {
+                    number += 1;
+                }
+                if (teleworkAgreementGr.getValue('telework_thursday') === '1') {
+                    number += 1;
+                }
+                if (teleworkAgreementGr.getValue('telework_friday') === '1') {
+                    number += 1;
+                }
+                returnString = number.toString();
+            }
+        } else {
+            returnString = teleworkAgreementGr.getDisplayValue('flexible_telework_choices') || ''; //if getDisplayValue is null, assign an empty string;
+            if (teleworkAgreementGr.getValue('flexible_telework_choices') === 'days_other') {
+                returnString = teleworkAgreementGr.getValue('specify_number_telework_days') || '';
+            }
+        }
+
+        returnString = returnString || ''; //prevent bug with match in case the returnString variable is null
+        const digits = returnString.match(/\d+( - \d+)?/); //removing non digits so it's "bilingual"
+
+        if (digits === null) {
+            return '';
+        } else {
+            return digits[0];
+        }
+    },
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-10-25
+     * Description: gets 
+     * @param {GlideRecord} gr - glide record of the telework agreement
+     * @param {String} field - the column
+     * @return {obj} representation of the schedule arrangement
+     */
+    _getBilingualChoice: function(gr, field) {
+        let returnString = '';
+
+        const tranUtils = new global.HoCGlobalLanguageTranslationUtils();
+        const labelEn = tranUtils.getChoiceLang(gr.getTableName(), field, gr.getValue(field), 'en');
+        const labelFq = tranUtils.getChoiceLang(gr.getTableName(), field, gr.getValue(field), 'fq');
+
+        if (labelEn.length > 0) {
+            returnString += labelEn
+        }
+        if (labelFq.length > 0) {
+            if (returnString.length > 0) {
+                returnString += ' / ' + labelFq;
+            } else {
+                returnString += labelFq;
+            }
+
+        }
+
+        if (returnString.length === 0) {
+            returnString = gr.getValue(field);
+        }
+
+        return returnString;
+    },
+
+
+    /**
+     * Created by: Guillaume Houde
+     * Created Date: 2024-10-25
+     * Description: gets 
+     * @param {GlideRecord} gr - glide record of the telework agreement
+     * @return {String} type of telework agreement ("flexible" or "fixed / fixe")
+     */
+    _getTypeOfTeleworkBilingual: function(gr) {
+        let type = gr.getValue('type_telework_arrangement');
+
+        [, type] = type.split('_'); //value are telework_fixed or telework_flexible, we keep what comes after the _
+        type = type.charAt(0).toUpperCase() + type.slice(1); //we want capitalised words
+
+        if (type === 'Fixed') {
+            type += ' / Fixe';
+        }
+
+        return type;
+    },
+
+    type: 'HoCOHSMTelWrkUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-25 13:32:42</sys_created_on>
+        <sys_id>593fe9271bda25949fde86acdd4bcb5f</sys_id>
+        <sys_mod_count>199</sys_mod_count>
+        <sys_name>HoCOHSMTelWrkUtils</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_593fe9271bda25949fde86acdd4bcb5f</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-08 21:48:35</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>593fe9271bda25949fde86acdd4bcb5f</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-08 21:43:48</sys_created_on>
+        <sys_id>d4004d2cfb4f5e5095e5fb3f4eefdc3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-08 21:43:48</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

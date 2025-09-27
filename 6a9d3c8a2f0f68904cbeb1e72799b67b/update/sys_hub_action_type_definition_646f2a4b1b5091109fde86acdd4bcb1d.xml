@@ -1,0 +1,2467 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>2bac5cd72f72e0504cbeb1e72799b6c5</copied_from>
+        <copied_from_name>Trigger email event</copied_from_name>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>hoc_trigger_email_event</internal_name>
+        <label_cache>[{"name":"{{action.event_name}}","label":"action➛Event name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_record}}","label":"action➛Event record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable3}}","label":"action➛variable3","type":"action","ref":"sn_hr_core_case","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_parm_1}}","label":"action➛Event parm 1","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_parm_2}}","label":"action➛Event parm 2","type":"action","ref":"sn_hr_core_case","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>987faa4b1b5091109fde86acdd4bcb0a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>HoC Trigger email event</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>646f2a4b1b5091109fde86acdd4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC Trigger email event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_646f2a4b1b5091109fde86acdd4bcb1d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-09 08:14:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=646f2a4b1b5091109fde86acdd4bcb1d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=646f2a4b1b5091109fde86acdd4bcb1d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>646f2a4b1b5091109fde86acdd4bcb1d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:59</sys_created_on>
+        <sys_id>416f2a4b1b5091109fde86acdd4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">c16f2a4b1b5091109fde86acdd4bcb89</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>646f2a4b1b5091109fde86acdd4bcb1d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:59</sys_created_on>
+        <sys_id>c96f2a4b1b5091109fde86acdd4bcbb0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-13 16:08:40</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDf86f2a4bc45091101c4651c5facba573":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDf86f2a4bc45091101c4651c5facba573.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4b039ddc-9ed4-4742-a070-9579f7512a95\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf86f2a4bc45091101c4651c5facba573\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">b06f2a4b1b5091109fde86acdd4bcb77</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d^id=646f2a4b1b5091109fde86acdd4bcb1d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT INf46f2a4b1b5091109fde86acdd4bcb3c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</action>
+        <cid>294951b9-e1df-4930-b898-c9542bc85321</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>f46f2a4b1b5091109fde86acdd4bcb3c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-13 16:08:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f46f2a4b1b5091109fde86acdd4bcb3c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f46f2a4b1b5091109fde86acdd4bcb3c</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>3c6f2a4b1b5091109fde86acdd4bcb6f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-13 16:08:40</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //generate event
+gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.eventParm2);
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f46f2a4b1b5091109fde86acdd4bcb3c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>706f2a4b1b5091109fde86acdd4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f46f2a4b1b5091109fde86acdd4bcb3c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>786f2a4b1b5091109fde86acdd4bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f46f2a4b1b5091109fde86acdd4bcb3c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>eventName</field>
+        <id>f46f2a4b1b5091109fde86acdd4bcb3c</id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>f86f2a4b1b5091109fde86acdd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f46f2a4b1b5091109fde86acdd4bcb3c</table>
+        <value>{{action.event_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>eventParm1</field>
+        <id>f46f2a4b1b5091109fde86acdd4bcb3c</id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>bc6f2a4b1b5091109fde86acdd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f46f2a4b1b5091109fde86acdd4bcb3c</table>
+        <value>{{action.event_parm_1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>eventParm2</field>
+        <id>f46f2a4b1b5091109fde86acdd4bcb3c</id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>706f2a4b1b5091109fde86acdd4bcb71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f46f2a4b1b5091109fde86acdd4bcb3c</table>
+        <value>{{action.event_parm_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>eventRecord</field>
+        <id>f46f2a4b1b5091109fde86acdd4bcb3c</id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>386f2a4b1b5091109fde86acdd4bcb70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f46f2a4b1b5091109fde86acdd4bcb3c</table>
+        <value>{{action.event_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=f46f2a4b1b5091109fde86acdd4bcb3c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=f46f2a4b1b5091109fde86acdd4bcb3c^sys_idNOT IN706f2a4b1b5091109fde86acdd4bcb59,706f2a4b1b5091109fde86acdd4bcb66,b06f2a4b1b5091109fde86acdd4bcb62,f06f2a4b1b5091109fde86acdd4bcb5e"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>eventName</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f46f2a4b1b5091109fde86acdd4bcb3c</model>
+        <model_id>f46f2a4b1b5091109fde86acdd4bcb3c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f46f2a4b1b5091109fde86acdd4bcb3c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>706f2a4b1b5091109fde86acdd4bcb59</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>eventParm2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f46f2a4b1b5091109fde86acdd4bcb3c</model>
+        <model_id>f46f2a4b1b5091109fde86acdd4bcb3c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f46f2a4b1b5091109fde86acdd4bcb3c</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>706f2a4b1b5091109fde86acdd4bcb66</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>eventParm1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">f46f2a4b1b5091109fde86acdd4bcb3c</model>
+        <model_id>f46f2a4b1b5091109fde86acdd4bcb3c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f46f2a4b1b5091109fde86acdd4bcb3c</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>b06f2a4b1b5091109fde86acdd4bcb62</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>eventRecord</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">f46f2a4b1b5091109fde86acdd4bcb3c</model>
+        <model_id>f46f2a4b1b5091109fde86acdd4bcb3c</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_f46f2a4b1b5091109fde86acdd4bcb3c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_hr_core_case">sn_hr_core_case</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>f06f2a4b1b5091109fde86acdd4bcb5e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=f46f2a4b1b5091109fde86acdd4bcb3c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f46f2a4b1b5091109fde86acdd4bcb3c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_f46f2a4b1b5091109fde86acdd4bcb3c"/>
+    <sys_hub_action_input action="delete_multiple" query="model=646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT IN346f2a4b1b5091109fde86acdd4bcb36,3c6f2a4b1b5091109fde86acdd4bcb31,a86f2a4b1b5091109fde86acdd4bcb2a,ac6f2a4b1b5091109fde86acdd4bcb24"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=060bb36d-bfce-418d-8b75-b32de2e88a7b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_parm_2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Event parm 2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</model>
+        <model_id>646f2a4b1b5091109fde86acdd4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>346f2a4b1b5091109fde86acdd4bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=346f2a4b1b5091109fde86acdd4bcb36"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=de69215f-f8e9-443b-badf-d7819faac824</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_parm_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Event parm 1</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</model>
+        <model_id>646f2a4b1b5091109fde86acdd4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>3c6f2a4b1b5091109fde86acdd4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3c6f2a4b1b5091109fde86acdd4bcb31"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=60f95c65-cca7-41ae-ad33-c02f48885a2a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_hr_le_case</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Event record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</model>
+        <model_id>646f2a4b1b5091109fde86acdd4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_hr_le_case">sn_hr_le_case</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>a86f2a4b1b5091109fde86acdd4bcb2a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a86f2a4b1b5091109fde86acdd4bcb2a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0f5fbfc8-20a8-4261-9dad-32e59915df34</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Event name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</model>
+        <model_id>646f2a4b1b5091109fde86acdd4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:57</sys_created_on>
+        <sys_id>ac6f2a4b1b5091109fde86acdd4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:57</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ac6f2a4b1b5091109fde86acdd4bcb24"/>
+    <sys_hub_action_output action="delete_multiple" query="model=646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT INb06f2a4b1b5091109fde86acdd4bcb77,c16f2a4b1b5091109fde86acdd4bcb89"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDf86f2a4bc45091101c4651c5facba573</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6a9d3c8a2f0f68904cbeb1e72799b67b</scope_name>
+        <serialized_content>{"FlowDesigner:FDf86f2a4bc45091101c4651c5facba573":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDf86f2a4bc45091101c4651c5facba573.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4b039ddc-9ed4-4742-a070-9579f7512a95\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDf86f2a4bc45091101c4651c5facba573\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fc6f2a4b1b5091109fde86acdd4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDf86f2a4bc45091101c4651c5facba573</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_complex_object_fc6f2a4b1b5091109fde86acdd4bcb73</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDf86f2a4bc45091101c4651c5facba573,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4b039ddc-9ed4-4742-a070-9579f7512a95</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</model>
+        <model_id>646f2a4b1b5091109fde86acdd4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:59</sys_created_on>
+        <sys_id>b06f2a4b1b5091109fde86acdd4bcb77</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b06f2a4b1b5091109fde86acdd4bcb77"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b06f2a4b1b5091109fde86acdd4bcb77"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=c90689e9-23f9-4445-9ca8-139ffeca3341,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</model>
+        <model_id>646f2a4b1b5091109fde86acdd4bcb1d</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:59</sys_created_on>
+        <sys_id>c16f2a4b1b5091109fde86acdd4bcb89</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c16f2a4b1b5091109fde86acdd4bcb89"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c16f2a4b1b5091109fde86acdd4bcb89"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=646f2a4b1b5091109fde86acdd4bcb1d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT IN4d6f2a4b1b5091109fde86acdd4bcb93"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</action_type_id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:59</sys_created_on>
+        <sys_id>4d6f2a4b1b5091109fde86acdd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:59</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4d6f2a4b1b5091109fde86acdd4bcb93"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT IN746f2a4b1b5091109fde86acdd4bcb35,7c6f2a4b1b5091109fde86acdd4bcb30,7c6f2a4b1b5091109fde86acdd4bcb39,e86f2a4b1b5091109fde86acdd4bcb29"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_parm_1</element>
+        <help/>
+        <hint/>
+        <label>Event parm 1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>746f2a4b1b5091109fde86acdd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event parm 1</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d_event_parm_1_en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_record</element>
+        <help/>
+        <hint/>
+        <label>Event record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>7c6f2a4b1b5091109fde86acdd4bcb30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event record</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d_event_record_en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_parm_2</element>
+        <help/>
+        <hint/>
+        <label>Event parm 2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>7c6f2a4b1b5091109fde86acdd4bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event parm 2</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d_event_parm_2_en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_name</element>
+        <help/>
+        <hint/>
+        <label>Event name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:58</sys_created_on>
+        <sys_id>e86f2a4b1b5091109fde86acdd4bcb29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event name</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d_event_name_en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_646f2a4b1b5091109fde86acdd4bcb1d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT IN056f2a4b1b5091109fde86acdd4bcb88,c56f2a4b1b5091109fde86acdd4bcb8f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:59</sys_created_on>
+        <sys_id>056f2a4b1b5091109fde86acdd4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d___action_status___en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:37:59</sys_created_on>
+        <sys_id>c56f2a4b1b5091109fde86acdd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:37:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_646f2a4b1b5091109fde86acdd4bcb1d"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=646f2a4b1b5091109fde86acdd4bcb1d^sys_idNOT INb87faa4b1b5091109fde86acdd4bcbbc"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"b87faa4b1b5091109fde86acdd4bcbbc","name":"plan","plan_signature":null}}</plan>
+        <snapshot>a87faa4b1b5091109fde86acdd4bcb5e</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>b87faa4b1b5091109fde86acdd4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:15</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>hoc_trigger_email_event</internal_name>
+        <label_cache>[{"name":"{{action.event_name}}","label":"action➛Event name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_record}}","label":"action➛Event record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable3}}","label":"action➛variable3","type":"action","ref":"sn_hr_core_case","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_parm_1}}","label":"action➛Event parm 1","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.event_parm_2}}","label":"action➛Event parm 2","type":"action","ref":"sn_hr_core_case","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>HoC Trigger email event</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="HoC Trigger email event">646f2a4b1b5091109fde86acdd4bcb1d</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>987faa4b1b5091109fde86acdd4bcb0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=987faa4b1b5091109fde86acdd4bcb0a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=987faa4b1b5091109fde86acdd4bcb0a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>987faa4b1b5091109fde86acdd4bcb0a</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:14</sys_created_on>
+        <sys_id>287faa4b1b5091109fde86acdd4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:14</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">ac7faa4b1b5091109fde86acdd4bcb53</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>987faa4b1b5091109fde86acdd4bcb0a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:14</sys_created_on>
+        <sys_id>e87faa4b1b5091109fde86acdd4bcb5c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-13 16:08:48</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDa47faa4b54509110f7c9e1a4b85c2f4c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDa47faa4b54509110f7c9e1a4b85c2f4c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4b039ddc-9ed4-4742-a070-9579f7512a95\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa47faa4b54509110f7c9e1a4b85c2f4c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">6c7faa4b1b5091109fde86acdd4bcb4e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a^id=987faa4b1b5091109fde86acdd4bcb0a"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT IN187faa4b1b5091109fde86acdd4bcb24"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="HoC Trigger email event">987faa4b1b5091109fde86acdd4bcb0a</action>
+        <cid>294951b9-e1df-4930-b898-c9542bc85321</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>187faa4b1b5091109fde86acdd4bcb24</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-13 16:08:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=187faa4b1b5091109fde86acdd4bcb24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>187faa4b1b5091109fde86acdd4bcb24</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>287faa4b1b5091109fde86acdd4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <value/>
+        <variable display_value="Select MID Server">2c226939b3101300176b051a16a8dc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>187faa4b1b5091109fde86acdd4bcb24</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>647faa4b1b5091109fde86acdd4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <value/>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>187faa4b1b5091109fde86acdd4bcb24</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>e87faa4b1b5091109fde86acdd4bcb48</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-13 16:08:48</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //generate event
+gs.eventQueue(inputs.eventName, inputs.eventRecord, inputs.eventParm1, inputs.eventParm2);
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=187faa4b1b5091109fde86acdd4bcb24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>eventName</field>
+        <id>187faa4b1b5091109fde86acdd4bcb24</id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>287faa4b1b5091109fde86acdd4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_187faa4b1b5091109fde86acdd4bcb24</table>
+        <value>{{action.event_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>eventParm1</field>
+        <id>187faa4b1b5091109fde86acdd4bcb24</id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>e87faa4b1b5091109fde86acdd4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_187faa4b1b5091109fde86acdd4bcb24</table>
+        <value>{{action.event_parm_1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>eventParm2</field>
+        <id>187faa4b1b5091109fde86acdd4bcb24</id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>ac7faa4b1b5091109fde86acdd4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_187faa4b1b5091109fde86acdd4bcb24</table>
+        <value>{{action.event_parm_2}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>eventRecord</field>
+        <id>187faa4b1b5091109fde86acdd4bcb24</id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>647faa4b1b5091109fde86acdd4bcb49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_187faa4b1b5091109fde86acdd4bcb24</table>
+        <value>{{action.event_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=187faa4b1b5091109fde86acdd4bcb24"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=187faa4b1b5091109fde86acdd4bcb24^sys_idNOT IN287faa4b1b5091109fde86acdd4bcb40,2c7faa4b1b5091109fde86acdd4bcb27,687faa4b1b5091109fde86acdd4bcb3c,e07faa4b1b5091109fde86acdd4bcb2c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>eventParm2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>eventParm2</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">187faa4b1b5091109fde86acdd4bcb24</model>
+        <model_id>187faa4b1b5091109fde86acdd4bcb24</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_187faa4b1b5091109fde86acdd4bcb24</name>
+        <next_element/>
+        <order>300</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>287faa4b1b5091109fde86acdd4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>eventName</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>eventName</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">187faa4b1b5091109fde86acdd4bcb24</model>
+        <model_id>187faa4b1b5091109fde86acdd4bcb24</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_187faa4b1b5091109fde86acdd4bcb24</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>2c7faa4b1b5091109fde86acdd4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>eventParm1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>eventParm1</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">187faa4b1b5091109fde86acdd4bcb24</model>
+        <model_id>187faa4b1b5091109fde86acdd4bcb24</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_187faa4b1b5091109fde86acdd4bcb24</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>687faa4b1b5091109fde86acdd4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>eventRecord</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>eventRecord</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Script step">187faa4b1b5091109fde86acdd4bcb24</model>
+        <model_id>187faa4b1b5091109fde86acdd4bcb24</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_187faa4b1b5091109fde86acdd4bcb24</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_hr_core_case">sn_hr_core_case</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>e07faa4b1b5091109fde86acdd4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=187faa4b1b5091109fde86acdd4bcb24"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=187faa4b1b5091109fde86acdd4bcb24"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_187faa4b1b5091109fde86acdd4bcb24"/>
+    <sys_hub_action_input action="delete_multiple" query="model=987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT IN547faa4b1b5091109fde86acdd4bcb0e,947faa4b1b5091109fde86acdd4bcb13,d47faa4b1b5091109fde86acdd4bcb1e,dc7faa4b1b5091109fde86acdd4bcb19"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=0f5fbfc8-20a8-4261-9dad-32e59915df34</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Event name</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC Trigger email event">987faa4b1b5091109fde86acdd4bcb0a</model>
+        <model_id>987faa4b1b5091109fde86acdd4bcb0a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>547faa4b1b5091109fde86acdd4bcb0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=547faa4b1b5091109fde86acdd4bcb0e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=60f95c65-cca7-41ae-ad33-c02f48885a2a</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>sn_hr_le_case</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Event record</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="HoC Trigger email event">987faa4b1b5091109fde86acdd4bcb0a</model>
+        <model_id>987faa4b1b5091109fde86acdd4bcb0a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sn_hr_le_case">sn_hr_le_case</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>947faa4b1b5091109fde86acdd4bcb13</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=947faa4b1b5091109fde86acdd4bcb13"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=060bb36d-bfce-418d-8b75-b32de2e88a7b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_parm_2</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Event parm 2</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC Trigger email event">987faa4b1b5091109fde86acdd4bcb0a</model>
+        <model_id>987faa4b1b5091109fde86acdd4bcb0a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>d47faa4b1b5091109fde86acdd4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d47faa4b1b5091109fde86acdd4bcb1e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=de69215f-f8e9-443b-badf-d7819faac824</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>event_parm_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Event parm 1</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC Trigger email event">987faa4b1b5091109fde86acdd4bcb0a</model>
+        <model_id>987faa4b1b5091109fde86acdd4bcb0a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>dc7faa4b1b5091109fde86acdd4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dc7faa4b1b5091109fde86acdd4bcb19"/>
+    <sys_hub_action_output action="delete_multiple" query="model=987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT IN6c7faa4b1b5091109fde86acdd4bcb4e,ac7faa4b1b5091109fde86acdd4bcb53"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDa47faa4b54509110f7c9e1a4b85c2f4c</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>6a9d3c8a2f0f68904cbeb1e72799b67b</scope_name>
+        <serialized_content>{"FlowDesigner:FDa47faa4b54509110f7c9e1a4b85c2f4c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDa47faa4b54509110f7c9e1a4b85c2f4c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4b039ddc-9ed4-4742-a070-9579f7512a95\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDa47faa4b54509110f7c9e1a4b85c2f4c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>687faa4b1b5091109fde86acdd4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDa47faa4b54509110f7c9e1a4b85c2f4c</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_complex_object_687faa4b1b5091109fde86acdd4bcb4c</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDa47faa4b54509110f7c9e1a4b85c2f4c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=4b039ddc-9ed4-4742-a070-9579f7512a95</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="HoC Trigger email event">987faa4b1b5091109fde86acdd4bcb0a</model>
+        <model_id>987faa4b1b5091109fde86acdd4bcb0a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>6c7faa4b1b5091109fde86acdd4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6c7faa4b1b5091109fde86acdd4bcb4e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6c7faa4b1b5091109fde86acdd4bcb4e"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=c90689e9-23f9-4445-9ca8-139ffeca3341,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="HoC Trigger email event">987faa4b1b5091109fde86acdd4bcb0a</model>
+        <model_id>987faa4b1b5091109fde86acdd4bcb0a</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:14</sys_created_on>
+        <sys_id>ac7faa4b1b5091109fde86acdd4bcb53</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ac7faa4b1b5091109fde86acdd4bcb53"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ac7faa4b1b5091109fde86acdd4bcb53"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=987faa4b1b5091109fde86acdd4bcb0a"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT INa47faa4b1b5091109fde86acdd4bcb5e"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="HoC Trigger email event">987faa4b1b5091109fde86acdd4bcb0a</action_type_id>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:14</sys_created_on>
+        <sys_id>a47faa4b1b5091109fde86acdd4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:14</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a47faa4b1b5091109fde86acdd4bcb5e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT IN107faa4b1b5091109fde86acdd4bcb19,107faa4b1b5091109fde86acdd4bcb22,187faa4b1b5091109fde86acdd4bcb1d,d47faa4b1b5091109fde86acdd4bcb12"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_record</element>
+        <help/>
+        <hint/>
+        <label>Event record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>107faa4b1b5091109fde86acdd4bcb19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event record</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a_event_record_en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_parm_2</element>
+        <help/>
+        <hint/>
+        <label>Event parm 2</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>107faa4b1b5091109fde86acdd4bcb22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event parm 2</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a_event_parm_2_en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_parm_1</element>
+        <help/>
+        <hint/>
+        <label>Event parm 1</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>187faa4b1b5091109fde86acdd4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event parm 1</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a_event_parm_1_en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>event_name</element>
+        <help/>
+        <hint/>
+        <label>Event name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:13</sys_created_on>
+        <sys_id>d47faa4b1b5091109fde86acdd4bcb12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Event name</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a_event_name_en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_987faa4b1b5091109fde86acdd4bcb0a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a^sys_idNOT INa87faa4b1b5091109fde86acdd4bcb59,ec7faa4b1b5091109fde86acdd4bcb52"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:14</sys_created_on>
+        <sys_id>a87faa4b1b5091109fde86acdd4bcb59</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Don't Treat as Error</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a___dont_treat_as_error___en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 22:38:14</sys_created_on>
+        <sys_id>ec7faa4b1b5091109fde86acdd4bcb52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action Status</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a___action_status___en</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-29 22:38:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_987faa4b1b5091109fde86acdd4bcb0a"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>646f2a4b1b5091109fde86acdd4bcb1d</sys_id>
+        <latest_snapshot>987faa4b1b5091109fde86acdd4bcb0a</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch5-12-24-2024_12-31-2024_0455.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

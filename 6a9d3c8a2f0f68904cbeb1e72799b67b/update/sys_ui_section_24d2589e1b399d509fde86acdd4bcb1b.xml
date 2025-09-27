@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Worker Information" section_id="24d2589e1b399d509fde86acdd4bcb1b" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="Work_Related_Injury_or_Illness">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_person.first_name</element>
+            <position>0</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>367730da1b3d9d509fde86acdd4bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_person.last_name</element>
+            <position>1</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3a7730da1b3d9d509fde86acdd4bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>address</element>
+            <position>2</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3e7730da1b3d9d509fde86acdd4bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city_town</element>
+            <position>3</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>327730da1b3d9d509fde86acdd4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>province</element>
+            <position>4</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>367730da1b3d9d509fde86acdd4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>postal_code</element>
+            <position>5</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3a7730da1b3d9d509fde86acdd4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>executive</element>
+            <position>6</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3e7730da1b3d9d509fde86acdd4bcbf4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>elected_official</element>
+            <position>7</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>327730da1b3d9d509fde86acdd4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>owner</element>
+            <position>8</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>367730da1b3d9d509fde86acdd4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>spouse_or_relative_of_the_employer</element>
+            <position>9</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3a7730da1b3d9d509fde86acdd4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>are_you_a_member_of_a_union</element>
+            <position>10</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3e7730da1b3d9d509fde86acdd4bcbf5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>do_you_authorize_your_union_to_represent_you_in_this_claim</element>
+            <position>11</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>327730da1b3d9d509fde86acdd4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>do_you_consent_to_the_disclosure_of_claim_file_status_to_your_union_rep</element>
+            <position>12</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>367730da1b3d9d509fde86acdd4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>provide_your_union_name_and_local</element>
+            <position>13</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3a7730da1b3d9d509fde86acdd4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3e7730da1b3d9d509fde86acdd4bcbf6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_person.x_hccc_base_hr_profile.ssn</element>
+            <position>15</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>327730da1b3d9d509fde86acdd4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>telephone</element>
+            <position>16</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>367730da1b3d9d509fde86acdd4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>alternate_cell_phone</element>
+            <position>17</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3a7730da1b3d9d509fde86acdd4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>job_title_occupation</element>
+            <position>18</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3e7730da1b3d9d509fde86acdd4bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_you_started_with_employer</element>
+            <position>19</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>327730da1b3d9d509fde86acdd4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_long_have_you_been_doing_this_job_for_this_employer</element>
+            <position>20</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>367730da1b3d9d509fde86acdd4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_of_birth</element>
+            <position>21</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3a7730da1b3d9d509fde86acdd4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>male</element>
+            <position>22</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3e7730da1b3d9d509fde86acdd4bcbf8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>female</element>
+            <position>23</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>327730da1b3d9d509fde86acdd4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>english</element>
+            <position>24</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>367730da1b3d9d509fde86acdd4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>french</element>
+            <position>25</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3a7730da1b3d9d509fde86acdd4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other</element>
+            <position>26</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>3e7730da1b3d9d509fde86acdd4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_language</element>
+            <position>27</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>327730da1b3d9d509fde86acdd4bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>would_an_interpreter_be_helpful</element>
+            <position>28</position>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 19:32:49</sys_created_on>
+            <sys_id>367730da1b3d9d509fde86acdd4bcbfa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Worker Information" display_value="Worker Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="d2f0545a1b399d509fde86acdd4bcb96">24d2589e1b399d509fde86acdd4bcb1b</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-09-09 19:32:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Worker Information</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-09-09 16:52:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24d2589e1b399d509fde86acdd4bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_24d2589e1b399d509fde86acdd4bcb1b</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Work Related Injury or Illness" name="Work_Related_Injury_or_Illness">d2f0545a1b399d509fde86acdd4bcb96</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

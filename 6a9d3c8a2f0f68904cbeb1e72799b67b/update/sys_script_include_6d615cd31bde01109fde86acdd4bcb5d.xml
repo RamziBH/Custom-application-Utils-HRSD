@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSATFUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSATFUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var HoCOHSATFUtils = Class.create();
+HoCOHSATFUtils.prototype = {
+    initialize: function() {
+        this.backEndCaseGR = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+    },
+
+    backEndCaseGR: null,
+
+    debugLogTurnedOn: false,
+    debugLogPrefix: "HoCOHSATFUtils DEBUG: ",
+
+
+    //Section related to small debugging utilies to be used throughou the class	
+    turnOnDebug: function() {
+        this.debugLogTurnedOn = true;
+    },
+
+    turnOffDebug: function() {
+        this.debugLogTurnedOn = false;
+    },
+
+    //This function will write a log only if the debugging has been enabled for the class
+    //The debug log will be prepended by a constant string for the entire class
+    debugLog: function(textToLog) {
+        if (this.debugLogTurnedOn) {
+            gs.info(this.debugLogPrefix + textToLog);
+        }
+    },
+
+
+    //This function will get the back end record we are interested in
+    //Parameter recordSysId: Sys Id of the back end record
+    getBackEndRecord: function(recordSysId, debugString) {
+        var success;
+
+        success = this.backEndCaseGR.get(recordSysId);
+
+        if (success) {
+            return true;
+        } else {
+            this.debugLog(debugString + " GR.get failed");
+            return false;
+        }
+    },
+
+
+    //This function will update the back end record after values have been set in the GR
+    updateBackEndRecord: function(debugString) {
+        var success;
+
+        success = this.backEndCaseGR.update();
+
+        if (!success) {
+            this.debugLog(debugString + " GR.update failed");
+            return false;
+        } else {
+            this.debugLog(debugString + " GR.update succeeded");
+            return true;
+        }
+    },
+
+
+
+
+    //This function acts as a workaround to indicate the employee agrees with the manager recommendation
+    //in the refusal workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    refusalEmployeeAgreeWithManager: function(recordSysId) {
+        var success;
+        var debugString = "refusalEmployeeAgreeWithManager";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree", "Yes");
+        this.backEndCaseGR.setValue("state", 106);
+
+        return this.updateBackEndRecord(debugString);
+    },
+
+
+
+    //This function acts as a workaround to indicate the employee disagrees with the manager recommendation
+    //in the refusal workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    refusalEmployeeDisagreeWithManager: function(recordSysId) {
+        var success;
+        var debugString = "refusalEmployeeDisagreeWithManager";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree", "No");
+        this.backEndCaseGR.setValue("state", 30);
+        this.backEndCaseGR.setValue("emp_refusal_reason", "ATF emp refuses mgr");
+
+        return this.updateBackEndRecord(debugString);
+    },
+
+
+    //This function acts as a workaround to indicate the employee agrees with the committee decison
+    //in the refusal workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    refusalEmployeeAgreeWithCommittee: function(recordSysId) {
+		var success;
+        var debugString = "refusalEmployeeAgreeWithCommittee";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree_2", "Yes");
+        this.backEndCaseGR.setValue("state", 105);
+
+        return this.updateBackEndRecord(debugString);
+
+    },
+
+    //This function acts as a workaround to indicate the employee disagrees with the committee decision
+    //in the refusal workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    refusalEmployeeDisagreeWithCommittee: function(recordSysId) {
+			var success;
+        var debugString = "refusalEmployeeDisagreeWithCommittee";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree_2", "No");
+        this.backEndCaseGR.setValue("state", 204);
+		this.backEndCaseGR.setValue("emp_refusal_reason_2", "ATF emp refuses comm");
+
+        return this.updateBackEndRecord(debugString);
+
+    },
+	
+	//This function acts as a workaround to indicate the employee agrees with the Minister of Labour decision
+    //in the refusal workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    refusalEmployeeAgreeWithLabour: function(recordSysId) {
+			var success;
+        var debugString = "refusalEmployeeAgreeWithLabour";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree_3", "Yes");
+        this.backEndCaseGR.setValue("state", 205);
+
+        return this.updateBackEndRecord(debugString);
+
+    },
+
+	//This function acts as a workaround to indicate the employee agrees with the Minister of Labour decision
+    //in the refusal workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    refusalEmployeeDisagreeWithLabour: function(recordSysId) {
+			var success;
+        var debugString = "refusalEmployeeDisagreeWithLabour";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree_3", "No");
+        this.backEndCaseGR.setValue("state", 206);
+		this.backEndCaseGR.setValue("emp_refusal_reason_3", "ATF emp refuses lab");
+
+		return this.updateBackEndRecord(debugString);
+    },
+
+    //This function acts as a workaround to indicate the employee agrees with the manager recommendation
+    //in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    safetyComplaintEmployeeAgreeWithManager: function(recordSysId) {
+        var success;
+        var debugString = "safetyComplaintEmployeeAgreeWithManager";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree", "Yes");
+        this.backEndCaseGR.setValue("state", 106);
+
+        return this.updateBackEndRecord(debugString);
+    },
+
+
+
+    //This function acts as a workaround to indicate the employee disagrees with the manager recommendation
+    //in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    safetyComplaintEmployeeDisagreeWithManager: function(recordSysId) {
+        var success;
+        var debugString = "safetyComplaintEmployeeDisagreeWithManager";
+        var emprefusalReason = "ATF refusal reason";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree", "No");
+        this.backEndCaseGR.setValue("state", 30);
+        this.backEndCaseGR.setValue("emp_refusal_reason", emprefusalReason);
+
+        return this.updateBackEndRecord(debugString);
+    },
+
+    //This function acts as a workaround to indicate the employee agrees with the committee decision
+    //in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    safetyComplaintEmployeeAgreeCommittee: function(recordSysId) {
+        var success;
+        var debugString = "safetyComplaintEmployeeAgreeWithCommittee";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree_2", "Yes");
+        this.backEndCaseGR.setValue("state", 105);
+
+        return this.updateBackEndRecord(debugString);
+    },
+    //This function acts as a workaround to indicate the employee disagrees with the committee decision
+    //in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    safetyComplaintEmployeeDisagreeCommittee: function(recordSysId) {
+		var success;
+        var debugString = "safetyComplaintEmployeeDisagreeWithCommittee";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree_2", "No");
+        this.backEndCaseGR.setValue("state", 301);
+		this.backEndCaseGR.setValue("emp_refusal_reason_2", "ATF refusal reason 2");
+
+        return this.updateBackEndRecord(debugString);
+
+    },
+
+	//This function acts as a workaround to indicate the manager agrees with the committee decision
+    //in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    safetyComplaintManageragreeCommittee: function(recordSysId) {
+        var success;
+        var debugString = "safetyComplaintManageragreeWithCommittee";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+        this.backEndCaseGR.setValue("man_agrees_with_result_2", "Yes");
+
+        return this.updateBackEndRecord(debugString);
+    },
+
+	//This function acts as a workaround to indicate the manager disagrees with the committee decision
+    //in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    safetyComplaintManagerdisagreeCommittee: function(recordSysId) {
+        var success;
+        var debugString = "safetyComplaintManagerdisagreeWithCommittee";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("man_agrees_with_result_2", "No");
+        this.backEndCaseGR.setValue("man_refusal_reason_2", " ATF mng refusal reason 2");
+
+        return this.updateBackEndRecord(debugString);
+    },
+
+	//This function acts as a workaround to indicate the employee agrees with the Ministry of Labour decision
+    //in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    safetyComplaintEmployeeAgreeLabour: function(recordSysId) {
+        var success;
+        var debugString = "safetyComplaintEmployeeAgreeLabour";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree_3", "Yes");
+        this.backEndCaseGR.setValue("state", 205);
+
+        return this.updateBackEndRecord(debugString);
+    },
+
+	//This function acts as a workaround to indicate the employee disagrees with the Ministry of Labour decision
+    //in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+	safetyComplaintEmployeeDisagreeLabour: function(recordSysId) {
+        var success;
+        var debugString = "safetyComplaintEmployeeDisagreeLabour";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("emp_agree_3", "No");
+        this.backEndCaseGR.setValue("state", 206);
+		this.backEndCaseGR.setValue("emp_refusal_reason_3", "ATF mng refusal reason 3");
+
+        return this.updateBackEndRecord(debugString);
+    },
+
+    //This function acts as a workaround to fill out the field "WHSC Decision"in the WHSC tab.
+	//in the safety complaint workflow
+    //Parameter recordSysId: Sys Id of the back end record
+    whscfielddecision: function(recordSysId) {
+		var success;
+        var debugString = "whscfielddecision";
+
+        success = this.getBackEndRecord(recordSysId, debugString);
+
+        if (!success) {
+            return false;
+        }
+
+        this.backEndCaseGR.setValue("rw_whsc_decision", "Founded");
+
+        return this.updateBackEndRecord(debugString);
+
+    },
+
+    type: 'HoCOHSATFUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-22 19:41:04</sys_created_on>
+        <sys_id>6d615cd31bde01109fde86acdd4bcb5d</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>HoCOHSATFUtils</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_6d615cd31bde01109fde86acdd4bcb5d</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-21 17:19:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sn_hr_core_task</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sn_hr_core_task">stateCHANGESTO3^short_descriptionSTARTSWITHESDC Form LAB1060^parent.ref_sn_hr_core_case.hr_service=5227b08f2f4b60d04cbeb1e72799b659^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item endquery="false" field="short_description" goto="false" newquery="false" operator="STARTSWITH" or="false" value="ESDC Form LAB1060"/>
+            <item display_table="sn_hr_core_service" display_value="Internal Safety Complaint" endquery="false" field="parent.ref_sn_hr_core_case.hr_service" goto="false" newquery="false" operator="=" or="false" value="5227b08f2f4b60d04cbeb1e72799b659"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HoC - moveSafetyComplaintToComplete</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	
+	var hrc = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+	hrc.get(current.getValue('parent'));
+	hrc.setValue('sc_employee_has_signed_lab1060','yes'); 
+	
+	var empDec = hrc.getValue('emp_agree_2');
+	if (hrc.getValue('man_agrees_with_result_2') !== null){
+		
+		if(empDec=='Yes' && hrc.getValue('man_agrees_with_result_2') == "Yes"){
+			hrc.setValue('state','106'); //Investigation Complete - Internal
+		} 
+		else{
+			hrc.setValue('state','204'); //Needs Minister of Labour Review
+		}
+	}
+	hrc.update();
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>umair.ahmed</sys_created_by>
+        <sys_created_on>2021-08-11 06:02:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66a9b097db3db0109b09e6fa4b9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC - moveSafetyComplaintToComplete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_66a9b097db3db0109b09e6fa4b9619d5</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=66a9b097db3db0109b09e6fa4b9619d5"/>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>text</element>
+        <id/>
+        <label>vêtements de protection</label>
+        <language>fq</language>
+        <name>question_choice</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-08 18:56:25</sys_created_on>
+        <sys_id>c571ac7efb262e9495e5fb3f4eefdce4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vêtements de protection</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_translated_c571ac7efb262e9495e5fb3f4eefdce4</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-08 18:56:25</sys_updated_on>
+        <value>Protective clothing</value>
+    </sys_translated>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>943524441b733dd89fde86acdd4bcba3</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_update_version"&gt;
+    &lt;sys_update_version action="INSERT_OR_UPDATE"&gt;
+        &lt;action&gt;INSERT_OR_UPDATE&lt;/action&gt;
+        &lt;application display_value="Human Resources: Core"&gt;d4ac3fff5b311200a4656ede91f91af2&lt;/application&gt;
+        &lt;file_path/&gt;
+        &lt;instance_id&gt;047331aedbd7b7c849eac597059619e3&lt;/instance_id&gt;
+        &lt;instance_name&gt;hoccdcdv&lt;/instance_name&gt;
+        &lt;name&gt;sys_restricted_caller_access_d0f005621b22219034ea4267cc4bcb56&lt;/name&gt;
+        &lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_restricted_caller_access"&gt;&lt;sys_restricted_caller_access action="INSERT_OR_UPDATE"&gt;&lt;description/&gt;&lt;operation&gt;read&lt;/operation&gt;&lt;rca_type&gt;real_rca&lt;/rca_type&gt;&lt;source&gt;432ace8b0a0a0b34006b02832660c894&lt;/source&gt;&lt;source_scope display_value="Human Resources: Lifecycle Events"&gt;532da270dad21200a4656ede91f9331e&lt;/source_scope&gt;&lt;source_table&gt;sys_ui_action&lt;/source_table&gt;&lt;source_type&gt;1&lt;/source_type&gt;&lt;status&gt;2&lt;/status&gt;&lt;sys_class_name&gt;sys_restricted_caller_access&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Aysha.Thomas@parl.gc.ca&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-04 17:50:54&lt;/sys_created_on&gt;&lt;sys_id&gt;d0f005621b22219034ea4267cc4bcb56&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;532da270dad21200a4656ede91f9331e&lt;/sys_name&gt;&lt;sys_package display_value="Human Resources: Core" source="sn_hr_core"&gt;d4ac3fff5b311200a4656ede91f91af2&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Human Resources: Core"&gt;d4ac3fff5b311200a4656ede91f91af2&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_restricted_caller_access_d0f005621b22219034ea4267cc4bcb56&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-12 20:54:28&lt;/sys_updated_on&gt;&lt;target element="short_description" name="task" target_table="sys_dictionary"&gt;892939a61b133300af300d47dc4bcba9&lt;/target&gt;&lt;target_scope display_value="Human Resources: Core"&gt;d4ac3fff5b311200a4656ede91f91af2&lt;/target_scope&gt;&lt;target_table&gt;sys_dictionary&lt;/target_table&gt;&lt;target_type&gt;5&lt;/target_type&gt;&lt;/sys_restricted_caller_access&gt;&lt;/record_update&gt;]]&gt;&lt;/payload&gt;
+        &lt;payload_hash&gt;130932429&lt;/payload_hash&gt;
+        &lt;record_name&gt;532da270dad21200a4656ede91f9331e&lt;/record_name&gt;
+        &lt;reverted_from/&gt;
+        &lt;source&gt;a558742c1b9bf11c9fde86acdd4bcb36&lt;/source&gt;
+        &lt;source_table&gt;sys_update_set&lt;/source_table&gt;
+        &lt;state&gt;current&lt;/state&gt;
+        &lt;sys_created_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-01-12 20:54:28&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;943524441b733dd89fde86acdd4bcba3&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_recorded_at&gt;18cff746a620000001&lt;/sys_recorded_at&gt;
+        &lt;sys_updated_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-01-12 20:54:28&lt;/sys_updated_on&gt;
+        &lt;type&gt;Restricted Caller Access Privilege&lt;/type&gt;
+        &lt;update_guid&gt;9835244451733dd815e4e5407e47d4a2&lt;/update_guid&gt;
+        &lt;update_guid_history&gt;9835244451733dd815e4e5407e47d4a2:130932429,fd07ebee79e721105a790b78a7987727:0,1cf0056258222190b8cb25c2b12c6057:130932429&lt;/update_guid_history&gt;
+    &lt;/sys_update_version&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-01-15 20:07:38</sys_created_on>
+        <sys_id>2f37f7301b3bf9d09fde86acdd4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_restricted_caller_access_d0f005621b22219034ea4267cc4bcb56</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_2f37f7301b3bf9d09fde86acdd4bcbe2</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-15 20:07:38</sys_updated_on>
+        <tablename>sys_update_version</tablename>
+    </sys_metadata_link>
+</record_update>

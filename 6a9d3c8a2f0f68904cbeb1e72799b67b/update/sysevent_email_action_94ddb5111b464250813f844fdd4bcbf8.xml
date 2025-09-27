@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^EQ<item display_table="sn_hr_core_service" display_value="Harassment and Violence Notice of Occurence" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="11d78aa31bb201509fde86acdd4bcb0b"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_hccc_hoc_ohs.hv_complainant_notification</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="">&nbsp;</p>
+<p><span style="font-family: 'calibri light'; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"> <em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+<p><strong>Please do not reply to this email. This system cannot receive messages.</strong></p>
+<p>Hello ${mail_script:hoc_principal_party_name}, &nbsp;</p>
+<p>&nbsp;</p>
+<p>We have received your harassment and violence complaint (${sys_created_on}). Respectful Workplace or your manager will contact you to review your incident report as per the <a href="https://hoccdc.sharepoint.com/sites/info/en/services/hoc-health-and-wellness/Documents/ViolenceAndHarassment-Policy-e.pdf" target="_blank" rel="noopener"><em>Workplace Harassment and Violence Prevention Policy for House of Commons Administration</em></a> (the <em>Policy</em>). We recognize that it takes a lot of courage to report a harassment situation, and we would like to assure you that we will be there to support and guide you at every step of this process.  &nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Initial review</strong></p>
+<p>The first step is the initial review, which consists of a meeting to go over the information you shared in your incident report and to answer your questions. The resolution process then continues with negotiated resolution, mediation and/or investigation. You will find more information on these three resolution options in the Policy and in the <a href="https://hoccdc.sharepoint.com/sites/info/en/services/hoc-health-and-wellness/Documents/ViolenceAndHarrassment-ComplaintResolutionProcedure-e.pdf" target="_blank" rel="noopener"> Complaint Resolution Procedure</a>.&nbsp;The resolution process involves several options which we will explain to you in detail during our meetings.</p>
+<p>&nbsp;</p>
+<p><strong>Accompanying person&nbsp;</strong></p>
+<p>Although this process is confidential, we must inform you that during the resolution process, you may be accompanied by a person of your choice (who is not involved in the process or a witness to the incident) to provide you with support (for example, a colleague, a union representative, a spouse/partner, a family member, or a friend). In addition to providing advice and support, the chosen person may speak on your behalf but only regarding procedural and administrative matters related to the resolution process, such as scheduling meetings and/or interviews and receiving updates on the status of the resolution process. If you wish to exercise this option, please inform your manager or designated recipient as soon as possible in writing, specifying the name your relationship to this chosen person.</p>
+<p>&nbsp;</p>
+<p><strong>Confidentiality&nbsp;</strong></p>
+<p>To ensure the integrity of the resolution process, it is important that you maintain confidentiality. We invite you to remain discreet and to limit your discussions on this matter to those notified, informed, or authorized to participate in the resolution process. The incident report and any other information arising from this process must be kept strictly confidential to protect the rights of all parties involved. We rely on your cooperation and discretion in this regard.</p>
+<p>&nbsp;</p>
+<p><strong>Support Resources&nbsp;</strong></p>
+<p>We understand that this process can be difficult and challenging and wish to remind you of the personal support resources available to you. We strongly encourage you to contact our Employee and Family Assistance Program at 1-800-663-1142 (or online at <a href="http://www.homeweb.ca/" target="_blank" rel="noopener">www.Homeweb.ca</a>) or one of our Mental Health Resources through the Wellness Centre at 613-995-3614 (or by email at <a href="mailto:healthandwellness-santeetmieux-etre@parl.gc.ca" target="_blank" rel="noopener">healthandwellness-santeetmieux-etre@parl.gc.ca</a>) These services are here to offer you professional and confidential support throughout this challenging time.&nbsp;&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>First meeting&nbsp;</strong></p>
+<p>The resolution process will begin with the initial review. Your manager or designated recipient will contact you in the coming days to schedule this meeting.</p>
+<p>&nbsp;</p>
+<p>Regards,&nbsp;</p>
+<p>Respectful Workplace</p>
+<hr noshade="noshade">
+<p><span style="font-family: 'calibri light'; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p>&nbsp;</p>
+<p><strong>Ne pas r&eacute;pondre au pr&eacute;sent courriel, car il provient d'une adresse qui ne peut pas recevoir de messages.</strong></p>
+<div>
+<p>Bonjour ${mail_script:hoc_principal_party_name},&nbsp;</p>
+<p>&nbsp;</p>
+<p>Nous avons bien re&ccedil;u votre plainte pour harc&egrave;lement et violence dat&eacute;e du (${sys_created_on}). L&rsquo;&eacute;quipe de Respect en milieu de travail ou votre gestionnaire vous contactera afin de revoir votre avis d&rsquo;incident de harc&egrave;lement et de violence conform&eacute;ment &agrave; la <a href="https://hoccdc.sharepoint.com/sites/info/fr/services/hoc-health-and-wellness/Documents/ViolenceAndHarassment-Policy-f.pdf" target="_blank" rel="noopener"> politique de pr&eacute;vention du harc&egrave;lement et de la violence dans le lieu de travail de l&rsquo;Administration de la Chambre des Communes</a> (la Politique). Nous reconnaissons qu'il faut beaucoup de courage pour signaler une situation de harc&egrave;lement, et nous aimerions vous assurer que nous serons l&agrave; pour vous soutenir et vous guider &agrave; chaque &eacute;tape de ce processus.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Examen initial&nbsp;</strong></p>
+<p>La premi&egrave;re &eacute;tape est l'examen initial qui consiste en une rencontre pour revoir les informations que vous nous avez partag&eacute;es dans votre avis d&rsquo;incident et pour r&eacute;pondre &agrave; vos questions. Le processus de r&eacute;solution se poursuit ensuite par une r&eacute;solution n&eacute;goci&eacute;e, une m&eacute;diation et/ou une enqu&ecirc;te. Vous trouverez plus d'informations sur ces trois options de r&eacute;solution dans la <a href="https://hoccdc.sharepoint.com/sites/info/fr/services/hoc-health-and-wellness/Documents/ViolenceAndHarrassment-ComplaintResolutionProcedure-f.pdf" target="_blank" rel="noopener"> proc&eacute;dure de r&egrave;glement des plaintes de harc&egrave;lement et de violence de l&rsquo;Administration de la Chambre des communes</a>.&nbsp;Le processus de r&eacute;solution implique plusieurs options que nous vous expliquerons en d&eacute;tail lors de nos rencontres.</p>
+<p>&nbsp;</p>
+<p><strong>Personne accompagnatrice&nbsp;</strong></p>
+<p>Bien que ce processus soit confidentiel, nous devons vous informer que, durant le processus de r&eacute;solution, vous pouvez &ecirc;tre accompagn&eacute; par une personne de votre choix (qui n'est pas partie prenante au processus ou t&eacute;moin de l&rsquo;incident) pour vous fournir du soutien (par exemple, un coll&egrave;gue, un conjoint/partenaire, un membre de la famille ou un ami). En plus de fournir des conseils et du soutien, la personne choisie pourra parler en votre nom, mais uniquement en ce qui concerne les questions de proc&eacute;dure et d'administration li&eacute;es au processus de r&eacute;solution, telles que la planification de r&eacute;unions et/ou des entretiens et la r&eacute;ception des mises &agrave; jour sur l'&eacute;tat du processus de r&eacute;solution. Si vous souhaitez exercer cette option, veuillez en aviser votre gestionnaire ou le destinataire d&eacute;sign&eacute; le plus rapidement possible par &eacute;crit, en sp&eacute;cifiant le nom et votre relation avec la personne choisie.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Confidentialit&eacute;&nbsp;</strong></p>
+<p>Afin de garantir l'int&eacute;grit&eacute; du processus de r&eacute;solution, il est important que vous mainteniez la confidentialit&eacute;. Nous vous invitons &agrave; rester discret et &agrave; limiter vos discussions &agrave; cet effet qu&rsquo;avec les personnes avis&eacute;es, inform&eacute;es ou autoris&eacute;es &agrave; participer au processus de r&eacute;solution. L'avis d'incident ou toute autre information d&eacute;coulant de ce processus doivent &ecirc;tre gard&eacute;s strictement confidentiels pour prot&eacute;ger les droits de toutes les parties. Nous comptons sur votre coop&eacute;ration et votre discr&eacute;tion &agrave; cet &eacute;gard.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>Ressources&nbsp;</strong></p>
+<p>Nous comprenons que ce processus peut &ecirc;tre difficile et exigeant et nous tenons &agrave; vous rappeler que des ressources de soutien sont &agrave; votre disposition. Nous vous encourageons &agrave; contacter le Programme d&rsquo;aide aux employ&eacute;s et &agrave; la famille au 1-800-663-1142 (ou en ligne &agrave; <a href="http://www.homeweb.ca/fr" target="_blank" rel="noopener">www.homeweb.ca/fr</a>) ou les Ressources en sant&eacute; mentale via le centre de bien-&ecirc;tre au 613-995-3614 (ou par courriel &agrave; <a href="mailto:healthandwellness-santeetmieux-etre@parl.gc.ca" target="_blank" rel="noopener">healthandwellness-santeetmieux-etre@parl.gc.ca</a>). Ces services sont &agrave; votre disposition pour vous offrir un soutien professionnel et confidentiel tout au long du processus de r&eacute;solution.</p>
+<p>&nbsp;</p>
+<p><strong>Premi&egrave;re rencontre&nbsp;</strong></p>
+<p>Le processus de r&eacute;solution d&eacute;butera par l&rsquo;examen initial. Votre gestionnaire ou le destinataire d&eacute;sign&eacute; vous contactera dans les jours &agrave; venir afin de sc&eacute;duler cette rencontre.</p>
+<p>&nbsp;</p>
+<p>Cordialement,&nbsp;</p>
+<p>&nbsp;L&rsquo;&eacute;quipe de respect en milieu de travail</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HoC - Harassment and Violence Complaint - Complainant</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>CONFIDENTIAL - Acknowledgement - Complaint Form for Harassment Incident / CONFIDENTIEL - Accusé de réception - Formulaire d'avis de plainte pour un incident de harcèlement</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-07 20:55:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94ddb5111b464250813f844fdd4bcbf8</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>HoC - Harassment and Violence Complaint - Complainant</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_94ddb5111b464250813f844fdd4bcbf8</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-12-19 19:02:58</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>94ddb5111b464250813f844fdd4bcbf8</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-12-19 19:02:58</sys_created_on>
+        <sys_id>196b5d0a3b665a94aeb1ebc964e45a1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-12-19 19:02:58</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

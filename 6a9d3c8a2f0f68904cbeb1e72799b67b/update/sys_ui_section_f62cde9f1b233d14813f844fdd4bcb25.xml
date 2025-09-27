@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Negotiated Resolution" section_id="f62cde9f1b233d14813f844fdd4bcb25" sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="3" view="harassment_violence_complaint">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>according_to_the_designated_recipient_is_it_a_harassement_and_violence_case</element>
+            <position>0</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b62cde9f1b233d14813f844fdd4bcb26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>in_accordance_with_the_complainant_does_it_meet_the_definition_of_harassment_an</element>
+            <position>1</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>ba2cde9f1b233d14813f844fdd4bcb26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>details_preliminary_discussion</element>
+            <position>2</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>be2cde9f1b233d14813f844fdd4bcb26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>determination_made_by</element>
+            <position>3</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b22cde9f1b233d14813f844fdd4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complainant_agrees_it_meets_the_definition</element>
+            <position>4</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b62cde9f1b233d14813f844fdd4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supporting_details_by_complainant</element>
+            <position>5</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>ba2cde9f1b233d14813f844fdd4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_the_defendant_been_contacted</element>
+            <position>6</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>be2cde9f1b233d14813f844fdd4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_the_respondent_been_notified</element>
+            <position>7</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b22cde9f1b233d14813f844fdd4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_notified_the_respondent</element>
+            <position>8</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b62cde9f1b233d14813f844fdd4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>the_respondent_has_been_notified_via_which_method</element>
+            <position>9</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>ba2cde9f1b233d14813f844fdd4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_method</element>
+            <position>10</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>be2cde9f1b233d14813f844fdd4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>when_was_the_respondent_notified_date_time</element>
+            <position>11</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b22cde9f1b233d14813f844fdd4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>12</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b62cde9f1b233d14813f844fdd4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>negotiated_resolution_successful</element>
+            <position>13</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>ba2cde9f1b233d14813f844fdd4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>negociation_outcome</element>
+            <position>14</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>be2cde9f1b233d14813f844fdd4bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>negociation_notes</element>
+            <position>15</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b22cde9f1b233d14813f844fdd4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_s_negotiated_resolution_notes</element>
+            <position>16</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>b62cde9f1b233d14813f844fdd4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complainant_wants_to_pursue_with_the_complaint</element>
+            <position>17</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_id>ba2cde9f1b233d14813f844fdd4bcb2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">f62cde9f1b233d14813f844fdd4bcb25</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Negotiated Resolution</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_hira_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:38:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f62cde9f1b233d14813f844fdd4bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_hira_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_f62cde9f1b233d14813f844fdd4bcb25</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:38:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Harassment and Violence complaint " name="harassment_violence_complaint">7db275782f6764504cbeb1e72799b6da</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

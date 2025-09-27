@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>HR Service: Harassment and Violence&#13;
+Disables the ability to see or upload attachments to a Harassment and Violence record if not authorized.&#13;
+&#13;
+Groups allowed to see and attach documents to H&amp;V cases are: Managers handling the case, Respectful Workplace group members and OHS admins.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide attachments for H&amp;V</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    var hr_service = g_form.getValue('hr_service');
+
+    if (hr_service === '11d78aa31bb201509fde86acdd4bcb0b') { // if hr service is h&v
+        var case_id = g_form.getUniqueValue().toString();
+
+        var ga = new GlideAjax("x_hccc_hoc_ohs.HoCOHSMUtils");
+        ga.addParam("sysparm_name", "getHVAttachmentIconPermissions");
+        ga.addParam("sysparm_case_id", case_id);
+        ga.getXMLAnswer(getAttachmentPermission);
+    }
+
+    function getAttachmentPermission(response) {
+        var result = JSON.parse(response); //transform the JSON string to an object
+
+        if (result.hv_attachment_permission === false) {
+            //g_form.addInfoMessage("blocking attachment permissions");
+
+            g_form.disableAttachments(); //hides paperclip icon 
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-09-24 13:55:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>933b3c3b3b84fa14aeb1ebc964e45ac2</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Hide attachments for H&amp;V</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_client_933b3c3b3b84fa14aeb1ebc964e45ac2</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-25 19:53:48</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

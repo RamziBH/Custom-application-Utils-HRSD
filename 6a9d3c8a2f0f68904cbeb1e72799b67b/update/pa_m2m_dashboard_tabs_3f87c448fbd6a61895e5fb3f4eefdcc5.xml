@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Test-LR">b377c048fbd6a61895e5fb3f4eefdcbe</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-17 17:44:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3f87c448fbd6a61895e5fb3f4eefdcc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b377c048fbd6a61895e5fb3f4eefdcbe</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_3f87c448fbd6a61895e5fb3f4eefdcc5</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-17 17:44:18</sys_updated_on>
+        <tab display_value="New Tab 1">4787c448fbd6a61895e5fb3f4eefdcb9</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

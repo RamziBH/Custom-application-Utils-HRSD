@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">685adc1cfbdea65895e5fb3f4eefdcb1</sp_column>
+        <sp_widget display_value="OHS - Button">e0a2d49cfb5ea65895e5fb3f4eefdc81</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-18 13:45:02</sys_created_on>
+        <sys_id>306a105cfbdea65895e5fb3f4eefdccc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_instance_306a105cfbdea65895e5fb3f4eefdccc</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-26 15:15:50</sys_updated_on>
+        <title/>
+        <url>/services?id=hoc_hira_cases</url>
+        <widget_parameters><![CDATA[{
+	"url": {
+		"value": "/services?id=hoc_hira_cases",
+		"displayValue": "/services?id=hoc_hira_cases"
+	},
+	"button_text": {
+		"value": "HIRA Cases",
+		"displayValue": "HIRA Cases"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=306a105cfbdea65895e5fb3f4eefdccc"/>
+</record_update>

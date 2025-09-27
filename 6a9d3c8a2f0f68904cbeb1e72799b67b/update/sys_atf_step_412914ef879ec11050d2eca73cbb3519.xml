@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that an email was generated matching query:
+Recipients = ohsdemo@gmail.com
+and Subject contains Notification: Workplace inspection
+and Created &gt; javascript:gs.hoursAgo(1)
+and Body contains {{Step 2: Create a User.User.Name}}
+and Body does not contain {{Step 1: Create a User.User.Name}}
+and Subject contains Avis: Inspection du lieu de travail
+and Body contains OHSM
+and Body contains x_hccc_hoc_ohs_investigation_case
+and Body contains {{Step 13: Submit Record Producer (SP).Record}}
+and Body contains https://services
+and Body contains Notification: Workplace inspection
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>17</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:55:09</sys_created_on>
+        <sys_id>412914ef879ec11050d2eca73cbb3519</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_412914ef879ec11050d2eca73cbb3519</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:30</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - Workplace Inspection Select 2 Submit and Check Emails">ad40dce3875ec11050d2eca73cbb3556</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=412914ef879ec11050d2eca73cbb3519"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>412914ef879ec11050d2eca73cbb3519</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:55:10</sys_created_on>
+        <sys_id>31a95c6387dec11050d2eca73cbb3553</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-11 12:19:15</sys_updated_on>
+        <value>recipients=ohsdemo@gmail.com^subjectLIKENotification: Workplace inspection^sys_created_onRELATIVEGT@hour@ago@1^bodyLIKE{{step['79401427875ec11050d2eca73cbb35a2'].user.name}}^bodyNOT LIKE{{step['a540dce3875ec11050d2eca73cbb355b'].user.name}}^subjectLIKEAvis: Inspection du lieu de travail^bodyLIKEOHSM^bodyLIKEx_hccc_hoc_ohs_investigation_case^bodyLIKE{{step['86405427875ec11050d2eca73cbb351b'].record_id}}^bodyLIKEhttps://services^bodyLIKENotification: Workplace inspection^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>412914ef879ec11050d2eca73cbb3519</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:55:10</sys_created_on>
+        <sys_id>39a95c6387dec11050d2eca73cbb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 14:55:10</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=412914ef879ec11050d2eca73cbb3519"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>412914ef879ec11050d2eca73cbb3519</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:55:10</sys_created_on>
+        <sys_id>f5a95c6387dec11050d2eca73cbb3552</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-11 12:19:15</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>recipients=ohsdemo@gmail.com^subjectLIKENotification: Workplace inspection^sys_created_onRELATIVEGT@hour@ago@1^bodyLIKE{{step['79401427875ec11050d2eca73cbb35a2'].user.name}}^bodyNOT LIKE{{step['a540dce3875ec11050d2eca73cbb355b'].user.name}}^subjectLIKEAvis: Inspection du lieu de travail^bodyLIKEOHSM^bodyLIKEx_hccc_hoc_ohs_investigation_case^bodyLIKE{{step['86405427875ec11050d2eca73cbb351b'].record_id}}^bodyLIKEhttps://services^bodyLIKENotification: Workplace inspection^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>412914ef879ec11050d2eca73cbb3519</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:55:10</sys_created_on>
+        <sys_id>bda95c6387dec11050d2eca73cbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 14:55:10</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

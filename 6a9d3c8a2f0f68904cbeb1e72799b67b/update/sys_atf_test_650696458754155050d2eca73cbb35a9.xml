@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>- Manager fills in every possible values in all of the fields of the tab "Initial Review". ( except for the values that contain a "/" in the field "Select the Principal party and Responding party relationship:".&#13;
+- The manager Saves the case after every set of values&#13;
+- in the last set of values configured, the manager sselect Yes in the field "Has the complainant been properly identify?"&#13;
+- the manager then clicks the UI action "Initial Review Completed"&#13;
+&#13;
+The expected outcome is the case changes state to "Negotiation in progress"&#13;
+&#13;
+- Validates bug 89111 </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>OHS - H&amp;V Manager tries every values in Initial Review tab  then change state to Preliminary Discuss</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-23 15:39:18</sys_created_on>
+        <sys_id>650696458754155050d2eca73cbb35a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OHS - H&amp;V Manager tries every values in Initial Review tab  then change state to Preliminary Discuss</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_650696458754155050d2eca73cbb35a9</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:05:28</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=650696458754155050d2eca73cbb35a9"/>
+</record_update>

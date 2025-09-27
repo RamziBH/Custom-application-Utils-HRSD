@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMACLUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>This is script include to keep security logic check in ACLs</description>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMACLUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var HoCOHSMACLUtils = Class.create();
+HoCOHSMACLUtils.prototype = {
+    initialize: function() {},
+
+    checkUserWriteForCommitteeSection: function(userId, current) {
+        var result = false;
+        var allowedRoles = "x_hccc_hoc_ohs.committee,x_hccc_hoc_ohs.advisor";
+
+        if (gs.hasRole(allowedRoles))
+            result = true;
+        return result;
+
+
+
+    },
+
+
+    checkUserWriteForManagerSection: function(userId, current) {
+
+        var allowedRoles = "x_hccc_hoc_ohs.advisor";
+        if (gs.hasRole(allowedRoles) || userId == current.manager_name.toString())
+            result = true;
+        return result;
+
+
+    },
+    type: 'HoCOHSMACLUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-14 19:59:34</sys_created_on>
+        <sys_id>8d89f49687c4951050d2eca73cbb35b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoCOHSMACLUtils</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_8d89f49687c4951050d2eca73cbb35b2</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

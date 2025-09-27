@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>text</element>
+        <id/>
+        <label>Inconnu</label>
+        <language>fq</language>
+        <name>question_choice</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-20 20:09:54</sys_created_on>
+        <sys_id>4aa5ccc13b5e2ed8aeb1ebc964e45ae5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Inconnu</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_translated_4aa5ccc13b5e2ed8aeb1ebc964e45ae5</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-20 20:09:54</sys_updated_on>
+        <value>Unknown</value>
+    </sys_translated>
+</record_update>

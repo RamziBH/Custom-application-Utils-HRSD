@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Employees have a duty to report any workplace health and safety complaints to their manager and to jointly assess them, as outlined in the <a style="color: #0563c1; text-decoration: underline;" href="https://hoccdc.sharepoint.com/sites/info/en/services/hoc-health-and-wellness/Documents/OHS-internal-complaint-resolution-procedure-e.pdf" target="_blank" rel="noopener noreferrer nofollow">Internal Complaint Resolution Procedure</a>.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">The purpose of this process is to outline the graduated series of steps used to resolve workplace health and safety hazardous situations as well as any contraventions of the <a style="color: #0563c1; text-decoration: underline;" href="https://laws-lois.justice.gc.ca/eng/acts/l-2/" rel="nofollow">Canada Labour Code, Part II</a> (the Code) and its regulations, including the <a style="color: #0563c1; text-decoration: underline;" href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-86-304/page-1.html" rel="nofollow">Canada Occupational Health and Safety Regulations</a> (the Regulations).</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Definitions </strong></p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Danger:</strong> Any hazard, condition or activity that could reasonably be expected to be an imminent or serious threat to the life or health of a person exposed to it before the hazard or condition can be corrected or the activity altered.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Hazardous situation:</strong> A source of potential damage, harm or adverse health effects on something or someone.</p>
+<p style="margin: 0cm 0cm 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Health and safety complaint:</strong> The reporting of a workplace health and safety hazardous situation and/or any contravention of Part II of the Code and its Regulations.</p>
+<p><span style="font-size: 10pt;">For post exposure to a chemical or information pertaining to a chemical product, you may refer to the <a title="SDS Repository" href="https://webhouseofcommons77ff9fjquf.maerixium.com/paratoxxpress/binder/default/EN/" target="_blank" rel="noopener noreferrer nofollow">SDS Repository</a> for further information.</span></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Health and Safety Internal Complaint</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=d319fc432f8b60d04cbeb1e72799b6be&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[(function() {
+
+
+    var finalHazardsValue = "";
+
+    gs.error("SF*** Checkbox value " + producer.cont_struck_fal_obj_equip);
+
+    if (producer.cont_struck_fal_obj_equip == "true") {
+        finalHazardsValue += " Contact/Struck/Falling objects/equipment\n";
+    }
+
+    if (producer.heavy_lift == "true") {
+        finalHazardsValue += "Heavy lifting\n";
+    }
+    if (producer.poor_erg == "true") {
+        finalHazardsValue += "Poor ergonomic set-up\n";
+    }
+    if (producer.slipp_surf == "true") {
+        finalHazardsValue += "Slippery surface\n";
+    }
+    if (producer.trip_haz == "true") {
+        finalHazardsValue += "Tripping hazard\n";
+    }
+    if (producer.haz_other == "true") {
+        finalHazardsValue += "Other: " + producer.haz_other_spec + "\n";
+    }
+    gs.info("SF*** final hazard string " + finalHazardsValue);
+
+    current.hazard_type = finalHazardsValue;
+    new sn_hr_le.hr_ActivityUtils().createCaseFromProducer(current, producer, cat_item.sys_id);
+
+    producer.portal_redirect = "?id=hoc_ohsm_confirmation&requestNumber=" + current.number;
+
+    //     var objHazard = JSON.parse(producer.hazard_type_vs);
+    //     var lengthHazards = objHazard.length;
+
+    //     var finalHazardsValue = "";
+    //     try {
+
+    //         if (lengthHazards > 0) {
+    //             for (var i = 0; i < lengthHazards; i++) {
+
+    //                 if (objHazard[i].hasard_types == "Other") {
+    //                     finalHazardsValue += objHazard[i].hasard_types + ": " + objHazard[i].hasard_specify + " ,";
+    //                 } else {
+    //                     finalHazardsValue += objHazard[i].hasard_types + ", ";
+
+    //                 }
+
+    //             }
+
+    //         }
+    //     } catch (ex) {
+    //         gs.error("*****CATCH: HAZARDS" + ex);
+    //     }
+
+
+
+})();]]></script>
+        <short_description>New Safety Complaint</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-03-26 18:24:27</sys_created_on>
+        <sys_id>d319fc432f8b60d04cbeb1e72799b6be</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Plainte interne en santé et sécurité au travail</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_d319fc432f8b60d04cbeb1e72799b6be</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2023-02-14 14:28:03</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_investigation_case</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_hoc_sc_service/>
+        <u_includes_additional_services/>
+        <u_other_additional_services/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=d319fc432f8b60d04cbeb1e72799b6be"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d319fc432f8b60d04cbeb1e72799b6be</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-18 18:48:03</sys_created_on>
+        <sys_id>95392376db0d0110e3dd80c74b9619c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2023-02-14 14:28:04</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;div&gt;&#13;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Les employ&amp;eacute;s ont le devoir de signaler tout probl&amp;egrave;me de sant&amp;eacute; et de s&amp;eacute;curit&amp;eacute; au travail &amp;agrave; leur gestionnaire et de l&amp;rsquo;&amp;eacute;valuer avec lui conform&amp;eacute;ment &amp;agrave; la pr&amp;eacute;sente&amp;nbsp;&lt;/span&gt;&lt;a href="https://hoccdc.sharepoint.com/sites/info/fr/services/hoc-health-and-wellness/Documents/OHS-internal-complaint-resolution-procedure-f.pdf" target="_blank" rel="noreferrer noopener"&gt;&lt;span xml:lang="FR-CA" data-contrast="none"&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;proc&amp;eacute;dure&lt;/span&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;&amp;nbsp;de&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;r&amp;eacute;solution interne des plaintes en mati&amp;egrave;re de sant&amp;eacute; et de s&amp;eacute;curit&amp;eacute; au travail&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;/div&gt;&#13;
+&lt;div&gt;&#13;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;La proc&amp;eacute;dure vise &amp;agrave; d&amp;eacute;crire la s&amp;eacute;rie d&amp;rsquo;&amp;eacute;tapes progressives &amp;agrave; suivre pour corriger les situations posant un danger pour la sant&amp;eacute; et la s&amp;eacute;curit&amp;eacute; au travail ainsi que toute infraction au&amp;nbsp;&lt;/span&gt;&lt;a href="https://laws-lois.justice.gc.ca/fra/lois/l-2/" target="_blank" rel="noreferrer noopener"&gt;&lt;span xml:lang="FR-CA" data-contrast="none"&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;Code canadien du travail, partie II&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&amp;nbsp;(le&amp;nbsp;&lt;/span&gt;&lt;a href="https://laws-lois.justice.gc.ca/fra/lois/l-2/" target="_blank" rel="noreferrer noopener"&gt;&lt;span xml:lang="FR-CA" data-contrast="none"&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;Code&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;) ou &amp;agrave; ses r&amp;egrave;glements, y compris au&amp;nbsp;&lt;/span&gt;&lt;a href="https://laws.justice.gc.ca/fra/reglements/DORS-86-304/index.html" target="_blank" rel="noreferrer noopener"&gt;&lt;span xml:lang="FR-CA" data-contrast="none"&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;R&amp;egrave;glement canadien sur la sant&amp;eacute; et la s&amp;eacute;curit&amp;eacute; au travail&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&amp;nbsp;(le&amp;nbsp;&lt;/span&gt;&lt;a href="https://laws.justice.gc.ca/fra/reglements/DORS-86-304/index.html" target="_blank" rel="noreferrer noopener"&gt;&lt;span xml:lang="FR-CA" data-contrast="none"&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;R&amp;egrave;glement&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;).&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;/div&gt;&#13;
+&lt;div&gt;&#13;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;D&amp;eacute;finitions&lt;/span&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;/div&gt;&#13;
+&lt;div&gt;&#13;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Danger:&lt;/span&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&amp;nbsp;Situation, t&amp;acirc;che ou risque qui pourrait vraisemblablement pr&amp;eacute;senter une menace imminente ou s&amp;eacute;rieuse pour la vie ou pour la sant&amp;eacute; de la personne qui y est expos&amp;eacute;e avant que, selon le cas, la situation soit corrig&amp;eacute;e, la t&amp;acirc;che modifi&amp;eacute;e ou le risque &amp;eacute;cart&amp;eacute;.&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;/div&gt;&#13;
+&lt;div&gt;&#13;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Gestionnaire:&lt;/span&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&amp;nbsp;Employ&amp;eacute; ayant des responsabilit&amp;eacute;s de supervision ou de gestion et agissant au nom de l&amp;rsquo;employeur. Dans la pr&amp;eacute;sente proc&amp;eacute;dure, l&amp;rsquo;expression &amp;laquo; gestionnaire &amp;raquo; peut &amp;eacute;galement d&amp;eacute;signer un superviseur, selon le cas.&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;/div&gt;&#13;
+&lt;div&gt;&#13;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Situation dangereuse:&amp;nbsp;&lt;/span&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Source potentielle de dommage, de pr&amp;eacute;judice ou d&amp;rsquo;effet nocif &amp;agrave; l&amp;rsquo;&amp;eacute;gard d&amp;rsquo;une chose ou d&amp;rsquo;une personne.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;/div&gt;&#13;
+&lt;div&gt;&#13;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Plainte en mati&amp;egrave;re de sant&amp;eacute; et de s&amp;eacute;curit&amp;eacute;:&lt;/span&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&amp;nbsp;Signalement d&amp;rsquo;une situation dangereuse pour la sant&amp;eacute; et la s&amp;eacute;curit&amp;eacute; sur le lieu de travail ou de toute infraction &amp;agrave; la partie II du Code ou &amp;agrave; ses r&amp;egrave;glements.&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:160,&amp;quot;335559740&amp;quot;:259}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&#13;
+&lt;p&gt;Pour une exposition &amp;agrave; un produit chimique ou des informations relatives &amp;agrave; un produit chimique, vous pouvez vous r&amp;eacute;f&amp;eacute;rer au &lt;a title="r&amp;eacute;f&amp;eacute;rentiel FDS" href="https://webhouseofcommons77ff9fjquf.maerixium.com/paratoxxpress/binder/default/FR/" target="_blank" rel="noopener noreferrer nofollow"&gt;r&amp;eacute;f&amp;eacute;rentiel FDS&lt;/a&gt; pour plus d'informations.&lt;/p&gt;&#13;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d319fc432f8b60d04cbeb1e72799b6be</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-18 18:48:03</sys_created_on>
+        <sys_id>89392376db0d0110e3dd80c74b9619b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-24 20:58:00</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Plainte interne en santé et sécurité au travail</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>d319fc432f8b60d04cbeb1e72799b6be</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-18 18:48:03</sys_created_on>
+        <sys_id>15392376db0d0110e3dd80c74b9619bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-25 16:27:33</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Nouvel Plainte interne en santé et sécurité au travail</value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=d319fc432f8b60d04cbeb1e72799b6be"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price</field>
+        <id>d319fc432f8b60d04cbeb1e72799b6be</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-03-26 18:24:27</sys_created_on>
+        <sys_id>c20afcc32f8b60d04cbeb1e72799b68d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$kutlaria</sys_updated_by>
+        <sys_updated_on>2021-03-26 18:24:27</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>recurring_price</field>
+        <id>d319fc432f8b60d04cbeb1e72799b6be</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-03-26 18:24:27</sys_created_on>
+        <sys_id>4a0afcc32f8b60d04cbeb1e72799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$kutlaria</sys_updated_by>
+        <sys_updated_on>2021-03-26 18:24:27</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

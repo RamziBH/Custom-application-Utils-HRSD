@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="duplicate all">d72b07f33bdc5ad0aeb1ebc964e45a08</map>
+        <order>100</order>
+        <script><![CDATA[//The onComplete event script is processed at the end of an import run, after all data rows are read and transformed.
+//https://docs.servicenow.com/bundle/xanadu-integrate-applications/page/script/server-scripting/reference/r_MapWithTransformationEventScripts.html
+
+
+/**
+ * Duplicate all HIRA with different combo of positionCode-reportingPosition
+ * 
+ * Most if not all the functions used here were copied from the HoCOHSMHIRAUtils script include. Before being modified.
+ */
+(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+    //constants
+    const EVENT = {
+        ASSIGNED_TO_MANAGER: 'x_hccc_hoc_ohs.hira_assigned_to_manager',
+        ASSIGNED_TO_OHS_ADVISOR: 'x_hccc_hoc_ohs.hira_assigned_to_OHS_advisor',
+        DUE_TO_REVIEW: 'x_hccc_hoc_ohs.hira.due_to_review_manager'
+    }
+    const MITIGATION = {
+        STATE: {
+            IMPLEMENTATION_IN_PROGRESS: "2",
+            IMPLEMENTED: "3"
+        }
+    }
+    const HAZARD = {
+        STATE: {
+            DOCUMENTING: "10",
+            DOCUMENTATION_COMPLETED_IMPLEMENTING_MEASURES: "20",
+            COMPLETED: "30",
+            ARCHIVED: "300"
+        }
+    }
+    const CASE = {
+        STATE: {
+            PENDING: "-5",
+            CLOSED_COMPLETE: "3",
+            WORK_IN_PROGRESS: "18",
+            NEEDS_OHS_REVIEW: "102", //#150134 - manager deems case done, needs to be reviewed before closing
+            ARCHIVED: "300"
+        }
+    }
+    const TABLE = {
+        CASE: "x_hccc_hoc_ohs_hira_case", //the Case contains Hazards
+        HAZARD: "x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment", //single hazard, contains mitigation actions
+        ACTION: "x_hccc_hoc_ohs_hira_action", //Mitigation action
+        POSITION: "x_hccc_hoc_ohs_position_reports_to" //referencing position code and it's reporting position
+    }
+
+    function getPositionManager(position) {
+        var jbs = new GlideRecord('sn_hr_core_job');
+
+        if (gs.nil(position.reports_to)) {
+            return null;
+        }
+
+        //Find manager & assignation
+        jbs.addQuery('position', position.reports_to);
+        jbs.addQuery('job_active', true);
+        jbs.addQuery('user.active', true);
+        jbs.query();
+        if (jbs.next()) {
+            return jbs.user;
+        }
+
+        return null;
+    }
+
+    function getPositionDescription(position) {
+        var description = '';
+
+        description = 'Position: ' + position.position_code.code + ' - ' + position.position_code.name;
+        if (position.reports_to && position.reports_to.x_hccc_base_org_position_code) {
+            description += '\nReporting to: ' + position.reports_to.x_hccc_base_org_position_code.name;
+        }
+        if (position.reports_to && position.reports_to.department) {
+            description += '\nIn Department: ' + position.reports_to.department.name;
+        }
+
+        return description;
+    }
+
+    //Define functions
+    function copyRecordInfo(sourceRec, destinationRec, exclusionList) {
+        if (sourceRec.getTableName() !== destinationRec.getTableName()) {
+            const errorMessage = `Unable to copy fields, destination record type different than source record type. ( ${sourceRec.getTableName()}, ${destinationRec.getTableName()})`;
+
+            gs.error(errorMessage);
+            log.error(errorMessage);
+            error = true;
+            throw new Error(errorMessage);
+        }
+
+        //Variables
+        var fieldIndex;
+        var fieldName;
+        var excludeList;
+        var recordUtil = new global.GlideRecordUtil();
+        var dupFieldList = recordUtil.getFields(sourceRec);
+
+        //Exclusions
+        if (exclusionList) {
+            // Loop through the excludeList and remove all those fields from the dupFieldList array
+            excludeList = exclusionList.toString().split(","); //this to accept both string and array of string
+            excludeList = excludeList.map(function(item) { //this to remove whitespace
+                return item.trim();
+            });
+        }
+        excludeList.push('sys_id'); //never copy sys_id
+        excludeList.push('number'); //never copy number
+        excludeList.push('active'); //never copy active
+        for (var e = 0; e < excludeList.length; e++) {
+            fieldIndex = dupFieldList.indexOf(excludeList[e]);
+            if (fieldIndex > -1) {
+                dupFieldList.splice(fieldIndex, 1);
+            }
+        }
+        /*gs.debug('OHS - ' + new Date().toISOString() +
+            ' - HIRA initial import - Duplicate all - onComplete.copyRecordInfo - ' +
+            '\ntable: ' + sourceRec.getTableName() + '\ndupFieldList: ' + dupFieldList);*/
+
+        //Copy to destination
+        for (var f = 0; f < dupFieldList.length; f++) {
+            fieldName = dupFieldList[f];
+            if (sourceRec.isValidField(fieldName) && !gs.nil(sourceRec[fieldName])) {
+                //gs.debug('HiraUtils.copyRecordInfo table: ' + sourceRec.getTableName() + ' - field: ' + fieldName);
+                destinationRec[fieldName] = sourceRec[fieldName];
+            }
+        }
+
+        return destinationRec;
+    }
+
+    function copyMitigationAction(oldActionGR, newHazardSysId) {
+        if (!newHazardSysId) { //prevent adding floating record
+            return null;
+        }
+
+        //Variables
+        var newItem = new GlideRecord(TABLE.ACTION);
+        var excludedFields = "number, parent_hazard, state, comments, comments_and_work_notes, work_notes";
+
+        //Initialization
+        newItem.initialize();
+        newItem.parent_hazard = newHazardSysId;
+        newItem.state = MITIGATION.STATE.WAITING_FOR_ACTION;
+        newItem.work_notes = 'Copied from: ' + oldActionGR.number + ' - ' + oldActionGR.short_description;
+
+        //copy assessment
+        copyRecordInfo(oldActionGR, newItem, excludedFields);
+        newItem.insert();
+
+        //Add notes to old items
+        oldActionGR.work_notes = 'Copied to: ' + newItem.number;
+        oldActionGR.update();
+
+        return newItem;
+    }
+
+    function copyChildMitigationActions(oldHazardSysId, newHazardSysId) {
+        var oldItem = new GlideRecord(TABLE.ACTION);
+
+        oldItem.addQuery('parent_hazard', oldHazardSysId);
+        oldItem.addQuery('state', '!=', MITIGATION.STATE.CANCELLED);
+        oldItem.query();
+
+        while (oldItem.next()) {
+            copyMitigationAction(oldItem, newHazardSysId);
+        }
+    }
+
+    function copyAssessment(oldItemGR, newCaseSysId, archiveOld) {
+        if (!newCaseSysId) { //prevent adding floating record
+            return null;
+        }
+
+        //Variables
+        var newItem = new GlideRecord(TABLE.HAZARD);
+        var excludedFields =
+            "hira_case, hr_task, state, review_due, actions_taken_by_manager, actions_taken, " +
+            "start_date, training, comments, action_history, comment";
+        var addHist = '';
+        var isRecommendedActionMultiLine = /\r|\n/.exec(oldItemGR.recommended_action); //check if previous recommendation has carriage return
+
+        //Initialization
+        archiveOld = (typeof archiveOld === 'undefined' ? true : archiveOld);
+        newItem.initialize();
+        addHist += 'HR Task: ' + oldItemGR.number + '\n'; //oldItemGR.hr_task.number + '\n';
+        addHist += 'Recommended Action: ' +
+            (isRecommendedActionMultiLine ? //if previous recommendation is multiline we make an clear separation
+                '\n' + oldItemGR.recommended_action + '\n----------------------\n' :
+                oldItemGR.recommended_action + '\n');
+
+        //addHist += 'Start Date for Implementing Control Measures: ' + oldItemGR.start_date.getDisplayValue() + '\n'; //TODO this is in a new record now, will need to query said record in the future;
+
+        //copy assessment
+        newItem.hira_case = newCaseSysId;
+        newItem.state = HAZARD.STATE.DOCUMENTING;
+        newItem.action_history = addHist;
+        copyRecordInfo(oldItemGR, newItem, excludedFields);
+        newItem.insert();
+
+        //Set old items = "archived"
+        if (archiveOld) {
+            oldItemGR.state = HAZARD.STATE.ARCHIVED;
+            oldItemGR.active = false;
+            oldItemGR.update();
+        }
+
+        //copy the Mitigations-------------------------------------------
+        copyChildMitigationActions(oldItemGR.sys_id, newItem.sys_id);
+
+        return newItem;
+    }
+
+    function copyChildAssessments(oldCaseSysId, newCaseSysId, archiveOld) {
+        var oldItem = new GlideRecord(TABLE.HAZARD);
+
+        oldItem.addQuery('hira_case', oldCaseSysId);
+        oldItem.query();
+
+        while (oldItem.next()) {
+            copyAssessment(oldItem, newCaseSysId, archiveOld);
+        }
+    }
+
+    function copyCase(oldCaseGR, workNotes, archiveOld, newPosition) {
+        //Define variables
+        var newCase = new GlideRecord(TABLE.CASE);
+        var mgr = '';
+        var gdt = new GlideDateTime();
+        var newCaseSysId;
+        var excludedFields =
+            "short_description, initiated_from, work_notes, position_reporting_position, " +
+            "manager_name, assigned_to, opened_for";
+
+        //initialization
+        archiveOld = (typeof archiveOld === 'undefined' ? true : archiveOld);
+        gdt.addYearsLocalTime(3);
+        newCase.initialize();
+
+        //copy case
+        newCase.work_notes = workNotes || ('Case created from HIRA Case ' + oldCaseGR.sys_id);
+        newCase.short_description = getPositionDescription(oldCaseGR.position_reporting_position);
+        //newCase.assignment_group = GROUP.OHS_ADVISOR; //CEH-HRS-OHS-Advisor
+
+        copyRecordInfo(oldCaseGR, newCase, excludedFields);
+        //gs.debug('OHS - ' + new Date().toISOString() + ' - onComplete - copyCase2 - after case copy');
+
+        //add position--------------------------
+        newCase.position_reporting_position = newPosition.getUniqueValue();
+        //gs.debug('OHS - ' + new Date().toISOString() + ' - onComplete - copyCase3 - after new position insert');
+
+        //Get Manager (in case it changed)
+        mgr = getPositionManager(oldCaseGR.position_reporting_position);
+
+        if (!gs.nil(mgr)) { //manager found
+            newCase.manager_name = mgr;
+            //newCase.state = CASE.STATE.PENDING; //pending = missing info, we're missing manager
+        }
+
+        //gs.debug('OHS - ' + new Date().toISOString() + ' - onComplete - copyCase3 - before insert');
+        newCaseSysId = newCase.insert();
+        //gs.debug('OHS - ' + new Date().toISOString() + ' - onComplete - copyCase4 - after insert');
+
+        if (gs.nil(newCaseSysId)) {
+            gs.error('Error trying to insert new case');
+            throw new Error('Unable to copy HIRA case');
+        } else {
+            if (archiveOld) {
+                oldCaseGR.active = false;
+                oldCaseGR.state = CASE.STATE.ARCHIVED;
+                oldCaseGR.update();
+            }
+
+            //copy the Hazards-----------------------------------------
+            copyChildAssessments(oldCaseGR.sys_id, newCase.sys_id, archiveOld);
+
+            gs.eventQueue(EVENT.DUE_TO_REVIEW, newCase, gs.getUserName(), gs.getUserID()); //trigger email to manager.
+        }
+
+        return newCase;
+    }
+
+    let infoStr = '';
+    let contentStr = '';
+
+
+    //do the work---------------------------------------------------------------
+    //grab all HIRA
+    const HIRACasesGR = new GlideRecord('x_hccc_hoc_ohs_hira_case');
+
+
+    HIRACasesGR.query(); //should grab all cases
+
+    //for each one, grab the poscode and find all the matching "x_hccc_hoc_ohs_position_reports_to" then copy the case with a different position
+    while (HIRACasesGR.next()) {
+        try {
+            const timeStamp = new Date().toISOString(); //performance.timeOrigin + performance.now();
+
+            infoStr = 'OHS - ' + timeStamp + ' - HIRA initial import - Duplicate all - onComplete -';
+            contentStr = '\nGrabbed case - x_hccc_hoc_ohs_hira_case:' + HIRACasesGR.getUniqueValue() +
+                '\n|_code: ' + HIRACasesGR.position_reporting_position.position_code.code +
+                //'\n|___reports to - sn_hr_core_position:' + HIRACasesGR.position_reporting_position.reports_to;
+                '\n|___reports to - x_hccc_hoc_ohs_position_reports_to:' + HIRACasesGR.position_reporting_position;
+
+            const posCodeId = HIRACasesGR.position_reporting_position.position_code; //.code;
+            const posReportsToGR = new GlideRecord('x_hccc_hoc_ohs_position_reports_to');
+
+            posReportsToGR.addQuery('position_code', posCodeId);
+            posReportsToGR.addQuery('sys_id', '!=', HIRACasesGR.position_reporting_position);
+            posReportsToGR.query();
+
+            while (posReportsToGR.next()) {
+                //contentStr += '\n|___reports to - sn_hr_core_position:' + posReportsToGR.reports_to;
+                contentStr += '\n|___reports to - x_hccc_hoc_ohs_position_reports_to:' +
+                    posReportsToGR.getUniqueValue();
+
+                const newCase = copyCase(HIRACasesGR, 'Initial import', false, posReportsToGR);
+
+                contentStr += '\n___|___new case - x_hccc_hoc_ohs_hira_case:' + newCase.getUniqueValue();
+            }
+        } catch (e) {
+            //gs.error(infoStr + 'ERROR:' + e);
+            log.error(infoStr + 'ERROR:' + e);
+            error = true;
+        } finally {
+            log.debug(infoStr + contentStr);
+        }
+    }
+
+
+    //might want to run getPositionManager(position) on each case
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 17:20:59</sys_created_on>
+        <sys_id>b37b43773bdc5ad0aeb1ebc964e45ab0</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>onComplete</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_transform_script_b37b43773bdc5ad0aeb1ebc964e45ab0</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-05 17:15:18</sys_updated_on>
+        <when>onComplete</when>
+    </sys_transform_script>
+</record_update>

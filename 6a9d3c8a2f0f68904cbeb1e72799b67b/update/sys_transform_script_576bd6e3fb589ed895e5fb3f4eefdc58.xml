@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Create Mitigation Actions">052d29923b141210aeb1ebc964e45a67</map>
+        <order>200</order>
+        <script><![CDATA[//The onAfter event script is processed at the end of a row transformation, after the source row has been transformed into the target row and saved.
+//https://docs.servicenow.com/bundle/xanadu-integrate-applications/page/script/server-scripting/reference/r_MapWithTransformationEventScripts.html
+(function runTransformScript(source, map, log, target) {
+    const posCode = source.u_position_code.toString();
+    const timeStamp = new Date().toISOString(); //performance.timeOrigin + performance.now();
+    const infoStr = 'OHS - ' + timeStamp + ' - Row: ' + source.sys_import_row +
+        ' - onAfter - ';
+
+    const actionTaken = source.u_action_s__taken_by_manager.toString().trim(); //some entries are " ", we need to remove them
+    const timeLineStart = source.u_timelines____ntrol_measures.toString().trim(); //some entries are " ", we need to remove them
+    const timeLineEnd = source.u_timelines____y__implemented
+        .toString().trim(); //some entries are " ", we need to remove them
+    const comments = source.u_comments.toString().trim(); //some entries are " ", we need to remove them
+
+    //only return if there's an action
+    if (posCode !== null && posCode !== '') { //checking posCode to not add unlinked records
+        if (actionTaken !== null && actionTaken.length > 300) {
+            target.setWorkflow(false); //doesn't work if left alone
+            target['comments'] = 'Full description:\n\n' + actionTaken;
+            target.update(); //should simply add a comment
+
+            gs.debug(infoStr + 'action_taken added to comment' +
+                '\n\nnumber: ' + target.number +
+                '\nx_hccc_hoc_ohs_hira_action:' + target.getUniqueValue() +
+                '\nx_hccc_hoc_ohs_hazard_investigation_and_risk_assessment:' + target.parent_hazard
+            );
+        }
+
+        if (timeLineStart !== null && timeLineStart.length > 1) {
+            target.setWorkflow(false); //doesn't work if left alone
+            target['comments'] = 'Timelines - Start Date of Implementing Control Measures:\n\n' + timeLineStart;
+            target.update(); //should simply add a comment
+        }
+        if (timeLineEnd !== null && timeLineEnd.length > 1) {
+            target.setWorkflow(false); //doesn't work if left alone
+            target['comments'] = 'Timelines - Date When Control Measures Are Fully Implemented:\n\n' + timeLineEnd;
+            target.update(); //should simply add a comment
+        }
+        if (comments !== null && comments.length > 1) {
+            target.setWorkflow(false); //doesn't work if left alone
+            target['comments'] = 'Comments:\n\n' + comments;
+            target.update(); //should simply add a comment
+        }
+    }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-03 19:15:30</sys_created_on>
+        <sys_id>576bd6e3fb589ed895e5fb3f4eefdc58</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_transform_script_576bd6e3fb589ed895e5fb3f4eefdc58</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-05 19:43:43</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

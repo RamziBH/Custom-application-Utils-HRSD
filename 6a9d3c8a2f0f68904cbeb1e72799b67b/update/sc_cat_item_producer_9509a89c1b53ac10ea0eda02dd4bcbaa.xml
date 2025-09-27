@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>If an employee has reasonable cause to believe that a danger exists and wants to exercise their right to refuse dangerous work, the employee must first remove themselves from the situation and then complete the form below.</p>
+<p>This form is used to submit a refusal to work in accordance with the definition of danger in the <a href="https://hoccdc.sharepoint.com/sites/info/en/services/hoc-health-and-wellness/Documents/Right-to-refuse-dangerous-work-procedure-e.pdf" target="_blank" rel="noopener noreferrer nofollow">HoC right-to-refuse-dangerous-work-procedure-e.pdf</a>. An employee may refuse to use or operate a machine or thing, to work in a place, or to perform an activity if the employee, while at work, has reasonable cause to believe that:</p>
+<ul style="list-style-position: inside;"><li>the use or operation of the machine or thing constitutes a danger to the employee or to another employee;</li><li>a condition exists in the place that constitutes a danger to the employee;<br />or</li><li>the performance of the activity constitutes a danger to the employee or to another employee.</li></ul>
+<p>For post exposure to a chemical or information pertaining to a chemical product, you may refer to the <a title="SDS Repository" href="https://webhouseofcommons77ff9fjquf.maerixium.com/paratoxxpress/binder/default/EN/" target="_blank" rel="noopener noreferrer nofollow">SDS Repository</a> for further information.</p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Refusal of dangerous work</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=9509a89c1b53ac10ea0eda02dd4bcbaa&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[(function() {
+    new sn_hr_le.hr_ActivityUtils().createCaseFromProducer(current, producer, cat_item.sys_id);
+	
+	//Copy the value of the inc_refusal_loc to wi_building because the ACL to control access to the record for Committee group relies on the value of the wi_building field. Eventually, this table should likely be updated to use one field for the building instead of 2 different, which is confusing.
+	current.setValue("inc_location", current.getValue("inc_refusal_loc"));
+    producer.portal_redirect = "?id=hoc_hrm_todos_page";
+
+})();]]></script>
+        <short_description>Refusal of dangerous work</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-03-30 14:25:43</sys_created_on>
+        <sys_id>9509a89c1b53ac10ea0eda02dd4bcbaa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Refus d'exécuter un travail dangereux</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_9509a89c1b53ac10ea0eda02dd4bcbaa</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2023-02-14 15:08:41</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_investigation_case</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_hoc_sc_service/>
+        <u_includes_additional_services/>
+        <u_other_additional_services/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=9509a89c1b53ac10ea0eda02dd4bcbaa"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>9509a89c1b53ac10ea0eda02dd4bcbaa</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-20 18:46:42</sys_created_on>
+        <sys_id>00ee2d472fe3e0104cbeb1e72799b64d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2023-02-14 15:08:41</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;p&gt;Si un employ&amp;eacute; a des motifs raisonnables de croire qu'il existe un danger et veut exercer son droit de refuser d'ex&amp;eacute;cuter un travail dangereux, il doit en premier lieu se retirer de la situation et ensuite compl&amp;eacute;ter le formulaire ci-bas.&lt;/p&gt;&#13;
+&lt;p&gt;Ce formulaire est utilis&amp;eacute; pour soumettre un refus de travailler conform&amp;eacute;ment &amp;agrave; la d&amp;eacute;finition du&amp;nbsp;danger&amp;nbsp;dans la proc&amp;eacute;dure&amp;nbsp;&lt;a href="https://hoccdc.sharepoint.com/sites/info/fr/services/hoc-health-and-wellness/Documents/Right-to-refuse-dangerous-work-procedure-f.pdf" target="_blank" rel="noopener"&gt;Proc&amp;eacute;dure sur le droit de refuser d&amp;eacute;x&amp;eacute;cuter un travail dangereux&lt;/a&gt;&amp;nbsp;du CdC. Un employ&amp;eacute; peut refuser d'utiliser ou de faire fonctionner une machine ou une chose, de travailler dans un lieu ou d'accomplir une t&amp;acirc;che si, pendant qu'il est au travail, il a des motifs raisonnables de croire :&lt;/p&gt;&#13;
+&lt;ul style="list-style-position: inside;"&gt;&#13;
+&lt;li&gt;que l'utilisation ou le fonctionnement de la machine ou de la chose constitue un danger pour lui-m&amp;ecirc;me ou un autre employ&amp;eacute;;&amp;nbsp;&lt;/li&gt;&#13;
+&lt;li&gt;qu'il est dangereux pour lui de travailler dans le lieu;&lt;br /&gt;ou&lt;/li&gt;&#13;
+&lt;li&gt;que l'accomplissement de la t&amp;acirc;che constitue un danger pour lui-m&amp;ecirc;me ou un autre employ&amp;eacute;.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;Pour une exposition &amp;agrave; un produit chimique ou des informations relatives &amp;agrave; un produit chimique, vous pouvez vous r&amp;eacute;f&amp;eacute;rer au &lt;a title="r&amp;eacute;f&amp;eacute;rentiel FDS" href="https://webhouseofcommons77ff9fjquf.maerixium.com/paratoxxpress/binder/default/FR/" target="_blank" rel="noopener noreferrer nofollow"&gt;r&amp;eacute;f&amp;eacute;rentiel FDS&lt;/a&gt; pour plus d'informations.&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>9509a89c1b53ac10ea0eda02dd4bcbaa</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-20 18:46:42</sys_created_on>
+        <sys_id>f7de21472fe3e0104cbeb1e72799b691</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-24 19:27:06</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Refus d'exécuter un travail dangereux</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>9509a89c1b53ac10ea0eda02dd4bcbaa</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-20 18:46:42</sys_created_on>
+        <sys_id>ffde2d472fe3e0104cbeb1e72799b649</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-24 18:56:03</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Refus d'exécuter un travail dangereux</value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=9509a89c1b53ac10ea0eda02dd4bcbaa"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price</field>
+        <id>9509a89c1b53ac10ea0eda02dd4bcbaa</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-03-30 14:25:43</sys_created_on>
+        <sys_id>d4c924501b93ac10ea0eda02dd4bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$kutlaria</sys_updated_by>
+        <sys_updated_on>2021-03-30 14:25:43</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>recurring_price</field>
+        <id>9509a89c1b53ac10ea0eda02dd4bcbaa</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-03-30 14:25:43</sys_created_on>
+        <sys_id>5cc924501b93ac10ea0eda02dd4bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$kutlaria</sys_updated_by>
+        <sys_updated_on>2021-03-30 14:25:43</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Field Values Validation">5a6b75fc1bb7e5d49fde86acdd4bcb7a</copied_from>
+        <description>Validate that the form matches the following condition:
+Area of injury contains Ankle: Right
+and Description of work related injury or illness contains ATF illness injury
+and Insurance claim provider = ATF Provider
+and Insurance claim number = 9572
+and Date of initial injury or illness on 2021-12-01
+and Functional limitation identified = Yes
+and Additional medical assistance (other than first aid) = Yes
+and Work related injuries = Yes
+and Aggravation of a pre-existing injury or illness = Yes
+and First aid required = No
+and First aid administered by = Please select...
+and Other is empty
+With a failure timeout of 10 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Validate that all fields after injury Yes is selected contain the right values in  the backhend form</notes>
+        <order>18</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:25</sys_created_on>
+        <sys_id>ab9129763b4d1a18aeb1ebc964e45a93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_ab9129763b4d1a18aeb1ebc964e45a93</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:25</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <test display_value="OHS - Report Incident Injury Yes Area Ankle: Right">039165763b4d1a18aeb1ebc964e45af2</test>
+        <timeout>1970-01-01 00:00:10</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ab9129763b4d1a18aeb1ebc964e45a93"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ab9129763b4d1a18aeb1ebc964e45a93</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:25</sys_created_on>
+        <sys_id>2f9129763b4d1a18aeb1ebc964e45a94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:25</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ab9129763b4d1a18aeb1ebc964e45a93</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:25</sys_created_on>
+        <sys_id>a39129763b4d1a18aeb1ebc964e45a95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:25</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ab9129763b4d1a18aeb1ebc964e45a93</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:25</sys_created_on>
+        <sys_id>ef9129763b4d1a18aeb1ebc964e45a94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:25</sys_updated_on>
+        <value>area_of_injuryLIKEAnkle: Right^inc_desc_work_inj_illLIKEATF illness injury^inc_insur_claim_prov=ATF Provider^inc_ins_claim_number=9572^inc_date_initial_injON2021-12-01@javascript:gs.dateGenerate('2021-12-01','start')@javascript:gs.dateGenerate('2021-12-01','end')^inc_func_lim_ident=yes^inc_add_med_aid=yes^inc_work_rel_injury=yes^inc_aggr_pre_exis_inj=yes^inc_first_aid_req=no^first_aid_administered_by=^other_first_aid_administered_byISEMPTY^EQ</value>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=ab9129763b4d1a18aeb1ebc964e45a93"/>
+</record_update>

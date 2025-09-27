@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>personal_equip_subtype</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-08 21:35:50</sys_created_on>
+        <sys_id>2fd5cdfefbaa6e9495e5fb3f4eefdcba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>personal_equip_subtype</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2fd5cdfefbaa6e9495e5fb3f4eefdcba</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-08 21:35:50</sys_updated_on>
+        <table>x_hccc_hoc_ohs_case</table>
+        <ui_policy display_value="Show Personal Protective Equipment Subtype  only when   Type is Personal Protective Equipment">b475c1fafbaa6e9495e5fb3f4eefdcfe</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Insert">beeba1f81bf98a5c9fde86acdd4bcb15</copied_from>
+        <description>Insert a record into 'x_hccc_hoc_ohs_telework_agreement' with the following values:
+Employee = {{Step 8: Create a User.User}}
+and Manager = {{Step 3: Create a User.User}}
+and Telework start date = javascript:gs.beginningOfLastQuarter()
+and Telework end date = javascript:gs.endOfNext2Quarters()
+and Mon = false
+and Tue = false
+and Wed = true
+and Thu = true
+and Fri = false
+and Type of telework arrangement = Flexible telework (no prescribed telework schedule)
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Telework Agreement 3
+User 2 / manager 2
+visible to:
+-manager 2
+-delegate of manager 2</notes>
+        <order>15</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:18</sys_created_on>
+        <sys_id>d108bdba3b019a18aeb1ebc964e45a4f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_d108bdba3b019a18aeb1ebc964e45a4f</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:18</sys_updated_on>
+        <table>x_hccc_hoc_ohs_telework_agreement</table>
+        <test display_value="OHS - Telework Agreement - Service Portal access">70083dba3b019a18aeb1ebc964e45ac7</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d108bdba3b019a18aeb1ebc964e45a4f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d108bdba3b019a18aeb1ebc964e45a4f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:18</sys_created_on>
+        <sys_id>1108bdba3b019a18aeb1ebc964e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:18</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d108bdba3b019a18aeb1ebc964e45a4f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:18</sys_created_on>
+        <sys_id>5908bdba3b019a18aeb1ebc964e45a51</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:18</sys_updated_on>
+        <value>subject_person={{step['cd087dba3b019a18aeb1ebc964e45ad3'].user}}^manager_name={{step['f8087dba3b019a18aeb1ebc964e45a36'].user}}^telework_start_date=javascript:gs.beginningOfLastQuarter()^telework_end_date=javascript:gs.endOfNext2Quarters()^telework_monday=false^telework_tuesday=false^telework_wednesday=true^telework_thursday=true^telework_friday=false^type_telework_arrangement=telework_flexible^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d108bdba3b019a18aeb1ebc964e45a4f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:18</sys_created_on>
+        <sys_id>9508bdba3b019a18aeb1ebc964e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:18</sys_updated_on>
+        <value>x_hccc_hoc_ohs_telework_agreement</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d108bdba3b019a18aeb1ebc964e45a4f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:18</sys_created_on>
+        <sys_id>d108bdba3b019a18aeb1ebc964e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:18</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d108bdba3b019a18aeb1ebc964e45a4f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>d108bdba3b019a18aeb1ebc964e45a4f</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:18</sys_created_on>
+        <sys_id>5d08bdba3b019a18aeb1ebc964e45a51</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:18</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>subject_person={{step['cd087dba3b019a18aeb1ebc964e45ad3'].user}}^manager_name={{step['f8087dba3b019a18aeb1ebc964e45a36'].user}}^telework_start_date=javascript:gs.beginningOfLastQuarter()^telework_end_date=javascript:gs.endOfNext2Quarters()^telework_monday=false^telework_tuesday=false^telework_wednesday=true^telework_thursday=true^telework_friday=false^type_telework_arrangement=telework_flexible^EQ</value>
+    </sys_element_mapping>
+</record_update>

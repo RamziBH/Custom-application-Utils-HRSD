@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Telework Agreement">cedc7de78779219050d2eca73cbb3565</catalog_item>
+        <catalog_variable>IO:1561fd7a8762291c50d2eca73cbb3527</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-05 17:46:36</sys_created_on>
+        <sys_id>77690a728766291c50d2eca73cbb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>flexible_telework_choices</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_77690a728766291c50d2eca73cbb3586</sys_update_name>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-05-05 17:46:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="TelWrk Show days if Flexible">37fdad728762291c50d2eca73cbb35f8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>flexible_telework_choices</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

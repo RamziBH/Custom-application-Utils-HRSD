@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Validate Outbound Email">42bdba731b824290813f844fdd4bcbb5</copied_from>
+        <description>Validate that an email was generated matching query:
+Recipients contains {{Step 2: Create a User.User.Email}}
+and Subject = Harassment and Violence Complaint - Manager / Plainte pour harcèlement ou violence - Gestionnaire
+and Body contains This email is to notify you that a Harassment and Violence Complaint has been submitted and requires action:
+and Body contains Ce courriel a pour but de vous informer qu'une plainte d'harcèlement et violence a été déposée et nécessite une action:
+and Created &gt; javascript:gs.minutesAgo(2)
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Check notification sent to manager</notes>
+        <order>19</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-23 17:54:55</sys_created_on>
+        <sys_id>41fd2b1e1bdec69c813f844fdd4bcb0a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_41fd2b1e1bdec69c813f844fdd4bcb0a</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:05:49</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - H&amp;V - Test FQ Notifications to submitter, complainant, manager and RW">d0fdaf5a1bdec69c813f844fdd4bcb02</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=41fd2b1e1bdec69c813f844fdd4bcb0a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>41fd2b1e1bdec69c813f844fdd4bcb0a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-23 17:54:55</sys_created_on>
+        <sys_id>49fd2b1e1bdec69c813f844fdd4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-23 17:54:55</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>41fd2b1e1bdec69c813f844fdd4bcb0a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-23 17:54:55</sys_created_on>
+        <sys_id>85fd2b1e1bdec69c813f844fdd4bcb0b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-28 17:54:50</sys_updated_on>
+        <value>recipientsLIKE{{step['d8fd271e1bdec69c813f844fdd4bcb7c'].user.email}}^subject=Harassment and Violence Complaint - Manager / Plainte pour harcèlement ou violence - Gestionnaire^bodyLIKEThis email is to notify you that a Harassment and Violence Complaint has been submitted and requires action:^bodyLIKECe courriel a pour but de vous informer qu'une plainte d'harcèlement et violence a été déposée et nécessite une action:^sys_created_onRELATIVEGT@minute@ago@2^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=41fd2b1e1bdec69c813f844fdd4bcb0a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>41fd2b1e1bdec69c813f844fdd4bcb0a</id>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-23 17:54:55</sys_created_on>
+        <sys_id>4dfd2b1e1bdec69c813f844fdd4bcb0b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-23 17:54:55</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>recipientsLIKE{{step['d8fd271e1bdec69c813f844fdd4bcb7c'].user.email}}^subject=Harassment and Violence Complaint - Manager / Plainte pour harcèlement ou violence - Gestionnaire^bodyLIKEThis email is to notify you that a Harassment and Violence Complaint has been submitted and requires action:^bodyLIKECe courriel a pour but de vous informer qu'une plainte d'harcèlement et violence a été déposée et nécessite une action:^sys_created_onRELATIVEGT@minute@ago@2^EQ</value>
+    </sys_element_mapping>
+</record_update>

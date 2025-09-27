@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>124830e81b9bf11c9fde86acdd4bcb42</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_update_version"&gt;
+    &lt;sys_update_version action="INSERT_OR_UPDATE"&gt;
+        &lt;action&gt;INSERT_OR_UPDATE&lt;/action&gt;
+        &lt;application display_value="HoC Occupational Health and Safety Management"&gt;6a9d3c8a2f0f68904cbeb1e72799b67b&lt;/application&gt;
+        &lt;file_path/&gt;
+        &lt;instance_id&gt;047331aedbd7b7c849eac597059619e3&lt;/instance_id&gt;
+        &lt;instance_name&gt;hoccdcdv&lt;/instance_name&gt;
+        &lt;name&gt;sys_security_acl_ea8464e11bbef118813f844fdd4bcbfb&lt;/name&gt;
+        &lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition/&gt;&lt;description/&gt;&lt;local_or_existing/&gt;&lt;name&gt;sys_user&lt;/name&gt;&lt;operation display_value="report_view"&gt;0997ab83733303005978e4b9cdf6a7b9&lt;/operation&gt;&lt;script/&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-11-28 19:42:05&lt;/sys_created_on&gt;&lt;sys_id&gt;ea8464e11bbef118813f844fdd4bcbfb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;sys_user&lt;/sys_name&gt;&lt;sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs"&gt;6a9d3c8a2f0f68904cbeb1e72799b67b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HoC Occupational Health and Safety Management"&gt;6a9d3c8a2f0f68904cbeb1e72799b67b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_ea8464e11bbef118813f844fdd4bcbfb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-11-28 19:42:05&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;]]&gt;&lt;/payload&gt;
+        &lt;payload_hash&gt;36356877&lt;/payload_hash&gt;
+        &lt;record_name&gt;sys_user&lt;/record_name&gt;
+        &lt;reverted_from/&gt;
+        &lt;source&gt;14387ce41b9bf11c9fde86acdd4bcbca&lt;/source&gt;
+        &lt;source_table&gt;sys_update_set&lt;/source_table&gt;
+        &lt;state&gt;current&lt;/state&gt;
+        &lt;sys_created_by&gt;azure.guillaume.houde@parlissi.gc.ca&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-12-20 15:03:27&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;124830e81b9bf11c9fde86acdd4bcb42&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_recorded_at&gt;18c87c0c80f0000001&lt;/sys_recorded_at&gt;
+        &lt;sys_updated_by&gt;azure.guillaume.houde@parlissi.gc.ca&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-12-20 15:03:27&lt;/sys_updated_on&gt;
+        &lt;type&gt;Access Control&lt;/type&gt;
+        &lt;update_guid&gt;9794ff40b55bb994ab9ca1213de5dee5&lt;/update_guid&gt;
+        &lt;update_guid_history&gt;9794ff40b55bb994ab9ca1213de5dee5:36356877,3325b42ca4d3f11c971077ab6862cc76:0,aa74f300435bb99466f690c912c775e1:36356877,6671b0448687311c55a168324157e67a:-1425217683&lt;/update_guid_history&gt;
+    &lt;/sys_update_version&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-01-15 19:30:24</sys_created_on>
+        <sys_id>06be63f81bf3b9d09fde86acdd4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_security_acl_ea8464e11bbef118813f844fdd4bcbfb</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_06be63f81bf3b9d09fde86acdd4bcbcd</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-15 19:30:24</sys_updated_on>
+        <tablename>sys_update_version</tablename>
+    </sys_metadata_link>
+</record_update>

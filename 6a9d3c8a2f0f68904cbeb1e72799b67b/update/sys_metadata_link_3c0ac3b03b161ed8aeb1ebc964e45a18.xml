@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>f78874793b719a50aeb1ebc964e45a44</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_hccc_hoc_ohs_ohs_root_cause">
+    <x_hccc_hoc_ohs_ohs_root_cause action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Temperature Exposures</name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-11 15:05:13</sys_created_on>
+        <sys_id>f78874793b719a50aeb1ebc964e45a44</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-11 15:28:57</sys_updated_on>
+    </x_hccc_hoc_ohs_ohs_root_cause>
+    <sys_translated_text action="delete_multiple" query="documentkey=f78874793b719a50aeb1ebc964e45a44"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>f78874793b719a50aeb1ebc964e45a44</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-11 15:28:15</sys_created_on>
+        <sys_id>e5ddf0f53bb19a50aeb1ebc964e45afb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-11 15:28:57</sys_updated_on>
+        <tablename>x_hccc_hoc_ohs_ohs_root_cause</tablename>
+        <value>Expositions à la température</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-12-03 19:38:09</sys_created_on>
+        <sys_id>3c0ac3b03b161ed8aeb1ebc964e45a18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Temperature Exposures</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_3c0ac3b03b161ed8aeb1ebc964e45a18</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-12-03 19:38:09</sys_updated_on>
+        <tablename>x_hccc_hoc_ohs_ohs_root_cause</tablename>
+    </sys_metadata_link>
+</record_update>

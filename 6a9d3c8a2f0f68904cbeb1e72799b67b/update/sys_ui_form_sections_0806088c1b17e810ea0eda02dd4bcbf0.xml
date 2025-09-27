@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0806088c1b17e810ea0eda02dd4bcbf0" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:11:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0006088c1b17e810ea0eda02dd4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0806088c1b17e810ea0eda02dd4bcbf0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">fa95084c1b17e810ea0eda02dd4bcb95</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-03-29 17:11:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:30:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>486a0c4c1b57e810ea0eda02dd4bcbc6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0806088c1b17e810ea0eda02dd4bcbf0</sys_ui_form>
+            <sys_ui_section caption="Fulfillment Instructions" display_value="Fulfillment Instructions" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">806a484c1b57e810ea0eda02dd4bcb75</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-03-29 17:30:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:31:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66ca80001b97e810ea0eda02dd4bcbaa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0806088c1b17e810ea0eda02dd4bcbf0</sys_ui_form>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">6eca00cc1b57e810ea0eda02dd4bcbb9</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-03-29 17:33:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-06 13:41:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3c22cea1bd76410c261ed3cbc4bcb98</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0806088c1b17e810ea0eda02dd4bcbf0</sys_ui_form>
+            <sys_ui_section caption="Sub-Cases and -Tasks" display_value="Sub-Cases and -Tasks" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">7fc22cea1bd76410c261ed3cbc4bcb92</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-06 13:41:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:21:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>816804c41b57e810ea0eda02dd4bcbf9</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0806088c1b17e810ea0eda02dd4bcbf0</sys_ui_form>
+            <sys_ui_section caption="Case information" display_value="Case information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">496804c41b57e810ea0eda02dd4bcbf5</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-06 13:41:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:11:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4406088c1b17e810ea0eda02dd4bcbf4</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0806088c1b17e810ea0eda02dd4bcbf0</sys_ui_form>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-06 13:41:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:42:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>442d88c81b97e810ea0eda02dd4bcb59</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0806088c1b17e810ea0eda02dd4bcbf0</sys_ui_form>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">4c2d88c81b97e810ea0eda02dd4bcb54</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-06 13:41:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:42:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e64dc00c1b97e810ea0eda02dd4bcb9a</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0806088c1b17e810ea0eda02dd4bcbf0</sys_ui_form>
+            <sys_ui_section caption="OHS" display_value="OHS" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">2a4dc00c1b97e810ea0eda02dd4bcb19</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-06 13:41:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:11:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0806088c1b17e810ea0eda02dd4bcbf0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0806088c1b17e810ea0eda02dd4bcbf0</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Safety complaint" name="safety_complaint">6e95084c1b17e810ea0eda02dd4bcb8f</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

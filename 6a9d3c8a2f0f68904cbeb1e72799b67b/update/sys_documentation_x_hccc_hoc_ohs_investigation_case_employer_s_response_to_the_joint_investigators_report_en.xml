@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="employer_s_response_to_the_joint_investigators_report" label="Employer's response to the joint investigators report" language="en" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>employer_s_response_to_the_joint_investigators_report</element>
+            <help/>
+            <hint>In consultation with OHS, based on the joint investigation report you may respond to the recommendations with an action plan, identifying corrective action(s) and implementation timelines. If it is concluded that a hazardous situation exists, ensure that no employee is subjected to the hazardous situation and immediately takes steps to rectify it.</hint>
+            <label>Employer's response to the joint investigators report</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Employer's response to the joint investigators reports</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-08-12 14:00:54</sys_created_on>
+            <sys_id>b0b2f76787b9f810b7cac956cebb3569</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Employer's response to the joint investigators report</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_employer_s_response_to_the_joint_investigators_report_en</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

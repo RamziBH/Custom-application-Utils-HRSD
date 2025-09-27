@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="generic_assessment_request_type" table="x_hccc_hoc_ohs_options" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>generic_assessment_request_type</element>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 21:37:56</sys_created_on>
+            <sys_id>e279db101b51869478230d47dc4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>generic_assessment_request_type</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_options_generic_assessment_request_type</sys_update_name>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 21:37:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>generic_assessment_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:gs.getMessage("x_hccc_hoc_ohs.please.select")</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 21:37:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56c9106b3b04b2d0aeb1ebc964e45a7b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 21:38:15</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>generic_assessment_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:gs.getMessage("x_hccc_hoc_ohs.please.select")</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 21:37:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2c9106b3b04b2d0aeb1ebc964e45a7c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 21:38:14</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>generic_assessment_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Projects - General</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 21:38:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ec9106b3b04b2d0aeb1ebc964e45a96</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 21:39:12</sys_updated_on>
+            <value>proj_general</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>generic_assessment_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>projets – Général</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:29:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dec9106b3b04b2d0aeb1ebc964e45a95</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:29:36</sys_updated_on>
+            <value>proj_general</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>generic_assessment_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fuites d'eau</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:27:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ac9106b3b04b2d0aeb1ebc964e45a98</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:27:43</sys_updated_on>
+            <value>water_leaks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>generic_assessment_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Water Leaks</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 21:38:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dac9106b3b04b2d0aeb1ebc964e45a97</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 21:39:14</sys_updated_on>
+            <value>water_leaks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>generic_assessment_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>dommages matériels</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-30 06:28:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56c9106b3b04b2d0aeb1ebc964e45a9a</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-30 06:29:13</sys_updated_on>
+            <value>prop_damage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>generic_assessment_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Property Damage</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-13 21:38:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6c9106b3b04b2d0aeb1ebc964e45a99</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-13 21:39:15</sys_updated_on>
+            <value>prop_damage</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

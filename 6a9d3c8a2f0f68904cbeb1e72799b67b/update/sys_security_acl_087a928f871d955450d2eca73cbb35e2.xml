@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_hccc_hoc_ohs_investigation_case.u_mediation_notes</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[//If the person has the RW role and the case if Harassement and violence, make the field readable
+answer = ((gs.hasRole("x_hccc_hoc_ohs.respectful_workplace") || gs.hasRole("x_hccc_hoc_ohs.advisor") || ((current.hv_complainant_manager == gs.getUserID() && current.manager_involved == 'yes'))) && current.hr_service=="11d78aa31bb201509fde86acdd4bcb0b") ? true : false;]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-08-18 14:09:14</sys_created_on>
+        <sys_id>087a928f871d955450d2eca73cbb35e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_investigation_case.u_mediation_notes</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_security_acl_087a928f871d955450d2eca73cbb35e2</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

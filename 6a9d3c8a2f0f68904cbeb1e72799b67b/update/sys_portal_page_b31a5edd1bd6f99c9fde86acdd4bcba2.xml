@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-09-26 21:27:18">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-11-03 13:03:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b31a5edd1bd6f99c9fde86acdd4bcba2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>PA Vaccination Clinic 2023</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_portal_page_b31a5edd1bd6f99c9fde86acdd4bcba2</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-12-07 13:49:31</sys_updated_on>
+        <title>PA Vaccination Clinic 2023</title>
+        <user/>
+        <view>pa_vaccination_clinic_2_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Vaccination Clinic 2023">b31a5edd1bd6f99c9fde86acdd4bcba2</page>
+                <summary>Vaccination Appointments November 21st Totals</summary>
+                <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2023-11-03 13:05:21</sys_created_on>
+                <sys_id>358a9a111b1af99c9fde86acdd4bcb30</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2023-11-03 13:05:21</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:50</sys_created_on>
+                        <sys_id>10d06e551b5af99c9fde86acdd4bcbf0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:50</sys_created_on>
+                        <sys_id>10d06e551b5af99c9fde86acdd4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:50</sys_created_on>
+                        <sys_id>14d06e551b5af99c9fde86acdd4bcbf0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:50</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:50</sys_created_on>
+                        <sys_id>14d06e551b5af99c9fde86acdd4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:50</sys_created_on>
+                        <sys_id>18d06e551b5af99c9fde86acdd4bcbf0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:50</sys_created_on>
+                        <sys_id>18d06e551b5af99c9fde86acdd4bcbf1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:50</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:50</sys_created_on>
+                        <sys_id>1cd06e551b5af99c9fde86acdd4bcbef</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:50</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:50</sys_created_on>
+                        <sys_id>1cd06e551b5af99c9fde86acdd4bcbf0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:50</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:21</sys_created_on>
+                        <sys_id>318a9a111b1af99c9fde86acdd4bcb31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:21</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:21</sys_created_on>
+                        <sys_id>398a9a111b1af99c9fde86acdd4bcb30</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:21</sys_updated_on>
+                        <value>6fe8d2d91bd6f99c9fde86acdd4bcb06</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:21</sys_created_on>
+                        <sys_id>798a9a111b1af99c9fde86acdd4bcb31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:21</sys_updated_on>
+                        <value>Vaccination Appointments November 21st Totals</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:21</sys_created_on>
+                        <sys_id>7d8a9a111b1af99c9fde86acdd4bcb30</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:21</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:21</sys_created_on>
+                        <sys_id>b58a9a111b1af99c9fde86acdd4bcb31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:21</sys_updated_on>
+                        <value>pivot</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:21">358a9a111b1af99c9fde86acdd4bcb30</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:21</sys_created_on>
+                        <sys_id>f18a9a111b1af99c9fde86acdd4bcb31</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:21</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Vaccination Clinic 2023">b31a5edd1bd6f99c9fde86acdd4bcba2</page>
+                <summary>Vaccination Appointments November 9th Totals</summary>
+                <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2023-11-03 13:05:12</sys_created_on>
+                <sys_id>677a12511b1af99c9fde86acdd4bcb8a</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2023-11-03 13:05:12</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:45</sys_created_on>
+                        <sys_id>03c0e6951b5af99c9fde86acdd4bcb23</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:45</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:45</sys_created_on>
+                        <sys_id>07c0e6951b5af99c9fde86acdd4bcb23</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:45</sys_created_on>
+                        <sys_id>0bc0e6951b5af99c9fde86acdd4bcb22</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:45</sys_created_on>
+                        <sys_id>0bc0e6951b5af99c9fde86acdd4bcb23</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:45</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:45</sys_created_on>
+                        <sys_id>0fc0e6951b5af99c9fde86acdd4bcb22</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:45</sys_created_on>
+                        <sys_id>13c0e6951b5af99c9fde86acdd4bcb24</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:45</sys_created_on>
+                        <sys_id>17c0e6951b5af99c9fde86acdd4bcb24</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:45</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:45</sys_created_on>
+                        <sys_id>1fc0e6951b5af99c9fde86acdd4bcb23</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:12</sys_created_on>
+                        <sys_id>277a12511b1af99c9fde86acdd4bcb8b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:12</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:12</sys_created_on>
+                        <sys_id>637a12511b1af99c9fde86acdd4bcb8b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:12</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:12</sys_created_on>
+                        <sys_id>6b7a12511b1af99c9fde86acdd4bcb8a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:12</sys_updated_on>
+                        <value>acc856d91bd6f99c9fde86acdd4bcb2c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:12</sys_created_on>
+                        <sys_id>ab7a12511b1af99c9fde86acdd4bcb8b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:12</sys_updated_on>
+                        <value>Vaccination Appointments November 9th Totals</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:12</sys_created_on>
+                        <sys_id>af7a12511b1af99c9fde86acdd4bcb8a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:12</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:12">677a12511b1af99c9fde86acdd4bcb8a</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:12</sys_created_on>
+                        <sys_id>e77a12511b1af99c9fde86acdd4bcb8b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:12</sys_updated_on>
+                        <value>pivot</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Vaccination Clinic 2023">b31a5edd1bd6f99c9fde86acdd4bcba2</page>
+                <summary>Vaccination Appointments November 21st</summary>
+                <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2023-11-03 13:05:17</sys_created_on>
+                <sys_id>a88a5a111b1af99c9fde86acdd4bcb20</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2023-11-03 13:05:17</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:17</sys_created_on>
+                        <sys_id>648a16511b1af99c9fde86acdd4bcb80</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:17</sys_updated_on>
+                        <value>Vaccination Appointments November 21st</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:32</sys_created_on>
+                        <sys_id>77b062951b5af99c9fde86acdd4bcb77</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:17</sys_created_on>
+                        <sys_id>a08a16511b1af99c9fde86acdd4bcb80</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:17</sys_updated_on>
+                        <value>heatmap</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:17</sys_created_on>
+                        <sys_id>a48a5a111b1af99c9fde86acdd4bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:17</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:17</sys_created_on>
+                        <sys_id>ac8a5a111b1af99c9fde86acdd4bcb20</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:17</sys_updated_on>
+                        <value>c519961d1bd6f99c9fde86acdd4bcb3d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:32</sys_created_on>
+                        <sys_id>b3b062951b5af99c9fde86acdd4bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:32</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:32</sys_created_on>
+                        <sys_id>b3b062951b5af99c9fde86acdd4bcb79</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:32</sys_created_on>
+                        <sys_id>b7b062951b5af99c9fde86acdd4bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:32</sys_created_on>
+                        <sys_id>b7b062951b5af99c9fde86acdd4bcb79</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:32</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:32</sys_created_on>
+                        <sys_id>bbb062951b5af99c9fde86acdd4bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:32</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:32</sys_created_on>
+                        <sys_id>bfb062951b5af99c9fde86acdd4bcb77</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:32:32</sys_created_on>
+                        <sys_id>bfb062951b5af99c9fde86acdd4bcb78</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:17</sys_created_on>
+                        <sys_id>e08a5a111b1af99c9fde86acdd4bcb21</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:17</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-03 09:05:17">a88a5a111b1af99c9fde86acdd4bcb20</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:05:17</sys_created_on>
+                        <sys_id>ec8a16511b1af99c9fde86acdd4bcb7f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:05:17</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Vaccination Clinic 2023">b31a5edd1bd6f99c9fde86acdd4bcba2</page>
+                <summary>Vaccination Appointments November 9th</summary>
+                <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2023-11-03 13:04:57</sys_created_on>
+                <sys_id>c87a12511b1af99c9fde86acdd4bcbd0</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2023-11-03 13:04:58</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:04:57</sys_created_on>
+                        <sys_id>047a12511b1af99c9fde86acdd4bcbd1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:04:57</sys_updated_on>
+                        <value>0bc79ad51bd6f99c9fde86acdd4bcbcf</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:04:58</sys_created_on>
+                        <sys_id>087a12511b1af99c9fde86acdd4bcbd2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:04:58</sys_updated_on>
+                        <value>heatmap</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:04:58</sys_created_on>
+                        <sys_id>447a12511b1af99c9fde86acdd4bcbd2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:04:58</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:31:35</sys_created_on>
+                        <sys_id>4680a2151b5af99c9fde86acdd4bcb7d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:31:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:04:58</sys_created_on>
+                        <sys_id>807a12511b1af99c9fde86acdd4bcbd2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:04:58</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:31:35</sys_created_on>
+                        <sys_id>828062551b5af99c9fde86acdd4bcb76</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:31:35</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:31:35</sys_created_on>
+                        <sys_id>8280a2151b5af99c9fde86acdd4bcb7e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:31:35</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:31:35</sys_created_on>
+                        <sys_id>8280a2151b5af99c9fde86acdd4bcb7f</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:31:35</sys_created_on>
+                        <sys_id>8680a2151b5af99c9fde86acdd4bcb7e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:31:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:31:35</sys_created_on>
+                        <sys_id>8a80a2151b5af99c9fde86acdd4bcb7e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:31:35</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_header</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:31:35</sys_created_on>
+                        <sys_id>8e80a2151b5af99c9fde86acdd4bcb7d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:31:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:31:35</sys_created_on>
+                        <sys_id>8e80a2151b5af99c9fde86acdd4bcb7e</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:32:07</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:04:58</sys_created_on>
+                        <sys_id>c87a12511b1af99c9fde86acdd4bcbd2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:04:58</sys_updated_on>
+                        <value>Vaccination Appointments November 9th</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2023-11-03 09:04:57">c87a12511b1af99c9fde86acdd4bcbd0</portal_section>
+                        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2023-11-03 13:04:57</sys_created_on>
+                        <sys_id>cc7a12511b1af99c9fde86acdd4bcbd1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2023-11-03 13:04:57</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

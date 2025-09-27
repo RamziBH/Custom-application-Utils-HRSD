@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	// This is only for loading an existing record with a service.
+	if (g_form.isNewRecord())
+		return;
+	
+	g_scratchpad.previousService = g_form.getValue('hr_service');	
+
+	// Show HR Service fields controlled in OHS scope
+	var SCOPE_OHS = '6a9d3c8a2f0f68904cbeb1e72799b67b';
+	if (g_scratchpad.fieldsByScope && g_scratchpad.fieldsByScope.hasOwnProperty(SCOPE_OHS)) {
+		// Set fields to read only if case is in a closed state
+		var setReadOnly = ['3', '4', '7'].indexOf(g_form.getValue('state')) > -1; 
+
+		var fields = g_scratchpad.fieldsByScope[SCOPE_OHS];
+		
+		for (var i = 0; i < fields.length; i++) {
+			g_form.setDisplay(fields[i].trim(), true);
+			if (setReadOnly)
+				g_form.setReadOnly(fields[i].trim(), true);
+		}
+	}
+
+	if (g_scratchpad.subjectPersonRelatedLists) {
+		var relatedListsArr = g_scratchpad.subjectPersonRelatedLists.split(',');
+		// We only need to show hidden related lists, as they only appear on an existing record (not on create so the service cannot change)
+		for (var j = 0; j < relatedListsArr.length; j++)
+			g_form.showRelatedList("REL:" + relatedListsArr[j].trim());
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>Show HR service fields on load - OHS Case</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-21 15:21:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e7d4e2e8fbdfda9895e5fb3f4eefdc18</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Show HR service fields on load - OHS Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_policy_e7d4e2e8fbdfda9895e5fb3f4eefdc18</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-22 16:10:13</sys_updated_on>
+        <table>x_hccc_hoc_ohs_case</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>e7d4e2e8fbdfda9895e5fb3f4eefdc18</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-21 15:21:53</sys_created_on>
+        <sys_id>2845626cfbdfda9895e5fb3f4eefdc10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-21 15:21:53</sys_updated_on>
+        <table>sys_ui_policy</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>ohsm.annual.report</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+	var stageData = JSON.parse(current.json_draft);	
+	
+	var strMessage ="Please see the attached annual report for calendar year " +stageData.year+ " from the House of Commons Administration.";
+		
+	template.print(strMessage);
+   
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-29 01:09:16</sys_created_on>
+        <sys_id>e7c6cefe1b9811109fde86acdd4bcb8a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>ohsm.annual.report</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_email_e7c6cefe1b9811109fde86acdd4bcb8a</sys_update_name>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-03-02 18:12:12</sys_updated_on>
+    </sys_script_email>
+</record_update>

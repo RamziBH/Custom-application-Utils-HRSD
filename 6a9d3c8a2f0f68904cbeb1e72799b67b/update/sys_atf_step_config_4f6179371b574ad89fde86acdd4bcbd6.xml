@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step_config">
+    <sys_atf_step_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <batch_order_constraint/>
+        <can_mutate_page>false</can_mutate_page>
+        <category display_value="HoC">be3690472f7d18104cbeb1e72799b612</category>
+        <class_name/>
+        <class_type>script</class_type>
+        <deprecated>false</deprecated>
+        <description_generator><![CDATA[function generateDescription() {
+    // the global variable 'step' represents the current glide record
+    var description = "Get first user matching criteria";
+	
+    // your code here
+    return description;
+}
+generateDescription();]]></description_generator>
+        <html_description><![CDATA[<div>
+<div><strong>Get user</strong></div>
+</div>]]></html_description>
+        <icon>icon-article-document</icon>
+        <inputs/>
+        <name>Query non whitelisted user</name>
+        <order>2501</order>
+        <outputs/>
+        <performance_include>false</performance_include>
+        <step_env display_value="Server - Independent">6c2bcea1870312009dccc9ded0e3ecca</step_env>
+        <step_execution_generator><![CDATA[// The inputs are a map of the variables defined in the inputs related list below.
+// Inputs are consumed in the step configuration. Input
+// values may be hardcoded or mapped from the outputs of a previous step.
+// If a test author using your step uses mapping to pass in an output from a previous 
+// test step then when referencing the input variable the mapping will be resolved 
+// automatically
+//  Example:
+//      var myRecords = new GlideRecord(inputs.table);
+//
+// The outputs are a map of the variables defined in the outputs related list.
+// Outputs should be set (assigned) in order to pass data out of a test step that
+// can be consumed my mapping as an input to subsequent steps. 
+//  Example:
+//      outputs.table = gr.getRecordClassName()
+//
+//
+// Note that inputs and outputs are strongly typed as defined in their variable definition.
+// Their behavior is the same as a dictionary defined field of the same type in a table.
+//
+// The stepResult is a simple API for controlling the step pass/fail and logging with three
+// methods:
+//      stepResult.setFailed: Causes step to fail
+//
+//      stepResult.setSuccess: Causes step to succeed
+//
+//      stepResult.setOutputMessage: Log a message to step results after step executes.
+//            Can only be called once or will overwrite previous 
+//            message
+//
+// If neither setFailed or setSuccess is called the default is to succeed.
+//
+// Example usage of step timeout in script
+//      var counter = 0;
+//      // 'timeout' is a field on the step form
+//      while (counter <= timeout) {
+//            if (desiredOutcome) {
+//                stepResult.setOutputMessage('Success!');
+//                stepResult.setSuccess();
+//                return;
+//            }
+//            counter++;
+//
+//            // When writing scripts in ATF, use waitOneSecond() instead of gs.sleep()
+//            // since gs.sleep() may not work in non-global scopes
+//            sn_atf.AutomatedTestingFramework.waitOneSecond();
+//      }
+//
+//      // desired outcome did not occur within the timeout
+//      stepResult.setOutputMessage('Failure!');
+//      stepResult.setFailed();
+//
+(function executeStep(inputs, outputs, stepResult, timeout) {
+    //get users in en email whitelist
+    var whiteListed = [];
+    var whiteListedGr = new GlideRecord('sys_user_grmember');
+
+    whiteListedGr.addQuery('group', '081003ae4f3472007af9be218110c7bd'); //email Whitelist
+    whiteListedGr.query()
+    while (whiteListedGr.next()) {
+        whiteListed.push(whiteListedGr.getValue('user'));
+    }
+
+    //get employee
+    var userGr = new GlideRecord('sys_user');
+
+    userGr.addEncodedQuery(inputs.u_conditions);
+    //userGr.addActiveQuery();
+    //userGr.addNotNullQuery('employee_number');
+    //userGr.addNotNullQuery('manager');
+    //userGr.addQuery('x_hccc_base_user_type', 'admin'); //HoC Administration
+    userGr.addQuery('sys_id', 'NOT IN', whiteListed);
+    userGr.addQuery('manager', 'NOT IN', whiteListed);
+    userGr.setLimit(1);
+
+    userGr.query();
+
+    if (userGr.next()) {
+        //outputs.user = userGr;
+        outputs.u_employee = userGr.getDisplayValue('sys_id');
+        stepResult.setOutputMessage('Found user ' + userGr.getDisplayValue() +
+            ' (' + userGr.getDisplayValue('sys_id') + ')');
+        stepResult.setSuccess();
+    } else {
+        stepResult.setFailed();
+    }
+}(inputs, outputs, stepResult, timeout));]]></step_execution_generator>
+        <sys_class_name>sys_atf_step_config</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-16 17:46:10</sys_created_on>
+        <sys_id>4f6179371b574ad89fde86acdd4bcbd6</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Query non whitelisted user</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_config_4f6179371b574ad89fde86acdd4bcbd6</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-16 19:48:38</sys_updated_on>
+        <template_reminder>Get a User</template_reminder>
+        <type display_value="Test Step" name="sys_atf_step">c8ac35621b173300af300d47dc4bcb33</type>
+        <wizard_redirect/>
+    </sys_atf_step_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=4f6179371b574ad89fde86acdd4bcbd6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4f6179371b574ad89fde86acdd4bcbd6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_4f6179371b574ad89fde86acdd4bcbd6^id=4f6179371b574ad89fde86acdd4bcbd6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_output_variable_4f6179371b574ad89fde86acdd4bcbd6^id=4f6179371b574ad89fde86acdd4bcbd6"/>
+</record_update>

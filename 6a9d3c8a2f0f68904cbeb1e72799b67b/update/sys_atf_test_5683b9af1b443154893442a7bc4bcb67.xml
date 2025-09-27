@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>- Validate bug 87604 Workplace Inspection - Cannot save as draft&#13;
+- To be allowed to see a worplace inspection report, a person needs to be a member of the committee group for that building&#13;
+- An employee who submits a workplace inspection report but who is NOT a member of the committee group for that building, will not see the report</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>OHS - Workplace Inspection Save as draft in the record producer copy</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:40:02</sys_created_on>
+        <sys_id>5683b9af1b443154893442a7bc4bcb67</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>OHS - Workplace Inspection Save as draft in the record producer copy</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_5683b9af1b443154893442a7bc4bcb67</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-22 21:04:44</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=5683b9af1b443154893442a7bc4bcb67"/>
+</record_update>

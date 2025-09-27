@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="property_damage" table="x_hccc_hoc_ohs_ohs_assessment_info" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>property_damage</element>
+            <name>x_hccc_hoc_ohs_ohs_assessment_info</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-11 14:33:02</sys_created_on>
+            <sys_id>7c31f4393b319a50aeb1ebc964e45aa9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>property_damage</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_ohs_assessment_info_property_damage</sys_update_name>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-11 14:33:02</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>property_damage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oui</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_ohs_assessment_info</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-11 15:43:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42c9106b3b04b2d0aeb1ebc964e45a44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-11 15:43:00</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>property_damage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_ohs_assessment_info</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-11 14:33:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c2c9106b3b04b2d0aeb1ebc964e45a43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-11 14:33:02</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>property_damage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_ohs_assessment_info</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-11 14:33:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ec9106b3b04b2d0aeb1ebc964e45a45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-11 14:33:12</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>property_damage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_ohs_assessment_info</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-11 15:43:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cec9106b3b04b2d0aeb1ebc964e45a44</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-11 15:43:12</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

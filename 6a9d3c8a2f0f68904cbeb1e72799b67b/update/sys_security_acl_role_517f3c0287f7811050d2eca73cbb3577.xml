@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-01 15:23:37</sys_created_on>
+        <sys_id>517f3c0287f7811050d2eca73cbb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_investigation_case.rw_reason_refusal_not_permitted.snc_internal</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_security_acl display_value="x_hccc_hoc_ohs_investigation_case.rw_reason_refusal_not_permitted">522f450c1b7ec5109fde86acdd4bcb19</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_517f3c0287f7811050d2eca73cbb3577</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

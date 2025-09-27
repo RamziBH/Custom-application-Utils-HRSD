@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition table="x_hccc_hoc_ohs_investigation_case.date_when_employer_received_report_from_joint_investigators">hr_service=5227b08f2f4b60d04cbeb1e72799b659^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_type>allow</decision_type>
+        <description>Field: Date when employer received report from joint investigators</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_hccc_hoc_ohs_investigation_case.date_when_employer_received_report_from_joint_investigators</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = (current.manager_name == gs.getUserID() || gs.hasRole("x_hccc_hoc_ohs.advisor")) ? true : false;]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-04-06 18:49:02</sys_created_on>
+        <sys_id>d47511cc1bbec5109fde86acdd4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_investigation_case.date_when_employer_received_report_from_joint_investigators</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_security_acl_d47511cc1bbec5109fde86acdd4bcb33</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

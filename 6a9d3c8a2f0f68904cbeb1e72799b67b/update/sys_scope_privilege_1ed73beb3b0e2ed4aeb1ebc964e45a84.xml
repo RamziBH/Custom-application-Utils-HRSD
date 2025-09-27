@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>mdsajid.islam@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-16 21:58:21</sys_created_on>
+        <sys_id>1ed73beb3b0e2ed4aeb1ebc964e45a84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> hr_ActivityUtils</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_scope_privilege_1ed73beb3b0e2ed4aeb1ebc964e45a84</sys_update_name>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-16 21:58:21</sys_updated_on>
+        <target_name> hr_ActivityUtils</target_name>
+        <target_scope display_value="Human Resources: Lifecycle Events">532da270dad21200a4656ede91f9331e</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>

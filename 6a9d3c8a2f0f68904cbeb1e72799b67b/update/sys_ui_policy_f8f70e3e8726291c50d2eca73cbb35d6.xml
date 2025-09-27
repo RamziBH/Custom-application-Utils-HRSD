@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_hccc_hoc_ohs_telework_agreement">type_telework_arrangement=telework_fixed^EQ<item display_value="Fixed telework (prescribed telework schedule)" endquery="false" field="type_telework_arrangement" goto="false" newquery="false" operator="=" or="false" value="telework_fixed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>TelWrk Show Fixed Choices</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-05 17:39:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8f70e3e8726291c50d2eca73cbb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TelWrk Show Fixed Choices</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_policy_f8f70e3e8726291c50d2eca73cbb35d6</sys_update_name>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-05-05 17:39:37</sys_updated_on>
+        <table>x_hccc_hoc_ohs_telework_agreement</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

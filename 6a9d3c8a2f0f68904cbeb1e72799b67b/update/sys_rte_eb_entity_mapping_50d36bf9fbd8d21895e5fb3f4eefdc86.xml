@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE">
+        <condition_script><![CDATA[/* global input */
+
+(function(input) {
+    if (input && input.x_hccc_hoc_ohs_hira_case) {
+        const timeStamp = new Date().toISOString();
+        const infoStr = 'OHS - ' + timeStamp + ' - x_hccc_hoc_ohs_hira_case - ';
+
+        gs.debug(infoStr + 'input.x_hccc_hoc_ohs_hira_case:\n' + JSON.stringify(input.x_hccc_hoc_ohs_hira_case));
+        return true;
+    } else {
+        return false;
+    }
+})(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group>Opening HIRA Cases</entity_mapping_group>
+        <ignore>true</ignore>
+        <is_conditional>true</is_conditional>
+        <name>Case to Temp</name>
+        <order>350</order>
+        <source_sys_rte_eb_entity display_value="HIRA Case">6f5ed5431bc01e9c2a0bcb3f034bcb0d</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-29 14:00:04</sys_created_on>
+        <sys_id>50d36bf9fbd8d21895e5fb3f4eefdc86</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Case to Temp</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="OHS - HIRA Initial Import (INACTIVE)">8aa7518b1b401e9c2a0bcb3f034bcb66</sys_rte_eb_definition>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_50d36bf9fbd8d21895e5fb3f4eefdc86</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-29 14:12:46</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="Temp">ff9eead7db4816588d592d9a13961922</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+</record_update>

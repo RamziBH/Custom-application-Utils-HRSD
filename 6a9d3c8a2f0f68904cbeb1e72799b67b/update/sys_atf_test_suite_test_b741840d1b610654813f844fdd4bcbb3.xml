@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>230</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-11 20:41:37</sys_created_on>
+        <sys_id>b741840d1b610654813f844fdd4bcbb3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>e9c97fb81ba5c254813f844fdd4bcbc7</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_b741840d1b610654813f844fdd4bcbb3</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-25 15:12:22</sys_updated_on>
+        <test display_value="DNU - OHS - H&amp;V - Tab Create/Delete access for OHS Admin">e9c97fb81ba5c254813f844fdd4bcbc7</test>
+        <test_suite display_value="DNU - OHS - H&amp;V - Permissions">ffb006381b6406d0813f844fdd4bcb92</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

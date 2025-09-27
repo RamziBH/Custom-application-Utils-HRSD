@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Accommodation Request">5d665a883b54a210aeb1ebc964e45acc</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-03-11 14:22:17</sys_created_on>
+        <sys_id>198d225cfbd42e1095e5fb3f4eefdc50</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HoC OHS Employee Details.Accommodation Request form</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>io_set_item_198d225cfbd42e1095e5fb3f4eefdc50</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-03-11 14:22:17</sys_updated_on>
+        <variable_set display_value="HoC OHS Employee Details">90fbe9c81b2a0a50813f844fdd4bcb28</variable_set>
+    </io_set_item>
+</record_update>

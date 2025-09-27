@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="HoC Occupational Health and Safety Manag">712efc8a2f0f68904cbeb1e72799b660</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Monthly Dashboard</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/$pa_dashboard.do?sysparm_dashboard=9cf781c9dba034109b09e6fa4b9619c0</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_hccc_hoc_ohs.advisor,x_hccc_hoc_ohs.commitee,x_hccc_hoc_ohs.disability_advisor,x_hccc_hoc_ohs.wellness,x_hccc_hoc_ohs.committee</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>umair.ahmed</sys_created_by>
+        <sys_created_on>2021-06-16 07:39:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c248b89d1bb43010c261ed3cbc4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Monthly Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_app_module_c248b89d1bb43010c261ed3cbc4bcb42</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <timeline_page/>
+        <title>Monthly Dashboard</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

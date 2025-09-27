@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>fea8c4753b62de54aeb1ebc964e45ab4</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_group_has_role">
+    <sys_group_has_role action="INSERT_OR_UPDATE">
+        <granted_by/>
+        <group display_value="CEH-HRS-OHS-Disability-Advisors" name="CEH-HRS-OHS-Disability-Advisors">dc2888f13b62de54aeb1ebc964e45a23</group>
+        <inherits>true</inherits>
+        <role display_value="x_hccc_hoc_ohs.disability_advisor" name="x_hccc_hoc_ohs.disability_advisor">1b7a7651dbf074109b09e6fa4b9619bc</role>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-12-18 18:23:03</sys_created_on>
+        <sys_id>fea8c4753b62de54aeb1ebc964e45ab4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-12-18 18:23:03</sys_updated_on>
+    </sys_group_has_role>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-07 16:29:30</sys_created_on>
+        <sys_id>227e26c8fbc71e1095e5fb3f4eefdc01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Created 2024-12-18 13:23:03</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_227e26c8fbc71e1095e5fb3f4eefdc01</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-07 16:29:30</sys_updated_on>
+        <tablename>sys_group_has_role</tablename>
+    </sys_metadata_link>
+</record_update>

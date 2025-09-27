@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Create HIRA">fee7d2703bcc9e90aeb1ebc964e45a11</map>
+        <order>100</order>
+        <script><![CDATA[//The onBefore event script is processed at the start of a row transformation, before the source row is transformed into the target row.
+//https://docs.servicenow.com/bundle/xanadu-integrate-applications/page/script/server-scripting/reference/r_MapWithTransformationEventScripts.html
+(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    const GROUP = {
+        OHS_ADVISOR: "13e4414a2f4f68904cbeb1e72799b6f1" //CEH-HRS-OHS-Advisor
+    }
+
+    function getPositionManager(position) {
+        var jbs = new GlideRecord('sn_hr_core_job');
+
+        if (gs.nil(position.reports_to)) {
+            return null;
+        }
+
+        //Find manager & assignation
+        jbs.addQuery('position', position.reports_to);
+        jbs.addQuery('job_active', true);
+        jbs.addQuery('user.active', true);
+        jbs.query();
+        if (jbs.next()) {
+            return jbs.user;
+        }
+
+        return null;
+    }
+
+    function getPositionDescription(position) {
+        var description = '';
+
+        description = 'Position: ' + position.position_code.code + ' - ' + position.position_code.name;
+        if (position.reports_to && position.reports_to.x_hccc_base_org_position_code) {
+            description += '\nReporting to: ' + position.reports_to.x_hccc_base_org_position_code.name;
+        }
+        if (position.reports_to && position.reports_to.department) {
+            description += '\nIn Department: ' + position.reports_to.department.name;
+        }
+
+        return description;
+    }
+
+    const mgr = getPositionManager(target.position_reporting_position);
+
+    target.assignment_group = GROUP.OHS_ADVISOR; //CEH-HRS-OHS-Advisor
+    if (!gs.nil(mgr)) { //manager not found
+        target.manager_name = mgr;
+    }
+    target.short_description = getPositionDescription(target.position_reporting_position);
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 19:25:55</sys_created_on>
+        <sys_id>56142bbf3b589ad0aeb1ebc964e45a88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_transform_script_56142bbf3b589ad0aeb1ebc964e45a88</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 19:25:55</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

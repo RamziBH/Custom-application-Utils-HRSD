@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>OHS Advisor (Final review)</label>
+        <language>fq</language>
+        <name>sys_ui_action</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-06-22 11:19:34</sys_created_on>
+        <sys_id>90b46c1f1bb0bc10c261ed3cbc4bcb57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OHS Advisor (Final review)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_translated_90b46c1f1bb0bc10c261ed3cbc4bcb57</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <value>OHS Advisor(Final review)</value>
+    </sys_translated>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>HoC - OHSM - Outstanding corrective actions event</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Guillaume Houde (AZ)">bd3c6d411b9bd810ea0eda02dd4bcb52</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-10-06 15:18:01</run_start>
+        <run_time>1970-01-01 15:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[//Send emails
+var gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+gr.addEncodedQuery('stateNOT IN3,4,7,902,907');
+gr.addEncodedQuery('hr_service=a284e0261b7a30109fde86acdd4bcbfc');
+gr.addEncodedQuery('sys_created_onONToday@javascript:gs.daysAgoStart(5)@javascript:gs.daysAgoEnd(5)^ORsys_created_onONToday@javascript:gs.daysAgoStart(10)@javascript:gs.daysAgoEnd(10)');
+//^ORsys_created_onONToday@javascript:gs.daysAgoStart(30)@javascript:gs.daysAgoEnd(30)
+//gr.addEncodedQuery("sys_created_onON2023-01-18@javascript:gs.dateGenerate('"+testISO+"','start')@javascript:gs.dateGenerate('"+testISO+"','end')"); //for specific dates
+gr.query();
+//gs.addInfoMessage("AMP test - first");
+while (gr.next()) {
+	//gs.addInfoMessage("AMP test - " + gr.getValue("number"));
+	gs.eventQueue('x_hccc_hoc_ohs.outstanding.corrective.actions.reminder',gr);
+}
+
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-24 14:32:40</sys_created_on>
+        <sys_id>1ba3f05b1b1ee9549fde86acdd4bcb55</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>HoC - OHSM - Outstanding corrective actions event</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysauto_script_1ba3f05b1b1ee9549fde86acdd4bcb55</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-04-29 15:51:25</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>1ba3f05b1b1ee9549fde86acdd4bcb55</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-04-24 15:28:00</sys_created_on>
+        <sys_id>7882692afbc1ea9c95e5fb3f4eefdca7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-04-24 15:28:00</sys_updated_on>
+        <table>sysauto_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

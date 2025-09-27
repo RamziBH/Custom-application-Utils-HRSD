@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>employee_validation</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>(current.state ==101 &amp;&amp; current.hr_service.value=="internal_safety_complaint" ) &amp;&amp; (current.getValue("manager_name") == gs.getUserID() || gs.hasRole('x_hccc_hoc_ohs.admin'))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Request Employee Validation</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[//gs.eventQueue('x_hccc_csoir.notify.supervisor', current);
+//gs.addInfoMessage("Supervisor notified");
+current.update();
+if (current.covered_by_collective_agreement == "") {
+	//gs.addErrorMessage("Please fill-out the field 'Investigation details' before marking the investigation as completed");
+	gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.covered_by_collective_agreement"));
+}
+if (current.union == "") {
+	//gs.addErrorMessage("Please fill-out the field 'Decision' before marking the investigation as completed");
+	gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.union"));
+}
+if(current.union != "Unrepresented"){
+	if (current.rep_name == "") {
+		gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.rep_name"));
+	}
+}
+
+if (current.employer_s_response_to_the_joint_investigators_report == "") {
+	gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.employer_s_response_to_the_joint_investigators_report"));
+}
+
+if (current.sc_action_plan == "") {
+	gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.sc_action_plan"));
+}
+action.setRedirectURL(current);
+if (current.covered_by_collective_agreement != "" && current.union != "" && current.employer_s_response_to_the_joint_investigators_report != "" && current.sc_action_plan != "") {
+	if(current.union != "Unrepresented"){
+		if (current.rep_name != "") {
+			current.state = 108;
+			current.update();
+			action.setRedirectURL(current);
+		}
+	}
+	else{
+		current.state = 108;
+		current.update();
+		action.setRedirectURL(current);
+	}
+}
+
+// || (current.state == 102 && current.hr_service.value=="refusal_to_work" )]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-01 15:10:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>214707f02f53e4104cbeb1e72799b623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Employee Validation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_action_214707f02f53e4104cbeb1e72799b623</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-12 21:37:14</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

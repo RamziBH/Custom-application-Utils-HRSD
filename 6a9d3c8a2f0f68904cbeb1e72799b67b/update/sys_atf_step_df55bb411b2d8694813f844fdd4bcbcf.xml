@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Create a User">e9c9bbbc1ba5c254813f844fdd4bcb2b</copied_from>
+        <description>Create user with the following values:
+First name = ATFOHSCommitteeFirst
+and Last name = ATFOHSCommitteeLast
+and Email = ATFOHSCommitteeFirst.{{Step 1: Generate Random String.Random String}}.ATFOHSCommitteeLast@parl.gc.ca
+With roles: snc_internal
+With groups: Email Whitelist, CEH-HRS-OHS-COMMITTEE-181 Queen</description>
+        <display_name>Create a User</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Create OHS building committee</notes>
+        <order>2</order>
+        <step_config display_value="Create a User">d9bc5f21ff6033008d3f5d9ad53bf12d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>df55bb411b2d8694813f844fdd4bcbcf</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Create a User</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_df55bb411b2d8694813f844fdd4bcbcf</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:12</sys_updated_on>
+        <table>sys_user</table>
+        <test display_value="DNU - OHS - H&amp;V - Tab Create/Delete access for Building committees">9f55bf011b2d8694813f844fdd4bcb5e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=df55bb411b2d8694813f844fdd4bcbcf"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df55bb411b2d8694813f844fdd4bcbcf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>1355bb411b2d8694813f844fdd4bcbd3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:44:45</sys_updated_on>
+        <value>081003ae4f3472007af9be218110c7bd,cb1b8654db654110e3dd80c74b9619fa</value>
+        <variable display_value="Groups">b27b2b29ff6033008d3f5d9ad53bf164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df55bb411b2d8694813f844fdd4bcbcf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>1f55bb411b2d8694813f844fdd4bcbd3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:44:45</sys_updated_on>
+        <value>email=ATFOHSCommitteeFirst.{{step['5355bb411b2d8694813f844fdd4bcbc9'].random_string}}.ATFOHSCommitteeLast@parl.gc.ca^EQ</value>
+        <variable display_value="User field values">1778a7480f20101091d0f00c97767e03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df55bb411b2d8694813f844fdd4bcbcf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>5b55bb411b2d8694813f844fdd4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-12 14:27:48</sys_updated_on>
+        <value>sys_user</value>
+        <variable display_value="Table">ff06ab840f20101091d0f00c97767e6d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df55bb411b2d8694813f844fdd4bcbcf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>5f55bb411b2d8694813f844fdd4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-12 14:27:48</sys_updated_on>
+        <value>7fcaa702933002009c8579b4f47ffbde</value>
+        <variable display_value="Roles">8c07aba5ff6033008d3f5d9ad53bf13b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df55bb411b2d8694813f844fdd4bcbcf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>9755bb411b2d8694813f844fdd4bcbd3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:44:45</sys_updated_on>
+        <value>ATFOHSCommitteeFirst</value>
+        <variable display_value="First name">1985e0ceff2433008d3f5d9ad53bf1ba</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df55bb411b2d8694813f844fdd4bcbcf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>9b55bb411b2d8694813f844fdd4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-12 14:27:48</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Impersonate this user">98c44875ffa033008d3f5d9ad53bf1fa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>df55bb411b2d8694813f844fdd4bcbcf</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>d355bb411b2d8694813f844fdd4bcbd3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:44:45</sys_updated_on>
+        <value>ATFOHSCommitteeLast</value>
+        <variable display_value="Last name">6f69fc4aff6433008d3f5d9ad53bf18c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=df55bb411b2d8694813f844fdd4bcbcf"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>df55bb411b2d8694813f844fdd4bcbcf</id>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-12 14:27:48</sys_created_on>
+        <sys_id>9355bb411b2d8694813f844fdd4bcbd4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:44:45</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value>email=ATFOHSCommitteeFirst.{{step['5355bb411b2d8694813f844fdd4bcbc9'].random_string}}.ATFOHSCommitteeLast@parl.gc.ca^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>first_name</field>
+        <id>df55bb411b2d8694813f844fdd4bcbcf</id>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-15 12:44:45</sys_created_on>
+        <sys_id>878af6021bad8ed4813f844fdd4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:44:45</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>groups</field>
+        <id>df55bb411b2d8694813f844fdd4bcbcf</id>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-15 12:44:45</sys_created_on>
+        <sys_id>0f8af6021bad8ed4813f844fdd4bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:44:45</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>last_name</field>
+        <id>df55bb411b2d8694813f844fdd4bcbcf</id>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-15 12:44:45</sys_created_on>
+        <sys_id>c38af6021bad8ed4813f844fdd4bcb09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:44:45</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>roles</field>
+        <id>df55bb411b2d8694813f844fdd4bcbcf</id>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-15 12:56:21</sys_created_on>
+        <sys_id>c93dfe8a1bad8ed4813f844fdd4bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-15 12:56:21</sys_updated_on>
+        <table>var__m_atf_input_variable_d9bc5f21ff6033008d3f5d9ad53bf12d</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

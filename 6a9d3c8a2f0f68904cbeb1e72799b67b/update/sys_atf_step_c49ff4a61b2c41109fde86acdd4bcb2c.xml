@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the form matches the following condition:
+Time in current position = 1.6
+and Type of occurence = Emergency procedure
+and Description of what happened contains ATF what happened
+and Description of injury contains ATF desc injury
+and Corrective measures  contains ATF corr measures
+and Implementation Date on 2022-01-03
+and Direct cause of injury = Caught between
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>13</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-23 15:21:58</sys_created_on>
+        <sys_id>c49ff4a61b2c41109fde86acdd4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_c49ff4a61b2c41109fde86acdd4bcb2c</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <test display_value="OHS - Report Incident Frequent Witness No Injury No Mgr fills partial info">a0c99c52dba84110e3dd80c74b961956</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c49ff4a61b2c41109fde86acdd4bcb2c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c49ff4a61b2c41109fde86acdd4bcb2c</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-23 15:21:58</sys_created_on>
+        <sys_id>09b08d2a1b2c41109fde86acdd4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-12-23 15:21:58</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c49ff4a61b2c41109fde86acdd4bcb2c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-23 15:21:58</sys_created_on>
+        <sys_id>8db08d2a1b2c41109fde86acdd4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-12-23 15:21:58</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c49ff4a61b2c41109fde86acdd4bcb2c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-23 15:21:58</sys_created_on>
+        <sys_id>c9b08d2a1b2c41109fde86acdd4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-12-23 15:21:58</sys_updated_on>
+        <value>emp_time_in_pos=1.6^inc_type_occ=emerg_proc^mng_inc_descLIKEATF what happened^mng_desc_injuryLIKEATF desc injury^correct_meas_imp_dateLIKEATF corr measures^implementation_dateON2022-01-03@javascript:gs.dateGenerate('2022-01-03','start')@javascript:gs.dateGenerate('2022-01-03','end')^dir_cause_injury=Caught between^EQ</value>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5^id=c49ff4a61b2c41109fde86acdd4bcb2c"/>
+</record_update>

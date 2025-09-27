@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hccc_hoc_ohs_vaccination_appointment</collection>
+        <condition table="x_hccc_hoc_ohs_vaccination_appointment">wu_location_queue=9437ae841b3135989fde86acdd4bcb9b^window_startISNOTEMPTY^window_startVALCHANGES^EQ<item display_table="wu_location_queue" display_value="Vaccination Clinic" endquery="false" field="wu_location_queue" goto="false" newquery="false" operator="=" or="false" value="9437ae841b3135989fde86acdd4bcb9b"/>
+            <item endquery="false" field="window_start" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="window_start" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="" /></p>
+<p><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"><em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+<p><strong>Please do not reply to this email. The system cannot receive messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">Appointment confirmation</span></p>
+<p>Your appointment has been successfully booked as follow:</p>
+<ul style="list-style-position: inside;">
+<li>CONFIRMATION NUMBER: ${number}</li>
+<li>DATE AND TIME: ${window_start}</li>
+<li>LOCATION: 131 Queen Street, 8<sup>th</sup> Floor, Room 0-53&nbsp;</li>
+</ul>
+<p>Please:</p>
+<ul style="list-style-position: inside;">
+<li>Print and fill out the attached forms prior to arriving on site.</li>
+<li>Arrive 5 minutes prior to your appointment</li>
+</ul>
+<p>Remember to:</p>
+<ul style="list-style-position: inside;">
+<li>Bring your provincial Health Card</li>
+<li>Wear short sleeves</li>
+<li><span style="text-decoration: underline;">Follow all applicable <strong>COVID-19</strong> health and safety guidelines</span></li>
+<li>Show your Hill identification <strong>card</strong></li>
+</ul>
+<p><strong>If you need to cancel or re-schedule your appointment, please <a href="https://hoccdc.service-now.com/services?id=ticket&amp;is_new_order=true&amp;table=x_hccc_hoc_ohs_vaccination_appointment&amp;sys_id=${sys_id}" target="_blank" rel="noopener">click here</a>.</strong></p>
+<p>For questions please contact the health and wellness team at <a title="healthandwellness-santeetmieux-etre@parl.gc.ca" href="mailto:healthandwellness-santeetmieux-etre@parl.gc.ca">healthandwellness-santeetmieux-etre@parl.gc.ca</a> or by calling (613) 943-5555.</p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<p>&nbsp;</p>
+<div>
+<p><strong>Occupational Health and Safety</strong></p>
+<p>House of Commons</p>
+<p>50 O&rsquo;Connor, 8<span data-fontsize="11">th</span> floor <br />Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Office: 613-995-3614</p>
+</div>
+<hr noshade="noshade" />
+<p><a name="francais"></a><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p>&nbsp;</p>
+<p><strong>Pri&egrave;re de ne pas r&eacute;pondre au pr&eacute;sent courriel, car il provient d&rsquo;une adresse qui ne peut pas recevoir de messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">Confirmation de rendez-vous</span></p>
+<p>Votre rendez-vous a &eacute;t&eacute; r&eacute;serv&eacute; comme suit:</p>
+<ul style="list-style-position: inside;">
+<li>NUMERO DE CONFIRMATION: ${number}</li>
+<li>DATE ET HEURE: ${window_start}</li>
+<li>ENDROIT: 131 rue Queen, 8<sup>e</sup> &eacute;tage, pi&egrave;ce 0-53&nbsp;</li>
+</ul>
+<p>S.v.p:</p>
+<ul style="list-style-position: inside;">
+<li>remplir et imprimer, avant m&ecirc;me d&rsquo;arriver sur les lieux, les formulaires ci-joints.</li>
+<li>arriver 5 min. avant votre rendez-vous</li>
+</ul>
+<p>Rappel:</p>
+<ul style="list-style-position: inside;">
+<li>porter un chandail &agrave; manches courtes</li>
+<li>Apporter votre carte sant&eacute; provinciale</li>
+<li><span style="text-decoration: underline;">suivre les mesures courantes de sant&eacute; s&eacute;curit&eacute; contre la COVID-19</span></li>
+<li>pr&eacute;sent&eacute; votre carte d'identification de la Colline</li>
+</ul>
+<p><strong> Si vous devez annuler ou modifier votre rendez-vous, veuillez <a href="https://hoccdc.service-now.com/services?id=ticket&amp;is_new_order=true&amp;table=x_hccc_hoc_ohs_vaccination_appointment&amp;sys_id=03f7c5e53b605650aeb1ebc964e45a04">cliquer ici</a>. </strong></p>
+<p>Pour toute question, veuillez communiquer avec l'&eacute;quipe de sant&eacute; et mieux-&ecirc;tre &agrave; <a title="healthandwellness-santeetmieux-etre@parl.gc.ca" href="mailto:healthandwellness-santeetmieux-etre@parl.gc.ca">healthandwellness-santeetmieux-etre@parl.gc.ca</a> ou en composant le (613) 943-5555</p>
+<p>&nbsp;</p>
+<p>Merci,</p>
+<p>&nbsp;</p>
+<div>
+<p><strong>Sant&eacute; et s&eacute;curit&eacute; au travail</strong></p>
+<p>Chambre des communes</p>
+<p>50 Rue O&rsquo;Connor, 8<span data-fontsize="11">e</span> &eacute;tage <br />Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Bureau: 613-995-3614</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Flu vaccine - Appointment confirmation</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>contact</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Vaccination Clinic - Appointment confirmation / Clinique de vaccination - Confirmation de rendez-vous</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-11-03 17:10:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa666f7b1b7ad1909fde86acdd4bcba0</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Flu vaccine - Appointment confirmation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_fa666f7b1b7ad1909fde86acdd4bcba0</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-17 17:27:17</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>74fcc6213b811e10aeb1ebc964e45ab5</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_hccc_hoc_ohs_choice">
+    <x_hccc_hoc_ohs_choice action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <element>case_subtype</element>
+        <label>Other</label>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-04 19:48:25</sys_created_on>
+        <sys_id>74fcc6213b811e10aeb1ebc964e45ab5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:38:04</sys_updated_on>
+        <table>x_hccc_hoc_ohs_h_and_v_rw</table>
+        <value>Other</value>
+    </x_hccc_hoc_ohs_choice>
+    <sys_translated_text action="delete_multiple" query="documentkey=74fcc6213b811e10aeb1ebc964e45ab5"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>74fcc6213b811e10aeb1ebc964e45ab5</documentkey>
+        <fieldname>label</fieldname>
+        <language>fq</language>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 18:38:04</sys_created_on>
+        <sys_id>a633227e3b0dda18aeb1ebc964e45a73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 18:38:04</sys_updated_on>
+        <tablename>x_hccc_hoc_ohs_choice</tablename>
+        <value>Autres</value>
+    </sys_translated_text>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-10 13:44:47</sys_created_on>
+        <sys_id>7d43b3973bc51698aeb1ebc964e45a03</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Other</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_7d43b3973bc51698aeb1ebc964e45a03</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-10 13:44:47</sys_updated_on>
+        <tablename>x_hccc_hoc_ohs_choice</tablename>
+    </sys_metadata_link>
+</record_update>

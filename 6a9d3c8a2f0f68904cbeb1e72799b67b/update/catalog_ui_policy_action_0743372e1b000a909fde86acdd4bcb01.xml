@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:ab1ceba21b44c6909fde86acdd4bcb08</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>taylor.pullen@ca.ey.com</sys_created_by>
+        <sys_created_on>2024-02-02 16:35:34</sys_created_on>
+        <sys_id>0743372e1b000a909fde86acdd4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>title</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0743372e1b000a909fde86acdd4bcb01</sys_update_name>
+        <sys_updated_by>taylor.pullen@ca.ey.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 16:35:34</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Contact Information Read Only">cc03bb661b000a909fde86acdd4bcb75</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>title</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

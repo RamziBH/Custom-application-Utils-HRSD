@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hccc_hoc_ohs_wellness_hr_task</collection>
+        <condition table="x_hccc_hoc_ohs_wellness_hr_task">parent.ref_sn_hr_core_case.hr_service=72f913ea1b8846909fde86acdd4bcbd3^assigned_toVALCHANGES^assigned_toISNOTEMPTY^EQ<item display_table="sn_hr_core_service" display_value="Wellness" endquery="false" field="parent.ref_sn_hr_core_case.hr_service" goto="false" newquery="false" operator="=" or="false" value="72f913ea1b8846909fde86acdd4bcbd3"/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="" />&nbsp;</p>
+<p><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"> <em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+<p><strong>Please do not reply to this email. This system cannot receive messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">A task has been assigned to you<br /></span></p>
+<p>Please follow the link below to complete the task assigned to you.</p>
+<p>${mail_script:x_hccc_hoc_ohs_go_to_task_workspace_en}</p>
+<p>&nbsp;</p>
+<div>
+<p><strong>Occupational Health and Safety</strong></p>
+<p>House of Commons</p>
+<p>50 O&rsquo;Connor, 8<span data-fontsize="11">th</span> floor <br />Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Office: 613-995-3614</p>
+</div>
+<hr noshade="noshade" />
+<p><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p>&nbsp;</p>
+<p><strong>Pri&egrave;re de ne pas r&eacute;pondre au pr&eacute;sent courriel, car il provient d&rsquo;une adresse qui ne peut pas recevoir de messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">Une t&acirc;che vous a &eacute;t&eacute; assign&eacute;e</span></p>
+<p>Veuillez suivre le lien ci-dessous pour terminer la t&acirc;che qui vous a &eacute;t&eacute; confi&eacute;e.</p>
+<p>${mail_script:x_hccc_hoc_ohs_go_to_task_workspace_fq}</p>
+<p>&nbsp;</p>
+<div>
+<p><strong>Sant&eacute; et s&eacute;curit&eacute; au travail</strong></p>
+<p>Chambre des communes</p>
+<p>50 Rue O&rsquo;Connor, 8<span data-fontsize="11">e</span> &eacute;tage <br />Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Bureau: 613-995-3614</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HoC - Wellness Task assigned</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>A task has been assigned to you / Une tâche vous a été assignée</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-12 19:16:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5308b33d1b5402dc9fde86acdd4bcb76</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HoC - Wellness Task assigned</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_5308b33d1b5402dc9fde86acdd4bcb76</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-22 17:12:20</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

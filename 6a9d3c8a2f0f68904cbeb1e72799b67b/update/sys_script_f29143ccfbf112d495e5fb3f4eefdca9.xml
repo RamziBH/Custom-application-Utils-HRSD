@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition/>
+        <description>Extract the emails for the submitter and the complainant for a Harassment and Violence complaint then trigger the email notifications.</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^initial_review.principal_partyVALCHANGES^complainant_contact_detailsNOT LIKEcourriel^complainant_contact_detailsNOT LIKEemail^EQ<item display_table="sn_hr_core_service" display_value="Harassment and Violence Notice of Occurence" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="11d78aa31bb201509fde86acdd4bcb0b"/>
+            <item endquery="false" field="initial_review.principal_party" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="complainant_contact_details" goto="false" newquery="false" operator="NOT LIKE" or="false" value="courriel"/>
+            <item endquery="false" field="complainant_contact_details" goto="false" newquery="false" operator="NOT LIKE" or="false" value="email"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HoC - H&amp;V - Trigger Notifications - Principal Party</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    //gs.info("OHSM Testing: H&V Trigger Notification BR run :" + current.number + ":");
+
+    gs.eventQueue('x_hccc_hoc_ohs.hv_complainant_notification', current, current.initial_review.principal_party);
+
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-06 14:34:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f29143ccfbf112d495e5fb3f4eefdca9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HoC - H&amp;V - Trigger Notifications - Principal Party</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_f29143ccfbf112d495e5fb3f4eefdca9</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-06 20:20:24</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=f29143ccfbf112d495e5fb3f4eefdca9"/>
+</record_update>

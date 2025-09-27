@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following variables are visible: Pictures and document can be attached once submitted
+Confirm that the following variables are read only: Inspector name
+Confirm that the following variables are mandatory: Area(s) inspected, Building, Date/Time of inspection, Floor(s) inspected, Report submission, Shared space, Area(s) not inspected, provide reason
+Confirm that the following variables are not mandatory: Air quality is adequate, Appliances are in good condition and are CSA or ULc approved, Ceiling tiles are in good condition, Cords and plugs are in good condition, Desk and file cabinet drawers are closed while not in use, Emergency exits are free from obstruction, Emergency exits signs are properly lit, Evacuation plan is properly posted, Fire extinguishers are hung properly, are accessible inspected on a monthly basis  , Fire hose cabinets are accessible and free of obstruction, First aid kits are inspected on a monthly basis and are they accessible, Floors are clear of debris, loose materials, condition of carpet, etc…, Hazardous products are properly identified, Hygiene supplies are available (soap, towels, bathroom tissue), Is the office furniture ergonomic and in good condition, Is the office furniture free from sharp edges and corners, Kitchen area (appliances, countertop, etc.) is clean, Lighting levels are operational (entrance, office and stairways), Main aisles are at least 36 inches wide, Material and storage systems are secured from tipping and are in good condition, Materials are stored securely and at an appropriate height, Noise levels are appropriate, One appliance is plugged in the same socket at the same time, Other, Other inspector(s), Paper trimmer/cutter blade is closed and secured, Parking lot and outside of the building are in good condition (snow removal, salting, lighting), Power bars are not plugged into another power bar (daisy chain), Printer toners are handled as a hazardous substance and are stored properly, Pull stations are accessible and free of obstruction, Security Systems (intercom, duress alarm, etc), See the posting requirements document in the health and safety representative Toolbox, Signs are posted when the floors are wet, Space heaters are CSA approved and have an auto shut-off feature, Step stools and ladders are available and in good condition, Storage room is maintained and clean (if applicable), Temperature is adequate, Ventilation is adequate, Walkways are free from obstructions, Washrooms are clean, Waste containers are emptied daily, Wire management in good condition and are not a tripping hazard
+</description>
+        <display_name>Variable State Validation (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Variable State Validation (SP)">1ebb17799f1303002528d4b4232e70c0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>5adc80eb871ec11050d2eca73cbb3585</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Variable State Validation (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_5adc80eb871ec11050d2eca73cbb3585</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:32</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - Workplace Inspection Mandatory fields in Record Producer">887c0c6b871ec11050d2eca73cbb35eb</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5adc80eb871ec11050d2eca73cbb3585"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5adc80eb871ec11050d2eca73cbb3585</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>11fc84eb871ec11050d2eca73cbb351e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 14:02:28</sys_updated_on>
+        <value>e78b66821ba63450426497d58d4bcb34</value>
+        <variable display_value="Read only">516e57b99f1303002528d4b4232e700b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5adc80eb871ec11050d2eca73cbb3585</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>1dfc84eb871ec11050d2eca73cbb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 13:59:41</sys_updated_on>
+        <value/>
+        <variable display_value="Not read only">41ae57b99f1303002528d4b4232e7076</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5adc80eb871ec11050d2eca73cbb3585</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>59fc84eb871ec11050d2eca73cbb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 13:59:41</sys_updated_on>
+        <value>936de3601b2ab810426497d58d4bcb19</value>
+        <variable display_value="Catalog item">00eb17799f1303002528d4b4232e70fe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5adc80eb871ec11050d2eca73cbb3585</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>5dfc84eb871ec11050d2eca73cbb351d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 14:08:25</sys_updated_on>
+        <value>a0004d40dbd90110e3dd80c74b96198c</value>
+        <variable display_value="Visible">fe5d9f799f1303002528d4b4232e70d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5adc80eb871ec11050d2eca73cbb3585</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>95fc84eb871ec11050d2eca73cbb351e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-28 18:12:58</sys_updated_on>
+        <value>ed6f6b241b2ab810426497d58d4bcb2e,06973ab01bb27c109fde86acdd4bcb1b,3e503f641b2ab810426497d58d4bcba8,391047e01b36f8109fde86acdd4bcb03,f19387ac1b36f8109fde86acdd4bcbd5,a74107e41b36f8109fde86acdd4bcb04,9081cfe41b36f8109fde86acdd4bcbe9,36c107681b36f8109fde86acdd4bcb58,1e21c7a41b36f8109fde86acdd4bcb2e,dae183681b36f8109fde86acdd4bcb9f,f7f047a41b36f8109fde86acdd4bcb45,96fdef601b2ab810426497d58d4bcb65,1d30f7641b2ab810426497d58d4bcbe8,d117b2701bb27c109fde86acdd4bcb80,8143c76c1b36f8109fde86acdd4bcb50,ccc347ec1b36f8109fde86acdd4bcb51,186772b01bb27c109fde86acdd4bcb82,4a3fa3e01b2ab810426497d58d4bcbff,4b9e2ba01b2ab810426497d58d4bcb2b,0dd3a2b81bfe3c109fde86acdd4bcbb7,da63a6781bfe3c109fde86acdd4bcbe3,94bfa3641b2ab810426497d58d4bcbef,59c772f01bb27c109fde86acdd4bcbd0,eb8872741bb27c109fde86acdd4bcbd6,e7cba2c21ba63450426497d58d4bcb4f,036347ac1b36f8109fde86acdd4bcbf1,713832341bb27c109fde86acdd4bcb7e,03504be01b36f8109fde86acdd4bcb69,61f3cfac1b36f8109fde86acdd4bcb86,d512c7681b36f8109fde86acdd4bcb9e,f1e28b2c1b36f8109fde86acdd4bcb91,1f64c7201b76f8109fde86acdd4bcbf2,3d3e67a01b2ab810426497d58d4bcb59,478087241b36f8109fde86acdd4bcba5,2514ee781bfe3c109fde86acdd4bcb4d,7296f6301bb27c109fde86acdd4bcb44,c48f23241b2ab810426497d58d4bcb28,5f00bf641b2ab810426497d58d4bcbd6,025eefa01b2ab810426497d58d4bcb61,2cf6b2701bb27c109fde86acdd4bcb4a,b537fa701bb27c109fde86acdd4bcb98,35b08b641b36f8109fde86acdd4bcbbf</value>
+        <variable display_value="Not mandatory">b4de97b99f1303002528d4b4232e7077</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5adc80eb871ec11050d2eca73cbb3585</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>99fc84eb871ec11050d2eca73cbb351d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 13:59:41</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">d92b4dd673142300688e0d573cf6a7c3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5adc80eb871ec11050d2eca73cbb3585</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>d1fc84eb871ec11050d2eca73cbb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 13:59:41</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">080e93b99f1303002528d4b4232e706d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5adc80eb871ec11050d2eca73cbb3585</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 13:59:41</sys_created_on>
+        <sys_id>ddfc84eb871ec11050d2eca73cbb351e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-28 18:12:58</sys_updated_on>
+        <value>940a268e1b663450426497d58d4bcb10,de99e28e1b663450426497d58d4bcbc4,b62a6a8e1b663450426497d58d4bcbc8,aec9ae8e1b663450426497d58d4bcb53,8153185b1b7e70109fde86acdd4bcbf0,0a5aee8e1b663450426497d58d4bcb58,e08686711b14f9d49fde86acdd4bcb42</value>
+        <variable display_value="Mandatory">b3be97b99f1303002528d4b4232e70ce</variable>
+    </sys_variable_value>
+</record_update>

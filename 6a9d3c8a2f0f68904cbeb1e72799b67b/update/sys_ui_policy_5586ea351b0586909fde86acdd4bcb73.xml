@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_hccc_hoc_ohs_investigation_case">hr_service=11d78aa31bb201509fde86acdd4bcb0b^EQ<item display_table="sn_hr_core_service" display_value="Harassment and Violence Notice of Occurence" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="11d78aa31bb201509fde86acdd4bcb0b"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>false</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    function setTabVisibility(answer) {
+        var current_user = g_user.userID;
+        var is_rw_member = answer;
+
+        if (g_user.hasRole("admin")) { //Admin override
+            g_form.setSectionDisplay("comments_andworknotes", true);
+            g_form.setSectionDisplay("subcases_andtasks", true);
+            g_form.setSectionDisplay("case_information", true);
+            g_form.setSectionDisplay("initial_review", true);
+            g_form.setSectionDisplay("negotiated_resolution", true);
+            g_form.setSectionDisplay("mediation", true);
+            g_form.setSectionDisplay("investigation", true);
+            g_form.setSectionDisplay("preventative_measuresohssection", true);
+            g_form.setSectionDisplay("rw", true);
+        } else if (g_form.getValue("assigned_to") === current_user) { //Manager handling the case
+            g_form.setSectionDisplay("comments_andworknotes", true);
+            g_form.setSectionDisplay("subcases_andtasks", true);
+            g_form.setSectionDisplay("case_information", true);
+            g_form.setSectionDisplay("initial_review", true);
+            g_form.setSectionDisplay("negotiated_resolution", true);
+            g_form.setSectionDisplay("mediation", true);
+            g_form.setSectionDisplay("investigation", true);
+            g_form.setSectionDisplay("preventative_measuresohssection", true);
+            g_form.setSectionDisplay("rw", false);
+        } else if (is_rw_member === 'true') { // RW
+            g_form.setSectionDisplay("comments_andworknotes", true);
+            g_form.setSectionDisplay("subcases_andtasks", true);
+            g_form.setSectionDisplay("case_information", true);
+            g_form.setSectionDisplay("initial_review", true);
+            g_form.setSectionDisplay("negotiated_resolution", true);
+            g_form.setSectionDisplay("mediation", true);
+            g_form.setSectionDisplay("investigation", true);
+            g_form.setSectionDisplay("preventative_measuresohssection", true);
+            g_form.setSectionDisplay("rw", true);
+        } else if (g_user.hasRole("x_hccc_hoc_ohs.admin")) { // OHS admin
+            g_form.setSectionDisplay("comments_andworknotes", false);
+            g_form.setSectionDisplay("subcases_andtasks", false);
+            g_form.setSectionDisplay("case_information", false);
+            g_form.setSectionDisplay("initial_review", true);
+            g_form.setSectionDisplay("negotiated_resolution", true);
+            g_form.setSectionDisplay("mediation", false);
+            g_form.setSectionDisplay("investigation", false);
+            g_form.setSectionDisplay("preventative_measuresohssection", true);
+            g_form.setSectionDisplay("rw", false);
+		} else if (g_user.hasRole("x_hccc_hoc_ohs.advisor")) { // OHS advisor
+            g_form.setSectionDisplay("comments_andworknotes", false);
+            g_form.setSectionDisplay("subcases_andtasks", false);
+            g_form.setSectionDisplay("case_information", false);
+            g_form.setSectionDisplay("initial_review", false);
+            g_form.setSectionDisplay("negotiated_resolution", false);
+            g_form.setSectionDisplay("mediation", false);
+            g_form.setSectionDisplay("investigation", false);
+            g_form.setSectionDisplay("preventative_measuresohssection", true);
+            g_form.setSectionDisplay("rw", false);
+        } else if (g_user.hasRole("x_hccc_hoc_ohs.committee")) { // Building committee
+            g_form.setSectionDisplay("comments_andworknotes", false);
+            g_form.setSectionDisplay("subcases_andtasks", false);
+            g_form.setSectionDisplay("case_information", false);
+            g_form.setSectionDisplay("initial_review", false);
+            g_form.setSectionDisplay("negotiated_resolution", false);
+            g_form.setSectionDisplay("mediation", false);
+            g_form.setSectionDisplay("investigation", false);
+            g_form.setSectionDisplay("preventative_measuresohssection", true);
+            g_form.setSectionDisplay("rw", false);
+        } else { //Manager not handling the case and other users
+            g_form.setSectionDisplay("comments_andworknotes", false);
+            g_form.setSectionDisplay("subcases_andtasks", false);
+            g_form.setSectionDisplay("case_information", false);
+            g_form.setSectionDisplay("initial_review", false);
+            g_form.setSectionDisplay("negotiated_resolution", false);
+            g_form.setSectionDisplay("mediation", false);
+            g_form.setSectionDisplay("investigation", false);
+            g_form.setSectionDisplay("preventative_measuresohssection", false);
+            g_form.setSectionDisplay("rw", false);
+        }
+
+		
+        g_form.setSectionDisplay("subcases_andtasks", false); //Tab currently deactivated for all users pending feature enhancement
+
+    }
+
+    var current_user = g_user.userID;
+    var rw_group_sys_id = 'b4a1b2c2db927c109b09e6fa4b961983';
+
+    var ga = new GlideAjax('x_hccc_hoc_ohs.HoCOHSMUtils');
+    ga.addParam('sysparm_name', 'checkUserInGroup');
+    ga.addParam('user_id', current_user);
+    ga.addParam('group_id', rw_group_sys_id);
+
+    ga.getXMLAnswer(setTabVisibility);
+
+
+}]]></script_true>
+        <set_values/>
+        <short_description>H&amp;V hide tabs based on user role</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-20 20:11:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5586ea351b0586909fde86acdd4bcb73</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name>H&amp;V hide tabs based on user role</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_policy_5586ea351b0586909fde86acdd4bcb73</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-11 13:14:06</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <ui_type>10</ui_type>
+        <view display_value="" name="harassment_violence_complaint">harassment_violence_complaint</view>
+    </sys_ui_policy>
+</record_update>

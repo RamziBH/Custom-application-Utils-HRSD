@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="INSERT_OR_UPDATE">
+        <field_list>number,subject_person,manager_name,assigned_to,employee_service_area,sys_created_on,approval,state,type_telework_arrangement,telework_start_date,telework_end_date,sys_updated_on,sys_updated_by,sys_created_by</field_list>
+        <filter/>
+        <name>ed_t_x_hccc_hoc_ohs_telework_agreement</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-19 16:04:54</sys_created_on>
+        <sys_id>07e37a073bc43650aeb1ebc964e45ae9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ed_t_x_hccc_hoc_ohs_telework_agreement</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_export_definition_07e37a073bc43650aeb1ebc964e45ae9</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-23 17:16:04</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_telework_agreement</table_name>
+        <view display_value="Exp_d07e37a073bc43650aeb1ebc964e45ae9" name="exp_d07e37a073bc43650aeb1ebc964e45ae9">1bdc2ca7fb0cbe1895e5fb3f4eefdcf4</view>
+    </sys_export_definition>
+</record_update>

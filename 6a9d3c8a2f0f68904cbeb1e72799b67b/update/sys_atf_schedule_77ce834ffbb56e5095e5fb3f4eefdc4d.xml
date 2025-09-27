@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule">
+    <sys_atf_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <description>This schedule will perform the following actions:
+
+Run suite 'OHS - Top Suite' on a cloud test runner
+
+Run suite 'OHS - Top Suite' on a cloud test runner</description>
+        <entered_time/>
+        <max_drift/>
+        <name>Occupational Health and Safety Management (OHSM)</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <performance_test>false</performance_test>
+        <run_as display_value="Guillaume Houde (AZ)">bd3c6d411b9bd810ea0eda02dd4bcb52</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_in_cloud>true</run_in_cloud>
+        <run_period/>
+        <run_start>2025-06-02 19:25:12</run_start>
+        <run_time>1970-01-01 09:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('77ce834ffbb56e5095e5fb3f4eefdc4d');]]></script>
+        <sys_class_name>sys_atf_schedule</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-02 19:26:00</sys_created_on>
+        <sys_id>77ce834ffbb56e5095e5fb3f4eefdc4d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Occupational Health and Safety Management (OHSM)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_schedule_77ce834ffbb56e5095e5fb3f4eefdc4d</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-04 12:53:54</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_atf_schedule>
+</record_update>

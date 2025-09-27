@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="h_subtype" label="Hazard ID Subtype" language="en" table="x_hccc_hoc_ohs_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>h_subtype</element>
+            <help/>
+            <hint/>
+            <label>Hazard ID Subtype</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_case</name>
+            <plural>Hazard ID Subtypes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-07-02 14:13:21</sys_created_on>
+            <sys_id>cc27e0b43b2aa218aeb1ebc964e45a4d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Hazard ID Subtype</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_case_h_subtype_en</sys_update_name>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-02 14:18:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<div>
+<div>Please fill out the  information for the desired report and submit the request.</div>
+<div> </div>
+<div>To generate French versions of these reports, please change your language to French.</div>
+</div>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>OHSM Report Run Request</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Nataliya Bun (AZ)">056fd5c22f43a8904cbeb1e72799b6f7</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c561663b1b081d109fde86acdd4bcbc1&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[(function() {
+
+
+    new x_hccc_hoc_ohs.HoCOHSRecordProducerUtil().createCaseFromProducer(current, producer, cat_item.sys_id);
+
+    if (producer.ohsm_repo_report == '2306fd9c8774ad5050d2eca73cbb3500' || producer.ohsm_repo_report == '55703d708701a99450d2eca73cbb3566') { //LAB1058
+        //populate fields for report.
+        current.inc_location = producer.ohsm_repo_building;
+        current.committee_excemption_pursuant_to_subsection_135_6_a_of_the_act = producer.ohsm_repo_committee_exemption_pursuant_to_subsection_135_6_a_of_the_act;
+        current.number_of_employees_represented_by_committee = producer.ohsm_repo_number_of_employees_represented_by_committee;
+        current.number_of_trade_union_s_employee_committee_members = producer.ohsm_repo_number_of_trade_union_s_employee_committee_members;
+        current.number_of_non_trade_union_employee_committee_members = producer.ohsm_repo_number_of_non_trade_union_employee_comittee_members;
+        current.number_of_employer_committee_members = producer.ohsm_repo_number_of_employer_committee_members;
+        current.total_committee_membership = producer.ohsm_repo_total_committee_membership;
+        current.trade_union_s = producer.ohsm_repo_trade_unions;
+        current.subject_person = producer.ohsm_repo_contact_person;
+        current.wi_action_taken = producer.ohsm_repo_highlights_programs_inquiries_etc;
+        current.employee_chairperson = producer.ohsm_repo_employee_chairperson;
+        current.employer_chairperson = producer.ohsm_repo_employer_chairperson;
+
+        //process meetings variable set
+
+        var mtgs = producer.manually_tracked_items;
+        var parser = JSON.parse(mtgs);
+
+        var arr = [];
+
+        for (var i = 0; i < parser.length; i++) {
+            //create array			
+            arr.push(parser[i].ohs_mtgs_january.toString());
+            arr.push(parser[i].ohs_mtgs_february.toString());
+            arr.push(parser[i].ohs_mtgs_march.toString());
+            arr.push(parser[i].ohs_mtgs_april.toString());
+            arr.push(parser[i].ohs_mtgs_may.toString());
+            arr.push(parser[i].ohs_mtgs_june.toString());
+            arr.push(parser[i].ohs_mtgs_july.toString());
+            arr.push(parser[i].ohs_mtgs_august.toString());
+            arr.push(parser[i].ohs_mtgs_september.toString());
+            arr.push(parser[i].ohs_mtgs_october.toString());
+            arr.push(parser[i].ohs_mtgs_november.toString());
+            arr.push(parser[i].ohs_mtgs_december.toString());
+            arr.push(parser[i].ohs_mtg_total.toString());
+
+            if (parser[i].ohs_mtgs_meeting_type == 'regular') {
+                //update regular meetings				
+                current.meetings_regular = arr.toString();
+            } else if (parser[i].ohs_mtgs_meeting_type == 'special') {
+                //update special meetings
+                current.meeting_special = arr.toString();
+            } else {
+                current.programs = arr.toString();
+            }
+            arr.length = 0;
+        }
+
+    } 
+})();]]></script>
+        <short_description>This is OHSM Report Run Request</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-19 19:18:08</sys_created_on>
+        <sys_id>c561663b1b081d109fde86acdd4bcbc1</sys_id>
+        <sys_mod_count>142</sys_mod_count>
+        <sys_name>OHSM Report Run Request</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_c561663b1b081d109fde86acdd4bcbc1</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-13 14:39:45</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_investigation_case</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_hoc_sc_service/>
+        <u_includes_additional_services/>
+        <u_other_additional_services/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>29</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=c561663b1b081d109fde86acdd4bcbc1"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c561663b1b081d109fde86acdd4bcbc1</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-12-08 18:31:19</sys_created_on>
+        <sys_id>0ec4fba41b0f7550813f844fdd4bcbb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-12-08 18:31:19</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;div&gt;
+&lt;div&gt;Veuillez remplir les informations du rapport souhaité et soumettre la demande.&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;Pour générer des versions anglaises de ces rapports, veuillez changer votre langue en anglais.&lt;/div&gt;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c561663b1b081d109fde86acdd4bcbc1</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-02-16 19:19:48</sys_created_on>
+        <sys_id>3bd23c398789ad1850d2eca73cbb3576</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:19:48</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Demande d'exécution du rapport SST</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c561663b1b081d109fde86acdd4bcbc1</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-02-16 19:19:48</sys_created_on>
+        <sys_id>7fd23c398789ad1850d2eca73cbb357a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-02-16 19:19:48</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Demande d'exécution du rapport SST</value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=c561663b1b081d109fde86acdd4bcbc1"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price</field>
+        <id>c561663b1b081d109fde86acdd4bcbc1</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-19 19:18:08</sys_created_on>
+        <sys_id>0cc12e7b1b081d109fde86acdd4bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-19 19:18:08</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

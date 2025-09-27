@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_hccc_hoc_ohs.WHVRA_respectful_workplace_agent" name="x_hccc_hoc_ohs.WHVRA_respectful_workplace_agent">6fc12a23fb7f62dc95e5fb3f4eefdc69</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-09-11 15:32:44</sys_created_on>
+        <sys_id>a32262a3fb7f62dc95e5fb3f4eefdcc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6fc12a23fb7f62dc95e5fb3f4eefdc69</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_a32262a3fb7f62dc95e5fb3f4eefdcc5</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-11 15:32:44</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

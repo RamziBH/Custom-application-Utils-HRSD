@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">211651161bea8e149fde86acdd4bcbb0</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1hvi3kdi6korbucupp38","filterName":"Location","filterComponentType":"multiselect","datasource":{"type":"table","table":{"id":"sn_wsd_core_building"}},"targets":[{"type":"table","table":{"id":"x_hccc_hoc_ohs_investigation_case"},"field":{"id":"complainant_name.location","type":"reference","reference":"cmn_location"}}],"defaultSelectedItems":"[]","dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableResetToDefault":false,"enableClearFilter":true,"maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"611651161bea8e149fde86acdd4bcbad","noDebounce":"","selectedElements":[]}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-04 17:16:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>244859de1b6e8e149fde86acdd4bcbab</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>par_dashboard_widget_244859de1b6e8e149fde86acdd4bcbab</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-05 12:39:22</sys_updated_on>
+        <visualization/>
+        <w>48</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

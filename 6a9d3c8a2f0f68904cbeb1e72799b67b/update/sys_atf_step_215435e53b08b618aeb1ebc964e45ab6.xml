@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the answer match the following condition:
+Requested for = Gad Dayan
+and Phone = (514) 984-5792
+and Location = Unknown
+and The departure date has been confirmed = Yes
+and Type of Departure = End of employment
+and As part of a workplace recognition initiative, a personalized letter from the Clerk of the House Administration is sent to all retiring employees. By checking this box, you confirm that a letter of recognition should be sent to this employee. = false
+and Please confirm your employee's preferred language English = English
+and Does this position currently have employees reporting to it? = Yes
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>7</order>
+        <step_config display_value="Validate Variable Values">5a36c681c37e220076173b0ac3d3aecf</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>215435e53b08b618aeb1ebc964e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Variable Values</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_215435e53b08b618aeb1ebc964e45ab6</sys_update_name>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <table/>
+        <test display_value="ATF Generated Test - Service Catalog, HoC- Employee Departure, Gad Dayan">1554fda53b08b618aeb1ebc964e45a48</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=215435e53b08b618aeb1ebc964e45ab6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>215435e53b08b618aeb1ebc964e45ab6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>2d5435e53b08b618aeb1ebc964e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value>305815e787e0515050d2eca73cbb3525</value>
+        <variable display_value="Item">b46842c1c37e220076173b0ac3d3aebc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>215435e53b08b618aeb1ebc964e45ab6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:20:18</sys_created_on>
+        <sys_id>ed5435e53b08b618aeb1ebc964e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 17:20:18</sys_updated_on>
+        <value>IO:5779d16b87e0515050d2eca73cbb3596=8ec37bfefb17da1495e5fb3f4eefdc8e^IO:5be8a57b87341d1050d2eca73cbb355e=(514) 984-5792^IO:8a09a57b87341d1050d2eca73cbb3584=ce2fbac61b0dce909fde86acdd4bcb75^IO:1ab3d89887f4151050d2eca73cbb35ec=Yes^IO:30c4dc1c87f4151050d2eca73cbb3551=End of employment^IO:4a8590108738151050d2eca73cbb35cf=false^IO:0ad5d8108738151050d2eca73cbb3516=English^IO:7c5694508738151050d2eca73cbb3577=Yes</value>
+        <variable display_value="Catalog Conditions">8a682649c37e220076173b0ac3d3ae47</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_5a36c681c37e220076173b0ac3d3aecf^id=215435e53b08b618aeb1ebc964e45ab6"/>
+</record_update>

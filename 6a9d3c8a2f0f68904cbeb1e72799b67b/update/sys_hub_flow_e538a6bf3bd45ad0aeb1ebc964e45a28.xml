@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1208376000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>hoc_ohsm_annual_report_generation_request_1206</internal_name>
+        <label_cache>[{"name":"Created_1.table_name","label":"Trigger - Record Created➛HoC Investigation case  Table","reference":"x_hccc_hoc_ohs_investigation_case","reference_display":"HoC Investigation case ","type":"table_name","base_type":"table_name","usedInstances":{"f811cd38-c260-46d4-9d86-3d5d2363aea9":["record_table"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛HoC Investigation case  Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_hccc_hoc_ohs_investigation_case","column_name":"sys_id","usedInstances":{"f811cd38-c260-46d4-9d86-3d5d2363aea9":["record_id"]}},{"name":"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_report.sys_id","label":"1 - Get Catalog Variables➛ohsm_repo_report➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_pdf_template","column_name":"sys_id","usedInstances":{"f811cd38-c260-46d4-9d86-3d5d2363aea9":["template_id"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛HoC Investigation case  Record","reference":"x_hccc_hoc_ohs_investigation_case","reference_display":"HoC Investigation case ","type":"reference","base_type":"reference","usedInstances":{"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e":["requested_item"],"28e252af-905d-419e-83e1-3360b444deac":["record"]},"attributes":{}},{"name":"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_requestor","label":"1 - Get Catalog Variables➛ohsm_repo_requestor","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_requestor.name","label":"1 - Get Catalog Variables➛ohsm_repo_requestor➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{}},{"name":"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_report.name","label":"1 - Get Catalog Variables➛ohsm_repo_report➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sn_hr_core_pdf_template","column_name":"name","usedInstances":{"ee6bb593-a819-4834-9a9f-c64a766b0a36":["condition"]}}]</label_cache>
+        <master_snapshot>d7c9ae5c3bf89edcaeb1ebc964e45aba</master_snapshot>
+        <master_snapshot_digest/>
+        <name>HoC OHSM Annual Report Generation Request 1206</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>f1a568bf1b29e9509fde86acdd4bcb73</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:46:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e538a6bf3bd45ad0aeb1ebc964e45a28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC OHSM Annual Report Generation Request 1206</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_hub_flow_e538a6bf3bd45ad0aeb1ebc964e45a28</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-09 08:15:04</sys_updated_on>
+        <type>flow</type>
+        <version>1</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=31ecd2f31b081d109fde86acdd4bcb9b<item display_table="sn_hr_core_service" display_value="OHSM Report Request" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="31ecd2f31b081d109fde86acdd4bcb9b"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-03-19 20:01:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f1a568bf1b29e9509fde86acdd4bcb73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-03-19 20:01:16</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_on_extended":"false","run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any"}</data>
+        <identifier>e538a6bf3bd45ad0aeb1ebc964e45a28</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>67c9229c3bf89edcaeb1ebc964e45aed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-19 16:37:23</sys_updated_on>
+        <trigger display_value="">f1a568bf1b29e9509fde86acdd4bcb73</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e538a6bf3bd45ad0aeb1ebc964e45a28^sys_idNOT IN67c9229c3bf89edcaeb1ebc964e45aed"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e538a6bf3bd45ad0aeb1ebc964e45a28^sys_idNOT INe138a6bf3bd45ad0aeb1ebc964e45a29"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e538a6bf3bd45ad0aeb1ebc964e45a28</id>
+        <name>HoC OHSM Annual Report Generation Request 1206</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:46:40</sys_created_on>
+        <sys_id>e138a6bf3bd45ad0aeb1ebc964e45a29</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:46:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e138a6bf3bd45ad0aeb1ebc964e45a29"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e538a6bf3bd45ad0aeb1ebc964e45a28^sys_idNOT IN15e8a6b33b185ad0aeb1ebc964e45abc,9de8a6b33b185ad0aeb1ebc964e45ab7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</model>
+        <model_id>e538a6bf3bd45ad0aeb1ebc964e45a28</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e538a6bf3bd45ad0aeb1ebc964e45a28</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>15e8a6b33b185ad0aeb1ebc964e45abc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=15e8a6b33b185ad0aeb1ebc964e45abc"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</model>
+        <model_id>e538a6bf3bd45ad0aeb1ebc964e45a28</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e538a6bf3bd45ad0aeb1ebc964e45a28</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:39</sys_created_on>
+        <sys_id>9de8a6b33b185ad0aeb1ebc964e45ab7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9de8a6b33b185ad0aeb1ebc964e45ab7"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e538a6bf3bd45ad0aeb1ebc964e45a28^sys_idNOT INdde8a6b33b185ad0aeb1ebc964e45ac1"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>dde8a6b33b185ad0aeb1ebc964e45ac1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dde8a6b33b185ad0aeb1ebc964e45ac1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>dde8a6b33b185ad0aeb1ebc964e45ac1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>19e8a6b33b185ad0aeb1ebc964e45ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>dde8a6b33b185ad0aeb1ebc964e45ac1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>dde8a6b33b185ad0aeb1ebc964e45ac2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <value>hr_service=31ecd2f31b081d109fde86acdd4bcb9b</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e538a6bf3bd45ad0aeb1ebc964e45a28^sys_idNOT IN44f1feb33b985ad0aeb1ebc964e45a63,a19e6ab73b585ad0aeb1ebc964e45acb,a5e8a6b33b185ad0aeb1ebc964e45acb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="HoCCreatePDF">93887c0b1b4c19109fde86acdd4bcb4c</action_type>
+        <action_type_parent display_value="HoCCreatePDF">22fda4be1bff0d509fde86acdd4bcb47</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:29:10</sys_created_on>
+        <sys_id>44f1feb33b985ad0aeb1ebc964e45a63</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-02-18 20:03:06</sys_updated_on>
+        <ui_id>f811cd38-c260-46d4-9d86-3d5d2363aea9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=44f1feb33b985ad0aeb1ebc964e45a63"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>44f1feb33b985ad0aeb1ebc964e45a63</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:29:10</sys_created_on>
+        <sys_id>80f1feb33b985ad0aeb1ebc964e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:29:10</sys_updated_on>
+        <value>Report</value>
+        <variable display_value="PDF Name">63f98c481bdc1d109fde86acdd4bcb32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=44f1feb33b985ad0aeb1ebc964e45a63"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pdf_name</field>
+        <id>44f1feb33b985ad0aeb1ebc964e45a63</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:29:10</sys_created_on>
+        <sys_id>00f1feb33b985ad0aeb1ebc964e45a66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:29:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>44f1feb33b985ad0aeb1ebc964e45a63</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:29:10</sys_created_on>
+        <sys_id>c0f1feb33b985ad0aeb1ebc964e45a65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:29:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c</table>
+        <value>{{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_table</field>
+        <id>44f1feb33b985ad0aeb1ebc964e45a63</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:29:10</sys_created_on>
+        <sys_id>4cf1feb33b985ad0aeb1ebc964e45a65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:29:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c</table>
+        <value>{{Created_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_id</field>
+        <id>44f1feb33b985ad0aeb1ebc964e45a63</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:29:10</sys_created_on>
+        <sys_id>88f1feb33b985ad0aeb1ebc964e45a65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:29:10</sys_updated_on>
+        <table>var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c</table>
+        <value>{{7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_report.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=44f1feb33b985ad0aeb1ebc964e45a63"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=44f1feb33b985ad0aeb1ebc964e45a63"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:14:31</sys_created_on>
+        <sys_id>a19e6ab73b585ad0aeb1ebc964e45acb</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-02-18 20:03:06</sys_updated_on>
+        <ui_id>28e252af-905d-419e-83e1-3360b444deac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a19e6ab73b585ad0aeb1ebc964e45acb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a19e6ab73b585ad0aeb1ebc964e45acb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:14:31</sys_created_on>
+        <sys_id>259e6ab73b585ad0aeb1ebc964e45ace</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:14:31</sys_updated_on>
+        <value>json_draft=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a19e6ab73b585ad0aeb1ebc964e45acb</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:14:31</sys_created_on>
+        <sys_id>2d9e6ab73b585ad0aeb1ebc964e45ace</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:14:31</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a19e6ab73b585ad0aeb1ebc964e45acb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>a19e6ab73b585ad0aeb1ebc964e45acb</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:14:31</sys_created_on>
+        <sys_id>a19e6ab73b585ad0aeb1ebc964e45ace</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:14:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a19e6ab73b585ad0aeb1ebc964e45acb</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:14:31</sys_created_on>
+        <sys_id>299e6ab73b585ad0aeb1ebc964e45acd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:14:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>a19e6ab73b585ad0aeb1ebc964e45acb</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:14:31</sys_created_on>
+        <sys_id>ed9e6ab73b585ad0aeb1ebc964e45acd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:14:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a19e6ab73b585ad0aeb1ebc964e45acb^sys_idNOT IN299e6ab73b585ad0aeb1ebc964e45acc"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>a19e6ab73b585ad0aeb1ebc964e45acb</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"json_draft":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar selectedReport \u003dfd_data.trigger.current.variables.ohsm_repo_report.toString();\nvar selectedYear \u003d fd_data.trigger.current.variables.ohsm_repo_year.toString();\n\nvar resObj\u003d new HoCOHSMRepo();\nreturn resObj.getReportByTypeandYear(selectedReport,selectedYear);","savedValue":""}}</script>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 15:14:31</sys_created_on>
+        <sys_id>299e6ab73b585ad0aeb1ebc964e45acc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:14:31</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a19e6ab73b585ad0aeb1ebc964e45acb"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>a5e8a6b33b185ad0aeb1ebc964e45acb</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-02-18 20:03:06</sys_updated_on>
+        <ui_id>7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a5e8a6b33b185ad0aeb1ebc964e45acb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a5e8a6b33b185ad0aeb1ebc964e45acb</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>2de8a6b33b185ad0aeb1ebc964e45ada</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <value>77fd48361b7b0d509fde86acdd4bcb0d:item_option_new,814e88761b7b0d509fde86acdd4bcb56:item_option_new,99c132168790d95050d2eca73cbb35ef:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a5e8a6b33b185ad0aeb1ebc964e45acb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>ede8a6b33b185ad0aeb1ebc964e45ada</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <value>c561663b1b081d109fde86acdd4bcbc1</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a5e8a6b33b185ad0aeb1ebc964e45acb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>a5e8a6b33b185ad0aeb1ebc964e45acb</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>69e8a6b33b185ad0aeb1ebc964e45acd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>a5e8a6b33b185ad0aeb1ebc964e45acb</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>a9e8a6b33b185ad0aeb1ebc964e45ada</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>a5e8a6b33b185ad0aeb1ebc964e45acb</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>21e8a6b33b185ad0aeb1ebc964e45ace</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a5e8a6b33b185ad0aeb1ebc964e45acb"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a5e8a6b33b185ad0aeb1ebc964e45acb"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e538a6bf3bd45ad0aeb1ebc964e45a28^sys_idNOT IN5019e2f33b185ad0aeb1ebc964e45a65,9419e2f33b185ad0aeb1ebc964e45a3b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c19e2f33b185ad0aeb1ebc964e45a64</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ee6bb593-a819-4834-9a9f-c64a766b0a36</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:50:24</sys_created_on>
+        <sys_id>5019e2f33b185ad0aeb1ebc964e45a65</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:19</sys_updated_on>
+        <ui_id>bca1aeeb-ed51-4dc1-a6ca-134b6bb05bee</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5019e2f33b185ad0aeb1ebc964e45a65"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5019e2f33b185ad0aeb1ebc964e45a65"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5019e2f33b185ad0aeb1ebc964e45a65"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c19e2f33b185ad0aeb1ebc964e45a3a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:50:24</sys_created_on>
+        <sys_id>9419e2f33b185ad0aeb1ebc964e45a3b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:19</sys_updated_on>
+        <ui_id>ee6bb593-a819-4834-9a9f-c64a766b0a36</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=9419e2f33b185ad0aeb1ebc964e45a3b"/>
+    <sys_element_mapping action="delete_multiple" query="id=9419e2f33b185ad0aeb1ebc964e45a3b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>9419e2f33b185ad0aeb1ebc964e45a3b</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:50:24</sys_created_on>
+        <sys_id>5019e2f33b185ad0aeb1ebc964e45a64</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 15:25:16</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_report.name}}NOT LIKE1206</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=9419e2f33b185ad0aeb1ebc964e45a3b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9419e2f33b185ad0aeb1ebc964e45a3b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e538a6bf3bd45ad0aeb1ebc964e45a28^sys_idNOT IN51e8a6b33b185ad0aeb1ebc964e45abb,d1e8a6b33b185ad0aeb1ebc964e45abe"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e538a6bf3bd45ad0aeb1ebc964e45a28</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>51e8a6b33b185ad0aeb1ebc964e45abb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e538a6bf3bd45ad0aeb1ebc964e45a28_current_en</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e538a6bf3bd45ad0aeb1ebc964e45a28</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-04 14:49:40</sys_created_on>
+        <sys_id>d1e8a6b33b185ad0aeb1ebc964e45abe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_e538a6bf3bd45ad0aeb1ebc964e45a28_table_name_en</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:49:40</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=firefox,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>hoc_ohsm_annual_report_generation_request_1206</internal_name>
+        <label_cache>[{"name":"Created_1.table_name","label":"Trigger - Record Created➛HoC Investigation case  Table","reference":"x_hccc_hoc_ohs_investigation_case","reference_display":"HoC Investigation case ","type":"table_name","base_type":"table_name","usedInstances":{"f811cd38-c260-46d4-9d86-3d5d2363aea9":["record_table"]},"attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛HoC Investigation case  Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_hccc_hoc_ohs_investigation_case","column_name":"sys_id","usedInstances":{"f811cd38-c260-46d4-9d86-3d5d2363aea9":["record_id"]}},{"name":"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_report.sys_id","label":"1 - Get Catalog Variables➛ohsm_repo_report➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sn_hr_core_pdf_template","column_name":"sys_id","usedInstances":{"f811cd38-c260-46d4-9d86-3d5d2363aea9":["template_id"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛HoC Investigation case  Record","reference":"x_hccc_hoc_ohs_investigation_case","reference_display":"HoC Investigation case ","type":"reference","base_type":"reference","usedInstances":{"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e":["requested_item"],"28e252af-905d-419e-83e1-3360b444deac":["record"]},"attributes":{}},{"name":"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_requestor","label":"1 - Get Catalog Variables➛ohsm_repo_requestor","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{},"attributes":{"catalogType":"31","catalogTypeLabel":"Requested For"}},{"name":"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_requestor.name","label":"1 - Get Catalog Variables➛ohsm_repo_requestor➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name","usedInstances":{}},{"name":"7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_report.name","label":"1 - Get Catalog Variables➛ohsm_repo_report➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sn_hr_core_pdf_template","column_name":"name","usedInstances":{"ee6bb593-a819-4834-9a9f-c64a766b0a36":["condition"]}}]</label_cache>
+        <master>true</master>
+        <name>HoC OHSM Annual Report Generation Request 1206</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="HoC OHSM Annual Report Generation Request 1206">e538a6bf3bd45ad0aeb1ebc964e45a28</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d7c9ae5c3bf89edcaeb1ebc964e45aba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <type>flow</type>
+        <version>1</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d7c9ae5c3bf89edcaeb1ebc964e45aba^sys_idNOT IN1bc9ae5c3bf89edcaeb1ebc964e45abb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d7c9ae5c3bf89edcaeb1ebc964e45aba</id>
+        <name>HoC OHSM Annual Report Generation Request 1206</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>1bc9ae5c3bf89edcaeb1ebc964e45abb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1bc9ae5c3bf89edcaeb1ebc964e45abb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d7c9ae5c3bf89edcaeb1ebc964e45aba^sys_idNOT IN5bc9ae5c3bf89edcaeb1ebc964e45ad5,9bc9ee5c3bf89edcaeb1ebc964e45a15"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="HoC OHSM Annual Report Generation Request 1206">d7c9ae5c3bf89edcaeb1ebc964e45aba</model>
+        <model_id>d7c9ae5c3bf89edcaeb1ebc964e45aba</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d7c9ae5c3bf89edcaeb1ebc964e45aba</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>5bc9ae5c3bf89edcaeb1ebc964e45ad5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5bc9ae5c3bf89edcaeb1ebc964e45ad5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="HoC OHSM Annual Report Generation Request 1206">d7c9ae5c3bf89edcaeb1ebc964e45aba</model>
+        <model_id>d7c9ae5c3bf89edcaeb1ebc964e45aba</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_d7c9ae5c3bf89edcaeb1ebc964e45aba</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>9bc9ee5c3bf89edcaeb1ebc964e45a15</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9bc9ee5c3bf89edcaeb1ebc964e45a15"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=d7c9ae5c3bf89edcaeb1ebc964e45aba^sys_idNOT IN2fc9229c3bf89edcaeb1ebc964e45a0f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">d7c9ae5c3bf89edcaeb1ebc964e45aba</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>2fc9229c3bf89edcaeb1ebc964e45a0f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2fc9229c3bf89edcaeb1ebc964e45a0f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>2fc9229c3bf89edcaeb1ebc964e45a0f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>2bc9229c3bf89edcaeb1ebc964e45a11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <value>hr_service=31ecd2f31b081d109fde86acdd4bcb9b</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>2fc9229c3bf89edcaeb1ebc964e45a0f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>ebc9229c3bf89edcaeb1ebc964e45a11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="delete_multiple" query="flow=d7c9ae5c3bf89edcaeb1ebc964e45aba^sys_idNOT IN17c9ee5c3bf89edcaeb1ebc964e45ac1,5fc9ee5c3bf89edcaeb1ebc964e45a91,e3c9229c3bf89edcaeb1ebc964e45a0d"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">d7c9ae5c3bf89edcaeb1ebc964e45aba</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>17c9ee5c3bf89edcaeb1ebc964e45ac1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <ui_id>28e252af-905d-419e-83e1-3360b444deac</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=17c9ee5c3bf89edcaeb1ebc964e45ac1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17c9ee5c3bf89edcaeb1ebc964e45ac1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>1bc9ee5c3bf89edcaeb1ebc964e45ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <value>json_draft=fd-scripted</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>17c9ee5c3bf89edcaeb1ebc964e45ac1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>dbc9ee5c3bf89edcaeb1ebc964e45ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=17c9ee5c3bf89edcaeb1ebc964e45ac1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>17c9ee5c3bf89edcaeb1ebc964e45ac1</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>97c9ee5c3bf89edcaeb1ebc964e45ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>17c9ee5c3bf89edcaeb1ebc964e45ac1</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>13c9ee5c3bf89edcaeb1ebc964e45ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>17c9ee5c3bf89edcaeb1ebc964e45ac1</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>d3c9ee5c3bf89edcaeb1ebc964e45ac3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=17c9ee5c3bf89edcaeb1ebc964e45ac1^sys_idNOT IN17c9ee5c3bf89edcaeb1ebc964e45ac2"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>17c9ee5c3bf89edcaeb1ebc964e45ac1</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"json_draft":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar selectedReport \u003dfd_data.trigger.current.variables.ohsm_repo_report.toString();\nvar selectedYear \u003d fd_data.trigger.current.variables.ohsm_repo_year.toString();\n\nvar resObj\u003d new HoCOHSMRepo();\nreturn resObj.getReportByTypeandYear(selectedReport,selectedYear);","savedValue":""}}</script>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>17c9ee5c3bf89edcaeb1ebc964e45ac2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=17c9ee5c3bf89edcaeb1ebc964e45ac1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">d7c9ae5c3bf89edcaeb1ebc964e45aba</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>5fc9ee5c3bf89edcaeb1ebc964e45a91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <ui_id>7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5fc9ee5c3bf89edcaeb1ebc964e45a91"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5fc9ee5c3bf89edcaeb1ebc964e45a91</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>53c9ee5c3bf89edcaeb1ebc964e45a94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <value>77fd48361b7b0d509fde86acdd4bcb0d:item_option_new,814e88761b7b0d509fde86acdd4bcb56:item_option_new,99c132168790d95050d2eca73cbb35ef:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>5fc9ee5c3bf89edcaeb1ebc964e45a91</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>5bc9ee5c3bf89edcaeb1ebc964e45a94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <value>c561663b1b081d109fde86acdd4bcbc1</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fc9ee5c3bf89edcaeb1ebc964e45a91"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>5fc9ee5c3bf89edcaeb1ebc964e45a91</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>5bc9ee5c3bf89edcaeb1ebc964e45a93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>5fc9ee5c3bf89edcaeb1ebc964e45a91</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>dfc9ee5c3bf89edcaeb1ebc964e45a93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>5fc9ee5c3bf89edcaeb1ebc964e45a91</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>1fc9ee5c3bf89edcaeb1ebc964e45a93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5fc9ee5c3bf89edcaeb1ebc964e45a91"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5fc9ee5c3bf89edcaeb1ebc964e45a91"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="HoCCreatePDF">93887c0b1b4c19109fde86acdd4bcb4c</action_type>
+        <action_type_parent display_value="HoCCreatePDF">22fda4be1bff0d509fde86acdd4bcb47</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">d7c9ae5c3bf89edcaeb1ebc964e45aba</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>e3c9229c3bf89edcaeb1ebc964e45a0d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <ui_id>f811cd38-c260-46d4-9d86-3d5d2363aea9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e3c9229c3bf89edcaeb1ebc964e45a0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e3c9229c3bf89edcaeb1ebc964e45a0d</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>a7c9229c3bf89edcaeb1ebc964e45a0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <value>Report</value>
+        <variable display_value="PDF Name">63f98c481bdc1d109fde86acdd4bcb32</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e3c9229c3bf89edcaeb1ebc964e45a0d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pdf_name</field>
+        <id>e3c9229c3bf89edcaeb1ebc964e45a0d</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>27c9229c3bf89edcaeb1ebc964e45a0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_id</field>
+        <id>e3c9229c3bf89edcaeb1ebc964e45a0d</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>ebc9229c3bf89edcaeb1ebc964e45a0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c</table>
+        <value>{{Created_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_table</field>
+        <id>e3c9229c3bf89edcaeb1ebc964e45a0d</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>63c9229c3bf89edcaeb1ebc964e45a0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c</table>
+        <value>{{Created_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_id</field>
+        <id>e3c9229c3bf89edcaeb1ebc964e45a0d</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_id>afc9229c3bf89edcaeb1ebc964e45a0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_93887c0b1b4c19109fde86acdd4bcb4c</table>
+        <value>{{7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_report.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e3c9229c3bf89edcaeb1ebc964e45a0d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e3c9229c3bf89edcaeb1ebc964e45a0d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=d7c9ae5c3bf89edcaeb1ebc964e45aba^sys_idNOT IN1bc9ee5c3bf89edcaeb1ebc964e45a52,53c9ee5c3bf89edcaeb1ebc964e45a57"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c19e2f33b185ad0aeb1ebc964e45a3a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">d7c9ae5c3bf89edcaeb1ebc964e45aba</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>1bc9ee5c3bf89edcaeb1ebc964e45a52</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <ui_id>ee6bb593-a819-4834-9a9f-c64a766b0a36</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1bc9ee5c3bf89edcaeb1ebc964e45a52"/>
+    <sys_element_mapping action="delete_multiple" query="id=1bc9ee5c3bf89edcaeb1ebc964e45a52"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>1bc9ee5c3bf89edcaeb1ebc964e45a52</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>dfc9ee5c3bf89edcaeb1ebc964e45a55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7a996d03-b9bb-4db2-8ba2-f2c67bfcfe2e.ohsm_repo_report.name}}NOT LIKE1206</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1bc9ee5c3bf89edcaeb1ebc964e45a52"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1bc9ee5c3bf89edcaeb1ebc964e45a52"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1c19e2f33b185ad0aeb1ebc964e45a64</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HoC OHSM Annual Report Generation Request 1206">d7c9ae5c3bf89edcaeb1ebc964e45aba</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ee6bb593-a819-4834-9a9f-c64a766b0a36</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>53c9ee5c3bf89edcaeb1ebc964e45a57</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <ui_id>bca1aeeb-ed51-4dc1-a6ca-134b6bb05bee</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=53c9ee5c3bf89edcaeb1ebc964e45a57"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=53c9ee5c3bf89edcaeb1ebc964e45a57"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=53c9ee5c3bf89edcaeb1ebc964e45a57"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d7c9ae5c3bf89edcaeb1ebc964e45aba^sys_idNOT INd3c9ae5c3bf89edcaeb1ebc964e45af9,dfc9ee5c3bf89edcaeb1ebc964e45a19"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d7c9ae5c3bf89edcaeb1ebc964e45aba</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>d3c9ae5c3bf89edcaeb1ebc964e45af9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d7c9ae5c3bf89edcaeb1ebc964e45aba_current_en</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d7c9ae5c3bf89edcaeb1ebc964e45aba</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:17</sys_created_on>
+        <sys_id>dfc9ee5c3bf89edcaeb1ebc964e45a19</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d7c9ae5c3bf89edcaeb1ebc964e45aba_table_name_en</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:17</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d7c9ae5c3bf89edcaeb1ebc964e45aba"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>e538a6bf3bd45ad0aeb1ebc964e45a28</sys_id>
+        <latest_snapshot>d7c9ae5c3bf89edcaeb1ebc964e45aba</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch5-12-24-2024_12-31-2024_0455.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e538a6bf3bd45ad0aeb1ebc964e45a28^sys_idNOT INafc9229c3bf89edcaeb1ebc964e45aed"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"afc9229c3bf89edcaeb1ebc964e45aed","name":"plan","plan_signature":null}}</plan>
+        <plan_id>e538a6bf3bd45ad0aeb1ebc964e45a28</plan_id>
+        <snapshot>bc227be93bff16d4aeb1ebc964e45abf</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-18 14:26:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>afc9229c3bf89edcaeb1ebc964e45aed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-18 14:26:18</sys_updated_on>
+        <trigger display_value="">f1a568bf1b29e9509fde86acdd4bcb73</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e538a6bf3bd45ad0aeb1ebc964e45a28"/>
+</record_update>

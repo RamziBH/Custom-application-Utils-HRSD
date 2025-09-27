@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">1e5eb7771b6901109fde86acdd4bcb33</copied_from>
+        <description>Answer the questions on the form as follows:
+Name of manager or supervisor notified  = 
+and Date when management was informed = 2021-12-02 04:00:00
+and Corrective action(s) description = ATF corrective action</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-15 20:24:47</sys_created_on>
+        <sys_id>5fdb44081bf901109fde86acdd4bcb30</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_5fdb44081bf901109fde86acdd4bcb30</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:03:15</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS Refusal check permissions for OHS-Admin">83dbc0081bf901109fde86acdd4bcb58</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5fdb44081bf901109fde86acdd4bcb30"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5fdb44081bf901109fde86acdd4bcb30</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-15 20:24:47</sys_created_on>
+        <sys_id>1bdb44081bf901109fde86acdd4bcb31</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-15 20:24:47</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5fdb44081bf901109fde86acdd4bcb30</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-15 20:24:47</sys_created_on>
+        <sys_id>57db44081bf901109fde86acdd4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-15 20:24:47</sys_updated_on>
+        <value>9509a89c1b53ac10ea0eda02dd4bcbaa</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5fdb44081bf901109fde86acdd4bcb30</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-15 20:24:47</sys_created_on>
+        <sys_id>93db44081bf901109fde86acdd4bcb3e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-15 20:24:47</sys_updated_on>
+        <value>IO:d6f6d34cdb1d38109b09e6fa4b96194e={{step['0bdb04081bf901109fde86acdd4bcb7a'].user}}^IO:6b663c141b57ac10ea0eda02dd4bcb99=2021-12-02 09:00:00^IO:5db8c5062f1360104cbeb1e72799b621=ATF corrective action^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5fdb44081bf901109fde86acdd4bcb30"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable_values</field>
+        <id>5fdb44081bf901109fde86acdd4bcb30</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-15 20:24:47</sys_created_on>
+        <sys_id>5bdb44081bf901109fde86acdd4bcb3e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-15 20:24:47</sys_updated_on>
+        <table>var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c</table>
+        <value>IO:d6f6d34cdb1d38109b09e6fa4b96194e={{step['0bdb04081bf901109fde86acdd4bcb7a'].user}}^IO:6b663c141b57ac10ea0eda02dd4bcb99=2021-12-02 09:00:00^IO:5db8c5062f1360104cbeb1e72799b621=ATF corrective action^EQ</value>
+    </sys_element_mapping>
+</record_update>

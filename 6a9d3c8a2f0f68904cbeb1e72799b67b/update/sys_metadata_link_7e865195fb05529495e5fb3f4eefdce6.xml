@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>bb0ac059fb055e5495e5fb3f4eefdc5f</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_update_version">
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>INSERT_OR_UPDATE</action>
+        <application display_value="Global">global</application>
+        <file_path/>
+        <instance_id>047331aedbd7b7c849eac597059619e3</instance_id>
+        <instance_name>hoccdcdv</instance_name>
+        <name>sys_atf_schedule_9c494c15fb055e5495e5fb3f4eefdc79</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_atf_schedule"&gt;&lt;sys_atf_schedule action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition&gt;&lt;![CDATA[function runInInstance() {
+    function isProd() {
+        /*
+        Build:		hoccdcbuild
+        sandbox:	hoccdcsb
+        Dev:		hoccdcdv
+        DevTest:	hoccdcdt
+        ProdTest:	hoccdcpt
+        Prod:		hoccdc
+        */
+        return gs.getProperty('instance_name') === 'hoccdc';
+    }
+    return !isProd();
+}
+runInInstance();]]&gt;&lt;/condition&gt;&lt;conditional&gt;true&lt;/conditional&gt;&lt;description/&gt;&lt;entered_time/&gt;&lt;max_drift/&gt;&lt;name&gt;OHS - Top suite - Nightly (New)&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;performance_test&gt;false&lt;/performance_test&gt;&lt;run_as display_value="Abigael Schonewille"&gt;dd6330201b89b1d49fde86acdd4bcb67&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_in_cloud&gt;true&lt;/run_in_cloud&gt;&lt;run_period/&gt;&lt;run_start&gt;2024-10-03 15:34:28&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 06:30:00&lt;/run_time&gt;&lt;run_type&gt;daily&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('9c494c15fb055e5495e5fb3f4eefdc79');]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_atf_schedule&lt;/sys_class_name&gt;&lt;sys_created_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-03 15:37:39&lt;/sys_created_on&gt;&lt;sys_id&gt;9c494c15fb055e5495e5fb3f4eefdc79&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;OHS - Top suite - Nightly (New)&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_atf_schedule_9c494c15fb055e5495e5fb3f4eefdc79&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-03 15:37:59&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sys_atf_schedule&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-495270098</payload_hash>
+        <record_name>OHS - Top suite - Nightly (New)</record_name>
+        <reverted_from/>
+        <source>4b6bb5e21bd33300af300d47dc4bcb20</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 15:37:59</sys_created_on>
+        <sys_id>bb0ac059fb055e5495e5fb3f4eefdc5f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1925307e4b20000001</sys_recorded_at>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-03 15:37:59</sys_updated_on>
+        <type>Suite Schedule</type>
+        <update_guid>7f0ac0599c055e54d74a458fb92e9e5e</update_guid>
+        <update_guid_history>7f0ac0599c055e54d74a458fb92e9e5e:-495270098,3af9805917055e54ab708e053e301f89:29876174</update_guid_history>
+    </sys_update_version>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 21:12:09</sys_created_on>
+        <sys_id>7e865195fb05529495e5fb3f4eefdce6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_atf_schedule_9c494c15fb055e5495e5fb3f4eefdc79</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_7e865195fb05529495e5fb3f4eefdce6</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-03 21:12:09</sys_updated_on>
+        <tablename>sys_update_version</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_hccc_hoc_ohs_investigation_case">hr_service=a284e0261b7a30109fde86acdd4bcbfc^ORhr_service=a94b0c891b7e7c109fde86acdd4bcbc1^EQ<item display_table="sn_hr_core_service" display_value="Corrective action" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="a284e0261b7a30109fde86acdd4bcbfc"/>
+            <item display_table="sn_hr_core_service" display_value="Workplace inspection" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="true" value="a94b0c891b7e7c109fde86acdd4bcbc1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>500</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Read Only Hazard Tab Corrective Action and Workplace inspection</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-12-16 21:15:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59aa793187b71dd050d2eca73cbb3545</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Read Only Hazard Tab Corrective Action and Workplace inspection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_policy_59aa793187b71dd050d2eca73cbb3545</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-21 15:50:59</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

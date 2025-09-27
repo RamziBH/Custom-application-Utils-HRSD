@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="minister_of_labour_decision" label="Décision du ministre du Travail" language="fq" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>minister_of_labour_decision</element>
+            <help/>
+            <hint>Consigner la décision du Ministre du Travail si le dossier en est arrivé à ce stade.&#13;
+</hint>
+            <label>Décision du ministre du Travail</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Décision du ministre du Travails</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 16:06:00</sys_created_on>
+            <sys_id>ec7530ef1bc7e5d49fde86acdd4bcbed</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Décision du ministre du Travail</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_minister_of_labour_decision_fq</sys_update_name>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 16:09:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

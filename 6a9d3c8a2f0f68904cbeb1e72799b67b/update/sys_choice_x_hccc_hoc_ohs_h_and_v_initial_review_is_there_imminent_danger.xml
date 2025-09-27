@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="is_there_imminent_danger" table="x_hccc_hoc_ohs_h_and_v_initial_review" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>is_there_imminent_danger</element>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:29</sys_created_on>
+            <sys_id>4b791f101b51869478230d47dc4bcb8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>is_there_imminent_danger</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_h_and_v_initial_review_is_there_imminent_danger</sys_update_name>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-05 21:21:29</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_there_imminent_danger</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Veuillez sélectionner...</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:07:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bed8902f3b80b2d0aeb1ebc964e45ace</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:08:04</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_there_imminent_danger</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select...</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:07:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ed8902f3b80b2d0aeb1ebc964e45acf</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:08:04</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_there_imminent_danger</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oui</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:06:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ad8902f3b80b2d0aeb1ebc964e45ad1</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:06:47</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_there_imminent_danger</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bad8902f3b80b2d0aeb1ebc964e45ad0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:06:56</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_there_imminent_danger</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-05 21:21:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36d8902f3b80b2d0aeb1ebc964e45ad3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:06:58</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>is_there_imminent_danger</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:07:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6d8902f3b80b2d0aeb1ebc964e45ad2</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:07:15</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

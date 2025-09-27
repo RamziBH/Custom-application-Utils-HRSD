@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_hccc_hoc_ohs_telework_agreement" version="2" view="default_view">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Telework Agreement - Default_view" name="x_hccc_hoc_ohs_telework_agreement" related_list="NULL" sys_domain="global" view="a1c40fe91be3e5d09fde86acdd4bcbd2">4613b2381bba4e109fde86acdd4bcb63</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-12 18:18:16</sys_created_on>
+            <sys_id>c613b2381bba4e109fde86acdd4bcb64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-12 18:18:16</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Telework Agreement - Default_view" name="x_hccc_hoc_ohs_telework_agreement" related_list="NULL" sys_domain="global" view="a1c40fe91be3e5d09fde86acdd4bcbd2">4613b2381bba4e109fde86acdd4bcb63</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_hccc_hoc_ohs_telework_agreement_asset.telework_agreement</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-12 18:18:16</sys_created_on>
+            <sys_id>ce13b2381bba4e109fde86acdd4bcb64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-12 18:18:16</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Telework Agreement - Default_view</calculated_name>
+            <filter/>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-12 18:18:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4613b2381bba4e109fde86acdd4bcb63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Telework Agreement - Default_view</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_related_x_hccc_hoc_ohs_telework_agreement_default_view</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-12 18:18:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default_view" name="default_view">a1c40fe91be3e5d09fde86acdd4bcbd2</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

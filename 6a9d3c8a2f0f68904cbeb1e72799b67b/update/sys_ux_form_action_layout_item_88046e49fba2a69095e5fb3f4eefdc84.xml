@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action_layout_item">
+    <sys_ux_form_action_layout_item action="INSERT_OR_UPDATE">
+        <action display_value="Delete">4c046609fba2a69095e5fb3f4eefdcb0</action>
+        <active>true</active>
+        <animate_icon>false</animate_icon>
+        <color>primary-negative</color>
+        <description/>
+        <icon/>
+        <item_type>action</item_type>
+        <label>Delete</label>
+        <layout_group/>
+        <name>Delete</name>
+        <order>1000</order>
+        <overflow>true</overflow>
+        <sys_class_name>sys_ux_form_action_layout_item</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-03 17:57:25</sys_created_on>
+        <sys_id>88046e49fba2a69095e5fb3f4eefdc84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delete</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ux_form_action_layout_item_88046e49fba2a69095e5fb3f4eefdc84</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-03 17:57:25</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hira_action</table>
+    </sys_ux_form_action_layout_item>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>Mesures d'atténuation complétées</label>
+        <language>fq</language>
+        <name>sys_ui_action</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+        <sys_created_on>2023-08-16 15:05:57</sys_created_on>
+        <sys_id>4e804c041bb8b5109fde86acdd4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mesures d'atténuation complétées</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_translated_4e804c041bb8b5109fde86acdd4bcb7e</sys_update_name>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2023-08-16 15:05:57</sys_updated_on>
+        <value>Mitigation measures completed</value>
+    </sys_translated>
+</record_update>

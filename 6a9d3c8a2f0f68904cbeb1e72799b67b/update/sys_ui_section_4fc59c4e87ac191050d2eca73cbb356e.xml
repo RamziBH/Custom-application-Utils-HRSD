@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4fc59c4e87ac191050d2eca73cbb356e" sys_domain="global" table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>0096dae93b447a18aeb1ebc964e45aaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <text>Risk Assessment</text>
+            <type display_value="Section Plain Text">a21c608353611010a813ddeeff7b12fc</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>4496dae93b447a18aeb1ebc964e45aa9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <text>Documentation</text>
+            <type display_value="Section Plain Text">a21c608353611010a813ddeeff7b12fc</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>4c96dae93b447a18aeb1ebc964e45aa9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <text>Hazard description</text>
+            <type display_value="Section Plain Text">a21c608353611010a813ddeeff7b12fc</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>c096dae93b447a18aeb1ebc964e45aaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <text>Mitigation action(s)</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>0c965e2d3b447a18aeb1ebc964e45a8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hira_case</element>
+            <position>1</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45a8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45a90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45a90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hira_case.review_due</element>
+            <position>4</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45a91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45af5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>action_history</element>
+            <position>6</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45af5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>4496dae93b447a18aeb1ebc964e45aa9</element>
+            <position>7</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45af6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>4c96dae93b447a18aeb1ebc964e45aa9</element>
+            <position>8</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45af6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_task_description</element>
+            <position>9</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45af7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hazard_category</element>
+            <position>10</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45af7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hazard_subcategory</element>
+            <position>11</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45af8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hazard_description</element>
+            <position>12</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45af8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>frequency</element>
+            <position>13</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45af9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consequence</element>
+            <position>14</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45af9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>regulatory_reference</element>
+            <position>15</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45afa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0096dae93b447a18aeb1ebc964e45aaa</element>
+            <position>16</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45afa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>likelihood</element>
+            <position>17</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45afb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>severity</element>
+            <position>18</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45afb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_level</element>
+            <position>19</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45afc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>c096dae93b447a18aeb1ebc964e45aaa</element>
+            <position>20</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45afc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>controls_present</element>
+            <position>21</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45afd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mitigated_likelihood</element>
+            <position>22</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45afd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mitigated_severity</element>
+            <position>23</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>40965e2d3b447a18aeb1ebc964e45afe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>residual_risk_assessment</element>
+            <position>24</position>
+            <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-09-17 19:49:51</sys_created_on>
+            <sys_id>48965e2d3b447a18aeb1ebc964e45afe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="Default view">4fc59c4e87ac191050d2eca73cbb356e</sys_ui_section>
+            <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-09-17 19:49:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 19:08:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fc59c4e87ac191050d2eca73cbb356e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_4fc59c4e87ac191050d2eca73cbb356e</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

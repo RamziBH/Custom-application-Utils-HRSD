@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="wi_location" label="Lieu" language="fq" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>wi_location</element>
+            <help/>
+            <hint/>
+            <label>Lieu</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Lieu</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+            <sys_created_on>2023-05-25 18:56:56</sys_created_on>
+            <sys_id>036911d11b0769149fde86acdd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Lieu</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_wi_location_fq</sys_update_name>
+            <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+            <sys_updated_on>2023-05-25 18:56:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>telework_agreement,telework_agreement.subject_person,telework_agreement.manager_name,telework_agreement.employee_service_area,telework_agreement.subject_person.department,barcode,asset_type_selected,description,is_hybrid,telework_agreement.approval_set</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>25</maximum_entries>
+        <order>1</order>
+        <order_by>telework_agreement</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">aa7ae3e73b9d5214aeb1ebc964e45aa1</sp_column>
+        <sp_page/>
+        <sp_widget display_value="HoC Data Table">e6c1d7291b74c6189fde86acdd4bcb21</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-17 14:31:33</sys_created_on>
+        <sys_id>c31184b53bd11adcaeb1ebc964e45a92</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>${Requests}</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_instance_table_c31184b53bd11adcaeb1ebc964e45a92</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-13 19:30:03</sys_updated_on>
+        <table>x_hccc_hoc_ohs_telework_agreement_asset</table>
+        <title>${Requests}</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"enable_filter": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"views": {
+		"value": "[ \t{ \t\t\"titleEn\": \"All\", \t\t\"titleFr\": \"Tout\", \t\t\"filter\": \"telework_agreement.approval=approved\" \t}, \t{ \t\t\"titleEn\": \"Current\", \t\t\"titleFr\": \"Actuel\", \t\t\"filter\": \"telework_agreement.telework_start_date<=javascript:gs.endOfToday()^telework_agreement.telework_end_date>javascript:gs.endOfToday()^telework_agreement.approval=approved\" \t}, \t{ \t\t\"titleEn\": \"Expired\", \t\t\"titleFr\": \"Expiré\", \t\t\"filter\": \"telework_agreement.telework_end_date<javascript:gs.beginningOfToday()^telework_agreement.approval=approved\" \t}, \t{ \t\t\"titleEn\": \"Future\", \t\t\"titleFr\": \"Future\", \t\t\"filter\": \"telework_agreement.telework_start_date>javascript:gs.endOfToday()^telework_agreement.approval=approved\" \t} ]",
+		"displayValue": "[ \t{ \t\t\"titleEn\": \"All\", \t\t\"titleFr\": \"Tout\", \t\t\"filter\": \"telework_agreement.approval=approved\" \t}, \t{ \t\t\"titleEn\": \"Current\", \t\t\"titleFr\": \"Actuel\", \t\t\"filter\": \"telework_agreement.telework_start_date<=javascript:gs.endOfToday()^telework_agreement.telework_end_date>javascript:gs.endOfToday()^telework_agreement.approval=approved\" \t}, \t{ \t\t\"titleEn\": \"Expired\", \t\t\"titleFr\": \"Expiré\", \t\t\"filter\": \"telework_agreement.telework_end_date<javascript:gs.beginningOfToday()^telework_agreement.approval=approved\" \t}, \t{ \t\t\"titleEn\": \"Future\", \t\t\"titleFr\": \"Future\", \t\t\"filter\": \"telework_agreement.telework_start_date>javascript:gs.endOfToday()^telework_agreement.approval=approved\" \t} ]"
+	},
+	"show_user_filters": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"show_keywords": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=c31184b53bd11adcaeb1ebc964e45a92"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c31184b53bd11adcaeb1ebc964e45a92</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-23 19:04:39</sys_created_on>
+        <sys_id>9e29bbe73b959214aeb1ebc964e45ae8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-23 19:04:39</sys_updated_on>
+        <tablename>sp_instance_table</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>c31184b53bd11adcaeb1ebc964e45a92</documentkey>
+        <fieldname>title</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-23 19:04:39</sys_created_on>
+        <sys_id>1629bbe73b959214aeb1ebc964e45aed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-23 19:04:39</sys_updated_on>
+        <tablename>sp_instance_table</tablename>
+        <value>${Requests}</value>
+    </sys_translated_text>
+</record_update>

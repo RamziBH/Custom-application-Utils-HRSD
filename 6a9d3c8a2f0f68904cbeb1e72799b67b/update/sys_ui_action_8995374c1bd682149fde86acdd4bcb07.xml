@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_copy</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Task 155847: create Copy action</comments>
+        <condition>!current.isNewRecord() &amp;&amp; current.canCreate() &amp;&amp; current.active == true</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>unstyled</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint>Track different situations for the same position title</hint>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Copy</name>
+        <onclick/>
+        <order>-150</order>
+        <script><![CDATA[/* global action, x_hccc_hoc_ohs */
+
+function copy(oldCaseGR) {
+    var hiraUtil = new x_hccc_hoc_ohs.HoCOHSMHIRAUtils();
+    var hira_record = hiraUtil.copyCase(oldCaseGR, 'case copied', false);
+
+    return hira_record;
+}
+
+var newRecord = copy(current);
+
+if (gs.nil(newRecord)) { //JSUtil.nil(newRecord) or gs.nil(newRecord)
+    gs.addErrorMessage('Failed to copy case');
+    action.setRedirectURL(current);
+    action.setReturnURL(current);
+} else {
+    // redirect to the copy we just created
+    gs.addInfoMessage('created from ' + current.number);
+    //gs.setRedirect(newRecord);
+    action.setRedirectURL(newRecord);
+    action.setReturnURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-16 18:41:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8995374c1bd682149fde86acdd4bcb07</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Copy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_action_8995374c1bd682149fde86acdd4bcb07</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-27 19:15:43</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hira_case</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8995374c1bd682149fde86acdd4bcb07</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-27 19:12:20</sys_created_on>
+        <sys_id>c09a808b3b469618aeb1ebc964e45a9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-27 19:12:20</sys_updated_on>
+        <table>sys_ui_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

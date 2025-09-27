@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_definition">
+    <sys_rte_eb_etl_definition action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copy_empty_fields>true</copy_empty_fields>
+        <description>To run only once. When HIRA is released.</description>
+        <name>OHS - HIRA Initial Import (INACTIVE)</name>
+        <on_after_script><![CDATA[/* global x_hccc_hoc_ohs */
+(function onAfter(source, target, importLog) {
+
+    const hiraUtils = new x_hccc_hoc_ohs.HoCOHSMHIRAUtils();
+    const oldCaseGr = new GlideRecord('x_hccc_hoc_ohs_hira_case');
+
+    oldCaseGr.addEncodedQuery('sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()');
+    oldCaseGr.query();
+
+    while (oldCaseGr.next()) {
+        //TODO find other combo before copying
+        //hiraUtils.copyCase(oldCaseGr, '', false);
+    }
+
+})(source, target, importLog);]]></on_after_script>
+        <on_after_script_bool>true</on_after_script_bool>
+        <on_before_script><![CDATA[(function onBefore(source, target, importLog) {
+
+	// Add your on before code here
+
+})(source, target, importLog);]]></on_before_script>
+        <on_before_script_bool>false</on_before_script_bool>
+        <sys_class_name>sys_rte_eb_etl_definition</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-20 14:43:48</sys_created_on>
+        <sys_id>8aa7518b1b401e9c2a0bcb3f034bcb66</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>OHS - HIRA Initial Import (INACTIVE)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_definition_8aa7518b1b401e9c2a0bcb3f034bcb66</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-05 12:33:23</sys_updated_on>
+    </sys_rte_eb_etl_definition>
+</record_update>

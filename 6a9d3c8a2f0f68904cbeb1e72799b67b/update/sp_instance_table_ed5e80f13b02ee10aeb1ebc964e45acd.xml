@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>number,short_description,state,implementation_date</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by>number</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7e469125fb1a169895e5fb3f4eefdc96</sp_column>
+        <sp_page display_value="hoc_hira_rl_form">bd1659a1fb1a169895e5fb3f4eefdc60</sp_page>
+        <sp_widget display_value="HoC OHSM Related List">676aaa55fb46a21095e5fb3f4eefdc29</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-10 18:27:34</sys_created_on>
+        <sys_id>ed5e80f13b02ee10aeb1ebc964e45acd</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Mitigation Actions</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_instance_table_ed5e80f13b02ee10aeb1ebc964e45acd</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-04 19:33:33</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hira_action</table>
+        <title>Mitigation Actions</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=ed5e80f13b02ee10aeb1ebc964e45acd"/>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>zFunctional Limitation = Yes
+zMedical Aid = No
+Parttime tuesday = 
+Department name = 
+Job annual salary = $0.00
+Remaining budget = $0.00
+Parttime friday = 
+Department ID = 
+Parttime sunday = 
+BU. name = 
+Parttime thursday = 
+Employee last name = 
+Job previous salary = $0.00
+Parttime hours per week = 
+Parttime wednesday = 
+New salary = $0.00
+BU. Company = 
+Partime hourly rate C = $0.00
+Parttime saturday = 
+Employee first name = 
+Department Pay list = 
+Location type = 
+Employee email adress = 
+Job paylist = 
+Effective date = 
+Job probation period = 
+Department Head = 
+MP first name = 
+Job end date = 
+Job business title = 
+Parttime monday = 
+Job start date = 
+Location Street = 
+MP last name = 
+Department code = 
+Employee DoB = 
+Location name = </description>
+        <order>2</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-16 18:50:48</sys_created_on>
+        <sys_id>a65d6d94dba40110e3dd80c74b961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_a65d6d94dba40110e3dd80c74b961912</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <test display_value="OHS - Report Incident Frequent First Aid by Other 1 person parm">269ce514dba40110e3dd80c74b96193a</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="delete_multiple" query="document_key=a65d6d94dba40110e3dd80c74b961912"/>
+</record_update>

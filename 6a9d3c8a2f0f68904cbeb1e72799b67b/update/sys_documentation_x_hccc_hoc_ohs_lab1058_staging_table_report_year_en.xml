@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="report_year" label="Report Year" language="en" table="x_hccc_hoc_ohs_lab1058_staging_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>report_year</element>
+            <help/>
+            <hint/>
+            <label>Report Year</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_lab1058_staging_table</name>
+            <plural>Report Years</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-02-01 23:50:09</sys_created_on>
+            <sys_id>c57611bd1b81ed5078230d47dc4bcbd2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Report Year</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_lab1058_staging_table_report_year_en</sys_update_name>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-01 23:50:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

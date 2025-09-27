@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMClientUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Functions to use from the front end (UI policy)</description>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMClientUtils</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var HoCOHSMClientUtils = Class.create();
+
+HoCOHSMClientUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    //For first implementation, get inspired by "IncidentClientUtils" https://hoccdcdv.service-now.com/sys_script_include.do?sys_id=cd0c6da51bfbd1d09fde86acdd4bcb97
+
+
+    // Used on catalogue items/record producer to get information about an employee/submitter from sys_user
+    getSubmitterInformation: function() {
+        var userID = this.getParameter("sysparm_user_id");
+        var grUser = new GlideRecord('sys_user');
+        var result = {};
+
+        if (grUser.get('sys_id', userID)) {
+            result = {
+                "title": grUser.getDisplayValue('title'),
+                "manager": grUser.getValue('manager'),
+                "service_area": grUser.getDisplayValue('department.business_unit')
+                // ??? Service Area
+            };
+
+
+        }
+
+        return JSON.stringify(result);
+
+    },
+
+
+    type: 'HoCOHSMClientUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-22 13:36:48</sys_created_on>
+        <sys_id>6ab0d8521beb25149fde86acdd4bcb19</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>HoCOHSMClientUtils</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_6ab0d8521beb25149fde86acdd4bcb19</sys_update_name>
+        <sys_updated_by>taylor.pullen@ca.ey.com</sys_updated_by>
+        <sys_updated_on>2024-02-05 21:05:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

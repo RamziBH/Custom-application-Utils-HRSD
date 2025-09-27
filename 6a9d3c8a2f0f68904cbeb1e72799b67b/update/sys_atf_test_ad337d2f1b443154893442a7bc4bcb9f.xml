@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from/>
+        <description>This test tests the Safety Complaint wokflow when the Employee disagrees with Manager, disagrees with the Committee, agrees with the Ministry of Labour and the Manager agrees with the Committee. &#13;
+&#13;
+NOTE&#13;
+The following test https://hoccdcdv.service-now.com/nav_to.do?uri=sys_atf_test.do?sys_id=446e9a4f1b7761989fde86acdd4bcb25 seems to be a duplicate but the other is failing. Need to investigate later what the difference is.</description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>OHS - Safety Complaint Workflow Emp disagree Mgr disagrees Commit.  agree Labour Mgr agrees Commit. </name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:38:38</sys_created_on>
+        <sys_id>ad337d2f1b443154893442a7bc4bcb9f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OHS - Safety Complaint Workflow Emp disagree Mgr disagrees Commit.  agree Labour Mgr agrees Commit. </sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_ad337d2f1b443154893442a7bc4bcb9f</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-22 21:04:47</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=ad337d2f1b443154893442a7bc4bcb9f"/>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Do you know the identity of the principal party?">5d9de2fe87bc6d5050d2eca73cbb354f</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2023-02-07 20:35:39</sys_created_on>
+        <sys_id>5eedaab687fc6d5050d2eca73cbb351b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>No</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>question_choice_5eedaab687fc6d5050d2eca73cbb351b</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2023-02-07 20:38:35</sys_updated_on>
+        <text>No</text>
+        <value>no</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=5eedaab687fc6d5050d2eca73cbb351b"/>
+</record_update>

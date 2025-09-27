@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Fulfillment Instructions" section_id="806a484c1b57e810ea0eda02dd4bcb75" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="safety_complaint">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_additional_employment_information</element>
+            <position>0</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:30:35</sys_created_on>
+            <sys_id>d27a408c1b57e810ea0eda02dd4bcbaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Fulfillment Instructions" display_value="Fulfillment Instructions" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">806a484c1b57e810ea0eda02dd4bcb75</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-03-29 17:30:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Fulfillment Instructions</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:30:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>806a484c1b57e810ea0eda02dd4bcb75</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_806a484c1b57e810ea0eda02dd4bcb75</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Safety complaint" name="safety_complaint">6e95084c1b17e810ea0eda02dd4bcb8f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

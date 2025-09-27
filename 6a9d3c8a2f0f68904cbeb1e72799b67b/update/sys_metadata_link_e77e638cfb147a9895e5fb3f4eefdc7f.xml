@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>482aa3c4fbd07a9895e5fb3f4eefdc39</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_update_version">
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>INSERT_OR_UPDATE</action>
+        <application display_value="Global">global</application>
+        <file_path/>
+        <instance_id>047331aedbd7b7c849eac597059619e3</instance_id>
+        <instance_name>hoccdcdv</instance_name>
+        <name>sys_security_acl_a86c5366db698110e3dd80c74b9619ec</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition table="sys_attachment"&gt;table_nameSTARTSWITHx_hccc_hoc_ohs_investigation_case^EQ&lt;item endquery="false" field="table_name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="x_hccc_hoc_ohs_investigation_case"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/condition&gt;&lt;description&gt;HoC Occupational Health and Safety: &amp;#13;
+Allow users to access attachments attched to 'OHS Investigation case' records that they are allowed to read.&lt;/description&gt;&lt;name&gt;sys_attachment&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[//Get the record to which the attachment is related to
+var gr = new GlideRecord(current.getValue("table_name"));
+gr.get(current.getValue("table_sys_id"));
+
+//Check is the record is valid and user can read it
+answer = gr.isValid() &amp;&amp; gr.canRead();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Benoit.Proulx@parlissi.gc.ca&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-11 19:48:16&lt;/sys_created_on&gt;&lt;sys_id&gt;a86c5366db698110e3dd80c74b9619ec&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;sys_attachment&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_a86c5366db698110e3dd80c74b9619ec&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Benoit.Proulx@parlissi.gc.ca&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-02-11 19:59:35&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1428480806</payload_hash>
+        <record_name>sys_attachment</record_name>
+        <reverted_from display_value="sys_security_acl_a86c5366db698110e3dd80c74b9619ec">413a419c1bb10110c6c7a8ecbc4bcb03</reverted_from>
+        <source>eff9091c1bb10110c6c7a8ecbc4bcb89</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-09-25 20:19:45</sys_created_on>
+        <sys_id>482aa3c4fbd07a9895e5fb3f4eefdc39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199828828050000001</sys_recorded_at>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-25 20:19:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>442a238427d07a984439abef258c3455</update_guid>
+        <update_guid_history>442a238427d07a984439abef258c3455:-1428480806,b8f92304cad07a98e4ddb37ae9e2b2f1:-995386264,cca96fc011d07a980f395d0d75a1c139:-510575105,7496abc0c1907a9859d7542dabc6c233:-104565610,a0662780d9907a98f562995cc39e65ae:-1359157998,0d14eb4487507a9825d5a9f51cc94554:1299395618,7ee32f04d9507a98c9ccc2780afad596:-1781332895,d4d3230470507a988fa89dcb0ac191f8:51345968,a2a3a3c028507a98bc842513c8de74a5:-1999996508,cc53e340e2507a986672feb96682a4d0:1454295368,f51b1300679c3a9858cf8771125781fb:-233133477,6efa9f8cd75c3a98e6bb7110e62b67fd:-242437917,95f3c244839cb6982ea43ed91f2dfacf:-933938342,169386c0b59cb69890b73eea145f3f63:1870647739,b10cde37c144be58422010f72cb1bf1e:-1428480806,09cb1ef36944be582dc58d731c05602d:-995386264,a6a03feef7a9811097286552213bbddb:-1428480806,57bf932ede698110348338c707a36299:-1428480806,6d2d9fa6a76981101afe73b2b215c74a:795647350</update_guid_history>
+    </sys_update_version>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-09-25 20:38:49</sys_created_on>
+        <sys_id>e77e638cfb147a9895e5fb3f4eefdc7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_security_acl_a86c5366db698110e3dd80c74b9619ec</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_e77e638cfb147a9895e5fb3f4eefdc7f</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-25 20:38:49</sys_updated_on>
+        <tablename>sys_update_version</tablename>
+    </sys_metadata_link>
+</record_update>

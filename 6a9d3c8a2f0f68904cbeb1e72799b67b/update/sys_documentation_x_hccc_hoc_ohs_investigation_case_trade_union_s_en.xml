@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="trade_union_s" label="Trade union(s)" language="en" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>trade_union_s</element>
+            <help/>
+            <hint/>
+            <label>Trade union(s)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Trade union(s)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-02-08 23:16:00</sys_created_on>
+            <sys_id>627651bd1b81ed5078230d47dc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Trade union(s)</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_trade_union_s_en</sys_update_name>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-08 23:16:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

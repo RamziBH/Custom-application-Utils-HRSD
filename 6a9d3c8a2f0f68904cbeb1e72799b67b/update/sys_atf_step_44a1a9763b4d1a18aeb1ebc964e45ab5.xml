@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Field State Validation">335ced8b1b8bc1509fde86acdd4bcb39</copied_from>
+        <description>Assert the following:
+The following fields are not read only: Years of Occupation (calculated in years), Type of Occurrence, Description of the event, Description of the injury, Corrective measures,  Implementation date, Direct cause of injury, Protection equipment required, Brief description and estimated cost of property damage, if any., Date and time of occurrence, Employee gender, Direct cause of hazardous occurrence, Supplementary preventative measures, Additional investigation notes, Employee Age, Work hour start, Work hour end, Did the employee receive training?, Training specifications, Weather, Reasons for not taking corrective measures, Witnesses, Was the employee on modified duties at the time of the incident?, Does the employee require modified duties as a result of this injury/illness?, Did the employee consult a healthcare professional as a result of this injury?, Did this incident result in an injury? , Incident related illness, Post-exposure incident (biological, chemical)
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field State Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Manager tab</notes>
+        <order>32</order>
+        <step_config display_value="Field State Validation">1dfece935332120028bc29cac2dc3478</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>44a1a9763b4d1a18aeb1ebc964e45ab5</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Field State Validation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_44a1a9763b4d1a18aeb1ebc964e45ab5</sys_update_name>
+        <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-22 16:16:11</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <test display_value="OHS -  Incident workflow check read-only fields throughout">a79129763b4d1a18aeb1ebc964e45ac4</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=44a1a9763b4d1a18aeb1ebc964e45ab5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44a1a9763b4d1a18aeb1ebc964e45ab5</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>00a1a9763b4d1a18aeb1ebc964e45ab7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:27</sys_updated_on>
+        <value/>
+        <variable display_value="Mandatory">6e5a1b535320220002c6435723dc3498</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44a1a9763b4d1a18aeb1ebc964e45ab5</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>04a1a9763b4d1a18aeb1ebc964e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:27</sys_updated_on>
+        <value/>
+        <variable display_value="Read only">592a17535320220002c6435723dc34d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44a1a9763b4d1a18aeb1ebc964e45ab5</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>40a1a9763b4d1a18aeb1ebc964e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:27</sys_updated_on>
+        <value/>
+        <variable display_value="Visible">0cd9df135320220002c6435723dc3426</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44a1a9763b4d1a18aeb1ebc964e45ab5</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>4ca1a9763b4d1a18aeb1ebc964e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:27</sys_updated_on>
+        <value>emp_time_in_pos,inc_type_occ,mng_inc_desc,mng_desc_injury,correct_meas_imp_date,implementation_date,dir_cause_injury,inc_req_prot_equip,brief_description_and_estimated_cost,date_and_time_of_occurrence,employee_gender,direct_causes_of_hazardous_occurrence,supplementary_preventative_measures,additional_investigation_notes,emp_age,emp_work_start,emp_work_end,inc_training_prov,training_spec,weather,no_correct_meas_reas,inc_witnesses,was_the_employee_on_modified_duties_at_the_time_of_the_incident,does_the_employee_now_require_modified_duties_as_a_result_of_this_injury,did_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury,did_this_incident_result_in_an_injury,inc_related_illness,inc_related_post_exp</value>
+        <variable display_value="Not read only">e63a97535320220002c6435723dc34b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44a1a9763b4d1a18aeb1ebc964e45ab5</document_key>
+        <order>410</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>88a1a9763b4d1a18aeb1ebc964e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:27</sys_updated_on>
+        <value/>
+        <variable display_value="Not mandatory">787a9b535320220002c6435723dc3455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44a1a9763b4d1a18aeb1ebc964e45ab5</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>8ca1a9763b4d1a18aeb1ebc964e45ab5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:27</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">b1fefcde73633300b19898b8caf6a7af</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44a1a9763b4d1a18aeb1ebc964e45ab5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>c0a1a9763b4d1a18aeb1ebc964e45ab7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:27</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">80f953535320220002c6435723dc340f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>44a1a9763b4d1a18aeb1ebc964e45ab5</document_key>
+        <order>210</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:27</sys_created_on>
+        <sys_id>c4a1a9763b4d1a18aeb1ebc964e45ab6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:27</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">e81ad3535320220002c6435723dc340c</variable>
+    </sys_variable_value>
+</record_update>

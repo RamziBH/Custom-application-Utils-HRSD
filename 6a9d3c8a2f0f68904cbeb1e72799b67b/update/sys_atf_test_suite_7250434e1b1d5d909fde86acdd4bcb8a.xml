@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description> </description>
+        <input_filter/>
+        <name>DNU - OHS - HIRA Basic Submission (not reviewed)</name>
+        <parent display_value="DNU - OHS - HIRA Top Suite">b7e1d01a1b5511d09fde86acdd4bcba7</parent>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-15 14:21:14</sys_created_on>
+        <sys_id>7250434e1b1d5d909fde86acdd4bcb8a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>DNU - OHS - HIRA Basic Submission (not reviewed)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_7250434e1b1d5d909fde86acdd4bcb8a</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-07 19:44:49</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

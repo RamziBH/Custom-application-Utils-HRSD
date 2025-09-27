@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Validate Outbound Email">91411f518722455050d2eca73cbb35ff</copied_from>
+        <description>Validate that an email was generated matching query:
+Recipients = ohsdemo@gmail.com
+and Subject contains Safety Complaint
+and Subject contains Internal Safety Complaints work updated from {{Step 3: Create a User.User.Name}}
+and Body contains Safety Complaint updated from {{Step 3: Create a User.User.Name}}
+and Body contains ATF timeline plan
+and Body contains Employee agrees with the results: No
+and Body contains OHSM
+and Body contains {{Step 8: Submit Record Producer (SP).Record}}
+and Body contains x_hccc_hoc_ohs_investigation_case
+and Body does not contain workplace incident
+and Body does not contain refusal
+and Created &gt; javascript:gs.minutesAgo(1)
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>25</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 14:47:02</sys_created_on>
+        <sys_id>0e5e29ba3b095a18aeb1ebc964e45a3b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_0e5e29ba3b095a18aeb1ebc964e45a3b</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-15 20:48:17</sys_updated_on>
+        <table/>
+        <test display_value="OHS - Safety Complaint Workflow Emp disagree Mgr agrees Commit. Mgr disagrees Commit.">a55e65ba3b095a18aeb1ebc964e45ac1</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=0e5e29ba3b095a18aeb1ebc964e45a3b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0e5e29ba3b095a18aeb1ebc964e45a3b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 14:47:02</sys_created_on>
+        <sys_id>025e29ba3b095a18aeb1ebc964e45a3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 14:47:02</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0e5e29ba3b095a18aeb1ebc964e45a3b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 14:47:02</sys_created_on>
+        <sys_id>4e5e29ba3b095a18aeb1ebc964e45a3d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-15 20:48:17</sys_updated_on>
+        <value>recipients=ohsdemo@gmail.com^subjectLIKESafety Complaint^subjectLIKEInternal Safety Complaints work updated from {{step['615ea5ba3b095a18aeb1ebc964e45a0a'].user.name}}^bodyLIKESafety Complaint updated from {{step['615ea5ba3b095a18aeb1ebc964e45a0a'].user.name}}^bodyLIKEATF timeline plan^bodyLIKEEmployee agrees with the results: No^bodyLIKEOHSM^bodyLIKE{{step['315ea5ba3b095a18aeb1ebc964e45a5e'].record_id}}^bodyLIKEx_hccc_hoc_ohs_investigation_case^bodyNOT LIKEworkplace incident^bodyNOT LIKErefusal^sys_created_onRELATIVEGT@minute@ago@1^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0e5e29ba3b095a18aeb1ebc964e45a3b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>0e5e29ba3b095a18aeb1ebc964e45a3b</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 14:47:02</sys_created_on>
+        <sys_id>065e29ba3b095a18aeb1ebc964e45a3e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-15 20:48:17</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>recipients=ohsdemo@gmail.com^subjectLIKESafety Complaint^subjectLIKEInternal Safety Complaints work updated from {{step['615ea5ba3b095a18aeb1ebc964e45a0a'].user.name}}^bodyLIKESafety Complaint updated from {{step['615ea5ba3b095a18aeb1ebc964e45a0a'].user.name}}^bodyLIKEATF timeline plan^bodyLIKEEmployee agrees with the results: No^bodyLIKEOHSM^bodyLIKE{{step['315ea5ba3b095a18aeb1ebc964e45a5e'].record_id}}^bodyLIKEx_hccc_hoc_ohs_investigation_case^bodyNOT LIKEworkplace incident^bodyNOT LIKErefusal^sys_created_onRELATIVEGT@minute@ago@1^EQ</value>
+    </sys_element_mapping>
+</record_update>

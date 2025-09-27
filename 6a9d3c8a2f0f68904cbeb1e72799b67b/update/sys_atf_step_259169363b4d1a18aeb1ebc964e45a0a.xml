@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">b44ce13c1b37e5d49fde86acdd4bcb7d</copied_from>
+        <description>Answer the questions on the form as follows:
+Witnesses(s)  = Vax, HocEmployeePersona
+and First aid administered = Yes
+and Description of the sustained injury/illness. (Ex: laceration, cut, puncture, burn.) = ATF illness injury
+and Aggravation of a pre-existing injury = Yes
+and Did you receive medical aid (other than first aid) = Yes
+and Functional limitations identified = Yes</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Set Variable Values after field "Did this incident result in an injury/illness? " is marked as YES.</notes>
+        <order>8</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:17</sys_created_on>
+        <sys_id>259169363b4d1a18aeb1ebc964e45a0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_259169363b4d1a18aeb1ebc964e45a0a</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:17</sys_updated_on>
+        <table/>
+        <test display_value="OHS - Report Incident Frequent Witness Yes Injury Yes First Aid Myself">5991e5363b4d1a18aeb1ebc964e45ab4</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=259169363b4d1a18aeb1ebc964e45a0a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>259169363b4d1a18aeb1ebc964e45a0a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:17</sys_created_on>
+        <sys_id>259169363b4d1a18aeb1ebc964e45a0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:17</sys_updated_on>
+        <value>IO:1b4e6a932fab64104cbeb1e72799b692=,e26d889c1b6bb010426497d58d4bcbce^IO:565a60dd2faf28504cbeb1e72799b6d9=yes^IO:e60a60dd2faf28504cbeb1e72799b644=ATF illness injury^IO:688a24112fef28504cbeb1e72799b69c=yes^IO:c0fba0152fef28504cbeb1e72799b61b=yes^IO:fb2c64512fef28504cbeb1e72799b6c8=yes^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>259169363b4d1a18aeb1ebc964e45a0a</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:17</sys_created_on>
+        <sys_id>619169363b4d1a18aeb1ebc964e45a0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:17</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>259169363b4d1a18aeb1ebc964e45a0a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 13:51:17</sys_created_on>
+        <sys_id>e59169363b4d1a18aeb1ebc964e45a0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 13:51:17</sys_updated_on>
+        <value>632c129e2f4f2c904cbeb1e72799b6d0</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=259169363b4d1a18aeb1ebc964e45a0a"/>
+</record_update>

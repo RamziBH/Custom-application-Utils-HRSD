@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="principal_party_is_identified" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>principal_party_is_identified</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:07:09</sys_created_on>
+            <sys_id>178ac4701b60d1109fde86acdd4bcbfc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>principal_party_is_identified</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_principal_party_is_identified</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>principal_party_is_identified</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Veuillez selectionner...</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-19 12:51:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0899d0a33b04b2d0aeb1ebc964e45aaf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>principal_party_is_identified</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select...</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-19 12:51:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b789d0a33b04b2d0aeb1ebc964e45a87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>principal_party_is_identified</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:07:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>489914a33b04b2d0aeb1ebc964e45a88</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>principal_party_is_identified</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oui</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:37:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>849914a33b04b2d0aeb1ebc964e45a09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>principal_party_is_identified</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:07:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c9954a33b04b2d0aeb1ebc964e45a2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>principal_party_is_identified</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:36:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c49914a33b04b2d0aeb1ebc964e45ae2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

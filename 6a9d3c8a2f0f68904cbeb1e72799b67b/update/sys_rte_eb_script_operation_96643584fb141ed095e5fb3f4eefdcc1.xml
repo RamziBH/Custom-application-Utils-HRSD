@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Get HIRA Case reference</name>
+        <operation_group/>
+        <order>100</order>
+        <script><![CDATA[/* global batch, output */
+
+(function(batch, output) {
+    const timeStamp = new Date().toISOString(); //performance.timeOrigin + performance.now();
+    const infoStr = 'OHS - ' + timeStamp + ' - Get HIRA Case reference - ';
+
+    try {
+        for (var i = 0; i < batch.length; i++) {
+            //step1: access the input variables
+            var posRepId = batch[i].input; //Value of the source field. 
+
+            //step2: Your script/code goes here.
+            var grHIRA = new GlideRecord('x_hccc_hoc_ohs_hira_case');
+
+            grHIRA.get('position_reporting_position', posRepId);
+
+            if (grHIRA.getRowCount() === 0) {
+                gs.error(infoStr + 'ERROR: Unable to find matching case');
+            } else {
+                let sys_id = grHIRA.getUniqueValue();
+
+                if (!sys_id) {
+                    sys_id = grHIRA.getValue("sys_id")
+                }
+                if (!sys_id) {
+                    gs.error(infoStr + 'ERROR: Unable to find matching case');
+                }
+                output[i] = sys_id;
+                gs.debug(infoStr + 'posRepId: ' + posRepId + ' - HIRA Case Id: ' + sys_id);
+            }
+        }
+    } catch (e) {
+        gs.error(infoStr + 'ERROR: ' + e);
+    }
+})(batch, output);]]></script>
+        <source_sys_rte_eb_field display_value="Position Reporting Position Sys_id">f6d37dc0fb141ed095e5fb3f4eefdc0b</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-23 19:34:04</sys_created_on>
+        <sys_id>96643584fb141ed095e5fb3f4eefdcc1</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Get HIRA Case reference</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="OHS - HIRA Initial Import (INACTIVE)">8aa7518b1b401e9c2a0bcb3f034bcb66</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Hazard Staging">4b337988fb901ed095e5fb3f4eefdc77</sys_rte_eb_entity>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_96643584fb141ed095e5fb3f4eefdcc1</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-29 14:29:32</sys_updated_on>
+        <target_sys_rte_eb_field display_value="HIRA Case Ref">5cb37980fb141ed095e5fb3f4eefdcbc</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+</record_update>

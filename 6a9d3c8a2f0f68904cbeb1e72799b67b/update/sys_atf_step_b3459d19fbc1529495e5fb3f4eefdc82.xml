@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Run Server Side Script">bde6ebfd1b67add09fde86acdd4bcb4c</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Validates that all fields mapped using a script are return the proper value, all functions used are found in HoCOHSMUtils.  LAB1070 Fields being tested: 	&#13;
+        • 1 - Type of Occurrence&#13;
+	• 3 - Employee Name and mailing address&#13;
+	• 3 - Employee Telephone Number&#13;
+	• 3 -  Site of hazardous occurrence&#13;
+	• 3 - Date and time of hazardous occurrence&#13;
+	• 4 - Description of what happened&#13;
+	• 4- Brief description of estimated cost of property damage&#13;
+	• 5 - Injured employee's name&#13;
+	• 5 - Occupation&#13;
+	• 5 - Description of injury&#13;
+	• 5 - Gender&#13;
+	• 5 - Training Specify&#13;
+	• 5 - Training Given&#13;
+	• 6 - Direct cause of hazardous occurrence&#13;
+	• 7 - corrective measures and date employee will implement&#13;
+	• 7 - Reasons for not taking corrective measures&#13;
+	• Supplementary preventive measures&#13;
+	• 8 - Surname&#13;
+	• 8 - Given Name&#13;
+	• 8 - Telephone Number&#13;
+	• 8 - Title&#13;
+	• 8 - E-mail&#13;
+        • 9 - Number</notes>
+        <order>20</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 21:06:45</sys_created_on>
+        <sys_id>b3459d19fbc1529495e5fb3f4eefdc82</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_b3459d19fbc1529495e5fb3f4eefdc82</sys_update_name>
+        <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-22 16:29:33</sys_updated_on>
+        <table/>
+        <test display_value="OHS - PDF Testing - LAB1070">af455151fbc1529495e5fb3f4eefdcd4</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b3459d19fbc1529495e5fb3f4eefdc82"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b3459d19fbc1529495e5fb3f4eefdc82</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 21:06:45</sys_created_on>
+        <sys_id>bf459d19fbc1529495e5fb3f4eefdc82</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-03 21:06:46</sys_updated_on>
+        <value>/* global x_hccc_hoc_ohs */&#13;
+(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+    var EXPECTED = {&#13;
+        SITE: '131 Queen(131 Queen Street)',&#13;
+        TIME: '0400',&#13;
+        DESCRIPTION_OF_WHAT_HAPPENED: 'ATF Description',&#13;
+        EMPLOYEE_TRAINING: 'Yes',&#13;
+        OCCUPATION: 'ATF Title',&#13;
+        EMPLOYEE_TEL: '000-000-000',&#13;
+        SUPPLEMENTARY_PREVENTATIVE_MEASURES: 'ATFSupplementary',&#13;
+        BRIEF_DESCRIPTION: 'ATFProperty',&#13;
+        DESCRIPTION_INJURY: 'ATF Injury Description',&#13;
+        TRAINING_SPECIFICATIONS: 'ATFTraining',&#13;
+        CORRECTIVE_MEASURES: 'ATF Corrective Measures',&#13;
+        REASON_FOR_NOT_TAKING_CORRECTIVE_MEASURES: 'ATFCorrective',&#13;
+        WHSC_COMMENT: 'ATFWHSCComments',&#13;
+        INVESTIGATOR_TEL: '000-000-000',&#13;
+        INVESTIGATOR_FIRSTNAME: 'HocManagerPersona',&#13;
+        INVESTIGATOR_TITLE: 'Test Manager',&#13;
+        INVESTIGATOR_EMAIL: 'HocManagerPersona.Vax@parlissi.gc.ca',&#13;
+        INVESTIGATOR_LASTNAME: 'Vax',&#13;
+        EMPLOYEE_GENDER: 'M',&#13;
+        COMMITTEE_TEL: '111-111-1111',&#13;
+        EMPLOYEE_NAME_AND_ADDRESS: 'House of Commons\n111 Wellington Street\nOttawa, Ontario',&#13;
+        TYPE_OF_OCCURENCE: '1',&#13;
+        DIRECT_CAUSE_OF_HAZARDOUS_OCCURENCE: 'Defects of equipment, Worn, cracked, broken, etc.',&#13;
+        EMPLOYEE_NAME: 'ATFOHSAdminLast, ATFOHSAdminFirst'&#13;
+    };&#13;
+&#13;
+    var STEP_SYS_ID = 'e3455d19fbc1529495e5fb3f4eefdcea'; //Submit Record Porducer test step sys_id&#13;
+    var record_sys_id = steps(STEP_SYS_ID).record_id; // Submitted Record Procucer record sys_id&#13;
+&#13;
+    var caseGr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');&#13;
+    caseGr.get(record_sys_id);&#13;
+&#13;
+    var annexString = gs.getMessageLang("x_hccc_hoc_ohs.annex", "en");&#13;
+    var ohsmUtils = new x_hccc_hoc_ohs.HoCOHSMUtils();&#13;
+&#13;
+    var returnedObj1 = ohsmUtils.getFieldFormattedString(caseGr.getValue("mng_inc_desc"), 100, 3, annexString);&#13;
+    var returnedObj2 = ohsmUtils.getFieldFormattedString(caseGr.getValue("brief_description_and_estimated_cost"), 100, 2, annexString);&#13;
+    var returnedObj3 = ohsmUtils.getFieldFormattedString(caseGr.getValue("supplementary_preventative_measures"), 100, 2, annexString);&#13;
+    var returnedObj4 = ohsmUtils.getFieldFormattedString(caseGr.getValue("mng_desc_injury"), 60, 2, annexString);&#13;
+    var returnedObj5 = ohsmUtils.getFieldFormattedString(caseGr.getValue("training_spec"), 50, 2, annexString);&#13;
+    var returnedObj6 = ohsmUtils.getFieldFormattedString(caseGr.getValue("correct_meas_imp_date"), 100, 2, annexString);&#13;
+    var returnedObj7 = ohsmUtils.getFieldFormattedString(caseGr.getValue("no_correct_meas_reas"), 100, 2, annexString);&#13;
+    var returnedObj8 = ohsmUtils.getFieldFormattedString(caseGr.getValue("whsc_comments"), 100, 2, annexString);&#13;
+&#13;
+    var supp_prev = returnedObj3.formattedString; //Field value "Supplementary preventative measures"&#13;
+    var brief_desc = returnedObj2.formattedString; //Field value "Brief description and estimated costs"&#13;
+    var desc_happened = returnedObj1.formattedString; //Field value "Description of what happened"&#13;
+    var desc_inj = returnedObj4.formattedString; //Field value "Description of the injury"&#13;
+    var training_spec = returnedObj5.formattedString; //Field value "Training specifications"&#13;
+    var corrective_meas = returnedObj6.formattedString; //Field value "Corrective measures"&#13;
+    var reason_corr = returnedObj7.formattedString; //Field value "Reasons for not taking corrective measures"&#13;
+    var whsc_comm = returnedObj8.formattedString; //Field value "WHSC comments"&#13;
+&#13;
+    var time = ohsmUtils.getTime(caseGr); //Field value "Site of hazardous occurence"&#13;
+    var site = ohsmUtils.getLocationString(caseGr); //Field value "Date and time of hazardous occurence"&#13;
+    var employeetraining = ohsmUtils.getEmployeeTrainingString(caseGr); //Field value "Did the employee receive training?"  &#13;
+    var occupation = ohsmUtils.getPersonTitle(caseGr).toString(); // Field value of Subject person title&#13;
+    var employee_tel = ohsmUtils.getEmployeetel(caseGr); //Field value Employee Telephone Number&#13;
+    var investigator_tel = ohsmUtils.getInvestigator(caseGr, "number"); //Field value Investigator Telephone Number&#13;
+    var invetsigator_first = ohsmUtils.getInvestigator(caseGr, "firstname"); //Field value Investigator Surname&#13;
+    var investigator_last = ohsmUtils.getInvestigator(caseGr, "lastname"); //Field value Investigator Given Name&#13;
+    var investigator_title = ohsmUtils.getInvestigator(caseGr, "title"); //Field value Investigator Title&#13;
+    var investigator_email = ohsmUtils.getInvestigator(caseGr, "email"); //Field value Investigator Email&#13;
+    var gender = ohsmUtils.getGender('Male'); //Field value Employee Gender - Testing mapped value of Male manually&#13;
+    var committee_tel = ohsmUtils.getCommiteetel(caseGr); //Field value Comittee Telephone Number&#13;
+    var empl_name = ohsmUtils.getEmplNameandMailing(); //Field value Employer's name and mailing address&#13;
+    var type_occ = ohsmUtils.getTypeoccurence(caseGr, "Disability injury", "disab_injury"); //Field value "Type of Occurence" for Disability injury&#13;
+    var hazardous_occ = ohsmUtils.getHazardousOcc(caseGr); //Field value "Direct causes of hazardous occurrence"&#13;
+    var emp_name = ohsmUtils.getEmployeeName(caseGr); //Field value "Employee Name"&#13;
+&#13;
+    var tempResult;&#13;
+    var isPassing = true;&#13;
+&#13;
+    function isMatchingExpectation(field, expectedValue, currentValue) {&#13;
+        if (currentValue === expectedValue) {&#13;
+            return {&#13;
+                result: true,&#13;
+                info: 'Field "' + field + '" value is correct.'&#13;
+            };&#13;
+        } else {&#13;
+            return {&#13;
+                result: false,&#13;
+                info: 'Field "' + field + '" value is incorrect. Expected [' + expectedValue + '], instead got [' + currentValue + ']'&#13;
+            };&#13;
+        }&#13;
+    }&#13;
+&#13;
+    //Check value of field "Site of hazardous occurence" is correct&#13;
+    tempResult = isMatchingExpectation('Site of hazardous occurence', EXPECTED.SITE, site);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value "Date and time of hazardous occurence" of field is correct&#13;
+    tempResult = isMatchingExpectation('Date and time of hazardous occurence', EXPECTED.TIME, time);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value "Description of what happened" of field is correct&#13;
+    tempResult = isMatchingExpectation('Description of what happened', EXPECTED.DESCRIPTION_OF_WHAT_HAPPENED, desc_happened);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field "Did the employee receive training?" is correct&#13;
+    tempResult = isMatchingExpectation('Did the employee receive training?', EXPECTED.EMPLOYEE_TRAINING, employeetraining);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field "Occupation" is correct&#13;
+    tempResult = isMatchingExpectation('Occupation', EXPECTED.OCCUPATION, occupation);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field Employee Telephone is correct&#13;
+    tempResult = isMatchingExpectation('Employee Telephone value', EXPECTED.EMPLOYEE_TEL, employee_tel);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field "Supplementary preventative measures" is correct&#13;
+    tempResult = isMatchingExpectation('Supplementary preventative measures', EXPECTED.SUPPLEMENTARY_PREVENTATIVE_MEASURES, supp_prev);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field "Brief description and estimated costs" is correct&#13;
+    tempResult = isMatchingExpectation('Brief description and estimated costs', EXPECTED.BRIEF_DESCRIPTION, brief_desc);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field "Description of the injury" is correct&#13;
+    tempResult = isMatchingExpectation('Description of the injury', EXPECTED.DESCRIPTION_INJURY, desc_inj);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field "Training specifications" is correct&#13;
+    tempResult = isMatchingExpectation('Training specifications', EXPECTED.TRAINING_SPECIFICATIONS, training_spec);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+    //Check value of field " Corrective measures" is correct&#13;
+    tempResult = isMatchingExpectation('Corrective measures', EXPECTED.CORRECTIVE_MEASURES, corrective_meas);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+    //Check value of field "Reasons for not taking corrective measures" is correct&#13;
+    tempResult = isMatchingExpectation('Reasons for not taking corrective measures', EXPECTED.REASON_FOR_NOT_TAKING_CORRECTIVE_MEASURES, reason_corr);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field "WHSC comments" is correct&#13;
+    tempResult = isMatchingExpectation('WHSC comments', EXPECTED.WHSC_COMMENT, whsc_comm);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field Investigator Telephone Number is correct&#13;
+    tempResult = isMatchingExpectation('Investigator Telephone Number', EXPECTED.INVESTIGATOR_TEL, investigator_tel);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field Investigator Surname is correct&#13;
+    tempResult = isMatchingExpectation('Investigator Surname', EXPECTED.INVESTIGATOR_FIRSTNAME, invetsigator_first);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field Investigator title is correct&#13;
+    tempResult = isMatchingExpectation('Investigator title', EXPECTED.INVESTIGATOR_TITLE, investigator_title);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field Investigator Telephone Number is correct&#13;
+    tempResult = isMatchingExpectation('Investigator email', EXPECTED.INVESTIGATOR_EMAIL, investigator_email);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field Investigator Telephone Number is correct&#13;
+    tempResult = isMatchingExpectation('Investigator Given Name', EXPECTED.INVESTIGATOR_LASTNAME, investigator_last);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field Employee Gender is correct&#13;
+    tempResult = isMatchingExpectation('Employee Gender', EXPECTED.EMPLOYEE_GENDER, gender);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    //Check value of field Committee Telephone Number is correct&#13;
+    tempResult = isMatchingExpectation('Committee Telephone Number', EXPECTED.COMMITTEE_TEL, committee_tel);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    // Check value of field Employer's name and mailing address is correct&#13;
+    tempResult = isMatchingExpectation('Employers name and mailing address', EXPECTED.EMPLOYEE_NAME_AND_ADDRESS, empl_name);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    // Check value of field "Type of Occurence" is correct&#13;
+    tempResult = isMatchingExpectation('Type of Occurence', EXPECTED.TYPE_OF_OCCURENCE, type_occ);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    // Check value of field "Direct causes of hazardous occurrence" is correct&#13;
+    tempResult = isMatchingExpectation('Direct causes of hazardous occurrence', EXPECTED.DIRECT_CAUSE_OF_HAZARDOUS_OCCURENCE, hazardous_occ);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    // Check value of field "Employee Name" is correct&#13;
+    tempResult = isMatchingExpectation('Employee Name', EXPECTED.EMPLOYEE_NAME, emp_name);&#13;
+    if (!tempResult.result) {&#13;
+        gs.info(tempResult.info);&#13;
+        isPassing = false;&#13;
+    }&#13;
+&#13;
+    return isPassing;&#13;
+})(outputs, steps, params, stepResult, assertEqual);</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b3459d19fbc1529495e5fb3f4eefdc82</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 21:06:45</sys_created_on>
+        <sys_id>fb459d19fbc1529495e5fb3f4eefdc82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-03 21:06:45</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

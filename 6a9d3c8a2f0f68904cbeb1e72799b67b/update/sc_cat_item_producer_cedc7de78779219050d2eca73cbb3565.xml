@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;">This telework agreement (the “agreement”) is a legal document identifying the responsibilities of both the teleworker (the “employee”) and the House of Commons Administration (“the employer”). This agreement is an instrument of the <em>Policy on Telework</em>. The employee and the employee’s manager, as the employer’s representative, must check the acknowledgement box to sign the agreement electronically before the employee can begin teleworking. A<em>ny newly approved agreement will replace an existing agreement previously submitted for that year.</em></span></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Telework Agreement</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Lise Champagne (AZ)">626d32fa1b9601109fde86acdd4bcb00</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=cedc7de78779219050d2eca73cbb3565&amp;sysparm_preview=true", "summary");</preview>
+        <published_ref/>
+        <recurring_frequency/>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script><![CDATA[/**
+* This script is executed at every step save in Catalog Builder. 
+* This script is executed before `Script` is executed.
+* `current` Is the GlideRecord produced by Record Producer. 
+* To access the variables, use `producer.var1` where var1 is the name of the variable
+* To access the Record Producer use `cat_item`
+*/]]></save_script>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[/* global producer, x_hccc_hoc_ohs, HoCOHSMTelWrkUtils, cat_item */
+(function() {
+    //new x_hccc_hoc_ohs.HoCOHSRecordProducerUtil().createCaseFromProducer(current, producer, cat_item.sys_id); //
+    //new HoCOHSMTelWrkUtils().addAssets(current.getUniqueValue(), producer.ohs_telework_asset_information);
+    //const agreement = current.sys_id;
+    const result = new x_hccc_hoc_ohs.HoCOHSMTelWrkUtils().addAssets(
+        current.getUniqueValue(), producer.ohs_telework_asset_information);
+
+    gs.debug('Telework Agreement record producer, added assets:\r\n' + result);
+
+    //Page redirection
+    //producer.portal_redirect = "?id=hoc_ohsm_confirmation&requestNumber=" + current.number + "&anonymous=true";
+    producer.portal_redirect = "?id=standard_ticket&table=" + current.sys_class_name + "&sys_id=" + current.sys_id;
+})();]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-03-31 17:59:26</sys_created_on>
+        <sys_id>cedc7de78779219050d2eca73cbb3565</sys_id>
+        <sys_mod_count>367</sys_mod_count>
+        <sys_name>Entente de télétravail</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_cedc7de78779219050d2eca73cbb3565</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-08-13 15:35:22</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_telework_agreement</table_name>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_hoc_sc_service/>
+        <u_includes_additional_services/>
+        <u_other_additional_services/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>354</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=cedc7de78779219050d2eca73cbb3565"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>cedc7de78779219050d2eca73cbb3565</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-06 17:46:15</sys_created_on>
+        <sys_id>d75338ad870e6dd050d2eca73cbb35ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-09 19:46:39</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;p&gt;&lt;span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;"&gt;La pr&amp;eacute;sente entente de t&amp;eacute;l&amp;eacute;travail (l&amp;rsquo;&amp;laquo;&amp;nbsp;entente&amp;nbsp;&amp;raquo;) est un document &amp;agrave; valeur l&amp;eacute;gale qui d&amp;eacute;finit les responsabilit&amp;eacute;s du t&amp;eacute;l&amp;eacute;travailleur (l&amp;rsquo;&amp;laquo;&amp;nbsp;employ&amp;eacute;&amp;nbsp;&amp;raquo;) et de l&amp;rsquo;Administration de la Chambre des communes (l&amp;rsquo;&amp;laquo;&amp;nbsp;employeur&amp;nbsp;&amp;raquo;). Elle est un instrument de la &lt;em&gt;Politique sur le t&amp;eacute;l&amp;eacute;travail&lt;/em&gt;. L&amp;rsquo;employ&amp;eacute; et son gestionnaire, qui agit &amp;agrave; titre de repr&amp;eacute;sentant de l&amp;rsquo;employeur, doivent cocher la case de reconnaissance pour signer l&amp;rsquo;entente &amp;eacute;lectroniquement avant que l&amp;rsquo;employ&amp;eacute; puisse commencer le t&amp;eacute;l&amp;eacute;travail. &lt;em&gt;Toute entente nouvellement approuv&amp;eacute;e remplacera une entente existante pr&amp;eacute;c&amp;eacute;demment soumise pour la m&amp;ecirc;me ann&amp;eacute;e.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>cedc7de78779219050d2eca73cbb3565</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-06 17:46:15</sys_created_on>
+        <sys_id>5f5338ad870e6dd050d2eca73cbb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-04-06 17:46:15</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Entente de télétravail</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>cedc7de78779219050d2eca73cbb3565</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-06 17:46:15</sys_created_on>
+        <sys_id>d75338ad870e6dd050d2eca73cbb3599</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-12-02 19:25:59</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=cedc7de78779219050d2eca73cbb3565"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>cedc7de78779219050d2eca73cbb3565</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-12-02 19:12:35</sys_created_on>
+        <sys_id>189ab524fb9e1a1895e5fb3f4eefdcb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-12-02 19:12:35</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>hoc_assessment_request</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-15 02:57:28</sys_created_on>
+        <sys_id>1894bbe61b18ced8813f844fdd4bcbcf</sys_id>
+        <sys_mod_count>463</sys_mod_count>
+        <sys_name>HoC - Assessment Request</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>item_option_new_set_1894bbe61b18ced8813f844fdd4bcbcf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-07-08 21:06:26</sys_updated_on>
+        <title>HoC - Assessment Request</title>
+        <type>one_to_one</type>
+        <version>463</version>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

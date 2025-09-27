@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b6481b7087f4259050d2eca73cbb356e" sys_domain="global" table="x_hccc_hoc_ohs_lab1058_staging_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:32:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e481b7087f4259050d2eca73cbb356f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_lab1058_staging_table" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">b6481b7087f4259050d2eca73cbb356e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">70a247b08734259050d2eca73cbb35bf</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2023-02-01 18:32:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:33:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc689f7087f4259050d2eca73cbb3599</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_lab1058_staging_table" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">b6481b7087f4259050d2eca73cbb356e</sys_ui_form>
+            <sys_ui_section caption="Complaints" display_value="Complaints" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">bc689f7087f4259050d2eca73cbb3597</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-09 01:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:34:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0aa89bb087f4259050d2eca73cbb35a2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_lab1058_staging_table" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">b6481b7087f4259050d2eca73cbb356e</sys_ui_form>
+            <sys_ui_section caption="Refusals to work" display_value="Refusals to work" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">02a89bb087f4259050d2eca73cbb35a0</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-09 01:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:34:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2b85fb087f4259050d2eca73cbb35aa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_lab1058_staging_table" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">b6481b7087f4259050d2eca73cbb356e</sys_ui_form>
+            <sys_ui_section caption="Inquiries and Investigations" display_value="Inquiries and Investigations" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">8eb85fb087f4259050d2eca73cbb35a7</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-09 01:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:34:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08c8dfb087f4259050d2eca73cbb35ef</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_lab1058_staging_table" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">b6481b7087f4259050d2eca73cbb356e</sys_ui_form>
+            <sys_ui_section caption="Inspections" display_value="Inspections" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">40c8dfb087f4259050d2eca73cbb35ed</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-09 01:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:35:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cf817f087f4259050d2eca73cbb35e3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_lab1058_staging_table" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">b6481b7087f4259050d2eca73cbb356e</sys_ui_form>
+            <sys_ui_section caption="Measures and procedures monitored" display_value="Measures and procedures monitored" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">8cf817f087f4259050d2eca73cbb35e0</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-09 01:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:35:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03f85bf087f4259050d2eca73cbb3532</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_lab1058_staging_table" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">b6481b7087f4259050d2eca73cbb356e</sys_ui_form>
+            <sys_ui_section caption="Health and Safety hazards" display_value="Health and Safety hazards" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">4bf8d3f087f4259050d2eca73cbb358c</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-09 01:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:36:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70095bf087f4259050d2eca73cbb3543</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_lab1058_staging_table" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">b6481b7087f4259050d2eca73cbb356e</sys_ui_form>
+            <sys_ui_section caption="Injuries" display_value="Injuries" name="x_hccc_hoc_ohs_lab1058_staging_table" sys_domain="global" view="Default view">34095bf087f4259050d2eca73cbb3540</sys_ui_section>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-09 01:49:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_hccc_hoc_ohs_lab1058_staging_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2023-02-01 18:32:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6481b7087f4259050d2eca73cbb356e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_lab1058_staging_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b6481b7087f4259050d2eca73cbb356e</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2023-02-01 18:32:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

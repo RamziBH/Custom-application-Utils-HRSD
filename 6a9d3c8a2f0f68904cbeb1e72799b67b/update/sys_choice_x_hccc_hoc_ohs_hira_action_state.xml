@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_hccc_hoc_ohs_hira_action" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:26:01</sys_created_on>
+            <sys_id>cd9203a81b1002d0c6c7a8ecbc4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_hira_action_state</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:26:01</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En attende d'action</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:26:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09e8506f3b80b2d0aeb1ebc964e45a3e</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:30:37</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Waiting for action</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:30:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85e8506f3b80b2d0aeb1ebc964e45a3f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:30:25</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Implementation en cours</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:30:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05e8506f3b80b2d0aeb1ebc964e45a40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:30:56</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Implementation in progress</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:26:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>81e8506f3b80b2d0aeb1ebc964e45a41</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:28:44</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Implementé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:31:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01e8506f3b80b2d0aeb1ebc964e45a42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:31:08</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Implemented</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:26:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8de8506f3b80b2d0aeb1ebc964e45a42</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:27:08</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Annulé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:31:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0de8506f3b80b2d0aeb1ebc964e45a43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:31:36</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Cancelled</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hira_action</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-05 20:26:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89e8506f3b80b2d0aeb1ebc964e45a44</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 20:27:11</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

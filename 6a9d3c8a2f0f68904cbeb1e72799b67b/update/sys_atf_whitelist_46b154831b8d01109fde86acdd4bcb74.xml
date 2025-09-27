@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_whitelist">
+    <sys_atf_whitelist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This client error occurred on the page in Chrome 97.0.4692.71</description>
+        <error_location>client_error</error_location>
+        <error_message>Uncaught TypeError: Cannot read properties of undefined (reading 'split')</error_message>
+        <report_level>ignored</report_level>
+        <sys_class_name>sys_atf_whitelist</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-18 21:45:03</sys_created_on>
+        <sys_id>46b154831b8d01109fde86acdd4bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Uncaught TypeError: Cannot read properties of undefined (reading 'split')</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_whitelist_46b154831b8d01109fde86acdd4bcb74</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <test display_value="DNU - OHS - Incident Manager Input - Type of Occurence - Disability">0ba5fb7e1b0901109fde86acdd4bcb9b</test>
+    </sys_atf_whitelist>
+</record_update>

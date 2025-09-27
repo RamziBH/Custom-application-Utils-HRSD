@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>91be30a08721699050d2eca73cbb352d</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sn_hr_core_pdf_template_mapping"&gt;
+    &lt;sn_hr_core_pdf_template_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;advanced_script_toggle&gt;true&lt;/advanced_script_toggle&gt;
+        &lt;box_height/&gt;
+        &lt;box_width/&gt;
+        &lt;date_offset_quantity&gt;0&lt;/date_offset_quantity&gt;
+        &lt;date_offset_type&gt;on&lt;/date_offset_type&gt;
+        &lt;date_offset_units&gt;days&lt;/date_offset_units&gt;
+        &lt;doc_left/&gt;
+        &lt;doc_top/&gt;
+        &lt;document display_value="LAB1070-ExtraPage"&gt;627ebc208721699050d2eca73cbb357a&lt;/document&gt;
+        &lt;document_field&gt;doc_0_cb_Explosion&lt;/document_field&gt;
+        &lt;document_field_label&gt;doc_0_cb_Explosion&lt;/document_field_label&gt;
+        &lt;document_field_type&gt;checkbox&lt;/document_field_type&gt;
+        &lt;mapping_field&gt;hv_type_of_occurrence&lt;/mapping_field&gt;
+        &lt;mapping_table&gt;x_hccc_hoc_ohs_investigation_case&lt;/mapping_table&gt;
+        &lt;page_number/&gt;
+        &lt;preview_value&gt;Yes&lt;/preview_value&gt;
+        &lt;script&gt;&lt;![CDATA[(function evaluateMappingFieldValue(caseGr /* GlideRecord for parent case */, mappingField /* Pre-computed mapping field value */) {
+
+    var occTypeArray = ["explosion"];
+
+    var ohsmUtils = new x_hccc_hoc_ohs.HoCOHSMUtils();
+	
+    return ohsmUtils.getPDFCheckboxValue(caseGr, 'inc_type_occ', occTypeArray);
+
+
+})(caseGr, mappingField);]]&gt;&lt;/script&gt;
+        &lt;select_date_format/&gt;
+        &lt;sign_left/&gt;
+        &lt;sign_top/&gt;
+        &lt;signing_order/&gt;
+        &lt;specific_date_format/&gt;
+        &lt;sys_created_by&gt;azure.Alexandre.Mageau-Petrin@parlissi.g&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-03-09 19:30:30&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_id&gt;91be30a08721699050d2eca73cbb352d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2023-10-30 19:43:12&lt;/sys_updated_on&gt;
+        &lt;true_value&gt;Off, Yes&lt;/true_value&gt;
+        &lt;use_signing_date&gt;false&lt;/use_signing_date&gt;
+    &lt;/sn_hr_core_pdf_template_mapping&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-24 13:36:55</sys_created_on>
+        <sys_id>da7582de1be302989fde86acdd4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LAB1070-ExtraPage</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_da7582de1be302989fde86acdd4bcb5e</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-24 13:36:55</sys_updated_on>
+        <tablename>sn_hr_core_pdf_template_mapping</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="WHSC investigation" section_id="6be47cee2f8f6c904cbeb1e72799b6d9" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whsc_user</element>
+            <position>0</position>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:00:01</sys_created_on>
+            <sys_id>61a1472e2f8fac904cbeb1e72799b6b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$fgaies</sys_updated_by>
+            <sys_updated_on>2021-03-25 15:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:00:01</sys_created_on>
+            <sys_id>e5a1472e2f8fac904cbeb1e72799b6b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$fgaies</sys_updated_by>
+            <sys_updated_on>2021-03-25 15:00:01</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whsc_comments</element>
+            <position>2</position>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:00:01</sys_created_on>
+            <sys_id>6da1472e2f8fac904cbeb1e72799b6b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$fgaies</sys_updated_by>
+            <sys_updated_on>2021-03-25 15:00:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location_type</element>
+            <position>3</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-12-29 16:58:49</sys_created_on>
+            <sys_id>9a60d0601bb481109fde86acdd4bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2021-12-29 16:58:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_weather_other</element>
+            <position>4</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-01-04 21:57:13</sys_created_on>
+            <sys_id>484ec02adb780510e3dd80c74b9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-01-04 21:57:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_wi_recommendation</element>
+            <position>5</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-01-22 17:21:02</sys_created_on>
+            <sys_id>79abbb8cdb118110e3dd80c74b96190c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-01-22 17:21:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wi_room</element>
+            <position>6</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-01-24 16:05:05</sys_created_on>
+            <sys_id>b07d75f0dbd50110e3dd80c74b961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-01-24 16:05:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inc_location_area</element>
+            <position>7</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-01-24 21:58:58</sys_created_on>
+            <sys_id>dc7e4fb0db950110e3dd80c74b9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-01-24 21:58:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>man_refusal_reason_2</element>
+            <position>8</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-01-26 14:56:11</sys_created_on>
+            <sys_id>8bd008211b1901109fde86acdd4bcbd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-01-26 14:56:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>man_agrees_with_result_2</element>
+            <position>9</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-01-26 14:59:06</sys_created_on>
+            <sys_id>ad81c8611b1901109fde86acdd4bcbc6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-01-26 14:59:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sc_employee_has_signed_lab1060</element>
+            <position>10</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-01-27 16:51:54</sys_created_on>
+            <sys_id>2be4a97d1b1501109fde86acdd4bcbba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-01-27 16:51:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>danger_exists</element>
+            <position>11</position>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2022-02-04 05:06:58</sys_created_on>
+            <sys_id>5340145cdbe90110e3dd80c74b961946</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$fgaies</sys_updated_by>
+            <sys_updated_on>2022-02-04 05:06:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>reportable_to_esdc</element>
+            <position>12</position>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2022-02-04 05:12:41</sys_created_on>
+            <sys_id>9b9190dcdbe90110e3dd80c74b9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$fgaies</sys_updated_by>
+            <sys_updated_on>2022-02-04 05:12:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>designated_representative</element>
+            <position>13</position>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2022-02-04 05:16:18</sys_created_on>
+            <sys_id>1072d810db2d0110e3dd80c74b9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>$fgaies</sys_updated_by>
+            <sys_updated_on>2022-02-04 05:16:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_the_process_been_explained_to_the_complainant</element>
+            <position>14</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:32:29</sys_created_on>
+            <sys_id>d521ba0487b3815050d2eca73cbb3551</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 18:32:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_type</element>
+            <position>15</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:38:17</sys_created_on>
+            <sys_id>1a723a8887b3815050d2eca73cbb35e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 18:38:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <position>16</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:47:33</sys_created_on>
+            <sys_id>8294768087f3815050d2eca73cbb35ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 18:47:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>did_the_occurrence_take_place_in_a_location_controlled_by_the_employer</element>
+            <position>17</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:58:13</sys_created_on>
+            <sys_id>52073e4887f3815050d2eca73cbb3561</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 18:58:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>did_the_occurrence_take_place_in_a_location_not_controlled_by_the_employer_off</element>
+            <position>18</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:00:53</sys_created_on>
+            <sys_id>55a7fec887f3815050d2eca73cbb3584</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:00:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>did_the_occurrence_take_place_during_travel</element>
+            <position>19</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:03:52</sys_created_on>
+            <sys_id>8958f28c87f3815050d2eca73cbb3576</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:03:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_s_initial_review_notes</element>
+            <position>20</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:10:23</sys_created_on>
+            <sys_id>e4d932408737815050d2eca73cbb35f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:10:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_s_initial_review_notes</element>
+            <position>21</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:12:30</sys_created_on>
+            <sys_id>5b4abe408737815050d2eca73cbb354d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:12:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_s_negotiated_resolution_notes</element>
+            <position>22</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:12:58</sys_created_on>
+            <sys_id>9e6ab2808737815050d2eca73cbb3572</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:12:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_s_mediation_notes</element>
+            <position>23</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:13:31</sys_created_on>
+            <sys_id>5a8ab6808737815050d2eca73cbb3550</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:13:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_s_investigation_notes</element>
+            <position>24</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:14:02</sys_created_on>
+            <sys_id>4eaa7e808737815050d2eca73cbb35c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:14:02</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>in_accordance_with_manager_and_or_rw_does_it_meet_the_definition_of_harassment</element>
+            <position>25</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:15:47</sys_created_on>
+            <sys_id>230b3ac08737815050d2eca73cbb35ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:15:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>determination_made_by</element>
+            <position>26</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:19:07</sys_created_on>
+            <sys_id>d4dbb6448737815050d2eca73cbb356a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:19:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>in_accordance_with_the_complainant_does_it_meet_the_definition_of_harassment_an</element>
+            <position>27</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:20:59</sys_created_on>
+            <sys_id>733c36848737815050d2eca73cbb35ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:20:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supporting_details_by_complainant</element>
+            <position>28</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:24:42</sys_created_on>
+            <sys_id>8e1df2488737815050d2eca73cbb3556</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:24:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_the_respondent_been_notified</element>
+            <position>29</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:25:33</sys_created_on>
+            <sys_id>b24d7e488737815050d2eca73cbb354c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:25:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>who_notified_the_respondent</element>
+            <position>30</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:26:52</sys_created_on>
+            <sys_id>4a9d32c88737815050d2eca73cbb35d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:26:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>the_respondent_has_been_notified_via_which_method</element>
+            <position>31</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:28:51</sys_created_on>
+            <sys_id>070efa0c8737815050d2eca73cbb3509</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:28:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>when_was_the_respondent_notified_date_time</element>
+            <position>32</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:31:19</sys_created_on>
+            <sys_id>c39e72cc8737815050d2eca73cbb35fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:31:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>negotiated_resolution_successful</element>
+            <position>33</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:33:17</sys_created_on>
+            <sys_id>401f3a408777815050d2eca73cbb3582</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:33:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_complainant_agree_with_the_chosen_mediator</element>
+            <position>34</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:37:09</sys_created_on>
+            <sys_id>a8ff7a448777815050d2eca73cbb351a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:37:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>does_the_respondent_agree_with_the_chosen_mediator</element>
+            <position>35</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:38:38</sys_created_on>
+            <sys_id>964007c48777815050d2eca73cbb3560</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:38:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mediation_date</element>
+            <position>36</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:40:30</sys_created_on>
+            <sys_id>25b00b488777815050d2eca73cbb35ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:40:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>mediation_agreement_shared_with</element>
+            <position>37</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:41:27</sys_created_on>
+            <sys_id>27e047888777815050d2eca73cbb3578</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:41:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigator_name</element>
+            <position>38</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:43:15</sys_created_on>
+            <sys_id>b1518bc88777815050d2eca73cbb350c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:43:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_notice_to_both_parties_been_provided</element>
+            <position>39</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:44:09</sys_created_on>
+            <sys_id>4b814b0c8777815050d2eca73cbb35c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:44:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>notice_has_been_provided_by_who</element>
+            <position>40</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:46:00</sys_created_on>
+            <sys_id>12f1478c8777815050d2eca73cbb354c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:46:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>when_was_the_notice_provided_date_time</element>
+            <position>41</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:46:46</sys_created_on>
+            <sys_id>e122cf8c8777815050d2eca73cbb359c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:46:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coordination_conducted_with_investigator</element>
+            <position>42</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:47:44</sys_created_on>
+            <sys_id>ab520fcc8777815050d2eca73cbb35b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:47:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>when_was_the_report_received_by_the_employer_date_time</element>
+            <position>43</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:51:25</sys_created_on>
+            <sys_id>a5330bc087b7815050d2eca73cbb3532</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:51:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>has_the_investigation_report_been_attached_to_the_case</element>
+            <position>44</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 19:54:04</sys_created_on>
+            <sys_id>98d3874487b7815050d2eca73cbb3523</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 19:54:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_start_date</element>
+            <position>45</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:01:51</sys_created_on>
+            <sys_id>da958f8887b7815050d2eca73cbb353d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:01:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_end_date</element>
+            <position>46</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:02:16</sys_created_on>
+            <sys_id>6cb5c3c887b7815050d2eca73cbb35f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:02:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_measures_arising_out_of_full_report_including_but_not_limited_to_dis</element>
+            <position>47</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:03:43</sys_created_on>
+            <sys_id>e106c30c87b7815050d2eca73cbb359a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:03:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_measures_details</element>
+            <position>48</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:05:52</sys_created_on>
+            <sys_id>9d860f4c87b7815050d2eca73cbb35ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:05:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whsc_agree_with_recommendations</element>
+            <position>49</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:12:09</sys_created_on>
+            <sys_id>9df7838087f7815050d2eca73cbb350b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:12:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>senior_director_of_labour_relations_agree_with_recommendations</element>
+            <position>50</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:14:07</sys_created_on>
+            <sys_id>8a680bc087f7815050d2eca73cbb3592</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:14:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recommendations_to_be_implemented</element>
+            <position>51</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:15:47</sys_created_on>
+            <sys_id>a2c84f0487f7815050d2eca73cbb35b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:15:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>implementation_s_date_of_the_recommendations</element>
+            <position>52</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:17:15</sys_created_on>
+            <sys_id>c429038487f7815050d2eca73cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:17:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_the_occurrence_related_to_any_of_the_following_prohibited_grounds_for_the_dis</element>
+            <position>53</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 20:19:13</sys_created_on>
+            <sys_id>34990bc487f7815050d2eca73cbb351f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-05-26 20:19:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_there_imminent_danger</element>
+            <position>54</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 11:34:33</sys_created_on>
+            <sys_id>e3941d5a1bbf85509fde86acdd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 11:34:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>describe_the_imminent_danger</element>
+            <position>55</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 11:37:36</sys_created_on>
+            <sys_id>0855d95e1bbf85509fde86acdd4bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 11:37:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>complainant_agrees_it_meets_the_definition</element>
+            <position>56</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 11:44:51</sys_created_on>
+            <sys_id>86f655961bff85509fde86acdd4bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 11:44:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>charting_notes</element>
+            <position>57</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 12:26:54</sys_created_on>
+            <sys_id>9e9065d61b73c5509fde86acdd4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 12:26:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>race</element>
+            <position>58</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:14:08</sys_created_on>
+            <sys_id>826b299a1bf3c5509fde86acdd4bcba8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:14:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>national_or_ethnic_origin</element>
+            <position>59</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:15:28</sys_created_on>
+            <sys_id>a1bba9da1bf3c5509fde86acdd4bcb8d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:15:28</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>color</element>
+            <position>60</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:15:50</sys_created_on>
+            <sys_id>8fcb611e1bf3c5509fde86acdd4bcb8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:15:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>religion</element>
+            <position>61</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:16:12</sys_created_on>
+            <sys_id>14eb691e1bf3c5509fde86acdd4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:16:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>age</element>
+            <position>62</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:16:36</sys_created_on>
+            <sys_id>1afba15e1bf3c5509fde86acdd4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:16:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sex</element>
+            <position>63</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:17:00</sys_created_on>
+            <sys_id>481c295e1bf3c5509fde86acdd4bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:17:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sexual_orientation</element>
+            <position>64</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:17:19</sys_created_on>
+            <sys_id>f82c219e1bf3c5509fde86acdd4bcb1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:17:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gender_identity_or_expression</element>
+            <position>65</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:17:46</sys_created_on>
+            <sys_id>633ce99e1bf3c5509fde86acdd4bcb9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:17:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>marital_status</element>
+            <position>66</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:18:10</sys_created_on>
+            <sys_id>1d5ce1de1bf3c5509fde86acdd4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:18:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>family_status</element>
+            <position>67</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:18:41</sys_created_on>
+            <sys_id>b47cedde1bf3c5509fde86acdd4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:18:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disability</element>
+            <position>68</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:19:01</sys_created_on>
+            <sys_id>ed8ca5121b37c5509fde86acdd4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:19:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>genetic_characteristics</element>
+            <position>69</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:19:25</sys_created_on>
+            <sys_id>e39c21521b37c5509fde86acdd4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:19:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended</element>
+            <position>70</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:19:53</sys_created_on>
+            <sys_id>1abcad521b37c5509fde86acdd4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:19:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_the_occurrence_related_to_any_of_the_following_prohibited_grounds</element>
+            <position>71</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 13:42:09</sys_created_on>
+            <sys_id>24d1b1d21b77c5509fde86acdd4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 13:42:09</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <position>72</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:24:19</sys_created_on>
+            <sys_id>9e7bfd1a1bf7c5509fde86acdd4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 14:24:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>where</element>
+            <position>73</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:40:03</sys_created_on>
+            <sys_id>f41fb91e1b3bc5509fde86acdd4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 14:40:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>where_travel</element>
+            <position>74</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:50:19</sys_created_on>
+            <sys_id>4b61029e1b7bc5509fde86acdd4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 14:50:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>details_complainant</element>
+            <position>75</position>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 15:06:41</sys_created_on>
+            <sys_id>76258eda1bbbc5509fde86acdd4bcbd3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC investigation" display_value="WHSC investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="Default view">6be47cee2f8f6c904cbeb1e72799b6d9</sys_ui_section>
+            <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-02 15:06:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>WHSC investigation</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 04:45:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6be47cee2f8f6c904cbeb1e72799b6d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_6be47cee2f8f6c904cbeb1e72799b6d9</sys_update_name>
+            <sys_updated_by>$fgaies</sys_updated_by>
+            <sys_updated_on>2021-03-25 04:45:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

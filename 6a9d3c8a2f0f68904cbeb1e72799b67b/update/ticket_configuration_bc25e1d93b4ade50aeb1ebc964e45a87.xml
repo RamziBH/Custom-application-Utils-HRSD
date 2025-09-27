@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ticket_configuration">
+    <ticket_configuration action="INSERT_OR_UPDATE">
+        <action_widget display_value="HR Standard Ticket Actions">00d66f61530600101db6ddeeff7b1237</action_widget>
+        <action_widget_param/>
+        <active>true</active>
+        <advanced>true</advanced>
+        <description_field>description</description_field>
+        <info_fields/>
+        <info_widget display_value="HRM Case Info">ee7ed65a671f1300470f6c3b5685ef7c</info_widget>
+        <info_widget_param/>
+        <show_description>always</show_description>
+        <state_field>state</state_field>
+        <sys_class_name>ticket_configuration</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-22 15:20:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bc25e1d93b4ade50aeb1ebc964e45a87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_hira_case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>ticket_configuration_bc25e1d93b4ade50aeb1ebc964e45a87</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-22 15:20:26</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hira_case</table>
+    </ticket_configuration>
+</record_update>

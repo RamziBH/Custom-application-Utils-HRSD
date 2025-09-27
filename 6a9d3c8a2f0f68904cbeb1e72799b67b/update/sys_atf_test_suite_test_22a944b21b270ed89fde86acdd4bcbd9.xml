@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>35</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-25 17:53:22</sys_created_on>
+        <sys_id>22a944b21b270ed89fde86acdd4bcbd9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>4ff563661be78ad89fde86acdd4bcb0f</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_22a944b21b270ed89fde86acdd4bcbd9</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-25 17:54:36</sys_updated_on>
+        <test display_value="DNU - OHS - H&amp;V - Field and Tab access for OHS Advisors">4ff563661be78ad89fde86acdd4bcb0f</test>
+        <test_suite display_value="DNU - OHS - H&amp;V - Permissions">ffb006381b6406d0813f844fdd4bcb92</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

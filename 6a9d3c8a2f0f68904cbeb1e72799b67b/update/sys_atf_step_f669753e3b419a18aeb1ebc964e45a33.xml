@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Component Values (Custom UI)">3017f6581b5142d49fde86acdd4bcb8d</copied_from>
+        <description>Set the components on the page as follows:
+'Text &lt;input&gt;: Bookmark title' = 'Test closing notes 1', Page area = 'Bookmark title'
+'Text &lt;input&gt; [make_spacing_ok]' = 'Test closing notes 2', Page area = 'HoC Investigation case  form sectio...'
+'Textarea &lt;textarea&gt; [undefined]' = 'Test closing notes 4', Page area = '{{textarea}}'
+</description>
+        <display_name>Set Component Values (Custom UI)</display_name>
+        <inputs/>
+        <mugshots_cache_json>{"25ad96816b2409f23b70dc6a243c504e":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt;: Bookmark title\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [create_favorite_title]: Bookmark title\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"Bookmark title\",\"index\":0,\"type\":\"text\",\"version\":\"21.0\",\"label_for_input\":{\"inner_text\":\"Bookmark title\"},\"sn_atf_mugshot_label_for_label_path\":\"Bookmark title\",\"interesting_element_path\":[\"body\",\"form\",\"input\"],\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"name\":\"title\",\"sn_atf_mugshot_value\":\"Bookmark title\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"create_favorite_title\",\"placeholder\":\"Bookmark title\",\"label_path\":[\"Bookmark title\"],\"aria-label\":\"Bookmark title\",\"hash\":\"25ad96816b2409f23b70dc6a243c504e\",\"html_value\":\"\"}","10cce3179e46bb62974b5e0d7cce88c8":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Text &lt;input&gt; [make_spacing_ok]\",\"sn_atf_mugshot_long_description\":\"Text &lt;input&gt; [make_spacing_ok]\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"make_spacing_ok\",\"type\":\"text\",\"version\":\"21.0\",\"sn_atf_mugshot_label_for_label_path\":\"\",\"interesting_element_path\":[\"body\",\"form\",\"table\",\"tbody\",\"tr\",\"td\",\"input\"],\"get_value_result\":\"\",\"sn_atf_mugshot_tag_display_name\":\"Text &lt;input&gt;\",\"sn_atf_mugshot_value\":\"\",\"tag\":\"input\",\"isDisabled\":false,\"id\":\"make_spacing_ok\",\"label_path\":[\"HoC Investigation case  form sectio...\"],\"hash\":\"10cce3179e46bb62974b5e0d7cce88c8\",\"html_value\":\"\",\"duplicate-mugshot-index\":1}","658f0db5fb1e4d41622ac2c0602a8c2b":"{\"area\":\"default\",\"sn_atf_mugshot_short_description\":\"Textarea &lt;textarea&gt; [undefined]\",\"sn_atf_mugshot_long_description\":\"Textarea &lt;textarea&gt; [undefined]: undefined\",\"methods\":[\"setValue\"],\"sn_atf_mugshot_label\":\"{{textarea}}\",\"index\":29,\"type\":\"textarea\",\"version\":\"21.0\",\"sn_atf_mugshot_label_for_label_path\":\"{{textarea}}\",\"interesting_element_path\":[\"body\",\"textarea\"],\"get_value_result\":\"undefined\",\"sn_atf_mugshot_tag_display_name\":\"Textarea &lt;textarea&gt;\",\"sn_atf_mugshot_value\":\"undefined\",\"tag\":\"textarea\",\"isDisabled\":false,\"id\":\"undefined\",\"label_path\":[\"{{textarea}}\"],\"aria-label\":\"{{textarea}}\",\"hash\":\"658f0db5fb1e4d41622ac2c0602a8c2b\",\"html_value\":\"undefined\"}"}</mugshots_cache_json>
+        <notes>Set closing notes in modal</notes>
+        <order>36</order>
+        <step_config display_value="Set Component Values (Custom UI)">e5dd168473330300c79260bdfaf6a794</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:24</sys_created_on>
+        <sys_id>f669753e3b419a18aeb1ebc964e45a33</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Set Component Values (Custom UI)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_f669753e3b419a18aeb1ebc964e45a33</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-24 16:36:28</sys_updated_on>
+        <table/>
+        <test display_value="OHS - H&amp;V - Field and Tab access for Respectful workplace">8669b13e3b419a18aeb1ebc964e45a47</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f669753e3b419a18aeb1ebc964e45a33"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f669753e3b419a18aeb1ebc964e45a33</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:35:24</sys_created_on>
+        <sys_id>3a69753e3b419a18aeb1ebc964e45a35</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-24 16:36:28</sys_updated_on>
+        <value>25ad96816b2409f23b70dc6a243c504e=Test closing notes 1^10cce3179e46bb62974b5e0d7cce88c8=Test closing notes 2^658f0db5fb1e4d41622ac2c0602a8c2b=Test closing notes 4^EQ</value>
+        <variable display_value="Component values">d12fde8473330300c79260bdfaf6a7b5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_e5dd168473330300c79260bdfaf6a794^id=f669753e3b419a18aeb1ebc964e45a33"/>
+</record_update>

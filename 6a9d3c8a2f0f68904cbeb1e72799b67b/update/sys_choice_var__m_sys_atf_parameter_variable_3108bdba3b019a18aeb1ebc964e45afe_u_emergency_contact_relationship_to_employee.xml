@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_emergency_contact_relationship_to_employee" table="var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:04:57</sys_created_on>
+            <sys_id>957a01813b75d610aeb1ebc964e45a10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_emergency_contact_relationship_to_employee</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe_u_emergency_contact_relationship_to_employee</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:04:57</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Child</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:04:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9c8906b3b80b2d0aeb1ebc964e45aca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:04:57</sys_updated_on>
+            <value>Child</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Father-in-law</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:05:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5c8906b3b80b2d0aeb1ebc964e45ae4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:05:43</sys_updated_on>
+            <value>Father-in-law</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Friend</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:06:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35c8906b3b80b2d0aeb1ebc964e45ae5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:06:01</sys_updated_on>
+            <value>Friend</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Grandparent</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:05:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b1c8906b3b80b2d0aeb1ebc964e45ae6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:05:50</sys_updated_on>
+            <value>Grandparent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mother-in-law</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:06:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31c8906b3b80b2d0aeb1ebc964e45ae7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:06:13</sys_updated_on>
+            <value>Mother-in-law</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:06:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdc8906b3b80b2d0aeb1ebc964e45ae7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:06:23</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other relative</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:06:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dc8906b3b80b2d0aeb1ebc964e45ae8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:06:34</sys_updated_on>
+            <value>Other relative</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Parent</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:06:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9c8906b3b80b2d0aeb1ebc964e45ae9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:06:41</sys_updated_on>
+            <value>Parent</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Partner</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:06:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39c8906b3b80b2d0aeb1ebc964e45aea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:06:52</sys_updated_on>
+            <value>Partner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sibling</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:07:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5c8906b3b80b2d0aeb1ebc964e45aeb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:07:06</sys_updated_on>
+            <value>Sibling</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_emergency_contact_relationship_to_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spouse</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_3108bdba3b019a18aeb1ebc964e45afe</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-07 15:07:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35c8906b3b80b2d0aeb1ebc964e45aec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-07 15:07:28</sys_updated_on>
+            <value>Spouse</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

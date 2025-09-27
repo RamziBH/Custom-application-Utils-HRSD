@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>HoC - Workplace inspection reminder</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Alexandre Mageau-Petrin (AZ)">f9c40fe81b44c450028598aebd4bcbdf</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-10-06 15:18:01</run_start>
+        <run_time>1970-01-01 15:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[function createdThisMonth(date){
+  var year = date.substring(0,4);
+  var month = parseInt(date.substring(5,7)) - 1;
+  var day = date.substring(8,10);
+	var reportCreationDate = new Date(year,month,day);
+	var today = new Date();
+	if (today.getMonth() == reportCreationDate.getMonth()){
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+	
+}
+
+function getRemainingDays() {
+	var date = new Date();
+	var time = new Date(date.getTime());
+	time.setMonth(date.getMonth() + 1);
+	time.setDate(0);
+	var days =time.getDate() > date.getDate() ? time.getDate() - date.getDate() : 0;
+	return days;
+}
+
+
+if (getRemainingDays() == 2 || getRemainingDays() == 7){
+	//Send emails
+	var gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+	gr.addEncodedQuery('state=903');
+	gr.query();
+	while (gr.next()) {
+		if (createdThisMonth(gr.getValue("sys_created_on")) == true){
+			//Triggers notification called 'Draft workplace inspection report reminder'
+			gs.eventQueue('x_hccc_hoc_ohs.workplace.inspection.reminder',gr);
+		}
+	}
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2021-10-06 15:18:56</sys_created_on>
+        <sys_id>bac31b5d1b8b34109fde86acdd4bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC - Workplace inspection reminder</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysauto_script_bac31b5d1b8b34109fde86acdd4bcb2c</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

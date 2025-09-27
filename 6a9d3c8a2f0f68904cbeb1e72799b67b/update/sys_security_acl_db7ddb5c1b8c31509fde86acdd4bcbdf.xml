@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Field: Incident Location - OHS Admin || Manager</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_hccc_hoc_ohs_investigation_case.inc_location</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = (current.manager_name == gs.getUserID())|| (gs.getUser().hasRole("x_hccc_hoc_ohs.admin")) ? true : false;]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-11 19:05:19</sys_created_on>
+        <sys_id>db7ddb5c1b8c31509fde86acdd4bcbdf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_investigation_case.inc_location</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_security_acl_db7ddb5c1b8c31509fde86acdd4bcbdf</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-18 13:20:59</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

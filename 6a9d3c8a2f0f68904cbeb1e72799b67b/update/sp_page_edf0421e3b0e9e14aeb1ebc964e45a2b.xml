@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.dropdown-menu &gt; li &gt; a:hover, .dropdown-menu &gt; li &gt; a:focus {&#13;
+  background-color: green;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>hoc_hira_cases</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description>Cloned from "hoc_mp_staffing_requests" on 2023-04-24</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-25 19:54:10</sys_created_on>
+        <sys_id>edf0421e3b0e9e14aeb1ebc964e45a2b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>hoc_hira_cases</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_page_edf0421e3b0e9e14aeb1ebc964e45a2b</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-25 19:54:57</sys_updated_on>
+        <title>HIRA Cases</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=edf0421e3b0e9e14aeb1ebc964e45a2b"/>
+</record_update>

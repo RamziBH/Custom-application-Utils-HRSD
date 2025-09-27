@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="this_occurrence_has_resulted_in_select_all_that_apply" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:24:53</sys_created_on>
+            <sys_id>5a9bf55a1bf7c5509fde86acdd4bcb72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>this_occurrence_has_resulted_in_select_all_that_apply</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_this_occurrence_has_resulted_in_select_all_that_apply</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Please select...</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:26:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8eb910e73b04b2d0aeb1ebc964e45a1c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-06 14:21:53</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blessure physique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:24:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4ab910e73b04b2d0aeb1ebc964e45a38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Physical Injury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical Injury</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:38:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dab910e73b04b2d0aeb1ebc964e45a60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Physical Injury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Psychological Injury</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:38:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16b910e73b04b2d0aeb1ebc964e45a95</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Psychological Injury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Blessure psychologique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:25:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5eb910e73b04b2d0aeb1ebc964e45ac9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Psychological Injury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Temps perdu</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:25:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12b950e73b04b2d0aeb1ebc964e45a8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Loss time</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loss Time</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:39:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5eb950e73b04b2d0aeb1ebc964e45a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Loss time</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Modified Duties</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:39:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9eb990e73b04b2d0aeb1ebc964e45a24</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Modified Duties</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fonctions modifiées</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:25:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6b950e73b04b2d0aeb1ebc964e45ad7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Modified Duties</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accommodation</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:40:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56b990e73b04b2d0aeb1ebc964e45a72</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Accommodation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Accommodation</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:25:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56b990e73b04b2d0aeb1ebc964e45ab3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Accommodation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fatality</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:40:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2eb9d0e73b04b2d0aeb1ebc964e45a00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Fatality</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>this_occurrence_has_resulted_in_select_all_that_apply</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fatalité</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:26:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aeb9d0e73b04b2d0aeb1ebc964e45a28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Fatality</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

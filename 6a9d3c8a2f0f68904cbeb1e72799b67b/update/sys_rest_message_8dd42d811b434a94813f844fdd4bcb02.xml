@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
+    <sys_rest_message action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <authentication_type>oauth2</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <description>PBI #156429  task #159285</description>
+        <name>HoC-RMIS-EmployeeServices (for OHS)</name>
+        <oauth2_profile display_value="Hoc-RMIS-EmployeeServices-OAuth-Profile">08ed05412f6260904cbeb1e72799b6a2</oauth2_profile>
+        <protocol_name/>
+        <rest_endpoint>${endpoint}/EmployeeServices</rest_endpoint>
+        <sys_class_name>sys_rest_message</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-25 17:30:30</sys_created_on>
+        <sys_id>8dd42d811b434a94813f844fdd4bcb02</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HoC-RMIS-EmployeeServices (for OHS)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_rest_message_8dd42d811b434a94813f844fdd4bcb02</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-25 18:44:33</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="HoC Occupational Health and Safety Manag">712efc8a2f0f68904cbeb1e72799b660</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_hccc_hoc_ohs_investigation_case">stateIN101,30^EQ<item display_value="101,30" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="101,30"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>OHS Advisor cases</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_hccc_hoc_ohs_investigation_case</name>
+        <order>100</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_hccc_hoc_ohs.commitee,x_hccc_hoc_ohs.admin,x_hccc_hoc_ohs.advisor</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-03-25 19:59:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>75e58c362f0bec904cbeb1e72799b6ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>WHSC Committee cases</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_app_module_75e58c362f0bec904cbeb1e72799b6ec</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-05 17:43:47</sys_updated_on>
+        <timeline_page/>
+        <title>WHSC Committee cases</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

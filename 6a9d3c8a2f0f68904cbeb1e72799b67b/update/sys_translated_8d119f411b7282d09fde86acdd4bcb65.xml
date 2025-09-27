@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>question_text</element>
+        <id/>
+        <label>Vous pouvez joindre des photos, des documents ou des preuves concernant cet événement en cliquant sur "Ajouter des pièces jointes" au bas de la page.   </label>
+        <language>fq</language>
+        <name>question</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-13 15:07:45</sys_created_on>
+        <sys_id>8d119f411b7282d09fde86acdd4bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vous pouvez joindre des photos, des documents ou des preuves concernant cet événement en cliquant sur "Ajouter des pièces jointes" au bas de la page.   </sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_translated_8d119f411b7282d09fde86acdd4bcb65</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 15:07:45</sys_updated_on>
+        <value>Any pictures, documents or evidence pertaining to this occurrence can be attached by clicking "Add attachments" at the bottom of the page.</value>
+    </sys_translated>
+</record_update>

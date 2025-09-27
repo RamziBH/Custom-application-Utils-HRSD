@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>reject</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Create Hazards">85e4e42dfbc0d21c95e5fb3f4eefdc33</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+    const timeStamp = new Date().toISOString(); //performance.timeOrigin + performance.now();
+    const infoStr = 'OHS - ' + timeStamp + ' - Row: ' + source.sys_import_row + ' - Create Hazard - Get HIRA Case - ';
+
+    try {
+        const posCode = source.u_position_code.toString(); //otherwise it's an object
+
+        if (posCode !== null && posCode !== '') {
+            //gs.debug(infoStr + '1- PosCode Exists: ' + posCode);
+            const grPosCode = new GlideRecord('x_hccc_base_org_position_code');
+            const grPosRep = new GlideRecord('x_hccc_hoc_ohs_position_reports_to');
+            const grHira = new GlideRecord('x_hccc_hoc_ohs_hira_case');
+
+            grPosCode.get('code', posCode); //should only have 1
+            //gs.debug(infoStr + '2- grabbed grPosCode' + grPosCode.getUniqueValue());
+            grPosRep.get('position_code', grPosCode.getUniqueValue());
+            //gs.debug(infoStr + '3- grabbed grPosRep' + grPosRep.getUniqueValue());
+            grHira.get('position_reporting_position', grPosRep.getUniqueValue());
+            //gs.debug(infoStr + '4- grabbed grHira' + grHira.getUniqueValue());
+
+            gs.debug(infoStr + '\nposCode: ' + posCode +
+                ' - posCodeId: ' + grPosCode.getUniqueValue() +
+                ' - PosRepId: ' + grPosRep.getUniqueValue() +
+				' - HiraCaseId: ' + grHira.getUniqueValue()
+            );
+            return grHira.getUniqueValue();
+        }
+        /*else {
+                   gs.warn(infoStr + 'PosCode is NULL');
+                   gs.warn(infoStr + JSON.stringify(source));
+               }*/
+    } catch (e) {
+        gs.error(infoStr + 'ERROR: ' + e);
+        gs.error(infoStr + 'ERROR - source content: ' + JSON.stringify(source));
+    }
+
+    //return ""; //if there's no posCode we skip (reject)
+})(source);]]></source_script>
+        <source_table>x_hccc_hoc_ohs_initial_hira_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-29 15:38:17</sys_created_on>
+        <sys_id>6ee973b9fb90161895e5fb3f4eefdc22</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_transform_entry_6ee973b9fb90161895e5fb3f4eefdc22</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-30 18:17:37</sys_updated_on>
+        <target_field>hira_case</target_field>
+        <target_table>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

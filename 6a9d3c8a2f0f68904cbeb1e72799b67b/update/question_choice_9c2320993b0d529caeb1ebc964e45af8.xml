@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>true</inactive>
+        <misc>0</misc>
+        <order>600</order>
+        <published_ref/>
+        <question display_value="Type of Request">de38f3a21b1cced8813f844fdd4bcbaf</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 17:27:37</sys_created_on>
+        <sys_id>9c2320993b0d529caeb1ebc964e45af8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pda</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>question_choice_9c2320993b0d529caeb1ebc964e45af8</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-03 17:27:37</sys_updated_on>
+        <text>pda</text>
+        <value>pda</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=9c2320993b0d529caeb1ebc964e45af8"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>misc</field>
+        <id>9c2320993b0d529caeb1ebc964e45af8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 17:27:37</sys_created_on>
+        <sys_id>712360993b0d529caeb1ebc964e45a02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-03 17:27:37</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>rec_misc</field>
+        <id>9c2320993b0d529caeb1ebc964e45af8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-03 17:27:37</sys_created_on>
+        <sys_id>392360993b0d529caeb1ebc964e45a01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-03 17:27:37</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

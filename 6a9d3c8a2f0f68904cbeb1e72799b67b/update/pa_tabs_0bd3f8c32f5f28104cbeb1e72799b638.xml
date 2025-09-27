@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Health and Safety Da - New Tab 4">bed3f8c32f5f28104cbeb1e72799b635</canvas_page>
+        <name>Workplace Committee (181 Queen)</name>
+        <page display_value="PA Workplace Committee (181 Queen)">32d3f8c32f5f28104cbeb1e72799b634</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>$pain</sys_created_by>
+        <sys_created_on>2021-04-08 04:13:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bd3f8c32f5f28104cbeb1e72799b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Workplace Committee (181 Queen)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>pa_tabs_0bd3f8c32f5f28104cbeb1e72799b638</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+    </pa_tabs>
+</record_update>

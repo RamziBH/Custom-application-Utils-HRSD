@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="OHS" section_id="12aee4d01bd3ac10ea0eda02dd4bcb45" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="refusal_to_work">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ohs_user</element>
+            <position>0</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-09 18:28:19</sys_created_on>
+            <sys_id>5b2149ef1b5f6c10c261ed3cbc4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OHS" display_value="OHS" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">12aee4d01bd3ac10ea0eda02dd4bcb45</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-09 18:28:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-09 18:28:19</sys_created_on>
+            <sys_id>df2149ef1b5f6c10c261ed3cbc4bcbaa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OHS" display_value="OHS" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">12aee4d01bd3ac10ea0eda02dd4bcb45</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-09 18:28:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ohs_comment</element>
+            <position>2</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-09 18:28:19</sys_created_on>
+            <sys_id>572149ef1b5f6c10c261ed3cbc4bcbab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="OHS" display_value="OHS" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">12aee4d01bd3ac10ea0eda02dd4bcb45</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-09 18:28:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>OHS</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-30 14:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12aee4d01bd3ac10ea0eda02dd4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_12aee4d01bd3ac10ea0eda02dd4bcb45</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Refusal to Work" name="refusal_to_work">0edba4981b93ac10ea0eda02dd4bcbc0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

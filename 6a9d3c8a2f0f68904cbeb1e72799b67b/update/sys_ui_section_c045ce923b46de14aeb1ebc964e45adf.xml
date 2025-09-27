@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c045ce923b46de14aeb1ebc964e45adf" sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="3" view="sp">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-07 15:05:51</sys_created_on>
+            <sys_id>1b1ad8fafb95aad095e5fb3f4eefdcea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">c045ce923b46de14aeb1ebc964e45adf</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-07 15:05:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>1</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-07 15:05:51</sys_created_on>
+            <sys_id>d71ad8fafb95aad095e5fb3f4eefdceb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">c045ce923b46de14aeb1ebc964e45adf</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-07 15:05:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-07 15:05:51</sys_created_on>
+            <sys_id>531ad8fafb95aad095e5fb3f4eefdcec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">c045ce923b46de14aeb1ebc964e45adf</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-07 15:05:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-07 15:05:52</sys_created_on>
+            <sys_id>db1ad8fafb95aad095e5fb3f4eefdcec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">c045ce923b46de14aeb1ebc964e45adf</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-07 15:05:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>review_due</element>
+            <position>4</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-07 15:05:52</sys_created_on>
+            <sys_id>571ad8fafb95aad095e5fb3f4eefdced</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">c045ce923b46de14aeb1ebc964e45adf</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-07 15:05:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>5</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-07 15:05:52</sys_created_on>
+            <sys_id>df1ad8fafb95aad095e5fb3f4eefdced</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">c045ce923b46de14aeb1ebc964e45adf</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-07 15:05:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-07 15:05:52</sys_created_on>
+            <sys_id>5b1ad8fafb95aad095e5fb3f4eefdcee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">c045ce923b46de14aeb1ebc964e45adf</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-07 15:05:52</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>7</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-07 15:05:52</sys_created_on>
+            <sys_id>d31ad8fafb95aad095e5fb3f4eefdcef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">c045ce923b46de14aeb1ebc964e45adf</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-07 15:05:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_hira_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-25 20:12:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c045ce923b46de14aeb1ebc964e45adf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_hira_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_c045ce923b46de14aeb1ebc964e45adf</sys_update_name>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-25 20:12:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Portal" name="sp">ec2daaf9d7523100a9ad1e173e24d4ea</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

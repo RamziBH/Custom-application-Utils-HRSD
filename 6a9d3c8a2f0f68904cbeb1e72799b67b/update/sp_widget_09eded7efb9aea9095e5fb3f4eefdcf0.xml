@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($window, $scope, $rootScope, $timeout, $location, spAriaFocusManager, $element) {
+    /* global $ */
+    //Access options (from option schema) with c.options.<option>
+
+    //////////////////////////////////////////////////////////
+    // INIT
+    //////////////////////////////////////////////////////////
+    /* widget controller */
+    var c = this;
+
+
+    //////////////////////////////////////////////////////////
+    // DEFINE FUNCTIONS
+    //////////////////////////////////////////////////////////
+    //works for "form" widget (and those extending it)
+    function getContainerID(element) {
+        const str = element.attr("aria-labelledby");
+
+        if (str) {
+            return str.split("_")[1];
+        } else {
+            return '';
+        }
+    }
+
+    function makeCollapsible(selector) {
+        const randNum = Math.floor(Math.random() * 1000); //allows widget more than once per page
+
+        $(selector).each(function(index) {
+            //console.log('------in: ' + index + '------');
+
+            const containerId = getContainerID($(this));
+
+            if (containerId) { //container is identified
+                const sectionTitle = $(this).find(c.options.button_selector);
+                const sectionData = $(this).find(c.options.content_selector);
+                const sectionId = "hocCollapsibleSection" + randNum + "i" + index; //must not contain spaces or "."
+
+							  sectionTitle.addClass("sectioncollapseexpand");
+                //console.log(sectionTitle.text() + ' - ' + containerId);
+
+                //if section behavior captured
+                if (c.data.sections && containerId in c.data.sections) { //could also use c.data.sections.hasOwnProperty(containterId)
+
+                    if (c.data.sections[containerId].collapsible == true) {
+                        sectionTitle.attr("data-toggle", "collapse");
+                        sectionTitle.attr("data-target", "#" + sectionId);
+
+                        //set section
+                        sectionData.attr("id", sectionId);
+                        if (c.data.sections[containerId].startOpen == true) {
+                            sectionData.addClass("collapse in"); //"collapse in" = expanded, "collapse" = collapsed
+                        } else {
+                            sectionData.addClass("collapse"); //"collapse in" = expanded, "collapse" = collapsed
+                        }
+                    }
+                } else if (c.data.sections && 'defaultSection' in c.data.sections) { //else use the default section behavior (if it exist)
+                    if (c.data.sections['defaultSection'].collapsible == true) {
+                        sectionTitle.attr("data-toggle", "collapse");
+                        sectionTitle.attr("data-target", "#" + sectionId);
+
+                        //set section
+                        sectionData.attr("id", sectionId);
+                        if (c.data.sections['defaultSection'].startOpen == true) {
+                            sectionData.addClass("collapse in"); //"collapse in" = expanded, "collapse" = collapsed
+                        } else {
+                            sectionData.addClass("collapse"); //"collapse in" = expanded, "collapse" = collapsed
+                        }
+                    } //else id found but not matched and defaultSection undefined 
+                } else { //else, default to collapsible and open (if behavior is empty, will default to this)
+                    sectionTitle.attr("data-toggle", "collapse");
+                    sectionTitle.attr("data-target", "#" + sectionId);
+
+                    //set section
+                    sectionData.attr("id", sectionId);
+                    sectionData.addClass("collapse in"); //"collapse in" = expanded, "collapse" = collapsed
+                }
+            } //else{}//container isn't identified (probably doesn't have a title to click on)
+
+
+            //console.log('------out: ' + index + '------');
+        });
+    }
+
+    //////////////////////////////////////////////////////////
+    //MAIN LOGIC
+    //////////////////////////////////////////////////////////
+
+    $timeout(function() { //Wait for page to fully render (would be better to listen to an event but for now this works)
+        makeCollapsible(c.options.section_selector);
+    }, 500);
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.dropdown_title {
+  display: inline-block;
+  border: 2px solid red;
+}
+.hira_back_link {
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.btn-default {
+  display: none;
+}
+
+.noshow {
+  display: none;
+}
+
+#\.annotation\.cd5c7666fb42165495e5fb3f4eefdc77, #\.annotation\.c15c7666fb42165495e5fb3f4eefdc78, #\.annotation\.855c7666fb42165495e5fb3f4eefdc78 {
+   font-weight: bold;
+  font-size: x-large;
+}
+
+#\.annotation\.495c7666fb42165495e5fb3f4eefdc78 {
+  color: red;
+  font-weight: bold;
+}
+
+
+.sectioncollapseexpand .container-caption.form-container-caption.ng-scope {
+  margin-bottom: 1.5rem;
+}
+
+.sectioncollapseexpand .h4.ng-binding {
+  width: 100%;
+  display: block;
+  background-color: rgb(198, 198, 198);
+  color: rgb(51, 51, 51);
+  border: 1px solid rgb(66, 122, 38);
+  padding: 14px 10px 10px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color, color 0.25s;
+  margin-top: 0.1rem;
+  margin-bottom: 0rem;
+}
+
+/* Down-pointing arrow */
+.sectioncollapseexpand .h4.ng-binding:after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  transition: transform 0.2s ease;
+}  
+    </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>ohsm_collapsible_sections</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>OHSM Collapsible Sections</name>
+        <option_schema>[{"hint":"Should match all sections","name":"section_selector","section":"Presentation","default_value":"div.sp-form-container","label":"Section Selector","type":"string"},{"hint":"Should match the button inside the Section Selector. (Doesn't have to be a button)","name":"button_selector","section":"Presentation","default_value":"span.container-caption","label":"Button Selector","type":"string"},{"hint":"Should match the content inside the Section Selector.","name":"content_selector","section":"Presentation","default_value":"div.row","label":"Content Selector","type":"string"},{"displayValue":"Form Section","hint":"JSON formatted. Like so: [{\"glideFilterString\": \"&lt;glideFilterString&gt;\",\"sections\": [{\"sys_ui_section_id\": \"&lt;sys_id&gt;|'defaultSection'\", \"collapsible\": true|false, \"startOpen\": true|false}]}]","name":"behavior_object","display_value_list":[],"section":"Behavior","label":"Behavior object","type":"string","value":"sys_ui_section","ed":{"reference":"sys_ui_section"}}]</option_schema>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function(input) {
+    /* global data, options, $sp */
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    //Access options (from option schema) with options.<option><
+
+    //////////////////////////////////////////////////////////
+    // DEFINE FUNCTIONS
+    //////////////////////////////////////////////////////////
+    function defineSectionStates(sections) {
+        gs.debug('OHSM COLLAPSIBLE WIDGET --- input sections: ' + JSON.stringify(sections));
+        for (const section of sections) {
+            const obj = {
+                collapsible: section.collapsible,
+                startOpen: section.startOpen
+            };
+
+            data.sections[section.sys_ui_section_id] = obj;
+        }
+        gs.debug('OHSM COLLAPSIBLE WIDGET --- sections: ' + JSON.stringify(data.sections));
+    }
+
+    //////////////////////////////////////////////////////////
+    //MAIN LOGIC
+    //////////////////////////////////////////////////////////
+
+    const id = $sp.getParameter("id"); //Check if widget is in designer or not (ID isn't a param in designer but is in portal)
+
+    if (gs.nil(id)) {
+        data.id_empty = true;
+        data.id_label = id;
+    } else {
+
+        const table = $sp.getParameter("table");
+        const sys_id = $sp.getParameter("sys_id");
+        const gr = new GlideRecordSecure(table);
+
+        gr.get(sys_id);
+
+        if (gr.isValid()) {
+            gs.debug('OHSM COLLAPSIBLE WIDGET --- gr valid');
+            if (gs.nil(options.behavior_object)) {
+                gs.debug('OHSM COLLAPSIBLE WIDGET --- behavior nil');
+                return; //if behavior empty defaults to all collapsible & all open by default
+            }
+            const behaviors = JSON.parse(options.behavior_object);
+            let sectionDefaults;
+
+            data.sections = {};
+
+            /* // behavior object
+            [{
+            	"glideFilterString": "<glideFilterString>",
+            	"sections": [{"sys_ui_section_id": "<id>|'defaultSection'", "collapsible": true|false, "startOpen": true|false}],
+            }]*/
+
+            for (const behavior of behaviors) {
+                //if glideFilterString empty then it's the default state
+                if (gs.nil(behavior.glideFilterString)) {
+                    sectionDefaults = behavior.sections;
+                }
+
+                if (GlideFilter.checkRecord(gr, behavior.glideFilterString)) {
+                    defineSectionStates(behavior.sections);
+                }
+            }
+
+            //No filter match, then use default state
+            if (!gs.nil(sectionDefaults) && (gs.nil(data.sections) || data.sections.length === 0)) {
+                defineSectionStates(sectionDefaults);
+            }
+        }
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-26 14:14:41</sys_created_on>
+        <sys_id>09eded7efb9aea9095e5fb3f4eefdcf0</sys_id>
+        <sys_mod_count>83</sys_mod_count>
+        <sys_name>OHSM Collapsible Sections</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_09eded7efb9aea9095e5fb3f4eefdcf0</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-26 20:02:10</sys_updated_on>
+        <template><![CDATA[<div>
+  <!-- //Access options (from option schema) with {{::c.options.<option>}} -->
+  <div class="alert alert-info" ng-if="data.id_empty">
+    ${OHSM Collapsible Section} - Widget shouldn't show whilst used
+    <br/>
+    ${ID:} '{{data.id_label}}'
+  </div>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>09eded7efb9aea9095e5fb3f4eefdcf0</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-03 18:39:44</sys_created_on>
+        <sys_id>73ad62c5fb2aa69095e5fb3f4eefdc6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-03 18:39:44</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

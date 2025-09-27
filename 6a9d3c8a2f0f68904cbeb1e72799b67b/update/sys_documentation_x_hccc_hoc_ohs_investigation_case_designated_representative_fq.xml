@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="designated_representative" label="L'employé qui refuse représente également plusieurs employés" language="fq" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>designated_representative</element>
+            <help/>
+            <hint/>
+            <label>L'employé qui refuse représente également plusieurs employés</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>L'employé qui refuse est également la personne désignée représentant plusieurs e</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-15 18:27:18</sys_created_on>
+            <sys_id>830c558c1b6f25509fde86acdd4bcb8d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>L'employé qui refuse représente également plusieurs employés</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_designated_representative_fq</sys_update_name>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-15 18:29:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMFluClinicAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMFluClinicAjax</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var HoCOHSMFluClinicAjax = Class.create();
+
+HoCOHSMFluClinicAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    alreadyHaveAppointment: function() {
+        var user = this.getParameter('sysparm_user');
+        var reason = this.getParameter('sysparm_reason');
+        var userType = this.getParameter('sysparm_usertype');
+        var gr;
+
+
+        if (userType == 'external') {
+            gr = new GlideRecord('customer_contact');
+
+            gr.get('email', user);
+            gr.query();
+
+            user = [];
+            while (gr.next()) {
+                user.push(gr.getValue('sys_id'));
+            }
+        }
+
+        gr = new GlideRecordSecure('x_hccc_hoc_ohs_vaccination_appointment');
+
+        gr.addEncodedQuery('stateNOT IN3,4,7^active=true');
+        gr.addQuery('contact', 'IN', user);
+		gr.addEncodedQuery('window_end>=javascript:gs.beginningOfToday()');
+		// both vaccines 
+		if (reason != 'e86617541b7df9989fde86acdd4bcbd8') {
+			 gr.addEncodedQuery('reason=e86617541b7df9989fde86acdd4bcbd8^ORreason=' + reason);
+		}
+       
+        gr.setLimit(1);
+        gr.query();
+
+        if (gr.next()) {
+            return gr.sys_id.toString();
+        }
+        return null;
+    },
+
+
+
+    alreadyHaveAppointmentMyself: function() {
+        //var userSysId = gs.getUserID();
+        var gr = new GlideRecordSecure('x_hccc_hoc_ohs_vaccination_appointment');
+        var reason = this.getParameter('sysparm_reason');
+
+        gr.addEncodedQuery('stateNOT IN3,4,7^active=true^contactDYNAMIC90d1921e5f510100a9ad2572f2b477fe');
+        gr.query();
+        return gr.getRowCount() >= 1;
+
+    },
+    alreadyHaveAppointmentInternal: function() {
+        var userSysId = this.getParameter('sysparm_employee');
+        var gr = new GlideRecordSecure('x_hccc_hoc_ohs_vaccination_appointment');
+
+        gr.addEncodedQuery('stateNOT IN3,4,7^active=true');
+        gr.addQuery('contact', userSysId);
+        gr.query();
+
+        /*
+        try {
+            var grUser = new GlideRecord('sys_user');
+
+grUser.get(userSysId);
+gs.info("Check for user: " + userSysId +
+    "\r\nUserID: " + grUser.getDisplayValue('user_name') + "\r\nemail: " + grUser.getDisplayValue('email') +
+    "\r\n\r\nreturns " + gr.getRowCount());
+        } catch (e) {
+            gs.error(e)
+        }
+		gr.next();
+        gs.info("Appointment #" + gr.getValue('number') +
+            "\r\nID: " + gr.getUniqueValue() +
+            "\r\ncontact: " + gr.getValue('contact') +
+            "\r\nstate: " + gr.getValue('state') +
+            "\r\nsys_created_by: " + gr.getValue('sys_created_by') +
+            "\r\nsys_created_on: " + gr.getValue('sys_created_on'));*/
+        return gr.getRowCount() >= 1;
+    },
+    alreadyHaveAppointmentExternal: function() {
+        var email = this.getParameter('sysparm_email');
+        //Retrieve contacts that use the email address (Should be only one in theory)
+        var array = [];
+        var gr = new GlideRecord('customer_contact');
+
+        gr.get('email', email);
+        gr.query();
+
+        while (gr.next()) {
+            array.push(gr.getValue('sys_id'));
+        }
+
+        //Find non-completed appointments that are assigned to the contact(s) with the email address
+        var gr2 = new GlideRecordSecure('x_hccc_hoc_ohs_vaccination_appointment');
+
+        gr2.addQuery('contact', 'IN', array);
+        gr2.addEncodedQuery('stateNOT IN3,4,7^active=true');
+        gr2.query();
+        return gr2.getRowCount() >= 1; //Return a boolean that tells if there is an appointment already
+    },
+    /*
+    returns the user type
+     */
+    getUserType: function() {
+        var gr = new GlideRecord("sys_user");
+
+        gr.get(gs.getUserID());
+        return gr.getValue("x_hccc_base_user_type");
+    },
+
+
+	//check if nurse
+	checkIfNurse: function() {
+		return gs.getUser().isMemberOf('CEH-HRS-OHS-Vaccination Nurses'); 
+	},
+
+    /*
+    To use in dynamic filter like so: javascript: user is new x_hccc_hoc_ohs.HoCOHSMFluClinicAjax().getMPStaffList()
+     */
+    getMPStaffList: function() {
+        var sysIdArray = []; //numberINWUA0002035,WUA0002034
+        var gr = new GlideRecord("sys_user");
+
+        gr.addQuery('x_hccc_base_user_type', 'mp_staff');
+        gr.addQuery('active', 'true');
+        gr.query();
+        while (gr.next()) {
+            sysIdArray.push(gr.getUniqueValue());
+        }
+
+        //return sysIdArray.join(',');
+        return sysIdArray;
+    },
+    type: 'HoCOHSMFluClinicAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-11-02 17:12:05</sys_created_on>
+        <sys_id>411d9aab1b3251909fde86acdd4bcb83</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>HoCOHSMFluClinicAjax</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_411d9aab1b3251909fde86acdd4bcb83</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-18 15:12:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

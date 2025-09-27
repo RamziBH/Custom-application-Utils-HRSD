@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>rp_functional_limitaions_text</name>
+        <scoped_name>x_hccc_hoc_ohs_rp_functional_limitaions_text</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>umair.ahmed</sys_created_by>
+        <sys_created_on>2021-05-28 08:49:29</sys_created_on>
+        <sys_id>469213871b9c7810c261ed3cbc4bcb1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rp_functional_limitaions_text</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_macro_469213871b9c7810c261ed3cbc4bcb1e</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:evaluate var="jvar_fullins">
+		var str1 = gs.getMessage("Complete and return page 2 of Form 8 - ");
+	    var ln1 = gs.getMessage("Health Professional's Report");
+		var str2 = gs.getMessage("or pages 2+3 of the ");
+	 	var ln2 = gs.getMessage("Functional Abilities Form (wsib.ca)");
+	var link1 = gs.getMessage("https://www.wsib.ca/sites/default/files/2022-02/0008a_08_11_fs_web_rv_09_18-1.pdf");
+    var link2 = gs.getMessage("https://www.wsib.ca/sites/default/files/2021-04/faf2647a.pdf");
+    data.fulins = gs.getMessage('{0}', '<ul><li><strong>' + str1 + '<u><a href="' + link1 + '" target="_blank">' + ln1 + '</a></u></strong></li><li><strong>' + str2 + '<u><a href="' + link2 + '" target="_blank">' + ln2 + '</a></u></strong></li></ul>');
+		</g:evaluate>
+	<g:no_escape>${jvar_fullins}</g:no_escape>
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="WHSC" section_id="ceaee4d01bd3ac10ea0eda02dd4bcb43" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="refusal_to_work">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whsc_user</element>
+            <position>0</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:13</sys_created_on>
+            <sys_id>d75166e6db9534109b09e6fa4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_whsc_date_time</element>
+            <position>1</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:13</sys_created_on>
+            <sys_id>5f5166e6db9534109b09e6fa4b961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_wpcmember</element>
+            <position>2</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:13</sys_created_on>
+            <sys_id>d35166e6db9534109b09e6fa4b961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_agree_emply_dec</element>
+            <position>3</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:13</sys_created_on>
+            <sys_id>5b5166e6db9534109b09e6fa4b961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_conducted_by_employer</element>
+            <position>4</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:13</sys_created_on>
+            <sys_id>df5166e6db9534109b09e6fa4b961966</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_corrective_action_s_taken</element>
+            <position>5</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:13</sys_created_on>
+            <sys_id>575166e6db9534109b09e6fa4b961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_rep_investigation_report_provided_to_employer</element>
+            <position>6</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>db5166e6db9534109b09e6fa4b961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_rep_investigation_report_provided_to_employer_time</element>
+            <position>7</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>535166e6db9534109b09e6fa4b961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_corrective_action_s</element>
+            <position>8</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>d75166e6db9534109b09e6fa4b961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>5f5166e6db9534109b09e6fa4b961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whsc_comments</element>
+            <position>10</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>d35166e6db9534109b09e6fa4b961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_whsc_decision</element>
+            <position>11</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>5b5166e6db9534109b09e6fa4b961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_reco_empl</element>
+            <position>12</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>df5166e6db9534109b09e6fa4b961969</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_conducted_by</element>
+            <position>13</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>575166e6db9534109b09e6fa4b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_rep_investigation_report_provided_to_employer_date</element>
+            <position>14</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>db5166e6db9534109b09e6fa4b96196a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_rep_investigation_report_provided_to_employer_time</element>
+            <position>15</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>535166e6db9534109b09e6fa4b96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_based_on_supplemental</element>
+            <position>16</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>d75166e6db9534109b09e6fa4b96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_date</element>
+            <position>17</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>5f5166e6db9534109b09e6fa4b96196b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_time</element>
+            <position>18</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>d35166e6db9534109b09e6fa4b96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_details</element>
+            <position>19</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>5b5166e6db9534109b09e6fa4b96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>df5166e6db9534109b09e6fa4b96196c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_reco_deta</element>
+            <position>21</position>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-07-15 09:00:14</sys_created_on>
+            <sys_id>575166e6db9534109b09e6fa4b96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_ui_section>
+            <sys_updated_by>umair.ahmed</sys_updated_by>
+            <sys_updated_on>2021-07-15 09:00:14</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>WHSC</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-30 14:47:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_ceaee4d01bd3ac10ea0eda02dd4bcb43</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Refusal to Work" name="refusal_to_work">0edba4981b93ac10ea0eda02dd4bcbc0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

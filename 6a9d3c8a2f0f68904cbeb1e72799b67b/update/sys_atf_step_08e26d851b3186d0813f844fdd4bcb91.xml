@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Open Telework Agreement requests page in the House of Commons Portal portal</description>
+        <display_name>Open Service Portal Page</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>open portal page</notes>
+        <order>24</order>
+        <step_config display_value="Open Service Portal Page">fc7e65d577332300e46abe41a9106106</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 14:03:29</sys_created_on>
+        <sys_id>08e26d851b3186d0813f844fdd4bcb91</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Open Service Portal Page</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_08e26d851b3186d0813f844fdd4bcb91</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:21</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - Telework Agreement - Service Portal access">6d3369b41b798a5c9fde86acdd4bcb79</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=08e26d851b3186d0813f844fdd4bcb91"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>08e26d851b3186d0813f844fdd4bcb91</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 14:03:33</sys_created_on>
+        <sys_id>01e225c51b3186d0813f844fdd4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 14:03:33</sys_updated_on>
+        <value>ec30b0531b1ee9549fde86acdd4bcb05</value>
+        <variable display_value="Page">ca8ea5d577332300e46abe41a91061b6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>08e26d851b3186d0813f844fdd4bcb91</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 14:03:33</sys_created_on>
+        <sys_id>85e225c51b3186d0813f844fdd4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 14:03:33</sys_updated_on>
+        <value>10cdb31a1b82bd18813f844fdd4bcbdd</value>
+        <variable display_value="Portal">5a7e65d577332300e46abe41a91061cb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>08e26d851b3186d0813f844fdd4bcb91</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 14:03:33</sys_created_on>
+        <sys_id>c1e225c51b3186d0813f844fdd4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 14:03:33</sys_updated_on>
+        <value/>
+        <variable display_value="Query parameters">839e29d577332300e46abe41a9106134</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_fc7e65d577332300e46abe41a9106106^id=08e26d851b3186d0813f844fdd4bcb91"/>
+</record_update>

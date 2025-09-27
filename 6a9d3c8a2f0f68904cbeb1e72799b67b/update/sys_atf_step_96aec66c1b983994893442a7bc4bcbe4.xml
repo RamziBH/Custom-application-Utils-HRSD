@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Validate Outbound Email">05d0b5ac1b903994893442a7bc4bcbe9</copied_from>
+        <description>Validate that an email was generated matching query:
+Subject contains Refusal of dangerous work updated from ATFOHSEmployeeLast, ATFOHSEmployeeFirst
+and Subject contains Refus d'exécuter un travail dangereux mise à jour par ATFOHSEmployeeLast, ATFOHS
+and Recipients contains ohsdemo@gmail.com
+and Created &gt; javascript:gs.minutesAgo(1)
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Validate Email Notification: HoC - OHSM SC OHS Advisor resolution &#13;
+</notes>
+        <order>37</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-24 18:12:28</sys_created_on>
+        <sys_id>96aec66c1b983994893442a7bc4bcbe4</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_96aec66c1b983994893442a7bc4bcbe4</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:02:47</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS Refusal workflow - Empl agrees with Mgr">a8ae426c1b983994893442a7bc4bcbe1</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=96aec66c1b983994893442a7bc4bcbe4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>96aec66c1b983994893442a7bc4bcbe4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-24 18:12:28</sys_created_on>
+        <sys_id>96aec66c1b983994893442a7bc4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-24 18:12:28</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>96aec66c1b983994893442a7bc4bcbe4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-24 18:12:28</sys_created_on>
+        <sys_id>d2aec66c1b983994893442a7bc4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-24 18:12:28</sys_updated_on>
+        <value>subjectLIKERefusal of dangerous work updated from ATFOHSEmployeeLast, ATFOHSEmployeeFirst^subjectLIKERefus d'exécuter un travail dangereux mise à jour par ATFOHSEmployeeLast, ATFOHS^recipientsLIKEohsdemo@gmail.com^sys_created_onRELATIVEGT@minute@ago@1^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=96aec66c1b983994893442a7bc4bcbe4"/>
+</record_update>

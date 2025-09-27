@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Employee Workplace Incident Reporting">632c129e2f4f2c904cbeb1e72799b6d0</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field>yes_no</choice_field>
+        <choice_table>x_hccc_base_option</choice_table>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field>inc_work_rel_injury</field>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text>Indicate whether the initial injury is work-related (sustained at the workplace or sustained while conducting work-related activities). </help_text>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions><![CDATA[<p>Indiquez si la blessure initiale est liée au travail (soutenue sur le lieu de travail ou subie lors d&#39;activités liées au travail).</p>]]></instructions>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>true</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>inc_work_rel_injury</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>1200</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Work-related injury/illness</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_hccc_hoc_ohs_investigation_case</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>true</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-15 03:21:07</sys_created_on>
+        <sys_id>98fa28112fef28504cbeb1e72799b6ba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Work-related injury/illness</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>item_option_new_98fa28112fef28504cbeb1e72799b6ba</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-02 19:45:06</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>5</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+        <x_hccc_dfsa_erp_u_simple_name_values_1/>
+        <x_hccc_dfsa_erp_u_translated_text_2/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=98fa28112fef28504cbeb1e72799b6ba"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>98fa28112fef28504cbeb1e72799b6ba</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-06-03 05:34:35</sys_created_on>
+        <sys_id>f18f194ddb6434109b09e6fa4b9619fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-19 16:41:16</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value>Indiquez si la blessure initiale est liée au travail (soutenue sur le lieu de travail ou subie lors d'activités liées au travail). </value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>98fa28112fef28504cbeb1e72799b6ba</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>fq</language>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-06-03 05:34:35</sys_created_on>
+        <sys_id>3d8f194ddb6434109b09e6fa4b9619f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-02 19:44:36</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value>&lt;p&gt;Indiquez si la blessure initiale est li&amp;eacute;e au travail (soutenue sur le lieu de travail ou subie lors d'activit&amp;eacute;s li&amp;eacute;es au travail).&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>98fa28112fef28504cbeb1e72799b6ba</documentkey>
+        <fieldname>rich_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-19 16:41:17</sys_created_on>
+        <sys_id>4ac598131bc901109fde86acdd4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-19 16:41:17</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>98fa28112fef28504cbeb1e72799b6ba</documentkey>
+        <fieldname>x_hccc_dfsa_erp_u_translated_text_2</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-01-19 16:41:16</sys_created_on>
+        <sys_id>cac598131bc901109fde86acdd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-01-19 16:41:16</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=98fa28112fef28504cbeb1e72799b6ba"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price_if_checked</field>
+        <id>98fa28112fef28504cbeb1e72799b6ba</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-15 03:21:07</sys_created_on>
+        <sys_id>b81b28912fef28504cbeb1e72799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-15 03:21:07</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>rec_price_if_checked</field>
+        <id>98fa28112fef28504cbeb1e72799b6ba</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-15 03:21:07</sys_created_on>
+        <sys_id>701b28912fef28504cbeb1e72799b639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-15 03:21:07</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

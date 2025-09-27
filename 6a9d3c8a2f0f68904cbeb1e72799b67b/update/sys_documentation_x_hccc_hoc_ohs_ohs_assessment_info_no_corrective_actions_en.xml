@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="no_corrective_actions" label="Has 48 hrs lapsed with no corrective actions taken?" language="en" table="x_hccc_hoc_ohs_ohs_assessment_info">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>no_corrective_actions</element>
+            <help/>
+            <hint/>
+            <label>Has 48 hrs lapsed with no corrective actions taken?</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_ohs_assessment_info</name>
+            <plural>Has 48 hrs lapsed with no corrective actions taken?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-11-11 14:30:40</sys_created_on>
+            <sys_id>caa034f53b319a50aeb1ebc964e45a1a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Has 48 hrs lapsed with no corrective actions taken?</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_ohs_assessment_info_no_corrective_actions_en</sys_update_name>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-11-11 14:34:46</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

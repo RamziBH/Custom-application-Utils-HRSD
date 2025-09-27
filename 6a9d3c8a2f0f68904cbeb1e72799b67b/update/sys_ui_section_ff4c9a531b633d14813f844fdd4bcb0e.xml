@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="WHSC" section_id="ff4c9a531b633d14813f844fdd4bcb0e" sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="3" view="refusal_to_work">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whsc_user</element>
+            <position>0</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>7f4c9a531b633d14813f844fdd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_whsc_date_time</element>
+            <position>1</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>734c9a531b633d14813f844fdd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_wpcmember</element>
+            <position>2</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>774c9a531b633d14813f844fdd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_agree_emply_dec</element>
+            <position>3</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>7b4c9a531b633d14813f844fdd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_conducted_by_employer</element>
+            <position>4</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>7f4c9a531b633d14813f844fdd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_corrective_action_s_taken</element>
+            <position>5</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>734c9a531b633d14813f844fdd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_rep_investigation_report_provided_to_employer</element>
+            <position>6</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>445c9a531b633d14813f844fdd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_rep_investigation_report_provided_to_employer_time</element>
+            <position>7</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>485c9a531b633d14813f844fdd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supplemental_corrective_action_s</element>
+            <position>8</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>4c5c9a531b633d14813f844fdd4bcb11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>405c9a531b633d14813f844fdd4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>whsc_comments</element>
+            <position>10</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>445c9a531b633d14813f844fdd4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_whsc_decision</element>
+            <position>11</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>485c9a531b633d14813f844fdd4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_reco_empl</element>
+            <position>12</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>4c5c9a531b633d14813f844fdd4bcb12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>investigation_conducted_by</element>
+            <position>13</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>405c9a531b633d14813f844fdd4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_rep_investigation_report_provided_to_employer_date</element>
+            <position>14</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>445c9a531b633d14813f844fdd4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_rep_investigation_report_provided_to_employer_time</element>
+            <position>15</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>485c9a531b633d14813f844fdd4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_based_on_supplemental</element>
+            <position>16</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>4c5c9a531b633d14813f844fdd4bcb13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_date</element>
+            <position>17</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>405c9a531b633d14813f844fdd4bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_time</element>
+            <position>18</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>445c9a531b633d14813f844fdd4bcb14</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>workplace_rep_report_amendment_details</element>
+            <position>19</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>085c9a531b633d14813f844fdd4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>20</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>0c5c9a531b633d14813f844fdd4bcb84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rw_reco_deta</element>
+            <position>21</position>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_id>005c9a531b633d14813f844fdd4bcb85</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="WHSC" display_value="WHSC" name="x_hccc_hoc_ohs_hira_case" sys_domain="global" view="0edba4981b93ac10ea0eda02dd4bcbc0">ff4c9a531b633d14813f844fdd4bcb0e</sys_ui_section>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>WHSC</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_hira_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff4c9a531b633d14813f844fdd4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_hira_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_ff4c9a531b633d14813f844fdd4bcb0e</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Refusal to Work" name="refusal_to_work">0edba4981b93ac10ea0eda02dd4bcbc0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

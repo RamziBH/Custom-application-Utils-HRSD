@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>true</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>INACTIVE - HoC - Filter "hidden records"</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	/*var aggIncident = new GlideAggregate('x_hccc_hoc_ohs_investigation_case');
+  aggIncident.addAggregate('COUNT','caller_id');
+  aggIncident.query();
+  aggIncident.next();
+  var count = aggIncident.getAggregate('COUNT','caller_id');
+	
+	
+	var session = gs.getSession();
+	if (count != session.getClientData('count_ohsm_count')){
+		//Refresh the count
+		session.putClientData('count_ohsm_count', count);
+	*/	
+		//Refresh the list of valid sys_ids
+		
+	var list_sys_id = [];
+	if (gs.getSession().getClientData('list_sys_id').length < 1){
+		var gr = new GlideRecordSecure('x_hccc_hoc_ohs_investigation_case');
+		gr.query();
+		while (gr.next()){
+			list_sys_id.push(gr.getValue('sys_id'));
+		}
+		gs.getSession().putClientData('list_sys_id', JSON.stringify(list_sys_id));
+	}
+	else
+	{
+		list_sys_id = JSON.parse(getSession().getClientData('list_sys_id'));
+	}
+		
+		/*gs.info("AMP TEST")
+		session.putClientData('count_ohsm_list_sysid', JSON.stringify(list_sys_id));
+	}
+	else
+	{
+		list_sys_id = JSON.parse(session.getClientData('count_ohsm_list_sysid'));
+	}*/
+
+	//gs.info(list_sys_id) //TO REMOVE
+	current.addQuery('sys_id','IN',list_sys_id);
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-11-06 18:29:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0251f301b4b11109fde86acdd4bcbbe</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>INACTIVE - HoC - Filter "hidden records"</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_a0251f301b4b11109fde86acdd4bcbbe</sys_update_name>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2023-03-28 20:30:10</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a0251f301b4b11109fde86acdd4bcbbe"/>
+</record_update>

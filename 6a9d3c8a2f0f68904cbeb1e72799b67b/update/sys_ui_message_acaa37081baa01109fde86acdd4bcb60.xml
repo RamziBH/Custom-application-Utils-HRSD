@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code/>
+        <commented_message/>
+        <key>x_hccc_hoc_ohs.date_and_time_of_occurrence</key>
+        <language>en</language>
+        <message>Please fill in the field "Date and time of the hazardous occurrence"</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-16 16:12:55</sys_created_on>
+        <sys_id>acaa37081baa01109fde86acdd4bcb60</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs.date_and_time_of_occurrence</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_message_acaa37081baa01109fde86acdd4bcb60</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-16 16:13:24</sys_updated_on>
+    </sys_ui_message>
+</record_update>

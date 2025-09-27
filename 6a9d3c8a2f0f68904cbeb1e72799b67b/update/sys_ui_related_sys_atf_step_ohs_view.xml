@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sys_atf_step" version="2" view="ohs_view">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Test Step - OHS view" name="sys_atf_step" related_list="NULL" sys_domain="global" view="5fcb6db71b9f0ad89fde86acdd4bcb09">67cb6db71b9f0ad89fde86acdd4bcb0f</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:67bdac52374010008687ddb1967334ee</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-16 17:19:58</sys_created_on>
+            <sys_id>2bcb6db71b9f0ad89fde86acdd4bcb10</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-16 17:19:58</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Test Step - OHS view</calculated_name>
+            <filter/>
+            <name>sys_atf_step</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-07-16 17:19:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>67cb6db71b9f0ad89fde86acdd4bcb0f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Test Step - OHS view</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_related_sys_atf_step_ohs_view</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-07-16 17:19:58</sys_updated_on>
+            <sys_user/>
+            <view display_value="OHS view" name="ohs_view">5fcb6db71b9f0ad89fde86acdd4bcb09</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

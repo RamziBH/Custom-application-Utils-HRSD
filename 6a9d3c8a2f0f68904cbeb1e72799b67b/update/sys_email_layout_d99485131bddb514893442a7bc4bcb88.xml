@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description>To use properly, ensure that the English and French content in the Notification and/or Template that use this Layout are split with this HTML comment: &lt;!-- Language Split --&gt;</description>
+        <layout><![CDATA[<div align="center">
+<table style="font-family: Calibri, sans-serif; font-size: 11pt; width: 467.5pt; background: white; padding: 18pt; margin: 0cm;">
+<tbody>
+<tr>
+<td>
+<p><img style="align: baseline;" title="HoC Logo" src="HoC.pngx" alt="HoC Logo" width="223" height="152" align="baseline" border="" hspace="" vspace="" /></p>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align: left;"><em><a style="color: #339966; text-decoration: none;" href="#francais">Le fran&ccedil;ais suit</a></em></p>
+<p>&nbsp;</p>
+<!-- BilingualContentPlaceholder --> ${notification:body} <!-- BilingualContentPlaceholder -->
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+<a name="francais"></a> <!-- BilingualContentPlaceholder --> ${notification:body} <!-- BilingualContentPlaceholder --></td>
+</tr>
+</tbody>
+</table>
+</div>]]></layout>
+        <name>HoC OHSM - Bilingual</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-09-20 18:54:55</sys_created_on>
+        <sys_id>d99485131bddb514893442a7bc4bcb88</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HoC OHSM - Bilingual</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_email_layout_d99485131bddb514893442a7bc4bcb88</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-09-20 18:55:18</sys_updated_on>
+    </sys_email_layout>
+</record_update>

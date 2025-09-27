@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Manager" section_id="0c06088c1b17e810ea0eda02dd4bcbf2" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="safety_complaint">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>covered_by_collective_agreement</element>
+            <position>0</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>6c2a1f7e8723515050d2eca73cbb350c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>union</element>
+            <position>1</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>642a1f7e8723515050d2eca73cbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rep_name</element>
+            <position>2</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>682a1f7e8723515050d2eca73cbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_employees</element>
+            <position>3</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>6c2a1f7e8723515050d2eca73cbb350d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>602a1f7e8723515050d2eca73cbb350e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_agree</element>
+            <position>5</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>642a1f7e8723515050d2eca73cbb350e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_refusal_reason</element>
+            <position>6</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>682a1f7e8723515050d2eca73cbb350e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_agree_2</element>
+            <position>7</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>6c2a1f7e8723515050d2eca73cbb350e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_refusal_reason_2</element>
+            <position>8</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>602a1f7e8723515050d2eca73cbb350f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>man_agrees_with_result_2</element>
+            <position>9</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>642a1f7e8723515050d2eca73cbb350f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>man_refusal_reason_2</element>
+            <position>10</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>682a1f7e8723515050d2eca73cbb350f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_agree_3</element>
+            <position>11</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>6c2a1f7e8723515050d2eca73cbb350f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>emp_refusal_reason_3</element>
+            <position>12</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>602a1f7e8723515050d2eca73cbb3510</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>642a1f7e8723515050d2eca73cbb3510</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>682a1f7e8723515050d2eca73cbb3510</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employer_s_response_to_the_joint_investigators_report</element>
+            <position>15</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>6c2a1f7e8723515050d2eca73cbb3510</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>602a1f7e8723515050d2eca73cbb3511</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sc_action_plan</element>
+            <position>17</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-12-07 20:30:19</sys_created_on>
+            <sys_id>642a1f7e8723515050d2eca73cbb3511</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Manager" display_value="Manager" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="6e95084c1b17e810ea0eda02dd4bcb8f">0c06088c1b17e810ea0eda02dd4bcbf2</sys_ui_section>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-07 20:30:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Manager</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-29 17:11:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c06088c1b17e810ea0eda02dd4bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_0c06088c1b17e810ea0eda02dd4bcbf2</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-12 21:37:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Safety complaint" name="safety_complaint">6e95084c1b17e810ea0eda02dd4bcb8f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

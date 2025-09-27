@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>5dbe30a08721699050d2eca73cbb352b</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_hr_core_pdf_template_mapping">
+    <sn_hr_core_pdf_template_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_script_toggle>false</advanced_script_toggle>
+        <box_height/>
+        <box_width/>
+        <date_offset_quantity>0</date_offset_quantity>
+        <date_offset_type>on</date_offset_type>
+        <date_offset_units>days</date_offset_units>
+        <doc_left/>
+        <doc_top/>
+        <document display_value="LAB1070-ExtraPage">627ebc208721699050d2eca73cbb357a</document>
+        <document_field>doc_0_txtF_5_Occ</document_field>
+        <document_field_label>doc_0_txtF_5_Occ</document_field_label>
+        <document_field_type>text</document_field_type>
+        <mapping_field>subject_person.title</mapping_field>
+        <mapping_table>x_hccc_hoc_ohs_investigation_case</mapping_table>
+        <page_number/>
+        <preview_value>5-Occupation</preview_value>
+        <script/>
+        <select_date_format/>
+        <sign_left/>
+        <sign_top/>
+        <signing_order/>
+        <specific_date_format/>
+        <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+        <sys_created_on>2023-03-09 19:30:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5dbe30a08721699050d2eca73cbb352b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2023-03-20 17:43:08</sys_updated_on>
+        <true_value/>
+        <use_signing_date>false</use_signing_date>
+    </sn_hr_core_pdf_template_mapping>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-24 13:36:55</sys_created_on>
+        <sys_id>d27542de1be302989fde86acdd4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LAB1070-ExtraPage</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_d27542de1be302989fde86acdd4bcbde</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-24 13:36:55</sys_updated_on>
+        <tablename>sn_hr_core_pdf_template_mapping</tablename>
+    </sys_metadata_link>
+</record_update>

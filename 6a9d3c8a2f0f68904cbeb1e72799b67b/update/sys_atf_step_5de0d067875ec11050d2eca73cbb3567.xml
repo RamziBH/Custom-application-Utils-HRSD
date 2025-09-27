@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the form matches the following condition:
+Area inspected contains ATF lobby
+and Floor inspected = 01, 01M, 02
+and Date and time of inspection on 2021-12-12
+and HR Service = Workplace inspection
+and State = Open
+and Building = {{Step 3: Record Query.First record}}
+and Subject Person = {{Step 2: Create a User.User}}
+and Manager is empty
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>16</order>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:18:07</sys_created_on>
+        <sys_id>5de0d067875ec11050d2eca73cbb3567</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_5de0d067875ec11050d2eca73cbb3567</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:31</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <test display_value="DNU - OHS - Workplace Inspection Select 2 Submit and Check Emails">ad40dce3875ec11050d2eca73cbb3556</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5de0d067875ec11050d2eca73cbb3567"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5de0d067875ec11050d2eca73cbb3567</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:18:07</sys_created_on>
+        <sys_id>172158a7875ec11050d2eca73cbb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 14:18:07</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5de0d067875ec11050d2eca73cbb3567</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:18:07</sys_created_on>
+        <sys_id>1b2158a7875ec11050d2eca73cbb3570</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-31 12:29:11</sys_updated_on>
+        <value>wi_area_inspectedLIKEATF lobby^wi_floor_inspected=01, 01M, 02^wi_date_time_of_inspectionON2021-12-12@javascript:gs.dateGenerate('2021-12-12','start')@javascript:gs.dateGenerate('2021-12-12','end')^hr_service=a94b0c891b7e7c109fde86acdd4bcbc1^state=900^wi_building={{step['39401427875ec11050d2eca73cbb35b5'].first_record}}^subject_person={{step['79401427875ec11050d2eca73cbb35a2'].user}}^manager_nameISEMPTY^EQ</value>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5de0d067875ec11050d2eca73cbb3567</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:18:07</sys_created_on>
+        <sys_id>db2158a7875ec11050d2eca73cbb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-23 14:18:07</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5de0d067875ec11050d2eca73cbb3567"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5de0d067875ec11050d2eca73cbb3567</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-23 14:18:07</sys_created_on>
+        <sys_id>932158a7875ec11050d2eca73cbb3570</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-31 12:29:11</sys_updated_on>
+        <table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table>
+        <value>wi_area_inspectedLIKEATF lobby^wi_floor_inspected=01, 01M, 02^wi_date_time_of_inspectionON2021-12-12@javascript:gs.dateGenerate('2021-12-12','start')@javascript:gs.dateGenerate('2021-12-12','end')^hr_service=a94b0c891b7e7c109fde86acdd4bcbc1^state=900^wi_building={{step['39401427875ec11050d2eca73cbb35b5'].first_record}}^subject_person={{step['79401427875ec11050d2eca73cbb35a2'].user}}^manager_nameISEMPTY^EQ</value>
+    </sys_element_mapping>
+</record_update>

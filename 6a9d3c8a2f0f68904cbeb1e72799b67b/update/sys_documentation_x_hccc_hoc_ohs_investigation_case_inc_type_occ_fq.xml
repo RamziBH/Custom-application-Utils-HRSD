@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="inc_type_occ" label="Type d'Événement" language="fq" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>inc_type_occ</element>
+            <help/>
+            <hint>Pour plus d'informations, visitez la page Enquêtes et rapports sur les situations comportant des risques du Gouvernement du Canada</hint>
+            <label>Type d'Événement</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Type d'occurence</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-06-18 11:32:40</sys_created_on>
+            <sys_id>4d51880e1bb8f010c261ed3cbc4bcb82</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Type d'Événement</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_inc_type_occ_fq</sys_update_name>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-10-18 13:49:24</sys_updated_on>
+            <url>https://www.canada.ca/fr/emploi-developpement-social/services/sante-securite/rapports/situations-risques.html#h2.3</url>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_variable">
+    <sys_atf_parameter_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>zTest</column_label>
+        <comments>Exclusive Parameter</comments>
+        <copied_from/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_ztest</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>zTestMedical</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="OHS - Report Incident Frequent First Aid by Other 1 person parm">269ce514dba40110e3dd80c74b96193a</model>
+        <model_id>269ce514dba40110e3dd80c74b96193a</model_id>
+        <model_table/>
+        <name>var__m_sys_atf_parameter_variable_269ce514dba40110e3dd80c74b96193a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_hccc_base_option">x_hccc_base_option</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>yes_no=yes^ORyes_no=no^EQ</reference_qual>
+        <reference_qual_condition table="x_hccc_base_option">yes_no=yes^ORyes_no=no^EQ<item display_value="Yes" endquery="false" field="yes_no" goto="false" newquery="false" operator="=" or="false" value="yes"/>
+            <item display_value="No" endquery="false" field="yes_no" goto="false" newquery="false" operator="=" or="true" value="no"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_atf_parameter_variable</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-16 19:18:31</sys_created_on>
+        <sys_id>0443b510dbe40110e3dd80c74b9619ff</sys_id>
+        <sys_name>zTestMedical</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_parameter_variable_0443b510dbe40110e3dd80c74b9619ff</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_atf_parameter_variable>
+</record_update>

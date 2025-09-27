@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="inc_req_prot_equip" label="Protection equipment required" language="en" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>inc_req_prot_equip</element>
+            <help/>
+            <hint>Was personal protective equipment (ppe) required for the task the employee was conducting at the time of the incident, if so, what ppe was required? </hint>
+            <label>Protection equipment required</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Protection equipment required</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 04:40:26</sys_created_on>
+            <sys_id>29d370ae2f8f6c904cbeb1e72799b6a3</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Protection equipment required</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_inc_req_prot_equip_en</sys_update_name>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-31 04:44:56</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

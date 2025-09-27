@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>deny</decision_type>
+        <description>Block x_hccc_hoc_ohs_case&#13;
+&#13;
+Bug 205236: Employees should not see their own case record for all OHS and LR cases&#13;
+Bug 205308: OHS Assessments : Advisors are not able to see the cases created by them&#13;
+Bug 205320: Wellness  : Nurses group is not able to see the cases created by them&#13;
+&#13;
+NOTE: also check https://hoccdcdv.service-now.com/nav_to.do?uri=sys_security_acl.do?sys_id=48ab05fafba72e1095e5fb3f4eefdcd3</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_hccc_hoc_ohs_case</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[/* global sn_hr_core */
+/**
+ * answer = true -> allowed to see record
+ * answer = false -> NOT allowed
+ */
+let debugString = 'OHS - ACCESS\r\n';
+var isNew = !current.isValidRecord();
+var isnewer = current.isNewRecord();
+var createdOn = current.sys_created_on.getDisplayValue();
+var hrService = current.hr_service.getDisplayValue();
+
+gs.warn('GADDAYAN\n------------------\nRecord sysId: ' + current.getUniqueValue() + '\nrecord !isValid: ' + isNew + '\nrecord isNew: ' + isnewer + '\ncreated: ' + createdOn);
+
+if (isNew) {
+    answer = true;
+} else {
+    const userId = gs.getUserID();
+    const user = gs.getUser();
+
+    // Define group-to-service mappings
+    const serviceGroupMapping = {
+        //OHS Assessment HR service
+        '5e6c61c71bf8c610813f844fdd4bcbbc': ['22ac6d753bc06650aeb1ebc964e45aa4'], // OHS Assessment group
+        //Workplace Assessment Request service
+        'c3613fae1b14ced8813f844fdd4bcbc4': ['22ac6d753bc06650aeb1ebc964e45aa4'], //OHS Assessment group
+        //Workplace Harassment and Violence Risk Assessment service
+        '9e8c29cb1bf8c610813f844fdd4bcb81': ['22ac6d753bc06650aeb1ebc964e45aa4'], //OHS Assessment group
+        //Wellness HR service
+        '72f913ea1b8846909fde86acdd4bcbd3': [
+            'b83b7f7c1b140e189fde86acdd4bcbe1', // CEH-HRS-OHS-Nurses-Wellness
+            'ece6028f87b1f410b7cac956cebb359b' // CEH-HRS-OHS-Wellness (assignment group)
+        ] // Wellness -> Both wellness groups
+    };
+
+
+    let myAnswer = false;
+
+    try {
+        debugString += '\r\nrecord number: ' + current.number.getValue();
+        debugString += '\r\nuser: ' + user.getDisplayName();
+        debugString += '\r\nHR Service: ' + current.hr_service.getDisplayValue();
+        debugString += '\r\nAssignment Group: ' + current.assignment_group.getDisplayValue();
+
+        const currentHRService = current.hr_service.getValue();
+
+        // Check if this HR service has specific group requirements
+        if (serviceGroupMapping[currentHRService]) {
+            debugString += '\r\ncurrent hr service has specific group requirements';
+
+            const requiredGroups = serviceGroupMapping[currentHRService];
+            let hasRequiredGroup = false;
+            const userMatchingGroup = [];
+
+            // Check if user has any of the required groups
+            for (const groupId of requiredGroups) {
+                if (user.isMemberOf(groupId)) {
+                    debugString += '\r\nuser has required group (' + groupId + ')';
+                    hasRequiredGroup = true;
+                    userMatchingGroup.push(groupId);
+                    break;
+                }
+            }
+
+            if (hasRequiredGroup) {
+                // For wellness services, only nurse are allowed to see nurse cases
+                if (currentHRService === '72f913ea1b8846909fde86acdd4bcbd3' && //wellness service
+                    current.assignment_group.getValue() === 'b83b7f7c1b140e189fde86acdd4bcbe1') { //nurse group
+                    if (userMatchingGroup.includes('b83b7f7c1b140e189fde86acdd4bcbe1')) { // CEH-HRS-OHS-Nurses-Wellness
+                        // Nurses-Wellness group can see all wellness cases
+                        debugString += '\r\nuser in CEH-HRS-OHS-Nurses-Wellness group -> allowed for all wellness cases';
+                        myAnswer = true;
+                    } else {
+                        debugString += '\r\nuser NOT in CEH-HRS-OHS-Nurses-Wellness group -> blocked';
+                        myAnswer = false;
+                    }
+                } else {
+                    // For non-wellness services (like assessments), simple group check is sufficient
+                    debugString += '\r\nnon-wellness service -> allowed';
+                    myAnswer = true;
+                }
+                //myAnswer = true;
+            } else {
+                debugString += '\r\nuser does NOT have required group -> blocked';
+                myAnswer = false;
+            }
+        } else {
+            debugString += '\r\ncurrent hr service NOT in controlled services - applying general logic';
+
+            // For other HR services, apply the existing logic
+            const isTarget = current.opened_for.getValue() === userId ||
+                current.x_hccc_base_opened_for.getValue() === userId ||
+                current.subject_person.getValue() === userId;
+
+            const isCreator = current.opened_by.getValue() === userId ||
+                current.u_requestor.getValue() === userId;
+
+            if (isTarget || isCreator) {
+                debugString += '\r\nuser is target or creator -> blocked';
+                myAnswer = false;
+            } else {
+                debugString += '\r\nuser NOT target, NOR creator -> allowed';
+                myAnswer = true;
+            }
+        }
+    } catch (e) {
+        gs.error(debugString + '\r\n\r\n - ERROR\r\n--------------------------\r\n' + e);
+    } finally {
+        gs.debug(debugString + '\r\n\r\nANSWER: ' + myAnswer);
+        answer = myAnswer;
+    }
+}]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-27 14:29:47</sys_created_on>
+        <sys_id>4be34536fb272e1095e5fb3f4eefdce3</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_case</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_security_acl_4be34536fb272e1095e5fb3f4eefdce3</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-10 19:00:34</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>4be34536fb272e1095e5fb3f4eefdce3</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-27 14:33:34</sys_created_on>
+        <sys_id>16c4c17afb272e1095e5fb3f4eefdc8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-27 14:33:34</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

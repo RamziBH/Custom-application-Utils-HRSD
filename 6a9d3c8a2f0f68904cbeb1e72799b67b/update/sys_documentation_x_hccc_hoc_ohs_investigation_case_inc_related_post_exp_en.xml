@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="inc_related_post_exp" label="Post-exposure incident (biological, chemical)" language="en" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>inc_related_post_exp</element>
+            <help/>
+            <hint>A biological exposure incident with blood or OPIM include percutaneous (sharps) injuries and splashes to mucous membranes or non-intact skin (eg. any eye, mouth, mucous membrane, non-intact skin, or other parenteral contact with blood or other potentially infectious material (OPIM)). For example, a puncture from a contaminated sharp such as an injection needle and a splash or contact from bodily fluids to an eye.
+•	 Chemical exposure incident occurs when people have contact with a chemical, either directly or through another substance contaminated with a chemical. The four main routes of entry are inhalation, ingestion, injection, and absorption through the skin and eyes.</hint>
+            <label>Post-exposure incident (biological, chemical)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Post-exposure incident (biological, chemical)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 04:34:17</sys_created_on>
+            <sys_id>b76274ea2f8f6c904cbeb1e72799b60f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Post-exposure incident (biological, chemical)</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_inc_related_post_exp_en</sys_update_name>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-30 20:07:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

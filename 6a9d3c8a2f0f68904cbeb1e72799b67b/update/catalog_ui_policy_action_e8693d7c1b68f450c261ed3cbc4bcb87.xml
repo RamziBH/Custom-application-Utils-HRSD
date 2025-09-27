@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Employee Workplace Incident Reporting">632c129e2f4f2c904cbeb1e72799b6d0</catalog_item>
+        <catalog_variable>IO:1b4e6a932fab64104cbeb1e72799b692</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>umair.ahmed</sys_created_by>
+        <sys_created_on>2021-06-02 12:49:21</sys_created_on>
+        <sys_id>e8693d7c1b68f450c261ed3cbc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inc_witnesses</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_e8693d7c1b68f450c261ed3cbc4bcb87</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mandatory fields/variables">103c1a9e2f4f2c904cbeb1e72799b6c7</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>inc_witnesses</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

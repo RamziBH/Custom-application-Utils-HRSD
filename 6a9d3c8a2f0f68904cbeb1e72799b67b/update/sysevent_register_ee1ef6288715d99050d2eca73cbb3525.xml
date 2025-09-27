@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access>1</caller_access>
+        <derived_priority>100</derived_priority>
+        <description>Triggers notification to Manager to fill out or review the HIRA</description>
+        <event_name>x_hccc_hoc_ohs.hira_assigned_to_manager</event_name>
+        <fired_by>Send to Manager UI Action</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>hira_assigned_to_manager</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-10 22:21:09</sys_created_on>
+        <sys_id>ee1ef6288715d99050d2eca73cbb3525</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs.hira_assigned_to_manager</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_register_ee1ef6288715d99050d2eca73cbb3525</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+    </sysevent_register>
+</record_update>

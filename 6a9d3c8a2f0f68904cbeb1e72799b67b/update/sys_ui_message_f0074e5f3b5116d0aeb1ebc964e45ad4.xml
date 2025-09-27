@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code/>
+        <commented_message/>
+        <key>x_hccc_hoc_ohs.reschedule_vaccination</key>
+        <language>fq</language>
+        <message>Changer l'heure du rendez-vous</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-22 16:07:28</sys_created_on>
+        <sys_id>f0074e5f3b5116d0aeb1ebc964e45ad4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs.reschedule_vaccination</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_message_f0074e5f3b5116d0aeb1ebc964e45ad4</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-22 16:07:28</sys_updated_on>
+    </sys_ui_message>
+</record_update>

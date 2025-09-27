@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:fef1f103874b495050d2eca73cbb35fd</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>10</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-05-05 15:57:35</sys_created_on>
+        <sys_id>be344a111b5b05109fde86acdd4bcbfd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hr_task_url</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_be344a111b5b05109fde86acdd4bcbfd</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Fields initial states">8d1486111b5b05109fde86acdd4bcb0d</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>hr_task_url</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

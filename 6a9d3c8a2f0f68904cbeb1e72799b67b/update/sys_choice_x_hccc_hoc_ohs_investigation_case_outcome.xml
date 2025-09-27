@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="outcome" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>outcome</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-13 07:54:44</sys_created_on>
+            <sys_id>85c19fb91bee74509fde86acdd4bcb0d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>outcome</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_outcome</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:gs.getMessage("x_hccc_base.please.select")</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-13 07:54:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b969d46f3bc0b2d0aeb1ebc964e45a34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Successful resolution</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-13 07:55:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d69d46f3bc0b2d0aeb1ebc964e45a5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Successful resolution</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Occurrence doesn't meet definition of H&amp;V</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-13 07:55:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd69d46f3bc0b2d0aeb1ebc964e45a84</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Occurrence doesn't meet definition of H&amp;V</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>outcome</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Occurrence meets definition of H&amp;V</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-13 07:56:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f569d46f3bc0b2d0aeb1ebc964e45ab9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Occurrence meets definition of H&amp;V</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

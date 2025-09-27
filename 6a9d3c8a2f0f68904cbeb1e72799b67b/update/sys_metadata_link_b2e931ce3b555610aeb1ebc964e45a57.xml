@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>99c7f6a48722555050d2eca73cbb35c6</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_apptmnt_booking_service_config">
+    <sn_apptmnt_booking_service_config action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <appointment_booking_config display_value="Walk-up Experience">f9bf0db9b3331300eda5a72256a8dc9d</appointment_booking_config>
+        <appointment_duration>10</appointment_duration>
+        <appointments_per_bookable_slot>6</appointments_per_bookable_slot>
+        <availability_table>x_hccc_hoc_ohs_vaccination_appointment</availability_table>
+        <average_travel_duration>0</average_travel_duration>
+        <bookable_days>12345</bookable_days>
+        <bookable_time>09:00-09:10,09:10-09:20,09:20-09:30,09:30-09:40,09:40-09:50,09:50-10:00,10:00-10:10,10:10-10:20,10:20-10:30,10:30-10:40,10:40-10:50,10:50-11:00,11:00-11:10,11:10-11:20,11:20-11:30,11:30-11:40,11:40-11:50,11:50-12:00,12:00-12:10,12:10-12:20,12:20-12:30,12:30-12:40,12:40-12:50,12:50-13:00,13:00-13:10,13:10-13:20,13:20-13:30,13:30-13:40,13:40-13:50,13:50-14:00,14:00-14:10,14:10-14:20,14:20-14:30,14:30-14:40,14:40-14:50,14:50-15:00,15:00-15:10,15:10-15:20,15:20-15:30,15:30-15:40,15:40-15:50,15:50-16:00,16:00-16:10,16:10-16:20,16:20-16:30,16:30-16:40,16:40-16:50,16:50-17:00,17:00-17:10,17:10-17:20,17:20-17:30,17:30-17:40,17:40-17:50,17:50-18:00,18:00-18:10,18:10-18:20,18:20-18:30,18:30-18:40,18:40-18:50,18:50-19:00</bookable_time>
+        <break_time>00:00-00:30</break_time>
+        <cancel_by_time/>
+        <catalog_item/>
+        <daily_end_time>19:00</daily_end_time>
+        <daily_start_time>09:00</daily_start_time>
+        <default_timezone>location</default_timezone>
+        <enable_day_level_config>true</enable_day_level_config>
+        <future_bookable_max_days>60</future_bookable_max_days>
+        <holiday_schedule/>
+        <ignore_default_notifications>false</ignore_default_notifications>
+        <include_daily_break>false</include_daily_break>
+        <lead_time>1970-01-01 04:00:00</lead_time>
+        <location display_value="Location">a63811f7b3584010e0c1a72256a8dc91</location>
+        <mandatory>true</mandatory>
+        <name>Vaccination Clinic</name>
+        <reminder/>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-10-12 01:12:38</sys_created_on>
+        <sys_id>99c7f6a48722555050d2eca73cbb35c6</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-19 14:08:23</sys_updated_on>
+        <use_slot_end_time_as>complete_by</use_slot_end_time_as>
+        <user_contact display_value="Contact">7a3f12fab3402300eda5a72256a8dc15</user_contact>
+        <work_duration>10</work_duration>
+    </sn_apptmnt_booking_service_config>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-18 17:57:51</sys_created_on>
+        <sys_id>b2e931ce3b555610aeb1ebc964e45a57</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vaccination Clinic</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_b2e931ce3b555610aeb1ebc964e45a57</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-18 17:57:51</sys_updated_on>
+        <tablename>sn_apptmnt_booking_service_config</tablename>
+    </sys_metadata_link>
+</record_update>

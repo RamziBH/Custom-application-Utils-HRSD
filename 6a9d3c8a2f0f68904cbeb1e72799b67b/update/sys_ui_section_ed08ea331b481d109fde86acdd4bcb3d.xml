@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ed08ea331b481d109fde86acdd4bcb3d" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="ohsm_report_run_request">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:43</sys_created_on>
+            <sys_id>a090f3581bd942d49fde86acdd4bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:43</sys_updated_on>
+            <text>&lt;style&gt;&#13;
+&#13;
+#notificationFollowWidget {&#13;
+display:none !important;&#13;
+}&#13;
+&#13;
+#create_collab_chat {&#13;
+display:none !important;&#13;
+}&#13;
+&#13;
+&lt;/style&gt;</text>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>1</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3490f3d81bd942d49fde86acdd4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hr_service</element>
+            <position>2</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_for</element>
+            <position>3</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3490f3d81bd942d49fde86acdd4bcb50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_person</element>
+            <position>4</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb50</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3490f3d81bd942d49fde86acdd4bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>7</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3490f3d81bd942d49fde86acdd4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>8</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>9</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3490f3d81bd942d49fde86acdd4bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>10</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wi_building</element>
+            <position>11</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3490f3d81bd942d49fde86acdd4bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pdf_template</element>
+            <position>12</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3490f3d81bd942d49fde86acdd4bcb55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>14</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rich_description</element>
+            <position>15</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3490f3d81bd942d49fde86acdd4bcb56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>a090f3581bd942d49fde86acdd4bcbdc</element>
+            <position>16</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-28 19:55:44</sys_created_on>
+            <sys_id>3c90f3d81bd942d49fde86acdd4bcb56</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">ed08ea331b481d109fde86acdd4bcb3d</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-28 19:55:44</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-19 19:45:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed08ea331b481d109fde86acdd4bcb3d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_ed08ea331b481d109fde86acdd4bcb3d</sys_update_name>
+            <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-19 19:45:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="OHSM Report Run Request" name="ohsm_report_run_request">06b62aff1b081d109fde86acdd4bcb14</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="OHSM Report Run Request">c561663b1b081d109fde86acdd4bcbc1</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-19 19:20:05</sys_created_on>
+        <sys_id>a03222bb1b081d109fde86acdd4bcbd7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>HoC OHSM Report.OHSM Report Run Request</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>io_set_item_a03222bb1b081d109fde86acdd4bcbd7</sys_update_name>
+        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-19 19:20:05</sys_updated_on>
+        <variable_set display_value="HoC OHSM Report">789d88721b7b0d509fde86acdd4bcb63</variable_set>
+    </io_set_item>
+</record_update>

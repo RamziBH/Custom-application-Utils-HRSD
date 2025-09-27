@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=6a2b1ada2f4f2c904cbeb1e72799b6ae^dir_cause_injuryNOT INViolence,Harrasment^EQ<item display_table="sn_hr_core_service" display_value="Employee Workplace Incident Reporting" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="6a2b1ada2f4f2c904cbeb1e72799b6ae"/>
+            <item display_value="Violence,Harrasment" endquery="false" field="dir_cause_injury" goto="false" newquery="false" operator="NOT IN" or="false" value="Violence,Harrasment"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="" /></p>
+<p><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<div>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"><em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+</div>
+<div>
+<div><strong>Please do not reply to this email. This system cannot receive messages.</strong></div>
+</div>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">Incident report submitted - Confirmation</span></p>
+<p>Good day,</p>
+<p>Your incident has been successfully submitted. Your incident number is ${number}.</p>
+<p>Your manager will contact you shortly as part of their investigation process and to ensure your wellbeing.</p>
+<p>For urgent matters pertaining to this incident, please contact OHS at <a href="mailto:OHS-SST@parl.gc.ca">OHS-SST@parl.gc.ca</a></p>
+<p><a title="Health, safety and wellness" href="https://hoccdc.sharepoint.com/sites/atrium/en/Pages/Health-and-Wellness.aspx">Health, safety and wellness</a></p>
+<p><a title="Workplace safety and hazard prevention" href="https://hoccdc.sharepoint.com/sites/atrium/en/Pages/service.aspx?s=/sites/info/en/services/hoc-health-and-wellness/Pages/Workplace-Safety-and-Hazard-Prevention.aspx&amp;u=/sites/info/en/services/hoc-health-and-wellness/&amp;n=Workplace-Safety-and-Hazard-Prevention&amp;gp=(svg:%22071c070c-abf7-4d9a-9601-9b425668fc61%22)&amp;sb=(sbj:%22e7552958-51e7-41a1-a214-4b4ccc02e40c%22)&amp;timestamp=1646935727">Workplace safety and hazard prevention</a></p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<div>
+<p><strong><span xml:lang="EN-CA" data-contrast="auto">Occupational Health and Safety </span>&nbsp;&nbsp;</strong></p>
+</div>
+<div>
+<p><span xml:lang="EN-CA" data-contrast="auto">House of Commons&nbsp; </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+</div>
+<div>
+<p><span xml:lang="EN-CA" data-contrast="auto">50 O&rsquo;Connor, 8</span><span xml:lang="EN-CA" data-contrast="auto"><span data-fontsize="11">th</span></span><span xml:lang="EN-CA" data-contrast="auto"> floor</span><br /><span xml:lang="EN-CA" data-contrast="auto">Ottawa, Ontario, K1A 0A6</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+</div>
+<div>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener"><span xml:lang="EN-CA" data-contrast="none"><span data-ccp-charstyle="Hyperlink">OHS-SST@parl.gc.ca</span></span></a><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+</div>
+<div>
+<p><span xml:lang="EN-CA" data-contrast="auto">Office: 613- 995-3614</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr noshade="noshade" />
+<p><span id="francais" style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p>&nbsp;</p>
+<p><strong>Pri&egrave;re de ne pas r&eacute;pondre au pr&eacute;sent courriel, car il provient d&rsquo;une adresse qui ne peut pas recevoir de messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">Rapport d'incident soumis &ndash; Confirmation</span></p>
+<p>&nbsp;</p>
+<p>Bonne journ&eacute;e,</p>
+<p>Votre incident a &eacute;t&eacute; soumis avec succ&egrave;s. Votre num&eacute;ro d'incident est ${number}.&nbsp;</p>
+<p>Votre responsable vous contactera sous peu dans le cadre de son processus d'enqu&ecirc;te et pour assurer votre bien-&ecirc;tre.</p>
+<p>Pour les questions urgentes relatives &agrave; cet incident, veuillez contacter SST &agrave; OHS-SST@parl.gc.ca</p>
+<p>&nbsp;</p>
+<p><a title="Sant&eacute;, s&eacute;curit&eacute; et mieux-&ecirc;tre" href="https://hoccdc.sharepoint.com/sites/atrium/fr/Pages/Health-and-Wellness.aspx">Sant&eacute;, s&eacute;curit&eacute; et mieux-&ecirc;tre</a></p>
+<p><a title="S&eacute;curit&eacute; et pr&eacute;vention des risques en milieu de travail" href="https://hoccdc.sharepoint.com/sites/atrium/fr/Pages/service.aspx?s=/sites/info/fr/services/hoc-health-and-wellness/Pages/Workplace-Safety-and-Hazard-Prevention.aspx&amp;u=/sites/info/fr/services/hoc-health-and-wellness/&amp;n=Workplace-Safety-and-Hazard-Prevention&amp;gp=(svg:%22071c070c-abf7-4d9a-9601-9b425668fc61%22)&amp;sb=(sbj:%22e7552958-51e7-41a1-a214-4b4ccc02e40c%22)&amp;timestamp=1646935845">S&eacute;curit&eacute; et pr&eacute;vention des risques en milieu de travail</a></p>
+<p>Merci,</p>
+<div>
+<p><strong><span xml:lang="EN-CA" data-contrast="auto">Sant&eacute; et s&eacute;curit&eacute; au travail</span>&nbsp; </strong></p>
+</div>
+<div>
+<p><span xml:lang="EN-CA" data-contrast="auto">Chambre des communes </span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+</div>
+<div>
+<p><span xml:lang="EN-CA" data-contrast="auto">50 rue O&rsquo;Connor, 8</span><span xml:lang="EN-CA" data-contrast="auto"><span data-fontsize="11">e&nbsp;</span></span><span xml:lang="EN-CA" data-contrast="auto">&eacute;tage</span>&nbsp;<br /><span xml:lang="EN-CA" data-contrast="auto">Ottawa, Ontario, K1A 0A6</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+</div>
+<div>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener"><span xml:lang="EN-CA" data-contrast="none"><span data-ccp-charstyle="Hyperlink">OHS-SST@parl.gc.ca</span></span></a><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+</div>
+<div>
+<p><span xml:lang="EN-CA" data-contrast="auto">Bureau: 613- 995-3614</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&nbsp;</span></p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HoC - OHSM Workplace incident confirmation email</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>watch_list,assigned_to.email,subject_person_hr_profile.user.email</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Incident report submitted - Confirmation/ Rapport d'incident soumis – Confirmation </subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-06-18 16:52:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>495ac1461bf438506903fe651a4bcbfa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HoC - OHSM Workplace incident confirmation email</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_495ac1461bf438506903fe651a4bcbfa</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 16:39:50</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

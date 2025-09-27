@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="yes_no" table="x_hccc_hoc_ohs_options" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>yes_no</element>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 19:22:47</sys_created_on>
+            <sys_id>ae79db101b51869478230d47dc4bcbfc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>yes_no</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_options_yes_no</sys_update_name>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 19:22:47</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>yes_no</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:gs.getMessage("x_hccc_hoc_ohs.please.select")</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 19:22:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ac9506b3b04b2d0aeb1ebc964e45a4c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 19:25:13</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>yes_no</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>javascript:gs.getMessage("x_hccc_hoc_ohs.please.select")</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 19:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ac9506b3b04b2d0aeb1ebc964e45a4d</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 19:25:17</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>yes_no</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oui</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 19:23:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16c9506b3b04b2d0aeb1ebc964e45a4f</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 19:23:45</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>yes_no</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 19:23:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96c9506b3b04b2d0aeb1ebc964e45a4e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 19:23:20</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>yes_no</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 19:23:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56c9506b3b04b2d0aeb1ebc964e45a76</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 19:23:22</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>yes_no</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_options</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 19:23:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6c9506b3b04b2d0aeb1ebc964e45a75</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 19:23:47</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

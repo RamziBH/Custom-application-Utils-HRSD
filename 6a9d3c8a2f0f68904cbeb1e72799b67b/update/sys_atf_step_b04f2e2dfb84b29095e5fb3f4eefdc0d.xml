@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the answer match the following condition:
+Requestor (primary contact) = Yannick Blanchette
+and Disable Requestor Notification = false
+and Search all users = false
+and Phone = 514451515511
+and Requested for = Yannick Blanchette
+and Contact type = Phone
+and Short description = Hardware Purchase / Achat de matériel - REQ xxxxxx
+and Detect Language On = true
+and Detect Language Message = Please ensure to provide a short description in the language of the requestor.
+and Language Check Passed = No
+and Type of purchase = Other hardware - Hill
+and Image OS/type = Windows 10, ENG
+and Received by = DCFS-SHOP
+and Ship to address = 123 allo
+and Item = 123
+and Deployment status flag = false
+and Shipment complete = No
+and Shipping details = Pick-up Location: 
+Attention:  
+To:  
+Phone Number:  
+Dept ID:  
+Project Code/Details:
+Packaging:  
+Measurement:
+Weight: 
+Return label required:
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>34</order>
+        <step_config display_value="Validate Variable Values">5a36c681c37e220076173b0ac3d3aecf</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 21:37:46</sys_created_on>
+        <sys_id>b04f2e2dfb84b29095e5fb3f4eefdc0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Variable Values</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_b04f2e2dfb84b29095e5fb3f4eefdc0d</sys_update_name>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 21:37:46</sys_updated_on>
+        <table/>
+        <test display_value="ATF Generated Test - Service Catalog, WF - Hardware Acquisition Process, Gad Dayan">5c4f62a5fb84b29095e5fb3f4eefdc2c</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b04f2e2dfb84b29095e5fb3f4eefdc0d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04f2e2dfb84b29095e5fb3f4eefdc0d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 21:37:46</sys_created_on>
+        <sys_id>b04f2e2dfb84b29095e5fb3f4eefdc0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 21:37:46</sys_updated_on>
+        <value>IO:57902f5287d3551050d2eca73cbb351c=9840ea9f1bb39450ea0eda02dd4bcb5c^IO:acc65ef21bf24e949fde86acdd4bcbd9=false^IO:c3540e6b1bb3fddc9fde86acdd4bcb2e=false^IO:a399ef528717551050d2eca73cbb354f=514451515511^IO:8c6163d287d3551050d2eca73cbb3529=9840ea9f1bb39450ea0eda02dd4bcb5c^IO:5ff29c613b049614aeb1ebc964e45a59=phone^IO:15c857cb1b060a54813f844fdd4bcbfe=Hardware Purchase / Achat de matériel - REQ xxxxxx^IO:8e4be34bfbc5161495e5fb3f4eefdc43=true^IO:99eb6f8bfbc5161495e5fb3f4eefdc9f=Please ensure to provide a short description in the language of the requestor.^IO:52c9bf5d3b911e9caeb1ebc964e45a2e=No^IO:79e62ead1b30c21c813f844fdd4bcb41=hoc_itxm_hap_other_hw_hill^IO:88daa6e91b70c21c813f844fdd4bcb68=hoc_itxm_hap_os_w10e^IO:aea7c7b2fbf34ed095e5fb3f4eefdcd7=49584f36fbf34ed095e5fb3f4eefdc9d^IO:5dbb6ead1b70c21c813f844fdd4bcbcc=123 allo^IO:ac1caeed1b70c21c813f844fdd4bcb3c=123^IO:3fa793bb1b70c2909fde86acdd4bcb34=false^IO:49ae30af1b740a509fde86acdd4bcbbb=No^IO:cfe17f0f1bf8ca10813f844fdd4bcbae=Pick-up Location: 
+Attention:  
+To:  
+Phone Number:  
+Dept ID:  
+Project Code/Details:
+Packaging:  
+Measurement:
+Weight: 
+Return label required: </value>
+        <variable display_value="Catalog Conditions">8a682649c37e220076173b0ac3d3ae47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b04f2e2dfb84b29095e5fb3f4eefdc0d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-17 21:37:46</sys_created_on>
+        <sys_id>fc4f2e2dfb84b29095e5fb3f4eefdc0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 21:37:46</sys_updated_on>
+        <value>fb05ee291b30c21c813f844fdd4bcba1</value>
+        <variable display_value="Item">b46842c1c37e220076173b0ac3d3aebc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_5a36c681c37e220076173b0ac3d3aecf^id=b04f2e2dfb84b29095e5fb3f4eefdc0d"/>
+</record_update>

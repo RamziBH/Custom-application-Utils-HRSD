@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>committee_review</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.state ==101 &amp;&amp; current.hr_service.value=="employee_workplace_incident_reporting" &amp;&amp; (current.getValue("manager_name") == gs.getUserID() || gs.hasRole('x_hccc_hoc_ohs.advisor'))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Request Committee Review</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[//Request Committee Review
+
+if (current.mng_desc_injury == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.mng_desc_injury"));
+
+if (current.inc_req_prot_equip == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.inc_req_prot_equip"));
+
+if (current.emp_work_start == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.emp_work_start"));
+
+if (current.does_the_employee_now_require_modified_duties_as_a_result_of_this_injury == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.does_the_employee_now_require_modified_duties_as_a_result_of_this_injury"));
+
+if (current.inc_training_prov == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.inc_training_prov"));
+
+if (current.emp_age == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.emp_age"));
+
+if (current.emp_time_in_pos == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.emp_time_in_pos"));
+
+if (current.mng_inc_desc == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.mng_inc_desc"));
+
+if (current.inc_related_post_exp == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.inc_related_post_exp"));
+
+if (current.inc_related_illness == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.inc_related_illness"));
+
+if (current.implementation_date == "")
+	gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.implementation_date"));
+
+if (current.direct_causes_of_hazardous_occurrence == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.direct_causes_of_hazardous_occurrence"));
+if (current.direct_causes_of_hazardous_occurrence != ""){
+	if (current.please_specify_cause_of_hazardous_occurrence == "")
+		gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.please_specify_cause_of_hazardous_occurrence"));
+}
+
+if (current.training_spec == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.training_spec"));
+
+if (current.weather == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.weather"));
+
+if (current.emp_work_end == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.emp_work_end"));
+
+if (current.inc_type_occ == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.inc_type_occ"));
+
+if (current.did_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.did_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury"));
+
+if (current.did_this_incident_result_in_an_injury == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.did_this_incident_result_in_an_injury"));
+
+if (current.was_the_employee_on_modified_duties_at_the_time_of_the_incident == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.was_the_employee_on_modified_duties_at_the_time_of_the_incident"));
+
+if (current.date_and_time_of_occurrence == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.date_and_time_of_occurrence"));
+
+if (current.correct_meas_imp_date == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.correct_meas_imp_date"));
+
+if (current.employee_gender == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs.employee_gender"));
+	
+if (current.dir_cause_injury == "")
+    gs.addErrorMessage(gs.getMessage("x_hccc_hoc_ohs. dir_cause_injury"));
+
+current.update();
+ action.setRedirectURL(current);
+
+
+
+if (current.mng_desc_injury != '' && current.inc_req_prot_equip != '' && current.emp_work_start != '' && current.does_the_employee_now_require_modified_duties_as_a_result_of_this_injury != '' && current.implementation_date != "" &&
+    current.inc_training_prov != '' && current.emp_age != '' &&
+    current.emp_time_in_pos != '' && current.mng_inc_desc != '' && current.inc_related_post_exp != '' && current.inc_related_illness != '' && current.direct_causes_of_hazardous_occurrence != '' && current.please_specify_cause_of_hazardous_occurrence != '' && current.training_spec != '' && current.weather != '' && current.emp_work_end != '' && current.inc_type_occ != '' && current.did_the_employee_consult_a_healthcare_professional_as_a_result_of_this_injury != '' && current.did_this_incident_result_in_an_injury != '' && current.was_the_employee_on_modified_duties_at_the_time_of_the_incident != '' && current.date_and_time_of_occurrence != '' && current.correct_meas_imp_date != '' && current.employee_gender != '' && current.dir_cause_injury != '') {
+    current.state = 30;
+    current.update();
+    action.setRedirectURL(current);
+
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-03-29 14:57:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>95672fbb2f4fe4d04cbeb1e72799b682</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Request Committee Review</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_action_95672fbb2f4fe4d04cbeb1e72799b682</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-02 19:36:40</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

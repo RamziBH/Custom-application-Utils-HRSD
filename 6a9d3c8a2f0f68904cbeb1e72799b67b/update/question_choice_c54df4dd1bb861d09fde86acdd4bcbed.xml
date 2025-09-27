@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref/>
+        <question display_value="Where the occurrence took place">e9a213f11b32c1109fde86acdd4bcb25</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2023-02-02 20:33:13</sys_created_on>
+        <sys_id>c54df4dd1bb861d09fde86acdd4bcbed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MS Teams</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>question_choice_c54df4dd1bb861d09fde86acdd4bcbed</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2023-02-02 20:33:13</sys_updated_on>
+        <text>MS Teams</text>
+        <value>ms_teams</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=c54df4dd1bb861d09fde86acdd4bcbed"/>
+</record_update>

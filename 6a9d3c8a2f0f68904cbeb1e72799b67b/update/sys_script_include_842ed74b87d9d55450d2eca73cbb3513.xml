@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMQuery</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMQuery</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var HoCOHSMQuery = Class.create();
+HoCOHSMQuery.prototype = {
+    initialize: function() {
+    },
+	
+	getLocationName: function(sys_id){
+		var gr = new GlideRecord('cmn_location');
+		gr.get('sys_id',sys_id);
+		gr.query();
+		while (gr.next()) {
+			return gr.getDisplayValue();    
+		}
+		return "(ERROR: Location not found)";
+	},
+    type: 'HoCOHSMQuery'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-08-18 19:09:55</sys_created_on>
+        <sys_id>842ed74b87d9d55450d2eca73cbb3513</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoCOHSMQuery</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_842ed74b87d9d55450d2eca73cbb3513</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-28 19:32:47</sys_created_on>
+        <sys_id>58055ac31b604a909fde86acdd4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_hccc_hoc_ohs.ohs_wellness_nurse_user</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_security_acl display_value="x_hccc_hoc_ohs_wellness_hr_task.work_notes">33f49ac31b604a909fde86acdd4bcb99</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_58055ac31b604a909fde86acdd4bcba2</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-02-28 19:32:47</sys_updated_on>
+        <sys_user_role display_value="x_hccc_hoc_ohs.ohs_wellness_nurse_user" name="x_hccc_hoc_ohs.ohs_wellness_nurse_user">861c04211ba08adc9fde86acdd4bcb87</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

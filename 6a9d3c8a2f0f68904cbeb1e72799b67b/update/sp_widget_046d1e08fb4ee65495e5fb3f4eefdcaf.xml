@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[api.controller = function($scope, $rootScope, $location, spUtil) {
+    /* global document */
+    var c = this;
+
+    setTimeout(function() {
+        $rootScope.$broadcast("sp.update.breadcrumbs", c.data.breadcrumbs);
+    }, 1);
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>https://snhackery.com/2019/08/14/dynamic-service-portal-breadcrumbs/</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hoc_ohsm_breadcrumbs</id>
+        <internal>false</internal>
+        <link/>
+        <name>HoC - OHSM - breadcrumbs</name>
+        <option_schema>[{"hint":"Needs to be the same in all pages used","name":"reference_name","section":"other","default_value":"bc","label":"Reference name","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <script><![CDATA[/* global input, data, $sp, options */
+(function() {
+
+    data.breadcrumbsWidget = $sp.getWidget('breadcrumbs');
+
+    data.breadcrumbs = [];
+
+    var table = $sp.getParameter('table');
+    var sys_id = $sp.getParameter('sys_id');
+
+    var config = [
+        {
+            table: "x_hccc_hoc_ohs_hira_action",
+            parentTable: "x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment",
+            parentColumn: "parent_hazard",
+            pageId: "hoc_hira_rl_form"
+        },
+        {
+            table: "x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment",
+            parentTable: "x_hccc_hoc_ohs_hira_case",
+            parentColumn: "hira_case",
+            pageId: "hoc_hira_rl_form"
+        },
+        {
+            table: "x_hccc_hoc_ohs_hira_case",
+            pageId: "hoc_hira_form"
+        }
+    ];
+
+    function addBreadcrumb(tbl, id) {
+        for (var i = 0; i < config.length; i++) {
+            if (tbl === config[i].table) {
+                var gr = new GlideRecord(tbl);
+
+                if (id === "-1") { //new record
+                    var parent = $sp.getParameter('parent');
+
+                    data.breadcrumbs.unshift({
+                        url: "",
+                        label: "New record"
+                    });
+
+                    if (config[i].parentTable) {
+                        addBreadcrumb(config[i].parentTable, parent);
+                    }
+                } else if (gr.get(id)) {
+                    data.breadcrumbs.unshift({
+                        url: "?id=" + config[i].pageId +
+                            "&table=" + config[i].table +
+                            "&sys_id=" + id +
+                            "&parent_field=" + config[i].parentColumn +
+                            "&parent=" + gr.getValue(config[i].parentColumn) +
+							"&view=" + $sp.getParameter("view"),
+                        label: gr.getDisplayValue("number")
+                    });
+                    if (config[i].parentTable) {
+                        addBreadcrumb(config[i].parentTable, gr.getValue(config[i].parentColumn));
+                    }
+                }
+            }
+        }
+    }
+
+    if (table && sys_id) {
+        addBreadcrumb(table, sys_id);
+    }
+
+    //get from options
+    data.breadcrumbs.unshift({
+        url: "?id=hoc_hira_cases",
+        label: gs.getMessage("x_hccc_hoc_ohs.hira_cases") //gs.getMessage("HIRA Cases")
+    });
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-05 18:23:08</sys_created_on>
+        <sys_id>046d1e08fb4ee65495e5fb3f4eefdcaf</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>HoC - OHSM - breadcrumbs</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_046d1e08fb4ee65495e5fb3f4eefdcaf</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-03 18:22:32</sys_updated_on>
+        <template><![CDATA[<sp-widget widget="data.breadcrumbsWidget"></sp-widget>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>046d1e08fb4ee65495e5fb3f4eefdcaf</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-06-05 18:23:48</sys_created_on>
+        <sys_id>798d9288fb4ee65495e5fb3f4eefdc0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-05 18:23:48</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

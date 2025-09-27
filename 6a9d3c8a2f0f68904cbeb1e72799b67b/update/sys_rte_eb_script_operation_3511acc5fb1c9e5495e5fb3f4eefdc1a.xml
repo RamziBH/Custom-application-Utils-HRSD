@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_script_operation">
+    <sys_rte_eb_script_operation action="INSERT_OR_UPDATE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        var b = a + " (Now)";
+
+        // setp3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <is_conditional>false</is_conditional>
+        <name>Get Position_Reporting_Position</name>
+        <operation_group/>
+        <order>100</order>
+        <script><![CDATA[/* global batch, output */
+
+(function(batch, output) {
+    const timeStamp = new Date().toISOString(); //performance.timeOrigin + performance.now();
+    const infoStr = 'OHS - ' + timeStamp + ' - Get Position_Reporting_Position - ';
+    let gsInfoStr = '';
+
+    try {
+        for (var i = 0; i < batch.length; i++) {
+            //step1: access the input variables
+            const posCode = batch[i].input; //Value of the source field.
+
+            //step2: Your script/code goes here.
+            if (posCode !== null && posCode !== '') {
+                const grPosCode = new GlideRecord('x_hccc_base_org_position_code');
+                const grPosRep = new GlideRecord('x_hccc_hoc_ohs_position_reports_to');
+
+                grPosCode.get('code', posCode); //should only have 1
+                grPosRep.get('position_code', grPosCode.getUniqueValue()); //could have multiple, but we only need 1
+
+                //step3: set the output for each elements
+                output[i] = grPosRep.getUniqueValue();
+                gsInfoStr += '\n[i]: ' + i +
+                    '\nposCode: ' + posCode +
+                    ' - posCodeId: ' + grPosCode.getUniqueValue() +
+                    ' - PosRepId: ' + output[i];
+            }
+        }
+    } catch (e) {
+        gs.error(infoStr + 'ERROR: ' + e + '\n\n\nInfo parse before Error: ' + gsInfoStr);
+    }
+    //gs.debug(infoStr + gsInfoStr);
+})(batch, output);]]></script>
+        <source_sys_rte_eb_field display_value="Position Code">4abf261bdb4816588d592d9a13961925</source_sys_rte_eb_field>
+        <source_sys_rte_eb_fields/>
+        <sys_class_name>sys_rte_eb_script_operation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-26 16:02:52</sys_created_on>
+        <sys_id>3511acc5fb1c9e5495e5fb3f4eefdc1a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get Position_Reporting_Position</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="OHS - HIRA Initial Import (INACTIVE)">8aa7518b1b401e9c2a0bcb3f034bcb66</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Temp">ff9eead7db4816588d592d9a13961922</sys_rte_eb_entity>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_rte_eb_script_operation_3511acc5fb1c9e5495e5fb3f4eefdc1a</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-26 20:23:52</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Position Reporting Position Ref">f2b02c45fb1c9e5495e5fb3f4eefdc42</target_sys_rte_eb_field>
+        <target_sys_rte_eb_fields/>
+        <type display_value="Script Operation">941f88e273b333002b6265a751ab9e84</type>
+        <use_unique_input_sets>true</use_unique_input_sets>
+    </sys_rte_eb_script_operation>
+</record_update>

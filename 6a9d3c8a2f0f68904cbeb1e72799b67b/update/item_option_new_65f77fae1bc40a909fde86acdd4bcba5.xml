@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Health and wellness service request">88d7d3e21bc446909fde86acdd4bcb95</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field>type</field>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>true</include_none>
+        <instructions><![CDATA[<p><strong>Mental health</strong></p>
+<div>
+<p>Coaching, support, referral to resources, and overall health evaluation (initial and follow-up meetings). </p>
+</div>
+<div>
+<p>* Nurse counsellors cannot give prescriptions or medical notes.</p>
+</div>
+<p> </p>
+<p><strong>Medical, physical health</strong></p>
+<div>
+<p>Coaching, support, referral to resources, and overall health evaluation. </p>
+</div>
+<div>
+<p>* Nurse counsellors cannot give prescriptions or medical notes. </p>
+<p> </p>
+<div>
+<p><strong>Work-related illness or injury </strong></p>
+</div>
+<div>
+<p>During the consultation with an employee who has a work-related illness or injury, the nurse counsellor will conduct an assessment, refer the employee to a health care professional and guide them through the next steps, working with the Disability Management team or following the Workplace Safety and Insurance Board (WSIB) process as required. </p>
+</div>
+</div>
+<p> </p>
+<p><strong>Health resources</strong></p>
+<div>
+<p>Referral to community resources, such as professional health care providers (e.g. walk-in clinics, optometrists, physiotherapists, support groups). </p>
+</div>
+<div>
+<p>* No referrals to medical specialists. </p>
+<p> </p>
+<p><strong>Respiratory illnesses (cold, flu, COVID, etc.)</strong></p>
+<div>
+<p>Nurse counsellors can answer questions or concerns related to respiratory illnesses or COVID. </p>
+</div>
+<div>
+<p>You can also visit <a href="https://hoccdc.sharepoint.com/sites/atrium/en/Pages/service.aspx?s&#61;/sites/info/en/services/health-wellness/Pages/COVID-19-SITUATION-UPDATE-FOR-HOC-EMPLOYEES.aspx&amp;u&#61;/sites/info/en/services/health-wellness/&amp;n&#61;COVID-19-SITUATION-UPDATE-FOR-HOC-EMPLOYEES&amp;cg&#61;%28acg:%22071c070c-abf7-4d9a-9601-9b425668fc61%22%29&amp;pr&#61;%22empty%22&amp;sb&#61;%28sbj:%22b2ce43b9-2d92-4180-bf78-3f8fff86cb73%22%29" target="_blank" rel="noopener noreferrer nofollow">Atrium</a> for information on this topic. </p>
+<p> </p>
+<div>
+<p><strong>Advisory/</strong><strong>coaching service</strong>s </p>
+</div>
+<div>
+<p>Advice and coaching on wellness to support an employee or teams in maintaining and improving their overall health and well-being. These services may include one-on-one consultations, health education and practical guidance tailored to individual needs. </p>
+</div>
+<p> </p>
+<p><strong>Training/education</strong></p>
+<p>The health and wellness team can assess your team’s needs and recommend appropriate training solutions or offer on-demand training opportunities related to mental and physical health. </p>
+</div>
+</div>
+<p> </p>
+<p><strong>On-site crisis support</strong></p>
+<p>Following a stressful or traumatic event related to the workplace, such as the loss of a colleague or an incident in the workplace, the health and wellness team can arrange on-site support through the Employee and Family Assistance Program (EFAP). A qualified mental health professional (e.g. a psychotherapist) can be sent to provide individual or group interventions to help employees process and cope with the situation. </p>
+<p> </p>
+<div>
+<p><strong>Psychological health and safety </strong></p>
+</div>
+<div>
+<p>The health and wellness team provides proactive, preventative and responsive services designed to enhance mental well-being, minimize psychological risk factors and foster a supportive workplace culture. </p>
+</div>
+<div>
+<p> </p>
+</div>
+<div>
+<p><strong>Other (please specify below)</strong> </p>
+</div>
+<div>
+<p>Any other services not listed above. </p>
+</div>
+<div> </div>]]></instructions>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>true</mandatory>
+        <map_to_field>true</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>type</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>120</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Type of request</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_hccc_hoc_ohs_case</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script><![CDATA[/** This script is executed before the Record is generated 
+ * `current`- GlideRecord produced by Record Producer
+ * Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+ * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+ * Avoid `current.setAbortAction()` and generate a separate record
+ * Use `producer.var1` to access variables
+ */]]></save_script>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>true</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>taylor.pullen@ca.ey.com</sys_created_by>
+        <sys_created_on>2024-02-02 16:56:49</sys_created_on>
+        <sys_id>65f77fae1bc40a909fde86acdd4bcba5</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>Type of request</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>item_option_new_65f77fae1bc40a909fde86acdd4bcba5</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-01 14:10:06</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>5</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+        <x_hccc_dfsa_erp_u_simple_name_values_1/>
+        <x_hccc_dfsa_erp_u_translated_text_2/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=65f77fae1bc40a909fde86acdd4bcba5"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>65f77fae1bc40a909fde86acdd4bcba5</documentkey>
+        <fieldname>conversational_label</fieldname>
+        <language>fq</language>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-13 18:53:10</sys_created_on>
+        <sys_id>72cc9798fb62661095e5fb3f4eefdce1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-13 18:53:10</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>65f77fae1bc40a909fde86acdd4bcba5</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-13 18:53:10</sys_created_on>
+        <sys_id>b6cc9798fb62661095e5fb3f4eefdcdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-13 18:53:10</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>65f77fae1bc40a909fde86acdd4bcba5</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>fq</language>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-13 18:53:10</sys_created_on>
+        <sys_id>facc9798fb62661095e5fb3f4eefdce8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-25 16:50:39</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value>&lt;p&gt;&lt;strong&gt;Sant&amp;eacute; mentale&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Accompagnement, soutien, aiguillage vers des ressources et &amp;eacute;valuation de sant&amp;eacute; globale (rencontres initiales et de suivi).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;** Les infirmi&amp;egrave;res-conseill&amp;egrave;res ne peuvent pas remettre d&amp;rsquo;ordonnances ni de billets m&amp;eacute;dicaux.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sant&amp;eacute; m&amp;eacute;dicale et physique&lt;/strong&gt;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Accompagnement, soutien, aiguillage vers des ressources et &amp;eacute;valuation de sant&amp;eacute; globale.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559739&amp;quot;:0}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;** Les infirmi&amp;egrave;res-conseill&amp;egrave;res ne peuvent pas remettre d&amp;rsquo;ordonnances ni de billets m&amp;eacute;dicaux.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559739&amp;quot;:0}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Maladie ou blessure li&amp;eacute;e au travail&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559739&amp;quot;:0}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Lors d&amp;rsquo;une consultation avec un employ&amp;eacute; souffrant d&amp;rsquo;une maladie ou d&amp;rsquo;une blessure professionnelle, l&amp;rsquo;infirmi&amp;egrave;re-conseill&amp;egrave;re proc&amp;egrave;de &amp;agrave; son &amp;eacute;valuation, l&amp;rsquo;oriente vers un professionnel de la sant&amp;eacute; et le guide dans les &amp;eacute;tapes suivantes, en collaboration avec l&amp;rsquo;&amp;eacute;quipe de gestion de l&amp;rsquo;invalidit&amp;eacute; ou en suivant le processus de la Commission de la s&amp;eacute;curit&amp;eacute; professionnelle et de l&amp;rsquo;assurance contre les accidents du travail, le cas &amp;eacute;ch&amp;eacute;ant.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559739&amp;quot;:0}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&lt;strong&gt;Ressources en sant&amp;eacute;&amp;nbsp;&amp;nbsp;&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559739&amp;quot;:0}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Aiguillage vers des ressources communautaires comme des professionnels de la sant&amp;eacute; (p. ex. clinique sans rendez-vous, optom&amp;eacute;triste, physioth&amp;eacute;rapeute, groupe de soutien).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;**&lt;/span&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Aucun aiguillage&lt;/span&gt;&lt;/strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt; vers des m&amp;eacute;decins sp&amp;eacute;cialistes.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;134233118&amp;quot;:false,&amp;quot;335559739&amp;quot;:0}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Maladies respiratoires (rhume, grippe, COVID, etc.)&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Les infirmi&amp;egrave;res-conseill&amp;egrave;res peuvent r&amp;eacute;pondre &amp;agrave; vos questions ou inqui&amp;eacute;tudes li&amp;eacute;es aux maladies respiratoires ou &amp;agrave; la COVID. Vous pouvez &amp;eacute;galement consulter &lt;/span&gt;&lt;a href="https://hoccdc.sharepoint.com/sites/atrium/fr/Pages/service.aspx?s=/sites/info/fr/services/health-wellness/Pages/COVID-19-SITUATION-UPDATE-FOR-HOC-EMPLOYEES.aspx&amp;amp;u=/sites/info/fr/services/health-wellness/&amp;amp;n=COVID-19-SITUATION-UPDATE-FOR-HOC-EMPLOYEES&amp;amp;cg=(acg:%22071c070c-abf7-4d9a-9601-9b425668fc61%22)&amp;amp;pr=%22empty%22&amp;amp;sb=(sbj:%22b2ce43b9-2d92-4180-bf78-3f8fff86cb73%22)" target="_blank" rel="noreferrer noopener"&gt;&lt;span xml:lang="FR-CA" data-contrast="none"&gt;&lt;span data-ccp-charstyle="Hyperlink"&gt;Atrium&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt; pour obtenir de l&amp;rsquo;information &amp;agrave; ce sujet.&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&lt;strong&gt;Services de consultation et d&amp;rsquo;accompagnement&lt;/strong&gt;&amp;nbsp;&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Consultation et accompagnement en mieux-&amp;ecirc;tre pour aider les personnes ou les &amp;eacute;quipes &amp;agrave; maintenir et &amp;agrave; am&amp;eacute;liorer leur sant&amp;eacute; globale et leur bien-&amp;ecirc;tre. Parmi les services offerts figurent des consultations individuelles, l&amp;rsquo;&amp;eacute;ducation &amp;agrave; la sant&amp;eacute; et des conseils pratiques adapt&amp;eacute;s aux besoins de chaque personne.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Formation et &amp;eacute;ducation&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;br&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;L&amp;rsquo;&amp;eacute;quipe de sant&amp;eacute; et mieux-&amp;ecirc;tre peut &amp;eacute;valuer les besoins de votre &amp;eacute;quipe et recommander des formations appropri&amp;eacute;es ou offrir des formations sur demande en sant&amp;eacute; mentale et physique.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Soutien sur place en cas de crise&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;br&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;&amp;Agrave; la suite d&amp;rsquo;un &amp;eacute;v&amp;eacute;nement stressant ou traumatisant li&amp;eacute; au travail, comme la perte d&amp;rsquo;un coll&amp;egrave;gue ou un incident en milieu de travail, l&amp;rsquo;&amp;eacute;quipe de sant&amp;eacute; et mieux-&amp;ecirc;tre peut offrir un soutien sur place par l&amp;rsquo;interm&amp;eacute;diaire du Programme d&amp;rsquo;aide aux employ&amp;eacute;s et &amp;agrave; la famille. Elle peut d&amp;eacute;p&amp;ecirc;cher un professionnel de la sant&amp;eacute; mentale qualifi&amp;eacute; (p. ex. un psychoth&amp;eacute;rapeute) qui proposera des interventions individuelles ou de groupe afin d&amp;rsquo;aider les employ&amp;eacute;s &amp;agrave; composer avec la situation.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Sant&amp;eacute; et s&amp;eacute;curit&amp;eacute; psychologiques&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;br&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;L&amp;rsquo;&amp;eacute;quipe de sant&amp;eacute; et mieux-&amp;ecirc;tre offre des services proactifs, pr&amp;eacute;ventifs et r&amp;eacute;actifs visant &amp;agrave; am&amp;eacute;liorer le bien-&amp;ecirc;tre mental, &amp;agrave; minimiser les facteurs de risque psychologiques et &amp;agrave; favoriser une culture de travail bienveillante.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Autre (veuillez pr&amp;eacute;ciser ci-dessous)&lt;/span&gt;&amp;nbsp;&lt;/strong&gt;&lt;br&gt;&lt;span xml:lang="FR-CA" data-contrast="auto"&gt;Tout autre service non mentionn&amp;eacute; ci-dessus.&lt;/span&gt;&lt;span data-ccp-props="{&amp;quot;201341983&amp;quot;:0,&amp;quot;335559739&amp;quot;:0,&amp;quot;335559740&amp;quot;:240}"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>65f77fae1bc40a909fde86acdd4bcba5</documentkey>
+        <fieldname>rich_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-13 18:53:10</sys_created_on>
+        <sys_id>72cc9798fb62661095e5fb3f4eefdce5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-13 18:53:10</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>65f77fae1bc40a909fde86acdd4bcba5</documentkey>
+        <fieldname>x_hccc_dfsa_erp_u_translated_text_2</fieldname>
+        <language>fq</language>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-13 18:53:10</sys_created_on>
+        <sys_id>b6cc9798fb62661095e5fb3f4eefdcec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-13 18:53:10</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=65f77fae1bc40a909fde86acdd4bcba5"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price_if_checked</field>
+        <id>65f77fae1bc40a909fde86acdd4bcba5</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>taylor.pullen@ca.ey.com</sys_created_by>
+        <sys_created_on>2024-02-02 16:56:49</sys_created_on>
+        <sys_id>73283b261b080a909fde86acdd4bcb9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@ca.ey.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 16:56:49</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>rec_price_if_checked</field>
+        <id>65f77fae1bc40a909fde86acdd4bcba5</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>taylor.pullen@ca.ey.com</sys_created_by>
+        <sys_created_on>2024-02-02 16:56:49</sys_created_on>
+        <sys_id>7f283b261b080a909fde86acdd4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@ca.ey.com</sys_updated_by>
+        <sys_updated_on>2024-02-02 16:56:49</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from/>
+        <description>- Validating bug 72138&#13;
+- Validating bug 82187, ensuring that the PDF ESDCLAB0170 file is attached after a committee meber request OHS review </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>DNU - OHS -  Incident Full workflow Look for EDCSLAB1070</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-13 11:28:01</sys_created_on>
+        <sys_id>4b9cf97187c4511050d2eca73cbb359b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DNU - OHS -  Incident Full workflow Look for EDCSLAB1070</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_4b9cf97187c4511050d2eca73cbb359b</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 14:11:26</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=4b9cf97187c4511050d2eca73cbb359b"/>
+</record_update>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="select_the_principal_party_and_responding_party_relationship" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:47:50</sys_created_on>
+            <sys_id>9ea47a8087f3815050d2eca73cbb355b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>select_the_principal_party_and_responding_party_relationship</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_select_the_principal_party_and_responding_party_relationship</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Veuillez selectionner...</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-19 13:07:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>369918e33b04b2d0aeb1ebc964e45aba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Please select...</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-06-02 14:31:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe9918e33b04b2d0aeb1ebc964e45ad5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>NULL_OVERRIDE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Employee / Employee – Employee / Supervisor</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:47:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe9958e33b04b2d0aeb1ebc964e45a16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Employee / Employee – Employee / Supervisor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Manager</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:48:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fe9958e33b04b2d0aeb1ebc964e45a57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Manager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Supervisor</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:48:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a9958e33b04b2d0aeb1ebc964e45a8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Supervisor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Business Owner – Supervisor</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:48:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>879958e33b04b2d0aeb1ebc964e45ae6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Business Owner – Supervisor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Business Owner / Employee – Employee / Third party</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:49:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>079998e33b04b2d0aeb1ebc964e45a40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Business Owner / Employee – Employee / Third party</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Client</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:49:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f9998e33b04b2d0aeb1ebc964e45a74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Client</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Contractor</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:49:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>879998e33b04b2d0aeb1ebc964e45aa9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Contractor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Public – Employee / Domestic partner – Employee / Other</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-05-26 18:50:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cf9998e33b04b2d0aeb1ebc964e45add</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Public – Employee / Domestic partner – Employee / Other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Employé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:17:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b99d8e33b04b2d0aeb1ebc964e45a12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>empl_empl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Employee</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:43:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4399d8e33b04b2d0aeb1ebc964e45a47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>empl_empl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Superviseur, Gestionnaire, Propriétaire d'entreprise</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:18:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5799d8e33b04b2d0aeb1ebc964e45a97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>emp_sup_mgr_bo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Supervisor, Manager, Business Owner</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:43:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c399d8e33b04b2d0aeb1ebc964e45a6f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>emp_sup_mgr_bo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Superviseur, Gestionnaire, Propriétaire d'entreprise / Employé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:19:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5799d8e33b04b2d0aeb1ebc964e45ad8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>sup_mgr_bo_emp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Supervisor, Manager, Business Owner / Employee</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:44:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d3991ce33b04b2d0aeb1ebc964e45a32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>sup_mgr_bo_emp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Tiers, Client, Prestataire, Public</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:20:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53991ce33b04b2d0aeb1ebc964e45a8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>emp_third_client_public</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Third Party, Client, Contractor, Public</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:45:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53991ce33b04b2d0aeb1ebc964e45acd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>emp_third_client_public</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Domestic Partner</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:45:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b995ce33b04b2d0aeb1ebc964e45a5b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>emp_dom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Partenaire domestique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:21:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53995ce33b04b2d0aeb1ebc964e45a0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>emp_dom</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employee / Other</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-17 17:46:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b995ce33b04b2d0aeb1ebc964e45add</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>emp_other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>select_the_principal_party_and_responding_party_relationship</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Employé / Autre</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-04 21:22:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df995ce33b04b2d0aeb1ebc964e45aa8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>emp_other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

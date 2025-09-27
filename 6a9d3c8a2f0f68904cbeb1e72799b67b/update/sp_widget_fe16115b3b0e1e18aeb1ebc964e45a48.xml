@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope, $window, $location, $rootScope, spUtil) {
+
+    /* widget controller */
+    var c = this;
+
+
+    $rootScope.$on('spModel.gForm.env.created', function(event, toState, toParams) {
+        var button = $window.document.getElementById('hazardlinkbutton');
+
+        if (button) {
+            button.remove();
+        }
+
+        if ($location.search().table == 'x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment' &&
+            $location.search().sys_id && $location.search().sys_id != '-1') {
+
+            var panel = $window.document.getElementsByClassName('panel-footer');
+            var link = $window.document.createElement('a');
+            var linkText = $window.document.createTextNode(c.data.buttonText + " (" + c.data.actionCount + ")");
+
+            link.appendChild(linkText);
+            link.classList.add("hira_button", "btn", "btn-primary", "action-btn");
+            link.id = 'hazardlinkbutton';
+            if (c.data.actionCount > 0) {
+                link.href = '?id=hoc_hira_rl_form&table=x_hccc_hoc_ohs_hira_action&parent=' + c.data.hazardId +
+                    '&view=sp&parent_field=parent_hazard&sys_id=' + c.data.firstAction;
+
+            } else {
+                var parent = $location.search().sys_id;
+
+                link.href = '?id=hoc_hira_rl_form&table=x_hccc_hoc_ohs_hira_action&parent=' + parent +
+                    '&view=sp&parent_field=parent_hazard&sys_id=-1&query=parent_hazard=' + parent;
+            }
+
+            // just in case the 'form' widget changes in upgrade
+            if (panel && panel[0]) {
+                panel[0].insertBefore(link, panel[0].firstChild);
+            } else {
+                var div = $window.document.getElementById('fallback-button-location-hoc');
+
+                div.appendChild(link);
+            }
+        }
+    })
+
+/* //TODO uncomment, add it to the onCreate event above, and make it go to the parent record post delete.
+    c.uiAction = function(action) {
+        function update() {
+            c.server.update().then(function() {
+                c.data.action = undefined;
+                c.data.result = "completed";
+            });
+            window.setTimeout(restartscreen, 2000);
+
+            function restartscreen() {
+                location.reload(true);
+            }
+        }
+
+        c.data.action = action;
+        if (c.data.action === 'delete') {
+            var ans = confirm("Are you sure, you want to delete it?");
+
+            if (ans === true) {
+                update();
+            } else {
+                return false;
+            }
+        }
+    };
+	*/
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>#fallback-button-location-hoc {
+  width: 100%;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hoc_hira_hazard_action_button</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>HIRA Hazard Action Button</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    /* global data, $sp, options, GlideAggregate, input */
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    function generateButtonAddViewAction() {
+        data.buttonText = gs.getMessage("Add/View Actions");
+        data.actionCount = 0;
+        data.table = $sp.getParameter('table');
+
+
+        data.hazardId = $sp.getParameter('sys_id');
+        data.table = $sp.getParameter('table');
+        var actionCount = new GlideAggregate('x_hccc_hoc_ohs_hira_action');
+
+        actionCount.addAggregate('COUNT');
+        actionCount.addQuery('parent_hazard', data.hazardId);
+        actionCount.query();
+        while (actionCount.next()) {
+            data.actionCount = actionCount.getAggregate('COUNT');
+
+        }
+
+        var firstAction = new GlideRecordSecure('x_hccc_hoc_ohs_hira_action');
+
+        firstAction.addQuery('parent_hazard', data.hazardId);
+        firstAction.setLimit(1);
+        firstAction.query();
+        if (firstAction.next()) {
+            data.firstAction = firstAction.sys_id.toString();
+        } else {
+            data.firstAction = '-1';
+        }
+    }
+
+    /** 
+     * taken from: https://www.servicenow.com/community/developer-forum/create-delete-action-button-in-service-portal-for-deleting/m-p/1787278
+     */
+    function generateButtonDelete() {
+        var gr = $sp.getRecord();
+        var action;
+        var states = "";
+        var stages = "";
+        var ReqCancel = "";
+        var b;
+        var t;
+        var c;
+
+        // Get table & sys_id
+        data.table = input.table || $sp.getParameter("table");
+        data.sys_id = input.sys_id || $sp.getParameter("sys_id");
+
+        data.canRead = gr.canRead();
+        if (!data.canRead) {
+            return;
+        }
+
+        data.canWrite = gr.canWrite();
+        if (!data.canWrite) {
+            return;
+        }
+
+        b = $sp.getField(gr, 'state');
+        if (!gs.nil(b)) {
+            states = b.value;
+        }
+
+        t = $sp.getField(gr, 'stage');
+        if (!gs.nil(t)) {
+            stages = t.value;
+        }
+
+        c = $sp.getField(gr, 'u_asked_cancellation');
+        if (!gs.nil(c)) {
+            ReqCancel = c.value;
+        }
+
+        // Valid GlideRecord
+        gr = new GlideRecord(data.table);
+        if (!gr.isValid()) {
+            return;
+        }
+
+        // Valid sys_id
+        if (!gr.get(data.sys_id)) {
+            return;
+        }
+
+        if (input && input.action) {
+            if (input.action === 'delete') {
+                gr.deleteRecord();
+            }
+        }
+
+    }
+
+    generateButtonAddViewAction();
+    //generateButtonDelete();
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-28 19:20:51</sys_created_on>
+        <sys_id>fe16115b3b0e1e18aeb1ebc964e45a48</sys_id>
+        <sys_mod_count>120</sys_mod_count>
+        <sys_name>HIRA Hazard Action Button</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_fe16115b3b0e1e18aeb1ebc964e45a48</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-04 20:03:32</sys_updated_on>
+        <template><![CDATA[<div id="fallback-button-location-hoc">
+<!--<div class="panel b ng-scope">
+    <div ng-if="data.states != 4"> (4 = cancel)
+        <div class="panel-heading bg-primary panel-la-jolla-default">Actions</div>
+        <div class="panel-body" >
+          <button type="button" class="btn btn-danger btn-block" ng-click="c.uiAction('delete')">Delete</button>
+        </div>
+      </div>
+</div>-->
+</div>
+]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>fe16115b3b0e1e18aeb1ebc964e45a48</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-02 19:26:14</sys_created_on>
+        <sys_id>5bbe2d7c3beee218aeb1ebc964e45a4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-02 19:26:14</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

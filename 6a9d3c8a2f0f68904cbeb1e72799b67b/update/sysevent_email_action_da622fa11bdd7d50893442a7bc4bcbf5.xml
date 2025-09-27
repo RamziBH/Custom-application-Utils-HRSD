@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="ohs - hira" name="ohs - hira">c806f9fb1bb375509fde86acdd4bcbe4</category>
+        <collection>x_hccc_hoc_ohs_hira_case</collection>
+        <condition table="x_hccc_hoc_ohs_hira_case">manager_nameISNOTEMPTY^hr_service=3fb664a08754515050d2eca73cbb35f1^EQ<item endquery="false" field="manager_name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item display_table="sn_hr_core_service" display_value="Hazard Investigation and Risk Assessment" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="3fb664a08754515050d2eca73cbb35f1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_hccc_hoc_ohs.hira.due_to_review_manager</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="" />&nbsp;</p>
+<p><span style="font-family: 'calibri light'; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"> <em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+<p><strong>Please do not reply to this email. This system cannot receive messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">HIRA due for review</span></p>
+<p>This email serves to advise you that a HIRA requires review. Below is the information regarding the position requiring assessment:</p>
+<p>Position title: ${position_reporting_position}</p>
+<p>Department: ${position_reporting_position.reports_to.department}</p>
+<p>Created on: ${sys_created_on}</p>
+<p>To assist you with your Hazard Identification and Risk Assessment you may refer to&nbsp;<a href="https://hoccdc.sharepoint.com/sites/atrium/en/Pages/service.aspx?s=/sites/info/en/services/hoc-health-and-wellness/Pages/Workplace-Safety-and-Hazard-Prevention.aspx&amp;u=/sites/info/en/services/hoc-health-and-wellness/&amp;n=Workplace-Safety-and-Hazard-Prevention&amp;cg=%28acg:%22071c070c-abf7-4d9a-9601-9b425668fc61%22%29&amp;sb=%28sbj:%22e7552958-51e7-41a1-a214-4b4ccc02e40c%22%29">the Workplace Safety and Hazard Prevention</a>&nbsp;page on Atrium.</p>
+<p>Please click the link below to view and action this file.</p>
+<p>${URI_REF}</p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<div>
+<p><strong>Occupational Health and Safety</strong></p>
+<p>House of Commons</p>
+<p>50 O&rsquo;Connor, 8<span data-fontsize="11">th</span> floor <br />Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Office: 613-995-3614</p>
+</div>
+<hr noshade="noshade" />
+<p><span style="font-family: 'calibri light'; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p>&nbsp;</p>
+<p><strong>Pri&egrave;re de ne pas r&eacute;pondre au pr&eacute;sent courriel, car il provient d&rsquo;une adresse qui ne peut pas recevoir de messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">R.E.R. doit &ecirc;tre r&eacute;&eacute;valu&eacute;</span></p>
+<p>Ce courriel sert &agrave; vous informer qu'un R.E.R. a &eacute;t&eacute; cr&eacute;&eacute; et n&eacute;cessite votre attention. Vous trouverez ci-dessous les informations concernant le poste n&eacute;cessitant une &eacute;valuation :</p>
+<p>Titre du poste : ${mail_script:x_hccc_hoc_ohs_hira_translate_position_reporting_position}</p>
+<p>D&eacute;partement : ${mail_script:x_hccc_hoc_ohs_hira_translate_department}</p>
+<p>Cr&eacute;&eacute; le : ${sys_created_on}</p>
+<p>Pour vous aider dans votre identification des dangers et votre &eacute;valuation des risques, vous pouvez vous r&eacute;f&eacute;rer &agrave; la page&nbsp;<a href="https://hoccdc.sharepoint.com/sites/atrium/fr/Pages/service.aspx?s=/sites/info/fr/services/hoc-health-and-wellness/Pages/Workplace-Safety-and-Hazard-Prevention.aspx&amp;u=/sites/info/fr/services/hoc-health-and-wellness/&amp;n=Workplace-Safety-and-Hazard-Prevention&amp;cg=%28acg:%22071c070c-abf7-4d9a-9601-9b425668fc61%22%29&amp;sb=%28sbj:%22e7552958-51e7-41a1-a214-4b4ccc02e40c%22%29">S&eacute;curit&eacute; et pr&eacute;vention des risques en milieu de travail</a>&nbsp;sur Atrium.</p>
+<p>Veuillez cliquer sur le lien ci-dessous pour visualiser et traiter ce cas.</p>
+<p>${URI_REF}</p>
+<p>&nbsp;</p>
+<p>Merci,</p>
+<div>
+<p><strong>Sant&eacute; et s&eacute;curit&eacute; au travail</strong></p>
+<p>Chambre des communes</p>
+<p>50 Rue O&rsquo;Connor, 8<span data-fontsize="11">e</span> &eacute;tage <br />Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Bureau: 613-995-3614</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HoC - OHSM - HIRA - Manager to Review HIRA</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>HIRA due for review / R.E.R. doit être réévalué</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-09-15 19:55:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da622fa11bdd7d50893442a7bc4bcbf5</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>HoC - OHSM - HIRA - Manager to Review HIRA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_da622fa11bdd7d50893442a7bc4bcbf5</sys_update_name>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:46:59</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function teleworkTicketActions($scope, $http, spUtil, $timeout, spModal, i18n, $window, $uibModal, spAriaUtil) {
+    /* widget controller */
+    var c = this;
+    c.doneLoading = false;
+    c.approvedTeleworkMsg = "${x_hccc_hoc_ohs.telework_portal_agreement_approved}";
+    c.refusedTeleworkMsg = "${x_hccc_hoc_ohs.telework_portal_agreement_rejected}";
+    //c.canceledTeleworkMsg = "${Telework Canceled}";
+
+    var MOBILE_DEVICE_SCREEN_WIDTH = 767;
+    $scope.mobileDevice = c.data.isMobile || ($window.innerWidth < MOBILE_DEVICE_SCREEN_WIDTH);
+
+	$scope.approve = function() {
+        $scope.data.action = 'approve';
+        $scope.server.update(init).then(function(response){
+					if (response.isTeleworkApproved)
+						spAriaUtil.sendLiveMessage(c.approvedTeleworkMsg);
+				});
+		$scope.$emit('focusOnActions', {"isFocusRequired": true});
+    };
+	
+	$scope.refuse = function() {
+		$scope.data.action = 'refuse';
+        $scope.server.update(init).then(function(response){
+					if (response.isTeleworkRefused)
+						spAriaUtil.sendLiveMessage(c.refusedTeleworkMsg);
+				});
+		var elm = document.getElementById('short-desc');
+		elm.focus();
+	};
+
+    $scope.cancel = function() {
+        $scope.data.action = 'cancel';
+        $scope.server.update(init).then(function(response){
+					if (response.isTeleworkCanceled)
+						spAriaUtil.sendLiveMessage(c.canceledTeleworkMsg);
+				});
+			$scope.$emit('focusOnActions', {"isFocusRequired": true});
+    };
+
+    function init() {}
+	
+    $(document).on('click', 'div.modal-footer button.btn, ul#child-case-tabs .dropdown-menu', function(e) {
+        e.stopPropagation();
+    });
+
+    $(document).bind('dragover drop', function(event) {
+        event.preventDefault();
+        return false;
+    });
+
+    $scope.$on('sp_loading_indicator', function(e, value) {
+        if (!value && !c.doneLoading) {
+            c.doneLoading = true;
+        }
+    });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>$sp-space--md: 12px !default;&#13;
+.arrow {&#13;
+  position: absolute;&#13;
+  margin-left: 50px;&#13;
+  z-index: 150;&#13;
+  border-left: $sp-space--md solid transparent;&#13;
+  border-right: $sp-space--md solid transparent;&#13;
+  border-bottom: $sp-space--md solid #FFFFFF;&#13;
+}&#13;
+&#13;
+.question-tab{&#13;
+	font-size:1.4rem;&#13;
+}&#13;
+&#13;
+.dropdown-menu li {&#13;
+  cursor: pointer;&#13;
+}&#13;
+&#13;
+.action-btn {&#13;
+  width: 100%;&#13;
+}&#13;
+&#13;
+.fa-caret-down {&#13;
+  vertical-align: middle;&#13;
+  font-size: 1.3rem;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hoc_ohsm_telework_std_ticket_actions</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  scope.setFocusOnActionButtons = function() {
+		if (scope.widget.isFocusRequired) {
+			var elm = element.find('#actions-button')[0];
+			elm.focus();
+		}
+	}
+}]]></link>
+        <name>HoC OHSM Telework Std Ticket Actions</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[/* global data, $sp, input, options, HoCOHSMTelWrkUtils */
+(function() {
+    var teleworkUtils = new HoCOHSMTelWrkUtils();
+    var teleworkGr = new GlideRecord('x_hccc_hoc_ohs_telework_agreement');
+    var teleworkSysId = options.sys_id;
+
+    if (!teleworkSysId && $sp.getParameter('table') == 'x_hccc_hoc_ohs_telework_agreement') {
+        teleworkSysId = $sp.getParameter('sys_id');
+    }
+
+
+    if (!teleworkSysId && $sp.getParameter('table') == 'universal_request') {
+        var urGr = new GlideRecord('universal_request');
+
+        urGr.get($sp.getParameter('sys_id'));
+        teleworkSysId = urGr.primary_task + "";
+    }
+
+    /* Actions - Start */
+    if (input && input.action == 'approve' && teleworkGr.get(teleworkSysId)) {
+        data.isTeleworkApproved = teleworkUtils.approve(teleworkGr);
+    }
+
+    if (input && input.action == 'refuse' && teleworkGr.get(teleworkSysId)) {
+        data.isTeleworkRefused = teleworkUtils.refuse(teleworkGr);
+    }
+
+    /* Actions - End */
+
+    /* Load Telework data */
+    if (teleworkGr.get(teleworkSysId)) {
+        data.canApprove = teleworkUtils.canApproveTeleworkAgreement(teleworkGr);
+        data.canRefuse = teleworkUtils.canRejectTeleworkAgreement(teleworkGr);
+        //data.canCancel = true; //incidentUtils.canCloseIncident(teleworkGr);
+    }
+
+    data.i18n = {};
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-24 20:05:23</sys_created_on>
+        <sys_id>c9dff1931b9a2d549fde86acdd4bcb78</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>HoC OHSM Telework Std Ticket Actions</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_c9dff1931b9a2d549fde86acdd4bcb78</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-04 15:49:40</sys_updated_on>
+        <template><![CDATA[<div>
+  
+        <button type="button" id="actions-button-approve" ng-if="data.canApprove" ng-click="$event.stopPropagation();approve()" class="btn btn-primary" style="//width : 100%" aria-haspopup="true">
+            ${Approve}
+            <span class="fa"></span>
+        </button>
+        <button type="button" id="actions-button-refuse" ng-if="data.canRefuse" ng-click="$event.stopPropagation();refuse()" class="btn btn-default" style="//width : 100%" aria-haspopup="true">
+            ${x_hccc_hoc_ohs.telework_portal_reject}
+            <span class="fa"></span>
+        </button>
+  <!--
+        <button type="button" id="actions-button-cancel" ng-if="data.canCancel" ng-click="$event.stopPropagation();cancel()" class="btn btn-default" style="//width : 100%" aria-haspopup="true">
+            {$Cancel}
+            <span class="fa"></span>
+        </button>
+-->
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

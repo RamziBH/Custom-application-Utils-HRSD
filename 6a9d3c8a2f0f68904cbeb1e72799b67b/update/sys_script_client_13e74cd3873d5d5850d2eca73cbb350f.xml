@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HoC - Incident reporting - Make sure managers see the manager tab by default</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    if (g_form.getValue('hr_service') != "6a2b1ada2f4f2c904cbeb1e72799b6ae") { //If not incident reporting, return
+        return;
+    }
+
+    // Test method to add info text to type of occurrence field
+    // g_form.showFieldMsg('inc_type_occ', 'Test info text');
+
+    if (g_user.userID != g_form.getValue('manager_name')) { //If user is not the manager of the case, return
+        return;
+    }
+    g_form.setSectionDisplay('fulfillment_instructions', false);
+    g_form.setSectionDisplay('comments_andworknotes', false);
+    g_form.setSectionDisplay('subcases_andtasks', false);
+    g_form.setSectionDisplay('case_information', false);
+    g_form.setSectionDisplay('manager', false);
+    g_form.setSectionDisplay('whsc', false);
+    g_form.setSectionDisplay('ohs', false);
+
+    //Show again the tabs starting with the manager, so that it will be shown by default
+    g_form.setSectionDisplay('case_information', true);
+    g_form.setSectionDisplay('manager', true);
+    g_form.setSectionDisplay('fulfillment_instructions', true);
+    g_form.setSectionDisplay('comments_andworknotes', true);
+    g_form.setSectionDisplay('subcases_andtasks', true);
+    g_form.setSectionDisplay('whsc', true);
+    if (g_scratchpad.hasOHSGroups == false && g_scratchpad.isDeveloper == false && g_scratchpad.hasOHSAdmin == false) {
+        g_form.setSectionDisplay('ohs', false);
+    } else {
+        g_form.setSectionDisplay('ohs', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-09-12 18:39:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>13e74cd3873d5d5850d2eca73cbb350f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HoC - Incident reporting - Make sure managers see the manager tab by default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_client_13e74cd3873d5d5850d2eca73cbb350f</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-18 15:29:31</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

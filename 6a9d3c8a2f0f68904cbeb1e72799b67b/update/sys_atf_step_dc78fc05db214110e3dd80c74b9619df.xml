@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="">23ee1fdcdb250110e3dd80c74b96192e</copied_from>
+        <description>Validate that an email was generated matching query:
+Created &gt; javascript:gs.minutesAgo(1)
+and Recipients contains yannick.blanchette@parl.gc.ca
+and Subject contains HoC- ESDC form for {{Step 6: Create a User.User.Name}}
+and Subject contains CdC- Formulaire EDSC pour {{Step 6: Create a User.User.Name}}
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>yannick.blanchette@parl.gc.ca is email wich represents the notification sent to ESDC</notes>
+        <order>37</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-06 15:57:46</sys_created_on>
+        <sys_id>dc78fc05db214110e3dd80c74b9619df</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_dc78fc05db214110e3dd80c74b9619df</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:04:42</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - Report Incident check emails sent and not sent at each step">97687805db214110e3dd80c74b9619d8</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=dc78fc05db214110e3dd80c74b9619df"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dc78fc05db214110e3dd80c74b9619df</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-06 15:57:46</sys_created_on>
+        <sys_id>9c78fc05db214110e3dd80c74b9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-06 15:57:46</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>dc78fc05db214110e3dd80c74b9619df</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-06 15:57:46</sys_created_on>
+        <sys_id>d878fc05db214110e3dd80c74b9619e0</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-02-05 15:33:25</sys_updated_on>
+        <value>sys_created_onRELATIVEGT@minute@ago@1^recipientsLIKEyannick.blanchette@parl.gc.ca^subjectLIKEHoC- ESDC form for {{step['1b68bc05db214110e3dd80c74b96196c'].user.name}}^subjectLIKECdC- Formulaire EDSC pour {{step['1b68bc05db214110e3dd80c74b96196c'].user.name}}^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc78fc05db214110e3dd80c74b9619df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>dc78fc05db214110e3dd80c74b9619df</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-07 16:06:51</sys_created_on>
+        <sys_id>cf14c6d51badc1109fde86acdd4bcbde</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-02-05 15:33:25</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>sys_created_onRELATIVEGT@minute@ago@1^recipientsLIKEyannick.blanchette@parl.gc.ca^subjectLIKEHoC- ESDC form for {{step['1b68bc05db214110e3dd80c74b96196c'].user.name}}^subjectLIKECdC- Formulaire EDSC pour {{step['1b68bc05db214110e3dd80c74b96196c'].user.name}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>dc78fc05db214110e3dd80c74b9619df</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-07 16:51:09</sys_created_on>
+        <sys_id>484ec69d1bedc1109fde86acdd4bcbf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:51:09</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

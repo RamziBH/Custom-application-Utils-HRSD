@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2025-09-26 21:26:44">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-05-30 19:29:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2474e3551b334d109fde86acdd4bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA H&amp;V Occurances Reporting</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_portal_page_2474e3551b334d109fde86acdd4bcb7d</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-22 17:37:48</sys_updated_on>
+        <title>PA H&amp;V Occurances Reporting</title>
+        <user/>
+        <view>pa_hoc_h&amp;v_dashboard_-_new_tab</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA H&amp;V Occurances Reporting">2474e3551b334d109fde86acdd4bcb7d</page>
+                <summary>H&amp;V Number of Occurances per Building</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-05-30 20:15:45</sys_created_on>
+                <sys_id>492fe7591b734d109fde86acdd4bcb38</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-05-30 20:15:45</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:45">492fe7591b734d109fde86acdd4bcb38</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:45</sys_created_on>
+                        <sys_id>092fe7591b734d109fde86acdd4bcb39</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:45</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:45">492fe7591b734d109fde86acdd4bcb38</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:45</sys_created_on>
+                        <sys_id>452fe7591b734d109fde86acdd4bcb39</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:45</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:45">492fe7591b734d109fde86acdd4bcb38</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:45</sys_created_on>
+                        <sys_id>4d2fe7591b734d109fde86acdd4bcb38</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:45</sys_updated_on>
+                        <value>7d8963911b734d109fde86acdd4bcb6f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:45">492fe7591b734d109fde86acdd4bcb38</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:45</sys_created_on>
+                        <sys_id>812fe7591b734d109fde86acdd4bcb39</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:45</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:45">492fe7591b734d109fde86acdd4bcb38</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:45</sys_created_on>
+                        <sys_id>8d2fe7591b734d109fde86acdd4bcb39</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:45</sys_updated_on>
+                        <value>H&amp;V Number of Occurances per Building</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:45">492fe7591b734d109fde86acdd4bcb38</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:45</sys_created_on>
+                        <sys_id>c92fe7591b734d109fde86acdd4bcb39</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:45</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA H&amp;V Occurances Reporting">2474e3551b334d109fde86acdd4bcb7d</page>
+                <summary>H&amp;amp;V Occurances per year</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-05-30 21:14:18</sys_created_on>
+                <sys_id>768cbfd51bb34d109fde86acdd4bcbd4</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-05-30 21:14:19</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-05-30 17:14:18">768cbfd51bb34d109fde86acdd4bcbd4</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 21:14:19</sys_created_on>
+                        <sys_id>328cbfd51bb34d109fde86acdd4bcbd6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 21:14:19</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-05-30 17:14:18">768cbfd51bb34d109fde86acdd4bcbd4</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 21:14:19</sys_created_on>
+                        <sys_id>7e8cbfd51bb34d109fde86acdd4bcbd5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 21:14:19</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-05-30 17:14:18">768cbfd51bb34d109fde86acdd4bcbd4</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 21:14:19</sys_created_on>
+                        <sys_id>b68cbfd51bb34d109fde86acdd4bcbd6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 21:14:19</sys_updated_on>
+                        <value>H&amp;amp;V Occurances per year</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-05-30 17:14:18">768cbfd51bb34d109fde86acdd4bcbd4</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 21:14:19</sys_created_on>
+                        <sys_id>ba8cbfd51bb34d109fde86acdd4bcbd5</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 21:14:19</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-05-30 17:14:18">768cbfd51bb34d109fde86acdd4bcbd4</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 21:14:19</sys_created_on>
+                        <sys_id>f28cbfd51bb34d109fde86acdd4bcbd6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 21:14:19</sys_updated_on>
+                        <value>line_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-05-30 17:14:18">768cbfd51bb34d109fde86acdd4bcbd4</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 21:14:18</sys_created_on>
+                        <sys_id>fe8cbfd51bb34d109fde86acdd4bcbd4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 21:14:18</sys_updated_on>
+                        <value>c5f933551bb34d109fde86acdd4bcb18</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA H&amp;V Occurances Reporting">2474e3551b334d109fde86acdd4bcb7d</page>
+                <summary>H&amp;V Occurances per month</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-05-30 20:15:35</sys_created_on>
+                <sys_id>ae1f6b591b734d109fde86acdd4bcb87</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-05-30 20:15:35</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:35">ae1f6b591b734d109fde86acdd4bcb87</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:35</sys_created_on>
+                        <sys_id>261f6b591b734d109fde86acdd4bcb8a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:35</sys_updated_on>
+                        <value>H&amp;V Occurances per month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:35">ae1f6b591b734d109fde86acdd4bcb87</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:35</sys_created_on>
+                        <sys_id>2a1f6b591b734d109fde86acdd4bcb89</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:35</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:35">ae1f6b591b734d109fde86acdd4bcb87</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:35</sys_created_on>
+                        <sys_id>621f6b591b734d109fde86acdd4bcb8a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:35</sys_updated_on>
+                        <value>line_bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:35">ae1f6b591b734d109fde86acdd4bcb87</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:35</sys_created_on>
+                        <sys_id>aa1f6b591b734d109fde86acdd4bcb88</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:35</sys_updated_on>
+                        <value>145e2b191b734d109fde86acdd4bcbb7</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:35">ae1f6b591b734d109fde86acdd4bcb87</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:35</sys_created_on>
+                        <sys_id>ae1f6b591b734d109fde86acdd4bcb89</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:35">ae1f6b591b734d109fde86acdd4bcb87</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:35</sys_created_on>
+                        <sys_id>ea1f6b591b734d109fde86acdd4bcb89</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:35</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA H&amp;V Occurances Reporting">2474e3551b334d109fde86acdd4bcb7d</page>
+                <summary>H&amp;V Type of Occurances</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-05-30 20:15:52</sys_created_on>
+                <sys_id>ae2f6f591b734d109fde86acdd4bcbd6</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-05-30 20:15:52</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:52">ae2f6f591b734d109fde86acdd4bcbd6</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:52</sys_created_on>
+                        <sys_id>222f6f591b734d109fde86acdd4bcbd8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:52</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:52">ae2f6f591b734d109fde86acdd4bcbd6</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:52</sys_created_on>
+                        <sys_id>6e2f6f591b734d109fde86acdd4bcbd7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:52">ae2f6f591b734d109fde86acdd4bcbd6</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:52</sys_created_on>
+                        <sys_id>a22f6f591b734d109fde86acdd4bcbd7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:52</sys_updated_on>
+                        <value>a6b66b591b334d109fde86acdd4bcb47</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:52">ae2f6f591b734d109fde86acdd4bcbd6</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:52</sys_created_on>
+                        <sys_id>aa2f6f591b734d109fde86acdd4bcbd7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:52">ae2f6f591b734d109fde86acdd4bcbd6</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:52</sys_created_on>
+                        <sys_id>e22f6f591b734d109fde86acdd4bcbd8</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:52</sys_updated_on>
+                        <value>H&amp;V Type of Occurances</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-05-30 16:15:52">ae2f6f591b734d109fde86acdd4bcbd6</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-05-30 20:15:52</sys_created_on>
+                        <sys_id>e62f6f591b734d109fde86acdd4bcbd7</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-05-30 20:15:52</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA H&amp;V Occurances Reporting">2474e3551b334d109fde86acdd4bcb7d</page>
+                <summary>H&amp;amp;V Occurrences Details</summary>
+                <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                <sys_created_on>2022-06-02 17:07:18</sys_created_on>
+                <sys_id>e1c02a121b3309509fde86acdd4bcb70</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                <sys_updated_on>2022-06-02 17:07:18</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2022-06-02 13:07:18">e1c02a121b3309509fde86acdd4bcb70</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-02 17:07:18</sys_created_on>
+                        <sys_id>21c02a121b3309509fde86acdd4bcb71</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-02 17:07:18</sys_updated_on>
+                        <value>646f9eda1bffc5509fde86acdd4bcb74</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2022-06-02 13:07:18">e1c02a121b3309509fde86acdd4bcb70</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-02 17:07:18</sys_created_on>
+                        <sys_id>25c02a121b3309509fde86acdd4bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-02 17:07:18</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2022-06-02 13:07:18">e1c02a121b3309509fde86acdd4bcb70</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-02 17:07:18</sys_created_on>
+                        <sys_id>61c02a121b3309509fde86acdd4bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-02 17:07:18</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2022-06-02 13:07:18">e1c02a121b3309509fde86acdd4bcb70</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-02 17:07:18</sys_created_on>
+                        <sys_id>a9c02a121b3309509fde86acdd4bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-02 17:07:18</sys_updated_on>
+                        <value>H&amp;amp;V Occurrences Details</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2022-06-02 13:07:18">e1c02a121b3309509fde86acdd4bcb70</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-02 17:07:18</sys_created_on>
+                        <sys_id>adc02a121b3309509fde86acdd4bcb71</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-02 17:07:18</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2022-06-02 13:07:18">e1c02a121b3309509fde86acdd4bcb70</portal_section>
+                        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+                        <sys_created_on>2022-06-02 17:07:18</sys_created_on>
+                        <sys_id>e5c02a121b3309509fde86acdd4bcb72</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_updated_by>
+                        <sys_updated_on>2022-06-02 17:07:18</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

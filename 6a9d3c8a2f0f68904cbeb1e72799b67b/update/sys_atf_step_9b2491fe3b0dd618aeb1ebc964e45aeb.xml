@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Validate Outbound Email">416453088798dd1050d2eca73cbb35fc</copied_from>
+        <description>Validate that an email was generated matching query:
+Recipients = {{Step 1: Create a User.User.Email}}
+and Subject contains ACTION REQUIRED: The  corrective action 'OHSM
+and Subject contains ACTION REQUISE: L'action corrective 'OHSM
+and Body contains The corrective action 'OHSM
+and Body contains A health and safety hazard has been identified during a monthly workplace health and safety inspection and requires your immediate attention.
+and Body contains ATF middle floor
+and Body contains ATF object
+and Body contains action corrective 'OHSM
+and Body contains Un danger pour la santé et la sécurité a été identifié lors d'une inspection mensuelle de la santé et de la sécurité au travail et nécessite votre attention immédiate.
+and Body contains {{Step 16: Record Query.First record}}
+and Body contains x_hccc_hoc_ohs_investigation_case
+and Body contains Hazard corrected on site by inspector: no
+With a failure timeout of 60 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>20</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 12:52:42</sys_created_on>
+        <sys_id>9b2491fe3b0dd618aeb1ebc964e45aeb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_9b2491fe3b0dd618aeb1ebc964e45aeb</sys_update_name>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-23 19:34:31</sys_updated_on>
+        <table/>
+        <test display_value="OHS - Workplace Inspection Select 2 Submit and Check Emails">722411fe3b0dd618aeb1ebc964e45a6b</test>
+        <timeout>1970-01-01 00:01:00</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=9b2491fe3b0dd618aeb1ebc964e45aeb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9b2491fe3b0dd618aeb1ebc964e45aeb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 12:52:42</sys_created_on>
+        <sys_id>132491fe3b0dd618aeb1ebc964e45aed</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-23 18:24:43</sys_updated_on>
+        <value>recipients={{step['3aa8a9effb36e29495e5fb3f4eefdcae'].user.email}}^subjectLIKEACTION REQUIRED: The  corrective action 'OHSM^subjectLIKEACTION REQUISE: L'action corrective 'OHSM^bodyLIKEThe corrective action 'OHSM^bodyLIKEA health and safety hazard has been identified during a monthly workplace health and safety inspection and requires your immediate attention.^bodyLIKEATF middle floor^bodyLIKEATF object^bodyLIKEaction corrective 'OHSM^bodyLIKEUn danger pour la santé et la sécurité a été identifié lors d'une inspection mensuelle de la santé et de la sécurité au travail et nécessite votre attention immédiate.^bodyLIKE{{step['cf2491fe3b0dd618aeb1ebc964e45a3c'].first_record}}^bodyLIKEx_hccc_hoc_ohs_investigation_case^bodyLIKEHazard corrected on site by inspector: no^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>9b2491fe3b0dd618aeb1ebc964e45aeb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 12:52:42</sys_created_on>
+        <sys_id>d32491fe3b0dd618aeb1ebc964e45aed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 12:52:42</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9b2491fe3b0dd618aeb1ebc964e45aeb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>9b2491fe3b0dd618aeb1ebc964e45aeb</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 12:52:42</sys_created_on>
+        <sys_id>d72491fe3b0dd618aeb1ebc964e45aed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-23 18:24:43</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>recipients={{step['3aa8a9effb36e29495e5fb3f4eefdcae'].user.email}}^subjectLIKEACTION REQUIRED: The  corrective action 'OHSM^subjectLIKEACTION REQUISE: L'action corrective 'OHSM^bodyLIKEThe corrective action 'OHSM^bodyLIKEA health and safety hazard has been identified during a monthly workplace health and safety inspection and requires your immediate attention.^bodyLIKEATF middle floor^bodyLIKEATF object^bodyLIKEaction corrective 'OHSM^bodyLIKEUn danger pour la santé et la sécurité a été identifié lors d'une inspection mensuelle de la santé et de la sécurité au travail et nécessite votre attention immédiate.^bodyLIKE{{step['cf2491fe3b0dd618aeb1ebc964e45a3c'].first_record}}^bodyLIKEx_hccc_hoc_ohs_investigation_case^bodyLIKEHazard corrected on site by inspector: no^EQ</value>
+    </sys_element_mapping>
+</record_update>

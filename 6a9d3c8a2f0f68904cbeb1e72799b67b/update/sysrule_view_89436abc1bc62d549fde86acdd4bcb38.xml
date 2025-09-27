@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_view">
+    <sysrule_view action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <condition table="x_hccc_hoc_ohs_telework_agreement">sys_class_name=x_hccc_hoc_ohs_telework_agreement^EQ<item display_value="Telework Agreement" endquery="false" field="sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_hccc_hoc_ohs_telework_agreement"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <device_type>browser</device_type>
+        <match_conditions>ALL</match_conditions>
+        <name>Telework Agreement view (Browser)</name>
+        <order>100</order>
+        <overrides_user_preference>true</overrides_user_preference>
+        <script><![CDATA[(function overrideView(view, is_list) {
+
+	// Add your code here
+	answer = null;  // set the new view to answer
+
+})(view, is_list);]]></script>
+        <sys_class_name>sysrule_view</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-04 18:02:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>89436abc1bc62d549fde86acdd4bcb38</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Telework Agreement view (Browser)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysrule_view_89436abc1bc62d549fde86acdd4bcb38</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-10 19:24:25</sys_updated_on>
+        <table>x_hccc_hoc_ohs_telework_agreement</table>
+        <view>default_view</view>
+    </sysrule_view>
+</record_update>

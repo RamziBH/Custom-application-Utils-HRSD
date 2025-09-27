@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>10</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-20 14:34:14</sys_created_on>
+        <sys_id>dde919751b89c654813f844fdd4bcba2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b9f9dd751b89c654813f844fdd4bcbc1</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_dde919751b89c654813f844fdd4bcba2</sys_update_name>
+        <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-20 14:34:14</sys_updated_on>
+        <test display_value="OHS Assessment- Submit Record Producer">b9f9dd751b89c654813f844fdd4bcbc1</test>
+        <test_suite display_value="DNU - OHSM - Assessments">123459b11b49c654813f844fdd4bcb9d</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

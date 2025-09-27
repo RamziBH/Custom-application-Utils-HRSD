@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_hazard_category" label="Hazard Category" language="en" table="x_hccc_hoc_ohs_initial_hira_import">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_hazard_category</element>
+            <help/>
+            <hint/>
+            <label>Hazard Category</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_initial_hira_import</name>
+            <plural>Hazard Categories</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-08-13 19:34:25</sys_created_on>
+            <sys_id>7093db661b705edcc6c7a8ecbc4bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hazard Category</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_initial_hira_import_u_hazard_category_en</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-08-13 19:34:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

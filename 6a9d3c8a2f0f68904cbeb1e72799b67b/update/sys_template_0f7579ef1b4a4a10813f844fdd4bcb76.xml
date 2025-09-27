@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>false</global>
+        <group/>
+        <groups name="CEH-HRS-OHS-Advisor">13e4414a2f4f68904cbeb1e72799b6f1</groups>
+        <link_element/>
+        <name>Disability - Sick Leave - Update the accommodation agreement</name>
+        <next/>
+        <next_child/>
+        <roles/>
+        <short_description>Update the accommodation agreement / Mise à jour de l'entente d'accommodement</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-14 20:05:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0f7579ef1b4a4a10813f844fdd4bcb76</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Disability - Sick Leave - Update the accommodation agreement</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_template_0f7579ef1b4a4a10813f844fdd4bcb76</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-14 20:07:41</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hr_task</table>
+        <template>short_description=Update the accommodation agreement / Mise à jour de l'entente d'accommodement^state=1^EQ</template>
+        <user/>
+        <view/>
+    </sys_template>
+</record_update>

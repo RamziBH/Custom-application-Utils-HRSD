@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_set">
+    <dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>true</always_replace>
+        <dl_definition display_value="HIRA Intrinsic Risk Level">25369c8e87ac191050d2eca73cbb3511</dl_definition>
+        <matcher_table>x_hccc_hoc_ohs_hira_risk_level_matrix</matcher_table>
+        <matcher_table_field>residual_risk_level</matcher_table_field>
+        <source_table>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</source_table>
+        <source_table_field>risk_level</source_table_field>
+        <sys_class_name>dl_definition_rel_set</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-01-31 19:37:24</sys_created_on>
+        <sys_id>a4b90ac61b008250813f844fdd4bcbbe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>risk_level</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>dl_definition_rel_set_a4b90ac61b008250813f844fdd4bcbbe</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-31 19:37:36</sys_updated_on>
+    </dl_definition_rel_set>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    if (!g_form.isNewRecord()) {
+        g_form.setReadOnly('position_reporting_position', 'true'); ////provide field name here
+    }
+}]]></script_true>
+        <set_values/>
+        <short_description>Make position mandatory for new record</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+        <sys_created_on>2024-04-10 20:25:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ea37aa41be9c6909fde86acdd4bcb8b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Make position mandatory for new record</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_policy_2ea37aa41be9c6909fde86acdd4bcb8b</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-26 19:03:08</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hira_case</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

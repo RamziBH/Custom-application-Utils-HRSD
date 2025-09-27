@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8d15e4b51be141109fde86acdd4bcb32" sys_domain="global" table="sn_wsd_core_building" version="3" view="hoc_ohs">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>a545e4b51be141109fde86acdd4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>1</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>2945e4b51be141109fde86acdd4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hs_committee</element>
+            <position>2</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>a945e4b51be141109fde86acdd4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hs_cochair_employee</element>
+            <position>3</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>2d45e4b51be141109fde86acdd4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hs_cochair_employer</element>
+            <position>4</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>ad45e4b51be141109fde86acdd4bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hs_representative</element>
+            <position>5</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>2145e4b51be141109fde86acdd4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>a145e4b51be141109fde86acdd4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>7</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>2545e4b51be141109fde86acdd4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:29:29</sys_created_on>
+            <sys_id>a545e4b51be141109fde86acdd4bcb90</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_wsd_core_building" sys_domain="global" view="fff12cb91ba141109fde86acdd4bcb6b">8d15e4b51be141109fde86acdd4bcb32</sys_ui_section>
+            <sys_updated_by>$jcoyne</sys_updated_by>
+            <sys_updated_on>2022-02-08 22:29:29</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sn_wsd_core_building</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$jcoyne</sys_created_by>
+            <sys_created_on>2022-02-08 22:28:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8d15e4b51be141109fde86acdd4bcb32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sn_wsd_core_building</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_8d15e4b51be141109fde86acdd4bcb32</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Occupational Health and Safety" name="hoc_ohs">fff12cb91ba141109fde86acdd4bcb6b</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

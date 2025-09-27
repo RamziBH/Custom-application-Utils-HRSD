@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Validate Outbound Email">80f2013387da851050d2eca73cbb35f6</copied_from>
+        <description>Validate that an email was generated matching query:
+Recipients = {{Step 2: Create a User.User.Email}}
+and Created &gt; javascript:gs.hoursAgo(1)
+and Subject contains Safety Complaints work updated
+With a failure timeout of 60 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>22</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-29 14:24:52</sys_created_on>
+        <sys_id>a84ccf5187ee055050d2eca73cbb35d4</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_a84ccf5187ee055050d2eca73cbb35d4</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:05:12</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - Safety Complaint Workflow Emp disagree Mgr agrees Commit. Mgr disagrees Commit.">5d227541876a415050d2eca73cbb358f</test>
+        <timeout>1970-01-01 00:01:00</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=a84ccf5187ee055050d2eca73cbb35d4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a84ccf5187ee055050d2eca73cbb35d4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-29 14:24:53</sys_created_on>
+        <sys_id>454c839187ee055050d2eca73cbb359e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-03-29 14:24:53</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>a84ccf5187ee055050d2eca73cbb35d4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-29 14:24:53</sys_created_on>
+        <sys_id>4d4c839187ee055050d2eca73cbb359d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:29:49</sys_updated_on>
+        <value>recipients={{step['6122b941876a415050d2eca73cbb35ff'].user.email}}^sys_created_onRELATIVEGT@hour@ago@1^subjectLIKESafety Complaints work updated^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a84ccf5187ee055050d2eca73cbb35d4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a84ccf5187ee055050d2eca73cbb35d4</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-03-29 14:24:53</sys_created_on>
+        <sys_id>c94c839187ee055050d2eca73cbb359e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-28 13:29:49</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>recipients={{step['6122b941876a415050d2eca73cbb35ff'].user.email}}^sys_created_onRELATIVEGT@hour@ago@1^subjectLIKESafety Complaints work updated^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>a84ccf5187ee055050d2eca73cbb35d4</id>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-07 17:14:37</sys_created_on>
+        <sys_id>b86e9e4f1b7761989fde86acdd4bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-07 17:14:37</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

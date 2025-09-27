@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Validate Outbound Email">6b71bcb887d4915050d2eca73cbb35e6</copied_from>
+        <description>Validate that an email was generated matching query:
+Recipients contains ohsdemo@gmail.com
+and Created &gt; javascript:gs.minutesAgo(1)
+and Body contains {{Step 3: Create a User.User.Name}}
+and Body contains OHSM
+and Body contains nav_to.do
+and Body contains x_hccc_hoc_ohs_investigation_case
+and Body contains {{Step 16: Submit Record Producer (SP).Record}}
+and Recipients contains hocmanagerpersona.vax@parlissi.gc.ca
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>23</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 17:43:40</sys_created_on>
+        <sys_id>d9e8adf0875c915050d2eca73cbb353b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_d9e8adf0875c915050d2eca73cbb353b</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-15 19:48:37</sys_updated_on>
+        <table/>
+        <test display_value="OHS - H&amp;V Behalf No Witness Yes Occurrence Physical Notify Mgr Location Email Result Injury">ace8a5f0875c915050d2eca73cbb357e</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d9e8adf0875c915050d2eca73cbb353b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d9e8adf0875c915050d2eca73cbb353b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 17:43:40</sys_created_on>
+        <sys_id>11e8adf0875c915050d2eca73cbb353d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-22 17:43:40</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d9e8adf0875c915050d2eca73cbb353b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 17:43:40</sys_created_on>
+        <sys_id>5de8adf0875c915050d2eca73cbb353c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-15 19:48:37</sys_updated_on>
+        <value>recipientsLIKEohsdemo@gmail.com^sys_created_onRELATIVEGT@minute@ago@1^bodyLIKE{{step['34e86df0875c915050d2eca73cbb3569'].user.name}}^bodyLIKEOHSM^bodyLIKEnav_to.do^bodyLIKEx_hccc_hoc_ohs_investigation_case^bodyLIKE{{step['c9e86df0875c915050d2eca73cbb35e5'].record_id}}^recipientsLIKEhocmanagerpersona.vax@parlissi.gc.ca^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d9e8adf0875c915050d2eca73cbb353b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d9e8adf0875c915050d2eca73cbb353b</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 17:43:40</sys_created_on>
+        <sys_id>95e8adf0875c915050d2eca73cbb353d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-15 19:48:37</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>recipientsLIKEohsdemo@gmail.com^sys_created_onRELATIVEGT@minute@ago@1^bodyLIKE{{step['34e86df0875c915050d2eca73cbb3569'].user.name}}^bodyLIKEOHSM^bodyLIKEnav_to.do^bodyLIKEx_hccc_hoc_ohs_investigation_case^bodyLIKE{{step['c9e86df0875c915050d2eca73cbb35e5'].record_id}}^recipientsLIKEhocmanagerpersona.vax@parlissi.gc.ca^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d9e8adf0875c915050d2eca73cbb353b</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-23 11:52:22</sys_created_on>
+        <sys_id>1112e54987dcd15050d2eca73cbb3580</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-23 11:52:22</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

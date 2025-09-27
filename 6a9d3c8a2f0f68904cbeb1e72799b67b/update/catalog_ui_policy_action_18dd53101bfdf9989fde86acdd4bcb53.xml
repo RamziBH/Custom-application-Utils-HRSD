@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Flu and COVID-19 vaccination clinic">a57877a91bfed1509fde86acdd4bcb43</catalog_item>
+        <catalog_variable>IO:a63811f7b3584010e0c1a72256a8dc91</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-10-06 18:54:30</sys_created_on>
+        <sys_id>18dd53101bfdf9989fde86acdd4bcb53</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>location</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_18dd53101bfdf9989fde86acdd4bcb53</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-10-06 19:04:29</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Configure sn_walkup_variable_set">f68d939c1bbdf9989fde86acdd4bcbfc</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>location</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

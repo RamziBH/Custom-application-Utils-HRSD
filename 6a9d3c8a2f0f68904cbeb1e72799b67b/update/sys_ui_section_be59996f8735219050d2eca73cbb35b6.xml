@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Employee Information" section_id="be59996f8735219050d2eca73cbb35b6" sys_domain="global" table="x_hccc_hoc_ohs_telework_agreement" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_person</element>
+            <position>0</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-23 18:05:10</sys_created_on>
+            <sys_id>626a3ee41b8be1d0893442a7bc4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="Default view">be59996f8735219050d2eca73cbb35b6</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-23 18:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_title</element>
+            <position>1</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-23 18:05:10</sys_created_on>
+            <sys_id>666a3ee41b8be1d0893442a7bc4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="Default view">be59996f8735219050d2eca73cbb35b6</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-23 18:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>designated_workplace_address</element>
+            <position>2</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-23 18:05:10</sys_created_on>
+            <sys_id>6a6a3ee41b8be1d0893442a7bc4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="Default view">be59996f8735219050d2eca73cbb35b6</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-23 18:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-23 18:05:10</sys_created_on>
+            <sys_id>6e6a3ee41b8be1d0893442a7bc4bcbca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="Default view">be59996f8735219050d2eca73cbb35b6</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-23 18:05:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manager_name</element>
+            <position>4</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-23 18:05:10</sys_created_on>
+            <sys_id>626a3ee41b8be1d0893442a7bc4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="Default view">be59996f8735219050d2eca73cbb35b6</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-23 18:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_service_area</element>
+            <position>5</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-23 18:05:10</sys_created_on>
+            <sys_id>666a3ee41b8be1d0893442a7bc4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="Default view">be59996f8735219050d2eca73cbb35b6</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-23 18:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>service_area</element>
+            <position>6</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-23 18:05:10</sys_created_on>
+            <sys_id>6a6a3ee41b8be1d0893442a7bc4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="Default view">be59996f8735219050d2eca73cbb35b6</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-23 18:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_group</element>
+            <position>7</position>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-05-23 18:05:10</sys_created_on>
+            <sys_id>6e6a3ee41b8be1d0893442a7bc4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Information" display_value="Employee Information" name="x_hccc_hoc_ohs_telework_agreement" sys_domain="global" view="Default view">be59996f8735219050d2eca73cbb35b6</sys_ui_section>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-05-23 18:05:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Employee Information</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_telework_agreement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-03-31 15:24:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be59996f8735219050d2eca73cbb35b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_telework_agreement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_be59996f8735219050d2eca73cbb35b6</sys_update_name>
+            <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-03-31 15:24:24</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

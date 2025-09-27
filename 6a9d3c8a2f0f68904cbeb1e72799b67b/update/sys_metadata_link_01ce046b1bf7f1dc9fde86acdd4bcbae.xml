@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>6cff7bd71bbf71dc9fde86acdd4bcb63</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_group">
+    <sys_user_group action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <average_daily_fte/>
+        <cost_center/>
+        <default_assignee/>
+        <description>DSRP Directors group - Financial Planning/Resource Management. &#13;
+  - Current access to OHSM Dashboard and other high level Dashboards in future</description>
+        <email/>
+        <exclude_manager>false</exclude_manager>
+        <hourly_rate>0</hourly_rate>
+        <include_members>false</include_members>
+        <manager/>
+        <name>DSRP-FAP-Directors</name>
+        <parent display_value="OHSM-Dashboard Access" name="OHSM-Dashboard Access">f17ef39b1b7f71dc9fde86acdd4bcb50</parent>
+        <roles/>
+        <source/>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-01-23 15:10:55</sys_created_on>
+        <sys_id>6cff7bd71bbf71dc9fde86acdd4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-23 15:10:55</sys_updated_on>
+        <type/>
+        <u_fpc_do_not_delete>false</u_fpc_do_not_delete>
+        <u_fpc_hide_record>false</u_fpc_hide_record>
+        <u_hoc_ad_sync_group_name/>
+        <u_hoc_disable_group_member_cleanup>false</u_hoc_disable_group_member_cleanup>
+        <u_hoc_used_for_elevation>false</u_hoc_used_for_elevation>
+        <x_hccc_base_ad_objectid/>
+        <x_hccc_base_administration_groups/>
+        <x_hccc_base_administrator/>
+    </sys_user_group>
+    <sys_translated_text action="delete_multiple" query="documentkey=6cff7bd71bbf71dc9fde86acdd4bcb63"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-01-23 16:15:13</sys_created_on>
+        <sys_id>01ce046b1bf7f1dc9fde86acdd4bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DSRP-FAP-Directors</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_01ce046b1bf7f1dc9fde86acdd4bcbae</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-23 16:15:13</sys_updated_on>
+        <tablename>sys_user_group</tablename>
+    </sys_metadata_link>
+</record_update>

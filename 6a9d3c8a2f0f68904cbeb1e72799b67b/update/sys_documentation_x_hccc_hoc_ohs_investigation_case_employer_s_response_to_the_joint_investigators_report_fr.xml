@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="employer_s_response_to_the_joint_investigators_report" label="Employer's response to the joint investigators report" language="fr" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>employer_s_response_to_the_joint_investigators_report</element>
+            <help/>
+            <hint>En consultation avec OHS, sur la base du rapport d'enquête conjoint, vous pouvez répondre aux recommandations avec un plan d'action, en identifiant les actions correctives et les délais de mise en œuvre. S'il est conclu qu'une situation dangereuse existe, veiller à ce qu'aucun employé est soumis à la situation dangereuse et prend immédiatement des mesures pour y remédier.</hint>
+            <label>Employer's response to the joint investigators report</label>
+            <language>fr</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Employer's response to the joint investigators reports</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-07 07:07:41</sys_created_on>
+            <sys_id>917d88001be2b4109fde86acdd4bcb97</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Employer's response to the joint investigators report</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_employer_s_response_to_the_joint_investigators_report_fr</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

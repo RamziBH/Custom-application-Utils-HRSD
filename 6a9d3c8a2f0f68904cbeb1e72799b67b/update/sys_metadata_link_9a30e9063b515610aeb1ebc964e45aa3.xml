@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>eda70d791be3ce14813f844fdd4bcb91</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_schedule_span">
+    <cmn_schedule_span action="INSERT_OR_UPDATE">
+        <all_day>true</all_day>
+        <calendar/>
+        <counter/>
+        <days_of_week>1</days_of_week>
+        <end/>
+        <end_date_time>20241107T045959Z</end_date_time>
+        <float_day>1</float_day>
+        <float_week>1</float_week>
+        <group/>
+        <index0/>
+        <index1/>
+        <index2/>
+        <index3/>
+        <index4/>
+        <index5/>
+        <index6/>
+        <index7/>
+        <index8/>
+        <index9/>
+        <month>1</month>
+        <monthly_type>dom</monthly_type>
+        <name>2024 Vaccination Clinic Before Nov 7</name>
+        <notes/>
+        <override_start_date>00000000</override_start_date>
+        <parent/>
+        <repeat_count>1</repeat_count>
+        <repeat_type/>
+        <repeat_until>00000000</repeat_until>
+        <schedule display_value="2024 Vaccination Clinic">268749f51be3ce14813f844fdd4bcb1b</schedule>
+        <show_as>free</show_as>
+        <span_name/>
+        <start/>
+        <start_date_time>20000807T040000Z</start_date_time>
+        <sys_class_name>cmn_schedule_span</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-22 19:50:32</sys_created_on>
+        <sys_id>eda70d791be3ce14813f844fdd4bcb91</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-17 14:44:06</sys_updated_on>
+        <type/>
+        <user/>
+        <yearly_type>doy</yearly_type>
+    </cmn_schedule_span>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-18 16:05:35</sys_created_on>
+        <sys_id>9a30e9063b515610aeb1ebc964e45aa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2024 Vaccination Clinic Before Nov 7</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_9a30e9063b515610aeb1ebc964e45aa3</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-18 16:05:35</sys_updated_on>
+        <tablename>cmn_schedule_span</tablename>
+    </sys_metadata_link>
+</record_update>

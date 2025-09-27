@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>getFieldFormattedString(inputString, maxCharWidth, maxLines, annexString)</notes>
+        <order>18</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-29 15:37:48</sys_created_on>
+        <sys_id>347b7ca01b3f61d49fde86acdd4bcbdb</sys_id>
+        <sys_mod_count>77</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_347b7ca01b3f61d49fde86acdd4bcbdb</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:16</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - HoCOHSMUtils">96f774e41bfb61d49fde86acdd4bcb8e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=347b7ca01b3f61d49fde86acdd4bcbdb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>347b7ca01b3f61d49fde86acdd4bcbdb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-29 15:37:48</sys_created_on>
+        <sys_id>608bb0e01b3f61d49fde86acdd4bcbb2</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-13 19:01:26</sys_updated_on>
+        <value>// jasmine tests and custom assertions&#13;
+(function(outputs, steps, params, stepResult, assertEqual) {&#13;
+    var ohsmUtils = new x_hccc_hoc_ohs.HoCOHSMUtils();&#13;
+	var INPUT_TEXT = {&#13;
+		SINGLE_LINE: {&#13;
+			WIDTH50_NO_SPACE: 'WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW',&#13;
+			WIDTH100_NO_SPACE: 'WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW',&#13;
+			WIDTH50: 'WWWWW WWWWWWW WWWWWWWWWW WWWWWWW WWW WWWWWWWW WWWW',&#13;
+			WIDTH100: 'WWWWW WWWWWWW WWWWWWWWWW WWWWWWW WWW WWWWWWWW WWWWWWWWW WWWWWWW WWWWWWWWWW WWWWWWW WWW WWWWWWWW WWWW',&#13;
+			WIDTH445: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'&#13;
+		},&#13;
+		MULTI_LINES: {&#13;
+			HEIGHT4_WIDTH125_RETURNS_RN:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \r\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \r\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \r\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',&#13;
+			HEIGHT4_WIDTH125_RETURNS_N:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',&#13;
+			HEIGHT4_WIDTH125_RETURNS_R:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \rUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \rDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \rExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',&#13;
+			HEIGHT8_WIDTH102_RETURNS_N: 'Lorem ipsum dolor sit amet, \nconsectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \nUt enim ad minim veniam, \nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \nExcepteur sint occaecat cupidatat non proident, \nsunt in culpa qui officia deserunt mollit anim id est laborum.',&#13;
+			HEIGHT5_WIDTH25_RETURNS_N_NO_SPACE: 'WWWWWWWWWWWWWWWWWWWWWWWWW\nWWWWWWWWWWWWWWWWWWWWWWWWW\nWWWWWWWWWWWWWWWWWWWWWWWWW\nWWWWWWWWWWWWWWWWWWWWWWWWW\nWWWWWWWWWWWWWWWWWWWWWWWWW',&#13;
+			HEIGHT13_WIDTH50_RETURNS_N: 'Lorem ipsum dolor sit amet, \nconsectetur adipiscing elit, \nsed do eiusmod tempor \nincididunt ut labore et dolore magna aliqua. \nUt enim ad minim veniam, \nquis nostrud exercitation ullamco laboris nisi \nut aliquip ex ea commodo consequat. \nDuis aute irure dolor in reprehenderit in \nvoluptate velit esse cillum dolore eu fugiat \nnulla pariatur. \nExcepteur sint occaecat cupidatat non proident, \nsunt in culpa qui officia deserunt mollit anim \nid est laborum.'		}&#13;
+	};&#13;
+&#13;
+	describe('Passing a single line', function(){&#13;
+		describe('that is smaller or equal as the field width', function(){&#13;
+			describe('and is smaller or equal as the field height', function(){&#13;
+				it('should return the string as is when smaller', function(){&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH50, 100, 1);&#13;
+					expect(res.inputFits).toBe(true);&#13;
+					expect(res.input).toEqual(res.formattedString);&#13;
+				});&#13;
+				it('should return the string as is when equal', function(){&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH50, 50, 1);&#13;
+					expect(res.inputFits).toBe(true);&#13;
+					expect(res.input).toEqual(res.formattedString);&#13;
+				});&#13;
+			});&#13;
+		});&#13;
+		describe('that is wider than the field width', function(){&#13;
+			describe('and is smaller or equal as the field height', function(){&#13;
+				it('should return the string as is', function(){&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH50, 49, 2);&#13;
+					expect(res.inputFits).toBe(true);&#13;
+					expect(res.input).toEqual(res.formattedString);&#13;
+				});&#13;
+				it('should return the string as is when there are NO spaces', function(){&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH50_NO_SPACE, 25, 2);&#13;
+					expect(res.inputFits).toBe(true);&#13;
+					expect(res.input).toEqual(res.formattedString);&#13;
+				});&#13;
+				it('should return the string as is when there are NO spaces even when multiple line wrap', function(){&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH100_NO_SPACE, 25, 4);&#13;
+					expect(res.inputFits).toBe(true);&#13;
+					expect(res.input).toEqual(res.formattedString);&#13;
+				});&#13;
+			});&#13;
+			describe('and is bigger than the field height', function(){&#13;
+				it('should trucate the string', function(){&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH50, 49, 1);&#13;
+					expect(res.inputFits).toBe(false);&#13;
+					expect(res.input).toEqual(INPUT_TEXT.SINGLE_LINE.WIDTH50);&#13;
+					expect(res.input).not.toEqual(res.formattedString);&#13;
+					expect(res.input.substring(0, res.formattedString.length)).toEqual(res.formattedString);&#13;
+				});&#13;
+				it('should trucate the string even if it almost fits', function(){&#13;
+					var maxWidth = 25;&#13;
+					var maxHeight = 2;&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH50_NO_SPACE+"W", maxWidth, maxHeight); //1 char too many&#13;
+					expect(res.inputFits).toBe(false);&#13;
+					expect(res.input).not.toEqual(res.formattedString);&#13;
+					expect(res.formattedString.length).toBeLessThanOrEqual(maxWidth*maxHeight);&#13;
+					expect(res.input.substring(0, res.formattedString.length)).toEqual(res.formattedString);&#13;
+				});&#13;
+				it('should trucate the string even if it almost fits and takes more than 2 lines', function(){&#13;
+					var maxWidth = 25;&#13;
+					var maxHeight = 4;&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH100_NO_SPACE+"W", maxWidth, maxHeight); //1 char too many&#13;
+					expect(res.inputFits).toBe(false);&#13;
+					expect(res.input).not.toEqual(res.formattedString);&#13;
+					expect(res.formattedString.length).toBeLessThanOrEqual(maxWidth*maxHeight);&#13;
+					expect(res.input.substring(0, res.formattedString.length)).toEqual(res.formattedString);&#13;
+				});&#13;
+&#13;
+				describe('and an annex is provided', function(){&#13;
+					it('should truncate when annex is empty', function(){&#13;
+						var maxWidth = 100;&#13;
+						var maxHeight = 2;&#13;
+						var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH445, maxWidth, maxHeight, "");&#13;
+						expect(res.inputFits).toBe(false);&#13;
+						expect(res.input).not.toEqual(res.formattedString);&#13;
+						expect(res.formattedString.length).toBeLessThanOrEqual(maxHeight*maxWidth);&#13;
+						expect(res.input.substring(0, res.formattedString.length)).toEqual(res.formattedString);&#13;
+					});&#13;
+					it('should truncate and add annex', function(){&#13;
+						var maxWidth = 100;&#13;
+						var maxHeight = 2;&#13;
+						var annexString = "abc";&#13;
+						var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH445, maxWidth, 2, annexString);&#13;
+						expect(res.inputFits).toBe(false);&#13;
+						expect(res.input).not.toEqual(res.formattedString);&#13;
+						expect(res.formattedString.lastIndexOf(annexString)).toBeLessThanOrEqual(maxHeight*maxWidth-annexString.length);&#13;
+						expect(res.formattedString.length).toBeLessThanOrEqual(maxHeight*maxWidth);&#13;
+					});&#13;
+					it('should throw and error when annex is longuer than maxWidth*maxHeight', function(){&#13;
+						var maxWidth = 50;&#13;
+						var maxHeight = 2;&#13;
+						var annexString = "AnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnexAnnex1"; //101 chars&#13;
+						expect(function(){&#13;
+							var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.SINGLE_LINE.WIDTH445, maxWidth, 2, annexString);&#13;
+						}).toThrow();&#13;
+					});&#13;
+				});&#13;
+			});&#13;
+		});&#13;
+	});&#13;
+&#13;
+	describe('Passing multiple lines ', function(){&#13;
+		describe('that are smaller or equal as the field width', function(){&#13;
+			describe('and have equal or fewer lines as the field height', function(){&#13;
+				it('should return the string as is when smaller', function(){&#13;
+					var maxWidth = 100;&#13;
+					var maxHeight = 25;&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT13_WIDTH50_RETURNS_N, maxWidth, maxHeight);&#13;
+					expect(res.inputFits).toBe(true);&#13;
+					expect(res.input).toEqual(res.formattedString);&#13;
+				});&#13;
+				it('should return the string as is when equal', function(){&#13;
+					var maxWidth = 50;&#13;
+					var maxHeight = 13;&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT13_WIDTH50_RETURNS_N, maxWidth, maxHeight);&#13;
+					expect(res.inputFits).toBe(true);&#13;
+					expect(res.input).toEqual(res.formattedString);&#13;
+				});&#13;
+			});&#13;
+			describe('and have more lines as the field height', function(){&#13;
+				it('should truncate the string', function(){&#13;
+					var maxWidth = 50;&#13;
+					var maxHeight = 12;&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT13_WIDTH50_RETURNS_N, maxWidth, maxHeight);&#13;
+					expect(res.inputFits).toBe(false);&#13;
+					expect(res.input).not.toEqual(res.formattedString);&#13;
+					expect(res.formattedString.length).toBeLessThanOrEqual(maxWidth*maxHeight);&#13;
+					expect(res.input.substring(0, res.formattedString.length)).toEqual(res.formattedString);&#13;
+				});&#13;
+			});&#13;
+		});&#13;
+		describe('that are wider than the field width', function(){&#13;
+			describe('and have an equal amount of lines as the field height', function(){&#13;
+				it('should truncate the string', function(){ //because of word wrapping&#13;
+					var maxWidth = 100;&#13;
+					var maxHeight = 8;&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT8_WIDTH102_RETURNS_N, maxWidth, maxHeight);&#13;
+					expect(res.inputFits).toBe(false);&#13;
+					expect(res.input).not.toEqual(res.formattedString);&#13;
+					expect(res.formattedString.length).toBeLessThanOrEqual(maxWidth*maxHeight);&#13;
+					expect(res.input.substring(0, res.formattedString.length)).toEqual(res.formattedString);&#13;
+				});&#13;
+			});&#13;
+			describe('and have an smaller amount of lines than the field height', function(){&#13;
+				it('should truncate the string', function(){ //because of word wrapping&#13;
+					var maxWidth = 100;&#13;
+					var maxHeight = 15;&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT8_WIDTH102_RETURNS_N, maxWidth, maxHeight);&#13;
+					expect(res.inputFits).toBe(true);&#13;
+					expect(res.input).toEqual(res.formattedString);&#13;
+				});&#13;
+			});&#13;
+			describe('and have an larger amount of lines than the field height', function(){&#13;
+				it('should truncate the string', function(){ //because of word wrapping&#13;
+					var maxWidth = 100;&#13;
+					var maxHeight = 5;&#13;
+					var res = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT8_WIDTH102_RETURNS_N, maxWidth, maxHeight);&#13;
+					expect(res.inputFits).toBe(false);&#13;
+					expect(res.input).not.toEqual(res.formattedString);&#13;
+					expect(res.formattedString.length).toBeLessThanOrEqual(maxWidth*maxHeight);&#13;
+					expect(res.input.substring(0, res.formattedString.length)).toEqual(res.formattedString);&#13;
+				});&#13;
+			});&#13;
+		});&#13;
+		describe('using different return types', function(){&#13;
+			it('Should return the input when it fits', function(){&#13;
+				var maxWidth = 150;&#13;
+				var maxHeight = 10;&#13;
+				var resrn = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT4_WIDTH125_RETURNS_RN, maxWidth, maxHeight);&#13;
+				var resn = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT4_WIDTH125_RETURNS_N, maxWidth, maxHeight);&#13;
+				var resr = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT4_WIDTH125_RETURNS_R, maxWidth, maxHeight);&#13;
+				expect(resrn.inputFits).toBe(true);&#13;
+				expect(resn.inputFits).toBe(true);&#13;
+				expect(resr.inputFits).toBe(true);&#13;
+				expect(resrn.input).toEqual(resrn.formattedString);&#13;
+				expect(resn.input).toEqual(resn.formattedString);&#13;
+				expect(resr.input).toEqual(resr.formattedString);&#13;
+				expect(resrn.formattedString).toContain("\r\n");&#13;
+				expect(resn.formattedString).not.toContain("\r\n");&#13;
+				expect(resn.formattedString).toContain("\n");&#13;
+				expect(resr.formattedString).not.toContain("\r\n");&#13;
+				expect(resr.formattedString).toContain("\r");&#13;
+			});&#13;
+			it('Should return the same output when it doesn\'t fit', function(){&#13;
+				var maxWidth = 75;&#13;
+				var maxHeight = 3;&#13;
+				var resrn = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT4_WIDTH125_RETURNS_RN, maxWidth, maxHeight);&#13;
+				var resn = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT4_WIDTH125_RETURNS_N, maxWidth, maxHeight);&#13;
+				var resr = ohsmUtils.getFieldFormattedString(INPUT_TEXT.MULTI_LINES.HEIGHT4_WIDTH125_RETURNS_R, maxWidth, maxHeight);&#13;
+				expect(resrn.inputFits).toBe(false);&#13;
+				expect(resn.inputFits).toBe(false);&#13;
+				expect(resr.inputFits).toBe(false);&#13;
+				expect(resrn.formattedString).toEqual(resn.formattedString);&#13;
+				expect(resrn.formattedString).toEqual(resr.formattedString);&#13;
+				expect(resn.formattedString.length).toBeLessThanOrEqual(maxWidth*maxHeight);&#13;
+				expect(resn.input.substring(0, resn.formattedString.length)).toEqual(resn.formattedString);&#13;
+				expect(resrn.formattedString).not.toContain("\r\n");&#13;
+				expect(resrn.formattedString).toContain("\n");&#13;
+				expect(resr.formattedString).not.toContain("\r");&#13;
+				expect(resr.formattedString).toContain("\n");&#13;
+			});&#13;
+		});&#13;
+	});&#13;
+})(outputs, steps, params, stepResult, assertEqual);&#13;
+jasmine.getEnv().execute();</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>347b7ca01b3f61d49fde86acdd4bcbdb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-29 15:37:48</sys_created_on>
+        <sys_id>ac8bb0e01b3f61d49fde86acdd4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-06-29 15:37:48</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

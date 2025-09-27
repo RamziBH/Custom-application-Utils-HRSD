@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition table="x_hccc_hoc_ohs_investigation_case">hr_service=a94b0c891b7e7c109fde86acdd4bcbc1^manager_nameVALCHANGES^EQ<item display_table="sn_hr_core_service" display_value="Workplace inspection" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="a94b0c891b7e7c109fde86acdd4bcbc1"/>
+            <item endquery="false" field="manager_name" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>antivirus.infected</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img style="align: baseline;" title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="">&nbsp;</p>
+<p><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"> <em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+<p><strong>Please do not reply to this email. This system cannot receive messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">Notification: Workplace inspection</span></p>
+<p>This email is to notify you that a Workplace inspection was been logged and below is the information regarding the case&nbsp;<strong>${number}</strong>:</p>
+<p>&nbsp;</p>
+<p>Employee name: ${subject_person_hr_profile}</p>
+<p>Where:&nbsp; ${wi_building} - Floor ${wi_floor_inspected} - ${wi_area_inspected}</p>
+<p>When: ${wi_date_time_of_inspection}</p>
+<p>Please open the following <a href="${mail_script:x_hccc_hoc_ohs_inv_case_link}" target="_blank" rel="noopener">link</a></p>
+<p>&nbsp;</p>
+<p>Thank you,</p>
+<p>&nbsp;</p>
+<div>
+<p><strong>Occupational Health and Safety</strong></p>
+<p>House of Commons</p>
+<p>50 O&rsquo;Connor, 8<span data-fontsize="11">th</span> floor <br>Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Office: 613-995-3614</p>
+</div>
+<hr noshade="noshade">
+<p><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p>&nbsp;</p>
+<p><strong>Pri&egrave;re de ne pas r&eacute;pondre au pr&eacute;sent courriel, car il provient d&rsquo;une adresse qui ne peut pas recevoir de messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">AVIS: Inspection du lieu de travail&nbsp;</span></p>
+<p><span data-bm="111">Ce</span> <span data-bm="113">courriel</span> <span data-bm="115">a</span> <span data-bm="117">pour</span> <span data-bm="119">but</span> <span data-bm="121">de</span> <span data-bm="123">vous</span> <span data-bm="125">informer</span> <span data-bm="127">qu</span><span data-bm="128">&rsquo;</span><span data-bm="129">une</span> <span data-bm="131">inspection</span> <span data-bm="133">du</span> <span data-bm="135">lieu</span> <span data-bm="137">de</span> <span data-bm="139">travail</span> <span data-bm="141">a</span> <span data-bm="143">&eacute;t&eacute;</span> <span data-bm="145">enregistr&eacute;e</span> <span data-bm="147">et</span> <span data-bm="149">vous</span> <span data-bm="151">trouverez</span> <span data-bm="153">ci</span><span data-bm="154">-</span><span data-bm="155">dessous</span> <span data-bm="157">les</span> <span data-bm="159">renseignements</span> <span data-bm="161">concernant</span> <span data-bm="163">le</span> <span data-bm="165">cas</span> <span data-bm="167">$</span><span data-bm="168">{</span><span data-bm="169">number</span><span data-bm="170">}</span> <span data-bm="172">:</span></p>
+<p>&nbsp;</p>
+<p>Nom de l'employ&eacute; : ${subject_person_hr_profile}</p>
+<p>O&ugrave; : &nbsp;${wi_building} - Floor ${wi_floor_inspected} - ${wi_area_inspected}</p>
+<p>Quand : ${wi_date_time_of_inspection}</p>
+<p>Veuillez ouvrir le <a href="${mail_script:x_hccc_hoc_ohs_inv_case_link}" target="_blank" rel="noopener">lien</a> suivant</p>
+<p>&nbsp;</p>
+<p>Merci,</p>
+<p>&nbsp;</p>
+<div>
+<p><strong>Sant&eacute; et s&eacute;curit&eacute; au travail</strong></p>
+<p>Chambre des communes</p>
+<p>50 Rue O&rsquo;Connor, 8<span data-fontsize="11">e</span> &eacute;tage <br>Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Bureau: 613-995-3614</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HoC - Workplace inspection - Manager  notification</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>manager_name</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
+        <send_self>false</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Notification: Workplace inspection / Avis: Inspection du lieu de travail</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-07 14:33:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b5c210befb51aad095e5fb3f4eefdc8a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>HoC - Workplace inspection - Manager  notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_b5c210befb51aad095e5fb3f4eefdc8a</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-07 15:31:07</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>b5c210befb51aad095e5fb3f4eefdc8a</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-05-07 14:34:14</sys_created_on>
+        <sys_id>50e210fefb51aad095e5fb3f4eefdce1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-05-07 14:34:14</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

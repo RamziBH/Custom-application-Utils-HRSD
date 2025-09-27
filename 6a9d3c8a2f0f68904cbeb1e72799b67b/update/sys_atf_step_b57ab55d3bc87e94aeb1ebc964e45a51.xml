@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that the answer match the following condition:
+Requestor (primary contact) =  Krasnova, Ilona
+and Disable Requestor Notification = false
+and Search all users = false
+and Phone = 5145656676
+and Requested for =  Krasnova, Ilona
+and Contact type = Phone
+and Short description = new test
+and Detect Language On = true
+and Detect Language Message = Please ensure to provide a short description in the language of the requestor.
+and Language Check Passed = Yes
+and Service = Telephony Service
+and HoC or MP Managed  = HoC Managed 
+and Affected User Language: = en
+and Pilot User Name: = 
+and Is Re-Seeking? = No
+and Presentation Scheduled: = false
+and Info Gathering Completed ? = false
+and Are Supporting Network Documents attached ?  = false
+and Office Deployed:  = No
+and Resolved on first contact? = No
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>31</order>
+        <step_config display_value="Validate Variable Values">5a36c681c37e220076173b0ac3d3aecf</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-16 23:08:36</sys_created_on>
+        <sys_id>b57ab55d3bc87e94aeb1ebc964e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Variable Values</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_b57ab55d3bc87e94aeb1ebc964e45a51</sys_update_name>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 23:08:36</sys_updated_on>
+        <table/>
+        <test display_value="ATF Generated Test - Service Catalog, CTS Deployment, Gad Dayan">597a39993bc87e94aeb1ebc964e45a01</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b57ab55d3bc87e94aeb1ebc964e45a51"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b57ab55d3bc87e94aeb1ebc964e45a51</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-16 23:08:36</sys_created_on>
+        <sys_id>757ab55d3bc87e94aeb1ebc964e45a52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 23:08:36</sys_updated_on>
+        <value>IO:57902f5287d3551050d2eca73cbb351c=538ea5111b10d254c6c7a8ecbc4bcb89^IO:acc65ef21bf24e949fde86acdd4bcbd9=false^IO:c3540e6b1bb3fddc9fde86acdd4bcb2e=false^IO:a399ef528717551050d2eca73cbb354f=5145656676^IO:8c6163d287d3551050d2eca73cbb3529=538ea5111b10d254c6c7a8ecbc4bcb89^IO:5ff29c613b049614aeb1ebc964e45a59=phone^IO:15c857cb1b060a54813f844fdd4bcbfe=new test^IO:8e4be34bfbc5161495e5fb3f4eefdc43=true^IO:99eb6f8bfbc5161495e5fb3f4eefdc9f=Please ensure to provide a short description in the language of the requestor.^IO:52c9bf5d3b911e9caeb1ebc964e45a2e=Yes^IO:6afa5fe81bd0c214813f844fdd4bcbe3=e2e6d5b91bf355d09fde86acdd4bcba2^IO:35c41d6b3ba5d25072a3e58c24e45a99=ho_c_managed^IO:1745a5e33bedd25072a3e58c24e45aa9=en^IO:4d876de33b61165072a3e58c24e45a03=0a0aec6dfbe3d29895e5fb3f4eefdc43^IO:466a61a33b25165072a3e58c24e45ade=No^IO:c21c6deb3b65165072a3e58c24e45a67=false^IO:4e4a0e233b6d965072a3e58c24e45a0c=false^IO:b3ede5e73be5165072a3e58c24e45a39=false^IO:bf8d79a73b2d565072a3e58c24e45a9d=No^IO:f67f5e651b37f5949fde86acdd4bcb76=No</value>
+        <variable display_value="Catalog Conditions">8a682649c37e220076173b0ac3d3ae47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b57ab55d3bc87e94aeb1ebc964e45a51</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>#atf.cloud.runner.admin</sys_created_by>
+        <sys_created_on>2025-09-16 23:08:36</sys_created_on>
+        <sys_id>b17ab55d3bc87e94aeb1ebc964e45a52</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>#atf.cloud.runner.admin</sys_updated_by>
+        <sys_updated_on>2025-09-16 23:08:36</sys_updated_on>
+        <value>670d01233be1d25072a3e58c24e45a04</value>
+        <variable display_value="Item">b46842c1c37e220076173b0ac3d3aebc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_5a36c681c37e220076173b0ac3d3aecf^id=b57ab55d3bc87e94aeb1ebc964e45a51"/>
+</record_update>

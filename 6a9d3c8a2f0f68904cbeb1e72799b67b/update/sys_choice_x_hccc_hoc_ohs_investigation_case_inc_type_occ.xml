@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="inc_type_occ" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>inc_type_occ</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-26 02:42:29</sys_created_on>
+            <sys_id>bb6229b62f8320d04cbeb1e72799b6db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>inc_type_occ</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_inc_type_occ</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Loss of consciousness</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b15954eb3bc0b2d0aeb1ebc964e45a96</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:28</sys_updated_on>
+            <value>cons_lost</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disabling injury</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>315954eb3bc0b2d0aeb1ebc964e45af0</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:28</sys_updated_on>
+            <value>disab_injury</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency procedure</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>315994eb3bc0b2d0aeb1ebc964e45a31</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:28</sys_updated_on>
+            <value>emerg_proc</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Environmental release</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-17 14:58:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>755994eb3bc0b2d0aeb1ebc964e45a97</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:28</sys_updated_on>
+            <value>env_release</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Explosion</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd5994eb3bc0b2d0aeb1ebc964e45acb</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-10 18:46:38</sys_updated_on>
+            <value>explosion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>First aid</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-17 14:58:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f559d4eb3bc0b2d0aeb1ebc964e45a00</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:28</sys_updated_on>
+            <value>first_aid</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Minor injury</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a59d4eb3bc0b2d0aeb1ebc964e45a28</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:29</sys_updated_on>
+            <value>minor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Near miss</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-17 14:58:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca59d4eb3bc0b2d0aeb1ebc964e45a50</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:29</sys_updated_on>
+            <value>near_miss</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-22 15:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca59d4eb3bc0b2d0aeb1ebc964e45a91</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:29</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>inc_type_occ</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Property damage</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-17 14:58:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8659d4eb3bc0b2d0aeb1ebc964e45aad</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-07-29 15:44:29</sys_updated_on>
+            <value>prop_damage</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

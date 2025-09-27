@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <alternate_portal/>
+        <css_variables>$brand-primary:#427a26;
+$body-bg:#ffffff;
+$state-success-text:#1e4335;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#427a26;
+$text-color:#333333;
+$sp-logo-margin-y:.5rem;
+$navbar-inverse-link-hover-color:#ffffff;
+$panel-bg:#fff;
+$brand-success:#48C891;
+$navbar-inverse-bg:#2E551B;
+$brand-warning:#DFD139;
+$brand-danger:#C83C36;
+$sp-tagline-color:#ffffff;
+$navbar-inverse-link-color:#ffffff;
+$brand-info:#6ABECF;
+$link-color:#427a26;
+$sp-logo-margin-x:15px;
+$btn-default-bg:#fff;
+$text-muted:#666666;</css_variables>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_certificate_based_authentication>false</enable_certificate_based_authentication>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="vaccination_clinic">add9a1e41b8e3d949fde86acdd4bcbbd</homepage>
+        <icon/>
+        <inactive>false</inactive>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="hoc_404">843eec561b733340028598aebd4bcb58</notfound_page>
+        <quick_start_config/>
+        <rtl_enabled>false</rtl_enabled>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-10-19 14:34:01</sys_created_on>
+        <sys_id>2d5dd9a01bca3d949fde86acdd4bcb11</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Vaccination Clinic</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_portal_2d5dd9a01bca3d949fde86acdd4bcb11</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-10-19 15:31:45</sys_updated_on>
+        <theme display_value="HoC Internal - No Header">4984d79f1b2320d0c261ed3cbc4bcbe1</theme>
+        <title>Vaccination Clinic</title>
+        <ts_index_group/>
+        <url_suffix>vaccination</url_suffix>
+        <user_registration_config/>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d5dd9a01bca3d949fde86acdd4bcb11"/>
+</record_update>

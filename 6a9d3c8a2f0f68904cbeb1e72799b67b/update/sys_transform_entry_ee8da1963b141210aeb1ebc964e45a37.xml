@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>reject</choice_action>
+        <coalesce>true</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Create Mitigation Actions">052d29923b141210aeb1ebc964e45a67</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+    const timeStamp = new Date().toISOString(); //performance.timeOrigin + performance.now();
+    const infoStr = 'OHS - ' + timeStamp + ' - Row: ' + source.sys_import_row +
+        ' - Create Mitigation Actions - Get Parent Hazard - ';
+
+    try {
+        const posCode = source.u_position_code.toString(); //toString otherwise it's an object (which could be empty)
+        const actionTaken = source.u_action_s__taken_by_manager.toString().trim();
+
+        if (posCode !== null && posCode !== '' &&
+            actionTaken !== null && actionTaken !== '') {
+            //gs.debug(infoStr + '\nPosCode Exists: ' + posCode + ' - so does action: ' + actionTaken);
+
+            const grPosCode = new GlideRecord('x_hccc_base_org_position_code');
+            const grPosRep = new GlideRecord('x_hccc_hoc_ohs_position_reports_to');
+            const grHira = new GlideRecord('x_hccc_hoc_ohs_hira_case');
+            const grHazard = new GlideRecord('x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment');
+
+            grPosCode.get('code', posCode); //should only have 1
+            grPosRep.get('position_code', grPosCode.getUniqueValue()); //position reports to
+            grHira.get('position_reporting_position', grPosRep.getUniqueValue()); //matching hira
+
+            //Finding the hazard
+            grHazard.addQuery('hira_case', grHira.getUniqueValue());
+            grHazard.addQuery('work_task_description', source.u_work_task___description.toString());
+            grHazard.addQuery('recommended_action', source.u_recommended__ller_crichton_.toString());
+            grHazard.addQuery('controls_present', source.u_controls_present.toString());
+            grHazard.addQuery('hazard_description', source.u_hazard_description.toString());
+            grHazard.addQuery('regulatory_reference', source.u_regulatory_reference.toString());
+
+            grHazard.query();
+
+            if (grHazard.next()) {
+                /*gs.debug(infoStr + '\nposCode: ' + posCode +
+                    ' - posCodeId: ' + grPosCode.getUniqueValue() +
+                    '\nPosRepId: ' + grPosRep.getUniqueValue() +
+                    '\nHiraCaseId: ' + grHira.getUniqueValue() +
+                    '\nHazardId: ' + grHazard.getUniqueValue() +
+                    '\n\nSource: ' +
+                    '\n|___work_task_description: ' + source.u_work_task___description.toString() +
+                    '\n|___recommended_action: ' + source.u_recommended__ller_crichton_.toString() +
+                    '\n|___controls_present: ' + source.u_controls_present.toString() +
+                    '\n|___hazard_description: ' + source.u_hazard_description.toString() +
+                    '\n|___regulatory_reference: ' + source.u_regulatory_reference.toString()
+                );*/
+
+                return grHazard.getUniqueValue();
+            } else {
+                //gs.warn(infoStr + 'Could not find parent hazard. Source: ' + JSON.stringify(source));
+                log.warn(infoStr + 'Could not find parent hazard.');
+            }
+        }
+    } catch (e) {
+        //gs.error(infoStr + 'ERROR: ' + e);
+        //gs.error(infoStr + 'ERROR - source content: ' + JSON.stringify(source));
+        log.error(infoStr + 'ERROR: ' + e);
+    }
+
+    //No Return since if there's no posCode we reject (returning NULL or undefined seems to be considered like there is a value)
+    //return null;
+})(source);]]></source_script>
+        <source_table>x_hccc_hoc_ohs_initial_hira_import</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-08-30 18:54:27</sys_created_on>
+        <sys_id>ee8da1963b141210aeb1ebc964e45a37</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_transform_entry_ee8da1963b141210aeb1ebc964e45a37</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-03 19:38:19</sys_updated_on>
+        <target_field>parent_hazard</target_field>
+        <target_table>x_hccc_hoc_ohs_hira_action</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

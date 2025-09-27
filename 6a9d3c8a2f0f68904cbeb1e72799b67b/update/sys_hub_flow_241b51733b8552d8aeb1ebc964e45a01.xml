@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=12101181000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>a1dde5e5fbc59e9495e5fb3f4eefdc67</copied_from>
+        <copied_from_name>HoC OHSM - Telework - Post Appro</copied_from_name>
+        <description>After manager approval send the telework agreement to unit 4/ERP. If the agreement failed to send after a certain period of time. Notify ERP.</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>hoc_ohsm__telework__agreement_failing_to_upload_to_unit4_erp</internal_name>
+        <label_cache>[{"name":"ff92c037-5f7a-4250-b421-cbe9e1459134.item.number","label":"3 - For Each➛Telework Agreement Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_telework_agreement","column_name":"number","usedInstances":{"1d346d8e-b134-4133-809b-5a3c57b6842d":["problematic_agreements-0"]}},{"name":"flow_variable.problematic_agreements","label":"Flow Variables➛Problematic agreements","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"1d346d8e-b134-4133-809b-5a3c57b6842d":["problematic_agreements-0"],"651982f5-ccb2-4689-aa39-112209bcf693":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"127d4ad0-ab86-45b9-8feb-f59a2d419995"}},{"name":"flow_variable.noemployeenumber","label":"Flow Variables➛No Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"651982f5-ccb2-4689-aa39-112209bcf693":[null],"98ceff59-7808-4a0a-a4e8-9bf36c93bba9":["noemployeenumber-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7377ccba-6644-4d6c-b090-30624e4b964b"}},{"name":"flow_variable.teleworkagreementstring","label":"Flow Variables➛Telework Agreement String","type":"string","base_type":"string","usedInstances":{"16530bbc-453d-456c-9e5c-c43bdcbd596e":["teleworkagreement"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"af15bd02-9695-46f9-a9bb-fb3e1bc3d8e6"}},{"name":"flow_variable.employeenumber","label":"Flow Variables➛Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"16530bbc-453d-456c-9e5c-c43bdcbd596e":["employeenumber"],"12f8954d-4104-4ad7-aa53-18d7ad74f03f":["condition"],"98ceff59-7808-4a0a-a4e8-9bf36c93bba9":["noemployeenumber-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"28af5671-c59c-4cbc-b51f-2b74b28b6a5a"}},{"name":"flow_variable.failed_upload","label":"Flow Variables➛Failed Upload","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{"d875edb4-53e0-47ca-afef-8c532ed87407":["failed_upload-0"],"5f8a3121-4df7-4de6-ac5e-a24cb37a541c":[null],"651982f5-ccb2-4689-aa39-112209bcf693":[null]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6c0564ad-e4ec-49e7-8fbe-733e48809c92"}},{"name":"16530bbc-453d-456c-9e5c-c43bdcbd596e.response_code","label":"8 - OHS - Telework - Send Agreement to Unit4➛response code","reference_display":"response code","type":"string","base_type":"string","usedInstances":{"20c3f6f0-e0b6-497e-bb34-c84aac3fff48":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"73f90bf4-0851-4994-885f-01c5565d14e5"}},{"name":"Repeat_1.run_start_date_time","label":"Trigger - Repeat ➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Repeat_1.run_start_time","label":"Trigger - Repeat ➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"333753be-298f-40c0-8e17-f4a96aaabde6.Records","label":"1 - Look Up Records➛Telework Agreement Records","reference":"x_hccc_hoc_ohs_telework_agreement","reference_display":"Telework Agreement","type":"records","base_type":"records","usedInstances":{"651982f5-ccb2-4689-aa39-112209bcf693":[null],"c88761e8-d924-438f-8f12-90b67b1f70ac":["items"],"1d346d8e-b134-4133-809b-5a3c57b6842d":["problematic_agreements-0"],"ff92c037-5f7a-4250-b421-cbe9e1459134":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"333753be-298f-40c0-8e17-f4a96aaabde6.Count","label":"1 - Look Up Records➛Nombre","reference_display":"Nombre","type":"integer","base_type":"integer","usedInstances":{"651982f5-ccb2-4689-aa39-112209bcf693":[null],"6e9d2e72-39a3-45e8-8ec2-10408dacb965":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>48f50224fbccaa9c95e5fb3f4eefdc0d</master_snapshot>
+        <master_snapshot_digest/>
+        <name>HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>58f50224fbccaa9c95e5fb3f4eefdca4</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 15:56:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>241b51733b8552d8aeb1ebc964e45a01</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_hub_flow_241b51733b8552d8aeb1ebc964e45a01</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:08</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_variable_value action="delete_multiple" query="document_key=241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2025-02-27 19:52:09</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>58f50224fbccaa9c95e5fb3f4eefdca4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:09</sys_updated_on>
+        <time>1970-01-01 10:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:58f50224fbccaa9c95e5fb3f4eefdca4^sys_idNOT IN10f50224fbccaa9c95e5fb3f4eefdca5"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:58f50224fbccaa9c95e5fb3f4eefdca4</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Guillaume Houde (AZ)">bd3c6d411b9bd810ea0eda02dd4bcb52</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2025-02-27 19:52:09</run_start>
+        <run_time>1970-01-01 10:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('58f50224fbccaa9c95e5fb3f4eefdca4');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>10f50224fbccaa9c95e5fb3f4eefdca5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:09</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">58f50224fbccaa9c95e5fb3f4eefdca4</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=241b51733b8552d8aeb1ebc964e45a01^sys_idNOT IN741b51733b8552d8aeb1ebc964e45a82,7c1b51733b8552d8aeb1ebc964e45a81,f01b51733b8552d8aeb1ebc964e45a82"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <label>Grab approved agreements</label>
+        <order>0</order>
+        <stage_id>0d7de702-43cf-4594-816b-af56c41bc5a3</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 15:56:45</sys_created_on>
+        <sys_id>741b51733b8552d8aeb1ebc964e45a82</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 17:32:29</sys_updated_on>
+        <type>standard</type>
+        <value>Grab approved agreements</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <label>Sending to Unit 4</label>
+        <order>1</order>
+        <stage_id>29aa22e3-2846-4d99-a589-2b42d6c568ef</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 15:56:45</sys_created_on>
+        <sys_id>7c1b51733b8552d8aeb1ebc964e45a81</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 17:32:29</sys_updated_on>
+        <type>standard</type>
+        <value>Sending to Unit 4</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <label>Grab stuck agreements</label>
+        <order>2</order>
+        <stage_id>2d095700-e812-4d5d-b798-2b37032944bc</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 15:56:45</sys_created_on>
+        <sys_id>f01b51733b8552d8aeb1ebc964e45a82</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 17:32:39</sys_updated_on>
+        <type>standard</type>
+        <value>Grab stuck agreements</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=241b51733b8552d8aeb1ebc964e45a01^sys_idNOT IN641b51733b8552d8aeb1ebc964e45a02"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>241b51733b8552d8aeb1ebc964e45a01</id>
+        <name>HoC OHSM - Telework - Agreement failing to upload to Unit4 ERP</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 15:56:44</sys_created_on>
+        <sys_id>641b51733b8552d8aeb1ebc964e45a02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 15:56:44</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=641b51733b8552d8aeb1ebc964e45a02"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=241b51733b8552d8aeb1ebc964e45a01^sys_idNOT INe7e58ee0fbccaa9c95e5fb3f4eefdcbf"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:07</sys_created_on>
+        <sys_id>e7e58ee0fbccaa9c95e5fb3f4eefdcbf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:22:59</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXWvcMBD8K0XPVyN/XJrzW6EE8tAGmpCXEMxaWvsEsqRK8iVuyH/vylaOhMboZWd3Z2cGP7yw6NU4or82IYIReLuEa8la1gwDr+Uw1H1z2FfyErAvsReHiwabPVQHtmMaetQ0eqcmpFKZiN6AvlscEjpqJbGLW28CIyFav7A2+hl3zHqJnrUl5ztmYEoLefQEek5lefjGv/KS3he+bzmnR12pgtOw3Oehdx0HnnhiYn1h4qi09GhY+/BIypKhGmSDUnBRV/RxXl02ZX9R92Ula0Dc/2/oo674ia33LvA5opFIpwbQAT/x7BHkjdHLeeJIkRHlms9zUH8xU3kckMQL3JrnssvuN1gcrRJ446KyZkMi9DrvCKvnyfzaHKTccIBZx7fcCJkD8aFLmpOKLGm4Pdqn328Hr5RZDeamtgL0uYJIv04/RwwpcdQ4EVE3gXPKjJ3z9qTWZdIyFWtsxaDtEx0NajQFiCS8oIiguCL8xwrfg1fJxU+ioeXX1X33Z053Nx9ZcbeZpoEgvHLxO9GdMIt7ffwHGCsjYtkCAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=241b51733b8552d8aeb1ebc964e45a01^sys_idNOT IN3be58ee0fbccaa9c95e5fb3f4eefdcd4,7fe5cee0fbccaa9c95e5fb3f4eefdc08"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:07</sys_created_on>
+        <sys_id>3be58ee0fbccaa9c95e5fb3f4eefdcd4</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-01 10:00:27</sys_updated_on>
+        <ui_id>333753be-298f-40c0-8e17-f4a96aaabde6</ui_id>
+        <values>H4sIAAAAAAAA/+VXW0/jOhD+K1Weqypp2tLlCQSLhMQuEiBedllr4jithWvn2A6lIP77GcdJGrUB0aMidXUePRfPN5fPl1+vAVDLlbyUxoKk7HZlLtPgOJiEUTKOjuI4mY7Hw3QKLIlYQr9NRmw0htE46Afc2U2zURhCNJ4ehWEch+FkElOIkiSe0CRMRgnaSVgwtLSQCIbLJxCFWz+TOaWUzBUlam6IZYItlX4kMNOMLZi0aJtykwtY3Vcud5VN77RlQ+dcpJrJ4PjXQz/IQWM4y3Rw/Lqh+ixeAQkTLloFeAO/XeXNkpQ6L7tqu/V+eoXSqYMS9gP2bJlMGWLIQBjWDxYgU7BKrxqJZpBeS7EWzDlmeBwEzvjZ8BeMOw2dXcYwK8q8rlmSqlxenJ2DhVurC2oLXZnSueKUGV+PlGVQCHvWlnmD69yNhHfxaXtvJYqF/OnLETQb1N1BSWEQBMtdog55lUZ2O1fLmxrlBZdlTSqlUBREswJrNU8K6/C8Bthu12SygDznckZyrZ546YxYFoOZwMUgE2qJQQ2fyYGf5QHWFQYXKD8vxfegucviB26DzgiIC5wQ4ltoVKHLUj4RKgpTKjRI4/cK3vqBWZkzAcasM8eSk38Kh9vXocqY+KI5F6p5bk9xiydWJffW/1qujcP1rFIlU+5CmRbhMKhlvwv0TYd/sBRYTBDEMHvz/er07vL++9XdSQorlS0ZezyBmTo52qbgf9tknxwt86w5etZOtCv5iq1bsquuDSq2RntjK+bxN/EVgx8eXXcnoC/BV7GQHn04neP1IBqlLfFNaNGwTZptfm1odyPOJ6DVxLl2o95LVu+hrXiTcSbSrlvuwik2brnh//OWO0jWIKCU+O5xKbgsnywI9ODoFH582H/bGNByLlt3mpOBoR1E6lnVe9mZQp+AU1PoFmP37jyeDoj1zVPO2uatUwsr5sR7Y0483A9zXps0m0J21Lx+3roxqO1fnD1s2uPsthyity5m7hQz2jXm8G2b+fFO1G8Pm9ecvzNze34Hv0Pl/leeHXN0reIRT3yy5OmM2XX02ipVdgnisUtfTRypG1Wmd0hv6tGHfJ9Ea24jxYhmBrveflRvHzw7HzmfgFCX7wc8924aDJ3AqmMHTwY2K3vZPncuG2lFitEen7oHe2VH+Ap/l7NR32v/iq/r/ojz8C+Mafuv+hEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3be58ee0fbccaa9c95e5fb3f4eefdcd4"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Send to ERP</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>6e9d2e72-39a3-45e8-8ec2-10408dacb965</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:07</sys_created_on>
+        <sys_id>7fe5cee0fbccaa9c95e5fb3f4eefdc08</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-03-01 10:00:27</sys_updated_on>
+        <ui_id>651982f5-ccb2-4689-aa39-112209bcf693</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7fe5cee0fbccaa9c95e5fb3f4eefdc08"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=241b51733b8552d8aeb1ebc964e45a01^sys_idNOT IN77e58ee0fbccaa9c95e5fb3f4eefdcda,f3e5cee0fbccaa9c95e5fb3f4eefdc07,fbe5cee0fbccaa9c95e5fb3f4eefdc03"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3be58ee0fbccaa9c95e5fb3f4eefdcd9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:07</sys_created_on>
+        <sys_id>77e58ee0fbccaa9c95e5fb3f4eefdcda</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:05</sys_updated_on>
+        <ui_id>6e9d2e72-39a3-45e8-8ec2-10408dacb965</ui_id>
+        <values>H4sIAAAAAAAA/+1UTWvbQBD9K0FnWawky7F9CymBQttAE3JpgxitRvbS1a66u7LjGv/3zurDMY1DQ+ixB4Hmzdd7o4f2gW5d0zp7r6+sFSsVLL89hoFQHqP3faCgxmAZcK1K4YRWeQeEwQZk6xNujQYvgJ4aHF8LtbowyLUpLRWVwjYSdg9vqaVYlgYHBg0Y2uPQBMv9Hym3azCXUKCkkXfO0BhqFyVFFYMqXvCYp8ksTRhL5tO4mKVFnJQpIKRUNzZej4IuPnVI+KpSv49wO24ivp5WzMIAnxyqEml1BdJiGNSgSnDa7I6IQShvlXwGSLajcYEvfrLiF81OsswXVnQdxbFPHsN8OGIP87UWHG8bT7BHHBRy6OFatrX60uvw58cKWunG8xPSWpqHjSftWQyUqru13n4dF94I1QkcklJzkMcIHJ2haB1a/2FQYk2D8hqaho6TN0ZvRNdMXOpoJSmIKqm3tNS7KwLuiUd0I4huCP/QwQ9ghFfxmcZQc0+zACt43jnRW8eQhEN3lvxn6wn1AgcpeX8NKrDciMZd0Z4NDqwP4Usbnzh4v0/T9DJLC5wki3k1mTLOJnOMLyfVFBYzAChKnEXXulXucPjeMpYie2nu9475F75fQFZlMcvO+346O+f7M45/3ezJX8zuP88bvc4Y+2/2U7MLm/emHbR1y9/t9Udv7H6D7X1TIheWiNx77OP4Z/eJHRlA8FNoq80PL+EZO/wGKCpZYSMGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fbe5cee0fbccaa9c95e5fb3f4eefdc06</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <flow_variables_assigned>problematic_agreements</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>ff92c037-5f7a-4250-b421-cbe9e1459134</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:07</sys_created_on>
+        <sys_id>f3e5cee0fbccaa9c95e5fb3f4eefdc07</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:05</sys_updated_on>
+        <ui_id>1d346d8e-b134-4133-809b-5a3c57b6842d</ui_id>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4PPsWE7dhJ3pwJDgQLdOixdL0NhUDKdCJMlV5KTZoH/+yjbabBiH7dhwHozHynx8ZGij4HuXNs5e6cvrRUbFVx8eZgFQnmMvo+BggaDi6A1mklswAlewsYgNqgoYhbsQHY+4Hispd6XOzACKDL6+YG+p7i6SHk8X4Z5vYQwS/M4ZFmahJxhgUmWF8k8i4TDJlJdw9D0/VvKUwnbSjjc/6V0fCtkZXDSowVDMjg0wcXxhcsdWiwlMJTEau2MUBs6LiqyIE5Yniznc7bK87RaAbIEGS8WGWY5JAuKOx38eKb/5gd5/yS/T09+e0qsTeVZxrMAnxyqColIDdLiLGhAVeC0OTwjBqG6VfIMbIVydFvgg5+s+EZXr+I49pE1UskcR++zWU5tGWG+1YLjbeuEViPifHMmp5Zdoz6M9fiGYg2ddKeGEtJZug9bz9rTmDjV663efzolvBJqKHBySs1BPlvgSAbWObS+T524eyHOiNy8bBbKQc6ygbYlpCSxd2LIQqSbaCPJiIZxq9C/kQi4rzAiNSG6IvzdAN9Ps/ierqHDPt1nJR47vPbDkKTLKoMqDoGtFmGWsyJc1cjCOi8grbKkKIo86Adpy8fOFzWKNMlRjopSgOVGtO6SKOxwqrx/8O9wzD6+Ws/2Rm8Ev1bWAem2PtiBBmS/m8l0cZrdXw7cf7oPXjfA6wb4xzdAhVxYYnXnKVyf/uDecaAZ8qvgDO21+errOWP9d/0MGDULCAAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f3e5cee0fbccaa9c95e5fb3f4eefdc03</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>6e9d2e72-39a3-45e8-8ec2-10408dacb965</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:07</sys_created_on>
+        <sys_id>fbe5cee0fbccaa9c95e5fb3f4eefdc03</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:05</sys_updated_on>
+        <ui_id>ff92c037-5f7a-4250-b421-cbe9e1459134</ui_id>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj9SN86twFCgh61AW/QyFAYt0YkwWVIlOalr+L+Pip106HEnm4/k43siR2b6YPvgX8yd93Kv2e7324pJHTH6H5mGDtmOyYCdZyt2BNXHeByLori9KRpc59W2XW9Snq63mN2u2w1UJQA0AsvkCblxwk8TtQrprYLh9f8Z+EEq4XARacGRtoCO7cZvqTBYrBU0qGjQwkD9UlCYVaKtsrTiRV4WeZrm203WlEWT5aIAFCXVXTofFtPf3iCyU+iuvPSJKvJ0xfAjoBZIg1pQHlesAy0gGDewXXA9AQ5BPGo1XCsOUgeiY7H2w8tP4s7SNBa2SI44zslrWC8POcP8YCTHRxuk0TMSoFFLDzeq7/SvWX5cAbbQq3BZASG9Jz60UXNUsUhqnw/m9HQZeC/12d+SVIaDukYQgpNNH9DHNaDCjojqDqyVel9bZ47y3ExaumSvKEhaZU40NJ5bAjwKT+iJILkn/McZfgUno4ufREPN09l9/d7HubOPRXE9m6YCz5204Y7ojriIm97ivc5Mfj4MgVx6GvgSsYfLlcfEQEuW/F/oZNyfKPULm/4CZo46MC8DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=241b51733b8552d8aeb1ebc964e45a01^sys_idNOT IN740839fb3b4d52d8aeb1ebc964e45a67,b1b831b33b8d52d8aeb1ebc964e45ad6,c4e7b9bb3b4d52d8aeb1ebc964e45a6a"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>241b51733b8552d8aeb1ebc964e45a01</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.problematic_agreements}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 18:03:11</sys_created_on>
+        <sys_id>740839fb3b4d52d8aeb1ebc964e45a67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 18:03:11</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e6a8a737-0b41-465c-ace9-ca18b7e56675</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>241b51733b8552d8aeb1ebc964e45a01</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>e6a8a737-0b41-465c-ace9-ca18b7e56675</source_ui_id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 18:06:15</sys_created_on>
+        <sys_id>b1b831b33b8d52d8aeb1ebc964e45ad6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 18:06:15</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":";","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"\n","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>f3588d73-9289-4a00-9af3-91aac952587f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>241b51733b8552d8aeb1ebc964e45a01</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{333753be-298f-40c0-8e17-f4a96aaabde6.Count}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 18:02:35</sys_created_on>
+        <sys_id>c4e7b9bb3b4d52d8aeb1ebc964e45a6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 18:02:35</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6fb04bf9-d1e5-4bfc-bca4-db021ebfd332</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=241b51733b8552d8aeb1ebc964e45a01^sys_idNOT INa01b51733b8552d8aeb1ebc964e45a16"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=127d4ad0-ab86-45b9-8feb-f59a2d419995</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>problematic_agreements</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Problematic agreements</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</model>
+        <model_id>241b51733b8552d8aeb1ebc964e45a01</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_241b51733b8552d8aeb1ebc964e45a01</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-11 15:56:44</sys_created_on>
+        <sys_id>a01b51733b8552d8aeb1ebc964e45a16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 15:56:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_241b51733b8552d8aeb1ebc964e45a01"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>a1dde5e5fbc59e9495e5fb3f4eefdc67</copied_from>
+        <copied_from_name/>
+        <description>After manager approval send the telework agreement to unit 4/ERP. If the agreement failed to send after a certain period of time. Notify ERP.</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>hoc_ohsm__telework__notify_erp_of_agreement_failing_to_upload_to_unit4</internal_name>
+        <label_cache>[{"name":"ff92c037-5f7a-4250-b421-cbe9e1459134.item.number","label":"3 - For Each➛Telework Agreement Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_telework_agreement","column_name":"number","usedInstances":{"1d346d8e-b134-4133-809b-5a3c57b6842d":["problematic_agreements-0"]}},{"name":"flow_variable.problematic_agreements","label":"Flow Variables➛Problematic agreements","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"1d346d8e-b134-4133-809b-5a3c57b6842d":["problematic_agreements-0"],"651982f5-ccb2-4689-aa39-112209bcf693":[null]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"127d4ad0-ab86-45b9-8feb-f59a2d419995"}},{"name":"flow_variable.noemployeenumber","label":"Flow Variables➛No Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"651982f5-ccb2-4689-aa39-112209bcf693":[null],"98ceff59-7808-4a0a-a4e8-9bf36c93bba9":["noemployeenumber-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7377ccba-6644-4d6c-b090-30624e4b964b"}},{"name":"flow_variable.teleworkagreementstring","label":"Flow Variables➛Telework Agreement String","type":"string","base_type":"string","usedInstances":{"16530bbc-453d-456c-9e5c-c43bdcbd596e":["teleworkagreement"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"af15bd02-9695-46f9-a9bb-fb3e1bc3d8e6"}},{"name":"flow_variable.employeenumber","label":"Flow Variables➛Employee Number","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"16530bbc-453d-456c-9e5c-c43bdcbd596e":["employeenumber"],"12f8954d-4104-4ad7-aa53-18d7ad74f03f":["condition"],"98ceff59-7808-4a0a-a4e8-9bf36c93bba9":["noemployeenumber-0"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"28af5671-c59c-4cbc-b51f-2b74b28b6a5a"}},{"name":"flow_variable.failed_upload","label":"Flow Variables➛Failed Upload","reference":"","reference_display":"","type":"string","base_type":"string","usedInstances":{"d875edb4-53e0-47ca-afef-8c532ed87407":["failed_upload-0"],"5f8a3121-4df7-4de6-ac5e-a24cb37a541c":[null],"651982f5-ccb2-4689-aa39-112209bcf693":[null]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"6c0564ad-e4ec-49e7-8fbe-733e48809c92"}},{"name":"16530bbc-453d-456c-9e5c-c43bdcbd596e.response_code","label":"8 - OHS - Telework - Send Agreement to Unit4➛response code","reference_display":"response code","type":"string","base_type":"string","usedInstances":{"20c3f6f0-e0b6-497e-bb34-c84aac3fff48":["condition"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"73f90bf4-0851-4994-885f-01c5565d14e5"}},{"name":"Repeat_1.run_start_date_time","label":"Trigger - Repeat ➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Repeat_1.run_start_time","label":"Trigger - Repeat ➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"333753be-298f-40c0-8e17-f4a96aaabde6.Records","label":"1 - Look Up Records➛Telework Agreement Records","reference":"x_hccc_hoc_ohs_telework_agreement","reference_display":"Telework Agreement","type":"records","base_type":"records","usedInstances":{"651982f5-ccb2-4689-aa39-112209bcf693":[null],"c88761e8-d924-438f-8f12-90b67b1f70ac":["items"],"1d346d8e-b134-4133-809b-5a3c57b6842d":["problematic_agreements-0"],"ff92c037-5f7a-4250-b421-cbe9e1459134":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"333753be-298f-40c0-8e17-f4a96aaabde6.Count","label":"1 - Look Up Records➛Nombre","reference_display":"Nombre","type":"integer","base_type":"integer","usedInstances":{"651982f5-ccb2-4689-aa39-112209bcf693":[null],"6e9d2e72-39a3-45e8-8ec2-10408dacb965":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">241b51733b8552d8aeb1ebc964e45a01</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>48f50224fbccaa9c95e5fb3f4eefdc0d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:07</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=48f50224fbccaa9c95e5fb3f4eefdc0d^sys_idNOT IN48f50224fbccaa9c95e5fb3f4eefdc5a,80f50224fbccaa9c95e5fb3f4eefdc5a,c8f50224fbccaa9c95e5fb3f4eefdc5a"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <label>Grab stuck agreements</label>
+        <order>2</order>
+        <stage_id>2d095700-e812-4d5d-b798-2b37032944bc</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>48f50224fbccaa9c95e5fb3f4eefdc5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:09</sys_updated_on>
+        <type>standard</type>
+        <value>Grab stuck agreements</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <label>Sending to Unit 4</label>
+        <order>1</order>
+        <stage_id>29aa22e3-2846-4d99-a589-2b42d6c568ef</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>80f50224fbccaa9c95e5fb3f4eefdc5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:09</sys_updated_on>
+        <type>standard</type>
+        <value>Sending to Unit 4</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <label>Grab approved agreements</label>
+        <order>0</order>
+        <stage_id>0d7de702-43cf-4594-816b-af56c41bc5a3</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_class_name>sys_hub_flow_stage</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>c8f50224fbccaa9c95e5fb3f4eefdc5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:09</sys_updated_on>
+        <type>standard</type>
+        <value>Grab approved agreements</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=48f50224fbccaa9c95e5fb3f4eefdc0d^sys_idNOT IN4cf50224fbccaa9c95e5fb3f4eefdc0e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>48f50224fbccaa9c95e5fb3f4eefdc0d</id>
+        <name>HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:08</sys_created_on>
+        <sys_id>4cf50224fbccaa9c95e5fb3f4eefdc0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:08</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4cf50224fbccaa9c95e5fb3f4eefdc0e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=48f50224fbccaa9c95e5fb3f4eefdc0d^sys_idNOT IN00f50224fbccaa9c95e5fb3f4eefdc5a"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>00f50224fbccaa9c95e5fb3f4eefdc5a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:07</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXWvcMBD8K0XPVyN/XJrzW6EE8tAGmpCXEMxaWvsEsqRK8iVuyH/vylaOhMboZWd3Z2cGP7yw6NU4or82IYIReLuEa8la1gwDr+Uw1H1z2FfyErAvsReHiwabPVQHtmMaetQ0eqcmpFKZiN6AvlscEjpqJbGLW28CIyFav7A2+hl3zHqJnrUl5ztmYEoLefQEek5lefjGv/KS3he+bzmnR12pgtOw3Oehdx0HnnhiYn1h4qi09GhY+/BIypKhGmSDUnBRV/RxXl02ZX9R92Ula0Dc/2/oo674ia33LvA5opFIpwbQAT/x7BHkjdHLeeJIkRHlms9zUH8xU3kckMQL3JrnssvuN1gcrRJ446KyZkMi9DrvCKvnyfzaHKTccIBZx7fcCJkD8aFLmpOKLGm4Pdqn328Hr5RZDeamtgL0uYJIv04/RwwpcdQ4EVE3gXPKjJ3z9qTWZdIyFWtsxaDtEx0NajQFiCS8oIiguCL8xwrfg1fJxU+ioeXX1X33Z053Nx9ZcbeZpoEgvHLxO9GdMIt7ffwHGCsjYtkCAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=48f50224fbccaa9c95e5fb3f4eefdc0d^sys_idNOT IN48f50224fbccaa9c95e5fb3f4eefdc59,4cf50224fbccaa9c95e5fb3f4eefdc57"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment>Send to ERP</comment>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>6e9d2e72-39a3-45e8-8ec2-10408dacb965</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>48f50224fbccaa9c95e5fb3f4eefdc59</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:07</sys_updated_on>
+        <ui_id>651982f5-ccb2-4689-aa39-112209bcf693</ui_id>
+        <values>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</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=48f50224fbccaa9c95e5fb3f4eefdc59"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:08</sys_created_on>
+        <sys_id>4cf50224fbccaa9c95e5fb3f4eefdc57</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:08</sys_updated_on>
+        <ui_id>333753be-298f-40c0-8e17-f4a96aaabde6</ui_id>
+        <values>H4sIAAAAAAAA/+VXW0/jOhD+K1Weqypp2tLlCQSLhMQuEiBedllr4jithWvn2A6lIP77GcdJGrUB0aMidXUePRfPN5fPl1+vAVDLlbyUxoKk7HZlLtPgOJiEUTKOjuI4mY7Hw3QKLIlYQr9NRmw0htE46Afc2U2zURhCNJ4ehWEch+FkElOIkiSe0CRMRgnaSVgwtLSQCIbLJxCFWz+TOaWUzBUlam6IZYItlX4kMNOMLZi0aJtykwtY3Vcud5VN77RlQ+dcpJrJ4PjXQz/IQWM4y3Rw/Lqh+ixeAQkTLloFeAO/XeXNkpQ6L7tqu/V+eoXSqYMS9gP2bJlMGWLIQBjWDxYgU7BKrxqJZpBeS7EWzDlmeBwEzvjZ8BeMOw2dXcYwK8q8rlmSqlxenJ2DhVurC2oLXZnSueKUGV+PlGVQCHvWlnmD69yNhHfxaXtvJYqF/OnLETQb1N1BSWEQBMtdog55lUZ2O1fLmxrlBZdlTSqlUBREswJrNU8K6/C8Bthu12SygDznckZyrZ546YxYFoOZwMUgE2qJQQ2fyYGf5QHWFQYXKD8vxfegucviB26DzgiIC5wQ4ltoVKHLUj4RKgpTKjRI4/cK3vqBWZkzAcasM8eSk38Kh9vXocqY+KI5F6p5bk9xiydWJffW/1qujcP1rFIlU+5CmRbhMKhlvwv0TYd/sBRYTBDEMHvz/er07vL++9XdSQorlS0ZezyBmTo52qbgf9tknxwt86w5etZOtCv5iq1bsquuDSq2RntjK+bxN/EVgx8eXXcnoC/BV7GQHn04neP1IBqlLfFNaNGwTZptfm1odyPOJ6DVxLl2o95LVu+hrXiTcSbSrlvuwik2brnh//OWO0jWIKCU+O5xKbgsnywI9ODoFH582H/bGNByLlt3mpOBoR1E6lnVe9mZQp+AU1PoFmP37jyeDoj1zVPO2uatUwsr5sR7Y0483A9zXps0m0J21Lx+3roxqO1fnD1s2uPsthyity5m7hQz2jXm8G2b+fFO1G8Pm9ecvzNze34Hv0Pl/leeHXN0reIRT3yy5OmM2XX02ipVdgnisUtfTRypG1Wmd0hv6tGHfJ9Ea24jxYhmBrveflRvHzw7HzmfgFCX7wc8924aDJ3AqmMHTwY2K3vZPncuG2lFitEen7oHe2VH+Ap/l7NR32v/iq/r/ojz8C+Mafuv+hEAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4cf50224fbccaa9c95e5fb3f4eefdc57"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=48f50224fbccaa9c95e5fb3f4eefdc0d^sys_idNOT IN48f50224fbccaa9c95e5fb3f4eefdc56,c0f50224fbccaa9c95e5fb3f4eefdc55,c8f50224fbccaa9c95e5fb3f4eefdc53"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">fbe5cee0fbccaa9c95e5fb3f4eefdc06</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <flow_variables_assigned>problematic_agreements</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>ff92c037-5f7a-4250-b421-cbe9e1459134</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:08</sys_created_on>
+        <sys_id>48f50224fbccaa9c95e5fb3f4eefdc56</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:07</sys_updated_on>
+        <ui_id>1d346d8e-b134-4133-809b-5a3c57b6842d</ui_id>
+        <values>H4sIAAAAAAAA/+1W32+bMBD+VyY/BwQEmtA9Va0qVerWae36MlXosI/EmjHUNmmziP99ZyDJtE2Vtoc95Q1/9+u77+wTO9Z0ru2cfWgurJUrzc6/Ps2Y1B6j7x2rVPNy26wkv9HWgeZ4v7U3gp0zSOMyixfzebnMskQsAcsYS56fpZhmkJwxSuP9WtOUCmtwkhewMog1aso9YxpqfMu+AdV5h93Ocyg2YCSQZ/jngL4nvypPeDRfBFm1gCBNsigo0yQOeIk5xmmWx/M0lA7rUHd1iabv31MdIW2rYPv4n8q1YKhxh4ad7xhfSyUM7mUfdI3e0jX2uiooUZHrpyO1d38lrdu23m6dkXo1nW+npPd7sDHCk4xmDF8daoHErgJlccZq0AJcY7YHxCCIO62OwFpqR9mYd3618jvVW0ZR5D0rpI45jtbDsZjmMMLVFTggKh13nZlc+bqRHO2olcAKOuUuf8ZGh7vWyUaPIc6PcIpuVFfrj6My7JBgP3ZCOksksPWteu5TI9X9unn5vGd5LfWgymRUDQd1OIEj7crOeT471smHX2Qekd+ERjUMpqihbQkpaGwbOVQh0nW4UnQIh0sp0L/RELjvMKQRQHhN+NUAP0439gOloWBf7ouWzx0OzzVOFiIFEQVQLs+CNCvzYFlhGVRZDolI4zzPM9bPmN3aSwXWHoWiCRXPnW9zlG0SqBg19iHcyNZdEKkNTlr0T/79jnxOe+S0R0575LRH/nWPCOTSEs8HT+pm/2fiDVu6n36hHKGXxnzzHR6x/gfDx8U74wgAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">f3e5cee0fbccaa9c95e5fb3f4eefdc03</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id>6e9d2e72-39a3-45e8-8ec2-10408dacb965</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:08</sys_created_on>
+        <sys_id>c0f50224fbccaa9c95e5fb3f4eefdc55</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:07</sys_updated_on>
+        <ui_id>ff92c037-5f7a-4250-b421-cbe9e1459134</ui_id>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L34miI8cDXmrWlWqdHeV0qovpypa7CWxzticbZJyiP9+60Bo1cd7gh3vzs4MZmCm823n3Yu5dU4eNNv+eouY1AGj94FpaJBtmfTYOBaxE6gu1MOQ5/nNt7zCVVZu6tU64clqg+nNql5DWQBAJbCId8iNFW4caVRI1yroX/+fgR+lEhZnkS1Y0ubRsu3w5UgKWpCWoi7TpOR5VuRZkmSbdVoVeZVmIgcUBREqqFBR6+Ps7otZ37ehtJOEGfg+z+wWlB5BRJZEDN89aoG0vgblMGINaAHe2J5tve0IsAjiSat+6ThK7YmOhd53J//SxjRJQmONZIjjdLiU+znHCa7vwcMzUXPf2bmVH43k6KYoBNbQKX/3GZsanlovjZ5GPFTqOm1U1+ifUxJsIbh+NkI6RyKwDUaD9NlH/Xw0591V5YPUl1DmQ2U4qKUC762sOh/0DAwVNkS0b6BtpT7sW2tO8jJMWpr4oKiIa2XOtDRc0Rh4EB5TrhA/EH5/gV/ByuDiB9HQ8Bgx17s7Bc59eKEQ93+6oGRyNnvYTzGEEW5l629pwQlnueNbuPUT95Ipl44kvATs8fqvhIOebpDkn6Gzsb+D+A9s/AcbGcmedQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3be58ee0fbccaa9c95e5fb3f4eefdcd9</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:08</sys_created_on>
+        <sys_id>c8f50224fbccaa9c95e5fb3f4eefdc53</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:07</sys_updated_on>
+        <ui_id>6e9d2e72-39a3-45e8-8ec2-10408dacb965</ui_id>
+        <values>H4sIAAAAAAAA/+1VXWvbMBT9K0XPjpHtOE3yVlIKg26FtfRlK+ZalhMxWfIkOWkW8t935Y8ktBlrtz3uwWAdXd17zrEO3hHduLpx9kFfWSuWisy/PAVEKI/h+44oqDiZE6ZVIZzQKmuBgKxBNn7DrbjhF4BPBY6thFpeGM60KSwWFcLWEraPb6nFtSwM7xnUYHCO44bMdy+2RIGtSgplNGMRS+JJElMaT8dRPknyKC4S4JBgQwk5l1i6GKhf3LZI8EtNblt73DqD1Pr1bd/lfgCRrmcV0YDwZ8dVwZFPCdLygFSgCnDabA+I4VDcKXkEULXDdsQXP1vxAwfGaeoLSzRHMd5tHpZZ72EHl9fgAKk0zDWmL2UrLRi3nTkFL6GRbnGKdQV3tZfaHXGQy+G0lk2lPnWOkEOD4ZMh0lgkwWuv1FPvdZT3K735PLC8Eap1pd+UmoE8rMChd3njPJ8d4ZJX2CiroK7R0aw2ei3aw8ilCpcSF2Ep9QaH+hsZAvPEQzQWwhvEr1v4EYzwKj5iGzzc0czBCpa1t9dfN4MS9gGxW7uQYO1RJLqbfW88xU5yLy7r/PFHmBG1u8LJa97r2Aevw3CSg90uSZLLNMn5KJ5Ny9GYMjqa8uhyVI5hNgGAvOCTcKEb5fb7rw2lCaevI/Knbd6XnhmkZRrR9Hx6xpNz6TmTm3dGJv5NZPz3emNiKKX/I/PXkRE26y56r60d/g8T8+Tj0c08eM2ERWoPHvsw/GX8xhYvl2Cn0Eabb17UEdv/BJUPkDWvBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=48f50224fbccaa9c95e5fb3f4eefdc0d^sys_idNOT IN44f50224fbccaa9c95e5fb3f4eefdc5b,4cf50224fbccaa9c95e5fb3f4eefdc5a,c0f50224fbccaa9c95e5fb3f4eefdc5b"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>48f50224fbccaa9c95e5fb3f4eefdc0d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{flow_variable.problematic_agreements}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>44f50224fbccaa9c95e5fb3f4eefdc5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>e6a8a737-0b41-465c-ace9-ca18b7e56675</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>48f50224fbccaa9c95e5fb3f4eefdc0d</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>e6a8a737-0b41-465c-ace9-ca18b7e56675</source_ui_id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>4cf50224fbccaa9c95e5fb3f4eefdc5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:09</sys_updated_on>
+        <transform_compositions>[{"id":"c98659e0c7c720105312134c95c26001","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"regex","label":"Regex","order":0,"attributes":{},"value":";","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]},{"id":null,"name":"replace_string","label":"Replace String","order":1,"attributes":{},"value":"\n","type":"string","defaultValue":"","typeLabel":null,"mandatory":false,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="replace_string">6f2599a0c7c720105312134c95c260fe</transform_definition_id>
+        <ui_id>f3588d73-9289-4a00-9af3-91aac952587f</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>48f50224fbccaa9c95e5fb3f4eefdc0d</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{333753be-298f-40c0-8e17-f4a96aaabde6.Count}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_id>c0f50224fbccaa9c95e5fb3f4eefdc5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:09</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>6fb04bf9-d1e5-4bfc-bca4-db021ebfd332</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=48f50224fbccaa9c95e5fb3f4eefdc0d^sys_idNOT INc0f50224fbccaa9c95e5fb3f4eefdc25"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=127d4ad0-ab86-45b9-8feb-f59a2d419995</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>problematic_agreements</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Problematic agreements</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="HoC OHSM - Telework - Notify ERP of Agreement failing to Upload to Unit4">48f50224fbccaa9c95e5fb3f4eefdc0d</model>
+        <model_id>48f50224fbccaa9c95e5fb3f4eefdc0d</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_48f50224fbccaa9c95e5fb3f4eefdc0d</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:08</sys_created_on>
+        <sys_id>c0f50224fbccaa9c95e5fb3f4eefdc25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-27 19:52:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_48f50224fbccaa9c95e5fb3f4eefdc0d"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>241b51733b8552d8aeb1ebc964e45a01</sys_id>
+        <latest_snapshot>48f50224fbccaa9c95e5fb3f4eefdc0d</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch10-08-08-2025_08-21-2025_1913.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=241b51733b8552d8aeb1ebc964e45a01^sys_idNOT IN98f50224fbccaa9c95e5fb3f4eefdca6"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"98f50224fbccaa9c95e5fb3f4eefdca6","name":"plan","plan_signature":null}}</plan>
+        <plan_id>241b51733b8552d8aeb1ebc964e45a01</plan_id>
+        <snapshot>037bd340fb407a1095e5fb3f4eefdc09</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-27 19:52:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>98f50224fbccaa9c95e5fb3f4eefdca6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-28 16:23:08</sys_updated_on>
+        <trigger display_value="">58f50224fbccaa9c95e5fb3f4eefdca4</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=241b51733b8552d8aeb1ebc964e45a01"/>
+</record_update>

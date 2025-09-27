@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>false</disabled>
+        <field>parent_hazard</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-05 21:30:31</sys_created_on>
+        <sys_data_policy display_value="Parent Hazard editable on empty">5f535cb71bc84a10813f844fdd4bcb7d</sys_data_policy>
+        <sys_id>978310bb1bc84a10813f844fdd4bcb74</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>parent_hazard</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_data_policy_rule_978310bb1bc84a10813f844fdd4bcb74</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-02-06 16:44:44</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hira_action</table>
+    </sys_data_policy_rule>
+</record_update>

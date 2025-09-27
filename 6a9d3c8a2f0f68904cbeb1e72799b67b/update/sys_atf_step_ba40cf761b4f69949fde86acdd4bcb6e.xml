@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Validate Outbound Email">dc78fc05db214110e3dd80c74b9619df</copied_from>
+        <description>Validate that an email was generated matching query:
+Subject contains HoC- ESDC form for ATFOHSEmployeeLast, ATFOHSEmployeeFirst
+and Subject contains CdC- Formulaire EDSC pour ATFOHSEmployeeLast, ATFOHSEmployeeFirst
+and Recipients = yannick.blanchette@parl.gc.ca
+With a failure timeout of 60 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>zachary.adams@parlissi.gc.ca is the new recipient for this email.  It is the email of ESDC Notification Group. Changed because old email was not working.</notes>
+        <order>35</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-30 18:17:10</sys_created_on>
+        <sys_id>ba40cf761b4f69949fde86acdd4bcb6e</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_ba40cf761b4f69949fde86acdd4bcb6e</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:04:39</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - Report Incident check email content at each step">b63e069d1bedc1109fde86acdd4bcb70</test>
+        <timeout>1970-01-01 00:01:00</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ba40cf761b4f69949fde86acdd4bcb6e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ba40cf761b4f69949fde86acdd4bcb6e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-30 18:17:12</sys_created_on>
+        <sys_id>c34003b61b4f69949fde86acdd4bcb3d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-25 21:41:43</sys_updated_on>
+        <value>subjectLIKEHoC- ESDC form for ATFOHSEmployeeLast, ATFOHSEmployeeFirst^subjectLIKECdC- Formulaire EDSC pour ATFOHSEmployeeLast, ATFOHSEmployeeFirst^recipients=yannick.blanchette@parl.gc.ca^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ba40cf761b4f69949fde86acdd4bcb6e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-30 18:17:12</sys_created_on>
+        <sys_id>cb4003b61b4f69949fde86acdd4bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-05-30 18:17:12</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=ba40cf761b4f69949fde86acdd4bcb6e"/>
+</record_update>

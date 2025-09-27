@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Creates a new HR task when a record on the Hazard Investigation and Risk Assessment table has both a recommended action and a start date</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>hoc_ohsm_create_hr_task_for_hira_item</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record","reference":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","reference_display":"Hazard Investigation and Risk Assessment","type":"reference","base_type":"reference","attributes":{}},{"name":"38b42be5-5497-48e8-b800-836806d9eb16.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38b42be5-5497-48e8-b800-836806d9eb16.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38b42be5-5497-48e8-b800-836806d9eb16.table_name","label":"2 - Update Record➛Hazard Investigation and Risk Assessment Table","reference":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","reference_display":"Hazard Investigation and Risk Assessment Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38b42be5-5497-48e8-b800-836806d9eb16.record","label":"2 - Update Record➛Hazard Investigation and Risk Assessment Record","reference":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","reference_display":"Hazard Investigation and Risk Assessment Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.Record","label":"1 - Create Task➛HR Task Record","reference":"sn_hr_core_task","reference_display":"HR Task Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.Table","label":"1 - Create Task➛HR Task Table","reference":"sn_hr_core_task","reference_display":"HR Task Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.hira_case","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛HIRA Case","reference":"x_hccc_hoc_ohs_investigation_case","reference_display":"HoC Investigation case ","type":"reference","base_type":"reference","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"hira_case"},{"name":"Created or Updated_1.current.hira_case.manager_name","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛HIRA Case➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_hccc_hoc_ohs_investigation_case","column_name":"manager_name"},{"name":"Created or Updated_1.current.work_task_description","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Work Task \u0026 Description","reference":"","reference_display":"Work Task \u0026 Description","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"work_task_description"},{"name":"Created or Updated_1.current.hazard_category","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Hazard Category","reference":"","reference_display":"Hazard Category","type":"choice","base_type":"choice","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"hazard_category","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Chemical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Chemical","value":"chemical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Biological","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Biological","value":"biological","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Physical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Physical","value":"physical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Energy","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Energy","value":"energy","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Explosion","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Explosion","value":"explosion","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Psychosocial","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Psychosocial","value":"psychosocial","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}}]},{"name":"Created or Updated_1.current.hazard_subcategory","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Hazard Subcategory","reference":"","reference_display":"Hazard Subcategory","type":"choice","base_type":"choice","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"hazard_subcategory","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Carcinogenic","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Carcinogenic","value":"carcinogenic","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Mutagenic","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Mutagenic","value":"mutagenic","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Sensitizers","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Sensitizers","value":"sensitizers","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Flammable","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Flammable","value":"flammable","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Oxidizing","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Oxidizing","value":"oxidizing","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Corrosive","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Corrosive","value":"corrosive","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Acute Toxicity","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Acute Toxicity","value":"acute_toxicity","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Plant","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Plant","value":"plant","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Animal","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Animal","value":"animal","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Microbiological","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Microbiological","value":"microbiological","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Musculoskeletal","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Musculoskeletal","value":"musculoskeletal","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Environmental","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Environmental","value":"environmental","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Mechanical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Mechanical","value":"mechanical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Electrical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Electrical","value":"electrical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Magnetic","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Magnetic","value":"magnetic","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Electromagnetic interference","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Electromagnetic interference","value":"electromagnetic_interference","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Thermal","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Thermal","value":"thermal","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Noise","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Noise","value":"noise","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Vibration","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Vibration","value":"vibration","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Radiation","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Radiation","value":"radiation","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Laser","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Laser","value":"laser","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Chemical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Chemical","value":"chemical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Work organization","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Work organization","value":"work_organization","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Social","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Social","value":"social","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Cognitive","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Cognitive","value":"cognitive","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Human Reliability","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Human Reliability","value":"human_reliability","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}}]},{"name":"Created or Updated_1.current.hazard_description","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Hazard Description","reference":"","reference_display":"Hazard Description","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"hazard_description"},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.start_date","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Start Date for Implementing Control Measures","reference":"","reference_display":"Start Date for Implementing Control Measures","type":"glide_date","base_type":"glide_date","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"start_date"},{"name":"Created or Updated_1.current.training","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Is there a Training Component Involved?","reference":"","reference_display":"Is there a Training Component Involved?","type":"choice","base_type":"choice","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"training","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Yes","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Yes","value":"yes","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"No","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"No","value":"no","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}}]},{"name":"Created or Updated_1.current.comment","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Comments","reference":"","reference_display":"Comments","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"comment"},{"name":"Created or Updated_1.current.recommended_action","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Recommended Action (Buller Crichton)","reference":"","reference_display":"Recommended Action (Buller Crichton)","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"recommended_action"}]</label_cache>
+        <master_snapshot>7269bf398701595050d2eca73cbb356f</master_snapshot>
+        <master_snapshot_digest/>
+        <name>HoC OHSM Create HR Task for HIRA item</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>7f5d7ffd8701595050d2eca73cbb355f</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:06:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>5682470087c99d1050d2eca73cbb3506</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC OHSM Create HR Task for HIRA item</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_hub_flow_5682470087c99d1050d2eca73cbb3506</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-09 08:14:55</sys_updated_on>
+        <type>flow</type>
+        <version>1</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_variable_value action="delete_multiple" query="document_key=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment">recommended_actionISNOTEMPTY^start_dateISNOTEMPTY<item endquery="false" field="recommended_action" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:53:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7f5d7ffd8701595050d2eca73cbb355f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"3b5d7ffd8701595050d2eca73cbb3560","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>5682470087c99d1050d2eca73cbb3506</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:53:22</sys_created_on>
+        <sys_id>3b5d7ffd8701595050d2eca73cbb3560</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2023-08-21 18:38:41</sys_updated_on>
+        <trigger display_value="">7f5d7ffd8701595050d2eca73cbb355f</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>3b5d7ffd8701595050d2eca73cbb3560</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:53:22</sys_created_on>
+        <sys_id>335d7ffd8701595050d2eca73cbb3561</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=5682470087c99d1050d2eca73cbb3506^sys_idNOT IN3b5d7ffd8701595050d2eca73cbb3560"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=5682470087c99d1050d2eca73cbb3506^sys_idNOT INa682470087c99d1050d2eca73cbb3508"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>5682470087c99d1050d2eca73cbb3506</id>
+        <name>HoC OHSM Create HR Task for HIRA item</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:06:57</sys_created_on>
+        <sys_id>a682470087c99d1050d2eca73cbb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:06:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a682470087c99d1050d2eca73cbb3508"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=5682470087c99d1050d2eca73cbb3506^sys_idNOT IN08d3bb411b3e06d8813f844fdd4bcbc6,0cd3bb411b3e06d8813f844fdd4bcb35,84d3bb411b3e06d8813f844fdd4bcbce"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="HoC OHSM Create HR Task for HIRA item">5682470087c99d1050d2eca73cbb3506</model>
+        <model_id>5682470087c99d1050d2eca73cbb3506</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-13 17:39:31</sys_created_on>
+        <sys_id>08d3bb411b3e06d8813f844fdd4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 17:39:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=08d3bb411b3e06d8813f844fdd4bcbc6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="HoC OHSM Create HR Task for HIRA item">5682470087c99d1050d2eca73cbb3506</model>
+        <model_id>5682470087c99d1050d2eca73cbb3506</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-13 17:39:31</sys_created_on>
+        <sys_id>0cd3bb411b3e06d8813f844fdd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 17:39:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0cd3bb411b3e06d8813f844fdd4bcb35"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="HoC OHSM Create HR Task for HIRA item">5682470087c99d1050d2eca73cbb3506</model>
+        <model_id>5682470087c99d1050d2eca73cbb3506</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-13 17:39:31</sys_created_on>
+        <sys_id>84d3bb411b3e06d8813f844fdd4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 17:39:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84d3bb411b3e06d8813f844fdd4bcbce"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=5682470087c99d1050d2eca73cbb3506^sys_idNOT IN05d24b4087c99d1050d2eca73cbb35f3"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Create HR Task for HIRA item">5682470087c99d1050d2eca73cbb3506</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:08:13</sys_created_on>
+        <sys_id>05d24b4087c99d1050d2eca73cbb35f3</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 14:22:10</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=05d24b4087c99d1050d2eca73cbb35f3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>05d24b4087c99d1050d2eca73cbb35f3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:08:13</sys_created_on>
+        <sys_id>41d24b4087c99d1050d2eca73cbb35f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:08:13</sys_updated_on>
+        <value>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>05d24b4087c99d1050d2eca73cbb35f3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:08:13</sys_created_on>
+        <sys_id>85d24b4087c99d1050d2eca73cbb35f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:08:13</sys_updated_on>
+        <value>recommended_actionISNOTEMPTY^start_dateISNOTEMPTY</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>05d24b4087c99d1050d2eca73cbb35f3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 14:22:10</sys_created_on>
+        <sys_id>edf304ca8741595050d2eca73cbb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 14:22:10</sys_updated_on>
+        <value>always</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=05d24b4087c99d1050d2eca73cbb35f3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=5682470087c99d1050d2eca73cbb3506^sys_idNOT IN02c48b0487c99d1050d2eca73cbb35c9,9ce58f8487c99d1050d2eca73cbb354e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Create HR Task for HIRA item">5682470087c99d1050d2eca73cbb3506</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:16:45</sys_created_on>
+        <sys_id>02c48b0487c99d1050d2eca73cbb35c9</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:52:51</sys_updated_on>
+        <ui_id>cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=02c48b0487c99d1050d2eca73cbb35c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>02c48b0487c99d1050d2eca73cbb35c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:16:45</sys_created_on>
+        <sys_id>82c48b0487c99d1050d2eca73cbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:16:45</sys_updated_on>
+        <value>sn_hr_core_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=02c48b0487c99d1050d2eca73cbb35c9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>02c48b0487c99d1050d2eca73cbb35c9</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:16:45</sys_created_on>
+        <sys_id>02c48b0487c99d1050d2eca73cbb35cc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:52:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>{{Created or Updated_1.current.comment}}^parent={{Created or Updated_1.current.hira_case}}^assigned_to={{Created or Updated_1.current.hira_case.manager_name}}^description=Work Description: {{Created or Updated_1.current.work_task_description}}
+Hazard Category: {{Created or Updated_1.current.hazard_category}} - {{Created or Updated_1.current.hazard_subcategory}}
+Hazard Description: 	{{Created or Updated_1.current.hazard_description}}
+Recommended Action: {{Created or Updated_1.current.recommended_action}}
+Start Date: {{Created or Updated_1.current.start_date}}
+Is there a training component: {{Created or Updated_1.current.training}}
+Comment: {{Created or Updated_1.current.comment}}
+^hr_task_type=Follow Up^sys_class_name=sn_hr_core_task^short_description=HIRA Recommended Action Start Date: {{Created or Updated_1.current.start_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>02c48b0487c99d1050d2eca73cbb35c9</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:16:45</sys_created_on>
+        <sys_id>c6c48b0487c99d1050d2eca73cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:16:45</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=02c48b0487c99d1050d2eca73cbb35c9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=02c48b0487c99d1050d2eca73cbb35c9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Create HR Task for HIRA item">5682470087c99d1050d2eca73cbb3506</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:21:33</sys_created_on>
+        <sys_id>9ce58f8487c99d1050d2eca73cbb354e</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:52:51</sys_updated_on>
+        <ui_id>38b42be5-5497-48e8-b800-836806d9eb16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9ce58f8487c99d1050d2eca73cbb354e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9ce58f8487c99d1050d2eca73cbb354e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:21:33</sys_created_on>
+        <sys_id>18e58f8487c99d1050d2eca73cbb3551</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:22:08</sys_updated_on>
+        <value/>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>9ce58f8487c99d1050d2eca73cbb354e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:21:34</sys_created_on>
+        <sys_id>50e58f8487c99d1050d2eca73cbb3552</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:21:34</sys_updated_on>
+        <value>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=9ce58f8487c99d1050d2eca73cbb354e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>9ce58f8487c99d1050d2eca73cbb354e</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:21:33</sys_created_on>
+        <sys_id>d0e58f8487c99d1050d2eca73cbb3551</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>9ce58f8487c99d1050d2eca73cbb354e</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:21:33</sys_created_on>
+        <sys_id>1ce58f8487c99d1050d2eca73cbb3550</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:21:33</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>9ce58f8487c99d1050d2eca73cbb354e</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-27 23:21:33</sys_created_on>
+        <sys_id>94e58f8487c99d1050d2eca73cbb3551</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-07-27 23:22:08</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>hr_task={{cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9ce58f8487c99d1050d2eca73cbb354e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9ce58f8487c99d1050d2eca73cbb354e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=5682470087c99d1050d2eca73cbb3506"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506^sys_idNOT IN4cd3bb411b3e06d8813f844fdd4bcbca,5cd3fb411b3e06d8813f844fdd4bcb1d,8cd3bb411b3e06d8813f844fdd4bcb6b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-13 17:39:31</sys_created_on>
+        <sys_id>4cd3bb411b3e06d8813f844fdd4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506_current_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 17:39:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-13 17:39:31</sys_created_on>
+        <sys_id>5cd3fb411b3e06d8813f844fdd4bcb1d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Changed Fields</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506_changed_fields_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 17:39:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-13 17:39:31</sys_created_on>
+        <sys_id>8cd3bb411b3e06d8813f844fdd4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Name</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506_table_name_en</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-13 17:39:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5682470087c99d1050d2eca73cbb3506"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_5682470087c99d1050d2eca73cbb3506"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5682470087c99d1050d2eca73cbb3506"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Creates a new HR task when a record on the Hazard Investigation and Risk Assessment table has both a recommended action and a start date</description>
+        <flow_priority/>
+        <internal_name>hoc_ohsm_create_hr_task_for_hira_item</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.current.recommended_action","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Recommended Action (Buller Crichton)","reference":"","reference_display":"Recommended Action (Buller Crichton)","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"recommended_action"},{"name":"Created or Updated_1.current.comment","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Comments","reference":"","reference_display":"Comments","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"comment"},{"name":"Created or Updated_1.current.training","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Is there a Training Component Involved?","reference":"","reference_display":"Is there a Training Component Involved?","type":"choice","base_type":"choice","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"training","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Yes","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Yes","value":"yes","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"No","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"No","value":"no","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}}]},{"name":"Created or Updated_1.current.start_date","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Start Date for Implementing Control Measures","reference":"","reference_display":"Start Date for Implementing Control Measures","type":"glide_date","base_type":"glide_date","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"start_date"},{"name":"Created or Updated_1.changed_fields","label":"Trigger - Record Created or Updated➛Changed Fields","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FDCollection","child_label":"FDChangeDetails","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"array.object","child_type":"object","child_name":"FDChangeDetails"}},{"name":"Created or Updated_1.current.hazard_description","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Hazard Description","reference":"","reference_display":"Hazard Description","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"hazard_description"},{"name":"Created or Updated_1.current.hazard_subcategory","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Hazard Subcategory","reference":"","reference_display":"Hazard Subcategory","type":"choice","base_type":"choice","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"hazard_subcategory","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Carcinogenic","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Carcinogenic","value":"carcinogenic","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Mutagenic","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Mutagenic","value":"mutagenic","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Sensitizers","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Sensitizers","value":"sensitizers","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Flammable","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Flammable","value":"flammable","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Oxidizing","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Oxidizing","value":"oxidizing","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Corrosive","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Corrosive","value":"corrosive","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Acute Toxicity","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Acute Toxicity","value":"acute_toxicity","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Plant","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Plant","value":"plant","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Animal","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Animal","value":"animal","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Microbiological","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Microbiological","value":"microbiological","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Musculoskeletal","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Musculoskeletal","value":"musculoskeletal","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Environmental","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Environmental","value":"environmental","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Mechanical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Mechanical","value":"mechanical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Electrical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Electrical","value":"electrical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Magnetic","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Magnetic","value":"magnetic","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Electromagnetic interference","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Electromagnetic interference","value":"electromagnetic_interference","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Thermal","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Thermal","value":"thermal","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Noise","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Noise","value":"noise","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Vibration","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Vibration","value":"vibration","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Radiation","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Radiation","value":"radiation","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Laser","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Laser","value":"laser","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Chemical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Chemical","value":"chemical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Work organization","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Work organization","value":"work_organization","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Social","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Social","value":"social","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Cognitive","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Cognitive","value":"cognitive","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Human Reliability","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Human Reliability","value":"human_reliability","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}}]},{"name":"Created or Updated_1.current.hazard_category","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Hazard Category","reference":"","reference_display":"Hazard Category","type":"choice","base_type":"choice","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"hazard_category","choices":[{"label":"-- None --","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"label":"Chemical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Chemical","value":"chemical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Biological","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Biological","value":"biological","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Physical","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Physical","value":"physical","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Energy","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Energy","value":"energy","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Explosion","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Explosion","value":"explosion","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}},{"label":"Psychosocial","used":false,"image":"","reference":false,"selected":false,"missing":false,"rawLabel":"Psychosocial","value":"psychosocial","parameters":{"name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment"}}]},{"name":"Created or Updated_1.current.work_task_description","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛Work Task \u0026 Description","reference":"","reference_display":"Work Task \u0026 Description","type":"string","base_type":"string","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"work_task_description"},{"name":"Created or Updated_1.current.hira_case.manager_name","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛HIRA Case➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_hccc_hoc_ohs_investigation_case","column_name":"manager_name"},{"name":"Created or Updated_1.current.hira_case","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record➛HIRA Case","reference":"x_hccc_hoc_ohs_investigation_case","reference_display":"HoC Investigation case ","type":"reference","base_type":"reference","parent_table_name":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","column_name":"hira_case"},{"name":"cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.Table","label":"1 - Create Task➛HR Task Table","reference":"sn_hr_core_task","reference_display":"HR Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.Record","label":"1 - Create Task➛HR Task Record","reference":"sn_hr_core_task","reference_display":"HR Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38b42be5-5497-48e8-b800-836806d9eb16.record","label":"2 - Update Record➛Hazard Investigation and Risk Assessment Record","reference":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","reference_display":"Hazard Investigation and Risk Assessment","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38b42be5-5497-48e8-b800-836806d9eb16.table_name","label":"2 - Update Record➛Hazard Investigation and Risk Assessment Table","reference":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","reference_display":"Hazard Investigation and Risk Assessment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38b42be5-5497-48e8-b800-836806d9eb16.__action_status__","label":"2 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"38b42be5-5497-48e8-b800-836806d9eb16.__dont_treat_as_error__","label":"2 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Hazard Investigation and Risk Assessment Record","reference":"x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment","reference_display":"Hazard Investigation and Risk Assessment","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>HoC OHSM Create HR Task for HIRA item</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="HoC OHSM Create HR Task for HIRA item">5682470087c99d1050d2eca73cbb3506</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7269bf398701595050d2eca73cbb356f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
+        <type>flow</type>
+        <version>1</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7269bf398701595050d2eca73cbb356f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7269bf398701595050d2eca73cbb356f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7269bf398701595050d2eca73cbb356f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7269bf398701595050d2eca73cbb356f^sys_idNOT INf269bf398701595050d2eca73cbb3570"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7269bf398701595050d2eca73cbb356f</id>
+        <name>HoC OHSM Create HR Task for HIRA item</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:06</sys_created_on>
+        <sys_id>f269bf398701595050d2eca73cbb3570</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:06</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f269bf398701595050d2eca73cbb3570"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7269bf398701595050d2eca73cbb356f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7269bf398701595050d2eca73cbb356f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7269bf398701595050d2eca73cbb356f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7269bf398701595050d2eca73cbb356f^sys_idNOT IN8369bf398701595050d2eca73cbb35a6"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Create HR Task for HIRA item">7269bf398701595050d2eca73cbb356f</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>8369bf398701595050d2eca73cbb35a6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:53:23</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8369bf398701595050d2eca73cbb35a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8369bf398701595050d2eca73cbb35a6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>8f69bf398701595050d2eca73cbb35a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:07</sys_updated_on>
+        <value>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8369bf398701595050d2eca73cbb35a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>cb69bf398701595050d2eca73cbb35a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:07</sys_updated_on>
+        <value>recommended_actionISNOTEMPTY^start_dateISNOTEMPTY</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=8369bf398701595050d2eca73cbb35a6"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7269bf398701595050d2eca73cbb356f^sys_idNOT IN0f69bf398701595050d2eca73cbb359b,cf69bf398701595050d2eca73cbb35a3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Create HR Task for HIRA item">7269bf398701595050d2eca73cbb356f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>0f69bf398701595050d2eca73cbb359b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
+        <ui_id>cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0f69bf398701595050d2eca73cbb359b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0f69bf398701595050d2eca73cbb359b</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>cf69bf398701595050d2eca73cbb359d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:07</sys_updated_on>
+        <value>sn_hr_core_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0f69bf398701595050d2eca73cbb359b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>0f69bf398701595050d2eca73cbb359b</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>4f69bf398701595050d2eca73cbb359d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:53:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>{{Created or Updated_1.current.comment}}^parent={{Created or Updated_1.current.hira_case}}^assigned_to={{Created or Updated_1.current.hira_case.manager_name}}^description=Work Description: {{Created or Updated_1.current.work_task_description}}
+Hazard Category: {{Created or Updated_1.current.hazard_category}} - {{Created or Updated_1.current.hazard_subcategory}}
+Hazard Description: 	{{Created or Updated_1.current.hazard_description}}
+Recommended Action: {{Created or Updated_1.current.recommended_action}}
+Start Date: {{Created or Updated_1.current.start_date}}
+Is there a training component: {{Created or Updated_1.current.training}}
+Comment: {{Created or Updated_1.current.comment}}
+^hr_task_type=Follow Up^sys_class_name=sn_hr_core_task^short_description=HIRA Recommended Action Start Date: {{Created or Updated_1.current.start_date}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>0f69bf398701595050d2eca73cbb359b</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>8769bf398701595050d2eca73cbb359d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0f69bf398701595050d2eca73cbb359b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0f69bf398701595050d2eca73cbb359b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC OHSM Create HR Task for HIRA item">7269bf398701595050d2eca73cbb356f</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>cf69bf398701595050d2eca73cbb35a3</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
+        <ui_id>38b42be5-5497-48e8-b800-836806d9eb16</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cf69bf398701595050d2eca73cbb35a3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>cf69bf398701595050d2eca73cbb35a3</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>0f69bf398701595050d2eca73cbb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:07</sys_updated_on>
+        <value>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=cf69bf398701595050d2eca73cbb35a3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>cf69bf398701595050d2eca73cbb35a3</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>c769bf398701595050d2eca73cbb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>cf69bf398701595050d2eca73cbb35a3</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>0769bf398701595050d2eca73cbb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>cf69bf398701595050d2eca73cbb35a3</id>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_id>8b69bf398701595050d2eca73cbb35a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:36:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>hr_task={{cbcf31ae-9bf8-439b-8f7d-f0d2fd8ea75e.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cf69bf398701595050d2eca73cbb35a3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cf69bf398701595050d2eca73cbb35a3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7269bf398701595050d2eca73cbb356f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=7269bf398701595050d2eca73cbb356f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7269bf398701595050d2eca73cbb356f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7269bf398701595050d2eca73cbb356f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7269bf398701595050d2eca73cbb356f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7269bf398701595050d2eca73cbb356f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_7269bf398701595050d2eca73cbb356f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7269bf398701595050d2eca73cbb356f"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>5682470087c99d1050d2eca73cbb3506</sys_id>
+        <latest_snapshot>7269bf398701595050d2eca73cbb356f</latest_snapshot>
+        <compiler_build>glide-utah-12-21-2022__patch5-07-06-2023_07-23-2023_0036.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=5682470087c99d1050d2eca73cbb3506^sys_idNOT IN8769bf398701595050d2eca73cbb35be"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"8769bf398701595050d2eca73cbb35be","name":"plan","plan_signature":null}}</plan>
+        <plan_id>5682470087c99d1050d2eca73cbb3506</plan_id>
+        <snapshot>1e8d73fb1b28b5109fde86acdd4bcb70</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-02 13:36:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8769bf398701595050d2eca73cbb35be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-08-02 13:53:22</sys_updated_on>
+        <trigger display_value="">7f5d7ffd8701595050d2eca73cbb355f</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=5682470087c99d1050d2eca73cbb3506"/>
+</record_update>

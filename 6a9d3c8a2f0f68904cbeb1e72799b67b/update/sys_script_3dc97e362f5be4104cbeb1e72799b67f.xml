@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition/>
+        <description>Create the HR Task for the Manager to sign the ESDC-1069  </description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">stateCHANGESTO302^hr_service=b745a0501b53ac10ea0eda02dd4bcb4b^EQ<item display_value="Awaiting manager signature" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="302"/>
+            <item display_table="sn_hr_core_service" display_value="Refusal of dangerous work" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="b745a0501b53ac10ea0eda02dd4bcb4b"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HoC - Refusal to work - OHSM WR Manager ESDC LAB1069 task creation</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	
+	
+	
+	var grSignTask = new GlideRecord("sn_hr_core_task");
+	grSignTask.initialize();
+	
+	grSignTask.parent = current.getValue("sys_id");
+	grSignTask.state = 18;
+	grSignTask.hr_task_type = "e_sign";
+	grSignTask.short_description = "Manager Signature Required (ESDC Form LAB1069) - "+current.number;
+	grSignTask.sn_esign_esignature_configuration = "af7e3d0eb7743300a251e556ee11a939";
+	grSignTask.sys_user_group = "CEH-HRS-OHS-Admin";
+	grSignTask.assigned_to = current.manager_name;//current.subject_person.manager;
+
+	grSignTask.insert();
+	
+	
+	
+	
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-07 19:22:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3dc97e362f5be4104cbeb1e72799b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC - Refusal to work - OHSM WR Manager ESDC LAB1069 task creation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_3dc97e362f5be4104cbeb1e72799b67f</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=3dc97e362f5be4104cbeb1e72799b67f"/>
+</record_update>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>true</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:de38f3a21b1cced8813f844fdd4bcbaf=lighting^EQ</catalog_conditions>
+        <catalog_item display_value="Workplace Assessment Request">310f2fae1b90ced8813f844fdd4bcb9e</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <published_ref/>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.clearValue('u_safety_concern');
+	g_form.clearValue('u_personal_pref');
+	g_form.clearValue('u_work_injury');
+	g_form.clearValue('u_details_about_req');
+	g_form.clearValue('u_office_mod');
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Lighting Assessment Request Fields.</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-15 16:42:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e971b2361bd84e149fde86acdd4bcb1f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Lighting Assessment Request Fields.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_e971b2361bd84e149fde86acdd4bcb1f</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-30 16:03:39</sys_updated_on>
+        <table/>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+</record_update>

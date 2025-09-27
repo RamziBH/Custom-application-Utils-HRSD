@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 04:55:03</sys_created_on>
+            <sys_id>fb2778a22fcf6c904cbeb1e72799b655</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_state</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Work in progress</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1aa990673b04b2d0aeb1ebc964e45ae9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft inspection report</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-09-29 13:39:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52a9d0673b04b2d0aeb1ebc964e45a1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>903</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Projet de rapport d'inspection</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-16 14:33:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9aa9d0673b04b2d0aeb1ebc964e45a52</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-16 14:34:10</sys_updated_on>
+            <value>903</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Final review (Manager)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-25 16:15:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ea9d0673b04b2d0aeb1ebc964e45a7a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>103</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Envoyé à EDSC - En attente du résultat de l'enquête</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-16 14:31:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56a9d0673b04b2d0aeb1ebc964e45aaf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-16 14:31:53</sys_updated_on>
+            <value>207</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sent to ESDC - Waiting for investigation result</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-08-25 19:40:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6a9d0673b04b2d0aeb1ebc964e45ad7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>207</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>HR Case is fully qualified but work has not started</hint>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-25 16:22:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6aa9d0673b04b2d0aeb1ebc964e45aff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Negotiated Resolution Completed</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-13 08:27:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6aa914673b04b2d0aeb1ebc964e45a40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>111</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Revue initiale</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-25 12:13:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22a914673b04b2d0aeb1ebc964e45a8e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>109</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Initial Review</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-09 09:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eaa914673b04b2d0aeb1ebc964e45aa9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>109</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>HR Case is fully qualified but work has not started</hint>
+            <inactive>false</inactive>
+            <label>Ready</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6a914673b04b2d0aeb1ebc964e45ac5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enquête en cours</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-25 12:13:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaa954673b04b2d0aeb1ebc964e45a15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>101</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investigation in progress</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eea914673b04b2d0aeb1ebc964e45af9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>101</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Revue de Commité est nécéssaire</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32a954673b04b2d0aeb1ebc964e45a4d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-02 17:23:16</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Needs Committee review</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-02 17:20:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76a954673b04b2d0aeb1ebc964e45a31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-02 17:20:06</sys_updated_on>
+            <value>30</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nécessite l'examen d'un conseiller en SST</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-02 17:28:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>32a954673b04b2d0aeb1ebc964e45a8e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-05 14:49:11</sys_updated_on>
+            <value>102</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Needs OHS Advisor review</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:52:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faa954673b04b2d0aeb1ebc964e45aa9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>102</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Final review (Advisor)</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-02 17:35:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6a954673b04b2d0aeb1ebc964e45ac5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-02 17:35:41</sys_updated_on>
+            <value>104</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Examen final (Conseiller)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-25 16:16:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6a994673b04b2d0aeb1ebc964e45a06</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-02 17:37:07</sys_updated_on>
+            <value>104</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investigation Complete - Sent to ESDC</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-25 22:50:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6a994673b04b2d0aeb1ebc964e45a47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>105</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enquête terminée - Envoyée à EDSC</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-02 17:37:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>faa994673b04b2d0aeb1ebc964e45aad</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-02 17:48:16</sys_updated_on>
+            <value>105</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed complete</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fa994673b04b2d0aeb1ebc964e45ad5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fermé complet</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-15 19:49:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fa9d4673b04b2d0aeb1ebc964e45a16</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-15 19:49:52</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-03-25 16:10:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfa9d4673b04b2d0aeb1ebc964e45a3e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>This HR Case has been cancelled</hint>
+            <inactive>false</inactive>
+            <label>Annuler</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-16 14:33:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfa9d4673b04b2d0aeb1ebc964e45a7f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-16 14:33:28</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint>This HR Case has been cancelled</hint>
+            <inactive>false</inactive>
+            <label>Cancel</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-25 15:49:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfa9d4673b04b2d0aeb1ebc964e45ac0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enquête terminée - Interne</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-03-26 04:17:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ba918673b04b2d0aeb1ebc964e45a1d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-02 17:49:18</sys_updated_on>
+            <value>106</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Investigation Complete - Internal</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-02 17:48:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ba9d4673b04b2d0aeb1ebc964e45adc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-02 17:48:35</sys_updated_on>
+            <value>106</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En attente de l'employé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-15 19:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43a918673b04b2d0aeb1ebc964e45a6b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-15 19:55:06</sys_updated_on>
+            <value>108</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting employee</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-04-01 15:38:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fa918673b04b2d0aeb1ebc964e45add</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>108</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting manager</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-09 18:13:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fa958673b04b2d0aeb1ebc964e45a1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>203</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Needs Minister of Labour Review</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-09 18:14:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97a958673b04b2d0aeb1ebc964e45a53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>204</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Besoin d'un examen par le ministre du Travail</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-16 14:28:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfa958673b04b2d0aeb1ebc964e45a87</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-16 14:28:20</sys_updated_on>
+            <value>204</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complaint resolved - Internal</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-04-06 03:53:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fa958673b04b2d0aeb1ebc964e45ae1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Plainte résolue - Interne</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-16 14:29:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97a998673b04b2d0aeb1ebc964e45a16</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-16 14:30:13</sys_updated_on>
+            <value>200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Referred to workplace commitee</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>18</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-04-06 03:53:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfa998673b04b2d0aeb1ebc964e45a4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>201</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En attente de signature de l'employé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-15 19:47:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97a998673b04b2d0aeb1ebc964e45ad9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-15 19:48:05</sys_updated_on>
+            <value>301</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting employee signature</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>19</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-04-12 17:47:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfa998673b04b2d0aeb1ebc964e45a8b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>301</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting manager signature</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>$fgaies</sys_created_by>
+            <sys_created_on>2021-04-12 17:47:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ba9d8673b04b2d0aeb1ebc964e45a01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>302</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En attente de la signature du gestionnaire</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-16 14:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efa9d8673b04b2d0aeb1ebc964e45a4e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-16 14:32:42</sys_updated_on>
+            <value>302</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RW Review</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>21</sequence>
+            <synonyms/>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-14 13:54:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efa9d8673b04b2d0aeb1ebc964e45a8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>400</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Appealing the Minister of Labour's (MoL) decision or direction</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-07-28 22:58:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fa91c673b04b2d0aeb1ebc964e45a2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>206</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Faire appel de la décision ou de l'instruction du ministre du Travail (MoT)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>22</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-16 14:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7a9d8673b04b2d0aeb1ebc964e45add</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-16 14:27:31</sys_updated_on>
+            <value>206</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Issue Resolved</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-07-28 22:58:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27a91c673b04b2d0aeb1ebc964e45a78</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>205</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Problème résolu</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>23</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-16 14:29:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fa91c673b04b2d0aeb1ebc964e45aac</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-16 14:29:19</sys_updated_on>
+            <value>205</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negotiated Resolution</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>24</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-09 09:18:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7a91c673b04b2d0aeb1ebc964e45ae1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>110</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alternative Resolution</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>25</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-13 08:27:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ba95c673b04b2d0aeb1ebc964e45a09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>112</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mediation in progress</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>umair.ahmed</sys_created_by>
+            <sys_created_on>2021-09-13 08:28:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfa95c673b04b2d0aeb1ebc964e45a40</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>113</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Médiation en cours</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>26</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-25 12:16:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3a95c673b04b2d0aeb1ebc964e45a25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>113</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>27</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-09-27 19:59:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ba95c673b04b2d0aeb1ebc964e45a5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>900</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ouvert</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>27</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-06 12:31:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ba95c673b04b2d0aeb1ebc964e45a9d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-06 12:31:52</sys_updated_on>
+            <value>900</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In progress</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>28</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-09-27 20:03:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfa99c673b04b2d0aeb1ebc964e45a03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>901</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>En cours</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>28</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-06 12:22:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7a99c673b04b2d0aeb1ebc964e45a38</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-06 12:23:30</sys_updated_on>
+            <value>901</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Terminé</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>29</sequence>
+            <synonyms/>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-06 12:23:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33a99c673b04b2d0aeb1ebc964e45a6d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-06 12:34:29</sys_updated_on>
+            <value>902</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>29</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2021-09-27 20:03:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48b99c673b04b2d0aeb1ebc964e45aa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>902</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Preliminary Discussion</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-04-20 19:38:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80b99c673b04b2d0aeb1ebc964e45ad6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>904</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Négociation en cours</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>31</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-25 12:16:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4cb9dc673b04b2d0aeb1ebc964e45a32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>905</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negotiation in progress</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>31</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-04-20 19:41:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>80b9dc673b04b2d0aeb1ebc964e45a17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>905</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request Mediation</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>32</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-04-20 19:46:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08b9dc673b04b2d0aeb1ebc964e45a4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>906</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed - Unable to process</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>33</sequence>
+            <synonyms/>
+            <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-04-28 13:33:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40b9dc673b04b2d0aeb1ebc964e45a83</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-15 14:45:54</sys_updated_on>
+            <value>907</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fermé - Impossible de traité</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>33</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-25 12:10:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0b9dc673b04b2d0aeb1ebc964e45aab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>907</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mise en place des mesures en cours</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>34</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-08-25 12:17:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1cb910a73b04b2d0aeb1ebc964e45a20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>908</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Measures implementation in progress</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>34</sequence>
+            <synonyms/>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-05-11 18:52:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0b9dc673b04b2d0aeb1ebc964e45aec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>908</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

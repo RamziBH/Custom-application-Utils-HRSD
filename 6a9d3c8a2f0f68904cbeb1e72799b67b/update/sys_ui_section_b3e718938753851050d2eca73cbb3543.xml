@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Preventative Measures OHS Section" section_id="b3e718938753851050d2eca73cbb3543" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3" view="harassment_violence_complaint">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preventative_meaures.rw_reco_deta</element>
+            <position>0</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-10 19:00:24</sys_created_on>
+            <sys_id>3b8924581b724ed89fde86acdd4bcb7e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Preventative Measures OHS Section" display_value="Preventative Measures OHS Section" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">b3e718938753851050d2eca73cbb3543</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-10 19:00:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preventative_meaures.whsc_agree_with_recommendations</element>
+            <position>1</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-10 19:00:24</sys_created_on>
+            <sys_id>338924581b724ed89fde86acdd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Preventative Measures OHS Section" display_value="Preventative Measures OHS Section" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">b3e718938753851050d2eca73cbb3543</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-10 19:00:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preventative_meaures.senior_director_of_labour_relations_agree_with_recommendations</element>
+            <position>2</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-10 19:00:24</sys_created_on>
+            <sys_id>3b8924581b724ed89fde86acdd4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Preventative Measures OHS Section" display_value="Preventative Measures OHS Section" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">b3e718938753851050d2eca73cbb3543</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-10 19:00:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preventative_meaures.recommendations_to_be_implemented</element>
+            <position>3</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-10 19:00:24</sys_created_on>
+            <sys_id>338924581b724ed89fde86acdd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Preventative Measures OHS Section" display_value="Preventative Measures OHS Section" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">b3e718938753851050d2eca73cbb3543</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-10 19:00:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preventative_meaures.implementation_s_date_of_the_recommendations</element>
+            <position>4</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-10 19:00:24</sys_created_on>
+            <sys_id>3b8924581b724ed89fde86acdd4bcb80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Preventative Measures OHS Section" display_value="Preventative Measures OHS Section" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">b3e718938753851050d2eca73cbb3543</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-10 19:00:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>preventative_meaures.preventative_measures_notes</element>
+            <position>5</position>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-06-10 19:00:24</sys_created_on>
+            <sys_id>338924581b724ed89fde86acdd4bcb81</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Preventative Measures OHS Section" display_value="Preventative Measures OHS Section" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">b3e718938753851050d2eca73cbb3543</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-10 19:00:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Preventative Measures OHS Section</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-05-11 13:11:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b3e718938753851050d2eca73cbb3543</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_b3e718938753851050d2eca73cbb3543</sys_update_name>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-06-10 19:00:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Harassment and Violence complaint " name="harassment_violence_complaint">7db275782f6764504cbeb1e72799b6da</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

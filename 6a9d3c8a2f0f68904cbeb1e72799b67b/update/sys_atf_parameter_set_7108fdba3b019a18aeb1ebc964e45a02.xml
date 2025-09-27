@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="1">b3aded731b534ad89fde86acdd4bcb05</copied_from>
+        <description>Flexible Telework Choices = 
+Closed by override = 
+Telework End Date = 2024-12-31
+Emergency Contact Telephone Number = 7899787984
+Type of telework arrangement = fixed
+In Office Friday = false
+Specify number of telework days = 
+In Office Thursday = true
+should try to upload = true
+Approval = Approved
+Emergency Contact Name = AnEmergencyContact Name
+should upload = true
+Notes = Testing Fixed Agreement, all values regular
+In Office Monday = false
+expected object sent = {&#13;
+	"type_of_telework_fx": "Fixed / Fixe",&#13;
+	"number_of_days_fx": "2",&#13;
+	"telework_monday_fx": false,&#13;
+	"telework_tuesday_fx": false,&#13;
+	"telework_wednesday_fx": true,&#13;
+	"telework_thursday_fx": true,&#13;
+	"telework_friday_fx": false,&#13;
+	"telework_start_date_fx": "2024-05-01",&#13;
+	"telework_end_date_fx": "2024-12-31",&#13;
+	"telework_location_addr_fx": "354 Address Street",&#13;
+	"telework_telephone_num_fx": "2311231321",&#13;
+	"emergency_contact_name_fx": "AnEmergencyContact Name",&#13;
+	"emergency_tel_number_fx": "7899787984",&#13;
+	"relationship_to_employ_fx": "Friend / Ami(e)",&#13;
+	"approved_date_fx": "2024-11-05 10:31:30"&#13;
+}
+Telework Start Date = 2024-05-01
+State = Closed - Approved
+Telework Telephone Number = 2311231321
+In Office Tuesday = false
+Approval Set = 2024-11-05 10:31:30
+Telework Location Address = 354 Address Street
+In Office Wednesday = true
+Fixed Telework Choices = 2 days
+Emergency Contact Relationship to Employee = Friend</description>
+        <order>1</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>7108fdba3b019a18aeb1ebc964e45a02</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_7108fdba3b019a18aeb1ebc964e45a02</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-13 20:36:45</sys_updated_on>
+        <test display_value="OHS - Telework Agreement - Send Agreement to Unit 4">3108bdba3b019a18aeb1ebc964e45afe</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="delete_multiple" query="document_key=7108fdba3b019a18aeb1ebc964e45a02"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>12d898e4fbb91ed495e5fb3f4eefdca6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>telework_fixed</value>
+        <variable display_value="Type of telework arrangement">c2431864fb391ed495e5fb3f4eefdcaf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 16:16:08</sys_created_on>
+        <sys_id>147264a4fb7d1ed495e5fb3f4eefdc8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:16:08</sys_updated_on>
+        <value>days_2</value>
+        <variable display_value="Fixed Telework Choices">34c12ca0fb7d1ed495e5fb3f4eefdc24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>16d898e4fbb91ed495e5fb3f4eefdca5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>7899787984</value>
+        <variable display_value="Emergency Contact Telephone Number">df1e4824fbb51ed495e5fb3f4eefdc45</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>1ad898e4fbb91ed495e5fb3f4eefdca7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>AnEmergencyContact Name</value>
+        <variable display_value="Emergency Contact Name">c10e8ce0fbb51ed495e5fb3f4eefdcd7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>1ed898e4fbb91ed495e5fb3f4eefdca6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>354 Address Street</value>
+        <variable display_value="Telework Location Address">282dc428fb751ed495e5fb3f4eefdc08</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:22:15</sys_created_on>
+        <sys_id>36169028fb791ed495e5fb3f4eefdc45</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>Friend</value>
+        <variable display_value="Emergency Contact Relationship to Employee">105e40a4fbb51ed495e5fb3f4eefdc9d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 19:31:10</sys_created_on>
+        <sys_id>451fcd6cfbfd5ed495e5fb3f4eefdce6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 19:31:10</sys_updated_on>
+        <value>{&#13;
+	"type_of_telework_fx": "Fixed / Fixe",&#13;
+	"number_of_days_fx": "2",&#13;
+	"telework_monday_fx": false,&#13;
+	"telework_tuesday_fx": false,&#13;
+	"telework_wednesday_fx": true,&#13;
+	"telework_thursday_fx": true,&#13;
+	"telework_friday_fx": false,&#13;
+	"telework_start_date_fx": "2024-05-01",&#13;
+	"telework_end_date_fx": "2024-12-31",&#13;
+	"telework_location_addr_fx": "354 Address Street",&#13;
+	"telework_telephone_num_fx": "2311231321",&#13;
+	"emergency_contact_name_fx": "AnEmergencyContact Name",&#13;
+	"emergency_tel_number_fx": "7899787984",&#13;
+	"relationship_to_employ_fx": "Friend / Ami(e)",&#13;
+	"approved_date_fx": "2024-11-05 10:31:30"&#13;
+}</value>
+        <variable display_value="expected object sent">9b0e092cfbbd5ed495e5fb3f4eefdc98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>52d898e4fbb91ed495e5fb3f4eefdca5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>2024-12-31</value>
+        <variable display_value="Telework End Date">f10d08e4fb751ed495e5fb3f4eefdc83</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>56d898e4fbb91ed495e5fb3f4eefdca7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>approved</value>
+        <variable display_value="Approval">91355c60fb791ed495e5fb3f4eefdc55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>5ad898e4fbb91ed495e5fb3f4eefdca6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:12:12</sys_updated_on>
+        <value/>
+        <variable display_value="Specify number of telework days">9864182cfb391ed495e5fb3f4eefdcfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>5ed898e4fbb91ed495e5fb3f4eefdca5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>2311231321</value>
+        <variable display_value="Telework Telephone Number">126d40e8fb751ed495e5fb3f4eefdcb7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:22:15</sys_created_on>
+        <sys_id>72169028fb791ed495e5fb3f4eefdc45</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:12:12</sys_updated_on>
+        <value>0</value>
+        <variable display_value="In Office Tuesday">b1cc00a4fb751ed495e5fb3f4eefdc74</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 14:57:20</sys_created_on>
+        <sys_id>75601ce0fbf51ed495e5fb3f4eefdce6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:12:12</sys_updated_on>
+        <value>0</value>
+        <variable display_value="In Office Monday">a3cc8864fb751ed495e5fb3f4eefdc8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-08 19:22:34</sys_created_on>
+        <sys_id>78b6927cfbb91e1895e5fb3f4eefdca0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-08 19:22:34</sys_updated_on>
+        <value>1</value>
+        <variable display_value="should try to upload">1916daf0fbb91e1895e5fb3f4eefdcde</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>92d898e4fbb91ed495e5fb3f4eefdca7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>1</value>
+        <variable display_value="In Office Wednesday">c0cc0c64fb751ed495e5fb3f4eefdc91</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>96d898e4fbb91ed495e5fb3f4eefdca6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>2024-11-05 15:31:30</value>
+        <variable display_value="Approval Set">7b851464fb791ed495e5fb3f4eefdc0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 16:12:12</sys_created_on>
+        <sys_id>9a816c60fb7d1ed495e5fb3f4eefdca3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:12:12</sys_updated_on>
+        <value>Testing Fixed Agreement, all values regular</value>
+        <variable display_value="Notes">92b0a4ecfb3d1ed495e5fb3f4eefdc07</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>9ad898e4fbb91ed495e5fb3f4eefdca5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:42:50</sys_updated_on>
+        <value>2</value>
+        <variable display_value="State">9cd4d4ecfb391ed495e5fb3f4eefdc5e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>9ed898e4fbb91ed495e5fb3f4eefdca4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:12:12</sys_updated_on>
+        <value/>
+        <variable display_value="Flexible Telework Choices">d514d8a8fb391ed495e5fb3f4eefdc06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>d2d898e4fbb91ed495e5fb3f4eefdca6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 16:12:12</sys_updated_on>
+        <value>0</value>
+        <variable display_value="In Office Friday">e2ac4824fb751ed495e5fb3f4eefdc80</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>d6d898e4fbb91ed495e5fb3f4eefdca5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>2024-05-01</value>
+        <variable display_value="Telework Start Date">298bccacfb351ed495e5fb3f4eefdcbb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-07 15:34:14</sys_created_on>
+        <sys_id>ded898e4fbb91ed495e5fb3f4eefdca6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-07 15:34:14</sys_updated_on>
+        <value>1</value>
+        <variable display_value="In Office Thursday">b9bc4464fb751ed495e5fb3f4eefdc1b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>7108fdba3b019a18aeb1ebc964e45a02</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-08 19:17:21</sys_created_on>
+        <sys_id>e88516f8fb791e1895e5fb3f4eefdc54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-08 19:17:21</sys_updated_on>
+        <value>1</value>
+        <variable display_value="should upload">bed49afcfb391e1895e5fb3f4eefdc01</variable>
+    </sys_variable_value>
+</record_update>

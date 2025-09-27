@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Open a Record Producer (SP)">19ae86901b57c9509fde86acdd4bcb58</copied_from>
+        <description>Open "{{Step 4: Record Query.First record}}" in the "Service Portal (OLD)" portal</description>
+        <display_name>Open a Record Producer (SP)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Open a Record Producer (SP)">775638f29f3203002899d4b4232e70e5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 16:48:15</sys_created_on>
+        <sys_id>693cd930871c915050d2eca73cbb35c2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Open a Record Producer (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_693cd930871c915050d2eca73cbb35c2</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:05:57</sys_updated_on>
+        <table/>
+        <test display_value="OHS - H&amp;V Submit Behalf Yes Occurrence Harassment Notify Both Location Text Result Injury Mod Duty">913cd530871c915050d2eca73cbb3599</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=693cd930871c915050d2eca73cbb35c2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>693cd930871c915050d2eca73cbb35c2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 16:48:15</sys_created_on>
+        <sys_id>313cd930871c915050d2eca73cbb35c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-22 16:48:15</sys_updated_on>
+        <value>419a6cd21b733340028598aebd4bcb7a</value>
+        <variable display_value="Portal">37a7bcf29f3203002899d4b4232e7090</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>693cd930871c915050d2eca73cbb35c2</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 16:48:15</sys_created_on>
+        <sys_id>7d3cd930871c915050d2eca73cbb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-22 16:48:15</sys_updated_on>
+        <value/>
+        <variable display_value="Record Producer">de1c3dbc8703030070870cf888cb0b68</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>693cd930871c915050d2eca73cbb35c2</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 16:48:15</sys_created_on>
+        <sys_id>b93cd930871c915050d2eca73cbb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-22 16:48:15</sys_updated_on>
+        <value/>
+        <variable display_value="Query parameters">5258f0369f3203002899d4b4232e704a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>693cd930871c915050d2eca73cbb35c2</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 16:48:15</sys_created_on>
+        <sys_id>f53cd930871c915050d2eca73cbb35c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-22 16:48:15</sys_updated_on>
+        <value>9f12251147132100ba13a5554ee490f4</value>
+        <variable display_value="Page">908942839f3203002899d4b4232e7016</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=693cd930871c915050d2eca73cbb35c2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_item</field>
+        <id>693cd930871c915050d2eca73cbb35c2</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-22 16:48:15</sys_created_on>
+        <sys_id>b53cd930871c915050d2eca73cbb35c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-06-22 16:48:15</sys_updated_on>
+        <table>var__m_atf_input_variable_775638f29f3203002899d4b4232e70e5</table>
+        <value>{{step['ad3cd930871c915050d2eca73cbb35bc'].first_record}}</value>
+    </sys_element_mapping>
+</record_update>

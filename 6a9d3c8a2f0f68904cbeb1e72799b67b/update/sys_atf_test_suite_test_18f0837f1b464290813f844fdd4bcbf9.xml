@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>40</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-15 20:13:53</sys_created_on>
+        <sys_id>18f0837f1b464290813f844fdd4bcbf9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>cb15be7b1b0a0290813f844fdd4bcb7f</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_18f0837f1b464290813f844fdd4bcbf9</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-23 12:37:40</sys_updated_on>
+        <test display_value="DNU - OHS - H&amp;V - Notifications to submitter, complainant, manager and RW">cb15be7b1b0a0290813f844fdd4bcb7f</test>
+        <test_suite display_value="DNU - OHS - H&amp;V - Notifications">8500767f1bc20290813f844fdd4bcbcd</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

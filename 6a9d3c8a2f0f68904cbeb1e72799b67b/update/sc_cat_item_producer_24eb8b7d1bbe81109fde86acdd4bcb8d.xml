@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <allow_edit>false</allow_edit>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category/>
+        <checked_out>false</checked_out>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<div style="font: &#39;Lato&#39;, sans-serif; font-size: 16px;">
+<p>If this is an emergency, if you believe you or someone else’s life or physical safety is at risk, call one of the following numbers.</p>
+<ul style="list-style-position: inside;"><li>On the Parliamentary Precinct: Parliamentary Protective Service (PPS) at 613-992-7000 or 9-1-1</li><li>Outside the Parliament Precinct: 9-1-1 or your local emergency department</li></ul>
+<p>Before filing a notice of occurrence, please review the definition of harassment and violence: <em>any action, conduct or comment, including of a sexual nature, that can reasonably be expected to cause offence, humiliation or other physical or psychological injury or illness to an employee, including any action, conduct or comment that are prescribed by regulation. </em></p>
+<p>If this is an anonymous submission by a witness, you are not required to fill in your first and last names on the form. However, if the name or identity of the person who was the subject of the occurrence of harassment and violence is not provided on the form or cannot be determined, the manager or designated recipient will take no further action.</p>
+<p>Note : In the reviewed policy, the term Notice of Occurrence replaces complaint, the Principal Party replaces Complainant and the Responding Party replaces Respondent which were used in the previous version of the Policy.</p>
+<p>For further information refer to the <a href="https://hoccdc.sharepoint.com/sites/info/en/services/hoc-health-and-wellness/Documents/ViolenceAndHarassment-Policy-e.pdf" rel="nofollow">Workplace Harassment and violence prevention Policy</a> and its <a href="https://hoccdc.sharepoint.com/sites/info/en/services/hoc-health-and-wellness/Documents/ViolenceAndHarrassment-ComplaintResolutionProcedure-e.pdf" rel="nofollow">accompanying Procedure</a>.</p>
+</div>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level/>
+        <group display_value="CEH-HRS-OHS-Respectful Workplace" name="CEH-HRS-OHS-Respectful Workplace">b4a1b2c2db927c109b09e6fa4b961983</group>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Notice of Occurrence - Occurrence of Harassment and Violence</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="Alexandre Mageau-Petrin (AZ)">f9c40fe81b44c450028598aebd4bcbdf</owner>
+        <picture/>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=24eb8b7d1bbe81109fde86acdd4bcb8d&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <save_options/>
+        <save_script/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <script><![CDATA[(function() {
+    new x_hccc_hoc_ohs.HoCOHSRecordProducerUtil().createCaseFromProducer(current, producer, cat_item.sys_id); //TODO: IS THIS REQUIRED? RISK FOR ANONYMOUS FEATURE?
+    producer.portal_redirect = "?id=hoc_ohsm_confirmation&hrService=hv";
+    current.state = 109; //Initial Review
+    current.complainant_feels_in_imminent_danger = producer.feel_in_imminent_danger;
+
+    current.submitted_by_the_subject_of_harassement = producer.are_you_filing_this_complaint_on_your_own_behalf == "yes" ? "yes" : "no";
+    current.hv_remain_anonymous = producer.hv_remain_anonymous == "yes" ? "yes" : "no";
+
+    var language = gs.getSession().getLanguage();
+    current.short_description = (language == "fq") ? "Cas de plainte pour harcèlement ou violence" : "Harassment and Violence Complaint case";
+
+    //Generate the description
+    var rich_description = "";
+    var occurences_list = JSON.parse(producer.harassement_and_violence_occurences);
+
+    for (var i = 0; i < occurences_list.length; i++) {
+        var field = "";
+        var value = "";
+
+        rich_description += "<p class=\"descriptionFormatted\"><span style=\"text-decoration: underline;\"><strong><span style=\"font-size: 10pt;\">Occurrence #" + (i + 1) + "</span></strong></span></p>";
+
+        field = (language == "fq") ? "Détails de l'incident" : "Detail(s) of the occurrence";
+        value = occurences_list[i].details_of_the_occurence;
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+        field = (language == "fq") ? "Personnes en cause et description de l'implication" : "Individuals Involved in the occurrence & Description of involvement";
+        value = occurences_list[i].individuals_involved_and_description;
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+        field = (language == "fq") ? "Témoin(s) de l'événement" : "Witness(s) of the occurrence";
+        value = (occurences_list[i].witnesses_of_the_occurence == undefined) ? "N/A" : occurences_list[i].witnesses_of_the_occurence;
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+        field = (language == "fq") ? "Date et heure de l'incident?" : "Date and time of incident?";
+        value = occurences_list[i].date_and_time_of_occurence;
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+        field = (language == "fq") ? "Autres renseignements que vous jugez pertinents" : "Other information that you believe is relevant";
+        value = (occurences_list[i].other_relevant_information == undefined) ? "N/A" : occurences_list[i].other_relevant_information;
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+        field = (language == "fq") ? "Type d'interaction" : "Type of interaction";
+        value = occurences_list[i].location_type;
+
+
+        var locationValues = ['email', 'in person', 'text_message', 'phone_call', 'ms_teams', 'social_media', 'other'];
+        var locationValuesEn = ['Email', 'In person', 'Text message', 'Phone call', 'MS Teams', 'Social Media', 'Other'];
+        var locationValuesFq = ['Courriel', 'En personne', 'Message texte', 'Appel téléphonique', 'MS Teams', 'Média sociaux', 'Autre'];
+
+        if (locationValues.indexOf(value) > -1) {
+            if (language == 'fq') {
+                value = locationValuesFq[locationValues.indexOf(value)];
+            } else {
+                value = locationValuesEn[locationValues.indexOf(value)];
+            }
+        }
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+
+        var locationQuery = new x_hccc_hoc_ohs.HoCOHSMQuery();
+
+        field = (language == "fq") ? "Édifice" : "Building";
+        value = (occurences_list[i].location_building == undefined) ? "N/A" : locationQuery.getLocationName(occurences_list[i].location_building);
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+        field = (language == "fq") ? "Salle" : "Room";
+        value = (occurences_list[i].room == undefined) ? "N/A" : locationQuery.getLocationName(occurences_list[i].room);
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+        field = (language == "fq") ? "Détails de l'emplacement" : "Location details";
+        value = (occurences_list[i].location_details == undefined) ? "N/A" : occurences_list[i].location_details;
+        rich_description += "<p class=\"descriptionFormatted\">" + field + "<br /><strong>" + value + "</strong></p>";
+
+    }
+    current.rich_description = rich_description;
+
+
+    //Submitter information
+    current.hv_witness_name = producer.submitter_name;
+
+    var submitter_details = '';
+    var submitter_field = '';
+
+    if (!producer.submitter_phone_number.nil()) {
+        submitter_field = (language === "fq") ? "Numéro de téléphone du demandeur" : "Submitter phone number";
+        submitter_details = "<p class=\"descriptionFormatted\">" + submitter_field + "<br /><strong>" + producer.submitter_phone_number + "</strong></p>";
+    }
+
+    if (!producer.submitter_email_address.nil()) {
+        submitter_field = (language === "fq") ? "Adresse courriel du demandeur" : "Submitter email address";
+        submitter_details += "<p class=\"descriptionFormatted\">" + submitter_field + "<br /><strong>" + producer.submitter_email_address + "</strong></p>";
+    }
+
+    current.submitter_contact_details = submitter_details;
+
+    //Complainant information ()
+    current.complainant_name = producer.complainant_name;
+    current.hv_complainant_manager = producer.complainant_manager;
+
+    var complainant_contact_details = "";
+    var complainant_value = "";
+    var complainant_field = "";
+
+    complainant_value = producer.complainant_phone_number;
+    if (!complainant_value.nil()) {
+        complainant_field = (language === "fq") ? "Numéro de téléphone de la partie principale" : "Princial party's phone number";
+        complainant_contact_details += "<p class=\"descriptionFormatted\">" + complainant_field + "<br /><strong>" + complainant_value + "</strong></p>";
+    }
+
+    complainant_value = producer.complainant_email_address;
+    if (!complainant_value.nil()) {
+        complainant_field = (language === "fq") ? "Adresse courriel de la partie principale" : "Principal party's email address";
+        complainant_contact_details += "<p class=\"descriptionFormatted\">" + complainant_field + "<br /><strong>" + complainant_value + "</strong></p>";
+    }
+
+
+    complainant_value = producer.complainant_description;
+    if (!complainant_value.nil()) {
+        complainant_field = (language === "fq") ? "Description du partie principale" : "Principal party's description";
+        complainant_contact_details += "<p class=\"descriptionFormatted\">" + complainant_field + "<br /><strong>" + complainant_value + "</strong></p>";
+    }
+
+    current.complainant_contact_details = complainant_contact_details;
+
+    //Respondent information 
+    var respondent_list = "";
+	
+
+    var hv_list_of_respondents = JSON.parse(producer.list_of_respondents);
+	
+	
+    for (var j = 0; j < hv_list_of_respondents.length; j++) {
+        var respondent_header = "";
+        var respondent_field = "";
+        var respondent_value = "";
+
+        respondent_header = (language === "fq") ? "Intimé #" : "Respondent #";
+
+
+        respondent_list += "<p class=\"descriptionFormatted\"><span style=\"text-decoration: underline;\"><strong><span style=\"font-size: 10pt;\">" + respondent_header + (j + 1) + "</span></strong></span></p>";
+
+        if (hv_list_of_respondents[j].do_you_know_the_identity_of_the_defendent === "yes") {
+
+            respondent_value = hv_list_of_respondents[j].defendant_name;
+            if (respondent_value) {
+                respondent_field = (language === "fq") ? "Nom de l'intimé" : "Respondent name";
+                respondent_list += "<p class=\"descriptionFormatted\">" + respondent_field + "<br /><strong>" + respondent_value + "</strong></p>";
+            }
+
+            respondent_value = hv_list_of_respondents[j].defendant_manager;
+            if (respondent_value) {
+                respondent_field = (language === "fq") ? "Gestionnaire ou employeur de l'intimé" : "Respondent manager or employer";
+                respondent_list += "<p class=\"descriptionFormatted\">" + respondent_field + "<br /><strong>" + respondent_value + "</strong></p>";
+            }
+
+            respondent_value = hv_list_of_respondents[j].defendant_phone_number;
+            if (respondent_value) {
+                respondent_field = (language === "fq") ? "Numéro de téléphone de l'intimé" : "Respondent phone number";
+                respondent_list += "<p class=\"descriptionFormatted\">" + respondent_field + "<br /><strong>" + respondent_value + "</strong></p>";
+            }
+
+            respondent_value = hv_list_of_respondents[j].defendant_email_address;
+            if (respondent_value) {
+                respondent_field = (language === "fq") ? "Adresse courriel de l'intimé" : "Respondent email address";
+                respondent_list += "<p class=\"descriptionFormatted\">" + respondent_field + "<br /><strong>" + respondent_value + "</strong></p>";
+            }
+
+        } else {
+            respondent_field = (language === "fq") ? "Description de l'intimé" : "Respondent description";
+            respondent_value = hv_list_of_respondents[j].respondent_description;
+            respondent_list += "<p class=\"descriptionFormatted\">" + respondent_field + "<br /><strong>" + respondent_value + "</strong></p>";
+        }
+    }
+    current.respondent_list = respondent_list;
+
+    //Results of the occurences
+    current.hv_resulted_in_an_injury = producer.hv_resulted_in_an_injury == "true" ? "yes" : "no";
+    current.hv_resulted_in_time_loss = producer.hv_resulted_in_time_loss == "true" ? "yes" : "no";
+    current.hv_resulted_in_modified_duties = producer.hv_resulted_in_modified_duties == "true" ? "yes" : "no";
+
+    //If the manager is selected, he will be the person handling the case automatically.
+    current.recipient_of_this_complaint = producer.handled_by_complainant_manager == "true" ? "manager" : "designated_recipient";
+    current.manager_involved = producer.handled_by_complainant_manager == "true" ? "yes" : "no";
+
+    if (producer.handled_by_complainant_manager == "true" && producer.complainant_manager) {
+        current.assigned_to = producer.complainant_manager;
+        current.assignment_group = "";
+    } else {
+        current.assignment_group = "b4a1b2c2db927c109b09e6fa4b961983"; //CEH-HRS-OHS-Respectful Workplace group
+        current.assigned_to = "";
+    }
+
+    if (current.hv_remain_anonymous == "yes") {
+        //ANONYMOUS SUBMISSION
+        var producer_copy = {
+            number: "",
+            feel_in_imminent_danger: "",
+            are_you_filing_this_complaint_on_your_own_behalf: "",
+            hv_remain_anonymous: "",
+            short_description: "",
+            rich_description: "",
+
+            assigned_to: "",
+            assignment_group: "",
+
+            complainant_name: "",
+            complainant_manager: "",
+            complainant_contact_details: "",
+            respondent_list: "",
+
+            hv_resulted_in_an_injury: "",
+            hv_resulted_in_time_loss: "",
+            hv_resulted_in_modified_duties: "",
+            recipient_of_this_complaint: "",
+            manager_involved: ""
+        };
+
+        producer_copy.number = "" + current.number;
+        producer_copy.feel_in_imminent_danger = "" + producer.feel_in_imminent_danger;
+        producer_copy.are_you_filing_this_complaint_on_your_own_behalf = "" + current.submitted_by_the_subject_of_harassement;
+        producer_copy.hv_remain_anonymous = producer.hv_remain_anonymous == "yes" ? "yes" : "no";
+        producer_copy.short_description = "" + current.short_description;
+        producer_copy.rich_description = "" + current.rich_description;
+
+        producer_copy.assigned_to = "" + current.assigned_to.sys_id.toString(); 
+        producer_copy.assignment_group = "" + current.assignment_group;
+
+        producer_copy.complainant_name = "" + producer.complainant_name;
+        producer_copy.complainant_manager = "" + producer.complainant_manager;
+        producer_copy.complainant_contact_details = "" + current.complainant_contact_details;
+        producer_copy.respondent_list = "" + current.respondent_list;
+
+        producer_copy.hv_resulted_in_an_injury = "" + current.hv_resulted_in_an_injury;
+        producer_copy.hv_resulted_in_time_loss = "" + current.hv_resulted_in_time_loss;
+        producer_copy.hv_resulted_in_modified_duties = "" + current.hv_resulted_in_modified_duties;
+        producer_copy.recipient_of_this_complaint = "" + current.recipient_of_this_complaint;
+        producer_copy.manager_involved = "" + current.manager_involved;
+		//gs.info(JSON.stringify(producer_copy))
+        new global.HoCOHSMAnonymousCaseCreation().requestAsyncCreation(JSON.stringify(producer_copy));
+		//gs.info('made it past the schedule')
+        current.setAbortAction(true);
+        //Page redirection
+        producer.portal_redirect = "?id=hoc_ohsm_confirmation&hrService=hv" + "&anonymous=true";
+    }
+
+
+})();]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state>published</state>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-04-12 13:55:53</sys_created_on>
+        <sys_id>24eb8b7d1bbe81109fde86acdd4bcb8d</sys_id>
+        <sys_mod_count>325</sys_mod_count>
+        <sys_name>Notice of Occurrence - Occurrence of Harassment and Violence</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_producer_24eb8b7d1bbe81109fde86acdd4bcb8d</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-04-15 16:51:40</sys_updated_on>
+        <table_name>x_hccc_hoc_ohs_investigation_case</table_name>
+        <taxonomy_topic/>
+        <template display_value="Harassment and Violence complaint ">3adfadf02f6764504cbeb1e72799b61a</template>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_hoc_sc_service/>
+        <u_includes_additional_services/>
+        <u_other_additional_services/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>323</version>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=24eb8b7d1bbe81109fde86acdd4bcb8d"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>24eb8b7d1bbe81109fde86acdd4bcb8d</documentkey>
+        <fieldname>description</fieldname>
+        <language>fq</language>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-06 22:15:47</sys_created_on>
+        <sys_id>087daa5d87e8551050d2eca73cbb3547</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-27 15:40:17</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>&lt;div style="font: 'Lato', sans-serif; font-size: 16px;"&gt;&#13;
+&lt;p&gt;S&amp;rsquo;il s&amp;rsquo;agit d&amp;rsquo;une urgence, si vous pensez que votre vie ou votre s&amp;eacute;curit&amp;eacute; physique ou celle d&amp;rsquo;une autre personne est en danger, composez l&amp;rsquo;un des num&amp;eacute;ros suivants.&lt;/p&gt;&#13;
+&lt;ul style="list-style-position: inside;"&gt;&#13;
+&lt;li&gt;Dans la Cit&amp;eacute; parlementaire : Service de protection parlementaire (SPP) au 613-992-7000 ou 9-1-1&lt;/li&gt;&#13;
+&lt;li&gt;&amp;Agrave; l&amp;rsquo;ext&amp;eacute;rieur de la Cit&amp;eacute; parlementaire : 9-1-1 ou votre service d&amp;rsquo;urgence local.&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&lt;p&gt;Avant de d&amp;eacute;poser une plainte, veuillez lire la d&amp;eacute;finition suivante de&amp;nbsp;harc&amp;egrave;lement et de violence: &lt;em&gt;tout acte, comportement ou propos, notamment de nature sexuelle, qui pourrait vraisemblablement offenser ou humilier un employ&amp;eacute; ou lui causer toute autre blessure ou maladie, physique ou psychologique, y compris tout acte, comportement ou propos prescrit par r&amp;egrave;glement.&lt;/em&gt;&lt;/p&gt;&#13;
+&lt;p&gt;Si vous &amp;ecirc;tes un t&amp;eacute;moin et que vous voulez d&amp;eacute;poser une plainte en tout anonymat, vous n&amp;rsquo;&amp;ecirc;tes pas tenu d&amp;rsquo;inscrire vos nom et pr&amp;eacute;nom sur le formulaire. Toutefois, si le nom ou l&amp;rsquo;identit&amp;eacute; de la victime de l&amp;rsquo;incident de harc&amp;egrave;lement et de violence n&amp;rsquo;est pas indiqu&amp;eacute; sur le formulaire ou ne peut &amp;ecirc;tre d&amp;eacute;termin&amp;eacute;, votre gestionnaire ou le destinataire d&amp;eacute;sign&amp;eacute; ne poursuivra pas le processus de r&amp;eacute;solution.&lt;/p&gt;&#13;
+&lt;p&gt;Note : Dans la politique r&amp;eacute;vis&amp;eacute;e, le terme avis d'incident remplace le terme plainte, la partie principale remplace le plaignant et la partie intim&amp;eacute;e remplace le r&amp;eacute;pondant qui &amp;eacute;taient utilis&amp;eacute;s dans la version pr&amp;eacute;c&amp;eacute;dente de la politique.&lt;/p&gt;&#13;
+&lt;p&gt;Pour plus d&amp;rsquo;informations, veuillez vous r&amp;eacute;f&amp;eacute;rer &amp;agrave; la &lt;a href="https://hoccdc.sharepoint.com/sites/info/fr/services/hoc-health-and-wellness/Documents/ViolenceAndHarassment-Policy-f.pdf"&gt;Politique de pr&amp;eacute;vention du harc&amp;egrave;lement et de la violence dans le lieu de travail de l'Administration de la Chambre des communes&lt;/a&gt;&amp;nbsp;et la&amp;nbsp;&lt;a href="https://hoccdc.sharepoint.com/sites/info/fr/services/hoc-health-and-wellness/Documents/ViolenceAndHarrassment-ComplaintResolutionProcedure-f.pdf"&gt;Proc&amp;eacute;dure de r&amp;egrave;glement des plaintes&lt;/a&gt;​&amp;nbsp; qui s&amp;rsquo;y rapporte.&lt;/p&gt;&#13;
+&lt;/div&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>24eb8b7d1bbe81109fde86acdd4bcb8d</documentkey>
+        <fieldname>name</fieldname>
+        <language>fq</language>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-06 22:20:00</sys_created_on>
+        <sys_id>b16eeadd87e8551050d2eca73cbb359b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-08-24 17:43:21</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Plainte pour harcèlement ou violence</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>24eb8b7d1bbe81109fde86acdd4bcb8d</documentkey>
+        <fieldname>short_description</fieldname>
+        <language>fq</language>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-07-06 22:20:00</sys_created_on>
+        <sys_id>bd6eeadd87e8551050d2eca73cbb359e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-08-25 11:44:34</sys_updated_on>
+        <tablename>sc_cat_item_producer</tablename>
+        <value>Cas de plainte pour harcèlement ou violence</value>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=24eb8b7d1bbe81109fde86acdd4bcb8d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price</field>
+        <id>24eb8b7d1bbe81109fde86acdd4bcb8d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-04-12 13:55:53</sys_created_on>
+        <sys_id>20ebc3bd1bbe81109fde86acdd4bcb38</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:55:59</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>recurring_price</field>
+        <id>24eb8b7d1bbe81109fde86acdd4bcb8d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-04-12 13:55:53</sys_created_on>
+        <sys_id>e4ebc3bd1bbe81109fde86acdd4bcb39</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-04-12 13:55:59</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>24eb8b7d1bbe81109fde86acdd4bcb8d</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-06 16:37:07</sys_created_on>
+        <sys_id>90a6ed77fbf6521095e5fb3f4eefdc6c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-06 16:37:07</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

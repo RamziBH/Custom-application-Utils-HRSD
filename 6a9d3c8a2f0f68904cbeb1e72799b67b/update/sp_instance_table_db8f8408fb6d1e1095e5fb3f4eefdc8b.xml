@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>subject_person</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">a26f04c4fb6d1e1095e5fb3f4eefdc0d</sp_column>
+        <sp_page/>
+        <sp_widget display_value="HoC Data Table Filter">9ee65f291bb4c6189fde86acdd4bcbee</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-24 15:20:58</sys_created_on>
+        <sys_id>db8f8408fb6d1e1095e5fb3f4eefdc8b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_instance_table_db8f8408fb6d1e1095e5fb3f4eefdc8b</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-24 19:40:09</sys_updated_on>
+        <table>x_hccc_hoc_ohs_telework_agreement</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"can_select_multiple": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"display_filter_textbox": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"is_collapsed": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"display_counts": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"update_counts_on_user_filters": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"hide_items_with_zero_count": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"dropdown_mode": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"reference_field_name": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=db8f8408fb6d1e1095e5fb3f4eefdc8b"/>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>question_text</element>
+        <id/>
+        <label>Suivi de l'évaluation (après une première évaluation de l'éclairage réalisée il y a plus d'un an et une fois que toutes les recommandations ont été mises en œuvre)</label>
+        <language>fq</language>
+        <name>question</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>fouad.chehime@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-27 19:52:27</sys_created_on>
+        <sys_id>8b36eacc1bd50a58813f844fdd4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suivi de l'évaluation (après une première évaluation de l'éclairage réalisée il y a plus d'un an et une fois que toutes les recommandations ont été mises en œuvre)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_translated_8b36eacc1bd50a58813f844fdd4bcbd2</sys_update_name>
+        <sys_updated_by>fouad.chehime@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-27 19:52:27</sys_updated_on>
+        <value>Assessment follow-up (following an initial lighting assessment conducted over one year ago and once all recommendations have been implemented)</value>
+    </sys_translated>
+</record_update>

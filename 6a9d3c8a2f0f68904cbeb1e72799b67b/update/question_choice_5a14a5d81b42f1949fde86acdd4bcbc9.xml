@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>450</order>
+        <published_ref/>
+        <question display_value="Who are you booking for?">c9c418c61b3e55509fde86acdd4bcb0d</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-10-18 20:28:56</sys_created_on>
+        <sys_id>5a14a5d81b42f1949fde86acdd4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parliamentary protective service</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>question_choice_5a14a5d81b42f1949fde86acdd4bcbc9</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-10-18 20:28:56</sys_updated_on>
+        <text>Parliamentary protective service</text>
+        <value>pps</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=5a14a5d81b42f1949fde86acdd4bcbc9"/>
+</record_update>

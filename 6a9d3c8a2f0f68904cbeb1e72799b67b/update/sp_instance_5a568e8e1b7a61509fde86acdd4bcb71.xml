@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e50902f33b0992d8aeb1ebc964e45a88</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-15 19:52:52</sys_created_on>
+        <sys_id>5a568e8e1b7a61509fde86acdd4bcb71</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>${x_hccc_hoc_ohs.telework_portal_hr_sa_title}</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_instance_5a568e8e1b7a61509fde86acdd4bcb71</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-11 19:31:45</sys_updated_on>
+        <title>${x_hccc_hoc_ohs.telework_portal_hr_sa_title}</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h1 style=\"box-sizing: border-box; font-size: 33px; margin: 18px 0px 9px; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-weight: 500; line-height: 1.1; color: #333333;\">${x_hccc_hoc_ohs.telework_portal_hr_sa_title}</h1>",
+		"displayValue": "<h1 style=\"box-sizing: border-box; font-size: 33px; margin: 18px 0px 9px; font-family: SourceSansPro, 'Helvetica Neue', Arial; font-weight: 500; line-height: 1.1; color: #333333;\">${x_hccc_hoc_ohs.telework_portal_hr_sa_title}</h1>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a568e8e1b7a61509fde86acdd4bcb71"/>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>\// each column has a flex-item classs&#13;
+&#13;
+@media (max-width: 992px) {&#13;
+  .sp-page-root.page {&#13;
+    height: 100%;&#13;
+  }&#13;
+}&#13;
+  &#13;
+.flex-item {&#13;
+  width: 50%;&#13;
+  position: relative;&#13;
+}&#13;
+&#13;
+.v5001b062d7101200b0b044580e6103eb &gt; .panel , .flex-item .vfd1f4ec347730200ba13a5554ee490c0 &gt; .panel-shift &gt; .panel {&#13;
+  position: absolute;&#13;
+  top: 0;&#13;
+  bottom: 0;&#13;
+  right: 0;&#13;
+  left: 0;&#13;
+  margin: 0;&#13;
+  overflow: hidden;&#13;
+  border-radius: 0;&#13;
+  display: flex;&#13;
+  flex-direction: column;&#13;
+  height: 100%;&#13;
+&#13;
+  &gt; .panel-body {&#13;
+    overflow: scroll;&#13;
+    -webkit-overflow-scrolling: touch;&#13;
+    flex-grow: 1;&#13;
+  }&#13;
+&#13;
+  &gt; .panel-heading, .panel-footer {&#13;
+    flex-shrink: 0;&#13;
+  }&#13;
+&#13;
+  &gt; .panel-heading {&#13;
+    height: 52px;&#13;
+  }&#13;
+}&#13;
+&#13;
+footer {&#13;
+	position: static;&#13;
+}&#13;
+&#13;
+.fill-section-contained {&#13;
+  position: absolute;&#13;
+  top: 111px;&#13;
+  bottom: 0;&#13;
+  left: 0;&#13;
+  right: 0;&#13;
+  overflow: hidden;&#13;
+}&#13;
+&#13;
+.v5001b062d7101200b0b044580e6103eb .th-title {&#13;
+  display: inline-block;&#13;
+  color: #2E551B;&#13;
+}&#13;
+&#13;
+.panel-heading {&#13;
+  height: auto !important;&#13;
+}&#13;
+&#13;
+.v5001b062d7101200b0b044580e6103eb .table &gt; thead &gt; tr &gt; th {&#13;
+  border-right: .1rem solid #555;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>hoc_hira_lf</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-28 15:52:18</sys_created_on>
+        <sys_id>8b466cd73b821e18aeb1ebc964e45a8e</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>hoc_hira_lf</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_page_8b466cd73b821e18aeb1ebc964e45a8e</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-28 19:53:32</sys_updated_on>
+        <title>HIRA LF</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b466cd73b821e18aeb1ebc964e45a8e"/>
+</record_update>

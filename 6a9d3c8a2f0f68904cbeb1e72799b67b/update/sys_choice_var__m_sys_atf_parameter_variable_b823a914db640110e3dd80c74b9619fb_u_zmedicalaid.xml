@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_zmedicalaid" table="var__m_sys_atf_parameter_variable_b823a914db640110e3dd80c74b9619fb" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_zmedicalaid</element>
+            <name>var__m_sys_atf_parameter_variable_b823a914db640110e3dd80c74b9619fb</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2021-12-16 18:38:07</sys_created_on>
+            <sys_id>8a7a6110dba40110e3dd80c74b961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_zmedicalaid</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_var__m_sys_atf_parameter_variable_b823a914db640110e3dd80c74b9619fb_u_zmedicalaid</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zmedicalaid</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_b823a914db640110e3dd80c74b9619fb</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2021-12-16 18:38:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>79c8146b3b80b2d0aeb1ebc964e45a9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_zmedicalaid</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_atf_parameter_variable_b823a914db640110e3dd80c74b9619fb</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2021-12-16 18:38:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5c8146b3b80b2d0aeb1ebc964e45a9d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

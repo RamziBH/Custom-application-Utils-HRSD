@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from/>
+        <description>This test tests the Safety Complaint wokflow when the Employee disagrees with Manager, disagrees with the Committee, agrees with the Ministry of Labour and the Manager agrees with the Committee.   </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>DNU OHS - Safety Complaint Workflow Emp disagree Mgr disagrees Commit.  agree Labour Mgr agrees Comm</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-07 17:14:33</sys_created_on>
+        <sys_id>446e9a4f1b7761989fde86acdd4bcb25</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>DNU OHS - Safety Complaint Workflow Emp disagree Mgr disagrees Commit.  agree Labour Mgr agrees Comm</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_446e9a4f1b7761989fde86acdd4bcb25</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 14:53:05</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=446e9a4f1b7761989fde86acdd4bcb25"/>
+</record_update>

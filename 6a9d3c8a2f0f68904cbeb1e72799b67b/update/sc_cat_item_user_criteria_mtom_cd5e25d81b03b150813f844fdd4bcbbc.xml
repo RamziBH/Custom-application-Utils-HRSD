@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="OHSM Report Run Request">c561663b1b081d109fde86acdd4bcbc1</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-12-07 14:07:39</sys_created_on>
+        <sys_id>cd5e25d81b03b150813f844fdd4bcbbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OHSM Report Run Request.OHS Annual Report Generation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_cd5e25d81b03b150813f844fdd4bcbbc</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-12-07 14:07:39</sys_updated_on>
+        <user_criteria display_value="OHS Annual Report Generation">936ee9d81b03b150813f844fdd4bcb32</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

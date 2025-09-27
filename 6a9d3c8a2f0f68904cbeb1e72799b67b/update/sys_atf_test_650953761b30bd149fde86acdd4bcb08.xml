@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from/>
+        <description>&#13;
+Pre-conditions:&#13;
+- create a new department&#13;
+- create a HR position that uses the newly created department&#13;
+- create a second position that Report to the first position&#13;
+&#13;
+4.	Manager then adds appropriate HIRA Records (stored in a custom table) does not Click (Document Completed) . When complete, the Manager clicks "Send to OHS"&#13;
+a.	Assignment Group = CEH-HRS-OHS-Advisor&#13;
+b.	State = Final Review – Advisor&#13;
+c. HIRA State =  Documentating&#13;
+c.	Notification sent to Manager: HOC – OHSM Manager – HIRA Assigned&#13;
+&#13;
+then Validates&#13;
+5.	An advisor reviews and can return it to the Manager (Send to Manager) with comments or accept the HIRA (Complete Review).&#13;
+b.	If Complete Review&#13;
+i.	State = HIRA Completed - Implementing measures&#13;
+ii.	All HIRA line items updated&#13;
+if state = Documenting before&#13;
+1.	State =  Documentationd Completed - Implementing measures&#13;
+&#13;
+6. The OHS Advisor reviews the case one last time and  indicates that the mitigations measure are implemented (Mitigation Measures Implemented in Investigation Record)  and  (Mitigation Measures Completed in HIRA Record)&#13;
+a. State = HIRA Completed&#13;
+b. HIRA Record = Completed </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>DNU - OHS - HIRA Assigned Mgr Adds HIRA to OHS case - Complete Review - HIRA Complete 2 (not reviewe</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-08-25 19:55:06</sys_created_on>
+        <sys_id>650953761b30bd149fde86acdd4bcb08</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>DNU - OHS - HIRA Assigned Mgr Adds HIRA to OHS case - Complete Review - HIRA Complete 2 (not reviewe</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_650953761b30bd149fde86acdd4bcb08</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-07 19:48:44</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=650953761b30bd149fde86acdd4bcb08"/>
+</record_update>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <condition/>
+        <description>Workplace investigation report on refusal to work</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_hccc_hoc_ohs_investigation_case">emp_agree=Yes^ORemp_agree_2=yes^stateCHANGESFROM108^stateCHANGESTO106^hr_service=b745a0501b53ac10ea0eda02dd4bcb4b^EQ<item display_value="Yes" endquery="false" field="emp_agree" goto="false" newquery="false" operator="=" or="false" value="Yes"/>
+            <item display_value="Yes" endquery="false" field="emp_agree_2" goto="false" newquery="false" operator="=" or="true" value="yes"/>
+            <item display_value="Awaiting employee" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="108"/>
+            <item display_value="Investigation Complete - Internal" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="106"/>
+            <item display_table="sn_hr_core_service" display_value="Refusal of dangerous work" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="b745a0501b53ac10ea0eda02dd4bcb4b"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>HoC - Refusal to work - OHSM Trigger Child HR service (inv complete)</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	if (current.subject_person.manager.preferred_language == 'fq') {
+		new x_hccc_hoc_ohs.HoCOHSMPdf().generatePDF(current, "a901c93887153c10b7cac956cebb353f"); // ESDCLAB1184_FQ
+    } else {
+       new x_hccc_hoc_ohs.HoCOHSMPdf().generatePDF(current, "ef4b3e3a2f5be4104cbeb1e72799b6a5"); //ESDC-LAB1184
+    }
+	
+	
+
+/*	
+	gs.info("Script executed");
+	// Add your code here
+	var grCase = new GlideRecord("x_hccc_hoc_ohs_investigation_case");
+	grCase.initialize();
+	if (current.subject_person.manager.preferred_language == 'fq') {
+        grCase.pdf_template = 'a901c93887153c10b7cac956cebb353f'; // ESDCLAB1184_FQ
+    } else {
+        grCase.pdf_template = 'ef4b3e3a2f5be4104cbeb1e72799b6a5'; //ESDC-LAB1184
+    }
+	grCase.parent = current.sys_id;
+	grCase.hr_service= "1c6a0c72db5974109b09e6fa4b96192b"; //investigation complete - Refusal to work
+	grCase.subject_person = current.subject_person; //
+	grCase.manager_name = current.manager_name;
+	grCase.opened_for = current.opened_for;
+	grCase.state= 106;
+	grCase.short_description = "Investigation complete - Refusal to work";
+	
+	//copy fields from parent to child
+	
+	grCase.inc_location = current.inc_location;
+	grCase.inc_date_time = current.inc_date_time;
+	grCase.refusal_reason = current.refusal_reason;
+	grCase.inc_emp_correct_measures = current.inc_emp_correct_measures;
+	grCase.manager_informed = current.manager_informed;
+	grCase.date_manager_informed = current.date_manager_informed;
+	grCase.type_of_operation = current.type_of_operation;
+	grCase.correct_actions_taken = current.correct_actions_taken;
+	grCase.inc_emp_signature = current.inc_emp_signature;
+	grCase.rw_event_refusal = current.rw_event_refusal;
+	grCase.rw_decision = current.rw_decision;
+	grCase.	inc_refusal_loc = current.inc_refusal_loc;
+	grCase.rw_corrective_action = current.rw_corrective_action;
+	grCase.rw_investigation_details = current.rw_investigation_details;
+	grCase.rw_reason_refusal_not_permitted = current.rw_reason_refusal_not_permitted;
+	grCase.emp_agree = current.emp_agree;
+	/////////////////
+	grCase.emp_refusal_reason = current.emp_refusal_reason;
+	grCase.emp_agree_2 = current.emp_agree_2;
+	grCase.emp_refusal_reason_2 = current.emp_refusal_reason_2;
+	grCase.employer_wpcmember = current.employer_wpcmember;
+	///////////////////
+	grCase.whsc_user = current.whsc_user;
+	grCase.rw_whsc_date_time = current.rw_whsc_date_time;
+	grCase.rw_agree_emply_dec = current.rw_agree_emply_dec;
+	grCase.rw_reco_deta = current.rw_reco_deta;
+	grCase.whsc_comments = current.whsc_comments;
+	grCase.rw_whsc_decision = current.rw_whsc_decision;
+	grCase.rw_reco_empl = current.rw_reco_empl;
+	
+	grCase.ohs_user = current.ohs_user;
+	grCase.ohs_comment = current.ohs_comment;
+	
+	
+	grCase.workplace_rep_report_amendment_details=current.workplace_rep_report_amendment_details;
+	grCase.workplace_rep_report_amendment_time=current.workplace_rep_report_amendment_time;
+	grCase.workplace_rep_report_amendment_date=current.workplace_rep_report_amendment_date;
+	grCase.workplace_rep_report_amendment_based_on_supplemental=current.workplace_rep_report_amendment_based_on_supplemental;
+	
+	grCase.supplemental_corrective_action_s=current.supplemental_corrective_action_s;
+	grCase.supplemental_corrective_action_s_taken_time=current.supplemental_corrective_action_s_taken_time;
+	grCase.supplemental_corrective_action_s_taken_date=current.supplemental_corrective_action_s_taken_date;
+	grCase.supplemental_corrective_action_s_taken=current.supplemental_corrective_action_s_taken;
+	grCase.supplemental_information_provided_time=current.supplemental_information_provided_time;
+	grCase.supplemental_information_provided_date=current.supplemental_information_provided_date;
+	grCase.supplemental_information_provided=current.supplemental_information_provided;
+	grCase.employer_rep_investigation_report_provided_to_employer_time=current.employer_rep_investigation_report_provided_to_employer_time;
+	
+	grCase.employer_rep_investigation_report_provided_to_employer_date=current.employer_rep_investigation_report_provided_to_employer_date;
+	
+	grCase.employee_rep_investigation_report_provided_to_employer=current.employee_rep_investigation_report_provided_to_employer;
+	
+	grCase.employee_rep_investigation_report_provided_to_employer_time=current.employee_rep_investigation_report_provided_to_employer_time;
+	
+	
+	grCase.insert();
+	*/
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>umair.ahmed</sys_created_by>
+        <sys_created_on>2021-07-15 17:00:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>306f44bedb5974109b09e6fa4b9619d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC - Refusal to work - OHSM Trigger Child HR service (inv complete)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_306f44bedb5974109b09e6fa4b9619d9</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=306f44bedb5974109b09e6fa4b9619d9"/>
+</record_update>

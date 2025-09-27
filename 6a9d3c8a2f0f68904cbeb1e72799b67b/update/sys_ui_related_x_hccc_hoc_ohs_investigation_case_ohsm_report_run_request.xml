@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="2" view="ohsm_report_run_request">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="HoC Investigation case  - OHSM Report Run Request" name="x_hccc_hoc_ohs_investigation_case" related_list="NULL" sys_domain="global" view="06b62aff1b081d109fde86acdd4bcb14">03c94e5d875dad5050d2eca73cbb3585</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_hccc_hoc_ohs_investigation_case.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-02-27 22:38:19</sys_created_on>
+            <sys_id>c7c94e5d875dad5050d2eca73cbb3587</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-27 22:38:19</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>HoC Investigation case  - OHSM Report Run Request</calculated_name>
+            <filter/>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-02-27 22:38:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03c94e5d875dad5050d2eca73cbb3585</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>HoC Investigation case  - OHSM Report Run Request</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_related_x_hccc_hoc_ohs_investigation_case_ohsm_report_run_request</sys_update_name>
+            <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-02-27 22:38:19</sys_updated_on>
+            <sys_user/>
+            <view display_value="OHSM Report Run Request" name="ohsm_report_run_request">06b62aff1b081d109fde86acdd4bcb14</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

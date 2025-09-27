@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-24 19:54:59</sys_created_on>
+        <sys_id>dd1622281b507994893442a7bc4bcb14</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>832bce6f1bc83154893442a7bc4bcb2f</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_dd1622281b507994893442a7bc4bcb14</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-24 19:54:59</sys_updated_on>
+        <test display_value="DNU - OHS Refusal workflow - Empl disagrees with Mgr, disagrees with Comm. , agree with Min. of Lab">832bce6f1bc83154893442a7bc4bcb2f</test>
+        <test_suite display_value="DNU - OHS - Refusal - Workflow and emails">177a6539db79c110e3dd80c74b961990</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

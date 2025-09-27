@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Intrinsic Risk Assessment" section_id="45e32ab83b5d26d0aeb1ebc964e45a61" sys_domain="global" table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" version="3" view="sp">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-20 18:13:40</sys_created_on>
+            <sys_id>1604fda0fb6b6e5495e5fb3f4eefdc4c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-20 18:13:40</sys_updated_on>
+            <text>Risk Assessment before controls or preventative measures.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1604fda0fb6b6e5495e5fb3f4eefdc4c</element>
+            <position>0</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-20 18:13:40</sys_created_on>
+            <sys_id>1e04fda0fb6b6e5495e5fb3f4eefdc51</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Intrinsic Risk Assessment" display_value="Intrinsic Risk Assessment" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">45e32ab83b5d26d0aeb1ebc964e45a61</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-20 18:13:40</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>likelihood</element>
+            <position>1</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-20 18:13:40</sys_created_on>
+            <sys_id>1604fda0fb6b6e5495e5fb3f4eefdc52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Intrinsic Risk Assessment" display_value="Intrinsic Risk Assessment" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">45e32ab83b5d26d0aeb1ebc964e45a61</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-20 18:13:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>severity</element>
+            <position>2</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-20 18:13:40</sys_created_on>
+            <sys_id>1e04fda0fb6b6e5495e5fb3f4eefdc52</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Intrinsic Risk Assessment" display_value="Intrinsic Risk Assessment" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">45e32ab83b5d26d0aeb1ebc964e45a61</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-20 18:13:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>risk_level</element>
+            <position>3</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-20 18:13:40</sys_created_on>
+            <sys_id>1604fda0fb6b6e5495e5fb3f4eefdc53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Intrinsic Risk Assessment" display_value="Intrinsic Risk Assessment" name="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">45e32ab83b5d26d0aeb1ebc964e45a61</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-20 18:13:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Intrinsic Risk Assessment</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-05-01 19:59:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45e32ab83b5d26d0aeb1ebc964e45a61</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_45e32ab83b5d26d0aeb1ebc964e45a61</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-02 19:56:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Portal" name="sp">ec2daaf9d7523100a9ad1e173e24d4ea</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

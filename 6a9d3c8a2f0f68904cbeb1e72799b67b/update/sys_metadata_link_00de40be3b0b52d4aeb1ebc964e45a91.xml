@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>8f4b00ba3bc752d4aeb1ebc964e45ada</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dm_delete">
+    <sys_dm_delete action="INSERT_OR_UPDATE">
+        <condition table="sn_apptmnt_booking_appointment_booking">task.sys_class_name=x_hccc_hoc_ohs_vaccination_appointment<item display_value="Vaccination Appointments" endquery="false" field="task.sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_hccc_hoc_ohs_vaccination_appointment"/>
+        </condition>
+        <number>DM0001015</number>
+        <rollback_context display_value="BAK0411875">eb9b08fa3bc752d4aeb1ebc964e45acb</rollback_context>
+        <run_at>2025-01-15 17:41:15</run_at>
+        <schedule/>
+        <set_workflow>false</set_workflow>
+        <state>complete</state>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-15 17:39:51</sys_created_on>
+        <sys_id>8f4b00ba3bc752d4aeb1ebc964e45ada</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-15 17:41:30</sys_updated_on>
+        <table>sn_apptmnt_booking_appointment_booking</table>
+        <transaction display_value="JOB: BackgroundProgressJob">e79bc0fa3bc752d4aeb1ebc964e45a38</transaction>
+    </sys_dm_delete>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-01-15 17:55:13</sys_created_on>
+        <sys_id>00de40be3b0b52d4aeb1ebc964e45a91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DM0001015</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_00de40be3b0b52d4aeb1ebc964e45a91</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-01-15 17:55:13</sys_updated_on>
+        <tablename>sys_dm_delete</tablename>
+    </sys_metadata_link>
+</record_update>

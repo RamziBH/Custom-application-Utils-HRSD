@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sn_hr_core_case</collection>
+        <condition>current.collaborators.changes()</condition>
+        <description>OHS advisors group should be able to add/remove the collaborator</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="sn_hr_core_case">hr_serviceNOT LIKEWorkplace Assessment Request^hr_serviceNOT LIKEOHS Assessment^EQ<item endquery="false" field="hr_service" goto="false" newquery="false" operator="NOT LIKE" or="false" value="Workplace Assessment Request"/>
+            <item endquery="false" field="hr_service" goto="false" newquery="false" operator="NOT LIKE" or="false" value="OHS Assessment"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>OHS advisors should be able to add/remove the collaborator</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var newCollaborators = current.collaborators;
+	var oldCollaborators = previous.collaborators;
+
+	if (!(isCurrentUserAdmin() || isCurrentUserAssignedToPerson() || hasAdvisorRole()) && invalidUpdate(newCollaborators, oldCollaborators)) {
+		gs.addErrorMessage(gs.getMessage('Cannot add/remove other collaborators from list'));
+		current.setAbortAction(true);
+	} 
+	
+	function invalidUpdate(newCollaborators, oldCollaborators) {
+		if (!isCurrentUserACollaborator(oldCollaborators))  
+			return true;
+
+		if (collaboratorsUpdated(newCollaborators, oldCollaborators)) 
+			return true;
+
+		return false;
+	}
+	
+	function collaboratorsUpdated(newCollaborators, oldCollaborators) {
+		var oldCollaboratorsList = [];
+		var newCollaboratorsList = [];
+
+		if (oldCollaborators) 
+			oldCollaboratorsList = oldCollaborators.split(',');
+		
+		if (newCollaborators) 
+			newCollaboratorsList = newCollaborators.split(',');
+		
+		//new collaborator added - new collaborator in not in old collaborators
+		for (var n = 0; n < newCollaboratorsList.length; n++) {
+			if (oldCollaboratorsList.indexOf(newCollaboratorsList[n]) < 0) 
+				return true;
+		}
+			
+		//old collaborator is not in new collaborators and is not the current user
+		for (var o = 0; o < oldCollaboratorsList.length; o++) {
+			if (newCollaboratorsList.indexOf(oldCollaboratorsList[o]) < 0 && oldCollaboratorsList[o] != gs.getUserID()) 
+				return true;
+		}
+		return false;
+	}
+	
+	function isCurrentUserACollaborator(collaboratorList) {
+		if (collaboratorList && (collaboratorList.split(',').indexOf(gs.getUserID()) > -1)) 
+			return true;	
+		return false;
+	}
+	
+	function isCurrentUserAssignedToPerson() {
+		return new hr_Delegation().isAssignedOrDelegated(current);
+	}
+	
+	function isCurrentUserAdmin() {
+		var hrTables = new GlideTableHierarchy(current.getTableName()).getTables();
+
+		if (hrTables.indexOf('sn_hr_le_case') > -1 && gs.getUser().hasRole('sn_hr_le.admin')) {
+			return true;
+		} else if (hrTables.indexOf('sn_hr_er_case') > -1 && gs.getUser().hasRole('sn_hr_er.admin')) {
+			return true;
+		} else if (hrTables.indexOf('sn_hr_core_case') > -1 && gs.getUser().hasRole('sn_hr_core.admin')) {
+			return true;
+		}
+		return false;
+	}
+
+    function hasAdvisorRole() {
+        return gs.getUser().hasRole('x_hccc_hoc_ohs.advisor');
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-25 17:37:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed62bb8cfb872ed895e5fb3f4eefdc7c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>OHS advisors should be able to add/remove the collaborator</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_ed62bb8cfb872ed895e5fb3f4eefdc7c</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-25 18:13:25</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ed62bb8cfb872ed895e5fb3f4eefdc7c"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>ed62bb8cfb872ed895e5fb3f4eefdc7c</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-07-25 17:38:29</sys_created_on>
+        <sys_id>19a2bbccfb872ed895e5fb3f4eefdc47</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-25 17:38:29</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

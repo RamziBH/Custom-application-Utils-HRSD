@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <copied_from/>
+        <description>Validates the following:&#13;
+- email sent to submitter&#13;
+- email sent to manager&#13;
+- email sent to OHS&#13;
+- bug 69770 Incident report: Email sent to submitter does not contain case number in the French section&#13;
+- bug 69769 Incident report: Email sent to submitter does not contain the hyperlinks </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>DNU - OHS - Report Incident Frequent Witness Yes Injury No check emails</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-22 15:17:39</sys_created_on>
+        <sys_id>0c267f46dba44110e3dd80c74b9619c4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DNU - OHS - Report Incident Frequent Witness Yes Injury No check emails</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_0c267f46dba44110e3dd80c74b9619c4</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 14:11:34</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=0c267f46dba44110e3dd80c74b9619c4"/>
+</record_update>

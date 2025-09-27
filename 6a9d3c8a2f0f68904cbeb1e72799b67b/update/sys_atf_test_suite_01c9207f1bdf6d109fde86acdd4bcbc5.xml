@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description> </description>
+        <input_filter/>
+        <name>DNU - OHS -Wellness - Permisions Check</name>
+        <parent display_value="DNU - OHS - Wellness - Top Suite">36a9207f1bdf6d109fde86acdd4bcbb6</parent>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-06-14 20:09:24</sys_created_on>
+        <sys_id>01c9207f1bdf6d109fde86acdd4bcbc5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DNU - OHS -Wellness - Permisions Check</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_01c9207f1bdf6d109fde86acdd4bcbc5</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 17:32:51</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

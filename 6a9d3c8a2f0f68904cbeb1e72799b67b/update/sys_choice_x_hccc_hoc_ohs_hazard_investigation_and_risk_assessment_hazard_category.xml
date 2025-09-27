@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="hazard_category" table="x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>hazard_category</element>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 19:17:05</sys_created_on>
+            <sys_id>bdb79cce87ac191050d2eca73cbb3591</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>hazard_category</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment_hazard_category</sys_update_name>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Chemical/Biological</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-03-18 16:03:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90e81c2f3b80b2d0aeb1ebc964e45aef</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-01 19:35:24</sys_updated_on>
+            <value>Chemical/Biological</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Chemicals</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-03-18 16:02:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10e81c2f3b80b2d0aeb1ebc964e45af0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-01 19:35:24</sys_updated_on>
+            <value>Chemicals</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Hazard Combination</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-03-18 16:03:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ce81c2f3b80b2d0aeb1ebc964e45af0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-01 19:35:24</sys_updated_on>
+            <value>Hazard Combination</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Physical/Biological</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-03-18 16:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ce81c2f3b80b2d0aeb1ebc964e45af1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-01 19:35:24</sys_updated_on>
+            <value>Physical/Biological</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Varying</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-08-27 17:43:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94e85c2f3b80b2d0aeb1ebc964e45a24</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-05-01 19:35:24</sys_updated_on>
+            <value>Varying</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chimique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-08-15 20:54:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14e85c2f3b80b2d0aeb1ebc964e45a25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>chemical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chemical</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 19:17:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90e85c2f3b80b2d0aeb1ebc964e45a26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>chemical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biologique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-08-15 20:54:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10e85c2f3b80b2d0aeb1ebc964e45a27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>biological</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biological</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 19:17:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ce85c2f3b80b2d0aeb1ebc964e45a27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>biological</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physique</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-08-15 20:55:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ce85c2f3b80b2d0aeb1ebc964e45a28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>physical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Physical</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 19:17:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>98e85c2f3b80b2d0aeb1ebc964e45a29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>physical</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Energy</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 19:17:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>18e85c2f3b80b2d0aeb1ebc964e45a2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>energy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Énergie</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-08-15 20:55:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94e85c2f3b80b2d0aeb1ebc964e45a2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>energy</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Explosion</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-08-15 20:56:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>14e85c2f3b80b2d0aeb1ebc964e45a2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>explosion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Explosion</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 19:17:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90e85c2f3b80b2d0aeb1ebc964e45a2d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>explosion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Psychosocial</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-08-15 20:56:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10e85c2f3b80b2d0aeb1ebc964e45a2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>psychosocial</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>hazard_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Psychosocial</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</name>
+            <sequence>600</sequence>
+            <synonyms/>
+            <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2022-07-08 19:18:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9ce85c2f3b80b2d0aeb1ebc964e45a2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>$mageaa</sys_updated_by>
+            <sys_updated_on>2022-12-21 15:56:06</sys_updated_on>
+            <value>psychosocial</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

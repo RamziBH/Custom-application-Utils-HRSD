@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Position Information" section_id="1d3c5adf1b233d14813f844fdd4bcb20" sys_domain="global" table="x_hccc_hoc_ohs_hira_case" version="3" view="hira">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Position Information</caption>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_hira_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-01-10 21:39:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d3c5adf1b233d14813f844fdd4bcb20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_hira_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_1d3c5adf1b233d14813f844fdd4bcb20</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-01-10 21:39:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="HIRA" name="hira">f99b684e8720591050d2eca73cbb35e5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

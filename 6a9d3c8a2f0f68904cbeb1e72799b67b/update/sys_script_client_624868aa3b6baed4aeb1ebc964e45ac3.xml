@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>likelihood</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Likehood onChange</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    updateMitigatedLikelihoodChoices();
+}
+
+function updateMitigatedLikelihoodChoices() {
+    var intrinsicLikelihood = g_form.getValue('likelihood');
+
+    // Define your likelihood choice mappings
+    var likelihoodChoices = {
+        '1': '1.Remote - Occurrence almost impossible',
+        '2': '2.Highly Unlikely - Postulated event',
+        '3': '3.Unlikely - Has occurred rarely',
+        '4': '4.Likely - Has occurred occasionally',
+        '5': '5.Inevitable - Has occurred often and is expected'
+    };
+
+    if (intrinsicLikelihood) {
+        // Store the current value before clearing
+        var currentMitigatedLikelihood = g_form.getValue('mitigated_likelihood');
+        
+        g_form.clearOptions('mitigated_likelihood');
+        g_form.addOption('mitigated_likelihood', '', '-- None --');
+
+        // Add options with proper display labels
+        for (var i = 1; i <= parseInt(intrinsicLikelihood); i++) {
+            var valueStr = i.toString();
+            var displayText = likelihoodChoices[valueStr] || valueStr;
+            g_form.addOption('mitigated_likelihood', valueStr, displayText);
+        }
+
+        // Restore the value if it's still valid, otherwise clear it
+        if (currentMitigatedLikelihood) {
+            if (parseInt(currentMitigatedLikelihood) <= parseInt(intrinsicLikelihood)) {
+                // Use setTimeout to ensure options are fully populated
+                setTimeout(function() {
+                    g_form.setValue('mitigated_likelihood', currentMitigatedLikelihood);
+                }, 100);
+            } else {
+                g_form.setValue('mitigated_likelihood', '');
+            }
+        }
+    } else {
+        // Clear the field if no intrinsic likelihood is set
+        g_form.clearOptions('mitigated_likelihood');
+        g_form.addOption('mitigated_likelihood', '', '-- None --');
+        g_form.setValue('mitigated_likelihood', '');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>gad.dayan@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-26 17:52:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>624868aa3b6baed4aeb1ebc964e45ac3</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Likehood onChange</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_client_624868aa3b6baed4aeb1ebc964e45ac3</sys_update_name>
+        <sys_updated_by>gad.dayan@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-09-11 20:52:52</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">01386113db944910e3dd80c74b961923</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Indicate the specific task you are refusing to conduct (the task you suspect to be dangerous). ]]></content>
+        <guide display_value="Refusal of dangerous work">c9c4ed57db544910e3dd80c74b96190d</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/services?id=sc_cat_item&amp;sys_id=9509a89c1b53ac10ea0eda02dd4bcbaa"}</options>
+        <order>7</order>
+        <placement>top</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-13 15:54:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d386113db944910e3dd80c74b961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_8d386113db944910e3dd80c74b961924</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">01386113db944910e3dd80c74b961923</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>services</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=8d386113db944910e3dd80c74b961924"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>8d386113db944910e3dd80c74b961924</documentkey>
+        <fieldname>content</fieldname>
+        <language>fq</language>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2021-12-13 16:25:53</sys_created_on>
+        <sys_id>3b6fed53dbd44910e3dd80c74b961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>harry.singh@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2021-12-13 16:25:53</sys_updated_on>
+        <tablename>sys_embedded_tour_step</tablename>
+        <value>Indiquez la tâche spécifique que vous refusez d'effectuer (la tâche que vous soupçonnez d'être dangereuse). </value>
+    </sys_translated_text>
+</record_update>

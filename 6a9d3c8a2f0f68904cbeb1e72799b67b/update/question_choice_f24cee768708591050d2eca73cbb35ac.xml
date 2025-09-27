@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>300</order>
+        <published_ref/>
+        <question display_value="Hazard Subcategory">7fc6a6be87c4591050d2eca73cbb355a</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-16 17:30:44</sys_created_on>
+        <sys_id>f24cee768708591050d2eca73cbb35ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Electromagnetic interference</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>question_choice_f24cee768708591050d2eca73cbb35ac</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <text>Electromagnetic interference</text>
+        <value>electromagnetic_interference</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=f24cee768708591050d2eca73cbb35ac"/>
+</record_update>

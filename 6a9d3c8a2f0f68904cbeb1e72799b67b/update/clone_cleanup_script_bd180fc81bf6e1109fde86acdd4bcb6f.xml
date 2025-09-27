@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="clone_cleanup_script">
+    <clone_cleanup_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <default>false</default>
+        <include_in_system_clone>true</include_in_system_clone>
+        <name>HoC - Occupational Health and Safety</name>
+        <order>500</order>
+        <script><![CDATA[//obfuscate the value of each field.
+function obfuscate(tableName, fieldsToObfuscate) {
+
+    for (var index = 0; index < fieldsToObfuscate.length; index++) {
+        var gr = new GlideRecord(tableName);
+        
+        gr.setWorkflow(false);
+
+        gr.addEncodedQuery(fieldsToObfuscate[index].fieldName + 'ISNOTEMPTY');
+        gr.query();
+        gr.setValue(fieldsToObfuscate[index].fieldName, fieldsToObfuscate[index].value);
+        //Note: Line below didn't seem to work for ticket page variables so use Fix Script "HoC - OHSM - Telework - Sanitize Ticket Page" to sanitize ticket page variables
+        //gr.variables[fieldsToObfuscate[index].fieldName] = fieldsToObfuscate[index].value;
+        gr.updateMultiple();
+
+    }
+}
+
+function cleanOHSMTelework() {
+
+    //Define fields to obfuscate along with the value to obfuscate it with.
+    var fieldsToObfuscate = [
+        {
+            fieldName: "employee_group",
+            value: 'NULL_OVERRIDE'
+        },
+        {
+            fieldName: "emergency_contact_name",
+            value: "J. Doe"
+        },
+        {
+            fieldName: "emergency_contact_telephone",
+            value: "555-555-5555"
+        },
+        {
+            fieldName: "relationship_to_employee",
+            value: "Other"
+        },
+        {
+            fieldName: "telework_location_address",
+            value: "123 Street, City, Province"
+        },
+        {
+            fieldName: "telework_telephone_number",
+            value: "555-555-5555"
+        }
+    ];
+
+    obfuscate("x_hccc_hoc_ohs_telework_agreement", fieldsToObfuscate);
+
+}
+
+cleanOHSMTelework();]]></script>
+        <sys_class_name>clone_cleanup_script</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-05-09 19:42:10</sys_created_on>
+        <sys_id>bd180fc81bf6e1109fde86acdd4bcb6f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>HoC - Occupational Health and Safety</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>clone_cleanup_script_bd180fc81bf6e1109fde86acdd4bcb6f</sys_update_name>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-04 16:03:28</sys_updated_on>
+        <u_hoc_description>Sanitize information in OHSM tables after a clone from Prod</u_hoc_description>
+    </clone_cleanup_script>
+</record_update>

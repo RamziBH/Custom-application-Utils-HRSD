@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_hccc_hoc_ohs_set_subject_OHSM_advisor_hr_service</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+          /* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+          /* Optional GlideRecord */ event) {
+	
+	//Sets the e-mail subject of the e-mail to "Action Required: ${hr_service"}, bilingual
+	
+	var hbu = new x_hccc_base.HoCBaseUtils();
+
+	var hrServiceFq = hbu.getTranslatedText("sn_hr_core_service", current.getValue("hr_service"), "name", "fq");
+	var hrServiceEn = current.getDisplayValue("hr_service");
+	
+	email.setSubject("Notification: " + hrServiceEn + " / AVIS: " + hrServiceFq);
+	
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>harry.singh@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-09 19:25:40</sys_created_on>
+        <sys_id>cfc4c10a1b6981109fde86acdd4bcbdc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_set_subject_OHSM_advisor_hr_service</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_email_cfc4c10a1b6981109fde86acdd4bcbdc</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+    </sys_script_email>
+</record_update>

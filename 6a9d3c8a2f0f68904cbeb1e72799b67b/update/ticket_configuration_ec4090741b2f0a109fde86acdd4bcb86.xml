@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ticket_configuration">
+    <ticket_configuration action="INSERT_OR_UPDATE">
+        <action_widget/>
+        <action_widget_param/>
+        <active>true</active>
+        <advanced>true</advanced>
+        <description_field>description</description_field>
+        <info_fields/>
+        <info_widget display_value="Appointment Booking - Reselect ">90b5ba4a8750030064048467a7cb0b9d</info_widget>
+        <info_widget_param>{"catalog_item":"a57877a91bfed1509fde86acdd4bcb43"}</info_widget_param>
+        <show_description>always</show_description>
+        <state_field>state</state_field>
+        <sys_class_name>ticket_configuration</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-19 13:16:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ec4090741b2f0a109fde86acdd4bcb86</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_vaccination_appointment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>ticket_configuration_ec4090741b2f0a109fde86acdd4bcb86</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-19 17:45:55</sys_updated_on>
+        <table>x_hccc_hoc_ohs_vaccination_appointment</table>
+    </ticket_configuration>
+</record_update>

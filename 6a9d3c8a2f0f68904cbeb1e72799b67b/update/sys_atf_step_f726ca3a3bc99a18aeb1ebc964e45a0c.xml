@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Insert">a6690b1a1b33e994893442a7bc4bcbe6</copied_from>
+        <description>Insert a record into 'x_hccc_hoc_ohs_investigation_case' with the following values:
+Abdomen = false
+and abdomen=false^age=false
+and Does the principal party agree with the chosen mediator? = No
+and Area of injury = Indoor
+and Chest = false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false
+and Committee excemption pursuant to subsection 135(6)(a) of the act = false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false
+and Did this incident result in an injury?  = No
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false
+and Ear(s) = false
+and Elected official = false
+and Work hour end = 19:00:00
+and Work hour start = 19:00:00
+and English = false
+and Executive = false
+and Eye(s) = false
+and Face = false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false
+and Female = false
+and French = false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false
+and Head = false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE
+and Activity frequency = In-frequent
+and The task performed at the time of incident = ok
+and Date and time of incident = 2022-03-17 11:21:19
+and Description of the circumstances surrounding the details of the incident = Description of circumstances
+and Incident location = {{Step 2: Record Insert.Record}}
+and Incident related illness = Yes
+and Post-exposure incident (biological, chemical) = Yes
+and Date and time of incident report = 2022-03-17 11:21:22
+and Protection equipment required = Yes
+and Did the employee receive training? = Yes
+and Did the accident/illness happen on the employer's property or work site? = false
+and Left Ankle = false
+and Left Arm = false
+and Left Elbow = false
+and Left Finger(s) = false
+and Left Foot = false
+and Left Forearm = false
+and Left Hand = false
+and Left Hip = false
+and Left Knee = false
+and Left Lower Leg = false
+and Left Shoulder = false
+and Left Thigh = false
+and Left Toe(s) = false
+and Left Wrist = false
+and Lower Back = false
+and Male = false
+and Manager is involved in the harassment case = No
+and Manager = {{Step 5: Create a User.User}}
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{Step 2: Record Insert.Record}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{Step 5: Create a User.User}}^marital_status=false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{Step 2: Record Insert.Record}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{Step 5: Create a User.User}}^marital_status=false^national_or_ethnic_origin=false
+and Neck = false
+and Number of employees = 2
+and Other = false
+and Other - area of injury = false
+and Did it happen outside the province of Ontario = false
+and Owner = false
+and Pelvis = false
+and Precautionary measures required? = No
+and Have you hurt this area(s) of your body before = false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{Step 2: Record Insert.Record}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{Step 5: Create a User.User}}^marital_status=false^national_or_ethnic_origin=false^neck=false^number_of_employees=2^other=false^other_area_injury=false^outside_of_ontario=false^owner=false^pelvis=false^precautionary_measures_required=no^previous_injury=false^principal_party_is_identified=no
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{Step 2: Record Insert.Record}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{Step 5: Create a User.User}}^marital_status=false^national_or_ethnic_origin=false^neck=false^number_of_employees=2^other=false^other_area_injury=false^outside_of_ontario=false^owner=false^pelvis=false^precautionary_measures_required=no^previous_injury=false^principal_party_is_identified=no^proposed_mediator=no
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{Step 2: Record Insert.Record}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{Step 5: Create a User.User}}^marital_status=false^national_or_ethnic_origin=false^neck=false^number_of_employees=2^other=false^other_area_injury=false^outside_of_ontario=false^owner=false^pelvis=false^precautionary_measures_required=no^previous_injury=false^principal_party_is_identified=no^proposed_mediator=no^race=false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{Step 2: Record Insert.Record}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{Step 5: Create a User.User}}^marital_status=false^national_or_ethnic_origin=false^neck=false^number_of_employees=2^other=false^other_area_injury=false^outside_of_ontario=false^owner=false^pelvis=false^precautionary_measures_required=no^previous_injury=false^principal_party_is_identified=no^proposed_mediator=no^race=false^religion=false
+and Reportable to ESDC = No
+and Right Ankle = false
+and Right Arm = false
+and Right Elbow = false
+and Right Finger(s) = false
+and Right Foot = false
+and Right Forearm = false
+and Right Hand = false
+and Right Hip = false
+and Right Knee = false
+and Right Lower Leg = false
+and Right Shoulder = false
+and Right Thigh = false
+and Right Toe(s) = false
+and Right Wrist = false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{Step 2: Record Insert.Record}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{Step 5: Create a User.User}}^marital_status=false^national_or_ethnic_origin=false^neck=false^number_of_employees=2^other=false^other_area_injury=false^outside_of_ontario=false^owner=false^pelvis=false^precautionary_measures_required=no^previous_injury=false^principal_party_is_identified=no^proposed_mediator=no^race=false^religion=false^reportable_to_esdc=no^right_ankle=false^right_arm=false^right_elbow=false^right_fingers=false^right_foot=false^right_forearm=false^right_hand=false^right_hip=false^right_knee=false^right_lower_leg=false^right_shoulder=false^right_thigh=false^right_toes=false^right_wrist=false^sex=false
+and abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{Step 2: Record Insert.Record}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{Step 5: Create a User.User}}^marital_status=false^national_or_ethnic_origin=false^neck=false^number_of_employees=2^other=false^other_area_injury=false^outside_of_ontario=false^owner=false^pelvis=false^precautionary_measures_required=no^previous_injury=false^principal_party_is_identified=no^proposed_mediator=no^race=false^religion=false^reportable_to_esdc=no^right_ankle=false^right_arm=false^right_elbow=false^right_fingers=false^right_foot=false^right_forearm=false^right_hand=false^right_hip=false^right_knee=false^right_lower_leg=false^right_shoulder=false^right_thigh=false^right_toes=false^right_wrist=false^sex=false^sexual_orientation=false
+and Spouse or relative of the employer = false
+and Has this request been submitted by the subject of harassment = No
+and Teeth = true
+and Upper Back = true
+and Investigation notes = Investigation notes
+and WHSC comments for ESDC LAB forms = WHSC comments
+and WHSC User = {{Step 6: Create a User.User}}
+and Date and time of occurrence = 2022-03-17 15:32:22
+and Room = {{Step 4: Record Insert.Record}}
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>date and time of incident: 2022-03-17 07:21:19
+date and time of incident Report: 022-03-17 07:21:22
+Date and time of occurence: 2022-07-17 11:32:22
+
+Location: {Name = ATF Building, Street = 123 Testingfake Street}
+Room: ATF Room
+Area: Null
+LocationDetails: Null</notes>
+        <order>8</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:11</sys_created_on>
+        <sys_id>f726ca3a3bc99a18aeb1ebc964e45a0c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_f726ca3a3bc99a18aeb1ebc964e45a0c</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:11</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <test display_value="OHS - HoCOHSMUtils">ef264a3a3bc99a18aeb1ebc964e45ada</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=f726ca3a3bc99a18aeb1ebc964e45a0c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f726ca3a3bc99a18aeb1ebc964e45a0c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:11</sys_created_on>
+        <sys_id>3326ca3a3bc99a18aeb1ebc964e45a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:11</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f726ca3a3bc99a18aeb1ebc964e45a0c</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:11</sys_created_on>
+        <sys_id>7b26ca3a3bc99a18aeb1ebc964e45a46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:11</sys_updated_on>
+        <value>abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{step['2f268a3a3bc99a18aeb1ebc964e45a0b'].record_id}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{step['7f268a3a3bc99a18aeb1ebc964e45a73'].user}}^marital_status=false^national_or_ethnic_origin=false^neck=false^number_of_employees=2^other=false^other_area_injury=false^outside_of_ontario=false^owner=false^pelvis=false^precautionary_measures_required=no^previous_injury=false^principal_party_is_identified=no^proposed_mediator=no^race=false^religion=false^reportable_to_esdc=no^right_ankle=false^right_arm=false^right_elbow=false^right_fingers=false^right_foot=false^right_forearm=false^right_hand=false^right_hip=false^right_knee=false^right_lower_leg=false^right_shoulder=false^right_thigh=false^right_toes=false^right_wrist=false^sex=false^sexual_orientation=false^spouse_or_relative_of_the_employer=false^submitted_by_the_subject_of_harassement=no^teeth=true^upper_back=true^u_investigation_notes=Investigation notes^whsc_comments=WHSC comments^whsc_user={{step['3b268a3a3bc99a18aeb1ebc964e45a9b'].user}}^date_and_time_of_occurrence=2022-03-17 15:32:22^inc_location_room={{step['27268a3a3bc99a18aeb1ebc964e45a5a'].record_id}}^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f726ca3a3bc99a18aeb1ebc964e45a0c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:11</sys_created_on>
+        <sys_id>b726ca3a3bc99a18aeb1ebc964e45a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:11</sys_updated_on>
+        <value>x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>f726ca3a3bc99a18aeb1ebc964e45a0c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:11</sys_created_on>
+        <sys_id>f326ca3a3bc99a18aeb1ebc964e45a46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f726ca3a3bc99a18aeb1ebc964e45a0c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>f726ca3a3bc99a18aeb1ebc964e45a0c</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 16:31:11</sys_created_on>
+        <sys_id>7f26ca3a3bc99a18aeb1ebc964e45a46</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 16:31:11</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>abdomen=false^age=false^agreed_on_the_mediator=no^area_of_injury=Indoor^chest=false^color=false^committee_excemption_pursuant_to_subsection_135_6_a_of_the_act=false^conviction_for_which_a_pardon_has_been_granted_or_a_record_suspended=false^did_this_incident_result_in_an_injury=no^disability=false^ears=false^elected_official=false^emp_work_end=00:00:00^emp_work_start=00:00:00^english=false^executive=false^eyes=false^face=false^family_status=false^female=false^french=false^gender_identity_or_expression=false^genetic_characteristics=false^head=false^hv_defendant_manager=N_OVERRIDE^inc_activity=In-frequent^inc_activity_performed=ok^inc_date_time=2022-03-17 11:21:19^inc_desc_circumens=Description of circumstances^inc_location={{step['2f268a3a3bc99a18aeb1ebc964e45a0b'].record_id}}^inc_related_illness=yes^inc_related_post_exp=yes^inc_report_date_time=2022-03-17 11:21:22^inc_req_prot_equip=yes^inc_training_prov=yes^injury_happened_employer_propert=false^left_ankle=false^left_arm=false^left_elbow=false^left_fingers=false^left_foot=false^left_forearm=false^left_hand=false^left_hip=false^left_knee=false^left_lower_leg=false^left_shoulder=false^left_thigh=false^left_toes=false^left_wrist=false^lower_back=false^male=false^manager_involved=no^manager_name={{step['7f268a3a3bc99a18aeb1ebc964e45a73'].user}}^marital_status=false^national_or_ethnic_origin=false^neck=false^number_of_employees=2^other=false^other_area_injury=false^outside_of_ontario=false^owner=false^pelvis=false^precautionary_measures_required=no^previous_injury=false^principal_party_is_identified=no^proposed_mediator=no^race=false^religion=false^reportable_to_esdc=no^right_ankle=false^right_arm=false^right_elbow=false^right_fingers=false^right_foot=false^right_forearm=false^right_hand=false^right_hip=false^right_knee=false^right_lower_leg=false^right_shoulder=false^right_thigh=false^right_toes=false^right_wrist=false^sex=false^sexual_orientation=false^spouse_or_relative_of_the_employer=false^submitted_by_the_subject_of_harassement=no^teeth=true^upper_back=true^u_investigation_notes=Investigation notes^whsc_comments=WHSC comments^whsc_user={{step['3b268a3a3bc99a18aeb1ebc964e45a9b'].user}}^date_and_time_of_occurrence=2022-03-17 15:32:22^inc_location_room={{step['27268a3a3bc99a18aeb1ebc964e45a5a'].record_id}}^EQ</value>
+    </sys_element_mapping>
+</record_update>

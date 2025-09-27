@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="emp_refusal_reason_3" label="Motif de refus de l'employé (Ministre du Travail)" language="fq" table="x_hccc_hoc_ohs_investigation_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>emp_refusal_reason_3</element>
+            <help/>
+            <hint>Le cas échéant, la raison pour laquelle l'employé n'est pas d'accord avec les conclusions de l'enquête et les recommandations du ministre du Travail.</hint>
+            <label>Motif de refus de l'employé (Ministre du Travail)</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <plural>Motif de refus de l'employé (Ministre du Travail)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-06-01 15:37:16</sys_created_on>
+            <sys_id>7fde60e31b87e5d49fde86acdd4bcbe6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Motif de refus de l'employé (Ministre du Travail)</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_investigation_case_emp_refusal_reason_3_fq</sys_update_name>
+            <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-06-01 15:51:23</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

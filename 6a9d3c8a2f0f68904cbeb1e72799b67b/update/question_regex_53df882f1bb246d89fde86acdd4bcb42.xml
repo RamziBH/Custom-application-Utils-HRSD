@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_regex">
+    <question_regex action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Numbers - Barcode - 6 digits only</name>
+        <regex>^\d{6}$</regex>
+        <regex_flag/>
+        <sys_class_name>question_regex</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-06-20 19:28:24</sys_created_on>
+        <sys_id>53df882f1bb246d89fde86acdd4bcb42</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Numbers - Barcode - 6 digits only</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>question_regex_53df882f1bb246d89fde86acdd4bcb42</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-21 14:07:06</sys_updated_on>
+        <validation_message>Barcode should be 6 digits long</validation_message>
+    </question_regex>
+    <sys_translated_text action="delete_multiple" query="documentkey=53df882f1bb246d89fde86acdd4bcb42"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>53df882f1bb246d89fde86acdd4bcb42</documentkey>
+        <fieldname>validation_message</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-21 14:07:06</sys_created_on>
+        <sys_id>c4e164433b59d690aeb1ebc964e45a89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-21 14:07:06</sys_updated_on>
+        <tablename>question_regex</tablename>
+        <value>Les codes à barres ont 6 chiffres</value>
+    </sys_translated_text>
+</record_update>

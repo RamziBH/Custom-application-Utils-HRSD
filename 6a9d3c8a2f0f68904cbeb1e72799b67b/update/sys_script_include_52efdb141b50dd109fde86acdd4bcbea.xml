@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.HoCOHSMRepo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>this is script include for generation varios OHSM reports</description>
+        <mobile_callable>false</mobile_callable>
+        <name>HoCOHSMRepo</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var HoCOHSMRepo = Class.create();
+HoCOHSMRepo.prototype = {
+    LAB1206: "",
+    LAB1058: "",
+    LAB1009EN: "",
+    LAB1009FR: "",
+    HCVTypeID: "",
+
+    initialize: function() {
+        //this.LAB1206 = "ESDC-LAB1206_OHSM";
+        this.LAB1206EN = '35ec7ace3b605ed4aeb1ebc964e45ae7';
+        this.LAB1206FR = '588920773be492d8aeb1ebc964e45add';
+        this.LAB1058EN = '2306fd9c8774ad5050d2eca73cbb3500'; //"ESDC-LAB1058 EN";
+        this.LAB1058FR = '55703d708701a99450d2eca73cbb3566';
+        this.LAB1009EN = "faf220a887a9299050d2eca73cbb3591";
+        this.LAB1009FR = "5e26b5fc1b6525109fde86acdd4bcb03";
+
+        this.HCVTypeID = "11d78aa31bb201509fde86acdd4bcb0b";
+    },
+
+    getReportByTypeandYear: function(repoLab, repoYear, repoBuilding, repoJson) {
+        var reportData = "";
+        switch (repoLab) {
+            //case this.LAB1206:
+            //    reportData = this.createLAB1206Report(repoYear);
+            //    break;
+            case this.LAB1058EN:
+                reportData = this.createLAB1058(repoYear, repoBuilding);
+                break;
+            case this.LAB1058FR:
+                reportData = this.createLAB1058(repoYear, repoBuilding);
+                break;
+            case this.LAB1009EN:
+                reportData = this.createLAB1009(repoYear, repoJson);
+                break;
+            case this.LAB1009FR:
+                reportData = this.createLAB1009(repoYear, repoJson);
+                break;
+            case this.LAB1206EN:
+            case this.LAB1206FR:
+                reportData = this.createLAB1206Report(repoYear);
+                break;
+
+
+
+
+            default: {
+                // reportData = this.createLAB1206Report(repoYear);
+
+                break;
+            }
+
+
+
+
+        }
+
+        return reportData;
+
+    },
+
+    createLAB1206Report: function(repoYear) {
+        var lab1206 = {};
+
+        lab1206.txtf_Year = repoYear;
+        //lab1206.txtF_Org_Name = "House of Commons Administration";
+        //lab1206.txtF_Org_Common = "House of Commons";
+        //lab1206.txtF_Org_ID = "1";
+        //lab1206.txtf_Buz_Num = "1";
+        //lab1206.txtF_Contact_Name = "Joanna Doe";
+        //lab1206.txtF_Contact_Email = "email";
+        //lab1206.txtF_Contact_Phone = "phone";
+        //lab1206.txtF_Contact_Addr = "address";
+
+        lab1206.txtF_Fatal = this.getReportDataFor1206(repoYear, 'FATAL');
+        lab1206.txtF_Non_Sexual = this.getReportDataFor1206(repoYear, 'NONHVC');
+        lab1206.txtF_Sexual = this.getReportDataFor1206(repoYear, 'HVC');
+
+        lab1206.txtF_GenderID = this.getReportDataFor1206(repoYear, 'GENDER');
+        lab1206.txtF_Ethnic = this.getReportDataFor1206(repoYear, 'ETHNIC');
+        lab1206.txtF_Color = this.getReportDataFor1206(repoYear, 'COLOR');
+
+        lab1206.txtF_Age = this.getReportDataFor1206(repoYear, 'AGE');
+        lab1206.txtF_Sex = this.getReportDataFor1206(repoYear, 'SEX');
+        lab1206.txtF_Orientation = this.getReportDataFor1206(repoYear, 'ORIENT');
+        lab1206.txtF_Status = this.getReportDataFor1206(repoYear, 'STATUS');
+        lab1206.txtF_Genetic = this.getReportDataFor1206(repoYear, 'GENCHAR');
+        lab1206.txtF_Family = this.getReportDataFor1206(repoYear, 'FAMILY');
+        lab1206.txtF_Disability = this.getReportDataFor1206(repoYear, 'DISAB'); //DISAB
+        lab1206.txtF_Race = this.getReportDataFor1206(repoYear, 'RACE');
+        lab1206.txtF_Religion = this.getReportDataFor1206(repoYear, 'RELIGION');
+        lab1206.txtF_Suspended = this.getReportDataFor1206(repoYear, 'SUSPEND');
+        lab1206.txtF_3rd = this.getReportDataFor1206(repoYear, 'THIRD');
+        lab1206.txtF_Domestic = this.getReportDataFor1206(repoYear, 'DOMESTIC'); //
+        lab1206.txtF_EMP = this.getReportDataFor1206(repoYear, 'EMPL');
+        lab1206.txtF_Other = this.getReportDataFor1206(repoYear, 'OTHER');
+
+
+        lab1206.txtF_Owner = this.getReportDataFor1206(repoYear, 'OWNER');
+        lab1206.txtF_Super = this.getReportDataFor1206(repoYear, 'SUPER');
+        lab1206.txtF_Concilation = this.getReportDataFor1206(repoYear, 'CONCIL');
+        lab1206.txtF_Investigation = this.getReportDataFor1206(repoYear, 'INVEST');
+        lab1206.txtF_Negotiated = this.getReportDataFor1206(repoYear, 'NEGOTIATE');
+        lab1206.txtF_Party = this.getReportDataFor1206(repoYear, 'PARTY');
+        lab1206.txtF_Work = this.getReportDataFor1206(repoYear, 'WORK');
+        lab1206.txtf_Tot_Occur = this.getReportDataFor1206(repoYear, 'TOTAL');
+        lab1206.txtF_Signature_E = 1;
+
+        lab1206.txtF_Average_Num = this.getAVGReportDataFor1206(repoYear);
+        //	lab1206.locatOccurances = this.getDataByLocationFor1206(repoYear);
+        var locationData = this.getDataByLocationFor1206(repoYear);
+
+        lab1206.locations = locationData.locations;
+        lab1206.totalLocations = locationData.total;
+
+        /*if (locationOccurances.length > 0) {
+
+            var counter = locationOccurances.length;
+            var totalCounter = 0;
+
+            if (counter > 0) {
+                lab1206.txtF_Address1 = (locationOccurances[0]) ? locationOccurances[0].build.toString() : "";
+                lab1206.txtF_Num1 = (locationOccurances[0]) ? locationOccurances[0].counts.toString() : "";
+                totalCounter = totalCounter + parseInt(lab1206.txtF_Num1);
+            }
+            if (counter > 1) {
+
+                lab1206.txtF_Address2 = (locationOccurances[1]) ? locationOccurances[1].build.toString() : "";
+
+                lab1206.txtF_Num2 = (locationOccurances[1]) ? locationOccurances[1].counts.toString() : "";
+                totalCounter = totalCounter + parseInt(lab1206.txtF_Num2);
+            }
+            if (counter > 2) {
+                lab1206.txtF_Address3 = (locationOccurances[2]) ? locationOccurances[2].build.toString() : "";
+
+                lab1206.txtF_Num3 = (locationOccurances[2]) ? locationOccurances[2].counts.toString() : "";
+                totalCounter = totalCounter + parseInt(lab1206.txtF_Num3);
+            }
+
+            if (counter > 3) {
+
+                lab1206.txtF_Address4 = (locationOccurances[3]) ? locationOccurances[3].build.toString() : "";
+
+                lab1206.txtF_Num4 = (locationOccurances[3]) ? locationOccurances[3].counts.toString() : "";
+                totalCounter = totalCounter + parseInt(lab1206.txtF_Num4);
+            }
+            if (counter > 4) {
+
+                lab1206.txtF_Address5 = (locationOccurances[4]) ? locationOccurances[4].build.toString() : "";
+                lab1206.txtF_Num5 = (locationOccurances[4]) ? locationOccurances[4].counts.toString() : "";
+                totalCounter = totalCounter + parseInt(lab1206.txtF_Num5);
+            }
+            if (counter > 5) {
+                lab1206.txtF_Address6 = (locationOccurances[5]) ? locationOccurances[5].build.toString() : "";
+                lab1206.txtF_Num6 = (locationOccurances[5]) ? locationOccurances[5].counts.toString() : "";
+                totalCounter = totalCounter + parseInt(lab1206.txtF_Num6);
+            }
+
+            lab1206.txtF_Total = totalCounter.toString();
+			
+
+        }*/
+
+        lab1206.txtF_Controlled = this.getReportDataFor1206(repoYear, 'CONTROLLED');
+        lab1206.txtF_NotControlled = this.getReportDataFor1206(repoYear, 'NOTCONTROLLED');
+        lab1206.txtF_Travel = this.getReportDataFor1206(repoYear, 'TRAVEL');
+
+        //not sure what cases would ever not be one of the above
+        //lab1206.txtF_Other = this.getReportDataFor1206(repoYear, 'OTHERPLACE');
+        lab1206.txtF_OtherOccurences = 0;
+        lab1206.heriby = 0;
+
+
+
+        return JSON.stringify(lab1206);
+    },
+
+    getDataByLocationFor1206: function(repoYear) {
+        var strQuery = "initial_review.location_controlled_by_employer=Yes^initial_review.occurrence_buildingISNOTEMPTY";
+        strQuery = strQuery + "^hr_service=" + this.HCVTypeID;
+
+        var strQueryYear = "^sys_created_on>=" + repoYear + "-01-01^sys_created_on<=" + repoYear + "-12-31";
+        var gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+        gr.addEncodedQuery(strQuery);
+        gr.addEncodedQuery(strQueryYear);
+
+        gr.query();
+        var buildingCounts = [];
+        var total = 0;
+        //var buildings = [];
+        while (gr.next()) {
+            total = total + 1;
+            var building = gr.initial_review.occurrence_building.sys_id.toString();
+            //if (buildings.indexOf(building) < 0) {
+            //	buildings.push(building);
+            //}
+            var curBuilding = buildingCounts.find(x => x.sys_id == building);
+            if (!curBuilding) {
+                buildingCounts.push({
+                    count: 1,
+                    street: gr.initial_review.occurrence_building.street.toString(),
+                    city: gr.initial_review.occurrence_building.city.toString(),
+                    province: gr.initial_review.occurrence_building.state.toString(),
+                    postal: gr.initial_review.occurrence_building.zip.toString(),
+                    name: gr.initial_review.occurrence_building.name.toString(),
+                    sys_id: building,
+                    address: gr.initial_review.occurrence_building.street.toString() +
+                        ", " + gr.initial_review.occurrence_building.city.toString() +
+                        ", " + gr.initial_review.occurrence_building.state.toString() +
+                        ", " + gr.initial_review.occurrence_building.zip.toString()
+                })
+            } else {
+                curBuilding.count = curBuilding.count + 1;
+            }
+        }
+        return {
+            locations: buildingCounts,
+            total: total
+        };
+
+    },
+    getReportDataFor1206: function(repoYear, repoQuery) {
+        var strQuery = "";
+
+        switch (repoQuery) {
+            case "HVC": {
+                strQuery = "rw.case_type=2";
+
+                break;
+            }
+            case "NONHVC": {
+
+                strQuery = "rw.case_type=1";
+                break;
+            }
+            case "FATAL": {
+                strQuery = "initial_review.results_of_occurrenceLIKE887300531b300e10813f844fdd4bcb3f";
+                break;
+            }
+            case "TOTAL": {
+
+                strQuery = "";
+                break;
+            }
+            case 'NEGOTIATE': {
+                strQuery = "x_hccc_hoc_ohs_h_and_v_rw.resolved_by=Negotiated resolution";
+                break;
+            }
+            case 'CONCIL': {
+                strQuery = "x_hccc_hoc_ohs_h_and_v_rw.resolved_by=Conciliation";
+
+                break;
+            }
+
+            case 'INVEST': {
+
+                strQuery = "x_hccc_hoc_ohs_h_and_v_rw.resolved_by=Investigation";
+                break;
+            }
+            case 'WORK': {
+                strQuery = "x_hccc_hoc_ohs_h_and_v_rw.resolved_by=Work place assessment";
+                break;
+            }
+
+
+            case 'PARTY': {
+                strQuery = "x_hccc_hoc_ohs_h_and_v_rw.resolved_by=Principal party could not be identified";
+                break;
+            }
+
+
+            case 'ETHNIC': {
+
+                strQuery = "rw.discrimination_grounds_listLIKE97e8180e1b740e1c813f844fdd4bcbc9";
+                break;
+            }
+            case 'COLOR': {
+
+                strQuery = "rw.discrimination_grounds_listLIKE11e8900e1b740e1c813f844fdd4bcbb0";
+                break;
+            }
+            case 'RACE': {
+
+                strQuery = "rw.discrimination_grounds_listLIKEaa17100a1b740e1c813f844fdd4bcbf1";
+                break;
+            }
+            case 'RELIGION': {
+
+                strQuery = "rw.discrimination_grounds_listLIKE09f8980e1b740e1c813f844fdd4bcbb9";
+                break;
+            }
+            case 'AGE': {
+
+                strQuery = "rw.discrimination_grounds_listLIKE6c09980e1b740e1c813f844fdd4bcb28";
+                break;
+            }
+            case 'SEX': {
+
+                strQuery = "rw.discrimination_grounds_listLIKEe119580e1b740e1c813f844fdd4bcb35";
+                break;
+            }
+            case 'ORIENT': {
+
+                strQuery = "rw.discrimination_grounds_listLIKEb6199c0e1b740e1c813f844fdd4bcb52";
+                break;
+            }
+            case 'GENDER': {
+
+                strQuery = "rw.discrimination_grounds_listLIKE5439180e1b740e1c813f844fdd4bcbce";
+                break;
+            }
+            case 'STATUS': {
+
+                strQuery = "rw.discrimination_grounds_listLIKE80d880971b700e10813f844fdd4bcb73";
+                break;
+            }
+            case 'FAMILY': {
+
+                strQuery = "rw.discrimination_grounds_listLIKEdf7840171b700e10813f844fdd4bcb63";
+                break;
+            }
+            case 'DISAB': {
+
+                strQuery = "rw.discrimination_grounds_listLIKE226888171b700e10813f844fdd4bcba6";
+                break;
+            }
+
+            case 'GENCHAR': {
+                strQuery = "rw.discrimination_grounds_listLIKEaa09180e1b740e1c813f844fdd4bcbb9";
+                break;
+            }
+
+            case 'SUSPEND': {
+
+                strQuery = "rw.discrimination_grounds_listLIKE=023884d31b700e10813f844fdd4bcb34";
+                break;
+            }
+
+            case 'EMPL': {
+
+                strQuery = "initial_review.party_relationship=Employee / Employee";
+                break;
+
+
+            }
+            case 'OTHER': {
+
+                strQuery = "initial_review.party_relationship=Employee / Other";
+                break;
+
+
+            }
+            case 'OWNER': {
+
+                strQuery = "initial_review.party_relationship=Employee / Supervisor, Manager, Business Owner";
+                break;
+
+
+            }
+            case 'SUPER': {
+
+                strQuery = "initial_review.party_relationship=Supervisor, Manager, Business Owner / Employee";
+                break;
+
+
+            }
+            case 'THIRD': {
+                strQuery = 'initial_review.party_relationship=Employee / Third Party, Client, Contractor, Public';
+
+                break;
+            }
+            case 'DOMESTIC': {
+
+                strQuery = "initial_review.party_relationship=Employee / Domestic Partner";
+                break;
+
+
+            }
+            case 'CONTROLLED': {
+                strQuery = "initial_review.location_controlled_by_employer=Yes";
+                break;
+            }
+            case 'NOTCONTROLLED': {
+                strQuery = "initial_review.location_controlled_by_employer=No";
+                break;
+            }
+            case 'TRAVEL': {
+
+                strQuery = "inital_review.occurrence_during_travel=Yes";
+
+            }
+            case 'OTHERPLACE': {
+                strQuery = "";
+
+                break;
+            }
+
+        }
+
+        strQuery = strQuery + "^hr_service=" + this.HCVTypeID; //yyyy-MM-dd
+        //var strQueryYear = "^sys_created_onONThis year@javascript:gs.beginningOfThisYear()@javascript:gs.endOfThisYear()";
+        var strQueryYear = "^sys_created_on>=" + repoYear + "-01-01^sys_created_on<=" + repoYear + "-12-31";
+        var gr = new GlideAggregate('x_hccc_hoc_ohs_investigation_case');
+        gr.addEncodedQuery(strQuery);
+        gr.addEncodedQuery(strQueryYear);
+        gr.addAggregate('COUNT');
+        gr.query();
+        var count = 0;
+        if (gr.next())
+            count = gr.getAggregate('COUNT');
+        return count;
+
+    },
+    getAVGReportDataFor1206: function(repoYear) {
+        var strQuery = "hr_service=" + this.HCVTypeID; //yyyy-MM-dd
+
+        var strQueryYear = "^closed_at<=" + repoYear + "-12-31";
+        var gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+        gr.addEncodedQuery(strQuery);
+        gr.addEncodedQuery(strQueryYear);
+        gr.addNotNullQuery('business_duration');
+
+        gr.query();
+        //gs.info(gr.getRowCount());
+        var avgMonth = 0;
+        while (gr.next()) {
+
+            avgMonth = avgMonth + parseInt(gr.business_duration.dateNumericValue());
+        }
+        avgMonth = avgMonth / parseInt(gr.getRowCount());
+
+        var averageTotal = this.getMonth(avgMonth);
+        var result;
+        try {
+            result = averageTotal.toFixed(2);
+        } catch (e) {
+            result = 0;
+        }
+
+        return result;
+    },
+
+    getMonth: function(time) {
+        return time / (30 * 24 * 60 * 60 * 1000);
+    },
+
+    get1058_Type_UnresolvedByMonth: function(caseType, openDate, closeDate, location, locField, reportYear) {
+        var next_month;
+        var next_month_year;
+
+        var arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        var strNew = '';
+        var mth;
+        var tot = 0;
+
+        for (let i = 1; i <= 12; i++) { //for each month
+            next_month = (i % 12) + 1; //get number for the next month, wrap back to jan if current month is dec
+            next_month_year = reportYear;
+
+            if (next_month === 1) {
+                next_month_year = reportYear + 1;
+            }
+
+            var unresolved_cases_gr = new GlideRecord('x_hccc_hoc_ohs_investigation_case');
+
+            unresolved_cases_gr.addQuery('hr_service', 'IN', caseType);
+            unresolved_cases_gr.addQuery(locField, location);
+            unresolved_cases_gr.addEncodedQuery(openDate + "BETWEENjavascript:gs.dateGenerate('" + reportYear + "-01-01','00:00:00')@javascript:gs.dateGenerate('" + reportYear + "-12-31','23:59:59')"); //created in the report year
+            unresolved_cases_gr.addEncodedQuery(openDate + "<javascript:gs.dateGenerate('" + next_month_year + "-" + String(next_month).padStart(2, '0') + "-01','00:00:00')"); //opened before the start of the next month
+            unresolved_cases_gr.addEncodedQuery(closeDate + ">=javascript:gs.dateGenerate('" + next_month_year + "-" + String(next_month).padStart(2, '0') + "-01','end')^OR" + closeDate + "ISEMPTY"); //case not completed in current year
+            unresolved_cases_gr.query();
+
+            mth = i - 1; //convert month number to array position
+
+            arr[mth] = unresolved_cases_gr.getRowCount();
+
+            tot += arr[mth];
+        }
+
+        arr.push(tot.toString());
+        strNew = arr.toString();
+        return strNew;
+    },
+    get1058_Type_ResolvedByMonth: function(caseType, openDate, closeDate, location, locField, stateList, reportYear) {
+        //Retrieve Complaints resolved in Last year		
+        var trend = new GlideAggregate('x_hccc_hoc_ohs_investigation_case');
+        trend.addTrend(closeDate, 'Month');
+
+        trend.addEncodedQuery(closeDate + "BETWEENjavascript:gs.dateGenerate('" + reportYear + "-01-01','start')@javascript:gs.dateGenerate('" + reportYear + "-12-31','end')"); //resolved in report year
+
+        trend.addEncodedQuery(openDate + "BETWEENjavascript:gs.dateGenerate('" + reportYear + "-01-01','start')@javascript:gs.dateGenerate('" + reportYear + "-12-31','end')"); //opened in report year
+
+        trend.addQuery('hr_service', 'IN', caseType);
+
+        if (stateList != '') {
+            trend.addQuery('state', 'IN', stateList);
+        }
+        trend.addQuery(locField, location);
+
+        trend.addAggregate('COUNT');
+
+        trend.setGroup(false);
+        trend.query();
+
+        var arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        var strNew = '';
+        var mth;
+        var tot = 0;
+
+        while (trend.next()) {
+            var t = trend.getValue('timeref').split('/'); //split month/year so [0] is Month
+
+            mth = t[0] - 1; //get month value and -1 to match to array numbering
+
+            arr[mth] = trend.getAggregate('COUNT');
+
+            tot += parseInt(arr[mth]);
+        }
+        arr.push(tot.toString());
+        strNew = arr.toString();
+        return strNew;
+    },
+    get1058_Type_CreatedByMonth: function(caseType, fldDate, location, locField, injuryType, stateList, reportYear, sum) {
+        //Retrieve Complaints created for Last year		
+        var trend = new GlideAggregate('x_hccc_hoc_ohs_investigation_case');
+        trend.addTrend(fldDate, 'Month');
+        if (reportYear) {
+            trend.addEncodedQuery(fldDate + "BETWEENjavascript:gs.dateGenerate('" + reportYear + "-01-01','00:00:00')@javascript:gs.dateGenerate('" + reportYear + "-12-31','23:59:59')");
+        } else {
+            trend.addEncodedQuery(fldDate + 'ONLast year@javascript:gs.beginningOfLastYear()@javascript:gs.endOfLastYear()');
+        }
+        trend.addQuery('hr_service', 'IN', caseType);
+
+        if (stateList != '') {
+            trend.addQuery('state', 'IN', stateList);
+        }
+        trend.addQuery(locField, location);
+
+
+        if (injuryType != '') { //do we need to query injury type?
+            trend.addQuery('inc_type_occ', injuryType);
+        }
+
+        if (sum) {
+            trend.addAggregate('SUM', 'number_of_lost_days');
+        } else {
+            trend.addAggregate('COUNT');
+        }
+
+        trend.setGroup(false);
+        trend.query();
+
+        var arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+        var strNew = '';
+        var mth;
+        var tot = 0;
+
+        while (trend.next()) {
+            var t = trend.getValue('timeref').split('/'); //split month/year so [0] is Month
+            mth = t[0] - 1; //get month value and -1 to match to array numbering
+
+            if (sum) {
+                arr[mth] = Number(trend.getAggregate('SUM', 'number_of_lost_days'));
+            } else {
+                arr[mth] = trend.getAggregate('COUNT');
+            }
+
+            tot += parseInt(arr[mth]);
+        }
+        arr.push(tot.toString());
+        strNew = arr.toString();
+        return strNew;
+    },
+    createLAB1058: function(repoYear, repoBuilding) {
+        //get Lab1058 Staging data for Year & Building
+        var staging = new GlideRecord('x_hccc_hoc_ohs_lab1058_staging_table');
+        staging.addQuery('report_year', repoYear);
+        staging.addQuery('building', repoBuilding);
+        staging.query();
+
+        //build the JSON file.		
+        var lab1058 = {};
+
+        var tmp;
+        staging.next();
+        gs.info("OHSM Testing: Time lost - " + staging.time_lost);
+
+        var compRecd = staging.complaints_received.split(',');
+        lab1058.textF_Complaint_Received_Jan = compRecd[0];
+        lab1058.textF_Complaint_Received_Feb = compRecd[1];
+        lab1058.textF_Complaint_Received_Mar = compRecd[2];
+        lab1058.textF_Complaint_Received_Apr = compRecd[3];
+        lab1058.textF_Complaint_Received_May = compRecd[4];
+        lab1058.textF_Complaint_Received_Jun = compRecd[5];
+        lab1058.textF_Complaint_Received_Jul = compRecd[6];
+        lab1058.textF_Complaint_Received_Aug = compRecd[7];
+        lab1058.textF_Complaint_Received_Sep = compRecd[8];
+        lab1058.textF_Complaint_Received_Oct = compRecd[9];
+        lab1058.textF_Complaint_Received_Nov = compRecd[10];
+        lab1058.textF_Complaint_Received_Dec = compRecd[11];
+        lab1058.textF_Complaint_Received_Tot = compRecd[12];
+
+        var compRes = staging.complaints_resolved.split(',');
+        lab1058.textF_Complaint_Resolved_Jan = compRes[0];
+        lab1058.textF_Complaint_Resolved_Feb = compRes[1];
+        lab1058.textF_Complaint_Resolved_Mar = compRes[2];
+        lab1058.textF_Complaint_Resolved_Apr = compRes[3];
+        lab1058.textF_Complaint_Resolved_May = compRes[4];
+        lab1058.textF_Complaint_Resolved_Jun = compRes[5];
+        lab1058.textF_Complaint_Resolved_Jul = compRes[6];
+        lab1058.textF_Complaint_Resolved_Aug = compRes[7];
+        lab1058.textF_Complaint_Resolved_Sep = compRes[8];
+        lab1058.textF_Complaint_Resolved_Oct = compRes[9];
+        lab1058.textF_Complaint_Resolved_Nov = compRes[10];
+        lab1058.textF_Complaint_Resolved_Dec = compRes[11];
+        lab1058.textF_Complaint_Resolved_Tot = compRes[12];
+
+        var compUnres = staging.complaints_unresolved.split(',');
+        lab1058.textF_Complaint_UnResolved_Jan = compUnres[0];
+        lab1058.textF_Complaint_UnResolved_Feb = compUnres[1];
+        lab1058.textF_Complaint_UnResolved_Mar = compUnres[2];
+        lab1058.textF_Complaint_UnResolved_Apr = compUnres[3];
+        lab1058.textF_Complaint_UnResolved_May = compUnres[4];
+        lab1058.textF_Complaint_UnResolved_Jun = compUnres[5];
+        lab1058.textF_Complaint_UnResolved_Jul = compUnres[6];
+        lab1058.textF_Complaint_UnResolved_Aug = compUnres[7];
+        lab1058.textF_Complaint_UnResolved_Sep = compUnres[8];
+        lab1058.textF_Complaint_UnResolved_Oct = compUnres[9];
+        lab1058.textF_Complaint_UnResolved_Nov = compUnres[10];
+        lab1058.textF_Complaint_UnResolved_Dec = compUnres[11];
+        lab1058.textF_Complaint_UnResolved_Tot = compUnres[12];
+
+        var refRecd = staging.refusals_received.split(',');
+        lab1058.textF_Refusal_Received_Jan = refRecd[0];
+        lab1058.textF_Refusal_Received_Feb = refRecd[1];
+        lab1058.textF_Refusal_Received_Mar = refRecd[2];
+        lab1058.textF_Refusal_Received_Apr = refRecd[3];
+        lab1058.textF_Refusal_Received_May = refRecd[4];
+        lab1058.textF_Refusal_Received_Jun = refRecd[5];
+        lab1058.textF_Refusal_Received_Jul = refRecd[6];
+        lab1058.textF_Refusal_Received_Aug = refRecd[7];
+        lab1058.textF_Refusal_Received_Sep = refRecd[8];
+        lab1058.textF_Refusal_Received_Oct = refRecd[9];
+        lab1058.textF_Refusal_Received_Nov = refRecd[10];
+        lab1058.textF_Refusal_Received_Dec = refRecd[11];
+        lab1058.textF_Refusal_Received_Tot = refRecd[12];
+
+        var refRes = staging.refusals_resolved.split(',');
+        lab1058.textF_Refusal_Resolved_Jan = refRes[0];
+        lab1058.textF_Refusal_Resolved_Feb = refRes[1];
+        lab1058.textF_Refusal_Resolved_Mar = refRes[2];
+        lab1058.textF_Refusal_Resolved_Apr = refRes[3];
+        lab1058.textF_Refusal_Resolved_May = refRes[4];
+        lab1058.textF_Refusal_Resolved_Jun = refRes[5];
+        lab1058.textF_Refusal_Resolved_Jul = refRes[6];
+        lab1058.textF_Refusal_Resolved_Aug = refRes[7];
+        lab1058.textF_Refusal_Resolved_Sep = refRes[8];
+        lab1058.textF_Refusal_Resolved_Oct = refRes[9];
+        lab1058.textF_Refusal_Resolved_Nov = refRes[10];
+        lab1058.textF_Refusal_Resolved_Dec = refRes[11];
+        lab1058.textF_Refusal_Resolved_Tot = refRes[12];
+
+        var refUnres = staging.refusals_unresolved.split(',');
+        lab1058.textF_Refusal_UnResolved_Jan = refUnres[0];
+        lab1058.textF_Refusal_UnResolved_Feb = refUnres[1];
+        lab1058.textF_Refusal_UnResolved_Mar = refUnres[2];
+        lab1058.textF_Refusal_UnResolved_Apr = refUnres[3];
+        lab1058.textF_Refusal_UnResolved_May = refUnres[4];
+        lab1058.textF_Refusal_UnResolved_Jun = refUnres[5];
+        lab1058.textF_Refusal_UnResolved_Jul = refUnres[6];
+        lab1058.textF_Refusal_UnResolved_Aug = refUnres[7];
+        lab1058.textF_Refusal_UnResolved_Sep = refUnres[8];
+        lab1058.textF_Refusal_UnResolved_Oct = refUnres[9];
+        lab1058.textF_Refusal_UnResolved_Nov = refUnres[10];
+        lab1058.textF_Refusal_UnResolved_Dec = refUnres[11];
+        lab1058.textF_Refusal_UnResolved_Tot = refUnres[12];
+
+        var Inv = staging.investigations.split(',');
+        lab1058.textF_Investigations_Jan = Inv[0];
+        lab1058.textF_Investigations_Feb = Inv[1];
+        lab1058.textF_Investigations_Mar = Inv[2];
+        lab1058.textF_Investigations_Apr = Inv[3];
+        lab1058.textF_Investigations_May = Inv[4];
+        lab1058.textF_Investigations_Jun = Inv[5];
+        lab1058.textF_Investigations_Jul = Inv[6];
+        lab1058.textF_Investigations_Aug = Inv[7];
+        lab1058.textF_Investigations_Sep = Inv[8];
+        lab1058.textF_Investigations_Oct = Inv[9];
+        lab1058.textF_Investigations_Nov = Inv[10];
+        lab1058.textF_Investigations_Dec = Inv[11];
+        lab1058.textF_Investigations_Tot = Inv[12];
+
+        var Inspect = staging.inspections.split(',');
+        lab1058.textF_Inspect_Jan = Inspect[0];
+        lab1058.textF_Inspect_Feb = Inspect[1];
+        lab1058.textF_Inspect_Mar = Inspect[2];
+        lab1058.textF_Inspect_Apr = Inspect[3];
+        lab1058.textF_Inspect_May = Inspect[4];
+        lab1058.textF_Inspect_Jun = Inspect[5];
+        lab1058.textF_Inspect_Jul = Inspect[6];
+        lab1058.textF_Inspect_Aug = Inspect[7];
+        lab1058.textF_Inspect_Sep = Inspect[8];
+        lab1058.textF_Inspect_Oct = Inspect[9];
+        lab1058.textF_Inspect_Nov = Inspect[10];
+        lab1058.textF_Inspect_Dec = Inspect[11];
+        lab1058.textF_Inspect_Tot = Inspect[12];
+
+        var hazID = staging.hazards_identified.split(',');
+        lab1058.textF_Hazards_Jan = hazID[0];
+        lab1058.textF_Hazards_Feb = hazID[1];
+        lab1058.textF_Hazards_Mar = hazID[2];
+        lab1058.textF_Hazards_Apr = hazID[3];
+        lab1058.textF_Hazards_May = hazID[4];
+        lab1058.textF_Hazards_Jun = hazID[5];
+        lab1058.textF_Hazards_Jul = hazID[6];
+        lab1058.textF_Hazards_Aug = hazID[7];
+        lab1058.textF_Hazards_Sep = hazID[8];
+        lab1058.textF_Hazards_Oct = hazID[9];
+        lab1058.textF_Hazards_Nov = hazID[10];
+        lab1058.textF_Hazards_Dec = hazID[11];
+        lab1058.textF_Hazards_Tot = hazID[12];
+
+        var hazRes = staging.hazards_resolved.split(',');
+        lab1058.textF_Hazard_resolved_Jan = hazRes[0];
+        lab1058.textF_Hazard_resolved_Feb = hazRes[1];
+        lab1058.textF_Hazard_resolved_Mar = hazRes[2];
+        lab1058.textF_Hazard_resolved_Apr = hazRes[3];
+        lab1058.textF_Hazard_resolved_May = hazRes[4];
+        lab1058.textF_Hazard_resolved_Jun = hazRes[5];
+        lab1058.textF_Hazard_resolved_Jul = hazRes[6];
+        lab1058.textF_Hazard_resolved_Aug = hazRes[7];
+        lab1058.textF_Hazard_resolved_Sep = hazRes[8];
+        lab1058.textF_Hazard_resolved_Oct = hazRes[9];
+        lab1058.textF_Hazard_resolved_Nov = hazRes[10];
+        lab1058.textF_Hazard_resolved_Dec = hazRes[11];
+        lab1058.textF_Hazard_resolved_Tot = hazRes[12];
+
+        var hazUnres = staging.hazards_unresolved.split(',');
+        lab1058.textF_Hazard_Unresolved_Jan = hazUnres[0];
+        lab1058.textF_Hazard_Unresolved_Feb = hazUnres[1];
+        lab1058.textF_Hazard_Unresolved_Mar = hazUnres[2];
+        lab1058.textF_Hazard_Unresolved_Apr = hazUnres[3];
+        lab1058.textF_Hazard_Unresolved_May = hazUnres[4];
+        lab1058.textF_Hazard_Unresolved_Jun = hazUnres[5];
+        lab1058.textF_Hazard_Unresolved_Jul = hazUnres[6];
+        lab1058.textF_Hazard_Unresolved_Aug = hazUnres[7];
+        lab1058.textF_Hazard_Unresolved_Sep = hazUnres[8];
+        lab1058.textF_Hazard_Unresolved_Oct = hazUnres[9];
+        lab1058.textF_Hazard_Unresolved_Nov = hazUnres[10];
+        lab1058.textF_Hazard_Unresolved_Dec = hazUnres[11];
+        lab1058.textF_Hazard_Unresolved_Tot = hazUnres[12];
+
+        var disabling = staging.disabling_injury.split(',');
+        lab1058.textF_Disabling_Jan = disabling[0];
+        lab1058.textF_Disabling_Feb = disabling[1];
+        lab1058.textF_Disabling_Mar = disabling[2];
+        lab1058.textF_Disabling_Apr = disabling[3];
+        lab1058.textF_Disabling_May = disabling[4];
+        lab1058.textF_Disabling_Jun = disabling[5];
+        lab1058.textF_Disabling_Jul = disabling[6];
+        lab1058.textF_Disabling_Aug = disabling[7];
+        lab1058.textF_Disabling_Sep = disabling[8];
+        lab1058.textF_Disabling_Oct = disabling[9];
+        lab1058.textF_Disabling_Nov = disabling[10];
+        lab1058.textF_Disabling_Dec = disabling[11];
+        lab1058.textF_Disabling_Tot = disabling[12];
+
+        var minor = staging.minor_injury.split(',');
+        lab1058.textF_Minor_Jan = minor[0];
+        lab1058.textF_Minor_Feb = minor[1];
+        lab1058.textF_Minor_Mar = minor[2];
+        lab1058.textF_Minor_Apr = minor[3];
+        lab1058.textF_Minor_May = minor[4];
+        lab1058.textF_Minor_Jun = minor[5];
+        lab1058.textF_Minor_Jul = minor[6];
+        lab1058.textF_Minor_Aug = minor[7];
+        lab1058.textF_Minor_Sep = minor[8];
+        lab1058.textF_Minor_Oct = minor[9];
+        lab1058.textF_Minor_Nov = minor[10];
+        lab1058.textF_Minor_Dec = minor[11];
+        lab1058.textF_Minor_Tot = minor[12];
+
+        var timeLost = staging.time_lost.split(',');
+        lab1058.textF_Time_Lost_Jan = timeLost[0];
+        lab1058.textF_Time_Lost_Feb = timeLost[1];
+        lab1058.textF_Time_Lost_Mar = timeLost[2];
+        lab1058.textF_Time_Lost_Apr = timeLost[3];
+        lab1058.textF_Time_Lost_May = timeLost[4];
+        lab1058.textF_Time_Lost_Jun = timeLost[5];
+        lab1058.textF_Time_Lost_Jul = timeLost[6];
+        lab1058.textF_Time_Lost_Aug = timeLost[7];
+        lab1058.textF_Time_Lost_Sep = timeLost[8];
+        lab1058.textF_Time_Lost_Oct = timeLost[9];
+        lab1058.textF_Time_Lost_Nov = timeLost[10];
+        lab1058.textF_Time_Lost_Dec = timeLost[11];
+        lab1058.textF_Time_Lost_Tot = timeLost[12];
+
+        return JSON.stringify(lab1058);
+    },
+
+    createLAB1009: function(repoYear, repoJson) {
+
+
+    },
+
+
+    type: 'HoCOHSMRepo'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>azure.Nataliya.Bun@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-21 13:07:37</sys_created_on>
+        <sys_id>52efdb141b50dd109fde86acdd4bcbea</sys_id>
+        <sys_mod_count>204</sys_mod_count>
+        <sys_name>HoCOHSMRepo</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_52efdb141b50dd109fde86acdd4bcbea</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-25 16:13:11</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>52efdb141b50dd109fde86acdd4bcbea</id>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-19 14:09:51</sys_created_on>
+        <sys_id>8ceaef713b771218aeb1ebc964e45a48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-19 14:09:51</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

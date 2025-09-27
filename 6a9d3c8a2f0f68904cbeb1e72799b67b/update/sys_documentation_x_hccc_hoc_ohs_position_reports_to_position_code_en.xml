@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="position_code" label="Position code" language="en" table="x_hccc_hoc_ohs_position_reports_to">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>position_code</element>
+            <help/>
+            <hint/>
+            <label>Position code</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_position_reports_to</name>
+            <plural>Position codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2023-12-20 13:05:57</sys_created_on>
+            <sys_id>21eb2b751b733950c6c7a8ecbc4bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Position code</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_position_reports_to_position_code_en</sys_update_name>
+            <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2023-12-20 13:05:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

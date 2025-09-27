@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="DNU - OHS Assessments - Submit and Complete a Workplace Assessment request">3057cd761b120a909fde86acdd4bcbeb</copied_from>
+        <description> </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>OHS - Assessments - Submit and Complete a Workplace Assessment request </name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-07 16:24:35</sys_created_on>
+        <sys_id>ed1b34aefb8d9a9095e5fb3f4eefdc30</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>OHS - Assessments - Submit and Complete a Workplace Assessment request </sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_ed1b34aefb8d9a9095e5fb3f4eefdc30</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-07 16:34:49</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=ed1b34aefb8d9a9095e5fb3f4eefdc30"/>
+</record_update>

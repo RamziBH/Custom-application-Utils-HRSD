@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ff033bd11b6c4adc9fde86acdd4bcb0a" sys_domain="global" table="x_hccc_hoc_ohs_case" version="3" view="hr_workbench">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>b84bdd7b3bb16a98aeb1ebc964e45ae6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <text>&lt;style&gt;
+
+#notificationFollowWidget {
+display:none !important;
+}
+
+#create_collab_chat {
+display:none !important;
+}
+
+&lt;/style&gt;</text>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_for</element>
+            <position>0</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>3c4b11bb3bb16a98aeb1ebc964e45a07</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_person</element>
+            <position>1</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>784b11bb3bb16a98aeb1ebc964e45a08</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hr_service</element>
+            <position>2</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>704b11bb3bb16a98aeb1ebc964e45a09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>template</element>
+            <position>3</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>784b11bb3bb16a98aeb1ebc964e45a09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>704b11bb3bb16a98aeb1ebc964e45a0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>bc4b11bb3bb16a98aeb1ebc964e45a2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>6</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>b44b11bb3bb16a98aeb1ebc964e45a30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hr_profile</element>
+            <position>7</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>bc4b11bb3bb16a98aeb1ebc964e45a30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>8</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>b44b11bb3bb16a98aeb1ebc964e45a31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>bc4b11bb3bb16a98aeb1ebc964e45a31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>b44b11bb3bb16a98aeb1ebc964e45a32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>11</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>bc4b11bb3bb16a98aeb1ebc964e45a32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>rich_description</element>
+            <position>12</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>b44b11bb3bb16a98aeb1ebc964e45a33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>13</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>bc4b11bb3bb16a98aeb1ebc964e45a33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>14</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>b44b11bb3bb16a98aeb1ebc964e45a34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>15</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>bc4b11bb3bb16a98aeb1ebc964e45a34</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cxs_table_search.xml</element>
+            <position>16</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>784b11bb3bb16a98aeb1ebc964e45a35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Contextual Search Results">11eb1622eb1121003623666cd206fe56</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.sn_hr_core_case.sn_hr_core_task.parent</element>
+            <position>17</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>b04b11bb3bb16a98aeb1ebc964e45a36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>b84bdd7b3bb16a98aeb1ebc964e45ae6</element>
+            <position>18</position>
+            <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-06-04 18:55:49</sys_created_on>
+            <sys_id>b84b11bb3bb16a98aeb1ebc964e45a36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_case" sys_domain="global" view="be5370019f22120047a2d126c42e705a">ff033bd11b6c4adc9fde86acdd4bcb0a</sys_ui_section>
+            <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-06-04 18:55:49</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_hccc_hoc_ohs_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-02-23 15:53:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff033bd11b6c4adc9fde86acdd4bcb0a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_section_ff033bd11b6c4adc9fde86acdd4bcb0a</sys_update_name>
+            <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-23 15:53:25</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="HR workbench" name="hr_workbench">be5370019f22120047a2d126c42e705a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

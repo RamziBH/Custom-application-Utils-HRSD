@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>false</admin_overrides>
+        <advanced>true</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_hccc_hoc_ohs_case</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_hccc_hoc_ohs_case</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[/* global sn_hr_core */
+var lcns = new sn_hr_core.hr_license();
+var hasAccess = lcns.hasHrAccess(current.getTableName());
+var impersonateCheck = new sn_hr_core.hr_CoreUtils().impersonateCheck();
+var isInteractive = gs.getSession().isInteractive();
+
+if ((isInteractive && impersonateCheck) || !hasAccess) {
+    answer = false;
+} else if (new sn_hr_core.hr_Case(current, gs).canReadCase()) {
+    answer = true;
+} else {
+    answer = false;
+}
+
+//BUG#205236 - Employees should not see their own case record for all OHS and LR cases
+/*if (answer === true && (current.opened_for.getValue() === gs.getUserID() ||
+        current.x_hccc_base_opened_for.getValue() === gs.getUserID())) {
+    answer = false;
+}*/
+//Dropped in favour of using the setting "subject_person_access" in sn_hr_core_serv]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-22 20:19:00</sys_created_on>
+        <sys_id>5c466fc91ba402dc9fde86acdd4bcb41</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_case</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_security_acl_5c466fc91ba402dc9fde86acdd4bcb41</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-27 14:16:34</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>5c466fc91ba402dc9fde86acdd4bcb41</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-02-05 16:48:46</sys_created_on>
+        <sys_id>2ff844653b6b1290aeb1ebc964e45ac7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-02-05 16:48:46</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

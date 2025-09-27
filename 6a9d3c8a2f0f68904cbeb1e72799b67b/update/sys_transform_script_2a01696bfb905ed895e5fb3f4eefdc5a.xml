@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Create Mitigation Actions">052d29923b141210aeb1ebc964e45a67</map>
+        <order>100</order>
+        <script><![CDATA[//The onBefore event script is processed at the start of a row transformation, before the source row is transformed into the target row.
+//https://docs.servicenow.com/bundle/xanadu-integrate-applications/page/script/server-scripting/reference/r_MapWithTransformationEventScripts.html
+(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    const actionTaken = source.u_action_s__taken_by_manager.toString().trim(); //some entries are " ", we need to remove them
+	const timeStamp = new Date().toISOString(); //performance.timeOrigin + performance.now();
+    const infoStr = 'OHS - ' + timeStamp + ' - Row: ' + source.sys_import_row +
+        ' - onBefore - ';
+
+    //only return if there's an action
+    if (actionTaken === null || actionTaken === '' || actionTaken === '0') {
+        ignore = true;
+    } else {
+        log.info(infoStr + 'we push the action (we don\'t ignore), action taken: ' + actionTaken);
+    }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-09-03 15:13:17</sys_created_on>
+        <sys_id>2a01696bfb905ed895e5fb3f4eefdc5a</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_transform_script_2a01696bfb905ed895e5fb3f4eefdc5a</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-03 19:41:29</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

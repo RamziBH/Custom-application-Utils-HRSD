@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Changes the "Who" and "What" label in the follow-up tab for Workplace Inspection cases </description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Corrective Action - Change labels in follow-up tab</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   //a284e0261b7a30109fde86acdd4bcbfc - corrective action
+   
+   var hrService = g_form.getValue('hr_service');
+   var userLanguage = g_lang;
+   if(hrService == "a284e0261b7a30109fde86acdd4bcbfc" && userLanguage == "en"){
+		g_form.setLabelOf('wi_who', 'Person responsible for the action');
+		g_form.setLabelOf('wi_when', 'Action start date');
+   }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>mdsajid.islam@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-13 17:47:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>76c6e5163b532614aeb1ebc964e45a54</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Corrective Action - Change labels in follow-up tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_client_76c6e5163b532614aeb1ebc964e45a54</sys_update_name>
+        <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-14 12:39:16</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application/>
+        <code/>
+        <commented_message/>
+        <key>x_hccc_hoc_ohs.mitigation_measures_not_implemented</key>
+        <language>en</language>
+        <message>Some hazard's mitigation measures are not implemented yet</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_created_by>
+        <sys_created_on>2023-08-21 17:14:26</sys_created_on>
+        <sys_id>89ed8e291bbcb9909fde86acdd4bcb62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs.mitigation_measures_not_implemented</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_message_89ed8e291bbcb9909fde86acdd4bcb62</sys_update_name>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2023-08-21 17:14:26</sys_updated_on>
+    </sys_ui_message>
+</record_update>

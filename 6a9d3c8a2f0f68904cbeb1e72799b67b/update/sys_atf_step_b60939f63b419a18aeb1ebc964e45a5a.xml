@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Generate Random String">10fdaf5a1bdec69c813f844fdd4bcb08</copied_from>
+        <description>Generate string of length: 10</description>
+        <display_name>Generate Random String</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <step_config display_value="Generate Random String">263313e4c3123300eaac11fe81d3aef9</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:33:46</sys_created_on>
+        <sys_id>b60939f63b419a18aeb1ebc964e45a5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate Random String</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_b60939f63b419a18aeb1ebc964e45a5a</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:33:46</sys_updated_on>
+        <table/>
+        <test display_value="OHS - H&amp;V - Test FQ Notifications to submitter, complainant, manager and RW">3a0939f63b419a18aeb1ebc964e45a56</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=b60939f63b419a18aeb1ebc964e45a5a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>b60939f63b419a18aeb1ebc964e45a5a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:33:46</sys_created_on>
+        <sys_id>b20939f63b419a18aeb1ebc964e45a5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:33:46</sys_updated_on>
+        <value>10</value>
+        <variable display_value="Length">594393e4c3123300eaac11fe81d3aef0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_263313e4c3123300eaac11fe81d3aef9^id=b60939f63b419a18aeb1ebc964e45a5a"/>
+</record_update>

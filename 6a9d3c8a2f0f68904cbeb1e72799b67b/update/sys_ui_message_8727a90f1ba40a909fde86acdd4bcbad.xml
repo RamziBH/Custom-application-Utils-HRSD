@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Harassment and violence complaint</application>
+        <code/>
+        <commented_message/>
+        <key>x_hccc_hoc_ohs.rw_annotation</key>
+        <language>fq</language>
+        <message>L'événement est-il lié à l'un des motifs de discrimination interdits suivants en vertu de la Loi canadienne sur les droits de la personne?</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>azure.Marcus.Martinet@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-02-28 16:13:31</sys_created_on>
+        <sys_id>8727a90f1ba40a909fde86acdd4bcbad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs.rw_annotation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_message_8727a90f1ba40a909fde86acdd4bcbad</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-13 13:28:11</sys_updated_on>
+    </sys_ui_message>
+</record_update>

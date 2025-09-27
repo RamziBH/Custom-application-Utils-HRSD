@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Telework Agreement">cedc7de78779219050d2eca73cbb3565</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description/>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro/>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>telework_conditions_text</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>3100</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Telework Conditions</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_hccc_hoc_ohs_telework_agreement</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text><![CDATA[<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;">The parties agree as follows:</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Scope of agreement</strong> – The employee agrees to perform their duties for the employer as a teleworker. The employee understands that teleworking is voluntary. This agreement does not constitute an accommodation agreement. The agreement may be terminated by either party at any time with 30 days’ written notice.  The manager must provide the reason for the termination in the written notice. </p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Term of agreement</strong> – This agreement takes effect as of the “start date” indicated in section B above and remains in full force and effect for one year, unless otherwise stated in section B, or until it is terminated by the employee or the employer, with 30 days’ written notice.</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Salary, job responsibilities, benefits</strong> – The employee’s salary, job responsibilities and benefits do not change as a result of this agreement (for example, regular salary reviews will occur as scheduled and the employee will be entitled to any employer benefit changes that may be implemented). The employee agrees to comply with all existing job requirements that are in effect in the designated workplace.</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Work hours, overtime, annual leave</strong> – The employee will work the hours stipulated in this agreement and be reachable through all communication channels (e.g. telephone, email, MS Teams) at all times during those hours. The work schedule on days that the employee works at the telework location is subject to negotiation with and approval by the employee’s manager. Any overtime must be discussed with the employee’s manager and approved in advance.</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Workspace</strong> – The employee undertakes to designate a workspace at the telework location where the telework equipment will be placed. The employee agrees to maintain the safety of this workspace and to keep it free from hazards and other dangers to the employee and the equipment. The employee agrees that, in the event of injury, the employer may enter the telework location to investigate or conduct an inspection. Furthermore, the employee must comply with municipal by-laws and is responsible for ensuring adequate homeowners or renters insurance (or its equivalent) covering the use of their home for telework. The employee has filled out and signed Appendix A – Occupational Health and Safety Checklist,<em> </em>certifying that their telework location is a safe environment in which to work.</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Utilities</strong> – The employee confirms that they have the necessary infrastructure to support telework and accepts full responsibility for the costs associated with the set-up and/or maintenance of this infrastructure (e.g. insurance, Internet, gas, electricity, and telephone).</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>IT hardware and software</strong> – The employee agrees that only IT hardware, software and Internet service providers authorized by Digital Services and Real Property will be used at the telework location. The employee also agrees to abide by the <em>Acceptable Use of Information Technology Resources Policy</em>, the<em> Information Management Policy </em>and the <em>Information Technology Security Policy</em> at all times when teleworking.</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Safeguarding House Administration information</strong> – The employee agrees to take appropriate steps to safeguard House Administration information.</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Return of House Administration assets</strong> – The employee agrees to return all House Administration assets, including IT hardware, upon termination of this agreement.</p>
+<p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"><strong>Presence at the designated workplace – </strong>The employee agrees to be present at the designated workplace on days when the employee is scheduled to work at the telework location to attend meetings or functions or to meet operational requirements. </p>
+<p><strong><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;">Meetings –</span></strong><span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;"> In-person meetings may not take place at the telework location. Teleconference and video conference meetings may take place at the telework location.</span></p>]]></rich_text>
+        <roles_to_use_also_request_for/>
+        <save_script><![CDATA[/** This script is executed before the Record is generated 
+ * `current`- GlideRecord produced by Record Producer
+ * Don't use `current.update()` or `current.insert()` as the record is generated by Record Producer
+ * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
+ * Avoid `current.setAbortAction()` and generate a separate record
+ * Use `producer.var1` to access variables
+ */]]></save_script>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget/>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-03-31 18:49:50</sys_created_on>
+        <sys_id>ccd70ae387f9219050d2eca73cbb35ba</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Telework Conditions</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>item_option_new_ccd70ae387f9219050d2eca73cbb35ba</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-06-10 12:43:29</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>32</type>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+        <x_hccc_dfsa_erp_u_simple_name_values_1/>
+        <x_hccc_dfsa_erp_u_translated_text_2/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=ccd70ae387f9219050d2eca73cbb35ba"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>ccd70ae387f9219050d2eca73cbb35ba</documentkey>
+        <fieldname>help_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-06 18:00:55</sys_created_on>
+        <sys_id>8ab67029874e6dd050d2eca73cbb35ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-04-06 18:00:55</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>ccd70ae387f9219050d2eca73cbb35ba</documentkey>
+        <fieldname>instructions</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-06 18:00:55</sys_created_on>
+        <sys_id>4eb67c29874e6dd050d2eca73cbb35eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-04-06 18:00:55</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>ccd70ae387f9219050d2eca73cbb35ba</documentkey>
+        <fieldname>rich_text</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-06 18:00:55</sys_created_on>
+        <sys_id>c2b67c29874e6dd050d2eca73cbb35e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>azure.Marcus.Martinet@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-30 15:26:21</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value>&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;Les parties conviennent de ce qui suit&amp;nbsp;:&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Port&amp;eacute;e de l&amp;rsquo;entente &lt;/strong&gt;&amp;ndash; L&amp;rsquo;employ&amp;eacute; convient de s&amp;rsquo;acquitter de ses fonctions pour le compte de l&amp;rsquo;employeur &amp;agrave; titre de t&amp;eacute;l&amp;eacute;travailleur. L&amp;rsquo;employ&amp;eacute; comprend que le t&amp;eacute;l&amp;eacute;travail est optionnel. La pr&amp;eacute;sente entente ne constitue pas une entente sur les mesures d&amp;rsquo;adaptation. L&amp;rsquo;accord peut &amp;ecirc;tre r&amp;eacute;sili&amp;eacute; par l&amp;rsquo;une ou l&amp;rsquo;autre des parties &amp;agrave; tout moment avec un pr&amp;eacute;avis &amp;eacute;crit de 30 jours. Le gestionnaire doit fournir la raison du cong&amp;eacute;diement dans l&amp;rsquo;avis &amp;eacute;crit.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Dur&amp;eacute;e de l&amp;rsquo;entente&lt;/strong&gt; &amp;ndash; La pr&amp;eacute;sente entente entre en vigueur &amp;agrave; la &amp;laquo;&amp;nbsp;date de d&amp;eacute;but&amp;nbsp;&amp;raquo; indiqu&amp;eacute;e &amp;agrave; la section B ci-dessus et demeure en vigueur pendant un an, &amp;agrave; moins d&amp;rsquo;indications contraires &amp;agrave; la section B, ou jusqu&amp;rsquo;&amp;agrave; ce qu&amp;rsquo;elle soit r&amp;eacute;sili&amp;eacute;e par l&amp;rsquo;employ&amp;eacute; ou l&amp;rsquo;employeur au moyen d&amp;rsquo;un pr&amp;eacute;avis &amp;eacute;crit de 30&amp;nbsp;jours.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Salaire, responsabilit&amp;eacute;s professionnelles et avantages sociaux &lt;/strong&gt;&amp;ndash; La pr&amp;eacute;sente entente ne modifie pas le salaire, les responsabilit&amp;eacute;s professionnelles et les avantages sociaux de l&amp;rsquo;employ&amp;eacute; (p. ex., les r&amp;eacute;visions salariales r&amp;eacute;guli&amp;egrave;res seront effectu&amp;eacute;es comme pr&amp;eacute;vu et toutes les modifications pouvant &amp;ecirc;tre apport&amp;eacute;es aux avantages sociaux offerts par l&amp;rsquo;employeur seront applicables &amp;agrave; l&amp;rsquo;employ&amp;eacute;). L&amp;rsquo;employ&amp;eacute; convient de se conformer &amp;agrave; toutes les exigences professionnelles actuellement en vigueur dans le lieu de travail d&amp;eacute;sign&amp;eacute;.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; background: white; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;&lt;span style="color: black;"&gt;Heures de travail, heures suppl&amp;eacute;mentaires et cong&amp;eacute;s annuels &lt;/span&gt;&lt;/strong&gt;&lt;span style="color: black;"&gt;&amp;ndash; L&amp;rsquo;employ&amp;eacute; travaille le nombre d&amp;rsquo;heures stipul&amp;eacute;es dans la pr&amp;eacute;sente entente et est joignable par tous les modes de communication (p. ex., t&amp;eacute;l&amp;eacute;phone, courriel, MS&amp;nbsp;Teams) en tout temps pendant ces heures. L&amp;rsquo;horaire de travail de l&amp;rsquo;employ&amp;eacute; les jours o&amp;ugrave; il travaille sur le lieu de t&amp;eacute;l&amp;eacute;travail doit &amp;ecirc;tre n&amp;eacute;goci&amp;eacute; avec son gestionnaire et approuv&amp;eacute; par ce dernier. L&amp;rsquo;employ&amp;eacute; doit discuter des heures suppl&amp;eacute;mentaires avec son gestionnaire et obtenir son approbation pr&amp;eacute;alable.&lt;/span&gt;&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Espace de travail&lt;/strong&gt; &amp;ndash; L&amp;rsquo;employ&amp;eacute; s&amp;rsquo;engage &amp;agrave; d&amp;eacute;signer un espace de travail sur son lieu de t&amp;eacute;l&amp;eacute;travail o&amp;ugrave; il placera l&amp;rsquo;&amp;eacute;quipement de t&amp;eacute;l&amp;eacute;travail. L&amp;rsquo;employ&amp;eacute; convient d&amp;rsquo;assurer la s&amp;eacute;curit&amp;eacute; de cet espace de travail et de veiller &amp;agrave; ce qu&amp;rsquo;il ne pose aucun risque ni danger pour lui et l&amp;rsquo;&amp;eacute;quipement. L&amp;rsquo;employ&amp;eacute; autorise, en cas de blessure, l&amp;rsquo;employeur &amp;agrave; entrer dans le lieu de t&amp;eacute;l&amp;eacute;travail pour y faire une enqu&amp;ecirc;te ou une inspection. L&amp;rsquo;employ&amp;eacute; doit &amp;eacute;galement se conformer aux r&amp;egrave;glements municipaux et s&amp;rsquo;assurer que son assurance habitation comme propri&amp;eacute;taire ou locataire (ou une assurance &amp;eacute;quivalente) est ad&amp;eacute;quate et qu&amp;rsquo;elle couvre l&amp;rsquo;utilisation de son domicile aux fins du t&amp;eacute;l&amp;eacute;travail. L&amp;rsquo;employ&amp;eacute; a rempli et sign&amp;eacute; l&amp;rsquo;Annexe A &amp;ndash; Liste de v&amp;eacute;rification de sant&amp;eacute; et de s&amp;eacute;curit&amp;eacute; au travail,&lt;em&gt; &lt;/em&gt;attestant que son lieu de t&amp;eacute;l&amp;eacute;travail est un environnement de travail s&amp;eacute;curitaire.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Services publics&lt;/strong&gt; &amp;ndash; L&amp;rsquo;employ&amp;eacute; confirme qu&amp;rsquo;il dispose de l&amp;rsquo;infrastructure n&amp;eacute;cessaire au t&amp;eacute;l&amp;eacute;travail et il assume l&amp;rsquo;enti&amp;egrave;re responsabilit&amp;eacute; des co&amp;ucirc;ts li&amp;eacute;s &amp;agrave; l&amp;rsquo;am&amp;eacute;nagement et &amp;agrave; l&amp;rsquo;entretien de cette infrastructure (p. ex., assurance, Internet, gaz, &amp;eacute;lectricit&amp;eacute;, t&amp;eacute;l&amp;eacute;phone).&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Mat&amp;eacute;riel et logiciels de TI&lt;/strong&gt; &amp;ndash; L&amp;rsquo;employ&amp;eacute; convient d&amp;rsquo;utiliser uniquement le mat&amp;eacute;riel informatique, les logiciels et les fournisseurs de services Internet autoris&amp;eacute;s par Services num&amp;eacute;riques et Biens immobiliers dans le lieu de t&amp;eacute;l&amp;eacute;travail. Il accepte &amp;eacute;galement de se conformer &amp;agrave; la &lt;em&gt;Politique d&amp;rsquo;utilisation des ressources de technologie de l&amp;rsquo;information&lt;/em&gt;, &amp;agrave; la&lt;em&gt; Politique sur la gestion de l&amp;rsquo;information &lt;/em&gt;et &amp;agrave; la &lt;em&gt;Politique sur la s&amp;eacute;curit&amp;eacute; de la gestion de l&amp;rsquo;information&lt;/em&gt; en tout temps pendant le t&amp;eacute;l&amp;eacute;travail.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Protection des renseignements de l&amp;rsquo;Administration de la Chambre &lt;/strong&gt;&amp;ndash; L&amp;rsquo;employ&amp;eacute; convient de prendre les mesures n&amp;eacute;cessaires pour prot&amp;eacute;ger les renseignements de l&amp;rsquo;Administration de la Chambre.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Retour des biens de l&amp;rsquo;Administration de la Chambre &lt;/strong&gt;&amp;ndash; L&amp;rsquo;employ&amp;eacute; convient de rendre tous les biens de l&amp;rsquo;Administration de la Chambre, notamment le mat&amp;eacute;riel informatique, &amp;agrave; la fin de la pr&amp;eacute;sente entente.&lt;/p&gt;
+&lt;p style="margin: 0cm 0cm 6pt; line-height: 115%; font-size: 11pt; font-family: Calibri, sans-serif;"&gt;&lt;strong&gt;Pr&amp;eacute;sence sur lieu de travail d&amp;eacute;sign&amp;eacute; &lt;/strong&gt;&amp;ndash;&lt;strong&gt; &lt;/strong&gt;L&amp;rsquo;employ&amp;eacute; convient d&amp;rsquo;&amp;ecirc;tre pr&amp;eacute;sent sur le lieu de travail d&amp;eacute;sign&amp;eacute; &lt;a name="_Hlk129673884"&gt;&lt;/a&gt;les jours o&amp;ugrave; il est cens&amp;eacute; &amp;ecirc;tre &amp;agrave; son lieu de t&amp;eacute;l&amp;eacute;travail pour assister &amp;agrave; des r&amp;eacute;unions ou &amp;agrave; des activit&amp;eacute;s ou satisfaire aux exigences op&amp;eacute;rationnelles. &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;"&gt;R&amp;eacute;unions &lt;/span&gt;&lt;/strong&gt;&lt;span style="font-size: 11.0pt; line-height: 115%; font-family: Calibri, sans-serif;"&gt;&amp;ndash; Les r&amp;eacute;unions en personne ne peuvent se d&amp;eacute;rouler sur le lieu de t&amp;eacute;l&amp;eacute;travail. Des r&amp;eacute;unions par t&amp;eacute;l&amp;eacute;conf&amp;eacute;rence ou vid&amp;eacute;oconf&amp;eacute;rence peuvent se d&amp;eacute;rouler sur le lieu de t&amp;eacute;l&amp;eacute;travail.&lt;/span&gt;&lt;/p&gt;</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>ccd70ae387f9219050d2eca73cbb35ba</documentkey>
+        <fieldname>x_hccc_dfsa_erp_u_translated_text_2</fieldname>
+        <language>fq</language>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-04-06 18:00:55</sys_created_on>
+        <sys_id>96b67c29874e6dd050d2eca73cbb35fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-04-06 18:00:55</sys_updated_on>
+        <tablename>item_option_new</tablename>
+        <value/>
+    </sys_translated_text>
+    <fx_price action="delete_multiple" query="id=ccd70ae387f9219050d2eca73cbb35ba"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>price_if_checked</field>
+        <id>ccd70ae387f9219050d2eca73cbb35ba</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-03-31 18:49:50</sys_created_on>
+        <sys_id>18684a6787f9219050d2eca73cbb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-03-31 18:49:50</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>rec_price_if_checked</field>
+        <id>ccd70ae387f9219050d2eca73cbb35ba</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>azure.lise.champagne@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-03-31 18:49:50</sys_created_on>
+        <sys_id>d4684a6787f9219050d2eca73cbb3596</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.lise.champagne@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-03-31 18:49:50</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

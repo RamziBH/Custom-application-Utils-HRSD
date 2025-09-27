@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">98ddf4e11b4d4e14813f844fdd4bcb4d</copied_from>
+        <description>Answer the questions on the form as follows:
+Type of Request = Mental Health
+and Is this a new request or a follow-up? = New
+and Is it related to an existing medical accomodation? = Yes
+and Please provide the existing case number, if known = 12345
+and Please provide a summary of your request = This is for an atf test &#13;
+&#13;
+&#13;
+
+and Did this result from a workplace incident? = No
+and Location = 00-01</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-20 13:49:19</sys_created_on>
+        <sys_id>abff09711b09c654813f844fdd4bcb8a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_abff09711b09c654813f844fdd4bcb8a</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:08:06</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS Wellness - Submit and Triage">1bff81711b09c654813f844fdd4bcbe5</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=abff09711b09c654813f844fdd4bcb8a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>abff09711b09c654813f844fdd4bcb8a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-20 13:49:19</sys_created_on>
+        <sys_id>23ff09711b09c654813f844fdd4bcb8f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-06 18:51:11</sys_updated_on>
+        <value>IO:65f77fae1bc40a909fde86acdd4bcba5=Mental Health^IO:51293fe61b480a909fde86acdd4bcb2b=New^IO:c81bf7a21b0c0a909fde86acdd4bcba7=Yes^IO:a911ccb61b444a909fde86acdd4bcb25=12345^IO:8447807e1b8c4a909fde86acdd4bcb8c=This is for an atf test &#13;
+&#13;
+&#13;
+^IO:f0b7c8761bcc4a909fde86acdd4bcb64=No^IO:b6b03bc51bd742dc813f844fdd4bcbfc=ef002bca1b5afc1078230d47dc4bcbbf^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>abff09711b09c654813f844fdd4bcb8a</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-20 13:49:19</sys_created_on>
+        <sys_id>6fff09711b09c654813f844fdd4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-20 13:49:19</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>abff09711b09c654813f844fdd4bcb8a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-20 13:49:19</sys_created_on>
+        <sys_id>e3ff09711b09c654813f844fdd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-20 13:49:19</sys_updated_on>
+        <value>88d7d3e21bc446909fde86acdd4bcb95</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c^id=abff09711b09c654813f844fdd4bcb8a"/>
+</record_update>

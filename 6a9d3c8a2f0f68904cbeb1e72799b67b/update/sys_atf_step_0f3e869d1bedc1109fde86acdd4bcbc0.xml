@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">6368bc05db214110e3dd80c74b96198d</copied_from>
+        <description>Answer the questions on the form as follows:
+The task performed at the time of incident = ATF activity
+and Frequency of the task performed at the time of the incident  = Frequent
+and Location (building) = null
+and Date and time of the incident  = 2021-12-12 03:00:00
+and Date and time the incident was reported to the manager or supervisor  = 2021-12-12 04:00:00
+and Description of the incident. = ATF incident description
+and Witnesses to the incident = Yes
+and Did this incident result in an injury/illness? = No
+and I hereby certify that, to the best of my knowledge, the provided  information is true and accurate. = true</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>10</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-07 16:51:06</sys_created_on>
+        <sys_id>0f3e869d1bedc1109fde86acdd4bcbc0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_0f3e869d1bedc1109fde86acdd4bcbc0</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:04:38</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - Report Incident check email content at each step">b63e069d1bedc1109fde86acdd4bcb70</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=0f3e869d1bedc1109fde86acdd4bcbc0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0f3e869d1bedc1109fde86acdd4bcbc0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-07 16:51:06</sys_created_on>
+        <sys_id>4f3e869d1bedc1109fde86acdd4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:51:06</sys_updated_on>
+        <value>632c129e2f4f2c904cbeb1e72799b6d0</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0f3e869d1bedc1109fde86acdd4bcbc0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-07 16:51:06</sys_created_on>
+        <sys_id>8b3e869d1bedc1109fde86acdd4bcbc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:51:06</sys_updated_on>
+        <value>IO:1bc7cb631b30b050c261ed3cbc4bcb2e=ATF activity^IO:6ab1fe5b2fab64104cbeb1e72799b60d=frequent^IO:903c1a9e2f4f2c904cbeb1e72799b67e={{step['c33e869d1bedc1109fde86acdd4bcba3'].first_record}}^IO:5c3c1a9e2f4f2c904cbeb1e72799b683=2021-12-12 08:00:00^IO:d061c71f2f2f64104cbeb1e72799b6f7=2021-12-12 09:00:00^IO:c81e889a2f97a0104cbeb1e72799b615=ATF incident description^IO:c981e7631b64f810c261ed3cbc4bcbba=yes^IO:5a0cadc71b20b410c261ed3cbc4bcbad=no^IO:4c3c1a9e2f4f2c904cbeb1e72799b63d=true^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0f3e869d1bedc1109fde86acdd4bcbc0</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-07 16:51:06</sys_created_on>
+        <sys_id>c73e869d1bedc1109fde86acdd4bcbc1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:51:06</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0f3e869d1bedc1109fde86acdd4bcbc0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable_values</field>
+        <id>0f3e869d1bedc1109fde86acdd4bcbc0</id>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-02-07 16:51:06</sys_created_on>
+        <sys_id>433e869d1bedc1109fde86acdd4bcbc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>BlancY@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2022-02-07 16:51:06</sys_updated_on>
+        <table>var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c</table>
+        <value>IO:1bc7cb631b30b050c261ed3cbc4bcb2e=ATF activity^IO:6ab1fe5b2fab64104cbeb1e72799b60d=frequent^IO:903c1a9e2f4f2c904cbeb1e72799b67e={{step['c33e869d1bedc1109fde86acdd4bcba3'].first_record}}^IO:5c3c1a9e2f4f2c904cbeb1e72799b683=2021-12-12 08:00:00^IO:d061c71f2f2f64104cbeb1e72799b6f7=2021-12-12 09:00:00^IO:c81e889a2f97a0104cbeb1e72799b615=ATF incident description^IO:c981e7631b64f810c261ed3cbc4bcbba=yes^IO:5a0cadc71b20b410c261ed3cbc4bcbad=no^IO:4c3c1a9e2f4f2c904cbeb1e72799b63d=true^EQ</value>
+    </sys_element_mapping>
+</record_update>

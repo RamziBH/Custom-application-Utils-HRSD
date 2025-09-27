@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="OHSM Report Run Request">c561663b1b081d109fde86acdd4bcbc1</cat_item>
+        <cat_variable>IO:814e88761b7b0d509fde86acdd4bcb56</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate 1009 Variable Set with default buildings</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+	
+    if (newValue == 'faf220a887a9299050d2eca73cbb3591' || newValue == '5e26b5fc1b6525109fde86acdd4bcb03') { //if the report is LAB 1009
+        var bldgs = ["8ec379241ba04d10c6c7a8ecbc4bcb61", "146d5f461b5afc1078230d47dc4bcbef", "9c6d5f461b5afc1078230d47dc4bcbf2", "586d5f461b5afc1078230d47dc4bcbff", "c46d5f461b5afc1078230d47dc4bcbcc", "9c6d9f461b5afc1078230d47dc4bcb08", "cb648be12f679c104cbeb1e72799b64b", "d86d9f461b5afc1078230d47dc4bcb0a", "c86d5f461b5afc1078230d47dc4bcbc3", "046d5f461b5afc1078230d47dc4bcbce", "d46d5f461b5afc1078230d47dc4bcbed", "1c6d5f461b5afc1078230d47dc4bcbfd", "806d5f461b5afc1078230d47dc4bcbd9", "506d5f461b5afc1078230d47dc4bcbf1", "e46d9f461b5afc1078230d47dc4bcb19", "8c6d5f461b5afc1078230d47dc4bcbd1", "886d1f461b5afc1078230d47dc4bcbe8", "d06d9f461b5afc1078230d47dc4bcb12", "986d5f461b5afc1078230d47dc4bcbeb", "5c6d9f461b5afc1078230d47dc4bcb15"];
+
+        var listValuename = [];
+        for (i = 0; i < bldgs.length; i++) {
+
+            listValuename.push({
+                "building": bldgs[i],
+				"headquarters": 'false',
+				"number_of_deaths": '0',
+				"number_of_other_hazardous_occurrences": '0',
+				"total_number_of_employees": '0',
+				"number_of_office_employees": '0',
+				"total_number_of_hours_worked": '0',
+				"comments": ''
+            });
+        }        
+
+        var val = JSON.stringify(listValuename);
+        g_form.setValue('lab_1009', val);
+    }
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-02-27 00:11:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>629211011bd121989fde86acdd4bcb4a</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Populate 1009 Variable Set with default buildings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_script_client_629211011bd121989fde86acdd4bcb4a</sys_update_name>
+        <sys_updated_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-03-19 20:10:15</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+</record_update>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>2d63c4131b300e10813f844fdd4bcbcb</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_hccc_hoc_ohs_choice">
+    <x_hccc_hoc_ohs_choice action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <element>results_of_occurrence</element>
+        <label>Accommodation</label>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-03-12 13:49:52</sys_created_on>
+        <sys_id>2d63c4131b300e10813f844fdd4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-03-12 13:49:52</sys_updated_on>
+        <table>x_hccc_hoc_ohs_h_and_v_initial_review</table>
+        <value>Accommodation</value>
+    </x_hccc_hoc_ohs_choice>
+    <sys_translated_text action="delete_multiple" query="documentkey=2d63c4131b300e10813f844fdd4bcbcb"/>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-03 14:36:36</sys_created_on>
+        <sys_id>5c112d5e1bd582109fde86acdd4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accommodation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_5c112d5e1bd582109fde86acdd4bcb0c</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-03 14:36:36</sys_updated_on>
+        <tablename>x_hccc_hoc_ohs_choice</tablename>
+    </sys_metadata_link>
+</record_update>

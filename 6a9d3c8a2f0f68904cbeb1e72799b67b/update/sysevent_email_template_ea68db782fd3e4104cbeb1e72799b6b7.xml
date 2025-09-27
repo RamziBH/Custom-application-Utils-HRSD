@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_hccc_hoc_ohs_investigation_case</collection>
+        <email_layout display_value="Unsubscribe and Preferences">1410041f3b0b2200c869c2c703efc41e</email_layout>
+        <message/>
+        <message_html><![CDATA[<p>Click here to decline</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>mailto.decline</name>
+        <sms_alternate/>
+        <subject>Re:${number} - I decline</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>$kutlaria</sys_created_by>
+        <sys_created_on>2021-04-01 16:25:48</sys_created_on>
+        <sys_id>ea68db782fd3e4104cbeb1e72799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mailto.decline</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_template_ea68db782fd3e4104cbeb1e72799b6b7</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

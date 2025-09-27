@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>- When the manager selects the value No in the field "Has the complainant been properly identify?"&#13;
+- AND the manager fills the other mandatory fields&#13;
+- AND the manager clicks on the UI action 'Initial Review Completed' &#13;
+&#13;
+The expectatin outcome is the state of the case changes to "Close - Unable to process" </description>
+        <enable_parameterized_testing>false</enable_parameterized_testing>
+        <fail_on_server_error>false</fail_on_server_error>
+        <name>OHS - H&amp;V Manager selects No in field Complainant Identif and then change state expects case Closed</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-28 18:38:07</sys_created_on>
+        <sys_id>b1ee28f687d45d5050d2eca73cbb35c1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OHS - H&amp;V Manager selects No in field Complainant Identif and then change state expects case Closed</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_b1ee28f687d45d5050d2eca73cbb35c1</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:05:26</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=b1ee28f687d45d5050d2eca73cbb35c1"/>
+</record_update>

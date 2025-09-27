@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Insert a record into 'sys_user_delegate' with the following values:
+User = {{Step 2: Create a User.User}}
+and Delegate = {{Step 4: Create a User.User}}
+and Starts = javascript: gs.beginningOfYesterday()
+and Ends = javascript: gs.endOfTomorrow()
+and Approvals = true
+and Assignments = true
+Confirm the record was successfully inserted
+
+Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Manager 1 delegates to delegate 1</notes>
+        <order>9</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:59:25</sys_created_on>
+        <sys_id>60f1a5c11b3186d0813f844fdd4bcb78</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_60f1a5c11b3186d0813f844fdd4bcb78</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:21</sys_updated_on>
+        <table>sys_user_delegate</table>
+        <test display_value="DNU - OHS - Telework Agreement - Service Portal access">6d3369b41b798a5c9fde86acdd4bcb79</test>
+        <timeout/>
+        <warning_message>Warning: Using a system table may cause unexpected behavior for other tests running in parallel&#13;
+See the documentation for Test Design Considerations</warning_message>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=60f1a5c11b3186d0813f844fdd4bcb78"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>60f1a5c11b3186d0813f844fdd4bcb78</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:59:28</sys_created_on>
+        <sys_id>21f169c11b3186d0813f844fdd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 13:59:28</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>60f1a5c11b3186d0813f844fdd4bcb78</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:59:28</sys_created_on>
+        <sys_id>29f169c11b3186d0813f844fdd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 13:59:28</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>60f1a5c11b3186d0813f844fdd4bcb78</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:59:28</sys_created_on>
+        <sys_id>adf169c11b3186d0813f844fdd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 13:59:28</sys_updated_on>
+        <value>user={{step['ecc5a9fc1b798a5c9fde86acdd4bcbe9'].user}}^delegate={{step['171961bc1bb98a5c9fde86acdd4bcbbf'].user}}^starts=javascript: gs.beginningOfYesterday()^ends=javascript: gs.endOfTomorrow()^approvals=true^assignments=true^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>60f1a5c11b3186d0813f844fdd4bcb78</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:59:28</sys_created_on>
+        <sys_id>e9f169c11b3186d0813f844fdd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 13:59:28</sys_updated_on>
+        <value>sys_user_delegate</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=60f1a5c11b3186d0813f844fdd4bcb78"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>60f1a5c11b3186d0813f844fdd4bcb78</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-04-24 13:59:28</sys_created_on>
+        <sys_id>25f169c11b3186d0813f844fdd4bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-04-24 13:59:28</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>user={{step['ecc5a9fc1b798a5c9fde86acdd4bcbe9'].user}}^delegate={{step['171961bc1bb98a5c9fde86acdd4bcbbf'].user}}^starts=javascript: gs.beginningOfYesterday()^ends=javascript: gs.endOfTomorrow()^approvals=true^assignments=true^EQ</value>
+    </sys_element_mapping>
+</record_update>

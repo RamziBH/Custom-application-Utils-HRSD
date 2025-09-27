@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>BlancY@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-06-23 11:51:44</sys_created_on>
+        <sys_id>e6e1e14987dcd15050d2eca73cbb3541</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ace8a5f0875c915050d2eca73cbb357e</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_e6e1e14987dcd15050d2eca73cbb3541</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <test display_value="OHS - H&amp;V Behalf No Witness Yes Occurrence Physical Notify Mgr Location Email Result Injury">ace8a5f0875c915050d2eca73cbb357e</test>
+        <test_suite display_value="(INACTIVE) OHS - H&amp;V Basic Submission">9c6316581b57c9509fde86acdd4bcb10</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

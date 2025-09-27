@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate that an email was generated matching query:
+Recipients contains {{Step 2: Create a User.User.Email}}
+and Subject contains Action Required: Internal Safety Complaint
+and Subject contains  Action requise : Plainte interne en santé et sécurité au travail
+and Created &gt; javascript:gs.minutesAgo(1)
+and Body contains WHSC committee decision
+and To contains hoclrpersona.vax@parlissi.gc.ca
+and To contains hocohsmgmt@gmail.com
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Validdating email notification: HOC - OHSM SafetyComplaint S2 Employee Agrees &#13;
+</notes>
+        <order>48</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-10 17:16:55</sys_created_on>
+        <sys_id>d0da7dcc1bc079109fde86acdd4bcb81</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_d0da7dcc1bc079109fde86acdd4bcb81</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:05:20</sys_updated_on>
+        <table/>
+        <test display_value="DNU OHS - Safety Complaint Workflow Emp disagree Mgr disagrees Commit.  agree Labour Mgr agrees Comm">446e9a4f1b7761989fde86acdd4bcb25</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d0da7dcc1bc079109fde86acdd4bcb81"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d0da7dcc1bc079109fde86acdd4bcb81</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-10 17:17:00</sys_created_on>
+        <sys_id>30bb71c01b0479109fde86acdd4bcb68</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-29 15:55:42</sys_updated_on>
+        <value>recipientsLIKE{{step['006e1e4f1b7761989fde86acdd4bcb2f'].user.email}}^subjectLIKEAction Required: Internal Safety Complaint^subjectLIKE Action requise : Plainte interne en santé et sécurité au travail^sys_created_onRELATIVEGT@minute@ago@1^bodyLIKEWHSC committee decision^directLIKEhoclrpersona.vax@parlissi.gc.ca^directLIKEhocohsmgmt@gmail.com^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d0da7dcc1bc079109fde86acdd4bcb81</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-10 17:17:00</sys_created_on>
+        <sys_id>38bb71c01b0479109fde86acdd4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-10 17:17:00</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d0da7dcc1bc079109fde86acdd4bcb81"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d0da7dcc1bc079109fde86acdd4bcb81</id>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-10 17:17:00</sys_created_on>
+        <sys_id>f4bb71c01b0479109fde86acdd4bcb67</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-29 15:55:42</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value>recipientsLIKE{{step['006e1e4f1b7761989fde86acdd4bcb2f'].user.email}}^subjectLIKEAction Required: Internal Safety Complaint^subjectLIKE Action requise : Plainte interne en santé et sécurité au travail^sys_created_onRELATIVEGT@minute@ago@1^bodyLIKEWHSC committee decision^directLIKEhoclrpersona.vax@parlissi.gc.ca^directLIKEhocohsmgmt@gmail.com^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d0da7dcc1bc079109fde86acdd4bcb81</id>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-10 17:17:00</sys_created_on>
+        <sys_id>bcbb71c01b0479109fde86acdd4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-07-10 17:17:00</sys_updated_on>
+        <table>var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

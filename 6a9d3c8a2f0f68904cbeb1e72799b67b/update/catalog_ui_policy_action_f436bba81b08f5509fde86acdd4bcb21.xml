@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Employee Workplace Incident Reporting">632c129e2f4f2c904cbeb1e72799b6d0</catalog_item>
+        <catalog_variable>IO:0c49cff4db550110e3dd80c74b9619a2</catalog_variable>
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <order>400</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-12 15:29:33</sys_created_on>
+        <sys_id>f436bba81b08f5509fde86acdd4bcb21</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>inc_location_area</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_f436bba81b08f5509fde86acdd4bcb21</sys_update_name>
+        <sys_updated_by>zachary.adams@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2023-08-01 17:13:13</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Location: If Location type: Outdoor - Telework Location">5406bb681b08f5509fde86acdd4bcbfe</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>inc_location_area</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

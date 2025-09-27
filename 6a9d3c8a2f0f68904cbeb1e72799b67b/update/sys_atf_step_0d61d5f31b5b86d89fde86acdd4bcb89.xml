@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Insert a record into 'x_hccc_hoc_ohs_telework_agreement' with the following values:
+Employee = {{Step 2: Query non whitelisted user.Employee}}
+and Manager = {{Step 2: Query non whitelisted user.Employee.Manager}}
+and Mon = true
+and Tue = true
+and Wed = true
+and Thu = true
+and Fri = true
+and Telework start date = 2024-05-01
+and Telework end date = 2024-10-05
+and Telework location address = 354 asdf
+and Telework telephone number = 2311231321
+and Emergency contact name = asdf asdf
+and Emergency contact telephone number = 7899787984
+and Relationship to employee = Friend
+and Type of telework arrangement = Flexible telework (no prescribed telework schedule)
+and Flexible telework choices = 1 - 2 days
+and Specify number of telework days = 2
+Confirm the record was successfully inserted</description>
+        <display_name>Record Insert</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Record Insert">14872288df60220062fe6c7a4df26319</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-16 15:25:51</sys_created_on>
+        <sys_id>0d61d5f31b5b86d89fde86acdd4bcb89</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>Record Insert</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_0d61d5f31b5b86d89fde86acdd4bcb89</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-28 15:07:23</sys_updated_on>
+        <table>x_hccc_hoc_ohs_telework_agreement</table>
+        <test display_value="DNU - OHS - Telework Agreement - Send Agreement to Unit 4">6afc09f31b9386d89fde86acdd4bcb2c</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=0d61d5f31b5b86d89fde86acdd4bcb89"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0d61d5f31b5b86d89fde86acdd4bcb89</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-16 15:25:51</sys_created_on>
+        <sys_id>00b1117f1b5b86d89fde86acdd4bcb26</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-06 19:38:58</sys_updated_on>
+        <value>subject_person={{step['facf717f1b178ad89fde86acdd4bcb9d'].u_employee}}^manager_name={{step['facf717f1b178ad89fde86acdd4bcb9d'].u_employee.manager}}^telework_monday=true^telework_tuesday=true^telework_wednesday=true^telework_thursday=true^telework_friday=true^telework_start_date=2024-05-01^telework_end_date=2024-10-05^telework_location_address=354 asdf^telework_telephone_number=2311231321^emergency_contact_name=asdf asdf^emergency_contact_telephone=7899787984^relationship_to_employee=Friend^type_telework_arrangement=telework_flexible^flexible_telework_choices=days_12^specify_number_telework_days=2^EQ</value>
+        <variable display_value="Field values">dd54cf535320220002c6435723dc34fd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0d61d5f31b5b86d89fde86acdd4bcb89</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-16 15:25:51</sys_created_on>
+        <sys_id>4cb1117f1b5b86d89fde86acdd4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-16 15:25:51</sys_updated_on>
+        <value>x_hccc_hoc_ohs_telework_agreement</value>
+        <variable display_value="Table">90144b535320220002c6435723dc3488</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0d61d5f31b5b86d89fde86acdd4bcb89</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-16 15:25:51</sys_created_on>
+        <sys_id>80b1117f1b5b86d89fde86acdd4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-16 15:25:51</sys_updated_on>
+        <value>record_successfully_inserted</value>
+        <variable display_value="Assert type">9024a37f671003007ba405225685efe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0d61d5f31b5b86d89fde86acdd4bcb89</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-16 15:25:51</sys_created_on>
+        <sys_id>88b1117f1b5b86d89fde86acdd4bcb25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-16 15:25:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Enforce security">e6e3c7535320220002c6435723dc3496</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0d61d5f31b5b86d89fde86acdd4bcb89"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>0d61d5f31b5b86d89fde86acdd4bcb89</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-16 15:25:51</sys_created_on>
+        <sys_id>48b1117f1b5b86d89fde86acdd4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-16 15:25:51</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>0d61d5f31b5b86d89fde86acdd4bcb89</id>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-16 15:25:51</sys_created_on>
+        <sys_id>00b1117f1b5b86d89fde86acdd4bcb25</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-08-06 19:38:58</sys_updated_on>
+        <table>var__m_atf_input_variable_14872288df60220062fe6c7a4df26319</table>
+        <value>subject_person={{step['facf717f1b178ad89fde86acdd4bcb9d'].u_employee}}^manager_name={{step['facf717f1b178ad89fde86acdd4bcb9d'].u_employee.manager}}^telework_monday=true^telework_tuesday=true^telework_wednesday=true^telework_thursday=true^telework_friday=true^telework_start_date=2024-05-01^telework_end_date=2024-10-05^telework_location_address=354 asdf^telework_telephone_number=2311231321^emergency_contact_name=asdf asdf^emergency_contact_telephone=7899787984^relationship_to_employee=Friend^type_telework_arrangement=telework_flexible^flexible_telework_choices=days_12^specify_number_telework_days=2^EQ</value>
+    </sys_element_mapping>
+</record_update>

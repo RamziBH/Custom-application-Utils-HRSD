@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Run Server Side Script">6d8f41771b9786d89fde86acdd4bcb77</copied_from>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>3508fdba3b019a18aeb1ebc964e45a51</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_3508fdba3b019a18aeb1ebc964e45a51</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-13 20:31:34</sys_updated_on>
+        <table/>
+        <test display_value="OHS - Telework Agreement - Send Agreement to Unit 4">3108bdba3b019a18aeb1ebc964e45afe</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3508fdba3b019a18aeb1ebc964e45a51"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3508fdba3b019a18aeb1ebc964e45a51</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>b108fdba3b019a18aeb1ebc964e45a52</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-13 20:31:34</sys_updated_on>
+        <value>// Pass or fail a step: Override the step outcome to pass or fail.&#13;
+//&#13;
+//  - Return true from the main function body to pass the step&#13;
+//  - Return false from the main function body to fail the step&#13;
+//&#13;
+//&#13;
+// outputs:       Pre-defined Step config Output variables to set on this step during &#13;
+//                execution that are available to later steps&#13;
+//&#13;
+// steps(SYS_ID): A function to retrieve Output variable data from a step that executed&#13;
+//                earlier in the test. The desired step's sys_id is required&#13;
+//&#13;
+// params:        The current test run data set's parameter data including both &#13;
+//                exclusive and shared parameters&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      // Test step 1 - add data&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      // If parameterized testing is enabled, parameters are stored in the params object&#13;
+//      gr.setValue('short_description', params.u_my_short_description)&#13;
+//      gr.setValue('caller', params.u_my_user.manager)&#13;
+//      // this sample step's Step config has Output variables named table and record_id&#13;
+//      outputs.table = 'sc_task';&#13;
+//      outputs.record_id = gr.insert();&#13;
+//&#13;
+//      // Test step 2 - access added data and validate&#13;
+//      // check that the record exists (or that business logic changed it)&#13;
+//      var gr = new GlideRecord("sc_task");&#13;
+//      gr.get(steps(PREVIOUS_STEP_SYS_ID).record_id);&#13;
+//      assertEqual({name: "task gr exists", shouldbe: true, value: gr.isValidRecord()});&#13;
+//&#13;
+//&#13;
+// stepResult.setOutputMessage: Log a message to step results after step executes.&#13;
+//                              Can only be called once or will overwrite previous &#13;
+//                              message&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var gr = new GlideRecord('sc_task');&#13;
+//      gr.setValue('short_description', 'verify task can be inserted');&#13;
+//      var grSysId = gr.insert();&#13;
+//      var justCreatedGR = new GlideRecord('sc_task');&#13;
+//      if (justCreatedGR.get(grSysId)) {&#13;
+//            stepResult.setOutputMessage("Successfully inserted task record");&#13;
+//            return true; // pass the step&#13;
+//      } else { &#13;
+//            stepResult.setOutputMessage("Failed to insert task record");&#13;
+//            return false; // fail the step&#13;
+//      }&#13;
+//&#13;
+//&#13;
+// assertEqual: A function used to compare that assertion.shouldbe == assertion.value;&#13;
+//              in case of failure it throws an Error and logs that the assertion by&#13;
+//              name has failed&#13;
+//&#13;
+//  Example:&#13;
+//&#13;
+//      var testAssertion = {&#13;
+//            name: "my test assertion",&#13;
+//            shouldbe: "expected value"&#13;
+//            value: "actual value",&#13;
+//      };&#13;
+//      assertEqual(testAssertion); // throws Error, logs message to test step output&#13;
+//&#13;
+/* global x_hccc_hoc_ohs */&#13;
+(&#13;
+    function(outputs, steps, params, stepResult, assertEqual) {&#13;
+        //init variables&#13;
+        var result = true;&#13;
+        var telwrkUtils = new x_hccc_hoc_ohs.HoCOHSMTelWrkUtils();&#13;
+        var insertRecordStep = steps('3508fdba3b019a18aeb1ebc964e45a2c'); //insert record&#13;
+        var outputMessage = '';&#13;
+        var teleworkAgreement = new GlideRecord('x_hccc_hoc_ohs_telework_agreement')&#13;
+        teleworkAgreement.get(insertRecordStep.record_id);&#13;
+&#13;
+        //Fixing the UTC dates&#13;
+        if (params.u_telework_start_date) {&#13;
+            teleworkAgreement.telework_start_date = params.u_telework_start_date;&#13;
+        }&#13;
+        if (params.u_telework_end_date) {&#13;
+            teleworkAgreement.telework_end_date = params.u_telework_end_date;&#13;
+        }&#13;
+        if (params.u_approval_set) {&#13;
+            //teleworkAgreement.approval_set = params.u_approval_set; //+10h&#13;
+            //teleworkAgreement.approval_set = params.u_approval_set.getValue(); //+10h&#13;
+            //teleworkAgreement.approval_set = params.u_approval_set.getDisplayValue(); //+5h&#13;
+            //teleworkAgreement.approval_set.setDisplayValue(params.u_approval_set.getDisplayValue()); //+5h&#13;
+            //teleworkAgreement.approval_set.setDisplayValue(params.u_approval_set.getValue()); //+5h&#13;
+            //teleworkAgreement.approval_set.setDisplayValue(params.u_approval_set); //+10h&#13;
+            //teleworkAgreement.approval_set.setValue(params.u_approval_set); //+5h&#13;
+            teleworkAgreement.approval_set.setValue(params.u_approval_set.getDisplayValue()); //0h&#13;
+        }&#13;
+        teleworkAgreement.update();&#13;
+&#13;
+&#13;
+        //helper functions&#13;
+        function getEmployeeNumber(teleworkAgreementGr) {&#13;
+            var employeeNumber = telwrkUtils._getEmployeeNumber(teleworkAgreementGr.subject_person);&#13;
+            return employeeNumber;&#13;
+        }&#13;
+&#13;
+        function getUnit4Object(teleworkAgreementGr) {&#13;
+            var unit4Obj = telwrkUtils._getUnit4Obj(teleworkAgreementGr);&#13;
+&#13;
+            return unit4Obj;&#13;
+        }&#13;
+&#13;
+        function sendToUnit4(employeeNumber, teleworkAgreementString) {&#13;
+            var actionResult = telwrkUtils._sendWithFlowAction(employeeNumber, teleworkAgreementString);&#13;
+            return actionResult;&#13;
+        }&#13;
+&#13;
+        function assert(name, value, shouldbe) {&#13;
+            var testAssertion = {&#13;
+                name: name,&#13;
+                shouldbe: shouldbe,&#13;
+                value: value&#13;
+            };&#13;
+&#13;
+            assertEqual(testAssertion);&#13;
+        }&#13;
+&#13;
+        function compareObj(unit4Obj, expectedObj) {&#13;
+            var res = true;&#13;
+&#13;
+            assert("telework_number_fx", unit4Obj.telework_number_fx, expectedObj.telework_number_fx);&#13;
+            assert("type_of_telework_fx", unit4Obj.type_of_telework_fx, expectedObj.type_of_telework_fx);&#13;
+            assert("number_of_days_fx", unit4Obj.number_of_days_fx, expectedObj.number_of_days_fx);&#13;
+            assert("telework_monday_fx", unit4Obj.telework_monday_fx, expectedObj.telework_monday_fx);&#13;
+            assert("telework_tuesday_fx", unit4Obj.telework_tuesday_fx, expectedObj.telework_tuesday_fx);&#13;
+            assert("telework_wednesday_fx", unit4Obj.telework_wednesday_fx, expectedObj.telework_wednesday_fx);&#13;
+            assert("telework_thursday_fx", unit4Obj.telework_thursday_fx, expectedObj.telework_thursday_fx);&#13;
+            assert("telework_friday_fx", unit4Obj.telework_friday_fx, expectedObj.telework_friday_fx);&#13;
+            assert("telework_start_date_fx", unit4Obj.telework_start_date_fx, expectedObj.telework_start_date_fx);&#13;
+            assert("telework_end_date_fx", unit4Obj.telework_end_date_fx, expectedObj.telework_end_date_fx);&#13;
+            assert(&#13;
+                "telework_location_addr_fx",&#13;
+                unit4Obj.telework_location_addr_fx,&#13;
+                expectedObj.telework_location_addr_fx&#13;
+            );&#13;
+            assert(&#13;
+                "telework_telephone_num_fx",&#13;
+                unit4Obj.telework_telephone_num_fx,&#13;
+                expectedObj.telework_telephone_num_fx&#13;
+            );&#13;
+            assert(&#13;
+                "emergency_contact_name_fx",&#13;
+                unit4Obj.emergency_contact_name_fx,&#13;
+                expectedObj.emergency_contact_name_fx&#13;
+            );&#13;
+            assert(&#13;
+                "emergency_tel_number_fx",&#13;
+                unit4Obj.emergency_tel_number_fx,&#13;
+                expectedObj.emergency_tel_number_fx&#13;
+            );&#13;
+            assert(&#13;
+                "relationship_to_employ_fx", unit4Obj.relationship_to_employ_fx, expectedObj.relationship_to_employ_fx);&#13;
+            //assert("approver_name_fx", unit4Obj.approver_name_fx, expectedObj.approver_name_fx);&#13;
+            assert("approved_date_fx", unit4Obj.approved_date_fx, expectedObj.approved_date_fx);&#13;
+&#13;
+            return res;&#13;
+        }&#13;
+&#13;
+        //actual test&#13;
+        //init&#13;
+        var employeeNumber = getEmployeeNumber(teleworkAgreement);&#13;
+        var unit4Obj = getUnit4Object(teleworkAgreement);&#13;
+        if (params.u_closed_by_override) { //TODO this doesn't seem to go in for dataset 3&#13;
+            unit4Obj.approver_name_fx = params.u_closed_by_override + '';&#13;
+        }&#13;
+        var expectedObj = JSON.parse(params.u_expected_object_sent);&#13;
+        expectedObj.telework_number_fx = teleworkAgreement.getValue('number'); //can't add teleworkNumber to the params since it changes&#13;
+&#13;
+        var teleworkAgreementString = JSON.stringify(unit4Obj);&#13;
+&#13;
+        //outputMessage += '\r\nAgreement number: ' + teleworkAgreement.number.toString();&#13;
+        //outputMessage += '\r\nparams.u_expected_object_sent: ' + JSON.stringify(expectedObj);&#13;
+        outputMessage += '\r\n\r\nagreementString: ' + teleworkAgreementString;&#13;
+        stepResult.setOutputMessage(outputMessage);&#13;
+&#13;
+        compareObj(unit4Obj, expectedObj);&#13;
+&#13;
+        if (params.u_should_try_to_upload) {&#13;
+            outputMessage += '\r\nTrying record upload to unit4, it should ' +&#13;
+                (params.u_should_upload ? 'succeed' : 'fail');&#13;
+            result = sendToUnit4(employeeNumber, teleworkAgreementString);&#13;
+            outputMessage += '\r\nDid it send to Unit4 Correctly: ' + !!result;&#13;
+            assert('Should Upload', result, params.u_should_upload);&#13;
+        } else {&#13;
+            outputMessage += '\r\nSkipping record upload to unit4';&#13;
+        }&#13;
+&#13;
+        stepResult.setOutputMessage(outputMessage);&#13;
+        //return result;&#13;
+    }&#13;
+)(outputs, steps, params, stepResult, assertEqual);</value>
+        <variable display_value="Test script">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3508fdba3b019a18aeb1ebc964e45a51</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 15:29:20</sys_created_on>
+        <sys_id>fd08fdba3b019a18aeb1ebc964e45a51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 15:29:20</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="Jasmine version">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

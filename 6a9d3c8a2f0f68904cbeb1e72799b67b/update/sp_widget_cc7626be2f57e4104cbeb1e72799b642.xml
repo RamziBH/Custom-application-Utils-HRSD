@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ScratchPadController($scope, $location) {
+    var c = this;
+    c.done = done;
+    c.clear = clear;
+
+    function done() {
+        var signature = c.accept();
+        if (signature.isEmpty) {
+            $scope.page.g_form.setValue("inc_emp_signature", "");
+        } else {
+            $scope.page.g_form.setValue("inc_emp_signature", signature.dataUrl);
+
+        }
+
+    }
+
+    function clear() {
+        $scope.page.g_form.setValue("inc_emp_signature", "");
+
+    }
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.signature-main-div {&#13;
+  margin: 10px;&#13;
+  margin-top: 40px;&#13;
+  border-radius: 6px;&#13;
+  .signature {&#13;
+    margin-left: auto;&#13;
+    margin-right: auto;&#13;
+    margin-bottom: 10px;&#13;
+  }&#13;
+  .signature canvas {&#13;
+    border: 1px solid #ddd;&#13;
+    border-radius: 6px;&#13;
+    margin: 0 auto;&#13;
+    cursor: pointer;&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hoc_ohsm_sign_pad</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>HoC OHSM Sign Pad</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-07 17:57:37</sys_created_on>
+        <sys_id>cc7626be2f57e4104cbeb1e72799b642</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC OHSM Sign Pad</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_cc7626be2f57e4104cbeb1e72799b642</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <template><![CDATA[<div class="signature-main-div">
+  <scratch-pad accept="c.accept" clear="clear" height="150" width="350"></scratch-pad>
+  <center>
+  <button class="btn btn-danger" ng-click="c.clear();clear()">Clear signature</button>
+  <button class="btn btn-primary" ng-click="c.done()">Accept signature</button>
+  </center>
+</div>]]></template>
+    </sp_widget>
+</record_update>

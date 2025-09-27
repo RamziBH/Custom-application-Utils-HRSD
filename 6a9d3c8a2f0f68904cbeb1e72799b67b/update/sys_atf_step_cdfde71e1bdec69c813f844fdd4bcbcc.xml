@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Validate Outbound Email">d3cbfe7f1bce0290813f844fdd4bcbb9</copied_from>
+        <description>Validate that an email was generated matching query:
+Subject contains Harassment
+and Body contains This email is to notify you that you have successfully submitted a Harassment
+and Body contains Please note that a member of the Respectful Workplace Team
+and Created &gt; javascript:gs.minutesAgo(2)
+With a failure timeout of 30 Seconds</description>
+        <display_name>Validate Outbound Email</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Check email was sent to complainant</notes>
+        <order>18</order>
+        <step_config display_value="Validate Outbound Email">32911152c3833300eaac11fe81d3ae82</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-23 17:54:55</sys_created_on>
+        <sys_id>cdfde71e1bdec69c813f844fdd4bcbcc</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Validate Outbound Email</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_cdfde71e1bdec69c813f844fdd4bcbcc</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-19 17:43:12</sys_updated_on>
+        <table/>
+        <test display_value="DNU - OHS - H&amp;V - Test FQ Notifications to submitter, complainant, manager and RW">d0fdaf5a1bdec69c813f844fdd4bcb02</test>
+        <timeout>1970-01-01 00:00:30</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=cdfde71e1bdec69c813f844fdd4bcbcc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cdfde71e1bdec69c813f844fdd4bcbcc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-23 17:54:55</sys_created_on>
+        <sys_id>85fde71e1bdec69c813f844fdd4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-23 17:54:55</sys_updated_on>
+        <value>sys_email</value>
+        <variable display_value="Table">80625552c3833300eaac11fe81d3aedc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cdfde71e1bdec69c813f844fdd4bcbcc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-23 17:54:55</sys_created_on>
+        <sys_id>c1fde71e1bdec69c813f844fdd4bcbce</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-09-19 17:43:12</sys_updated_on>
+        <value>subjectLIKEHarassment^bodyLIKEThis email is to notify you that you have successfully submitted a Harassment^bodyLIKEPlease note that a member of the Respectful Workplace Team^sys_created_onRELATIVEGT@minute@ago@2^EQ</value>
+        <variable display_value="conditions">7d821952c3833300eaac11fe81d3ae2e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_32911152c3833300eaac11fe81d3ae82^id=cdfde71e1bdec69c813f844fdd4bcbcc"/>
+</record_update>

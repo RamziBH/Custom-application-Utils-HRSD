@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="ohs - hira" name="ohs - hira">c806f9fb1bb375509fde86acdd4bcbe4</category>
+        <collection>x_hccc_hoc_ohs_hira_case</collection>
+        <condition table="x_hccc_hoc_ohs_hira_case">hr_service=3fb664a08754515050d2eca73cbb35f1^manager_nameISEMPTY^EQ<item display_table="sn_hr_core_service" display_value="Hazard Investigation and Risk Assessment" endquery="false" field="hr_service" goto="false" newquery="false" operator="=" or="false" value="3fb664a08754515050d2eca73cbb35f1"/>
+            <item endquery="false" field="manager_name" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>PBI#130192, T#132192 - Notify OHS if a new HIRA gets created but no manager has been assigned automatically</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_hccc_hoc_ohs.hira_assigned_to_OHS_advisor</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img style="align: baseline;" title="" src="u_emblem_email_e_001.jpgx" alt="" width="150" height="97" align="bottom" border="" hspace="" vspace="" />&nbsp;</p>
+<p><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">NOTICE</span></p>
+<p><a title="Le fran&ccedil;ais suit" href="#francais"> <em>Le fran&ccedil;ais suit.</em> </a></p>
+<p>&nbsp;</p>
+<p><strong>Please do not reply to this email. This system cannot receive messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">Action required: HIRA to assign to management&nbsp;</span></p>
+<p>A HIRA has been created and must be assigned to a manager. Below is information regarding the case:</p>
+<p>Position name: ${position_reporting_position}</p>
+<p>Department: ${position_reporting_position.reports_to.department}</p>
+<p>Created on: ${sys_created_on}</p>
+<p>Please click the link below to view and action this file.</p>
+<pre>${URI_REF}<br /><br /></pre>
+<p>Thank you,</p>
+<div>
+<p><strong>Occupational Health and Safety</strong></p>
+<p>House of Commons</p>
+<p>50 O&rsquo;Connor, 8<span data-fontsize="11">th</span> floor <br />Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Office: 613-995-3614</p>
+</div>
+<hr noshade="noshade" />
+<p><span style="font-family: calibri light; font-size: 15pt; color: #4c8c2b;">AVIS</span></p>
+<p>&nbsp;</p>
+<p><strong>Pri&egrave;re de ne pas r&eacute;pondre au pr&eacute;sent courriel, car il provient d&rsquo;une adresse qui ne peut pas recevoir de messages.</strong></p>
+<p><span style="font-family: calibri; font-size: 22pt; color: #4c8c2b;">Action requise : R.E.R. &agrave; attribuer &agrave; la gestion</span></p>
+<p>Un R.E.R. a &eacute;t&eacute; cr&eacute;&eacute; et doit &ecirc;tre attribu&eacute; &agrave; un gestionnaire. Vous trouverez ci-dessous des informations concernant le dossier :</p>
+<p>Titre du poste : ${mail_script:x_hccc_hoc_ohs_hira_translate_position_reporting_position}</p>
+<p>D&eacute;partement: ${mail_script:x_hccc_hoc_ohs_hira_translate_department}</p>
+<p>Cr&eacute;&eacute; le : ${sys_created_on}</p>
+<p>Veuillez cliquer sur le lien ci-dessous pour visualiser et traiter le dossier.</p>
+<p>${URI_REF}</p>
+<p>&nbsp;</p>
+<p>Merci,</p>
+<div>
+<p><strong>Sant&eacute; et s&eacute;curit&eacute; au travail</strong></p>
+<p>Chambre des communes</p>
+<p>50 Rue O&rsquo;Connor, 8<span data-fontsize="11">e</span> &eacute;tage <br />Ottawa, Ontario, K1A 0A6</p>
+<p><a href="mailto:OHS-SST@parl.gc.ca" target="_blank" rel="noreferrer noopener">OHS-SST@parl.gc.ca</a></p>
+<p>Bureau: 613-995-3614</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>HoC - OHSM - HIRA - New Position Created (without Manager)</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups name="CEH-HRS-OHS-Advisor">13e4414a2f4f68904cbeb1e72799b6f1</recipient_groups>
+        <recipient_users/>
+        <reply_to>DoNotReply-Services-NePasRepondre@parl.gc.ca</reply_to>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Action required: HIRA to assign to management / Action requise : R.E.R. à attribuer à la gestion</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2022-08-10 21:53:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e8f7fa2487d1d99050d2eca73cbb3587</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>HoC - OHSM - HIRA - New Position Created (without Manager)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysevent_email_action_e8f7fa2487d1d99050d2eca73cbb3587</sys_update_name>
+        <sys_updated_by>azure.Alexandre.Mageau-Petrin@parlissi.g</sys_updated_by>
+        <sys_updated_on>2024-03-19 17:46:06</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

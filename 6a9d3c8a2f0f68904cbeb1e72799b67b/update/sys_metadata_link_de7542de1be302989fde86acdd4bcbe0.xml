@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>912dfd9b1b5a2d549fde86acdd4bcb4d</documentkey>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sn_hr_core_pdf_template_mapping"&gt;
+    &lt;sn_hr_core_pdf_template_mapping action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;advanced_script_toggle&gt;true&lt;/advanced_script_toggle&gt;
+        &lt;box_height/&gt;
+        &lt;box_width/&gt;
+        &lt;date_offset_quantity&gt;0&lt;/date_offset_quantity&gt;
+        &lt;date_offset_type&gt;on&lt;/date_offset_type&gt;
+        &lt;date_offset_units&gt;days&lt;/date_offset_units&gt;
+        &lt;doc_left/&gt;
+        &lt;doc_top/&gt;
+        &lt;document display_value="LAB1070-ExtraPage_FQ"&gt;8ffcb59b1b5a2d549fde86acdd4bcbbf&lt;/document&gt;
+        &lt;document_field&gt;doc_1_Contenu&lt;/document_field&gt;
+        &lt;document_field_label&gt;doc_1_Contenu&lt;/document_field_label&gt;
+        &lt;document_field_type&gt;text&lt;/document_field_type&gt;
+        &lt;mapping_field/&gt;
+        &lt;mapping_table&gt;x_hccc_hoc_ohs_investigation_case&lt;/mapping_table&gt;
+        &lt;page_number/&gt;
+        &lt;preview_value&gt;Extra_page&lt;/preview_value&gt;
+        &lt;script&gt;&lt;![CDATA[(function evaluateMappingFieldValue(caseGr /* GlideRecord for parent case */, mappingField /* Pre-computed mapping field value */) {
+	var content = "";
+	var ohsmUtils = new x_hccc_hoc_ohs.HoCOHSMUtils();
+	var formattedObject;
+	var temp = "";
+	
+	//3. Location of incident
+	try{
+		temp = ohsmUtils.getLocationString(caseGr) || "";
+		if ((temp.match(/\n/g) || []).length &gt;= 2){ // when more 1 carriage return it doesn't fit in main field
+			content+="Section 3: Lieu de la situation comportant des risques:\n";
+			content+= temp;
+			content+="\n\n";
+		}
+	}catch(err){
+		gs.debug(err.message);
+	}
+	
+
+	//4. Description of what happened
+	try{
+		temp = caseGr.getValue("mng_inc_desc") || "";
+		formattedObject = ohsmUtils.getFieldFormattedString(temp, 100, 3);
+		if(!formattedObject.inputFits){
+		//if (caseGr.getValue("mng_inc_desc").length &gt; 303){
+			content+="Section 4: Description des circonstances:\n";
+			content+=formattedObject.input;
+			content+="\n\n";
+		}
+	}catch(err){
+		gs.debug(err.message);
+	}
+
+	//4. Brief description and estimated cost of property damage
+	try{
+		temp = caseGr.getValue("brief_description_and_estimated_cost") || "";
+		formattedObject = ohsmUtils.getFieldFormattedString(temp, 100, 2);
+		if(!formattedObject.inputFits){
+			content+="Section 4: Description sommaire et coût estimatif des dommages matériels:\n";
+			content+=formattedObject.input;
+			content+="\n\n";
+		}
+
+	}catch(err){
+		gs.debug(err.message);
+	}
+
+	try{
+		//5. Description of Injury
+		temp = caseGr.getValue("mng_desc_injury") || "";
+		formattedObject = ohsmUtils.getFieldFormattedString(temp, 60, 2);
+		if (!formattedObject.inputFits){
+			content+="Section 5: Description de la blessure:\n";
+			content+= formattedObject.input;
+			content+="\n\n";
+		}
+	}catch(err){
+		gs.debug(err.message);
+	}
+
+	try{
+		//Was training in accident prevention / Specify
+		temp = caseGr.getValue("training_spec") || "";
+		formattedObject = ohsmUtils.getFieldFormattedString(temp, 50, 2);
+		if (!formattedObject.inputFits){
+			content+="Section 5: L'employé blessé a-t-il reçu une formation en prévention des accidents relativement aux fonctions qu'il exerçait au moment de la situation comportant des risques? / Spécifiez:\n";
+			content+=formattedObject.input;
+			content+="\n\n";
+		}
+	}catch(err){
+		gs.debug(err.message);
+	}
+
+	// try{	
+	// 	//6. Direct cause of hazardous occurence
+	// 	temp = caseGr.getValue("direct_causes_of_hazardous_occurrence") || "";
+	// 	formattedObject = ohsmUtils.getFieldFormattedString(temp, 100, 3);
+	// 	if (!formattedObject.inputFits){
+	// 		content+="Section 6: Direct cause of hazardous occurrence:\n";
+	// 		content+=formattedObject.input;
+	// 		content+="\n\n";
+	// 	}
+	// }catch(err){
+	// 	gs.debug(err.message);
+	// }
+
+	try{	
+		//7. Corrective measures and date employer will implement
+		temp = ohsmUtils.getMeasuresAndDate(caseGr, "correct_meas_imp_date", "implementation_date") || "";
+		formattedObject = ohsmUtils.getFieldFormattedString(temp, 100, 2);
+		if (!formattedObject.inputFits){
+			content+="Section 7: Mesures correctives qui seront appliquées par l'employeur et date de leur mise en oeuvre\n";
+			content+=formattedObject.input;
+			content+="\n\n";
+		}
+	}catch(err){
+		gs.debug(err.message);
+	}
+
+	try{	
+		//Reasons for not taking corrective measures
+		temp = caseGr.getValue("no_correct_meas_reas") || "";
+		formattedObject = ohsmUtils.getFieldFormattedString(temp, 100, 2);
+		if (!formattedObject.inputFits){
+			content+="Section 7: Raisons pour lesquelles aucune mesure corrective n'a été prise:\n";
+			content+=formattedObject.input;
+			content+="\n\n";
+		}
+	}catch(err){
+		gs.debug(err.message);
+	}
+
+	try{
+        //7. Supplementary preventative measures 
+		temp = caseGr.getValue("supplementary_preventative_measures") || "";
+		formattedObject = ohsmUtils.getFieldFormattedString(temp, 100, 2);
+		if(!formattedObject.inputFits){
+			content+="Section 7: Autres mesures de prévention:\n";
+			content+=formattedObject.input;
+			content+="\n\n";
+		}
+	}catch(err){
+		gs.debug(err.message);
+	}
+
+	try{	
+		//Section 9: Work place committee or health and safety representative comments
+		temp = caseGr.getValue("whsc_comments") || "";
+		formattedObject = ohsmUtils.getFieldFormattedString(temp, 100, 2);
+		if (!formattedObject.inputFits){
+			content+="Section 9: Observations du comité local ou du représentant:\n";
+			content+=formattedObject.input;
+			content+="\n\n";
+		}
+	}catch(err){
+		gs.debug(err.message);
+	}
+	
+	return content;
+})(caseGr, mappingField);]]&gt;&lt;/script&gt;
+        &lt;select_date_format/&gt;
+        &lt;sign_left/&gt;
+        &lt;sign_top/&gt;
+        &lt;signing_order/&gt;
+        &lt;specific_date_format/&gt;
+        &lt;sys_created_by&gt;azure.Alexandre.Mageau-Petrin@parlissi.g&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2023-04-24 19:53:40&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_id&gt;912dfd9b1b5a2d549fde86acdd4bcb4d&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;
+        &lt;sys_updated_by&gt;abigael.schonewille@Parlissi.gc.ca&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-07-24 15:38:56&lt;/sys_updated_on&gt;
+        &lt;true_value/&gt;
+        &lt;use_signing_date&gt;false&lt;/use_signing_date&gt;
+    &lt;/sn_hr_core_pdf_template_mapping&gt;
+&lt;/record_update&gt;
+</payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-07-24 13:36:55</sys_created_on>
+        <sys_id>de7542de1be302989fde86acdd4bcbe0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>LAB1070-ExtraPage_FQ</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_metadata_link_de7542de1be302989fde86acdd4bcbe0</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-07-24 15:41:26</sys_updated_on>
+        <tablename>sn_hr_core_pdf_template_mapping</tablename>
+    </sys_metadata_link>
+</record_update>

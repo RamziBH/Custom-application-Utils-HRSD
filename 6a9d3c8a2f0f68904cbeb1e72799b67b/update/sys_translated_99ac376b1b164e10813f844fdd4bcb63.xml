@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>question_text</element>
+        <id/>
+        <label>Votre adresse courriel préféré</label>
+        <language>fq</language>
+        <name>question</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-27 16:11:31</sys_created_on>
+        <sys_id>99ac376b1b164e10813f844fdd4bcb63</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Votre adresse courriel préféré</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_translated_99ac376b1b164e10813f844fdd4bcb63</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-27 16:11:31</sys_updated_on>
+        <value>Your preferred email address</value>
+    </sys_translated>
+</record_update>

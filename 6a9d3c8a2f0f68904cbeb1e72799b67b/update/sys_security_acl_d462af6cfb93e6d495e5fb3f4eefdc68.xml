@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_hccc_hoc_ohs_hira_case.hazard_subcategory</name>
+        <operation display_value="query_range">e66cf897b7300210240b06dd1e11a9fd</operation>
+        <script/>
+        <security_attribute display_value="UserIsAuthenticatedAndHasRightsToRead">30b1557ea3dc6210103da1fdc31e6128</security_attribute>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-08-08 16:00:57</sys_created_on>
+        <sys_id>d462af6cfb93e6d495e5fb3f4eefdc68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_hccc_hoc_ohs_hira_case.hazard_subcategory</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_security_acl_d462af6cfb93e6d495e5fb3f4eefdc68</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-08-08 16:00:57</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

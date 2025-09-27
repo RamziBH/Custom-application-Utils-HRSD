@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>subject_person</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-01-24 15:44:44</sys_created_on>
+        <sys_data_policy display_value="Make fields read only in Workplace inspection reports">deb6717cdb550110e3dd80c74b961981</sys_data_policy>
+        <sys_id>2eb8b5f0db950110e3dd80c74b9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>subject_person</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_data_policy_rule_2eb8b5f0db950110e3dd80c74b9619b6</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <table>x_hccc_hoc_ohs_investigation_case</table>
+    </sys_data_policy_rule>
+</record_update>

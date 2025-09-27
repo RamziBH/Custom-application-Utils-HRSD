@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="wi_shared_space" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>wi_shared_space</element>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>mdsajid.islam@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-06 18:28:09</sys_created_on>
+            <sys_id>0211b9c43b57a654aeb1ebc964e45a38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>wi_shared_space</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_choice_x_hccc_hoc_ohs_investigation_case_wi_shared_space</sys_update_name>
+            <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 18:28:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>wi_shared_space</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>mdsajid.islam@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-06 18:28:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91c9982b3b04b2d0aeb1ebc964e45a47</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 18:31:00</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>wi_shared_space</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oui</label>
+            <language>en</language>
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>mdsajid.islam@parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2025-08-06 18:28:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>59c9982b3b04b2d0aeb1ebc964e45a94</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>mdsajid.islam@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2025-08-06 18:31:00</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

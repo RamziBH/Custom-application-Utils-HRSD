@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="OHSM Report Run Request">c561663b1b081d109fde86acdd4bcbc1</catalog_item>
+        <catalog_variable>IO:708b4f748774259050d2eca73cbb3504</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-02-01 18:57:01</sys_created_on>
+        <sys_id>24cd9bbc87f4259050d2eca73cbb3596</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>manually_tracked_items</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_24cd9bbc87f4259050d2eca73cbb3596</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-09 23:15:26</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show OHS Meetings variable set for LAB1058">6b7d53bc87f4259050d2eca73cbb35c1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>manually_tracked_items</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

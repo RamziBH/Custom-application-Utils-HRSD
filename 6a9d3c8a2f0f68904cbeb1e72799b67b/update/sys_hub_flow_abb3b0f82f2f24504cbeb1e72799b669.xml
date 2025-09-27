@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>hoc__ohsm_copy_attachments_to_parent_case</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.table_name","label":"Trigger➛PDF Draft Table","reference":"pdf_draft","reference_display":"PDF Draft","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.document","label":"Trigger➛PDF Draft Record➛Document","reference":"","reference_display":"Document","type":"document_id","base_type":"document_id","parent_table_name":"pdf_draft","column_name":"document"},{"name":"e5e47afd-e2e1-4d4c-8370-69fdb5961cc0.item","label":"3➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger➛PDF Draft Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"pdf_draft","column_name":"sys_id"},{"name":"9383efb4-5902-46d2-bf86-b7917e4a388a.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9383efb4-5902-46d2-bf86-b7917e4a388a.Table","label":"2➛Attachment Table","reference":"sys_attachment","reference_display":"Attachment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9383efb4-5902-46d2-bf86-b7917e4a388a.Records","label":"2➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18dd4fe6-c4a7-4377-b6c3-0808d83a079b.item.sys_id","label":"3➛Attachment Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id"},{"name":"18dd4fe6-c4a7-4377-b6c3-0808d83a079b.item","label":"3➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"c507eade-289c-46a0-ab3d-bb63ae6d47e7.scheduled_end_date_time","label":"1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c507eade-289c-46a0-ab3d-bb63ae6d47e7.total_duration","label":"1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"6e7001fb-ce4e-4ab3-9ad1-ebc313e788fc.state","label":"1➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created_1.current.sys_id","label":"Trigger➛PDF Draft Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"pdf_draft","column_name":"sys_id"},{"name":"Created_1.current","label":"Trigger➛PDF Draft Record","reference":"pdf_draft","reference_display":"PDF Draft","type":"reference","base_type":"reference","attributes":{}},{"name":"174165fe-6bfe-4429-8a2c-ae5123b5961f.Records","label":"2➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"174165fe-6bfe-4429-8a2c-ae5123b5961f.Table","label":"2➛Attachment Table","reference":"sys_attachment","reference_display":"Attachment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"174165fe-6bfe-4429-8a2c-ae5123b5961f.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.table_name","label":"Trigger➛PDF Draft Table","reference":"pdf_draft","reference_display":"PDF Draft","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.document","label":"Trigger➛PDF Draft Record➛Document","reference":"","reference_display":"Document","type":"document_id","base_type":"document_id","parent_table_name":"pdf_draft","column_name":"document"},{"name":"Created or Updated_1.current.table","label":"Trigger➛PDF Draft Record➛Table","reference":"","reference_display":"Table","type":"table_name","base_type":"table_name","parent_table_name":"pdf_draft","column_name":"table"}]</label_cache>
+        <master_snapshot>4526bcfc2f2f24504cbeb1e72799b6e3</master_snapshot>
+        <master_snapshot_digest/>
+        <name>HoC - OHSM Copy attachments to parent case</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>9457c9f42fef24504cbeb1e72799b6b8</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:42:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>abb3b0f82f2f24504cbeb1e72799b669</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HoC - OHSM Copy attachments to parent case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_hub_flow_abb3b0f82f2f24504cbeb1e72799b669</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-11-09 08:15:02</sys_updated_on>
+        <type>flow</type>
+        <version>1</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_variable_value action="delete_multiple" query="document_key=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="pdf_draft">table=x_hccc_hoc_ohs_investigation_case<item endquery="false" field="table" goto="false" newquery="false" operator="=" or="false" value="x_hccc_hoc_ohs_investigation_case"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9457c9f42fef24504cbeb1e72799b6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:33</sys_updated_on>
+        <table>pdf_draft</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"table":"sys_trigger_runner_mapping","id":"1057c9f42fef24504cbeb1e72799b6b9","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <identifier>abb3b0f82f2f24504cbeb1e72799b669</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:33</sys_created_on>
+        <sys_id>1057c9f42fef24504cbeb1e72799b6b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:33</sys_updated_on>
+        <trigger display_value="">9457c9f42fef24504cbeb1e72799b6b8</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>
+        <document_id>1057c9f42fef24504cbeb1e72799b6b9</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:33</sys_created_on>
+        <sys_id>9457c9f42fef24504cbeb1e72799b6b9</sys_id>
+    </sys_json_chunk>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=abb3b0f82f2f24504cbeb1e72799b669^sys_idNOT IN1057c9f42fef24504cbeb1e72799b6b9"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=abb3b0f82f2f24504cbeb1e72799b669^sys_idNOT IN27b3b0f82f2f24504cbeb1e72799b66b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>abb3b0f82f2f24504cbeb1e72799b669</id>
+        <name>HoC - OHSM Copy attachments to parent case</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:42:02</sys_created_on>
+        <sys_id>27b3b0f82f2f24504cbeb1e72799b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:42:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=27b3b0f82f2f24504cbeb1e72799b66b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=abb3b0f82f2f24504cbeb1e72799b669^sys_idNOT IN8580c9382faf24504cbeb1e72799b620"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">abb3b0f82f2f24504cbeb1e72799b669</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:50</sys_created_on>
+        <sys_id>8580c9382faf24504cbeb1e72799b620</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:34</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8580c9382faf24504cbeb1e72799b620"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8580c9382faf24504cbeb1e72799b620</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:50</sys_created_on>
+        <sys_id>4180c9382faf24504cbeb1e72799b623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:37:50</sys_updated_on>
+        <value>pdf_draft</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8580c9382faf24504cbeb1e72799b620</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:50</sys_created_on>
+        <sys_id>8580c9382faf24504cbeb1e72799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:37:50</sys_updated_on>
+        <value>table=x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>8580c9382faf24504cbeb1e72799b620</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:50</sys_created_on>
+        <sys_id>8d80c9382faf24504cbeb1e72799b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:37:50</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">231e76460f103300b599bca2ff767e11</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=8580c9382faf24504cbeb1e72799b620"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=abb3b0f82f2f24504cbeb1e72799b669^sys_idNOT IN473705f42fef24504cbeb1e72799b60a,4d80c9382faf24504cbeb1e72799b635"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="customCopyAttachment">6a92cb3a1b690450dab2db1dcd4bcbf1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">abb3b0f82f2f24504cbeb1e72799b669</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>e5e47afd-e2e1-4d4c-8370-69fdb5961cc0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:11</sys_created_on>
+        <sys_id>473705f42fef24504cbeb1e72799b60a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:08:57</sys_updated_on>
+        <ui_id>b52b38c6-9ff5-4236-9123-e0e5f3dc2573</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=473705f42fef24504cbeb1e72799b60a"/>
+    <sys_element_mapping action="delete_multiple" query="id=473705f42fef24504cbeb1e72799b60a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_record_sys_id</field>
+        <id>473705f42fef24504cbeb1e72799b60a</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:12</sys_created_on>
+        <sys_id>0b3705f42fef24504cbeb1e72799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a92cb3a1b690450dab2db1dcd4bcbf1</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_table</field>
+        <id>473705f42fef24504cbeb1e72799b60a</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:12</sys_created_on>
+        <sys_id>8f3705f42fef24504cbeb1e72799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a92cb3a1b690450dab2db1dcd4bcbf1</table>
+        <value>{{Created or Updated_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record_sys_id</field>
+        <id>473705f42fef24504cbeb1e72799b60a</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:11</sys_created_on>
+        <sys_id>433705f42fef24504cbeb1e72799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a92cb3a1b690450dab2db1dcd4bcbf1</table>
+        <value>{{Created or Updated_1.current.table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_table</field>
+        <id>473705f42fef24504cbeb1e72799b60a</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:12</sys_created_on>
+        <sys_id>cb3705f42fef24504cbeb1e72799b60c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a92cb3a1b690450dab2db1dcd4bcbf1</table>
+        <value>{{Created or Updated_1.current.document}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=473705f42fef24504cbeb1e72799b60a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=473705f42fef24504cbeb1e72799b60a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">abb3b0f82f2f24504cbeb1e72799b669</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:51</sys_created_on>
+        <sys_id>4d80c9382faf24504cbeb1e72799b635</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:08:57</sys_updated_on>
+        <ui_id>9383efb4-5902-46d2-bf86-b7917e4a388a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=4d80c9382faf24504cbeb1e72799b635"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>4d80c9382faf24504cbeb1e72799b635</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:51</sys_created_on>
+        <sys_id>9980c9382faf24504cbeb1e72799b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:37:51</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=4d80c9382faf24504cbeb1e72799b635"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>4d80c9382faf24504cbeb1e72799b635</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:51</sys_created_on>
+        <sys_id>4180c9382faf24504cbeb1e72799b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:37:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>table_name=pdf_draft^table_sys_id={{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>4d80c9382faf24504cbeb1e72799b635</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:51</sys_created_on>
+        <sys_id>1980c9382faf24504cbeb1e72799b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:37:51</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4d80c9382faf24504cbeb1e72799b635"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4d80c9382faf24504cbeb1e72799b635"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=abb3b0f82f2f24504cbeb1e72799b669^sys_idNOT IN7c16f8fc2f2f24504cbeb1e72799b6c8,d980c9382faf24504cbeb1e72799b639"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b016f8fc2f2f24504cbeb1e72799b6c8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">abb3b0f82f2f24504cbeb1e72799b669</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:13</sys_created_on>
+        <sys_id>7c16f8fc2f2f24504cbeb1e72799b6c8</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:34</sys_updated_on>
+        <ui_id>c507eade-289c-46a0-ab3d-bb63ae6d47e7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7c16f8fc2f2f24504cbeb1e72799b6c8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7c16f8fc2f2f24504cbeb1e72799b6c8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:13</sys_created_on>
+        <sys_id>3816f8fc2f2f24504cbeb1e72799b6e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:57:13</sys_updated_on>
+        <value>1970-01-01 00:00:07</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>7c16f8fc2f2f24504cbeb1e72799b6c8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:13</sys_created_on>
+        <sys_id>f416f8fc2f2f24504cbeb1e72799b6ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:52:13</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=7c16f8fc2f2f24504cbeb1e72799b6c8"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7c16f8fc2f2f24504cbeb1e72799b6c8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7c16f8fc2f2f24504cbeb1e72799b6c8"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1180c9382faf24504cbeb1e72799b639</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">abb3b0f82f2f24504cbeb1e72799b669</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:51</sys_created_on>
+        <sys_id>d980c9382faf24504cbeb1e72799b639</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:34</sys_updated_on>
+        <ui_id>e5e47afd-e2e1-4d4c-8370-69fdb5961cc0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d980c9382faf24504cbeb1e72799b639"/>
+    <sys_element_mapping action="delete_multiple" query="id=d980c9382faf24504cbeb1e72799b639"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>d980c9382faf24504cbeb1e72799b639</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 15:37:51</sys_created_on>
+        <sys_id>9180c9382faf24504cbeb1e72799b63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:37:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{9383efb4-5902-46d2-bf86-b7917e4a388a.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d980c9382faf24504cbeb1e72799b639"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d980c9382faf24504cbeb1e72799b639"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_abb3b0f82f2f24504cbeb1e72799b669"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>hoc__ohsm_copy_attachments_to_parent_case</internal_name>
+        <label_cache>[{"name":"Created or Updated_1.table_name","label":"Trigger➛PDF Draft Table","reference":"pdf_draft","reference_display":"PDF Draft","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created or Updated_1.current.document","label":"Trigger➛PDF Draft Record➛Document","reference":"","reference_display":"Document","type":"document_id","base_type":"document_id","parent_table_name":"pdf_draft","column_name":"document"},{"name":"e5e47afd-e2e1-4d4c-8370-69fdb5961cc0.item","label":"3➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created or Updated_1.current.sys_id","label":"Trigger➛PDF Draft Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"pdf_draft","column_name":"sys_id"},{"name":"9383efb4-5902-46d2-bf86-b7917e4a388a.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9383efb4-5902-46d2-bf86-b7917e4a388a.Table","label":"2➛Attachment Table","reference":"sys_attachment","reference_display":"Attachment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"9383efb4-5902-46d2-bf86-b7917e4a388a.Records","label":"2➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"18dd4fe6-c4a7-4377-b6c3-0808d83a079b.item.sys_id","label":"3➛Attachment Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"sys_attachment","column_name":"sys_id"},{"name":"18dd4fe6-c4a7-4377-b6c3-0808d83a079b.item","label":"3➛Attachment Record","reference":"sys_attachment","reference_display":"Attachment","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"c507eade-289c-46a0-ab3d-bb63ae6d47e7.scheduled_end_date_time","label":"1➛Scheduled End date/time","reference_display":"Scheduled End date/time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"c507eade-289c-46a0-ab3d-bb63ae6d47e7.total_duration","label":"1➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"pills_draggable_inside_block":"false","pills_draggable_outside_block":"true"}},{"name":"6e7001fb-ce4e-4ab3-9ad1-ebc313e788fc.state","label":"1➛State","reference_display":"State","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"2e334039-7a20-4ead-9148-909988f1a7e4"}},{"name":"Created_1.current.sys_id","label":"Trigger➛PDF Draft Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"pdf_draft","column_name":"sys_id"},{"name":"Created_1.current","label":"Trigger➛PDF Draft Record","reference":"pdf_draft","reference_display":"PDF Draft","type":"reference","base_type":"reference","attributes":{}},{"name":"174165fe-6bfe-4429-8a2c-ae5123b5961f.Records","label":"2➛Attachment Records","reference":"sys_attachment","reference_display":"Attachment","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"174165fe-6bfe-4429-8a2c-ae5123b5961f.Table","label":"2➛Attachment Table","reference":"sys_attachment","reference_display":"Attachment","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"174165fe-6bfe-4429-8a2c-ae5123b5961f.Count","label":"2➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.table_name","label":"Trigger➛PDF Draft Table","reference":"pdf_draft","reference_display":"PDF Draft","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"Created_1.current.document","label":"Trigger➛PDF Draft Record➛Document","reference":"","reference_display":"Document","type":"document_id","base_type":"document_id","parent_table_name":"pdf_draft","column_name":"document"},{"name":"Created or Updated_1.current.table","label":"Trigger➛PDF Draft Record➛Table","reference":"","reference_display":"Table","type":"table_name","base_type":"table_name","parent_table_name":"pdf_draft","column_name":"table"}]</label_cache>
+        <master>true</master>
+        <name>HoC - OHSM Copy attachments to parent case</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="HoC - OHSM Copy attachments to parent case">abb3b0f82f2f24504cbeb1e72799b669</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4526bcfc2f2f24504cbeb1e72799b6e3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:31</sys_updated_on>
+        <type>flow</type>
+        <version>1</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4526bcfc2f2f24504cbeb1e72799b6e3^sys_idNOT IN0126bcfc2f2f24504cbeb1e72799b6e4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4526bcfc2f2f24504cbeb1e72799b6e3</id>
+        <name>HoC - OHSM Copy attachments to parent case</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:31</sys_created_on>
+        <sys_id>0126bcfc2f2f24504cbeb1e72799b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:52:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0126bcfc2f2f24504cbeb1e72799b6e4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=4526bcfc2f2f24504cbeb1e72799b6e3^sys_idNOT IN712630302f6f24504cbeb1e72799b69f"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">4526bcfc2f2f24504cbeb1e72799b6e3</flow>
+        <name>Created or Updated</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:33</sys_created_on>
+        <sys_id>712630302f6f24504cbeb1e72799b69f</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:33</sys_updated_on>
+        <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create_or_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=712630302f6f24504cbeb1e72799b69f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>712630302f6f24504cbeb1e72799b69f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:28</sys_created_on>
+        <sys_id>4f4749f42fef24504cbeb1e72799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:28</sys_updated_on>
+        <value>pdf_draft</value>
+        <variable display_value="Table">cf1e1980c32222002841b63b12d3aea0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>712630302f6f24504cbeb1e72799b69f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:33</sys_created_on>
+        <sys_id>792630302f6f24504cbeb1e72799b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:52:33</sys_updated_on>
+        <value>pdf_draft</value>
+        <variable display_value="Table">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>712630302f6f24504cbeb1e72799b69f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:28</sys_created_on>
+        <sys_id>8b4749f42fef24504cbeb1e72799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:28</sys_updated_on>
+        <value/>
+        <variable display_value="Run flow In">231e76460f103300b599bca2ff767e11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>712630302f6f24504cbeb1e72799b69f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:33</sys_created_on>
+        <sys_id>b52630302f6f24504cbeb1e72799b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:52:33</sys_updated_on>
+        <value>table=x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Condition">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>712630302f6f24504cbeb1e72799b69f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:28</sys_created_on>
+        <sys_id>c34749f42fef24504cbeb1e72799b61e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:28</sys_updated_on>
+        <value>table=x_hccc_hoc_ohs_investigation_case</value>
+        <variable display_value="Condition">707dd180c32222002841b63b12d3aecb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_a45d9180c32222002841b63b12d3aea7^id=712630302f6f24504cbeb1e72799b69f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=4526bcfc2f2f24504cbeb1e72799b6e3^sys_idNOT IN1f4749f42fef24504cbeb1e72799b685,834749f42fef24504cbeb1e72799b626"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="customCopyAttachment">6a92cb3a1b690450dab2db1dcd4bcbf1</action_type>
+        <action_type_parent display_value="customCopyAttachment">4b11c7321b690450dab2db1dcd4bcb57</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">4526bcfc2f2f24504cbeb1e72799b6e3</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>e5e47afd-e2e1-4d4c-8370-69fdb5961cc0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>1f4749f42fef24504cbeb1e72799b685</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:31</sys_updated_on>
+        <ui_id>b52b38c6-9ff5-4236-9123-e0e5f3dc2573</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1f4749f42fef24504cbeb1e72799b685"/>
+    <sys_element_mapping action="delete_multiple" query="id=1f4749f42fef24504cbeb1e72799b685"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_record_sys_id</field>
+        <id>1f4749f42fef24504cbeb1e72799b685</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>934749f42fef24504cbeb1e72799b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a92cb3a1b690450dab2db1dcd4bcbf1</table>
+        <value>{{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_table</field>
+        <id>1f4749f42fef24504cbeb1e72799b685</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>1b4749f42fef24504cbeb1e72799b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a92cb3a1b690450dab2db1dcd4bcbf1</table>
+        <value>{{Created or Updated_1.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record_sys_id</field>
+        <id>1f4749f42fef24504cbeb1e72799b685</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>df4749f42fef24504cbeb1e72799b686</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a92cb3a1b690450dab2db1dcd4bcbf1</table>
+        <value>{{Created or Updated_1.current.table}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_table</field>
+        <id>1f4749f42fef24504cbeb1e72799b685</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>574749f42fef24504cbeb1e72799b687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6a92cb3a1b690450dab2db1dcd4bcbf1</table>
+        <value>{{Created or Updated_1.current.document}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1f4749f42fef24504cbeb1e72799b685"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1f4749f42fef24504cbeb1e72799b685"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">4526bcfc2f2f24504cbeb1e72799b6e3</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>834749f42fef24504cbeb1e72799b626</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:31</sys_updated_on>
+        <ui_id>9383efb4-5902-46d2-bf86-b7917e4a388a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=834749f42fef24504cbeb1e72799b626"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>834749f42fef24504cbeb1e72799b626</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>134749f42fef24504cbeb1e72799b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:29</sys_updated_on>
+        <value>sys_attachment</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=834749f42fef24504cbeb1e72799b626"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>834749f42fef24504cbeb1e72799b626</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>db4749f42fef24504cbeb1e72799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value>table_name=pdf_draft^table_sys_id={{Created or Updated_1.current.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>834749f42fef24504cbeb1e72799b626</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>9f4749f42fef24504cbeb1e72799b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=834749f42fef24504cbeb1e72799b626"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=834749f42fef24504cbeb1e72799b626"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=4526bcfc2f2f24504cbeb1e72799b6e3^sys_idNOT IN212630302f6f24504cbeb1e72799b684,534749f42fef24504cbeb1e72799b6ac"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b016f8fc2f2f24504cbeb1e72799b6c8</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">4526bcfc2f2f24504cbeb1e72799b6e3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Wait for a duration of time">fdb2541473031300b61e66476bf6a70e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:33</sys_created_on>
+        <sys_id>212630302f6f24504cbeb1e72799b684</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:31</sys_updated_on>
+        <ui_id>c507eade-289c-46a0-ab3d-bb63ae6d47e7</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=212630302f6f24504cbeb1e72799b684"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>212630302f6f24504cbeb1e72799b684</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:33</sys_created_on>
+        <sys_id>292630302f6f24504cbeb1e72799b689</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:57:23</sys_updated_on>
+        <value>1970-01-01 00:00:07</value>
+        <variable display_value="Duration">ef145c1473031300b61e66476bf6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>212630302f6f24504cbeb1e72799b684</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:33</sys_created_on>
+        <sys_id>652630302f6f24504cbeb1e72799b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 14:52:33</sys_updated_on>
+        <value/>
+        <variable display_value="Timer relative duration operator">dca4105473031300b61e66476bf6a726</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_fdb2541473031300b61e66476bf6a70e^id=212630302f6f24504cbeb1e72799b684"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=212630302f6f24504cbeb1e72799b684"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=212630302f6f24504cbeb1e72799b684"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1180c9382faf24504cbeb1e72799b639</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="HoC - OHSM Copy attachments to parent case">4526bcfc2f2f24504cbeb1e72799b6e3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>534749f42fef24504cbeb1e72799b6ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:31</sys_updated_on>
+        <ui_id>e5e47afd-e2e1-4d4c-8370-69fdb5961cc0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=534749f42fef24504cbeb1e72799b6ac"/>
+    <sys_element_mapping action="delete_multiple" query="id=534749f42fef24504cbeb1e72799b6ac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>534749f42fef24504cbeb1e72799b6ac</id>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 16:07:29</sys_created_on>
+        <sys_id>db4749f42fef24504cbeb1e72799b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:29</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{9383efb4-5902-46d2-bf86-b7917e4a388a.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=534749f42fef24504cbeb1e72799b6ac"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=534749f42fef24504cbeb1e72799b6ac"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4526bcfc2f2f24504cbeb1e72799b6e3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>abb3b0f82f2f24504cbeb1e72799b669</sys_id>
+        <latest_snapshot>4526bcfc2f2f24504cbeb1e72799b6e3</latest_snapshot>
+        <compiler_build>glide-paris-06-24-2020__patch7-02-25-2021</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=abb3b0f82f2f24504cbeb1e72799b669^sys_idNOT IN4e2630302f6f24504cbeb1e72799b6ee"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"4e2630302f6f24504cbeb1e72799b6ee","name":"plan"}}</plan>
+        <plan_id>abb3b0f82f2f24504cbeb1e72799b669</plan_id>
+        <snapshot>339749382fef24504cbeb1e72799b6ac</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>$fgaies</sys_created_by>
+        <sys_created_on>2021-04-13 14:52:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4e2630302f6f24504cbeb1e72799b6ee</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>$fgaies</sys_updated_by>
+        <sys_updated_on>2021-04-13 16:07:33</sys_updated_on>
+        <trigger display_value="">9457c9f42fef24504cbeb1e72799b6b8</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=abb3b0f82f2f24504cbeb1e72799b669"/>
+</record_update>

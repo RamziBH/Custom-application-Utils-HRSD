@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <business_calendar/>
+        <condition><![CDATA[//only run Jan 1
+
+//var gdt = new GlideDateTime();
+//gdt.getMonthLocalTime() == 1;]]></condition>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>HoC - OHSM LAB1058 Data Collector</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2023-02-01 22:37:52</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[//Inactive as was replaced by the annual report run request workflow and flow actions
+var strComplaintType = '5227b08f2f4b60d04cbeb1e72799b659'; //HR Service for Internal Complaints
+var strRefusalType = 'b745a0501b53ac10ea0eda02dd4bcb4b'; //HR Service for Refusal To WOrk
+var strInspectType = 'a94b0c891b7e7c109fde86acdd4bcbc1'; //HR Service for Inspections
+var strCorrectiveType = 'a284e0261b7a30109fde86acdd4bcbfc'; //HR Service for Corrective Action
+var strInvestigationType = '6a2b1ada2f4f2c904cbeb1e72799b6ae,5227b08f2f4b60d04cbeb1e72799b659,b745a0501b53ac10ea0eda02dd4bcb4b'; //HR Service for Workplace Incident Report
+var strIncident = '6a2b1ada2f4f2c904cbeb1e72799b6ae';
+
+var strStateOpen = '903,18,103,807,1,109,10,101,30,102,104,201,203,204,301,302,400,206,113,900,901,904,905,906,908';
+var strStateClosed = '111,105,3,4,7,200,205,110,112,902,907';
+
+var loc;
+var grBuilding = new GlideRecord('cmn_location');
+//grBuilding.addActiveQuery();
+grBuilding.addEncodedQuery('typeLIKEefe3ed571be74c50028598aebd4bcb34'); //Query where type contains BUilding.
+grBuilding.query();
+
+var dt = new GlideDateTime();
+var yr = dt.getYearLocalTime() - 1;
+var resObj = new HoCOHSMRepo();
+
+while (grBuilding.next()) {
+    //var loc = '046d5f461b5afc1078230d47dc4bcbce';           //181 Queen used for testing instead of looping.
+    loc = grBuilding.sys_id;
+
+    var gr1058 = new GlideRecord('x_hccc_hoc_ohs_lab1058_staging_table');
+    gr1058.initialize();
+    gr1058.report_year = yr.toString();
+    gr1058.building = loc;
+	
+	//Cases created/received
+    gr1058.complaints_received = resObj.get1058_Type_CreatedByMonth(strComplaintType, 'opened_at', loc, 'inc_location', '', '');
+    gr1058.refusals_received = resObj.get1058_Type_CreatedByMonth(strRefusalType, 'opened_at', loc, 'inc_location', '', '');
+    gr1058.inspections = resObj.get1058_Type_CreatedByMonth(strInspectType, 'opened_at', loc, 'wi_building', '', '');
+    gr1058.hazards_identified = resObj.get1058_Type_CreatedByMonth(strCorrectiveType, 'opened_at', loc, 'wi_building', '', '');
+    gr1058.investigations = resObj.get1058_Type_CreatedByMonth(strInvestigationType, 'opened_at', loc, 'inc_location', '', '');
+    gr1058.disabling_injury = resObj.get1058_Type_CreatedByMonth(strIncident, 'opened_at', loc, 'inc_location', 'disab_injury', '');
+    gr1058.minor_injury = resObj.get1058_Type_CreatedByMonth(strIncident, 'opened_at', loc, 'inc_location', 'minor', '');
+    gr1058.time_lost = resObj.get1058_Type_CreatedByMonth(strIncident, 'opened_at', loc, 'inc_location', 'disab_injury', '');
+
+
+    //Cases Unresolved
+    gr1058.complaints_unresolved = resObj.get1058_Type_CreatedByMonth(strComplaintType, 'opened_at', loc, 'inc_location', '', strStateOpen);
+    gr1058.refusals_unresolved = resObj.get1058_Type_CreatedByMonth(strRefusalType, 'opened_at', loc, 'inc_location', '', strStateOpen);
+    gr1058.hazards_unresolved = resObj.get1058_Type_CreatedByMonth(strCorrectiveType, 'opened_at', loc, 'wi_building', '', strStateOpen);
+
+    //Cases resolved
+    gr1058.complaints_resolved = resObj.get1058_Type_CreatedByMonth(strComplaintType, 'opened_at', loc, 'inc_location', '', strStateClosed);
+    gr1058.refusals_resolved = resObj.get1058_Type_CreatedByMonth(strRefusalType, 'opened_at', loc, 'inc_location', '', strStateClosed);
+    gr1058.hazards_resolved = resObj.get1058_Type_CreatedByMonth(strCorrectiveType, 'opened_at', loc, 'wi_building', '', strStateClosed);
+
+
+    gr1058.insert();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>AZURE.Erin.Kelly@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-02-01 22:59:56</sys_created_on>
+        <sys_id>0f5098858730659050d2eca73cbb35d6</sys_id>
+        <sys_mod_count>48</sys_mod_count>
+        <sys_name>HoC - OHSM LAB1058 Data Collector</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sysauto_script_0f5098858730659050d2eca73cbb35d6</sys_update_name>
+        <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-02 14:14:20</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

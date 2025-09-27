@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Test Suite to run after any upgrade is made to the platform of servicenow</description>
+        <input_filter/>
+        <name>OHS - Upgrades - Test Suite</name>
+        <parent/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>zachary.adams@Parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2023-07-21 13:33:40</sys_created_on>
+        <sys_id>d6d13da71b443154893442a7bc4bcb16</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OHS - Upgrades - Test Suite</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_test_suite_d6d13da71b443154893442a7bc4bcb16</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-01-09 17:53:03</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

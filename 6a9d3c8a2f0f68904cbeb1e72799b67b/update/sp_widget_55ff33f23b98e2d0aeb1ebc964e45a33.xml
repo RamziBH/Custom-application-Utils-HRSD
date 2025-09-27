@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.message {&#13;
+ 	font-size:115%;&#13;
+  font-weight:bold;&#13;
+  text-align:left;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Widget to display confirmation messages in Health &amp; Safety for disability and accommodation</description>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>HoC OHSM Accommodation Confirmation</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	var language = gs.getSession().getLanguage();//gs.getMessage($sp.getParameter("language"));
+	var caseNumber = gs.getMessage($sp.getParameter("requestNumber"));
+	var anonymous = gs.getMessage($sp.getParameter("anonymous")); //Used in Anonymous Harassement & Violence cases
+	var flu = gs.getMessage($sp.getParameter("flu")); //Used in Flu cases
+	var hr_service = gs.getMessage($sp.getParameter("hrService")); //Used in hv cases
+	var message = "";
+	if (language == "en"){
+		if (hr_service == "hv") {
+			message+= "<br>Good day,<br><br> Your request has been successfully submitted. <br><br>";
+		} else {
+			message+= "<br>Good day,<br><br> Your request has been successfully submitted. <br><br>";
+		}
+		
+		if (anonymous != "True" && anonymous != "Vrai" && anonymous != "true" && anonymous != "vrai"){
+			message+= "A confirmation email has been sent to your manager with the necessary details. <br><br>";
+			
+			if (hr_service == "hv") {
+				message+= "You may be contacted shortly to provide the necessary follow-up. <br><br>";
+			} else {
+				message+= "You will be contacted shortly to provide the necessary follow-up. <br><br>";
+			}
+		} 
+		
+		if (hr_service=="hv") {
+			message+= "For immediate assistance, you may contact <a href='mailto:RW.rmt@parl.gc.ca'>Respectful Workplace</a>. <br><br>";
+			message+= "Thank you<br><br>";
+		} else {
+			message+= "For immediate assistance, you may contact <a href='mailto:wa-at@parl.gc.ca'>Disability Management</a>. <br><br>";
+			message+= "Thank you, <br><br>";
+			message+= "Occupational Health and Safety Management System <br>";
+		}
+		
+	}
+	if (language == "fq"){
+		if (hr_service == "hv") {
+			message+= "<br>Bonne journée,<br><br> Votre demande a été soumise avec succès. <br><br>";
+		} else {
+			message+= "<br>Bonne journée,<br><br> Votre demande a été soumise avec succès. <br><br>";
+		}
+		
+		if (anonymous != "True" && anonymous != "Vrai" && anonymous != "true" && anonymous != "vrai"){
+			message+= "Un courriel de confirmation a été envoyé au gestionnaire avec les détails nécessaires.  <br><br>";
+			
+			if (hr_service == "hv") {
+				message+= "Vous pouvez être contacté sous peu afin d'assurer un suivit. <br><br>";
+			} else {
+				message+= "Vous serez contacté sous peu afin d'assurer un suivit. <br><br>";
+			}
+		} 		
+
+		//Respect en Milieu de Travail
+		if (hr_service=="hv") {
+			message+= "Pour une assistance immédiate, vous pouvez contacter <a href='mailto:RW.rmt@parl.gc.ca'>Respect en Milieu de Travail</a>. <br><br>";
+			message+= "Merci<br><br>";
+		} else {
+			message+= "Pour une assistance immédiate, vous pouvez contacter <a href='mailto:wa-at@parl.gc.ca'>Gestion de l'invalidité</a>. <br><br>";
+			message+= "Merci, <br><br>";
+			message+= "Le système de gestion de santé et de sécurité au travail <br>";
+		}
+	
+	}
+	
+	message = message.replace("{caseNumber}", caseNumber)
+	data.message = message;
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-03-19 14:47:17</sys_created_on>
+        <sys_id>55ff33f23b98e2d0aeb1ebc964e45a33</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>HoC OHSM Accommodation Confirmation</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_55ff33f23b98e2d0aeb1ebc964e45a33</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-03-28 12:23:07</sys_updated_on>
+        <template><![CDATA[<div>
+	<center>
+  		<div class="message" ng-bind-html="data.message"></div>
+	</center>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>55ff33f23b98e2d0aeb1ebc964e45a33</id>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-03-19 14:48:02</sys_created_on>
+        <sys_id>94200cc33b98e2d0aeb1ebc964e45a2a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-03-19 14:48:02</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

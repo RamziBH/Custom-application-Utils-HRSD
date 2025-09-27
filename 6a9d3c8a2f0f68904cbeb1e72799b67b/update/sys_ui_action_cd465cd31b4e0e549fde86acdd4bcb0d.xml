@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>cancel</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+    getMessages(['Work notes', 'Cancel Case', 'Provide a reason for cancelling the case.', 'Enter a reason for canceling', 'This action can\'t be undone.', 'Don\'t cancel', 'Cancel case'], function() {
+        var fields = [{
+            type: 'textarea',
+            name: 'work_notes',
+            label: getMessage('Work notes')
+        }];
+
+        var sysId = g_form.getUniqueValue();
+        var tblName = g_form.getTableName();
+
+        g_modal.showFields({
+            title: getMessage('Enter a reason for canceling'),
+            fields: fields,
+            instruction: getMessage('This action can\'t be undone.'),
+            size: 'md',
+            cancelTitle: getMessage('Don\'t cancel'),
+            confirmTitle: getMessage('Cancel case'),
+            cancelStyle: 'default',
+            confirmStyle: 'destructive'
+        }).then(function(fieldValues) {
+            //get the work note entered
+            var newWorkNote = fieldValues.updatedFields[0].value;
+            //Call the Ajax function that handles adding worknotes and state
+            var s = new GlideAjax("sn_hr_core.hr_CaseAjax");
+            s.addParam("sysparm_name", "cancelAction");
+            s.addParam("sysparm_obj_id", sysId);
+            s.addParam("sysparm_table_name", tblName);
+            s.addParam("sysparm_work_note", newWorkNote);
+            s.getXML(addWorkNotes);
+
+            function addWorkNotes(response) {
+                g_form.save();
+            }
+        });
+    });
+}]]></client_script_v2>
+        <comments>HOC Customization:&#13;
+- Method 'cancelCase()' in the Script (server)</comments>
+        <condition>new HoCOHSMHIRAUtils().canCancel(current);</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint>Terminates case</hint>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Cancel</name>
+        <onclick>cancelCase()</onclick>
+        <order>700</order>
+        <script><![CDATA[/**
+ * copied from https://hoccdcdv.service-now.com/sys_ui_action.do?sys_id=325370019f22120047a2d126c42e701d
+ * on 2024-05-13
+ * Changed condition
+ */
+function cancelCase() {
+    var sysId = typeof rowSysId == 'undefined' || rowSysId == null ?
+        g_form.getUniqueValue() : rowSysId;
+    var dialogClass = GlideModal ? GlideModal : GlideDialogWindow;
+    var dialog = new dialogClass('sn_hr_core_HR Comment Dialog');
+    var msg = new GwtMessage().getMessage('Enter the reason for canceling the case');
+    dialog.setTitle(msg);
+    dialog.setPreference('sysparm_task_sys_id', sysId);
+    dialog.setPreference('sysparm_task_table', 'sn_hr_core_case');
+    dialog.setPreference('sysparm_ok_method_name', 'cancelCase');
+    /* [HOC CUSTOMIZATION - value on following line] */
+    dialog.setPreference('sysparm_is_required', 'true');
+    dialog.setPreference('sysparm_is_comment', 'false');
+    dialog.on('hrComentDialogSucess', function() {
+        dialog.destroy();
+        gsftSubmit(null, g_form.getFormElement(), 'sysverb_update_and_stay');
+    });
+    dialog.render();
+    return;
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-05-13 18:30:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cd465cd31b4e0e549fde86acdd4bcb0d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Cancel</sys_name>
+        <sys_overrides display_value="Cancel">325370019f22120047a2d126c42e701d</sys_overrides>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_ui_action_cd465cd31b4e0e549fde86acdd4bcb0d</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-05-14 20:03:51</sys_updated_on>
+        <table>x_hccc_hoc_ohs_hira_case</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

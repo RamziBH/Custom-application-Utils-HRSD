@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_hccc_hoc_ohs.snd_Xplore_code_bd3c6d411b9bd810ea0eda02dd4bcb52</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>snd_Xplore_code_bd3c6d411b9bd810ea0eda02dd4bcb52</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[try {(function () {/*var res = new x_hccc_hoc_ohs.HoCOHSMHIRAUtils().executeFlow();
+res;*/
+
+
+let timeout = 10*60;
+let result = null;
+
+try {
+  result = sn_fd.FlowAPI
+    .getRunner()
+    //.flow(this.FLOW.HIRA_FLOW)
+    .flow('x_hccc_hoc_ohs.hira_creation')
+    .inForeground()
+    .timeout(1000 * timeout) //30 seconds
+    .run();
+
+} catch (ex) {
+  let message = ex.getMessage();
+  global.snd_Xplore.gserror('-------ERROR-------\r\n' + ex);
+  global.snd_Xplore.gserror(message);
+}
+
+return result;}).call(this)
+} catch (e) { e; }]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>azure.guillaume.houde@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-19 18:44:55</sys_created_on>
+        <sys_id>6097b654fb02969095e5fb3f4eefdcaf</sys_id>
+        <sys_mod_count>580</sys_mod_count>
+        <sys_name>snd_Xplore_code_bd3c6d411b9bd810ea0eda02dd4bcb52</sys_name>
+        <sys_package display_value="HoC Global - Platform UX Configurations" source="c7ed14e28734d11050d2eca73cbb35d2">c7ed14e28734d11050d2eca73cbb35d2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_script_include_6097b654fb02969095e5fb3f4eefdcaf</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-06-04 18:41:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

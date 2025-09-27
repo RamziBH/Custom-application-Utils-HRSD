@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>name</element>
+        <id/>
+        <label>Retour au gestionnaire</label>
+        <language>fq</language>
+        <name>sys_ui_action</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-03-18 14:26:11</sys_created_on>
+        <sys_id>2281b2aafbd0a29095e5fb3f4eefdc71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Retour au gestionnaire</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_translated_2281b2aafbd0a29095e5fb3f4eefdc71</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-03-18 14:26:11</sys_updated_on>
+        <value>Return to Manager</value>
+    </sys_translated>
+</record_update>

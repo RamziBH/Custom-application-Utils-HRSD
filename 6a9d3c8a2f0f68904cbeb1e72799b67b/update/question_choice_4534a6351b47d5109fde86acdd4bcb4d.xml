@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Who are you booking for?">c9c418c61b3e55509fde86acdd4bcb0d</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-11-09 17:29:45</sys_created_on>
+        <sys_id>4534a6351b47d5109fde86acdd4bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>A Member of the parliament</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>question_choice_4534a6351b47d5109fde86acdd4bcb4d</sys_update_name>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-12-14 18:28:55</sys_updated_on>
+        <text>A Member of the parliament</text>
+        <value>mp</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=4534a6351b47d5109fde86acdd4bcb4d"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>misc</field>
+        <id>4534a6351b47d5109fde86acdd4bcb4d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-11-09 17:43:35</sys_created_on>
+        <sys_id>5577227d1b47d5109fde86acdd4bcb6d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-11-09 17:43:35</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="CAD">CAD</currency>
+        <field>rec_misc</field>
+        <id>4534a6351b47d5109fde86acdd4bcb4d</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="CAD">CAD</reference_currency>
+        <sys_created_by>$mageaa</sys_created_by>
+        <sys_created_on>2022-11-09 17:43:35</sys_created_on>
+        <sys_id>9977227d1b47d5109fde86acdd4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>$mageaa</sys_updated_by>
+        <sys_updated_on>2022-11-09 17:43:35</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0e7371f82f6764504cbeb1e72799b664" sys_domain="global" table="x_hccc_hoc_ohs_investigation_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-13 19:20:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>427371f82f6764504cbeb1e72799b666</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">3db2fd782f6764504cbeb1e72799b640</sys_ui_section>
+            <sys_updated_by>$kutlaria</sys_updated_by>
+            <sys_updated_on>2021-04-13 19:20:27</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-13 19:20:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>689379f82f6764504cbeb1e72799b699</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="Comments and Work Notes" display_value="Comments and Work Notes" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">e09379f82f6764504cbeb1e72799b697</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 18:50:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-13 19:21:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>85a33df82f6764504cbeb1e72799b629</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="Sub-Cases and Tasks" display_value="Sub-Cases and Tasks" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">c1a375b82f6764504cbeb1e72799b6c1</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 18:50:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-13 19:21:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92b3b9f82f6764504cbeb1e72799b611</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="Case Information" display_value="Case Information" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">1ab3b9f82f6764504cbeb1e72799b60e</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-12 19:26:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-04-13 17:43:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>168905921bf285109fde86acdd4bcbfc</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="Initial Review" display_value="Initial Review" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">568905921bf285109fde86acdd4bcbf7</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-12 19:26:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-05-11 13:12:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>060898d38753851050d2eca73cbb3573</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="Negotiated Resolution" display_value="Negotiated Resolution" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e08d8938753851050d2eca73cbb356c</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-12 19:26:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-04-13 17:44:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdb98d921bf285109fde86acdd4bcb30</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="Mediation" display_value="Mediation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">31b941921bf285109fde86acdd4bcbd6</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 18:50:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-04-13 17:43:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>03a9c5921bf285109fde86acdd4bcb30</sys_id>
+            <sys_mod_count>7</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="Investigation" display_value="Investigation" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">47a9c5921bf285109fde86acdd4bcb2c</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 18:50:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-05-11 13:11:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbe718d38753851050d2eca73cbb359a</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="Preventative Measures OHS Section" display_value="Preventative Measures OHS Section" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">b3e718938753851050d2eca73cbb3543</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 18:50:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>$mageaa</sys_created_by>
+            <sys_created_on>2022-04-13 17:43:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28a9c9921bf285109fde86acdd4bcbf5</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_hccc_hoc_ohs_investigation_case" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0e7371f82f6764504cbeb1e72799b664</sys_ui_form>
+            <sys_ui_section caption="RW" display_value="RW" name="x_hccc_hoc_ohs_investigation_case" sys_domain="global" view="7db275782f6764504cbeb1e72799b6da">0a48790d2fe3e4504cbeb1e72799b6e0</sys_ui_section>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-02-05 18:50:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_hccc_hoc_ohs_investigation_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>$kutlaria</sys_created_by>
+            <sys_created_on>2021-04-13 19:20:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e7371f82f6764504cbeb1e72799b664</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_hccc_hoc_ohs_investigation_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0e7371f82f6764504cbeb1e72799b664</sys_update_name>
+            <sys_updated_by>azure.Konrad.Kyc@parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2022-06-26 21:34:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Harassment and Violence complaint " name="harassment_violence_complaint">7db275782f6764504cbeb1e72799b6da</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Submit Record Producer (SP)">f522f941876a415050d2eca73cbb358a</copied_from>
+        <description>Submit the Record Producer and confirm submission to server</description>
+        <display_name>Submit Record Producer (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>8</order>
+        <step_config display_value="Submit Record Producer (SP)">7c69d2788743030070870cf888cb0b5f</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 14:47:00</sys_created_on>
+        <sys_id>315ea5ba3b095a18aeb1ebc964e45a5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Record Producer (SP)</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sys_atf_step_315ea5ba3b095a18aeb1ebc964e45a5e</sys_update_name>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 14:47:00</sys_updated_on>
+        <table/>
+        <test display_value="OHS - Safety Complaint Workflow Emp disagree Mgr agrees Commit. Mgr disagrees Commit.">a55e65ba3b095a18aeb1ebc964e45ac1</test>
+        <timeout>1970-01-01 00:00:20</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=315ea5ba3b095a18aeb1ebc964e45a5e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>315ea5ba3b095a18aeb1ebc964e45a5e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-10-08 14:47:00</sys_created_on>
+        <sys_id>795ea5ba3b095a18aeb1ebc964e45a5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-10-08 14:47:00</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="Assert Type">3c2ad2788743030070870cf888cb0b0c</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function($scope, $window, $location, $rootScope) {
+    /* widget controller */
+    var c = this;
+
+
+    var panel = $window.document.getElementsByClassName('panel-footer');
+
+    var link = $window.document.createElement('a');
+
+    link.setAttribute('id', 'hoc_hazard_button');
+    var linkText = $window.document.createTextNode(c.data.buttonLabel + " (" + c.data.hazardCount + ")");
+
+    link.appendChild(linkText);
+    link.classList.add("hira_button", "btn", "btn-primary", "action-btn");
+    if (c.data.hazardCount < 1) {
+        link.href = '?id=hoc_hira_rl_form&table=x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment' +
+            '&sys_id=-1&view=sp&parent=' + c.data.sys_id + '&parent_field=hira_case&query=hira_case=' + c.data.sys_id;
+
+    } else {
+        link.href = '?id=hoc_hira_rl_form&table=x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment&parent=' +
+            c.data.sys_id + '&view=sp&parent_field=hira_case&sys_id=' + c.data.firstHazard;
+
+    }
+
+    // just in case the 'form' widget changes in upgrade
+    if (panel && panel[0]) {
+        panel[0].insertBefore(link, panel[0].firstChild);
+    } else {
+        var div = $window.document.getElementById('fallback-button-location-hoc');
+
+        div.appendChild(link);
+    }
+
+
+    $rootScope.$on('spModel.gForm.env.created', function(event, gFormInstance) {
+        var g_form = gFormInstance;
+        var state = g_form.getValue('state');
+        var button = $window.document.getElementById('hoc_hazard_button');
+
+        if (state == '10' && button) {
+            button.style.display = 'none';
+        } else {
+            button.style.display = 'inline-block';
+        }
+
+    });
+    //if (state == '10') {
+    //console.log('test');
+    //}
+    //});
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.hira_button {
+  width: 100%
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>hoc_hira_hazard_button</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>HIRA Hazard Button</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+    /* global data, $sp, GlideAggregate */
+    /* populate the 'data' object */
+    /* e.g., data.table = $sp.getValue('table'); */
+    data.sys_id = $sp.getParameter('sys_id');
+
+    data.buttonLabel = gs.getMessage('Add/View Hazards');
+
+    var hazardCount = new GlideAggregate('x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment');
+
+    hazardCount.addAggregate('COUNT');
+    hazardCount.addQuery('hira_case', data.sys_id);
+    hazardCount.query();
+    while (hazardCount.next()) {
+        data.hazardCount = hazardCount.getAggregate('COUNT');
+    }
+    var firstHazard = new GlideRecordSecure('x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment');
+
+    firstHazard.addQuery('hira_case', data.sys_id);
+    firstHazard.setLimit(1);
+    firstHazard.query();
+    if (firstHazard.next()) {
+        data.firstHazard = firstHazard.sys_id.toString();
+    } else {
+        data.firstHazard = '-1';
+    }
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-28 15:19:18</sys_created_on>
+        <sys_id>1dbed85b3b021e18aeb1ebc964e45aca</sys_id>
+        <sys_mod_count>63</sys_mod_count>
+        <sys_name>HIRA Hazard Button</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_widget_1dbed85b3b021e18aeb1ebc964e45aca</sys_update_name>
+        <sys_updated_by>azure.guillaume.houde@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-07-04 19:31:17</sys_updated_on>
+        <template><![CDATA[<div id="fallback-button-location-hoc">
+  <!--<a class="hira_button btn btn-primary action-btn" href="?id=hoc_hira_lf&amp;table=x_hccc_hoc_ohs_hazard_investigation_and_risk_assessment&amp;filter=hira_case%3D{{c.data.sys_id}}&amp;view=sp">Add/View Hazards ({{c.data.hazardCount}})</a>-->
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>1dbed85b3b021e18aeb1ebc964e45aca</id>
+        <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2024-11-28 15:19:17</sys_created_on>
+        <sys_id>c4de1c5b3b021e18aeb1ebc964e45a54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>taylor.pullen@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2024-11-28 15:19:17</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

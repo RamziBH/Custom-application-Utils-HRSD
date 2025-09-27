@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="location_controlled_by_employer" label="L'événement s'est-il produit dans un endroit contrôlé par l'employeur?" language="fq" table="x_hccc_hoc_ohs_h_and_v_initial_review">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>location_controlled_by_employer</element>
+            <help/>
+            <hint/>
+            <label>L'événement s'est-il produit dans un endroit contrôlé par l'employeur?</label>
+            <language>fq</language>
+            <name>x_hccc_hoc_ohs_h_and_v_initial_review</name>
+            <plural>Did the occurrence take place in a location controlled by the employer?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>abigael.schonewille@Parlissi.gc.ca</sys_created_by>
+            <sys_created_on>2024-03-06 14:00:09</sys_created_on>
+            <sys_id>00d2bb931bf40a1010e5a7552a4bcbcb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>L'événement s'est-il produit dans un endroit contrôlé par l'employeur?</sys_name>
+            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_update_name>sys_documentation_x_hccc_hoc_ohs_h_and_v_initial_review_location_controlled_by_employer_fq</sys_update_name>
+            <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
+            <sys_updated_on>2024-03-06 14:00:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

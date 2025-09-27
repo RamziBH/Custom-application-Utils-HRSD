@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>hoc_accommodation_confirmation_case - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="hoc_accommodation_confirmation_case">407a2ff0fbe8aad495e5fb3f4eefdcf7</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>sahil.seth@parlissi.gc.ca</sys_created_by>
+        <sys_created_on>2025-03-25 18:21:36</sys_created_on>
+        <sys_id>d78aeff0fbe8aad495e5fb3f4eefdc39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hoc_accommodation_confirmation_case - Container 1</sys_name>
+        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_update_name>sp_container_d78aeff0fbe8aad495e5fb3f4eefdc39</sys_update_name>
+        <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
+        <sys_updated_on>2025-03-25 18:21:36</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
