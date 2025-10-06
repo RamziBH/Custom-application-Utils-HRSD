@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <active>true</active>
         <additional_groupby/>
@@ -107,12 +107,14 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>taylor.pullen@parlissi.gc.ca</sys_created_by>
         <sys_created_on>2024-10-22 13:52:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
         <sys_id>591865db3b1dd2d0aeb1ebc964e45a70</sys_id>
         <sys_mod_count>7</sys_mod_count>
         <sys_name>2024 Vaccination Clinic - Vaccinations by Employee Group</sys_name>
-        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_package display_value="RBH Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_scope display_value="RBH Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_report_591865db3b1dd2d0aeb1ebc964e45a70</sys_update_name>
         <sys_updated_by>abigael.schonewille@Parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2024-11-25 16:13:11</sys_updated_on>

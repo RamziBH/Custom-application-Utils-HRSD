@@ -124,9 +124,9 @@ return JSON.stringify({ error: "user not found"});
         <sys_id>88c722cd3b59eed0aeb1ebc964e45a8a</sys_id>
         <sys_mod_count>53</sys_mod_count>
         <sys_name>HoCDisabilityAccommodation</sys_name>
-        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_package display_value="RBH Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy>read</sys_policy>
-        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_scope display_value="RBH Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>sys_script_include_88c722cd3b59eed0aeb1ebc964e45a8a</sys_update_name>
         <sys_updated_by>sahil.seth@parlissi.gc.ca</sys_updated_by>
         <sys_updated_on>2025-05-09 18:37:34</sys_updated_on>

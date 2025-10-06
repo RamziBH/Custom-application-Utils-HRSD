@@ -53,9 +53,9 @@
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Reminder to OHS after 72 hrs of Committe review</sys_name>
         <sys_overrides/>
-        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_package display_value="RBH Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_scope display_value="RBH Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>wf_workflow_5b575be51bf07010c261ed3cbc4bcbc5</sys_update_name>
         <sys_updated_by>umair.ahmed</sys_updated_by>
         <sys_updated_on>2021-06-17 14:05:13</sys_updated_on>
@@ -614,9 +614,9 @@ answer = true;&#13;
         <sys_id>d757db691bf07010c261ed3cbc4bcb12</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SLA Repair Mode</sys_name>
-        <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+        <sys_package display_value="RBH Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
         <sys_policy/>
-        <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+        <sys_scope display_value="RBH Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
         <sys_update_name>var_dictionary_d757db691bf07010c261ed3cbc4bcb12</sys_update_name>
         <sys_updated_by>umair.ahmed</sys_updated_by>
         <sys_updated_on>2021-06-17 13:50:51</sys_updated_on>
@@ -647,9 +647,9 @@ answer = true;&#13;
             <sys_id>e7571f691bf07010c261ed3cbc4bcb00</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>SLA Repair Mode</sys_name>
-            <sys_package display_value="HoC Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
+            <sys_package display_value="RBH Occupational Health and Safety Management" source="x_hccc_hoc_ohs">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_package>
             <sys_policy/>
-            <sys_scope display_value="HoC Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
+            <sys_scope display_value="RBH Occupational Health and Safety Management">6a9d3c8a2f0f68904cbeb1e72799b67b</sys_scope>
             <sys_update_name>sys_documentation_var__m_var_dictionary_5b575be51bf07010c261ed3cbc4bcbc5_sla_repair_mode_en</sys_update_name>
             <sys_updated_by>umair.ahmed</sys_updated_by>
             <sys_updated_on>2021-06-17 13:50:51</sys_updated_on>
